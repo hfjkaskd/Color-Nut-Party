@@ -19,7 +19,7 @@ namespace NutSort.Validation
         static LocalGameplayNoticePlayValidation(){if(SessionState.GetBool(Key,false)){deadline=EditorApplication.timeSinceStartup+70;EditorApplication.update+=Tick;}}
         public static void Run()
         {
-            OriginalPreferenceFixture.Begin("{\"Level\":4,\"NewGameplayUnlockIndex\":1,\"AddScrewCount\":0}");
+            OriginalPreferenceFixture.Begin("{\"IsCompleteRecordGuide\":true,\"Level\":4,\"NewGameplayUnlockIndex\":1,\"AddScrewCount\":0}");
             EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");SessionState.SetBool(Key,true);EditorApplication.EnterPlaymode();
         }
         private static ScrewOperation Click()

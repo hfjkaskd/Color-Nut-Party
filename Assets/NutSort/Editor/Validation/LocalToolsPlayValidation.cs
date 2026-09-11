@@ -25,8 +25,8 @@ namespace NutSort.Validation
         static LocalToolsPlayValidation(){if(SessionState.GetBool(Key,false)){timeout=EditorApplication.timeSinceStartup+100;EditorApplication.update+=Tick;}}
         public static void Run()
         {
-            // Explicit owned-tool inventory fixture, no production grants/config.
-            OriginalPreferenceFixture.Begin("{\"Level\":4,\"NewGameplayUnlockIndex\":1,\"RevokeCount\":3,\"ExchangeCount\":3,\"AddScrewCount\":3}");
+            // Empty inventory exercises configured local replenishment without ad callbacks.
+            OriginalPreferenceFixture.Begin("{\"IsCompleteRecordGuide\":true,\"Level\":4,\"NewGameplayUnlockIndex\":1,\"RevokeCount\":0,\"ExchangeCount\":0,\"AddScrewCount\":0}");
             EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");
             PlayModeWindow.SetCustomRenderingResolution(480,1040,"Core tools");SessionState.SetBool(Key,true);EditorApplication.EnterPlaymode();
         }
@@ -42,8 +42,9 @@ namespace NutSort.Validation
                 if(startup==null)startup=UnityEngine.Object.FindObjectOfType<OriginalStartupFlow>();
                 if(game==null||startup==null||startup.LocalGameplay==null||game.IsRestarting||game.InputBlocked||!game.IsInitDone)return;
                 local=startup.LocalGameplay;
+                local.BindRewardedToolAds((type,complete)=>complete(true));
                 if(Time.time<waitUntil)return;
-                Check(game.User.ServerConfigData==null&&game.User.GoldRewardTargetS2CData==null,"Tools require no fake server/reward documents");
+                Check(game.User.ServerConfigData==null&&game.User.GoldRewardTargetS2CData!=null,"Tools use captured config without a remote server document");
                 if(phase==0)
                 {
                     Check(local.Bottom.gameObject.activeInHierarchy&&!startup.Replay.ReplayButton.gameObject.activeInHierarchy,"Actual original bottom replaces partial replay control");
@@ -64,8 +65,8 @@ namespace NutSort.Validation
                 if(phase==1)
                 {
                     local.Bottom.GetOtherItem(2).Display.Click.onClick.Invoke();
-                    Check(game.Level.MoveHistoryCount==0&&game.User.RevokeCount==2,"Actual undo Button removes history and consumes owned tool");
-                    Check(local.Bottom.GetOtherItem(2).Display.Value.text=="2","Undo inventory display refreshed");
+                    Check(game.Level.MoveHistoryCount==0&&game.User.RevokeCount==0,"Actual undo Button removes history and consumes owned tool");
+                    Check(local.Bottom.GetOtherItem(2).Display.Value.text==string.Empty,"Undo inventory display refreshed");
                     waitUntil=Time.time+1.4f;phase=2;return;
                 }
                 if(phase==2)
@@ -74,14 +75,14 @@ namespace NutSort.Validation
                     var rod=game.Level.Board.Screws[source];oldSlots=(NutSlot[])rod.Slots.Clone();var top=new List<NutSlot>();rod.GetTopSame(top);int count=0;foreach(var slot in rod.Slots)if(slot.Nut!=null)count++;
                     firstExchangedSlot=count-top.Count;
                     local.Bottom.GetOtherItem(3).Display.Click.onClick.Invoke();
-                    Check(game.IsExchanging&&local.ExchangeMask.gameObject.activeSelf&&game.User.ExchangeCount==3,"Exchange Button enters source mask without spending");
+                    Check(game.IsExchanging&&local.ExchangeMask.gameObject.activeSelf&&game.User.ExchangeCount==1,"Exchange Button enters source mask without spending");
                     waitUntil=Time.time+.4f;phase=3;return;
                 }
                 if(phase==3)
                 {
                     Check(Click(source).Kind==ScrewOperationKind.ExchangeRequested,"Actual world click routes exchange");
-                    Check(game.Level.Board.Screws[source].Slots[0]==oldSlots[firstExchangedSlot]&&game.User.ExchangeCount==2,"Original slot rotation and inventory cost");
-                    Check(local.Bottom.GetOtherItem(3).Display.Value.text=="2"&&game.IsExchanging,"Source remains in mode and refreshes inventory");
+                    Check(game.Level.Board.Screws[source].Slots[0]==oldSlots[firstExchangedSlot]&&game.User.ExchangeCount==0,"Original slot rotation and inventory cost");
+                    Check(local.Bottom.GetOtherItem(3).Display.Value.text==string.Empty&&game.IsExchanging,"Source remains in mode and refreshes inventory");
                     ScreenCapture.CaptureScreenshot("Library/local-tools-exchange-current.png");phase=4;return;
                 }
                 if(phase==4)
@@ -94,15 +95,15 @@ namespace NutSort.Validation
                 {
                     Check(!game.IsExchanging&&!game.ModalInputBlocked,"Delayed cancel returns normal input");
                     local.Bottom.GetOtherItem(4).Display.Click.onClick.Invoke();
-                    Check(!game.Level.Board.Screws[locked].IsLocked&&game.User.AddScrewCount==2&&game.User.CurrentLevelAddScrewCount==4,"Actual add Button unlocks original rod and charges tool");
+                    Check(!game.Level.Board.Screws[locked].IsLocked&&game.User.AddScrewCount==0&&game.User.CurrentLevelAddScrewCount==4,"Actual add Button unlocks original rod and charges tool");
                     var saved=OriginalUserDataJson.Read(PlayerPrefs.GetString(OriginalUserStore.Key),Resources.Load<OriginalUserDefaults>("Configuration/OriginalUserDefaults"));
-                    Check(saved.AddScrewCount==2&&saved.ExchangeCount==2&&saved.RevokeCount==2&&!string.IsNullOrEmpty(saved.LevelInfo),"All three native tool mutations persisted");
+                    Check(saved.AddScrewCount==0&&saved.ExchangeCount==0&&saved.RevokeCount==0&&!string.IsNullOrEmpty(saved.LevelInfo),"All three native tool mutations persisted");
                     waitUntil=Time.time+.4f;phase=6;return;
                 }
                 if(phase==6)
                 {
                     local.Bottom.GetOtherItem(2).Display.Click.onClick.Invoke();
-                    Check(!local.ResultVisible&&!game.ModalInputBlocked&&game.User.RevokeCount==2&&startup.TopCanvas.GetComponentInChildren<OriginalPopTip>()!=null,"Original no-history toast without a modal or tool cost");
+                    Check(!local.ResultVisible&&!game.ModalInputBlocked&&game.User.RevokeCount==0&&startup.TopCanvas.GetComponentInChildren<OriginalPopTip>()!=null,"Original no-history toast without a modal or tool cost");
                     waitUntil=Time.time+.4f;phase=7;return;
                 }
                 if(phase==7)
@@ -114,8 +115,8 @@ namespace NutSort.Validation
                 {
                     Check(!game.ModalInputBlocked&&!local.ResultVisible,"Expired toast leaves normal input");
                     game.User.AddScrewCount=0;local.Bottom.Refresh();local.Bottom.GetOtherItem(4).Display.Click.onClick.Invoke();
-                    Check(local.ResultVisible&&game.User.AddScrewCount==0,"No inventory opens SDK skip notice without grant");
-                    local.DismissButton.onClick.Invoke();waitUntil=Time.time+.05f;phase=13;return;
+                    Check(!local.ResultVisible&&game.User.AddScrewCount==0&&game.User.CurrentLevelAddScrewCount==8,"Empty inventory replenishes and adds another world rod");
+                    waitUntil=Time.time+.05f;phase=13;return;
                 }
                 if(phase==13)
                 {
@@ -137,7 +138,7 @@ namespace NutSort.Validation
                 }
                 if(startup.Replay.Panel!=null)return;
                 Check(!game.ModalInputBlocked&&game.PlayerLevel==4,"Replay continue returns to current board");
-                Debug.Log("NUT_LOCAL_TOOLS_PLAY_PASS actual default original bottom; real ray move and Button undo; reverse animation restores board; exchange Button/world rotation/mask delayed cancel; add Button unlock; inventory display/save; no-history and SDK-skip notices; counted-mask modal guard; native bottom replay popup. No synthetic server documents.");Finish(0);
+                Debug.Log("NUT_LOCAL_TOOLS_PLAY_PASS actual default original bottom; real ray move and Button undo; reverse animation restores board; exchange Button/world rotation/mask delayed cancel; add Button unlock; inventory display/save; no-history feedback and empty-stock replenishment; counted-mask modal guard; native bottom replay popup. No synthetic server documents.");Finish(0);
             }
             catch(Exception e){Debug.LogException(e);Finish(1);}
         }

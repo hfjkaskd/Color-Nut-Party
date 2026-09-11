@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": {
+    "configuration": "NUT_COUNTRY_REWARD_CONFIG_PASS full source equality, encrypted rules parity, ID/IDN selection, BR fallback, session initialization, progression preservation and settlement consumption",
+    "startup": "NUT_LOCAL_WELCOME_PASS fresh startup, delayed native Button, board gate, duplicate click, teaching continuation, persisted relaunch and returning player"
+  },
+  "runtimeResources": {
+    "BR-display-config.json": "a41d52951c7875b1041be17610126eed6ec498ac279bd6d4a79b169149b360ed",
+    "BR-reward-config.json": "5a6ad61a9c10268de8c1c8ab297df6f1c4ad251cf7d72a4b332ef8a5e37e5615",
+    "BR-rules-decoded.json": "98037260a28674a514a02b2880ce55e0b571426502b9930dbc83940d19649607",
+    "ID-display-config.json": "01ae69b4ca07673fdcfb02c99c64e18a7fe67f627b9327c4f52d22c0dc6afcb9",
+    "ID-reward-config.json": "26cbf380117a26e506cf41a7cf8bcd81225d6e0dc7cf55658e0f9dc49c12e80a",
+    "ID-rules-decoded.json": "2911a9d6da7a1bc85d8c98aa1d62a4859d53384ecd98037e87d3fedb91a75f81"
+  },
+  "scope": "Unity 2022.3.62f3 isolated validation project; no live server, payment or device-region SDK validation"
+}

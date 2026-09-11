@@ -1,0 +1,43 @@
+{
+  "package": "com.nut.sort.relax",
+  "version": "1.0.4",
+  "captureDate": "2026-09-09",
+  "method": "Read-only UTF-16 JSON snapshots in original app process; UI actions via ADB. No response replacement.",
+  "responses": [
+    {
+      "file": "reward-config.json",
+      "source": "responses-first.json",
+      "sha256": "8f8dba74cf6e541dfacc1bd2bb92e8ae0413f6084f638a46c2968706c96d2728"
+    },
+    {
+      "file": "level2-settlement.json",
+      "source": "responses-level2-watch.json",
+      "sha256": "193d932c155f9730b713afc2b983ebfc2f2045a939f7e6b562200d6d7c255ae6"
+    },
+    {
+      "file": "initial-cash.json",
+      "source": "responses-level3-initial.json",
+      "sha256": "8678dc4968c6d4911edd2cbc86181bf53fb296f15da0b57d1b155986708810c0"
+    },
+    {
+      "file": "lucky-preview.json",
+      "source": "responses-level3-lucky.json",
+      "sha256": "247253353d6bc8ec1c922e89db3062f2b6209dda60d37a21cd1834f23043b445"
+    },
+    {
+      "file": "lucky-claim.json",
+      "source": "responses-level3-lucky.json",
+      "sha256": "d8608f451a3a701fac32ddafab8a2aa002c6f07aa9129cd7aa353d339c2b59f7"
+    },
+    {
+      "file": "level3-settlement.json",
+      "source": "responses-level3-final.json",
+      "sha256": "105b597a9f9cab4a22459251b77dffeb24d9bd977250abd759c902e31bd30fa9"
+    },
+    {
+      "file": "level3-claim.json",
+      "source": "responses-level3-claimed-final.json",
+      "sha256": "56200f800032b9e166ef0da5c6bedb24d6d6c628d41a86a0bb4e90cf56dd3aea"
+    }
+  ]
+}

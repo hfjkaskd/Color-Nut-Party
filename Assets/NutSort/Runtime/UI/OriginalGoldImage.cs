@@ -9,11 +9,13 @@ namespace NutSort.UI
         [SerializeField] private int goldType;
         [SerializeField] private string resourceFormat;
         private Func<string> country;
+        private Sprite overrideSprite;
+        public void SetOverride(Sprite sprite){overrideSprite=sprite;Apply();}
         public void Bind(Func<string> currentCountry) { country = currentCountry ?? throw new ArgumentNullException(nameof(currentCountry)); }
         private void Start() { Apply(); }
         public void Apply()
         {
-            image.sprite = Resources.Load<Sprite>(string.Format(resourceFormat, OriginalRecordGuidePanel.GoldCode(country()), goldType));
+            image.sprite = overrideSprite!=null?overrideSprite:Resources.Load<Sprite>(string.Format(resourceFormat, OriginalRecordGuidePanel.GoldCode(country()), goldType));
             image.SetNativeSize();
         }
     }

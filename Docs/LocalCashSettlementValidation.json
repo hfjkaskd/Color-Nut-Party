@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": {
+    "countryClaims": "NUT_LOCAL_CASH_REWARD_PASS BR fallback and ID actual last move, visible item/currency, country bands, pending reload, one-time claim, persisted balance and next board",
+    "subrounds": "NUT_LOCAL_SUBROUND_PLAY_PASS actual source boards 9/10/11/12 solved through world rays; intermediate rounds automatically restart without settlement UI, first-transition scene reload preserves flushed progress, last round alone shows native success and real next Button advances once; no reward response/grant fabricated."
+  },
+  "scope": "Actual world moves in Unity Play Mode; local configuration-based settlement, not remote server parity"
+}

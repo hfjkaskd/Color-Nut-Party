@@ -1,0 +1,34 @@
+{
+  "sameUserId": true,
+  "archived": {
+    "Level": 5,
+    "Gold": 568.66,
+    "Coin": 2214.16,
+    "Level1Gold": 0.4,
+    "Level2Gold": 0.6,
+    "NormalGetTimes": 1,
+    "InterAdTimes": 2
+  },
+  "current": {
+    "Level": 4,
+    "Gold": 557.58,
+    "Coin": 0.0,
+    "Level1Gold": 0.4,
+    "Level2Gold": 0.6,
+    "NormalGetTimes": 0,
+    "InterAdTimes": 1
+  },
+  "configDifferentFields": [
+    "GoldRewardTargetS2CData.gap_day_gates"
+  ],
+  "region": {
+    "GoldRewardTargetS2CData": {},
+    "ServerConfigData": {
+      "ksCountry": {
+        "archived": "ID-BR",
+        "current": "ID-BR"
+      }
+    }
+  },
+  "decodedRulesEqual": true
+}

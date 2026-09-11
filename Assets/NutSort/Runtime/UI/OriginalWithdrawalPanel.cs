@@ -53,6 +53,10 @@ namespace NutSort.UI
         private OriginalWithdrawalClaimFlow claims;
         private float elapsed;
         private bool opening;
+        [SerializeField] private string localMarqueePath,localMissingValue,localMissingFeed;
+        private bool localPresentation;
+        private Action localClosed;
+        public bool Closing=>closes.Count>0;
         private struct CloseTrack { public float Elapsed;public Vector3 Start;public bool Started; }
         private readonly List<CloseTrack> closes=new List<CloseTrack>();
         public Button WithdrawalButton=>TXBtn;
@@ -64,7 +68,7 @@ namespace NutSort.UI
         public RectTransform Main=>main;
         public Transform PlayerParent=>PlayerInfoPos;
         public OriginalWithdrawalGoldTween GoldTween=>goldTween;
-        public bool IsDoneTask=>progress.IsDoneTask;
+        public bool IsDoneTask=>localPresentation?Fill>=settings.WithdrawalCompleteThreshold:progress.IsDoneTask;
         public void Bind(OriginalUserLocalData user,OriginalTables tables,string language,Func<float,string> format,IOriginalWithdrawalServices services)
         {
             this.user=user;this.tables=tables;this.language=language;this.services=services;
@@ -89,6 +93,31 @@ namespace NutSort.UI
             },()=>{TXBtn.onClick.RemoveAllListeners();TXBtn.onClick.AddListener(ClickWithdrawal);},
               ()=>{Close.onClick.RemoveAllListeners();Close.onClick.AddListener(ClickClose);});
         }
+        // Same prefab presentation, backed by the local balance and requirements.
+        public void InitLocal(OriginalTables tables,string language,string country,Sprite icon,
+            string amount,string title,string tip,string progressText,string progressHint,float fill,
+            Func<bool> canClick,Action claim,Action closed,Action<string> playSound)
+        {
+            this.tables=tables;this.language=language;localPresentation=true;localClosed=closed;
+            goldImage.Bind(()=>country);
+            if(icon!=null)goldImage.SetOverride(icon);
+            main.localScale=Vector3.zero;elapsed=0;opening=true;
+            backdrop.color=new Color(0,0,0,settings.BackdropAlpha);
+            foreach(var label in labels)label.Text.text=Text(label.Id);
+            var player=Instantiate(playerInfoPrefab,PlayerInfoPos,false);
+            player.InitUnavailable(tables,language,localMissingValue);
+            var marquee=Instantiate(Resources.Load<GameObject>(localMarqueePath),player.MarqueeParent,false).GetComponent<OriginalSimpleMarquee>();
+            marquee.InitUnavailable(localMissingFeed);
+            GoldCount.text=amount;Title.text=title;Tip.text=tip;
+            ProgressValue.text=progressText;Progress.fillAmount=Mathf.Clamp01(fill);
+            SetMarkerX(Mathf.Clamp01(fill)*settings.WithdrawalProgressTravel+settings.WithdrawalProgressOffset);
+            ProgressTipValue.text=progressHint;
+            TXText.text=Text(1);
+            Level1.SetActive(false);Level2.SetActive(false);
+            TXBtn.onClick.RemoveAllListeners();TXBtn.onClick.AddListener(()=>{if(!canClick()||Closing)return;claim();playSound(settings.ClickSound);});
+            Close.onClick.RemoveAllListeners();Close.onClick.AddListener(()=>{if(!canClick()||Closing)return;ClosePanel();playSound(settings.ClickSound);});
+        }
+        public void SetLocalNotice(string text){Tip.text=text;}
         public void Refresh()=>refresh.Refresh(arguments);
         public void GetCallback()=>claims.Run(lifecycle.Level,arguments,progress.IsDoneTask,pending.IsShowTargetHint);
         private void ClickWithdrawal(){if(!services.CanClick)return;GetCallback();services.PlaySound(settings.ClickSound);}
@@ -102,14 +131,14 @@ namespace NutSort.UI
             if(opening)
             {
                 elapsed+=delta;main.localScale=Vector3.one*settings.PanelOpenCurve.Evaluate(Mathf.Clamp01(elapsed/settings.PanelDurationTime));
-                if(elapsed>=settings.PanelDurationTime){opening=false;lifecycle.TweenEnd();}
+                if(elapsed>=settings.PanelDurationTime){opening=false;if(!localPresentation)lifecycle.TweenEnd();}
             }
             for(int i=0;i<closes.Count;)
             {
                 var track=closes[i];if(!track.Started){track.Started=true;track.Start=main.localScale;}
                 track.Elapsed+=delta;float t=Mathf.Clamp01(track.Elapsed/settings.CloseDuration);
                 main.localScale=Vector3.LerpUnclamped(track.Start,Vector3.zero,t*t*((settings.BackOvershoot+1)*t-settings.BackOvershoot));
-                if(t>=1){closes.RemoveAt(i);services.Closed();}else{closes[i]=track;i++;}
+                if(t>=1){closes.RemoveAt(i);if(localPresentation)localClosed();else services.Closed();}else{closes[i]=track;i++;}
             }
         }
         public float Fill{get=>Progress.fillAmount;set=>Progress.fillAmount=value;}

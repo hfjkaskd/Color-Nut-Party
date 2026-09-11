@@ -23,6 +23,7 @@ namespace NutSort.Validation
         {
             var board=new OriginalBoardState(new LevelData{B=new[]{Rod(1),Rod(1,1,1)}},Resources.Load<OriginalLayoutSettings>("Configuration/OriginalLayout"));
             var user=new OriginalUserLocalData(Resources.Load<OriginalUserDefaults>("Configuration/OriginalUserDefaults")){Level=4,NewGameplayUnlockIndex=1,LevelInfo=OriginalBoardSnapshotJson.Write(OriginalBoardSnapshot.Capture(board,new List<OriginalMoveRecord>()))};
+            user.IsCompleteRecordGuide=true;
             OriginalPreferenceFixture.Begin(OriginalUserDataJson.Write(user));EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");SessionState.SetBool(Key,true);EditorApplication.EnterPlaymode();
         }
         private static ScrewData Rod(params int[] colors)
@@ -55,8 +56,8 @@ namespace NutSort.Validation
                 }
                 if(!game.IsInitDone)return;
                 Check(game.PlayerLevel==5&&game.User.LevelSeed==0&&game.User.TodayPassLevelCount==1&&!game.ModalInputBlocked&&!local.AwaitingNext&&local.SuccessPanel==null,"Reload during native close resumes next board once without a stale modal or second settlement");
-                Check(game.User.Gold==0&&game.User.Coin==0&&game.User.GoldRewardTargetS2CData==null,"No reward state generated");
-                Debug.Log("NUT_LOCAL_SUCCESS_EXIT_PLAY_PASS default actual last move, native success closing with deferred next board, scene reload before close callback, single level/pass-count checkpoint and normal next-board input; explicit board fixture, no reward data.");Finish(0);
+                Check(game.User.Gold>0&&game.User.Coin==0&&game.User.LocalPendingReward==null,"Claim persists without duplicate reward");
+                Debug.Log("NUT_LOCAL_SUCCESS_EXIT_PLAY_PASS default actual last move, native success closing with deferred next board, scene reload before close callback, single level/pass-count checkpoint and normal next-board input; explicit board fixture, local claim persisted once.");Finish(0);
             }
             catch(Exception e){Debug.LogException(e);Finish(1);}
         }

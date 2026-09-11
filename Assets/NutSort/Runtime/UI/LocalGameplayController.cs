@@ -8,8 +8,7 @@ using UnityEngine.UI;
 
 namespace NutSort.UI
 {
-    // Explicit user-authorized offline progression. No fabricated server response
-    // or reward document; the original selector, world rules and success timing remain.
+    // Offline progression and local settlement using captured country configuration.
     public sealed partial class LocalGameplayController : MonoBehaviour
     {
         [SerializeField] private TMP_Text modeLabel, message;
@@ -38,6 +37,7 @@ namespace NutSort.UI
             dismiss.onClick.AddListener(Dismiss);
             BindTools();
             BindCoreInitialization();
+            BindRewardsTop();
             game.BoardReady+=OnBoardReady;
             // The native initialization continuation needs unavailable reward-stage
             // documents. Local mode finishes only once the real world is ready.
@@ -74,14 +74,19 @@ namespace NutSort.UI
             SetExchange(false,0);
             bottom.Refresh();
             RefreshLevel();
-            RefreshTeaching();
-            BeginCoreInitialization();
+            if(game.User.LocalPendingReward!=null)
+            {
+                awaitingNext=true;game.IsInitDone=false;game.ModalInputBlocked=true;
+                ShowLocalSuccess();return;
+            }
+            BeginWelcomeOrTeaching();
             game.SaveUserData();
         }
         private void RefreshLevel()
         {
             startup.MainLevel.Refresh(game.Tables,game.PlayerLevel,language,false,false);
             RefreshSubrounds();
+            RefreshRewardsTop();
         }
         private void ClearGuide()
         {
@@ -107,6 +112,8 @@ namespace NutSort.UI
             game.User.Level=checked(game.User.Level+1);
             game.User.LevelSeed=0;
             game.User.TodayPassLevelCount=checked(game.User.TodayPassLevelCount+1);
+            if(completedLevel.SubTotalRound<=completedLevel.SubRound)
+                LocalCashSettlement.Prepare(game.User,audio.UserState.Rewards,UnityEngine.Random.Range);
             PersistPendingBoard();
             // Success response 0xA00684 skips settlement presentation for an
             // intermediate subround and calls InitLevel(true,false,false).
@@ -162,6 +169,14 @@ namespace NutSort.UI
         }
         private void OnDestroy()
         {
+            if(audio!=null&&audio.UserState!=null)audio.UserState.RewardConfigurationChanged-=RefreshRewardsTop;
+            if(rewardsTop!=null)Destroy(rewardsTop.gameObject);
+            if(withdrawalAccount!=null)Destroy(withdrawalAccount.gameObject);
+            if(withdrawalConfirmation!=null)Destroy(withdrawalConfirmation.gameObject);
+            if(toolOffer!=null)Destroy(toolOffer.gameObject);
+            if(withdrawalPanel!=null)Destroy(withdrawalPanel.gameObject);
+            if(diamondWithdrawalPanel!=null)Destroy(diamondWithdrawalPanel.gameObject);
+            if(recordGuide!=null)Destroy(recordGuide.gameObject);
             if (game!=null) { game.BoardReady-=OnBoardReady;game.OperationApplied-=RefreshToolsAfterOperation; }
             if(startup!=null&&startup.Replay!=null)startup.Replay.BindModalBlocker(null);
             dismiss.onClick.RemoveListener(Dismiss);

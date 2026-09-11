@@ -18,6 +18,7 @@ namespace NutSort.UI
         [SerializeField] private Sprite[] backgrounds;
         [SerializeField] private Sprite pendingDot, passedDot;
         [SerializeField] private float blinkDuration = 1, blinkAlpha = .5f;
+        [SerializeField] private bool showDuringLocalProgress;
         private OriginalUserLocalData user;
         private OriginalTables tables;
         private OriginalRewardProgress reward;
@@ -47,7 +48,7 @@ namespace NutSort.UI
         public void RefreshLevels()
         {
             var row=OriginalRewardProgressData.Read(user.GoldRewardTargetS2CData);
-            if(user.Level<2 || user.Level>row.Stage2RealLevel || reward.IsGuidePassStage2Level())
+            if(user.Level>row.Stage2RealLevel || (!showDuringLocalProgress&&(user.Level<2 || reward.IsGuidePassStage2Level())))
             { gameObject.SetActive(false); return; }
             gameObject.SetActive(true);
             if(user.Level>row.RealLevel)

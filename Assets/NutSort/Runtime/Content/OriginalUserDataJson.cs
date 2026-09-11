@@ -65,6 +65,7 @@ namespace NutSort.Content
                         case "LOGINTIME": data.LoginTime=(long)value;break;
                         case "USERLSSINFO": data.UserLssInfo=Document(value);break;
                         case "GOLDREWARDTARGETS2CDATA": data.GoldRewardTargetS2CData=Document(value);break;
+                        case "LOCALPENDINGREWARD": data.LocalPendingReward=Document(value);break;
                         case "SCREWDONECOUNT": data.ScrewDoneCount=(int)value;break;
                         case "SCREWMOVECOUNT": data.ScrewMoveCount=(int)value;break;
                         case "LUCKYDRAWSCREWDONETIMES": data.LuckyDrawScrewDoneTimes=(int)value;break;
@@ -142,6 +143,7 @@ namespace NutSort.Content
             root["UserLssInfo"]=data.UserLssInfo==null?JValue.CreateNull():data.UserLssInfo.DeepClone();
             root["ServerConfigData"]=data.ServerConfigData==null?JValue.CreateNull():data.ServerConfigData.DeepClone();
             root["GoldRewardTargetS2CData"]=data.GoldRewardTargetS2CData==null?JValue.CreateNull():data.GoldRewardTargetS2CData.DeepClone();
+            root["LocalPendingReward"]=data.LocalPendingReward==null?JValue.CreateNull():data.LocalPendingReward.DeepClone();
             root["ScrewDoneCount"]=data.ScrewDoneCount;
             root["ScrewMoveCount"]=data.ScrewMoveCount;
             root["LuckyDrawScrewDoneTimes"]=data.LuckyDrawScrewDoneTimes;

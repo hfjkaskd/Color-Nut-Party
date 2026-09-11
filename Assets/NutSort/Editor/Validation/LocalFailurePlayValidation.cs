@@ -26,6 +26,7 @@ namespace NutSort.Validation
         {
             var board=new OriginalBoardState(new LevelData{B=new[]{Rod(1,2,3,4),Rod(4,3,2,1),Rod()}},Resources.Load<OriginalLayoutSettings>("Configuration/OriginalLayout"));
             var user=new OriginalUserLocalData(Resources.Load<OriginalUserDefaults>("Configuration/OriginalUserDefaults")){Level=4,NewGameplayUnlockIndex=1,LevelInfo=OriginalBoardSnapshotJson.Write(OriginalBoardSnapshot.Capture(board,new List<OriginalMoveRecord>()))};
+            user.IsCompleteRecordGuide=true;
             OriginalPreferenceFixture.Begin(OriginalUserDataJson.Write(user));EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");
             PlayModeWindow.SetCustomRenderingResolution(480,1040,"Native local failure");SessionState.SetBool(Key,true);EditorApplication.EnterPlaymode();
         }
@@ -44,7 +45,7 @@ namespace NutSort.Validation
                 if(audio==null){audio=UnityEngine.Object.FindObjectOfType<OriginalAudioPlayer>();if(audio!=null)audio.SoundStarted+=Sound;}
                 if(game==null||startup==null||startup.LocalGameplay==null||game.IsRestarting||game.InputBlocked||!game.IsInitDone)return;
                 var local=startup.LocalGameplay;
-                Check(game.User.ServerConfigData==null&&game.User.GoldRewardTargetS2CData==null&&game.User.Gold==0&&game.User.Coin==0,"No fabricated reward/server state");
+                Check(game.User.ServerConfigData==null&&game.User.GoldRewardTargetS2CData!=null&&game.User.Gold==0&&game.User.Coin==0,"Captured config loaded without a grant or remote server state");
                 if(Time.time<waitUntil)return;
                 if(phase==0){waitUntil=Time.time+1.5f;phase=1;return;}
                 if(phase==1)

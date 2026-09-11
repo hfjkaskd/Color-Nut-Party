@@ -1,0 +1,2558 @@
+{
+  "totals": {
+    "successful": 242,
+    "BR": 100,
+    "ID": 142,
+    "nonzero": 230
+  },
+  "v3FrozenHoldout": {
+    "covered": 29,
+    "total": 30
+  },
+  "v4NewValidation": {
+    "covered": 8,
+    "total": 8
+  },
+  "v4AllSamples": {
+    "covered": 230,
+    "total": 230
+  },
+  "limitations": [
+    "Coverage tests interval support, not distribution equality",
+    "Boundary locations and ID endpoints inferred; no server source code",
+    "Uniform sampling and rounding are local modeling choices",
+    "Two accounts per country; no proof of all user/attribution cohorts"
+  ],
+  "rows": [
+    {
+      "file": "new-BR-1-balance-0-6.json",
+      "country": "BR",
+      "balance": 0.0,
+      "returned": 80.64,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-BR-1-balance-25000-7.json",
+      "country": "BR",
+      "balance": 25000.0,
+      "returned": 80.12,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-BR-1-balance-30000-9.json",
+      "country": "BR",
+      "balance": 30000.0,
+      "returned": 108.4,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-BR-1-balance-40000-10.json",
+      "country": "BR",
+      "balance": 40000.0,
+      "returned": 24.0,
+      "interval": [
+        16.0,
+        24.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-BR-1-balance-45000-11.json",
+      "country": "BR",
+      "balance": 45000.0,
+      "returned": 3.77,
+      "interval": [
+        3.2,
+        4.8
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-BR-1-balance-47500-12.json",
+      "country": "BR",
+      "balance": 47500.0,
+      "returned": 1.33,
+      "interval": [
+        1.2000000000000002,
+        1.7999999999999998
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-BR-1-balance-49000-8.json",
+      "country": "BR",
+      "balance": 49000.0,
+      "returned": 1.16,
+      "interval": [
+        0.8,
+        1.2
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-BR-1-balance-49900-13.json",
+      "country": "BR",
+      "balance": 49900.0,
+      "returned": 1.04,
+      "interval": [
+        0.8,
+        1.2
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-BR-1-preview-4.json",
+      "country": "BR",
+      "balance": 0.0,
+      "returned": 107.93,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-BR-1-preview-5.json",
+      "country": "BR",
+      "balance": 0.0,
+      "returned": 115.63,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-ID-1-balance-0-6.json",
+      "country": "ID",
+      "balance": 0.0,
+      "returned": 12963.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-ID-1-balance-5000000-7.json",
+      "country": "ID",
+      "balance": 5000000.0,
+      "returned": 16067.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-ID-1-balance-6000000-9.json",
+      "country": "ID",
+      "balance": 6000000.0,
+      "returned": 17249.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-ID-1-balance-8000000-10.json",
+      "country": "ID",
+      "balance": 8000000.0,
+      "returned": 6446.0,
+      "interval": [
+        4500,
+        7000
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-ID-1-balance-9000000-11.json",
+      "country": "ID",
+      "balance": 9000000.0,
+      "returned": 2977.0,
+      "interval": [
+        2500,
+        3000
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-ID-1-balance-9500000-12.json",
+      "country": "ID",
+      "balance": 9500000.0,
+      "returned": 727.0,
+      "interval": [
+        700,
+        1100
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-ID-1-balance-9800000-8.json",
+      "country": "ID",
+      "balance": 9800000.0,
+      "returned": 372.0,
+      "interval": [
+        200,
+        450
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-ID-1-balance-9990000-13.json",
+      "country": "ID",
+      "balance": 9990000.0,
+      "returned": 57.0,
+      "interval": [
+        40,
+        60
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-ID-1-preview-4.json",
+      "country": "ID",
+      "balance": 0.0,
+      "returned": 14932.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "new-ID-1-preview-5.json",
+      "country": "ID",
+      "balance": 0.0,
+      "returned": 13429.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-0.json",
+      "country": "BR",
+      "balance": 32999.0,
+      "returned": 66.11,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-1.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 94.62,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-10.json",
+      "country": "BR",
+      "balance": 42999.0,
+      "returned": 8.25,
+      "interval": [
+        8.0,
+        12.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-11.json",
+      "country": "BR",
+      "balance": 43000.0,
+      "returned": 8.35,
+      "interval": [
+        6.4,
+        9.6
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-12.json",
+      "country": "BR",
+      "balance": 44999.0,
+      "returned": 6.81,
+      "interval": [
+        4.800000000000001,
+        7.199999999999999
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-13.json",
+      "country": "BR",
+      "balance": 45000.0,
+      "returned": 3.98,
+      "interval": [
+        3.2,
+        4.8
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-14.json",
+      "country": "BR",
+      "balance": 46999.0,
+      "returned": 2.06,
+      "interval": [
+        1.6,
+        2.4
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-15.json",
+      "country": "BR",
+      "balance": 47000.0,
+      "returned": 1.66,
+      "interval": [
+        1.2000000000000002,
+        1.7999999999999998
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-16.json",
+      "country": "BR",
+      "balance": 47999.0,
+      "returned": 1.25,
+      "interval": [
+        1.2000000000000002,
+        1.7999999999999998
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-17.json",
+      "country": "BR",
+      "balance": 48000.0,
+      "returned": 0.98,
+      "interval": [
+        0.8,
+        1.2
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-2.json",
+      "country": "BR",
+      "balance": 34999.0,
+      "returned": 66.84,
+      "interval": [
+        48.0,
+        72.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-3.json",
+      "country": "BR",
+      "balance": 35000.0,
+      "returned": 67.0,
+      "interval": [
+        48.0,
+        72.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-4.json",
+      "country": "BR",
+      "balance": 36999.0,
+      "returned": 32.79,
+      "interval": [
+        32.0,
+        48.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-5.json",
+      "country": "BR",
+      "balance": 37000.0,
+      "returned": 36.12,
+      "interval": [
+        32.0,
+        48.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-6.json",
+      "country": "BR",
+      "balance": 38999.0,
+      "returned": 26.39,
+      "interval": [
+        24.0,
+        36.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-7.json",
+      "country": "BR",
+      "balance": 39000.0,
+      "returned": 33.97,
+      "interval": [
+        24.0,
+        36.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-8.json",
+      "country": "BR",
+      "balance": 40999.0,
+      "returned": 17.82,
+      "interval": [
+        16.0,
+        24.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-BR-9.json",
+      "country": "BR",
+      "balance": 41000.0,
+      "returned": 19.69,
+      "interval": [
+        16.0,
+        24.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-0.json",
+      "country": "ID",
+      "balance": 6299999.0,
+      "returned": 13340.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-1.json",
+      "country": "ID",
+      "balance": 6300000.0,
+      "returned": 16060.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-10.json",
+      "country": "ID",
+      "balance": 8799999.0,
+      "returned": 3256.0,
+      "interval": [
+        2000,
+        4500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-11.json",
+      "country": "ID",
+      "balance": 8800000.0,
+      "returned": 3342.0,
+      "interval": [
+        2000,
+        4500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-12.json",
+      "country": "ID",
+      "balance": 9299999.0,
+      "returned": 1639.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-13.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1465.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-14.json",
+      "country": "ID",
+      "balance": 9599999.0,
+      "returned": 1014.0,
+      "interval": [
+        700,
+        1100
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-15.json",
+      "country": "ID",
+      "balance": 9600000.0,
+      "returned": 541.0,
+      "interval": [
+        350,
+        700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-16.json",
+      "country": "ID",
+      "balance": 9799999.0,
+      "returned": 403.0,
+      "interval": [
+        350,
+        450
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-17.json",
+      "country": "ID",
+      "balance": 9800000.0,
+      "returned": 331.0,
+      "interval": [
+        200,
+        450
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-18.json",
+      "country": "ID",
+      "balance": 9899999.0,
+      "returned": 251.0,
+      "interval": [
+        200,
+        300
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-19.json",
+      "country": "ID",
+      "balance": 9900000.0,
+      "returned": 87.0,
+      "interval": [
+        80,
+        120
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-2.json",
+      "country": "ID",
+      "balance": 6799999.0,
+      "returned": 11627.0,
+      "interval": [
+        9000,
+        14000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-20.json",
+      "country": "ID",
+      "balance": 9949999.0,
+      "returned": 115.0,
+      "interval": [
+        80,
+        120
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-21.json",
+      "country": "ID",
+      "balance": 9950000.0,
+      "returned": 59.0,
+      "interval": [
+        40,
+        60
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-3.json",
+      "country": "ID",
+      "balance": 6800000.0,
+      "returned": 10332.0,
+      "interval": [
+        9000,
+        14000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-4.json",
+      "country": "ID",
+      "balance": 7299999.0,
+      "returned": 11843.0,
+      "interval": [
+        9000,
+        14000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-5.json",
+      "country": "ID",
+      "balance": 7300000.0,
+      "returned": 12772.0,
+      "interval": [
+        9000,
+        14000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-6.json",
+      "country": "ID",
+      "balance": 7799999.0,
+      "returned": 8760.0,
+      "interval": [
+        6000,
+        9000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-7.json",
+      "country": "ID",
+      "balance": 7800000.0,
+      "returned": 6789.0,
+      "interval": [
+        6000,
+        9000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-8.json",
+      "country": "ID",
+      "balance": 8299999.0,
+      "returned": 5739.0,
+      "interval": [
+        4500,
+        7000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-boundary-ID-9.json",
+      "country": "ID",
+      "balance": 8300000.0,
+      "returned": 5249.0,
+      "interval": [
+        4500,
+        7000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-0.json",
+      "country": "BR",
+      "balance": 30999.0,
+      "returned": 85.57,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-1.json",
+      "country": "BR",
+      "balance": 31000.0,
+      "returned": 99.33,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-10.json",
+      "country": "BR",
+      "balance": 39999.0,
+      "returned": 28.31,
+      "interval": [
+        24.0,
+        36.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-11.json",
+      "country": "BR",
+      "balance": 40000.0,
+      "returned": 21.02,
+      "interval": [
+        16.0,
+        24.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-12.json",
+      "country": "BR",
+      "balance": 41999.0,
+      "returned": 21.68,
+      "interval": [
+        16.0,
+        24.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-13.json",
+      "country": "BR",
+      "balance": 42000.0,
+      "returned": 10.62,
+      "interval": [
+        8.0,
+        12.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-14.json",
+      "country": "BR",
+      "balance": 43999.0,
+      "returned": 7.66,
+      "interval": [
+        6.4,
+        9.6
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-15.json",
+      "country": "BR",
+      "balance": 44000.0,
+      "returned": 5.38,
+      "interval": [
+        4.800000000000001,
+        7.199999999999999
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-16.json",
+      "country": "BR",
+      "balance": 45999.0,
+      "returned": 4.28,
+      "interval": [
+        3.2,
+        4.8
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-17.json",
+      "country": "BR",
+      "balance": 46000.0,
+      "returned": 1.87,
+      "interval": [
+        1.6,
+        2.4
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-18.json",
+      "country": "BR",
+      "balance": 47499.0,
+      "returned": 1.75,
+      "interval": [
+        1.2000000000000002,
+        1.7999999999999998
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-19.json",
+      "country": "BR",
+      "balance": 47500.0,
+      "returned": 1.46,
+      "interval": [
+        1.2000000000000002,
+        1.7999999999999998
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-2.json",
+      "country": "BR",
+      "balance": 31999.0,
+      "returned": 89.94,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-3.json",
+      "country": "BR",
+      "balance": 32000.0,
+      "returned": 86.16,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-4.json",
+      "country": "BR",
+      "balance": 33999.0,
+      "returned": 81.36,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-5.json",
+      "country": "BR",
+      "balance": 34000.0,
+      "returned": 49.62,
+      "interval": [
+        48.0,
+        72.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-6.json",
+      "country": "BR",
+      "balance": 35999.0,
+      "returned": 50.57,
+      "interval": [
+        48.0,
+        72.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-7.json",
+      "country": "BR",
+      "balance": 36000.0,
+      "returned": 47.96,
+      "interval": [
+        32.0,
+        48.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-8.json",
+      "country": "BR",
+      "balance": 37999.0,
+      "returned": 47.8,
+      "interval": [
+        32.0,
+        48.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-BR-9.json",
+      "country": "BR",
+      "balance": 38000.0,
+      "returned": 25.77,
+      "interval": [
+        24.0,
+        36.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-0.json",
+      "country": "ID",
+      "balance": 6499999.0,
+      "returned": 16395.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-1.json",
+      "country": "ID",
+      "balance": 6500000.0,
+      "returned": 10770.0,
+      "interval": [
+        9000,
+        14000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-10.json",
+      "country": "ID",
+      "balance": 9199999.0,
+      "returned": 2192.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-11.json",
+      "country": "ID",
+      "balance": 9200000.0,
+      "returned": 1972.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-12.json",
+      "country": "ID",
+      "balance": 9399999.0,
+      "returned": 1638.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-13.json",
+      "country": "ID",
+      "balance": 9400000.0,
+      "returned": 1228.0,
+      "interval": [
+        800,
+        1300
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-14.json",
+      "country": "ID",
+      "balance": 9599999.0,
+      "returned": 735.0,
+      "interval": [
+        700,
+        1100
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-15.json",
+      "country": "ID",
+      "balance": 9600000.0,
+      "returned": 652.0,
+      "interval": [
+        350,
+        700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-16.json",
+      "country": "ID",
+      "balance": 9699999.0,
+      "returned": 700.0,
+      "interval": [
+        350,
+        700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-17.json",
+      "country": "ID",
+      "balance": 9700000.0,
+      "returned": 694.0,
+      "interval": [
+        350,
+        700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-18.json",
+      "country": "ID",
+      "balance": 9799999.0,
+      "returned": 399.0,
+      "interval": [
+        350,
+        450
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-19.json",
+      "country": "ID",
+      "balance": 9800000.0,
+      "returned": 419.0,
+      "interval": [
+        200,
+        450
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-2.json",
+      "country": "ID",
+      "balance": 7399999.0,
+      "returned": 9725.0,
+      "interval": [
+        9000,
+        14000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-20.json",
+      "country": "ID",
+      "balance": 9899999.0,
+      "returned": 201.0,
+      "interval": [
+        200,
+        300
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-21.json",
+      "country": "ID",
+      "balance": 9900000.0,
+      "returned": 92.0,
+      "interval": [
+        80,
+        120
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-22.json",
+      "country": "ID",
+      "balance": 9949999.0,
+      "returned": 117.0,
+      "interval": [
+        80,
+        120
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-23.json",
+      "country": "ID",
+      "balance": 9950000.0,
+      "returned": 56.0,
+      "interval": [
+        40,
+        60
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-3.json",
+      "country": "ID",
+      "balance": 7400000.0,
+      "returned": 8015.0,
+      "interval": [
+        7500,
+        11000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-4.json",
+      "country": "ID",
+      "balance": 7799999.0,
+      "returned": 6322.0,
+      "interval": [
+        6000,
+        9000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-5.json",
+      "country": "ID",
+      "balance": 7800000.0,
+      "returned": 8347.0,
+      "interval": [
+        6000,
+        9000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-6.json",
+      "country": "ID",
+      "balance": 8299999.0,
+      "returned": 5577.0,
+      "interval": [
+        4500,
+        7000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-7.json",
+      "country": "ID",
+      "balance": 8300000.0,
+      "returned": 5725.0,
+      "interval": [
+        4500,
+        7000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-8.json",
+      "country": "ID",
+      "balance": 8699999.0,
+      "returned": 3653.0,
+      "interval": [
+        2000,
+        4500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-exact-ID-9.json",
+      "country": "ID",
+      "balance": 8700000.0,
+      "returned": 3929.0,
+      "interval": [
+        2000,
+        4500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-0.json",
+      "country": "BR",
+      "balance": 0.0,
+      "returned": 97.38,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-1.json",
+      "country": "BR",
+      "balance": 45000.0,
+      "returned": 3.86,
+      "interval": [
+        3.2,
+        4.8
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-10.json",
+      "country": "BR",
+      "balance": 35000.0,
+      "returned": 63.06,
+      "interval": [
+        48.0,
+        72.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-11.json",
+      "country": "BR",
+      "balance": 42500.0,
+      "returned": 8.61,
+      "interval": [
+        8.0,
+        12.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-12.json",
+      "country": "BR",
+      "balance": 49500.0,
+      "returned": 0.96,
+      "interval": [
+        0.8,
+        1.2
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-13.json",
+      "country": "BR",
+      "balance": 50000.0,
+      "returned": 0.82,
+      "interval": [
+        0.8,
+        1.2
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-14.json",
+      "country": "BR",
+      "balance": 50500.0,
+      "returned": 0.92,
+      "interval": [
+        0.8,
+        1.2
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-2.json",
+      "country": "BR",
+      "balance": 30000.0,
+      "returned": 93.05,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-3.json",
+      "country": "BR",
+      "balance": 49000.0,
+      "returned": 1.04,
+      "interval": [
+        0.8,
+        1.2
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-4.json",
+      "country": "BR",
+      "balance": 37500.0,
+      "returned": 47.37,
+      "interval": [
+        32.0,
+        48.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-5.json",
+      "country": "BR",
+      "balance": 49950.0,
+      "returned": 0.94,
+      "interval": [
+        0.8,
+        1.2
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-6.json",
+      "country": "BR",
+      "balance": 40000.0,
+      "returned": 19.32,
+      "interval": [
+        16.0,
+        24.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-7.json",
+      "country": "BR",
+      "balance": 32500.0,
+      "returned": 90.15,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-8.json",
+      "country": "BR",
+      "balance": 47500.0,
+      "returned": 1.62,
+      "interval": [
+        1.2000000000000002,
+        1.7999999999999998
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-BR-9.json",
+      "country": "BR",
+      "balance": 0.0,
+      "returned": 104.79,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-0.json",
+      "country": "ID",
+      "balance": 0.0,
+      "returned": 13965.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-1.json",
+      "country": "ID",
+      "balance": 9000000.0,
+      "returned": 2773.0,
+      "interval": [
+        2500,
+        3000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-10.json",
+      "country": "ID",
+      "balance": 7000000.0,
+      "returned": 10241.0,
+      "interval": [
+        9000,
+        14000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-11.json",
+      "country": "ID",
+      "balance": 8500000.0,
+      "returned": 4374.0,
+      "interval": [
+        2000,
+        4500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-12.json",
+      "country": "ID",
+      "balance": 9900000.0,
+      "returned": 83.0,
+      "interval": [
+        80,
+        120
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-13.json",
+      "country": "ID",
+      "balance": 10000000.0,
+      "returned": 50.0,
+      "interval": [
+        40,
+        60
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-14.json",
+      "country": "ID",
+      "balance": 10100000.0,
+      "returned": 55.0,
+      "interval": [
+        40,
+        60
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-2.json",
+      "country": "ID",
+      "balance": 6000000.0,
+      "returned": 12127.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-3.json",
+      "country": "ID",
+      "balance": 9800000.0,
+      "returned": 351.0,
+      "interval": [
+        200,
+        450
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-4.json",
+      "country": "ID",
+      "balance": 7500000.0,
+      "returned": 10688.0,
+      "interval": [
+        7500,
+        11000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-5.json",
+      "country": "ID",
+      "balance": 9990000.0,
+      "returned": 45.0,
+      "interval": [
+        40,
+        60
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-6.json",
+      "country": "ID",
+      "balance": 8000000.0,
+      "returned": 6012.0,
+      "interval": [
+        4500,
+        7000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-7.json",
+      "country": "ID",
+      "balance": 6500000.0,
+      "returned": 13018.0,
+      "interval": [
+        9000,
+        14000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-8.json",
+      "country": "ID",
+      "balance": 9500000.0,
+      "returned": 912.0,
+      "interval": [
+        700,
+        1100
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-grid-ID-9.json",
+      "country": "ID",
+      "balance": 0.0,
+      "returned": 15569.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-user2-BR-3.json",
+      "country": "BR",
+      "balance": 0.0,
+      "returned": 97.45,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-user2-BR-4.json",
+      "country": "BR",
+      "balance": 0.0,
+      "returned": 115.22,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-user2-BR-5.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 90.93,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-user2-BR-6.json",
+      "country": "BR",
+      "balance": 45000.0,
+      "returned": 4.36,
+      "interval": [
+        3.2,
+        4.8
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-user2-BR-7.json",
+      "country": "BR",
+      "balance": 49000.0,
+      "returned": 1.02,
+      "interval": [
+        0.8,
+        1.2
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-user2-BR-8.json",
+      "country": "BR",
+      "balance": 0.0,
+      "returned": 81.18,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-user2-ID-3.json",
+      "country": "ID",
+      "balance": 0.0,
+      "returned": 15352.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-user2-ID-4.json",
+      "country": "ID",
+      "balance": 0.0,
+      "returned": 16314.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-user2-ID-5.json",
+      "country": "ID",
+      "balance": 6500000.0,
+      "returned": 10494.0,
+      "interval": [
+        9000,
+        14000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-user2-ID-6.json",
+      "country": "ID",
+      "balance": 9000000.0,
+      "returned": 2972.0,
+      "interval": [
+        2500,
+        3000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-user2-ID-7.json",
+      "country": "ID",
+      "balance": 9900000.0,
+      "returned": 115.0,
+      "interval": [
+        80,
+        120
+      ],
+      "covered": true
+    },
+    {
+      "file": "v2-user2-ID-8.json",
+      "country": "ID",
+      "balance": 0.0,
+      "returned": 12624.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-0.json",
+      "country": "ID",
+      "balance": 7499999.0,
+      "returned": 8381.0,
+      "interval": [
+        7500,
+        11000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-1.json",
+      "country": "ID",
+      "balance": 7500000.0,
+      "returned": 7819.0,
+      "interval": [
+        7500,
+        11000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-10.json",
+      "country": "ID",
+      "balance": 9099999.0,
+      "returned": 2556.0,
+      "interval": [
+        2500,
+        3000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-11.json",
+      "country": "ID",
+      "balance": 9100000.0,
+      "returned": 1937.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-12.json",
+      "country": "ID",
+      "balance": 9299999.0,
+      "returned": 1189.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-13.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1568.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-14.json",
+      "country": "ID",
+      "balance": 9399999.0,
+      "returned": 1203.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-15.json",
+      "country": "ID",
+      "balance": 9400000.0,
+      "returned": 1224.0,
+      "interval": [
+        800,
+        1300
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-16.json",
+      "country": "ID",
+      "balance": 9499999.0,
+      "returned": 811.0,
+      "interval": [
+        800,
+        1300
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-17.json",
+      "country": "ID",
+      "balance": 9500000.0,
+      "returned": 1059.0,
+      "interval": [
+        700,
+        1100
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-18.json",
+      "country": "ID",
+      "balance": 9749999.0,
+      "returned": 366.0,
+      "interval": [
+        350,
+        700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-19.json",
+      "country": "ID",
+      "balance": 9750000.0,
+      "returned": 428.0,
+      "interval": [
+        350,
+        450
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-2.json",
+      "country": "ID",
+      "balance": 7599999.0,
+      "returned": 8260.0,
+      "interval": [
+        7500,
+        11000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-20.json",
+      "country": "ID",
+      "balance": 9849999.0,
+      "returned": 204.0,
+      "interval": [
+        200,
+        450
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-21.json",
+      "country": "ID",
+      "balance": 9850000.0,
+      "returned": 205.0,
+      "interval": [
+        200,
+        300
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-3.json",
+      "country": "ID",
+      "balance": 7600000.0,
+      "returned": 10286.0,
+      "interval": [
+        7500,
+        11000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-4.json",
+      "country": "ID",
+      "balance": 7999999.0,
+      "returned": 7869.0,
+      "interval": [
+        6000,
+        9000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-5.json",
+      "country": "ID",
+      "balance": 8000000.0,
+      "returned": 6948.0,
+      "interval": [
+        4500,
+        7000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-6.json",
+      "country": "ID",
+      "balance": 8499999.0,
+      "returned": 4616.0,
+      "interval": [
+        4500,
+        7000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-7.json",
+      "country": "ID",
+      "balance": 8500000.0,
+      "returned": 3837.0,
+      "interval": [
+        2000,
+        4500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-8.json",
+      "country": "ID",
+      "balance": 8999999.0,
+      "returned": 2323.0,
+      "interval": [
+        2000,
+        4500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-exact-ID-9.json",
+      "country": "ID",
+      "balance": 9000000.0,
+      "returned": 2684.0,
+      "interval": [
+        2500,
+        3000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-0.json",
+      "country": "BR",
+      "balance": 1200.0,
+      "returned": 104.65,
+      "interval": [
+        80.0,
+        120.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-1.json",
+      "country": "BR",
+      "balance": 32750.0,
+      "returned": 76.37,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-10.json",
+      "country": "BR",
+      "balance": 46750.0,
+      "returned": 2.17,
+      "interval": [
+        1.6,
+        2.4
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-11.json",
+      "country": "BR",
+      "balance": 47750.0,
+      "returned": 1.68,
+      "interval": [
+        1.2000000000000002,
+        1.7999999999999998
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-12.json",
+      "country": "BR",
+      "balance": 51000.0,
+      "returned": 0.91,
+      "interval": [
+        0.8,
+        1.2
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-2.json",
+      "country": "BR",
+      "balance": 34750.0,
+      "returned": 55.82,
+      "interval": [
+        48.0,
+        72.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-3.json",
+      "country": "BR",
+      "balance": 36750.0,
+      "returned": 40.1,
+      "interval": [
+        32.0,
+        48.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-4.json",
+      "country": "BR",
+      "balance": 38750.0,
+      "returned": 35.61,
+      "interval": [
+        24.0,
+        36.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-5.json",
+      "country": "BR",
+      "balance": 40750.0,
+      "returned": 21.13,
+      "interval": [
+        16.0,
+        24.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-6.json",
+      "country": "BR",
+      "balance": 42750.0,
+      "returned": 8.08,
+      "interval": [
+        8.0,
+        12.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-7.json",
+      "country": "BR",
+      "balance": 43750.0,
+      "returned": 7.68,
+      "interval": [
+        6.4,
+        9.6
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-8.json",
+      "country": "BR",
+      "balance": 44750.0,
+      "returned": 5.14,
+      "interval": [
+        4.800000000000001,
+        7.199999999999999
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-BR-9.json",
+      "country": "BR",
+      "balance": 45750.0,
+      "returned": 4.75,
+      "interval": [
+        3.2,
+        4.8
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-0.json",
+      "country": "ID",
+      "balance": 123456.0,
+      "returned": 14242.0,
+      "interval": [
+        12000,
+        18000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-1.json",
+      "country": "ID",
+      "balance": 6600000.0,
+      "returned": 10845.0,
+      "interval": [
+        9000,
+        14000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-10.json",
+      "country": "ID",
+      "balance": 9570000.0,
+      "returned": 1076.0,
+      "interval": [
+        700,
+        1100
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-11.json",
+      "country": "ID",
+      "balance": 9670000.0,
+      "returned": 504.0,
+      "interval": [
+        350,
+        700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-12.json",
+      "country": "ID",
+      "balance": 9770000.0,
+      "returned": 364.0,
+      "interval": [
+        350,
+        450
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-13.json",
+      "country": "ID",
+      "balance": 9825000.0,
+      "returned": 253.0,
+      "interval": [
+        200,
+        450
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-14.json",
+      "country": "ID",
+      "balance": 9875000.0,
+      "returned": 217.0,
+      "interval": [
+        200,
+        300
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-15.json",
+      "country": "ID",
+      "balance": 9925000.0,
+      "returned": 81.0,
+      "interval": [
+        80,
+        120
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-16.json",
+      "country": "ID",
+      "balance": 10050000.0,
+      "returned": 55.0,
+      "interval": [
+        40,
+        60
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-2.json",
+      "country": "ID",
+      "balance": 7470000.0,
+      "returned": 9969.0,
+      "interval": [
+        7500,
+        11000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-3.json",
+      "country": "ID",
+      "balance": 7900000.0,
+      "returned": 8580.0,
+      "interval": [
+        6000,
+        9000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-4.json",
+      "country": "ID",
+      "balance": 8150000.0,
+      "returned": 6618.0,
+      "interval": [
+        4500,
+        7000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-5.json",
+      "country": "ID",
+      "balance": 8600000.0,
+      "returned": 4214.0,
+      "interval": [
+        2000,
+        4500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-6.json",
+      "country": "ID",
+      "balance": 9070000.0,
+      "returned": 2885.0,
+      "interval": [
+        2500,
+        3000
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-7.json",
+      "country": "ID",
+      "balance": 9250000.0,
+      "returned": 2319.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-8.json",
+      "country": "ID",
+      "balance": 9370000.0,
+      "returned": 1240.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v3-holdout-ID-9.json",
+      "country": "ID",
+      "balance": 9470000.0,
+      "returned": 925.0,
+      "interval": [
+        800,
+        1300
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-independent-ID-0.json",
+      "country": "ID",
+      "balance": 9112345.0,
+      "returned": 2080.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-independent-ID-1.json",
+      "country": "ID",
+      "balance": 9276543.0,
+      "returned": 2259.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-independent-ID-2.json",
+      "country": "ID",
+      "balance": 9219876.0,
+      "returned": 1925.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-independent-ID-3.json",
+      "country": "ID",
+      "balance": 9250000.0,
+      "returned": 1737.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-independent-ID-4.json",
+      "country": "ID",
+      "balance": 9123456.0,
+      "returned": 1963.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-independent-ID-5.json",
+      "country": "ID",
+      "balance": 9287654.0,
+      "returned": 1501.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-independent-ID-6.json",
+      "country": "ID",
+      "balance": 9198765.0,
+      "returned": 1942.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-independent-ID-7.json",
+      "country": "ID",
+      "balance": 9250000.0,
+      "returned": 2169.0,
+      "interval": [
+        1000,
+        2500
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-BR-0.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 69.27,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-BR-1.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 78.98,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-BR-10.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 95.14,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-BR-11.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 95.84,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-BR-2.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 88.67,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-BR-3.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 94.71,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-BR-4.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 93.01,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-BR-5.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 77.98,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-BR-6.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 89.68,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-BR-7.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 67.8,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-BR-8.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 70.68,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-BR-9.json",
+      "country": "BR",
+      "balance": 33000.0,
+      "returned": 83.72,
+      "interval": [
+        64.0,
+        96.0
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-ID-0.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1272.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-ID-1.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1251.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-ID-10.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1516.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-ID-11.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1337.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-ID-2.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1496.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-ID-3.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1649.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-ID-4.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1438.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-ID-5.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1671.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-ID-6.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1533.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-ID-7.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1466.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-ID-8.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1285.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    },
+    {
+      "file": "v4-repeat-ID-9.json",
+      "country": "ID",
+      "balance": 9300000.0,
+      "returned": 1226.0,
+      "interval": [
+        1200,
+        1700
+      ],
+      "covered": true
+    }
+  ]
+}

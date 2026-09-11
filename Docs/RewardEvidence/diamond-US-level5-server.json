@@ -1,0 +1,14 @@
+{
+  "kinetic_data": {
+    "gap_all_gates": 5,
+    "hg_amt": "2.95",
+    "hg_zs_amt": "90.38",
+    "ext_gap_logs": 0,
+    "gap_rank": 2,
+    "gap_logs": 0,
+    "gap_day_gates": 5,
+    "bear_video": "10"
+  },
+  "kinetic_state": "ERR-OK",
+  "kinetic_gap": "NO-0"
+}

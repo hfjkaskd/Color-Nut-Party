@@ -46,6 +46,14 @@ namespace NutSort.UI
             gameObject.SetActive(true);
             createPMD(PMDPos,level);
         }
+        public void InitUnavailable(OriginalTables tables,string language,string placeholder)
+        {
+            transform.localPosition=Vector3.zero;
+            foreach(var label in labels)label.Text.text=tables.Text.GetText(label.Id,language);
+            Time.text=tables.Text.GetText(31,language,placeholder);
+            PassCount.text=placeholder;ChallengeTimes.text=placeholder;GoldGetCount.text=placeholder;
+            gameObject.SetActive(true);
+        }
         private static JToken Field(JObject document,string name)
         {
             if(document==null)throw new NullReferenceException(name);

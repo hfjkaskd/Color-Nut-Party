@@ -25,7 +25,7 @@ namespace NutSort.Validation
         static LocalExchangeTapPlayValidation(){if(SessionState.GetBool(Key,false)){timeout=EditorApplication.timeSinceStartup+100;EditorApplication.update+=Tick;}}
         public static void Run()
         {
-            OriginalPreferenceFixture.Begin("{\"Level\":4,\"NewGameplayUnlockIndex\":1,\"ExchangeCount\":2}");
+            OriginalPreferenceFixture.Begin("{\"IsCompleteRecordGuide\":true,\"Level\":4,\"NewGameplayUnlockIndex\":1,\"ExchangeCount\":2}");
             EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");PlayModeWindow.SetCustomRenderingResolution(480,1040,"Exchange tap ordering");SessionState.SetBool(Key,true);EditorApplication.EnterPlaymode();
         }
         private static Vector2 WorldPoint(){Physics.SyncTransforms();return game.WorldCamera.WorldToScreenPoint(game.Level.GetScrew(source).Bounds.bounds.center);}

@@ -26,6 +26,7 @@ namespace NutSort.Validation
         {
             var board=new OriginalBoardState(new LevelData{B=new[]{Rod(1,2,1,2),Rod()}},Resources.Load<OriginalLayoutSettings>("Configuration/OriginalLayout"));
             var user=new OriginalUserLocalData(Resources.Load<OriginalUserDefaults>("Configuration/OriginalUserDefaults")){Level=4,NewGameplayUnlockIndex=1,RevokeCount=2,AddScrewCount=2,CurrentLevelAddScrewCount=12,LevelInfo=OriginalBoardSnapshotJson.Write(OriginalBoardSnapshot.Capture(board,new List<OriginalMoveRecord>()))};
+            user.IsCompleteRecordGuide=true;
             OriginalPreferenceFixture.Begin(OriginalUserDataJson.Write(user));EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");
             PlayModeWindow.SetCustomRenderingResolution(480,1040,"Native tool tips");SessionState.SetBool(Key,true);EditorApplication.EnterPlaymode();
         }

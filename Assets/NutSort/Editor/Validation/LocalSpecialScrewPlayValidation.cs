@@ -29,6 +29,7 @@ namespace NutSort.Validation
                 Rod(new[]{1,2,1,2},new OBIMData{Id=7})}},Resources.Load<OriginalLayoutSettings>("Configuration/OriginalLayout"));
             var user=new OriginalUserLocalData(Resources.Load<OriginalUserDefaults>("Configuration/OriginalUserDefaults"))
             {Level=108,NewGameplayUnlockIndex=4,RevokeCount=2,LevelInfo=OriginalBoardSnapshotJson.Write(OriginalBoardSnapshot.Capture(board,new List<OriginalMoveRecord>()))};
+            user.IsCompleteRecordGuide=true;
             OriginalPreferenceFixture.Begin(OriginalUserDataJson.Write(user));EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");
             PlayModeWindow.SetCustomRenderingResolution(480,1040,"Local special screws");SessionState.SetBool(Key,true);EditorApplication.EnterPlaymode();
         }
@@ -54,7 +55,7 @@ namespace NutSort.Validation
                 if(game==null||startup==null||startup.LocalGameplay==null||game.IsRestarting||game.InputBlocked||!game.IsInitDone||!game.Level.AreNutsInitialized)return;
                 if(Time.time<waitUntil)return;
                 var local=startup.LocalGameplay;var board=game.Level.Board;
-                Check(game.PlayerLevel==108&&game.User.Gold==0&&game.User.Coin==0&&game.User.ServerConfigData==null&&game.User.GoldRewardTargetS2CData==null,"Local fixture does not supply rewards/server state");
+                Check(game.PlayerLevel==108&&game.User.Gold==0&&game.User.Coin==0&&game.User.ServerConfigData==null&&game.User.GoldRewardTargetS2CData!=null,"Local fixture loads captured config without granting rewards");
                 Check(!game.ModalInputBlocked&&!local.ResultVisible&&!game.IsFail&&!local.AwaitingNext,"Partial screw completion never opens settlement or failure");
                 if(phase==0)
                 {

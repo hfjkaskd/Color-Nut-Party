@@ -90,6 +90,7 @@ namespace NutSort.UI
             refreshTop?.Invoke();
         }
         public void Refresh() { RefreshGold(); }
+        public void RefreshIcon() { goldImage.Apply(); }
         public void RefreshGold(bool showTip = false, float addGold = 0)
         {
             value.text = formatGold(user.Gold);

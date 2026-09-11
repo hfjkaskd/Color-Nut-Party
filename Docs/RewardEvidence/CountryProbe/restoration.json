@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "UserId": true,
+    "Level": true,
+    "Gold": true,
+    "Coin": true,
+    "NormalGetTimes": true,
+    "InterAdTimes": true
+  },
+  "country": "US",
+  "level": 4,
+  "gold": 557.58,
+  "coin": 0.0,
+  "passed": true
+}

@@ -24,7 +24,6 @@ namespace NutSort.UI
                 teachingPanel=Instantiate(Resources.Load<GameObject>(teachingPrefabPath),transform.parent,false).GetComponent<OriginalNewbieGuideView>();
                 teachingPanel.BindTeaching(game.Tables,language,value=>game.IsCanOperatorScrew=value,CloseTeaching);
                 teachingPanel.InitializeLabels(game.Tables,language);
-                teachingPanel.SetLabel(1,localTeachingCaption);
                 teachingPanel.InitializeInteractions(game.User,false,TryTeachingClick,startup.Replay.EndClick);
                 teachingPanel.BindMask(game.ScheduleDelay);
                 teaching=new OriginalTeachingFlow(game.User,teachingPanel,()=>game.NewLevelMode);

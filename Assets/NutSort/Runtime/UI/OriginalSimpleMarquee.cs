@@ -38,6 +38,12 @@ namespace NutSort.UI
             }
             remaining=stopTime;
         }
+        public void InitUnavailable(string message)
+        {
+            transform.localPosition=Vector3.zero;
+            PMDItem.Tip.text=message;PMDItem.HeadImage.gameObject.SetActive(false);
+            gameObject.SetActive(true);
+        }
         private void SetText(OriginalMarqueeItemView item)
         {
             OriginalMarqueeItem data=select();

@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case": 1,
+      "cashText": "$0.40",
+      "moreCaption": "Withdraw",
+      "ordinaryVisible": false,
+      "adVisible": false,
+      "baseAmount": 0.4,
+      "moreAmount": 0.4
+    },
+    {
+      "case": 2,
+      "cashText": "$0.60",
+      "moreCaption": "Withdraw",
+      "ordinaryVisible": false,
+      "adVisible": false,
+      "baseAmount": 0.6,
+      "moreAmount": 0.6
+    },
+    {
+      "case": 3,
+      "cashText": "$4.98",
+      "moreCaption": "Claim 10X",
+      "ordinaryVisible": true,
+      "adVisible": true,
+      "baseAmount": 4.98,
+      "moreAmount": 49.8
+    }
+  ],
+  "claimAmount": 49.8,
+  "balance": 557.58,
+  "normalClaimAfterAdRequestsMore": true,
+  "sameNumericInputCountryFormatting": {
+    "en-US": "$4.98",
+    "pt-BR": "R$4,98",
+    "ja-JP": "￥4",
+    "id-ID": "Rp4",
+    "ur-PK": "Rs4"
+  },
+  "crossCountryServerComparison": "Not sampled",
+  "crossUserServerComparison": "Not sampled"
+}

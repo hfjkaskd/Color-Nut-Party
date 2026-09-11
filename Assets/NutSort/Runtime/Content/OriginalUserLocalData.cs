@@ -32,6 +32,7 @@ namespace NutSort.Content
         public JObject UserLssInfo;
         public JObject ServerConfigData;
         public JObject GoldRewardTargetS2CData;
+        public JObject LocalPendingReward;
         public int ScrewDoneCount;
         public int ScrewMoveCount;
         public int LuckyDrawScrewDoneTimes;

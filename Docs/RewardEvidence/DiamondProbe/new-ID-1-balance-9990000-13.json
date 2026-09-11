@@ -1,0 +1,23 @@
+{
+  "profile": "new-ID-1",
+  "request": {
+    "copp_toler": "14001",
+    "copp_count": 13,
+    "notify_psi": "1000",
+    "hg_zs_psi": "9990000"
+  },
+  "response": {
+    "kinetic_data": {
+      "gap_all_gates": 13,
+      "hg_amt": "2350",
+      "hg_zs_amt": "57",
+      "ext_gap_logs": 0,
+      "gap_rank": 3,
+      "gap_logs": 0,
+      "gap_day_gates": 13,
+      "bear_video": "10"
+    },
+    "kinetic_state": "ERR-OK",
+    "kinetic_gap": "NO-0"
+  }
+}

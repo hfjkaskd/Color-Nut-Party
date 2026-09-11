@@ -1,0 +1,198 @@
+{
+  "version": 4,
+  "enabled": true,
+  "source": "black-box-interval-model-v4",
+  "firstCompletedLevel": 4,
+  "precision": {
+    "BR": 2,
+    "ID": 0
+  },
+  "distribution": "uniform hypothesis; endpoints inferred, not server source code",
+  "profiles": {
+    "BR": [
+      {
+        "balance": 0,
+        "minimum": 80.0,
+        "maximum": 120.0,
+        "base": 100
+      },
+      {
+        "balance": 32000,
+        "minimum": 64.0,
+        "maximum": 96.0,
+        "base": 80
+      },
+      {
+        "balance": 34000,
+        "minimum": 48.0,
+        "maximum": 72.0,
+        "base": 60
+      },
+      {
+        "balance": 36000,
+        "minimum": 32.0,
+        "maximum": 48.0,
+        "base": 40
+      },
+      {
+        "balance": 38000,
+        "minimum": 24.0,
+        "maximum": 36.0,
+        "base": 30
+      },
+      {
+        "balance": 40000,
+        "minimum": 16.0,
+        "maximum": 24.0,
+        "base": 20
+      },
+      {
+        "balance": 42000,
+        "minimum": 8.0,
+        "maximum": 12.0,
+        "base": 10
+      },
+      {
+        "balance": 43000,
+        "minimum": 6.4,
+        "maximum": 9.6,
+        "base": 8
+      },
+      {
+        "balance": 44000,
+        "minimum": 4.800000000000001,
+        "maximum": 7.199999999999999,
+        "base": 6
+      },
+      {
+        "balance": 45000,
+        "minimum": 3.2,
+        "maximum": 4.8,
+        "base": 4
+      },
+      {
+        "balance": 46000,
+        "minimum": 1.6,
+        "maximum": 2.4,
+        "base": 2
+      },
+      {
+        "balance": 47000,
+        "minimum": 1.2000000000000002,
+        "maximum": 1.7999999999999998,
+        "base": 1.5
+      },
+      {
+        "balance": 48000,
+        "minimum": 0.8,
+        "maximum": 1.2,
+        "base": 1
+      }
+    ],
+    "ID": [
+      {
+        "balance": 0,
+        "minimum": 12000,
+        "maximum": 18000,
+        "trainingSamples": 14
+      },
+      {
+        "balance": 6500000,
+        "minimum": 9000,
+        "maximum": 14000,
+        "trainingSamples": 9
+      },
+      {
+        "balance": 7400000,
+        "minimum": 7500,
+        "maximum": 11000,
+        "trainingSamples": 6
+      },
+      {
+        "balance": 7700000,
+        "minimum": 6000,
+        "maximum": 9000,
+        "trainingSamples": 5
+      },
+      {
+        "balance": 8000000,
+        "minimum": 4500,
+        "maximum": 7000,
+        "trainingSamples": 8
+      },
+      {
+        "balance": 8500000,
+        "minimum": 2000,
+        "maximum": 4500,
+        "trainingSamples": 7
+      },
+      {
+        "balance": 9000000,
+        "minimum": 2500,
+        "maximum": 3000,
+        "trainingSamples": 5
+      },
+      {
+        "balance": 9100000,
+        "minimum": 1000,
+        "maximum": 2500,
+        "trainingSamples": 5,
+        "revisionReason": "v3 holdout 9250000 returned 2319; bounds remain estimates"
+      },
+      {
+        "balance": 9300000,
+        "minimum": 1200,
+        "maximum": 1700,
+        "trainingSamples": 16
+      },
+      {
+        "balance": 9400000,
+        "minimum": 800,
+        "maximum": 1300,
+        "trainingSamples": 3
+      },
+      {
+        "balance": 9500000,
+        "minimum": 700,
+        "maximum": 1100,
+        "trainingSamples": 5
+      },
+      {
+        "balance": 9600000,
+        "minimum": 350,
+        "maximum": 700,
+        "trainingSamples": 5
+      },
+      {
+        "balance": 9750000,
+        "minimum": 350,
+        "maximum": 450,
+        "trainingSamples": 3
+      },
+      {
+        "balance": 9800000,
+        "minimum": 200,
+        "maximum": 450,
+        "trainingSamples": 5
+      },
+      {
+        "balance": 9850000,
+        "minimum": 200,
+        "maximum": 300,
+        "trainingSamples": 3
+      },
+      {
+        "balance": 9900000,
+        "minimum": 80,
+        "maximum": 120,
+        "trainingSamples": 6
+      },
+      {
+        "balance": 9950000,
+        "minimum": 40,
+        "maximum": 60,
+        "trainingSamples": 6
+      }
+    ]
+  }
+}

@@ -33,7 +33,7 @@ namespace NutSort.Validation
         }
         public static void Run()
         {
-            OriginalPreferenceFixture.Begin();
+            OriginalPreferenceFixture.Begin("{\"IsCompleteRecordGuide\":true}");
             EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");
             PlayModeWindow.SetCustomRenderingResolution(480,1040,"Local gameplay");
             SessionState.SetBool(Key,true);EditorApplication.EnterPlaymode();
@@ -75,7 +75,7 @@ namespace NutSort.Validation
                     return;
                 }
                 if(game.ModalInputBlocked&&!game.IsCanOperatorScrew&&!local.ResultVisible&&startup.Replay.Panel==null)return;
-                Check(game.User.Gold==0&&game.User.Coin==0&&game.User.GoldRewardTargetS2CData==null,"No synthetic earnings or reward-stage response");
+                Check(game.User.Gold>=0&&game.User.Coin==0&&game.User.GoldRewardTargetS2CData!=null,"Captured reward configuration is available during local progression");
                 if(phase==2)
                 {
                     Check(game.PlayerLevel==4&&game.User.LevelSeed==0&&!local.AwaitingNext&&game.IsInitDone,"Exit on settled board resumes next level exactly once");
@@ -132,14 +132,14 @@ namespace NutSort.Validation
                 {
                     if(Time.time<nextAction||startup.Replay.Panel!=null)return;
                     Check(game.PlayerLevel==4&&game.User.LevelSeed==1&&game.IsInitDone&&!game.ModalInputBlocked,"Source replay preserves level/seed and returns input");
-                    Debug.Log("NUT_LOCAL_GAMEPLAY_PLAY_PASS default native teaching panel/markers/rule text and world-input override, local final-stage text, last-teaching close and later-level override reset; default boot; four tutorial seeds and levels 2/3 through real world ray clicks; native success prefab/title/close animation and raycast next with duplicate guard; settled/partial persistence reload; explicit deadlock fixture through native failure delay and retry Button; real replay popup Button; no fake earnings.");
+                    Debug.Log("NUT_LOCAL_GAMEPLAY_PLAY_PASS default native teaching panel/markers/rule text and world-input override, local final-stage text, last-teaching close and later-level override reset; default boot; four tutorial seeds and levels 2/3 through real world ray clicks; native success prefab/title/close animation and raycast next with duplicate guard; settled/partial persistence reload; explicit deadlock fixture through native failure delay and retry Button; real replay popup Button; captured local rewards with explicit claims.");
                     Finish(0);return;
                 }
                 if(local.AwaitingNext)
                 {
                     if(local.SuccessPanel.Closing)return;
                     if(Vector3.Distance(local.SuccessPanel.Main.localScale,Vector3.one)>.001f||Vector3.Distance(local.SuccessPanel.Title.localScale,Vector3.one)>.001f)return;
-                    Check(!local.SuccessPanel.Ad.activeInHierarchy&&!local.SuccessPanel.GetButton.gameObject.activeInHierarchy&&local.SuccessPanel.MoreLabel.text=="Next level","Native local success shows next-level action without SDK claim controls");
+                    Check(!local.SuccessPanel.Ad.activeInHierarchy&&!local.SuccessPanel.GetButton.gameObject.activeInHierarchy&&local.SuccessPanel.MoreLabel.text=="Claim"&&local.SuccessPanel.Views.Count==1,"Native local success shows reward and ordinary claim");
                     Check(!game.IsInitDone&&game.ModalInputBlocked,"Settlement blocks world input");
                     var saved=OriginalUserDataJson.Read(PlayerPrefs.GetString(OriginalUserStore.Key),Resources.Load<OriginalUserDefaults>("Configuration/OriginalUserDefaults"));
                     Check(saved.Level==game.PlayerLevel&&string.IsNullOrEmpty(saved.LevelInfo),"Atomic pending-board checkpoint");
@@ -152,6 +152,7 @@ namespace NutSort.Validation
                     capturedSuccess=false;
                     if(game.PlayerLevel==4)
                     {
+                        local.NextButton.onClick.Invoke();
                         phase=2;game=null;startup=null;board=null;SceneManager.LoadScene("LuoSiSortGame");return;
                     }
                     int level=game.PlayerLevel;var next=local.NextButton;var canvas=next.GetComponentInParent<Canvas>();

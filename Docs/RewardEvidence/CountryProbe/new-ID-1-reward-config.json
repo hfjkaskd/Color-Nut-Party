@@ -1,0 +1,79 @@
+{
+  "kinetic_data": {
+    "cal_cfg": "10",
+    "zs_newer": "6000000",
+    "bear_torque": "100",
+    "zs_ea": "1",
+    "ext_gap_logs": 0,
+    "bear_delay_info": "2Jbj8qyWBhwljE+qLnu68eK3Dy4KhC9P+hUZBU2Cf5fDmkUeGz1nr8QfRCplkeQ0irc4kEj4CDXxXkDCM5kdgOgw9jACUxgA9hbRkOzYJoaeT6uYNTHsefuHXOf5uLQxk8ftqMxpayGwcn0U7qV6JjopOjTLXza0iW+fHjdickI4+0UUkfIMZCQij5LACuylBax+l6V23ARyY/p65zqAqTd105tvWFFO6iFFsgrYUkKLXDbAIrKswKZw3PssK+rDupThI0lMJkVEYeISlyqM46rtN8xEdos6mjMnMb4/DtIq/7CqNXJlesmXgsFf0NQI2W2nXfvB85EEdy6XM7D45Lf1nNlwGYtUMT2HMBRF+p8NsIzeI1W2S/vF+ulkhjbRI7OjtUtj2lyxvFLYmnZng0+oN7T1rkCt9cx/xIFHI1WYJmRN4wTvygjTHWPx+BVidBfzivWUX5Cyho1+AjFB2tcDYBmwUQ0INATTtys8Li2BfdysxDNyx70lWd0XH7yfHIzfRMjOsH2dIkr9T12mV8P28Et/GYJFUGEAcR1YjcM5jVs4yQs3dxfFN1LvsCuQpSig3Tc8yNo6/SpeViRk1iuGrS4nqFZ97+3+kSP3SdGr/b9ob7vswkgOUs/fN4EjDxms5v7AXOsdGxKFNiw3kmslGAK05mXa35I+DVNX9HTBpL2g+QnFatH1O34kzaCL/oWYIFdB6fnnBJk0djtZ8rvCyi0XvhW904DmcVD+5plYwcTUVuZjWzfgYJPaPagohbyO6WN4fPn9Zq8rlSAwg0U6hn3JdNV4uIHfaQlZ7FzUOfk2UCjGz1JsRKXiYSnaqPPB4q6fBvt1Xg8gRQL0qTdWGpaNAT7VCG+8NP51bVE=",
+    "gap_gates": 5,
+    "gap_rank": 1,
+    "gap_logs": 0,
+    "bear_zs_show": "500000",
+    "bear_list": [
+      {
+        "caliper_count": 0,
+        "bear_id": 1,
+        "caliper_psi": "400",
+        "caliper_gates_rule": "1",
+        "psi_value": "400"
+      },
+      {
+        "caliper_count": 0,
+        "bear_id": 2,
+        "caliper_psi": "600",
+        "caliper_gates_rule": "2",
+        "psi_value": "600"
+      },
+      {
+        "caliper_count": 0,
+        "bear_id": 3,
+        "refTag": 3,
+        "caliper_psi": "MARK",
+        "caliper_logs": 5,
+        "caliper_rank": 31,
+        "caliper_gates_rule": "1-22,2-51",
+        "psi_value": "MARK"
+      }
+    ],
+    "bear_zs_list": [
+      {
+        "caliper_count": 0,
+        "bear_id": 101,
+        "caliper_psi": "10000000",
+        "caliper_logs": 5,
+        "caliper_rank": 31,
+        "psi_value": "1000000"
+      },
+      {
+        "caliper_count": 0,
+        "bear_id": 102,
+        "caliper_psi": "20000000",
+        "caliper_logs": 7,
+        "caliper_rank": 32,
+        "psi_value": "2000000"
+      },
+      {
+        "caliper_count": 0,
+        "bear_id": 103,
+        "caliper_psi": "40000000",
+        "caliper_logs": 10,
+        "caliper_rank": 33,
+        "psi_value": "4000000"
+      },
+      {
+        "caliper_count": 0,
+        "bear_id": 104,
+        "caliper_psi": "80000000",
+        "caliper_logs": 15,
+        "caliper_rank": 34,
+        "psi_value": "8000000"
+      }
+    ],
+    "gap_day_gates": 0,
+    "gap_all_gates": 0,
+    "bear_rates": "10"
+  },
+  "kinetic_state": "ERR-OK",
+  "kinetic_gap": "NO-0"
+}

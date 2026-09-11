@@ -21,7 +21,7 @@ namespace NutSort.Validation
         static LocalTeachingViewPlayValidation(){if(SessionState.GetBool(Key,false)){timeout=EditorApplication.timeSinceStartup+100;EditorApplication.update+=Tick;}}
         public static void Run()
         {
-            OriginalPreferenceFixture.Begin("{\"Level\":1,\"LevelSeed\":0}");EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");
+            OriginalPreferenceFixture.Begin("{\"Level\":1,\"LevelSeed\":0,\"IsCompleteRecordGuide\":true}");EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");
             PlayModeWindow.SetCustomRenderingResolution(480,1040,"Native teaching");SessionState.SetBool(Key,true);EditorApplication.EnterPlaymode();
         }
         private static void Tick()
@@ -38,7 +38,7 @@ namespace NutSort.Validation
                 if(seed>=4)
                 {
                     Check(game.PlayerLevel==2&&local.TeachingPanel==null&&!game.IsCanOperatorScrew&&!game.ModalInputBlocked,"Later local entry has no teaching modal or leaked override");
-                    Debug.Log("NUT_LOCAL_TEACHING_VIEW_PASS default four seeds render source teaching prefab/rule text and local caption/final text without withdrawal claims; native world selection works under teaching override; level two resets override and closes guide. Explicit starting-seed fixtures only.");Finish(0);return;
+                    Debug.Log("NUT_LOCAL_TEACHING_VIEW_PASS default four seeds render source teaching prefab/rule text without duplicate badge and with final text without withdrawal claims; native world selection works under teaching override; level two resets override and closes guide. Explicit starting-seed fixtures only.");Finish(0);return;
                 }
                 if(phase==0){Check(local.TeachingPanel!=null,"Default startup creates teaching view");waitUntil=Time.time+1;phase=1;return;}
                 if(phase==1)
@@ -49,7 +49,7 @@ namespace NutSort.Validation
                     for(int i=0;i<labels.arraySize;i++)
                     {
                         var label=labels.GetArrayElementAtIndex(i);if(label.FindPropertyRelative("Id").intValue!=1)continue;
-                        Check(((TMP_Text)label.FindPropertyRelative("Text").objectReferenceValue).text==caption,"Source withdrawal badge receives explicit local caption");found=true;
+                        Check(!((TMP_Text)label.FindPropertyRelative("Text").objectReferenceValue).gameObject.activeInHierarchy,"Duplicate teaching badge stays hidden");found=true;
                     }
                     Check(found,"Configured teaching badge found");
                     Check(panel.Tip.text==(seed>2?data.FindProperty("localFinalTeachingText").stringValue:game.Tables.Text.GetText(70+seed,"en")),"Teaching text follows original rules/local final boundary");
@@ -62,7 +62,7 @@ namespace NutSort.Validation
                 Check(target>=0,"Teaching board has a movable rod");Physics.SyncTransforms();
                 Check(game.TryOperateAtScreenPoint(game.WorldCamera.WorldToScreenPoint(game.Level.GetScrew(target).Bounds.bounds.center)).Kind==ScrewOperationKind.Ready,"Actual world input allowed by native teaching flag");
                 seed++;phase=0;game=null;startup=null;
-                PlayerPrefs.SetString(NutSort.Content.OriginalUserStore.Key,seed<4?"{\"Level\":1,\"LevelSeed\":"+seed+"}":"{\"Level\":2}");PlayerPrefs.Save();SceneManager.LoadScene("LuoSiSortGame");
+                PlayerPrefs.SetString(NutSort.Content.OriginalUserStore.Key,seed<4?"{\"IsCompleteRecordGuide\":true,\"Level\":1,\"LevelSeed\":"+seed+"}":"{\"IsCompleteRecordGuide\":true,\"Level\":2}");PlayerPrefs.Save();SceneManager.LoadScene("LuoSiSortGame");
             }
             catch(Exception e){Debug.LogException(e);Finish(1);}
         }

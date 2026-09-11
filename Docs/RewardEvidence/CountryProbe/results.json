@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-09",
+  "package": "com.nut.sort.relax",
+  "version": "1.0.4",
+  "method": "App country cache override and fresh game request identities in the same licensed installation; read-only extraction of received application-layer JSON. IP, advertising ID, SDK fragment and attribution held unchanged. No gameplay or reward claim in these samples.",
+  "newServerIdentitiesDistinct": true,
+  "samples": [
+    {
+      "sample": "same-user-BR",
+      "firstTwoRewards": [
+        "0.4",
+        "0.6"
+      ],
+      "zs_newer": "30000",
+      "bear_torque": "0.1",
+      "bear_rates": "100",
+      "configSha256Canonical": "77d6c85c19bc73fef4cdd5e771ee791b5c2b3bb3b250339e33e5df883131b4bd",
+      "rulesSha256Canonical": "0fe501875b8d472750b1d8e987d5751be1469ff04be1a19126774d54787572fe",
+      "sameOriginalUserId": true,
+      "level": 4,
+      "gold": 557.58,
+      "coin": 0.0
+    },
+    {
+      "sample": "same-user-ID",
+      "firstTwoRewards": [
+        "0.4",
+        "0.6"
+      ],
+      "zs_newer": "30000",
+      "bear_torque": "0.1",
+      "bear_rates": "100",
+      "configSha256Canonical": "77d6c85c19bc73fef4cdd5e771ee791b5c2b3bb3b250339e33e5df883131b4bd",
+      "rulesSha256Canonical": "0fe501875b8d472750b1d8e987d5751be1469ff04be1a19126774d54787572fe",
+      "sameOriginalUserId": true,
+      "level": 4,
+      "gold": 557.58,
+      "coin": 0.0
+    },
+    {
+      "sample": "new-BR-1",
+      "firstTwoRewards": [
+        "0.4",
+        "0.6"
+      ],
+      "zs_newer": "30000",
+      "bear_torque": "0.1",
+      "bear_rates": "100",
+      "configSha256Canonical": "8d8de25ddb83de29264b381d084dab59ee4ecf9285bc0026e7970fe33301d7eb",
+      "rulesSha256Canonical": "0fe501875b8d472750b1d8e987d5751be1469ff04be1a19126774d54787572fe",
+      "registeredArea": "BRA",
+      "serverUserIdSha256": "2abbe55b421a29c2bbd9d84b9caf531377f20551dbac340bcf0ad6f729424ccd",
+      "differentFromOriginal": true
+    },
+    {
+      "sample": "new-BR-2",
+      "firstTwoRewards": [
+        "0.4",
+        "0.6"
+      ],
+      "zs_newer": "30000",
+      "bear_torque": "0.1",
+      "bear_rates": "100",
+      "configSha256Canonical": "8d8de25ddb83de29264b381d084dab59ee4ecf9285bc0026e7970fe33301d7eb",
+      "rulesSha256Canonical": "0fe501875b8d472750b1d8e987d5751be1469ff04be1a19126774d54787572fe",
+      "registeredArea": "BRA",
+      "serverUserIdSha256": "1a3b633046c22e924c0317a25d65a386eabd4fc91b16e1631800de04f2a22960",
+      "differentFromOriginal": true
+    },
+    {
+      "sample": "new-ID-1",
+      "firstTwoRewards": [
+        "400",
+        "600"
+      ],
+      "zs_newer": "6000000",
+      "bear_torque": "100",
+      "bear_rates": "10",
+      "configSha256Canonical": "825ceb7136a51255836bbdfe4dff37c407c62b5126baf1fa32fbdfb5116a6148",
+      "rulesSha256Canonical": "e869df286944bac049daf66ca074ccc6faad7ebe2a0d201336b9109af23d35f6",
+      "registeredArea": "IDN",
+      "serverUserIdSha256": "377e5e7ca74e110d2b2feb21de2dff65964c7610dd17edf1320bb552a1c1b014",
+      "differentFromOriginal": true
+    },
+    {
+      "sample": "new-ID-2",
+      "rewardConfigCaptured": false,
+      "excludedFromRewardComparison": true,
+      "registeredArea": "IDN",
+      "serverUserIdSha256": "e0f75852a8be85034ba131aaec7f76d2fc4f0d275c2132fbd842125cd972cd73",
+      "differentFromOriginal": true
+    }
+  ],
+  "comparisons": {
+    "same-user-BR vs same-user-ID": {
+      "fullRewardConfigEqual": true,
+      "decodedRulesEqual": true,
+      "displayConfigEqual": true,
+      "differentRewardFields": []
+    },
+    "new-BR-1 vs new-BR-2": {
+      "fullRewardConfigEqual": true,
+      "decodedRulesEqual": true,
+      "displayConfigEqual": true,
+      "differentRewardFields": []
+    },
+    "new-ID-1 vs new-ID-2": {
+      "status": "incomplete sample; no conclusion"
+    },
+    "new-BR-1 vs new-ID-1": {
+      "fullRewardConfigEqual": false,
+      "decodedRulesEqual": false,
+      "displayConfigEqual": false,
+      "differentRewardFields": [
+        "bear_delay_info",
+        "bear_list",
+        "bear_rates",
+        "bear_torque",
+        "bear_zs_list",
+        "bear_zs_show",
+        "zs_newer"
+      ]
+    }
+  }
+}

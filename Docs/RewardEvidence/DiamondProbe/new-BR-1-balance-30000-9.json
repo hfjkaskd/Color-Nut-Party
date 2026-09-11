@@ -1,0 +1,23 @@
+{
+  "profile": "new-BR-1",
+  "request": {
+    "copp_toler": "14001",
+    "copp_count": 9,
+    "notify_psi": "1",
+    "hg_zs_psi": "30000"
+  },
+  "response": {
+    "kinetic_data": {
+      "gap_all_gates": 9,
+      "hg_amt": "3.08",
+      "hg_zs_amt": "108.4",
+      "ext_gap_logs": 0,
+      "gap_rank": 2,
+      "gap_logs": 0,
+      "gap_day_gates": 9,
+      "bear_video": "10"
+    },
+    "kinetic_state": "ERR-OK",
+    "kinetic_gap": "NO-0"
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "file": "v3-holdout-BR-0.json",
+    "balance": 1200.0,
+    "actual": 104.65,
+    "minimum": 80.0,
+    "maximum": 120.0,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-BR-1.json",
+    "balance": 32750.0,
+    "actual": 76.37,
+    "minimum": 64.0,
+    "maximum": 96.0,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-BR-10.json",
+    "balance": 46750.0,
+    "actual": 2.17,
+    "minimum": 1.6,
+    "maximum": 2.4,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-BR-11.json",
+    "balance": 47750.0,
+    "actual": 1.68,
+    "minimum": 1.2000000000000002,
+    "maximum": 1.7999999999999998,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-BR-12.json",
+    "balance": 51000.0,
+    "actual": 0.91,
+    "minimum": 0.8,
+    "maximum": 1.2,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-BR-2.json",
+    "balance": 34750.0,
+    "actual": 55.82,
+    "minimum": 48.0,
+    "maximum": 72.0,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-BR-3.json",
+    "balance": 36750.0,
+    "actual": 40.1,
+    "minimum": 32.0,
+    "maximum": 48.0,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-BR-4.json",
+    "balance": 38750.0,
+    "actual": 35.61,
+    "minimum": 24.0,
+    "maximum": 36.0,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-BR-5.json",
+    "balance": 40750.0,
+    "actual": 21.13,
+    "minimum": 16.0,
+    "maximum": 24.0,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-BR-6.json",
+    "balance": 42750.0,
+    "actual": 8.08,
+    "minimum": 8.0,
+    "maximum": 12.0,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-BR-7.json",
+    "balance": 43750.0,
+    "actual": 7.68,
+    "minimum": 6.4,
+    "maximum": 9.6,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-BR-8.json",
+    "balance": 44750.0,
+    "actual": 5.14,
+    "minimum": 4.800000000000001,
+    "maximum": 7.199999999999999,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-BR-9.json",
+    "balance": 45750.0,
+    "actual": 4.75,
+    "minimum": 3.2,
+    "maximum": 4.8,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-0.json",
+    "balance": 123456.0,
+    "actual": 14242.0,
+    "minimum": 12000,
+    "maximum": 18000,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-1.json",
+    "balance": 6600000.0,
+    "actual": 10845.0,
+    "minimum": 9000,
+    "maximum": 14000,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-10.json",
+    "balance": 9570000.0,
+    "actual": 1076.0,
+    "minimum": 700,
+    "maximum": 1100,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-11.json",
+    "balance": 9670000.0,
+    "actual": 504.0,
+    "minimum": 350,
+    "maximum": 700,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-12.json",
+    "balance": 9770000.0,
+    "actual": 364.0,
+    "minimum": 350,
+    "maximum": 450,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-13.json",
+    "balance": 9825000.0,
+    "actual": 253.0,
+    "minimum": 200,
+    "maximum": 450,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-14.json",
+    "balance": 9875000.0,
+    "actual": 217.0,
+    "minimum": 200,
+    "maximum": 300,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-15.json",
+    "balance": 9925000.0,
+    "actual": 81.0,
+    "minimum": 80,
+    "maximum": 120,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-16.json",
+    "balance": 10050000.0,
+    "actual": 55.0,
+    "minimum": 40,
+    "maximum": 60,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-2.json",
+    "balance": 7470000.0,
+    "actual": 9969.0,
+    "minimum": 7500,
+    "maximum": 11000,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-3.json",
+    "balance": 7900000.0,
+    "actual": 8580.0,
+    "minimum": 6000,
+    "maximum": 9000,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-4.json",
+    "balance": 8150000.0,
+    "actual": 6618.0,
+    "minimum": 4500,
+    "maximum": 7000,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-5.json",
+    "balance": 8600000.0,
+    "actual": 4214.0,
+    "minimum": 2000,
+    "maximum": 4500,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-6.json",
+    "balance": 9070000.0,
+    "actual": 2885.0,
+    "minimum": 2500,
+    "maximum": 3000,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-7.json",
+    "balance": 9250000.0,
+    "actual": 2319.0,
+    "minimum": 1100,
+    "maximum": 2200,
+    "pass": false
+  },
+  {
+    "file": "v3-holdout-ID-8.json",
+    "balance": 9370000.0,
+    "actual": 1240.0,
+    "minimum": 1200,
+    "maximum": 1700,
+    "pass": true
+  },
+  {
+    "file": "v3-holdout-ID-9.json",
+    "balance": 9470000.0,
+    "actual": 925.0,
+    "minimum": 800,
+    "maximum": 1300,
+    "pass": true
+  }
+]

@@ -27,6 +27,7 @@ namespace NutSort.Validation
         public static void Run()
         {
             var user=new OriginalUserLocalData(Resources.Load<OriginalUserDefaults>("Configuration/OriginalUserDefaults")){Level=9,NewGameplayUnlockIndex=1};
+            user.IsCompleteRecordGuide=true;
             OriginalPreferenceFixture.Begin(OriginalUserDataJson.Write(user));
             EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");
             PlayModeWindow.SetCustomRenderingResolution(480,1040,"Native subround progression");
@@ -42,7 +43,7 @@ namespace NutSort.Validation
                 if(startup==null)startup=UnityEngine.Object.FindObjectOfType<OriginalStartupFlow>();
                 if(game==null||startup==null||startup.LocalGameplay==null)return;
                 var local=startup.LocalGameplay;
-                Check(game.User.Gold==0&&game.User.Coin==0&&game.User.GoldRewardTargetS2CData==null,"No generated reward data");
+                Check((phase==0?game.User.Gold==0:game.User.Gold>0)&&game.User.Coin==0&&game.User.GoldRewardTargetS2CData!=null,"Intermediate subrounds do not grant; final claim grants once");
                 if(game.PlayerLevel<=12)Check(local.SuccessPanel==null&&!local.AwaitingNext,"Intermediate rounds never create a success modal");
                 if(game.IsRestarting&&game.PlayerLevel>=10&&game.PlayerLevel<=12&&!transitions.Contains(game.PlayerLevel))
                 {
@@ -61,7 +62,7 @@ namespace NutSort.Validation
                     if(!game.IsInitDone||local.SuccessPanel!=null)return;
                     Check(game.PlayerLevel==13&&game.User.TodayPassLevelCount==4&&!game.ModalInputBlocked&&!local.AwaitingNext,"Final Next initializes next subround group without duplicate settlement");
                     Check(local.SubroundView!=null&&local.SubroundView.DotCount==5&&local.SubroundView.SubRounds.activeSelf,"Next group grows source progress strip from four to five dots");
-                    Debug.Log("NUT_LOCAL_SUBROUND_PLAY_PASS actual source boards 9/10/11/12 solved through world rays; intermediate rounds automatically restart without settlement UI, first-transition scene reload preserves flushed progress, last round alone shows native success and real next Button advances once; no reward response/grant fabricated.");Finish(0);return;
+                    Debug.Log("NUT_LOCAL_SUBROUND_PLAY_PASS actual source boards 9/10/11/12 solved through world rays; intermediate rounds automatically restart without settlement UI, first-transition scene reload preserves flushed progress, last round alone shows native success and real next Button advances once; captured local reward granted only after the final claim.");Finish(0);return;
                 }
                 if(local.AwaitingNext)
                 {

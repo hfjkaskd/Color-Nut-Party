@@ -25,6 +25,7 @@ namespace NutSort.Validation
         public static void Run()
         {
             var user=new OriginalUserLocalData(Resources.Load<OriginalUserDefaults>("Configuration/OriginalUserDefaults")){Level=8,NewGameplayUnlockIndex=2};
+            user.IsCompleteRecordGuide=true;
             OriginalPreferenceFixture.Begin(OriginalUserDataJson.Write(user));EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");
             PlayModeWindow.SetCustomRenderingResolution(480,1040,"Local source subround dots");SessionState.SetBool(Key,true);EditorApplication.EnterPlaymode();
         }
@@ -38,7 +39,7 @@ namespace NutSort.Validation
                 if(startup==null)startup=UnityEngine.Object.FindObjectOfType<OriginalStartupFlow>();
                 if(game==null||startup==null||startup.LocalGameplay==null||game.IsRestarting||game.InputBlocked||!game.IsInitDone||Time.time<waitUntil)return;
                 var view=startup.LocalGameplay.SubroundView;
-                Check(game.User.GoldRewardTargetS2CData==null&&game.User.Gold==0&&game.User.Coin==0,"No reward document or balance synthesized");
+                Check(game.User.GoldRewardTargetS2CData!=null&&game.User.Gold==0&&game.User.Coin==0,"Captured config loaded without an unsolicited grant");
                 Check(!game.ModalInputBlocked,"Subround strip is nonmodal");
                 if(phase==4){Next();return;}
                 if(phase==2)

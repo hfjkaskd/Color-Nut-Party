@@ -1,0 +1,28 @@
+{
+  "profile": "new-BR-1",
+  "request": {
+    "copp_toler": "14001",
+    "copp_count": 14,
+    "notify_psi": "1",
+    "hg_zs_psi": "35000"
+  },
+  "response": {
+    "kinetic_data": {
+      "gap_all_gates": 24,
+      "hg_amt": "3.21",
+      "hg_zs_amt": "63.06",
+      "ext_gap_logs": 0,
+      "gap_rank": 5,
+      "gap_logs": 0,
+      "gap_day_gates": 24,
+      "bear_video": "10"
+    },
+    "kinetic_state": "ERR-OK",
+    "kinetic_gap": "NO-0"
+  },
+  "sampling": {
+    "timestampUtc": "2026-09-10T19:25:00.107639+00:00",
+    "elapsedSeconds": 1.2,
+    "campaign": "diamond-algorithm-v2"
+  }
+}

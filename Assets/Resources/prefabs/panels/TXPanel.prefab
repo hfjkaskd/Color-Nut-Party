@@ -593,6 +593,9 @@ MonoBehaviour:
   settings: {fileID: 11400000, guid: 260844c2d6eb4850bc1d85de73f18dfb, type: 2}
   goldImage: {fileID: 114924050743934937}
   goldTween: {fileID: 114900000000000010}
+  localMarqueePath: Prefabs/PlayerInfo/PMDSimple
+  localMissingValue: "--"
+  localMissingFeed: Withdrawal records unavailable
   playerInfoPrefab: {fileID: 114025901758691103, guid: a47af04fa093a5b4ea3ce68ebc251026, type: 3}
   queueDelay: 2.5
   labels:

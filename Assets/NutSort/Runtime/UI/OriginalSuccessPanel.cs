@@ -68,6 +68,32 @@ namespace NutSort.UI
             GetBtn.onClick.RemoveAllListeners();GetBtn.onClick.AddListener(ClickClose);
             MoreGetBtn.onClick.RemoveAllListeners();MoreGetBtn.onClick.AddListener(ClickClose);
         }
+        // Local and remote settlement providers share the original presentation;
+        // the provider owns balances, persistence and the completion callback.
+        public void InitSettlement(OriginalTables tables,string language,Func<bool> gate,
+            Action<string> audio,Action closed,OriginalRewardItemFactory factory,
+            OriginalItemGetInfo value,Action<bool> claim,bool allowMore,bool showAd,string moreCaption)
+        {
+            if(value==null||value.ItemInfos==null||value.ItemInfos.Count==0)
+                throw new ArgumentException("Settlement requires reward items.",nameof(value));
+            if(claim==null)throw new ArgumentNullException(nameof(claim));
+            this.tables=tables;this.language=language;this.gate=gate;this.audio=audio;this.closed=closed;
+            openingCompleted=null;
+            InitializePresentation();
+            if(allowMore)moreLabel.text=moreCaption;
+            Items.gameObject.SetActive(true);
+            GetBtn.gameObject.SetActive(true);
+            MoreGetBtn.gameObject.SetActive(allowMore);
+            ad.SetActive(allowMore&&showAd);
+            if(Views!=null)
+                foreach(var view in Views)Destroy(view.gameObject);
+            Views=factory.GenerateItem(value,Items,true,true);
+            Close.onClick.RemoveAllListeners();Close.onClick.AddListener(ClickClose);
+            GetBtn.onClick.RemoveAllListeners();
+            GetBtn.onClick.AddListener(()=>{if(!gate())return;claim(false);audio(settings.ClickSound);});
+            MoreGetBtn.onClick.RemoveAllListeners();
+            MoreGetBtn.onClick.AddListener(()=>{if(!allowMore||!gate())return;claim(true);audio(settings.ClickSound);});
+        }
         private void InitializePresentation()
         {
             main.localScale=Vector3.zero;title.localScale=Vector3.zero;

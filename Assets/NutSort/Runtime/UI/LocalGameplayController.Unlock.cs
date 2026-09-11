@@ -14,7 +14,7 @@ namespace NutSort.UI
         private OriginalGameplayUnlock unlock;
         private readonly OriginalPanelActionQueue unlockQueue=new OriginalPanelActionQueue();
         public OriginalGameplayUnlockPanel UnlockPanel=>unlockHost==null?null:unlockHost.Panel;
-        private bool HasLocalModal=>ResultVisible||teachingPanel!=null||(unlockHost!=null&&unlockHost.IsOpen);
+        private bool HasLocalModal=>toolOffer!=null||toolAdPending||withdrawalAccount!=null||withdrawalConfirmation!=null||diamondWithdrawalPanel!=null||withdrawalPanel!=null||welcomePending||recordGuide!=null||ResultVisible||teachingPanel!=null||(unlockHost!=null&&unlockHost.IsOpen);
 
         private void BindCoreInitialization()
         {

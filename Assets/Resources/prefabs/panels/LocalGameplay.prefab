@@ -606,13 +606,33 @@ MonoBehaviour:
   failurePrefabPath: Prefabs/Panels/LocalFailure
   subroundPrefabPath: Prefabs/Panels/LocalSubrounds
   successPrefabPath: Prefabs/Panels/LocalSuccess
-  localNextCaption: Next level
+  localNextCaption: Claim
+  rewardsTopPrefabPath: Prefabs/Panels/LocalMainPanelTop
+  diamondWithdrawalPrefabPath: Prefabs/Panels/TXCoinPanel
+  withdrawalAccountPrefabPath: Prefabs/Panels/TXUserInfoPanel
+  withdrawalConfirmationPrefabPath: Prefabs/Panels/TXUserInfoSurePanel
+  withdrawalAccountHelp: Select a withdrawal method and enter the matching account details.
+  withdrawalPrefabPath: Prefabs/Panels/TXPanel
+  withdrawalCoinIconPath: Atlas/Items/Coin
+  withdrawalServiceUnavailable: Withdrawal service is not connected.
   teachingPrefabPath: Prefabs/Panels/NewbieGuidePanel
+  recordGuidePrefabPath: Prefabs/Panels/TXRecordGuidePanel
+  recordGuideCountry: US
   localFinalTeachingText: Complete this level to continue in local mode
   localTeachingCaption: Local
   bottom: {fileID: 6733030412207139940}
   exchangeMask: {fileID: 1780478057215504892}
   exchangeCancelDelay: 0.5
+  normalClaimAdThreshold: 3
+  interstitialClaimLimit: 5
+  simulateSettlementAds: 1
+  interstitialCompleteText: Interstitial ad completed
+  simulateRewardedToolAds: 1
+  simulatedToolAdDelay: 0.5
+  toolAdSuccessText: Reward received
+  toolAdFailureText: Ad unavailable. Please try again.
+  toolOfferPrefabPath: Prefabs/Panels/ItemGetPanel
+  localToolRefillCount: 1
   popTipPrefabPath: Prefabs/Tip
   gameplaySession: {fileID: 11400000, guid: 8fbf9bb2717640819316bc3847b2c9f0, type: 2}
   unlockPrefabPath: Prefabs/Panels/UnlockGameplayPanel

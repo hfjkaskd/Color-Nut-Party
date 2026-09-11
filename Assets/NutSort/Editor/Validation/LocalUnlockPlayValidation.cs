@@ -21,7 +21,7 @@ namespace NutSort.Validation
         private static OriginalGameScene game;
         private static OriginalStartupFlow startup;
         static LocalUnlockPlayValidation(){if(SessionState.GetBool(Key,false)){timeout=EditorApplication.timeSinceStartup+180;EditorApplication.update+=Tick;}}
-        private static string Fixture(int level,int unlocked)=>"{\"Level\":"+level+",\"NewGameplayUnlockIndex\":"+unlocked+"}";
+        private static string Fixture(int level,int unlocked)=>"{\"IsCompleteRecordGuide\":true,\"Level\":"+level+",\"NewGameplayUnlockIndex\":"+unlocked+"}";
         public static void Run()
         {
             OriginalPreferenceFixture.Begin(Fixture(4,0));EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");
@@ -42,7 +42,7 @@ namespace NutSort.Validation
                 if(startup==null)startup=UnityEngine.Object.FindObjectOfType<OriginalStartupFlow>();
                 if(game==null||startup==null||startup.LocalGameplay==null||game.IsRestarting||game.InputBlocked||!game.IsInitDone)return;
                 var local=startup.LocalGameplay;
-                Check(game.User.ServerConfigData==null&&game.User.GoldRewardTargetS2CData==null&&game.User.Gold==0&&game.User.Coin==0,"No fake server, reward or balance state");
+                Check(game.User.ServerConfigData==null&&game.User.GoldRewardTargetS2CData!=null&&game.User.Gold==0&&game.User.Coin==0,"Captured config loaded without awarding a balance");
                 if(Time.time<waitUntil)return;
                 if(phase==0)
                 {

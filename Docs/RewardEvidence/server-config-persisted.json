@@ -1,0 +1,39 @@
+{
+  "LSSLR1": 30,
+  "LSSLR2": 4,
+  "LSSLRFP": 3,
+  "LSSLRFV": 5,
+  "LSSLD1": 300,
+  "LSSLD2": 30,
+  "LSSLDR": [
+    80,
+    0,
+    0,
+    0,
+    7,
+    3,
+    7,
+    1,
+    7,
+    3
+  ],
+  "LSSEDGC": 2,
+  "LSSR1": 7,
+  "LSSR2": 4,
+  "LSSUPT": [
+    90,
+    120
+  ],
+  "LSSNTY": true,
+  "LSSGPUL": [
+    8,
+    21,
+    61,
+    111
+  ],
+  "LSS260820": false,
+  "LSSSHSLV": 10,
+  "LSSLSMAC": 12,
+  "LSSAB": false,
+  "ksCountry": "ID-BR"
+}

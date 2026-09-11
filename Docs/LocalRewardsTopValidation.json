@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "checks": {
+    "header": "NUT_LOCAL_REWARDS_TOP_PASS actual startup, BR/ID currency and hints, live balances, five milestones, stage transitions and standard Button input",
+    "claimRefresh": "NUT_LOCAL_CASH_REWARD_PASS BR fallback and ID actual last move, visible item/currency, country bands, pending reload, one-time claim, persisted balance and next board"
+  }
+}
