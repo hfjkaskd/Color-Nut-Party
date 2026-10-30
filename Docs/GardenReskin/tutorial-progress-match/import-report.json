@@ -1,0 +1,257 @@
+{
+  "status": "PASS",
+  "dryRun": false,
+  "generatedAtUtc": "2026-09-21T12:35:11.0799421Z",
+  "manifest": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\tutorial-progress-match\\import-manifest.json",
+  "originalZip": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\OriginalAssets\\before-reskin.zip",
+  "originalZipSha256": "09bdf1c5945a316901b3079ea0d6f8244275ef713216d3f10a83431a3a27a622",
+  "method": "Generated PNG pixels only; substantial alpha-component union bounds, original alpha bounds, bicubic or nine-slice resampling, optional original-alpha mask. No recolouring or painting.",
+  "targetCount": 3,
+  "entries": [
+    {
+      "target": "Assets/Resources/atlas/newbieguidepanel/dian.png",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\Generated\\replay-cream-disc.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "originalZipEntry": "Assets/Resources/atlas/newbieguidepanel/dian.png",
+      "originalSha256": "562cf51394e241bee6ea4603cd6e0ee2da7881b30d8fe84e871c4c411c7e9304",
+      "previousSha256": "8354562528549485df274521a3bd8e5185a7212d3a6748685d60947df4077817",
+      "sourceSha256": "7bcd3342308afa080caa1a35c834d1dee634fe1ff2e713e61a288754f88f25fd",
+      "outputSha256": "8238e083113559cfc19583db025014b9f665d25a6dd4eedf9b3208d66fd86e5c",
+      "outputBytes": 2471,
+      "originalAndOutputSize": [
+        34,
+        34
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceCell": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sourceBounds": [
+        134,
+        132,
+        986,
+        983
+      ],
+      "originalAlphaBounds": [
+        0,
+        0,
+        34,
+        34
+      ],
+      "largestComponentPixels": 756873,
+      "alphaThreshold": 100,
+      "padding": 2,
+      "retainedComponents": 1,
+      "preserveOriginalAlpha": false,
+      "nineSlice": false,
+      "oldBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "borderSource": "none",
+      "sourceSliceRatio": [
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "destinationSlicePixels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stagedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\ImportStaging\\15dca0570be541a8bdfd2532483bcbf7\\0000.png"
+    },
+    {
+      "target": "Assets/Resources/atlas/newbieguidepanel/dian1.png",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\Generated\\tool-count-green.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "originalZipEntry": "Assets/Resources/atlas/newbieguidepanel/dian1.png",
+      "originalSha256": "5031d5b2ab2278ce11b49ff415e9b20eb245578417b6ab1e1216334862b6f1eb",
+      "previousSha256": "3111feeea1ea8177f22710206fdfd25f00416c42e02048856dca7bafada22a3f",
+      "sourceSha256": "190d228fcf94ad117bc73a4aa1335d7d9288779b315a4ff506946bf117bc6a98",
+      "outputSha256": "9a4b919590a771dbe561c8cd181ddca86785eb849c029e83a0fe27c6cf1acbb9",
+      "outputBytes": 3271,
+      "originalAndOutputSize": [
+        34,
+        34
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceCell": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sourceBounds": [
+        135,
+        124,
+        984,
+        989
+      ],
+      "originalAlphaBounds": [
+        0,
+        0,
+        34,
+        34
+      ],
+      "largestComponentPixels": 756722,
+      "alphaThreshold": 100,
+      "padding": 2,
+      "retainedComponents": 1,
+      "preserveOriginalAlpha": false,
+      "nineSlice": false,
+      "oldBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "borderSource": "none",
+      "sourceSliceRatio": [
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "destinationSlicePixels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stagedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\ImportStaging\\15dca0570be541a8bdfd2532483bcbf7\\0001.png"
+    },
+    {
+      "target": "Assets/Resources/atlas/newbieguidepanel/line.png",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\Generated\\tutorial-track-wood.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "originalZipEntry": "Assets/Resources/atlas/newbieguidepanel/line.png",
+      "originalSha256": "36be09a040d62154a437f48b0af741c94afd18c96e470744667cff0414dd354a",
+      "previousSha256": "5293706d8d24ef0fd4f7998cdb6bf0341241c98d1049f13b0304109ca9ed73f5",
+      "sourceSha256": "e5d93ae10aed9a491278421c5d350649269c28afa780871c6e58c08ba354e30d",
+      "outputSha256": "2e1881551cfdd6bb74968cc4e0a99c3ea780bb8253ebac0d9b2c009709d0563f",
+      "outputBytes": 1384,
+      "originalAndOutputSize": [
+        131,
+        5
+      ],
+      "sourceSize": [
+        2022,
+        778
+      ],
+      "sourceCell": [
+        0,
+        0,
+        2022,
+        778
+      ],
+      "sourceBounds": [
+        107,
+        366,
+        1808,
+        46
+      ],
+      "originalAlphaBounds": [
+        0,
+        0,
+        131,
+        5
+      ],
+      "largestComponentPixels": 74953,
+      "alphaThreshold": 100,
+      "padding": 2,
+      "retainedComponents": 1,
+      "preserveOriginalAlpha": false,
+      "nineSlice": false,
+      "oldBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "borderSource": "none",
+      "sourceSliceRatio": [
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "destinationSlicePixels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stagedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\ImportStaging\\15dca0570be541a8bdfd2532483bcbf7\\0002.png"
+    }
+  ],
+  "protectedFiles": [
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\newbieguidepanel\\dian.asset",
+      "sha256": "60846609255b5b4fb25a04c943e5fd6ddfff4fa5236b929088ce5b713a601ce4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\newbieguidepanel\\line.png.meta",
+      "sha256": "e066b7a41ddca7581db161da0306d13357eb63a280e4da247117d06fc30848ae",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\newbieguidepanel\\dian.png.meta",
+      "sha256": "ebd7bb71b6d1c503ed445eebf58d41ed194905e90f7d534dc8f1f16c05cb104d",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\newbieguidepanel\\line.asset",
+      "sha256": "ad82a4d176fb4ddbe095257095e14860b6ab9e979c8520e2c7dd91764ff44872",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\newbieguidepanel\\dian1.asset",
+      "sha256": "5146328dc06efd013cf39dfd97279a1b1a216c23af87fc8239aa5241ab7b3943",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\newbieguidepanel\\dian1.asset.meta",
+      "sha256": "823e6ec21b2555fb8440a7ace77013f5d707843c590d5b47901b78766d0a228b",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\newbieguidepanel\\dian1.png.meta",
+      "sha256": "7093411059b7a47cf4bb9402bbaacc20ba757fdc0bb1ced03afab53f02bc34a8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\newbieguidepanel\\line.asset.meta",
+      "sha256": "4934fb4e93edfc14070c1bc8bc3a0f17cd3209a1306e0f622a48290b019e7603",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\newbieguidepanel\\dian.asset.meta",
+      "sha256": "6ba0fe4a125c0c9d029744c135dc16e745d184a872e888710375d6b0e626e567",
+      "unchanged": true
+    }
+  ]
+}

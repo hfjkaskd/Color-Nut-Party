@@ -1,0 +1,213 @@
+{
+  "status": "PASS",
+  "reviewedAtUtc": "2026-09-22T09:10:27.977820+00:00",
+  "baseline": "Docs\\GardenReskin\\stats-display-area\\PlayerInfo-before.prefab",
+  "target": "Assets\\Resources\\prefabs\\playerinfo\\PlayerInfo.prefab",
+  "sha256": {
+    "before": "6be5521367923d1346b13699a20c10ed363e88a852b8fd591aec59d96df1dc03",
+    "after": "42e6eccc3a15ed20f5ce5b34df507ca58f7a578ed411d0c45aa52dd988f24842"
+  },
+  "lineEndingNormalization": "CRLF and LF treated equivalently for serialized-field comparison",
+  "objectCount": 49,
+  "objectCountsByUnityClassId": {
+    "1": 13,
+    "114": 12,
+    "222": 11,
+    "224": 13
+  },
+  "changedObjectCount": 15,
+  "changedFieldCount": 18,
+  "checks": {
+    "sameObjectIdsAndOrder": true,
+    "sameComponentTypesAndPropertyCounts": true,
+    "sameHierarchyAndComponents": true,
+    "sameAllSerializedReferences": true,
+    "sameTextContentAndLocalizationBindings": true,
+    "sameAnchoredPositions": true,
+    "sameAnchorsPivotsScalesAndTextHeights": true,
+    "sameFontAssetsAndSizeSettings": true,
+    "allDifferencesMatchExactAllowlist": true
+  },
+  "changes": [
+    {
+      "fileId": "114313026266067498",
+      "unityClassId": "114",
+      "changes": [
+        {
+          "field": "m_Color",
+          "before": "m_Color: {r: 1, g: 1, b: 1, a: 1}",
+          "after": "m_Color: {r: 1, g: 1, b: 1, a: 0}"
+        }
+      ]
+    },
+    {
+      "fileId": "224621510681728303",
+      "unityClassId": "224",
+      "changes": [
+        {
+          "field": "m_SizeDelta",
+          "before": "m_SizeDelta: {x: 251.7, y: 106.1}",
+          "after": "m_SizeDelta: {x: 282, y: 106.1}"
+        }
+      ]
+    },
+    {
+      "fileId": "114634108722742392",
+      "unityClassId": "114",
+      "changes": [
+        {
+          "field": "m_margin",
+          "before": "m_margin: {x: 12, y: 10, z: 12, w: 10}",
+          "after": "m_margin: {x: 4, y: 4, z: 4, w: 4}"
+        }
+      ]
+    },
+    {
+      "fileId": "224302127217294661",
+      "unityClassId": "224",
+      "changes": [
+        {
+          "field": "m_SizeDelta",
+          "before": "m_SizeDelta: {x: 251.7, y: 86.55}",
+          "after": "m_SizeDelta: {x: 282, y: 86.55}"
+        }
+      ]
+    },
+    {
+      "fileId": "114642988549198181",
+      "unityClassId": "114",
+      "changes": [
+        {
+          "field": "m_enableWordWrapping",
+          "before": "m_enableWordWrapping: 1",
+          "after": "m_enableWordWrapping: 0"
+        },
+        {
+          "field": "m_margin",
+          "before": "m_margin: {x: 0, y: 0, z: 0, w: 0}",
+          "after": "m_margin: {x: 4, y: 4, z: 4, w: 4}"
+        }
+      ]
+    },
+    {
+      "fileId": "114918264173551851",
+      "unityClassId": "114",
+      "changes": [
+        {
+          "field": "m_Color",
+          "before": "m_Color: {r: 1, g: 1, b: 1, a: 1}",
+          "after": "m_Color: {r: 1, g: 1, b: 1, a: 0}"
+        }
+      ]
+    },
+    {
+      "fileId": "224587397909062814",
+      "unityClassId": "224",
+      "changes": [
+        {
+          "field": "m_SizeDelta",
+          "before": "m_SizeDelta: {x: 251.7, y: 106.1}",
+          "after": "m_SizeDelta: {x: 282, y: 106.1}"
+        }
+      ]
+    },
+    {
+      "fileId": "114371939378208658",
+      "unityClassId": "114",
+      "changes": [
+        {
+          "field": "m_margin",
+          "before": "m_margin: {x: 12, y: 10, z: 12, w: 10}",
+          "after": "m_margin: {x: 4, y: 4, z: 4, w: 4}"
+        }
+      ]
+    },
+    {
+      "fileId": "224694121525821480",
+      "unityClassId": "224",
+      "changes": [
+        {
+          "field": "m_SizeDelta",
+          "before": "m_SizeDelta: {x: 251.7, y: 86.55}",
+          "after": "m_SizeDelta: {x: 282, y: 86.55}"
+        }
+      ]
+    },
+    {
+      "fileId": "114017697238300914",
+      "unityClassId": "114",
+      "changes": [
+        {
+          "field": "m_enableWordWrapping",
+          "before": "m_enableWordWrapping: 1",
+          "after": "m_enableWordWrapping: 0"
+        },
+        {
+          "field": "m_margin",
+          "before": "m_margin: {x: 0, y: 0, z: 0, w: 0}",
+          "after": "m_margin: {x: 4, y: 4, z: 4, w: 4}"
+        }
+      ]
+    },
+    {
+      "fileId": "114089843903986396",
+      "unityClassId": "114",
+      "changes": [
+        {
+          "field": "m_Color",
+          "before": "m_Color: {r: 1, g: 1, b: 1, a: 1}",
+          "after": "m_Color: {r: 1, g: 1, b: 1, a: 0}"
+        }
+      ]
+    },
+    {
+      "fileId": "224672306508523268",
+      "unityClassId": "224",
+      "changes": [
+        {
+          "field": "m_SizeDelta",
+          "before": "m_SizeDelta: {x: 251.7, y: 106.1}",
+          "after": "m_SizeDelta: {x: 282, y: 106.1}"
+        }
+      ]
+    },
+    {
+      "fileId": "114060945828524476",
+      "unityClassId": "114",
+      "changes": [
+        {
+          "field": "m_margin",
+          "before": "m_margin: {x: 12, y: 10, z: 12, w: 10}",
+          "after": "m_margin: {x: 4, y: 4, z: 4, w: 4}"
+        }
+      ]
+    },
+    {
+      "fileId": "224900271049623953",
+      "unityClassId": "224",
+      "changes": [
+        {
+          "field": "m_SizeDelta",
+          "before": "m_SizeDelta: {x: 251.7, y: 86.55}",
+          "after": "m_SizeDelta: {x: 282, y: 86.55}"
+        }
+      ]
+    },
+    {
+      "fileId": "114518489005915545",
+      "unityClassId": "114",
+      "changes": [
+        {
+          "field": "m_enableWordWrapping",
+          "before": "m_enableWordWrapping: 1",
+          "after": "m_enableWordWrapping: 0"
+        },
+        {
+          "field": "m_margin",
+          "before": "m_margin: {x: 0, y: 0, z: 0, w: 0}",
+          "after": "m_margin: {x: 4, y: 4, z: 4, w: 4}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: stylized-concept. Production Unity UI sprite, a single thin horizontal warm pale honey-wood connector track for a small tutorial step indicator. Match the soft cream and light wood garden-game palette in the attached first reference image; second image is the old connector being replaced, do not retain its green fill or orange metallic rim. Subject: one very long slender flat capsule line, width:height exactly about 26:1, straight horizontal, softly rounded tiny end caps. Warm light honey-beige body, low contrast delicate soft darker brown lower edge, restrained ivory upper edge, subtle depth without glossy metal and no visible grain at small size. It must read as an understated clean wooden rail behind four circular progress markers. Output ONLY the rail, do not draw markers. Actual target 131x5 pixels. Place this complete slender horizontal sprite across the center of a transparent canvas with plenty of transparent space above and below, small margin at its ends. Genuine transparent RGBA background. No green, no orange-gold metallic trim, no diamonds, no notches, no buttons, no text, no numbers, no icons, no scene or backdrop. It should remain coherent when scaled down to a few pixels high.",
+  "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-9be7311c-cd35-4e66-acc3-2a9073205bb5.png",
+  "savedPath": "Docs/GardenReskin/Generated/tutorial-track-wood.png",
+  "reusedArtwork": [
+    {
+      "source": "Docs/GardenReskin/Generated/replay-cream-disc.png",
+      "target": "Assets/Resources/atlas/newbieguidepanel/dian.png",
+      "role": "empty marker: cream"
+    },
+    {
+      "source": "Docs/GardenReskin/Generated/tool-count-green.png",
+      "target": "Assets/Resources/atlas/newbieguidepanel/dian1.png",
+      "role": "filled marker: green"
+    }
+  ]
+}

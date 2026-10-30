@@ -1,0 +1,50 @@
+{
+  "suite": "withdrawal",
+  "marker": "NUT_LOCAL_WITHDRAWAL_PASS",
+  "passed": true,
+  "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal.log",
+  "screenshots": [
+    {
+      "sha256": "64C88F4CF8CAC82D9C184A26BA833E1D857FF87B1D3DF72BF767AD34F40254A1",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-withdrawal-cash-BR.png",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+    },
+    {
+      "sha256": "AA280BD29CB7B8682038B8F4D2DE9C1F02357E79B092F8F620CA96C82E2453FE",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-withdrawal-cash-ID.png",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+    },
+    {
+      "sha256": "701A3C09058C529F0578C204E15C551B10F56D90F08F23A67F9B7A155A6CBA4C",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-withdrawal-account-BR.png",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+    },
+    {
+      "sha256": "8888F98BAF7580B3E232870AFB9C37C5DA3B3DF78D8761FFC11711551FC46951",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-withdrawal-account-ID.png",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+    },
+    {
+      "sha256": "CD3AAA055A1FB70EE339A095BB6164C1C95DCB9B710A79B1C454BD51B6728E6C",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-withdrawal-coin-BR.png",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+    },
+    {
+      "sha256": "362C084FF68A56D9D2917F0BBD615D7B8FF2A8D224EBABB57D1EE35F17714158",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-withdrawal-coin-ID.png",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+    },
+    {
+      "sha256": "FCDA5A4CAE7811CECBBB794B1D7056BD8F8D99BE52A4B3D08FD7DAB05B943CA7",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-diamond-withdraw-feedback-BR.png",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+    },
+    {
+      "sha256": "D1D074AF5D3AC0AAE2916B496AF83A137F824CD8BD52D175772FE86EE33F72E1",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-diamond-withdraw-feedback-ID.png",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+    }
+  ],
+  "exitCode": 0,
+  "method": "NutSort.Validation.LocalWithdrawalPlayValidation.Run"
+}

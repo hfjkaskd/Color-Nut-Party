@@ -1,0 +1,641 @@
+{
+  "schema": 1,
+  "checkedUtc": "2026-09-21T11:45:24.515148+00:00",
+  "passed": true,
+  "baselineFiles": 3853,
+  "currentFiles": 3853,
+  "missing": [],
+  "forbiddenChanges": [],
+  "changed": [
+    {
+      "path": "Assets/Material/DiZuoLockedMaterial.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/DiZuoMaterial.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline_b.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline_blue.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline_blue1.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline_blue2.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline_brown.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline_gray.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline_green.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline_green1.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline_orange.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline_pink.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline_purple.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Material/zh_Custom SDF_outline_red_b.mat",
+      "kind": "material"
+    },
+    {
+      "path": "Assets/Resources/atlas/appratingpanel/bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/appratingpanel/title.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/items/AddScrew.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/items/Exchange.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/items/Revoke.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/localstats/bg2_3.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/localstats/bg_3.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/coin_tip_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/gold_tip_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/goldget.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/hintlevel_bg1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/hintlevel_bg2.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/hintlevel_bg3.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/hintlevel_bg4.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/hintlevel_tx_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/item_add.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/item_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/item_bg1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/level_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/PlayerGoldGetHint_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/replay.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/setting.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/target_tip_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/TargetReward_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/tx_bar.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/tx_bar_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/tx_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/tx_bg1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/tx_dj_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/tx_lv_bar.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/tx_lv_bar_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/newbieguidepanel/bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/newbieguidepanel/bg1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/newbieguidepanel/dian.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/newbieguidepanel/dian1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/newbieguidepanel/line.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/tooloffer/ad.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/tooloffer/bg1_5.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/tooloffer/bg2_1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/tooloffer/bg_0.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/tooloffer/btn1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/tooloffer/close.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/tooloffer/goldget_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/tooloffer/title_0.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/bar.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/bar_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/bg2.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/bg3.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/bg4.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/btn.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/item_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/item_bg1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/item_bg1_1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/item_bg2.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/tip_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/atlas/txcoinpanel/title1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/game/spirte/bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/game/spirte/Mask.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/game/spirte/Mask1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/AddScrewItem.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/CoinItem.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/ExchangeItem.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/GoldItem.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/LocalGameplay.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanelTop.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MessagePanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/NewbieGuidePanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/ReplayPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/RevokeItem.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/SuccessPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/playerinfo/PMDSimple.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Texture2D/ad.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bar.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bar_1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bar_2.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bar_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bar_bg_1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bar_bg_2.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg0.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg0_0.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg1_1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg1_2.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg1_4.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg1_5.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg1_7.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg1_8.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg2_0.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg2_1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg2_2.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg2_4.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg3_0.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg3_1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg_0.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg_10.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg_11.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg_12.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg_14.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg_2.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg_4.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg_5.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/bg_7.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/btn.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/btn1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/btn_0.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/close.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/goldget_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/kuang.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/line.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/line2.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/loading.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/loading1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/logo_android.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/pmd_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/pmd_dm_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/tip_bg.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/tip_bg_0.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/title.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/title1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/title2.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/title3.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/title_0.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/title_1.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/title_3.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/title_5.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/title_7.png",
+      "kind": "texture"
+    },
+    {
+      "path": "Assets/Texture2D/title_9.png",
+      "kind": "texture"
+    }
+  ],
+  "newFiles": [],
+  "limits": "Material/texture changes require visual review. New files are listed for review. Color and sprite/font/material presentation fields are allowed; everything else in prefabs/scenes is protected."
+}

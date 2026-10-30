@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-21",
+  "scope": [
+    "Assets/Resources/atlas/newbieguidepanel/dian.png",
+    "Assets/Resources/atlas/newbieguidepanel/dian1.png",
+    "Assets/Resources/atlas/newbieguidepanel/line.png"
+  ],
+  "request": "Replace gray square tutorial markers with coherent circular progress art and a pale wood connector. Correct artwork roles: dian empty cream, dian1 filled green.",
+  "evidenceType": "Live Unity Editor Play Mode screenshot in current user state, Level 1 Seed 3",
+  "screenshot": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\tutorial-progress-match\\unity-live.png",
+  "screenshotSha256": "bc15a5e64fc5f47aa24fd571f16ac8568f2f5ec730743903739a8ef54ed55525",
+  "crop": {
+    "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\tutorial-progress-match\\unity-progress-crop.png",
+    "sha256": "d065da767149e15ef02a85e9c72388bf3ecc14a9456bc658f3d9c3261c880be8",
+    "sourceRect": [
+      500,
+      350,
+      210,
+      54
+    ],
+    "processing": "Lossless crop only"
+  },
+  "visualCheck": "PASS: four circular green filled markers with a pale wood connector in the unchanged positions",
+  "structuralCheck": "Docs/GardenReskin/tutorial-progress-match/integrity-report.json",
+  "verifiedFiles": [
+    {
+      "path": "Assets/Resources/atlas/newbieguidepanel/dian.png",
+      "sha256": "8238e083113559cfc19583db025014b9f665d25a6dd4eedf9b3208d66fd86e5c"
+    },
+    {
+      "path": "Assets/Resources/atlas/newbieguidepanel/dian1.png",
+      "sha256": "9a4b919590a771dbe561c8cd181ddca86785eb849c029e83a0fe27c6cf1acbb9"
+    },
+    {
+      "path": "Assets/Resources/atlas/newbieguidepanel/line.png",
+      "sha256": "2e1881551cfdd6bb74968cc4e0a99c3ea780bb8253ebac0d9b2c009709d0563f"
+    }
+  ],
+  "behaviorCheck": "Existing SetMarker(index,index<=LevelSeed) code and empty/filled resource paths unchanged; seed3 renders four filled markers. Shared hidden-level marker behavior and current-marker alpha animation remain unchanged.",
+  "newAssets": [],
+  "newTextureCount": 0,
+  "limitations": [
+    "Only current Seed 3 state was inspected live in this artwork revision. Earlier states were verified by their unchanged source mappings, not new runtime captures.",
+    "No runtime code or Prefab edits; broader functional suites not rerun. No device test."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-21",
+  "scope": [
+    "Assets/Resources/atlas/mainpanel/gold_tip_bg.png",
+    "Assets/Resources/atlas/mainpanel/coin_tip_bg.png",
+    "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "Assets/Resources/prefabs/panels/MainPanelTop.prefab",
+    "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+    "Assets/Resources/prefabs/panels/GoldItem.prefab",
+    "Assets/Resources/prefabs/panels/CoinItem.prefab"
+  ],
+  "request": "Match the two HUD hint bubbles to the approved AI preview style",
+  "evidenceType": "Live Unity Editor Play Mode screenshot, using the currently loaded user state",
+  "screenshot": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\top-hints-match\\unity-live.png",
+  "screenshotSha256": "C1FF11ACAAF534F014E72CBA786E65262264C96F4F332D6B4607C5ED4C40749E",
+  "visualCheck": "PASS: near-white fill, fine green/lavender rims, navy ordinary text, red dynamic rich text preserved",
+  "structuralCheck": "Docs/GardenReskin/top-hints-match/structure-report.json",
+  "note": "Two PNGs and eight TMP colour fields across five Prefabs changed. Layout, bindings and gameplay remain unchanged. Seven-suite results are historical functional evidence and were not rerun for this visual revision; older main screenshots show the previous hint style."
+}

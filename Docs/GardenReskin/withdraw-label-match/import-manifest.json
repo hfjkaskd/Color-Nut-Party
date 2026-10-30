@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "artworkTool": "built-in image_gen",
+  "alphaThreshold": 100,
+  "padding": 2,
+  "sourceSliceRatio": 0.12,
+  "entries": [
+    {
+      "target": "Assets/Resources/atlas/mainpanel/hintlevel_tx_bg.png",
+      "source": "Docs/GardenReskin/Generated/withdraw-label-gold.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    }
+  ],
+  "report": "Docs/GardenReskin/withdraw-label-match/import-report.json"
+}

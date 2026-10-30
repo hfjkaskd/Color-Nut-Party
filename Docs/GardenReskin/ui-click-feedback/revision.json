@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-21",
+  "status": "PASS",
+  "scope": "Preserve tutorial locks and add standard Button click feedback; three runtime source files and one Editor validator plus meta",
+  "testMethod": "NutSort.Validation.LocalTeachingClickFeedbackPlayValidation.Run",
+  "exitCode": 0,
+  "marker": "NUT_LOCAL_TEACHING_CLICK_FEEDBACK_PASS",
+  "mouseValidation": "Live current-user-state Cash and replay mouse clicks show existing tutorial instruction",
+  "preferenceFixtureRestored": true,
+  "verifiedFiles": [
+    {
+      "path": "Assets/NutSort/Runtime/UI/LocalGameplayController.Teaching.cs",
+      "sha256": "D027BAE2A109E8583D49A3EAA58C6867E3E61BDEB7560EB8E8D1ADB47154080D"
+    },
+    {
+      "path": "Assets/NutSort/Runtime/UI/LocalGameplayController.Tools.cs",
+      "sha256": "913C5AE6B6A8DCC5CB689C0A405061AEEE37F07DB6F18FF32AAC28FB5F45A10F"
+    },
+    {
+      "path": "Assets/NutSort/Runtime/UI/LocalGameplayController.Top.cs",
+      "sha256": "3A4E1FD86FC65BD3AA2397A31ECA6C4C01859CCD764E65FACCC798EBBC5894B2"
+    },
+    {
+      "path": "Assets/NutSort/Editor/Validation/LocalTeachingClickFeedbackPlayValidation.cs",
+      "sha256": "C9BC7CE94AF61EDDD238C983A0A1E45C088730C56C74AC63851533B388230452"
+    },
+    {
+      "path": "Assets/NutSort/Editor/Validation/LocalTeachingClickFeedbackPlayValidation.cs.meta",
+      "sha256": "0A9B6538E3A2AF0E3071164705DFBC92600812CD8658940E0C8929F26F290625"
+    },
+    {
+      "path": "Docs/GardenReskin/ui-click-feedback/final-play-validation.log",
+      "sha256": "25343D6ED2BF26592E6555758EB34F4988DF8C5DBA11A04DCAB40CD13A873449"
+    },
+    {
+      "path": "Docs/GardenReskin/ui-click-feedback/unity-live-cash.png",
+      "sha256": "DD1F2CCC4B0F02044D7AB9AB90D26C72AC2E282F831A9592B2AAB1F8E1C8FE99"
+    },
+    {
+      "path": "Docs/GardenReskin/ui-click-feedback/unity-live-replay.png",
+      "sha256": "983C341F5E6964FC549E0408E9B906701E4A791B09ADBB450C368321A27C728E"
+    },
+    {
+      "path": "Docs/GardenReskin/ui-click-feedback/unity-test-seed-0.png",
+      "sha256": "40F5B2B10674FB5BE6392C83159BF7DFD86D27DEB2906F03E03DFCE8A18F7B9E"
+    },
+    {
+      "path": "Docs/GardenReskin/ui-click-feedback/unity-test-seed-1.png",
+      "sha256": "61FB5DF5A7547767538FED1B97B22BED758B95ECE5B4F1535F449B5A7BA7E960"
+    },
+    {
+      "path": "Docs/GardenReskin/ui-click-feedback/unity-test-seed-2.png",
+      "sha256": "3CC36640947DDCF8AD1A7665DC3E8A0F2301FE1441F879E4143209D21F31EF22"
+    },
+    {
+      "path": "Docs/GardenReskin/ui-click-feedback/unity-test-seed-3.png",
+      "sha256": "FA48F803C899C9AFDC0F755BE69390F6BA6EC2CF76EBC7BE592D146996FD52C9"
+    }
+  ],
+  "limitations": [
+    "No Android/iOS device test.",
+    "Historical reskin-only structure baseline predates this runtime fix.",
+    "Interactive Editor logged an Android Build Settings GUILayout repaint exception unrelated to game Button callbacks; retained in interactive-unity.log."
+  ]
+}

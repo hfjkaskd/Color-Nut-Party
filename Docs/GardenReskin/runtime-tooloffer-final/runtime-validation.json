@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "screenshots": [
+    {
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+      "sha256": "46762274B83E03EC3CD6F4743365D35CE7EA2FF5114DA4FBCDCB2ACCF3D672B2",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-tooloffer-final\\tooloffer-unity-play-local-tool-offer-refresh.png"
+    }
+  ],
+  "method": "NutSort.Validation.LocalToolOfferPlayValidation.Run",
+  "marker": "NUT_LOCAL_TOOL_OFFER_PASS",
+  "suite": "tooloffer",
+  "exitCode": 0,
+  "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-tooloffer-final\\tooloffer.log"
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "AI character replacement preview, not Unity runtime or implemented skin",
+  "provider": "built-in image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Asset type: Unity mobile game UI CHARACTER REPLACEMENT PREVIEW, not a redesigned screen. Edit the attached full actual game screenshot (720x1560). Change ONLY the photorealistic female headset support representative in the upper-left header, occupying approximately x55..285, y242..505. Replace her with a DIFFERENT original fictional, polished casual mobile game 3D-cartoon adult female support character: warm friendly face with slightly stylized proportions, chestnut bob-length hair tucked behind one ear, a small professional headset microphone, cream blouse and muted sage-green tailored jacket. Soft warm rendering and clean readable silhouette that fits the pale honey wood / ivory cream / green UI. Half-body portrait, facing the player, calm welcoming smile; no gesturing hands, no props. Keep the top of the head, shoulder width, and bottom cut line at the SAME positions as the original person. The body must remain behind the existing Support ID plaque and must not touch the Hello label or the right-hand support text. Remove the original photographic person entirely; this must look clearly like a new cartoon character, not a filter over the same face. Preserve EVERY other pixel/element as closely as possible: the original entire 720x1560 portrait composition, darkened game background, cash/diamond top bars, stage badges, wooden/cream panels and embossed bank, Support ID plaque, all original text and numbers in their exact positions, progress check/cross/dotted timeline, buttons and icons. DO NOT retype, rearrange, crop, enlarge, or embellish the UI. NO foliage, flowers, sparkles, new cards, labels, or new borders. No content outside the original canvas. This is a single replacement proposal, not a multi-option sheet.",
+  "reference": "Docs/GardenReskin/implementation-20261008/runtime/withdrawal_steps.png",
+  "generatedSource": "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-40de5d72-7169-4be2-8a0c-67078e5e3368.png",
+  "preview": "cartoon-support-preview.png",
+  "status": "Awaiting user visual confirmation under requested preview-first workflow; no Assets files modified",
+  "implementationTarget": "Assets/Resources/atlas/octobergarden/aux-steps-panel.png",
+  "targetSize": [
+    998,
+    1550
+  ],
+  "targetPortraitRegion": [
+    40,
+    0,
+    385,
+    397
+  ],
+  "preserve": [
+    "Prefab hierarchy and RectTransform",
+    "support identity dynamic label",
+    "all dynamic/localized text",
+    "bank relief and ID plaque",
+    "timeline and buttons",
+    "asset canvas and transparency"
+  ]
+}

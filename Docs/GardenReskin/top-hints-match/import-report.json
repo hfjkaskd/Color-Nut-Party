@@ -1,0 +1,176 @@
+{
+  "status": "PASS",
+  "dryRun": false,
+  "generatedAtUtc": "2026-09-21T11:44:58.7795080Z",
+  "manifest": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\top-hints-match\\import-manifest.json",
+  "originalZip": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\OriginalAssets\\before-reskin.zip",
+  "originalZipSha256": "09bdf1c5945a316901b3079ea0d6f8244275ef713216d3f10a83431a3a27a622",
+  "method": "Generated PNG pixels only; substantial alpha-component union bounds, original alpha bounds, bicubic or nine-slice resampling, optional original-alpha mask. No recolouring or painting.",
+  "targetCount": 2,
+  "entries": [
+    {
+      "target": "Assets/Resources/atlas/mainpanel/gold_tip_bg.png",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\Generated\\cash-tip-flat.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "originalZipEntry": "Assets/Resources/atlas/mainpanel/gold_tip_bg.png",
+      "originalSha256": "adf4b5ffec881f05012a3b160e56b5c116eaa8451c2c5722d91ae2540ca4f492",
+      "previousSha256": "1c7a859163669e6bdf369ae6d4a8cd9be3faa82d3956d9885fc670e0f8739c95",
+      "sourceSha256": "3f2bfdc978de2b9ac76f1482399272be0fd9df9576d76a9c992a8c94a2a9bd7a",
+      "outputSha256": "75f4516322a844cc617c667e2e59afa5513da2dd1c9b1f5ece4de8b16c8f6940",
+      "outputBytes": 34650,
+      "originalAndOutputSize": [
+        527,
+        99
+      ],
+      "sourceSize": [
+        2170,
+        725
+      ],
+      "sourceCell": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "sourceBounds": [
+        59,
+        189,
+        2052,
+        330
+      ],
+      "originalAlphaBounds": [
+        0,
+        2,
+        524,
+        95
+      ],
+      "largestComponentPixels": 493282,
+      "alphaThreshold": 100,
+      "padding": 2,
+      "retainedComponents": 1,
+      "preserveOriginalAlpha": false,
+      "nineSlice": false,
+      "oldBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "borderSource": "none",
+      "sourceSliceRatio": [
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "destinationSlicePixels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stagedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\ImportStaging\\49793238ea7b41b59111fc27bfce9e10\\0000.png"
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/coin_tip_bg.png",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\Generated\\diamond-tip-flat.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "originalZipEntry": "Assets/Resources/atlas/mainpanel/coin_tip_bg.png",
+      "originalSha256": "e2cc48294d9bf277a22030eed32025cae9b02a748a8e64783c6bf5efc53571e6",
+      "previousSha256": "292ac1f242660c2c451924c412df2c518eaab4f7a3571378392f2289c8f149c5",
+      "sourceSha256": "9e2e675e2e1b443f88241ea162f08c8d082c939e0b4cfe18029f6fd435f9c192",
+      "outputSha256": "57f042456e92ba0793670676781142387c342e402ba17c0692e84ad75d1a0be1",
+      "outputBytes": 34023,
+      "originalAndOutputSize": [
+        527,
+        99
+      ],
+      "sourceSize": [
+        2170,
+        725
+      ],
+      "sourceCell": [
+        0,
+        0,
+        2170,
+        725
+      ],
+      "sourceBounds": [
+        68,
+        162,
+        2035,
+        353
+      ],
+      "originalAlphaBounds": [
+        3,
+        2,
+        522,
+        95
+      ],
+      "largestComponentPixels": 512790,
+      "alphaThreshold": 100,
+      "padding": 2,
+      "retainedComponents": 1,
+      "preserveOriginalAlpha": false,
+      "nineSlice": false,
+      "oldBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "borderSource": "none",
+      "sourceSliceRatio": [
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "destinationSlicePixels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stagedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\ImportStaging\\49793238ea7b41b59111fc27bfce9e10\\0001.png"
+    }
+  ],
+  "protectedFiles": [
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\gold_tip_bg.png.meta",
+      "sha256": "abc646d0c73024ff651f2e04e95b7f0f5605f43c225ab8dc75fe26163622975d",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\coin_tip_bg.png.meta",
+      "sha256": "aff47592e627229dc0ce59f8e776e471432b60767e6480d60c2e223305772fbb",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\coin_tip_bg.asset",
+      "sha256": "153bd5e4be4901106c9f06b4e1d9caedd72c47f0fa86c67d4db309b08c7bea1a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\gold_tip_bg.asset.meta",
+      "sha256": "3a5ef7e4afe2c6095fbc2710334df3df01b4ad5abea504505004d7a10709e2a8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\coin_tip_bg.asset.meta",
+      "sha256": "d9d311186f7894627c1917764292ca4470f87ae8fd43e9cd63172439ae54db2b",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\gold_tip_bg.asset",
+      "sha256": "906bec23fc4fa6726d2b79c0e4e4fd236b6b6f809af7307e65240ac2cbed97e7",
+      "unchanged": true
+    }
+  ]
+}

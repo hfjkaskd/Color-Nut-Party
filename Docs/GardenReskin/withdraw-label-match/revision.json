@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-21",
+  "scope": [
+    "Assets/Resources/atlas/mainpanel/hintlevel_tx_bg.png"
+  ],
+  "request": "Match Withdraw labels to approved preview: orange-red fill, fine golden rim, original upward pointer",
+  "evidenceType": "Live Unity Editor Play Mode screenshot, current level-one user state",
+  "screenshot": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\withdraw-label-match\\unity-live.png",
+  "screenshotSha256": "64DD5294B9757BD9107147B2BBD3833C647F54AA6F1825C51C1469EBE92AE4A1",
+  "visualCheck": "PASS: four existing stage labels render the orange-red pointed sprite with unchanged dynamic white text",
+  "structuralCheck": "Docs/GardenReskin/withdraw-label-match/integrity-report.json",
+  "note": "Only one 206x77 PNG changed among 3812 audited files. Existing Prefabs, scripts, sprite metadata and tutorial click fix retained. Historical functional suites were not rerun for this sprite-only revision."
+}

@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "checkedUtc": "2026-09-21T12:13:54.995468+00:00",
+  "passed": true,
+  "baseline": "Docs/GardenReskin/withdraw-label-match/before-integrity.json",
+  "baselineFiles": 3812,
+  "currentFiles": 3812,
+  "allowedChange": "Assets/Resources/atlas/mainpanel/hintlevel_tx_bg.png",
+  "changed": [
+    {
+      "path": "Assets/Resources/atlas/mainpanel/hintlevel_tx_bg.png",
+      "before": {
+        "bytes": 32597,
+        "sha256": "b7f9652bf1bc2de16e5ad64390ced255781a017c32730b5f845cc5d728eb31c2"
+      },
+      "after": {
+        "bytes": 20013,
+        "sha256": "8fa099479c4c85d9f84a744a1323834a601603c1c08725817c6270501da74dd9"
+      }
+    }
+  ],
+  "missing": [],
+  "added": [],
+  "targetDimensions": [
+    206,
+    77
+  ],
+  "expectedDimensions": [
+    206,
+    77
+  ],
+  "protectedCounts": {
+    ".prefab": 87,
+    ".unity": 1,
+    ".cs": 489,
+    ".meta": 2711,
+    ".asset": 248,
+    ".mat": 57
+  },
+  "protectedFilesUnchanged": true,
+  "existingUiClickFixAndValidation": "Included in current before-integrity baseline; all .cs files unchanged",
+  "verificationScope": "Read-only file hashes and PNG IHDR; no Unity launch or asset mutation"
+}

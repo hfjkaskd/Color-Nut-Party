@@ -1,0 +1,33 @@
+{
+  "kind": "AI local statistics panel preview; not Unity runtime",
+  "provider": "built-in image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit.\nAsset type: localized UI visual preview for an existing Unity statistics panel.\nImage 1 is the edit target. Keep this same wide cropped view of the pale honey wood 'Level Stats (9/9/2026)' panel, with its cream interior and all three existing columns.\nRemove ONLY the red rectangular annotation drawn around the cream content area. Add exactly TWO delicate vertical separator lines in a light muted caramel/tan color between the three statistics columns, one at approximately 36.2% of the image width, one at approximately 64.8%. Each line extends from about 32% to 87% of image height, with softly rounded endpoints and an understated subtle highlight. They should read as very thin subtle dividers, about 2 pixels thick at the original 758-pixel image width. Keep them entirely inside the cream area, away from the wood heading and the lower panel border. The result must clearly separate the three groups without bulky frames or adding individual card backgrounds.\nAbsolutely preserve each existing label and number, its font, position, alignment, size and color. Exact text:\n'Level Stats (9/9/2026)'\n'Players cleared' / 'today' with green '25553'\n'Average attempts' with purple '1'\n'Average' / 'withdrawal amount' with orange '$0.40'\nKeep all existing outer wood panel edges, original cream material, background and crop. No leaves, icons, symbols, new text, extra decorative frames, layout reflow, text overflow, comparisons or redesign. One edited cropped panel only. This is an AI preview of the visual change, not a Unity runtime screenshot.",
+  "source": "C:/Users/pc/AppData/Local/Temp/codex-clipboard-14485ef2-4f01-4249-8bae-bb8b5b1a1abd.png",
+  "generatedSource": "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-3f9e053f-bc65-4655-b3e0-fd4e0f851ecf.png",
+  "preview": "stats-separators-preview.png",
+  "status": "Preview pending visual confirmation; no Unity Assets modified",
+  "implementation": {
+    "target": "Assets/Resources/atlas/octobergarden/stats-panel.png",
+    "size": [
+      968,
+      334
+    ],
+    "prefab": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+    "image": "114977153420339851",
+    "lineX": [
+      334,
+      634
+    ],
+    "lineY": [
+      90,
+      306
+    ],
+    "lineWidth": 2,
+    "notes": [
+      "Bake only separators into blank background; no text or values in asset.",
+      "Keep original nodes, label/value positions, dynamic data and UI behavior.",
+      "Simple Image, no sprite border; same source dimensions.",
+      "Preserve new source in Tools/GardenReskin/implement_core_oct8.py to avoid regeneration overwriting it."
+    ]
+  }
+}

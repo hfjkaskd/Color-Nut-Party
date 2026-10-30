@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "status": "PASS",
+  "generatedUtc": "2026-09-21T12:36:03.049477+00:00",
+  "scope": "Tutorial progress art only; all completed bottom toolbar changes and earlier UI input fixes are baseline.",
+  "baseline": "Docs/GardenReskin/tutorial-progress-match/before-hashes.json",
+  "baselineSha256": "89513bc4ef71c595c4271a9b3fca91065348ba8a4e86ea04df78d8e368d45faa",
+  "baselineFileCount": 3816,
+  "currentFileCount": 3816,
+  "changedExistingCount": 3,
+  "unchangedExistingCount": 3813,
+  "addedCount": 0,
+  "removedCount": 0,
+  "changedExisting": [
+    "Assets/Resources/atlas/newbieguidepanel/dian.png",
+    "Assets/Resources/atlas/newbieguidepanel/dian1.png",
+    "Assets/Resources/atlas/newbieguidepanel/line.png"
+  ],
+  "added": [],
+  "removed": [],
+  "unchangedByExtension": {
+    ".asset": 249,
+    ".cs": 489,
+    ".mat": 57,
+    ".meta": 2713,
+    ".png": 217,
+    ".prefab": 87,
+    ".unity": 1
+  },
+  "pngChecks": [
+    {
+      "path": "Assets/Resources/atlas/newbieguidepanel/dian.png",
+      "beforeSha256": "8354562528549485df274521a3bd8e5185a7212d3a6748685d60947df4077817",
+      "afterSha256": "8238e083113559cfc19583db025014b9f665d25a6dd4eedf9b3208d66fd86e5c",
+      "actualSize": [
+        34,
+        34
+      ],
+      "expectedSize": [
+        34,
+        34
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "path": "Assets/Resources/atlas/newbieguidepanel/dian1.png",
+      "beforeSha256": "3111feeea1ea8177f22710206fdfd25f00416c42e02048856dca7bafada22a3f",
+      "afterSha256": "9a4b919590a771dbe561c8cd181ddca86785eb849c029e83a0fe27c6cf1acbb9",
+      "actualSize": [
+        34,
+        34
+      ],
+      "expectedSize": [
+        34,
+        34
+      ],
+      "dimensionsMatch": true
+    },
+    {
+      "path": "Assets/Resources/atlas/newbieguidepanel/line.png",
+      "beforeSha256": "5293706d8d24ef0fd4f7998cdb6bf0341241c98d1049f13b0304109ca9ed73f5",
+      "afterSha256": "2e1881551cfdd6bb74968cc4e0a99c3ea780bb8253ebac0d9b2c009709d0563f",
+      "actualSize": [
+        131,
+        5
+      ],
+      "expectedSize": [
+        131,
+        5
+      ],
+      "dimensionsMatch": true
+    }
+  ],
+  "allExistingPrefabSceneScriptMetaAssetMaterialFilesUnchanged": true,
+  "protectedNonPngCount": 3596,
+  "completedBottomToolbarRevisionUnchanged": true,
+  "failures": [],
+  "verificationMethod": "Read-only SHA-256 comparison of every scoped Assets file and PNG IHDR dimensions.",
+  "limitations": "Static integrity only; no Unity operation or runtime test performed."
+}

@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "dryRun": false,
+  "generatedAtUtc": "2026-09-21T12:11:21.0246662Z",
+  "manifest": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\withdraw-label-match\\import-manifest.json",
+  "originalZip": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\OriginalAssets\\before-reskin.zip",
+  "originalZipSha256": "09bdf1c5945a316901b3079ea0d6f8244275ef713216d3f10a83431a3a27a622",
+  "method": "Generated PNG pixels only; substantial alpha-component union bounds, original alpha bounds, bicubic or nine-slice resampling, optional original-alpha mask. No recolouring or painting.",
+  "targetCount": 1,
+  "entries": [
+    {
+      "target": "Assets/Resources/atlas/mainpanel/hintlevel_tx_bg.png",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\Generated\\withdraw-label-gold.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "originalZipEntry": "Assets/Resources/atlas/mainpanel/hintlevel_tx_bg.png",
+      "originalSha256": "30c40ca29a479e278116ed43c8ce53c3bc7e399659f5bc6516ea99103a269c3a",
+      "previousSha256": "b7f9652bf1bc2de16e5ad64390ced255781a017c32730b5f845cc5d728eb31c2",
+      "sourceSha256": "22907e3854dc52ec70b9f782ed2dcc3a2e8db257240d119b46724e49039bceea",
+      "outputSha256": "8fa099479c4c85d9f84a744a1323834a601603c1c08725817c6270501da74dd9",
+      "outputBytes": 20013,
+      "originalAndOutputSize": [
+        206,
+        77
+      ],
+      "sourceSize": [
+        2054,
+        766
+      ],
+      "sourceCell": [
+        0,
+        0,
+        2054,
+        766
+      ],
+      "sourceBounds": [
+        56,
+        53,
+        1940,
+        573
+      ],
+      "originalAlphaBounds": [
+        0,
+        3,
+        204,
+        74
+      ],
+      "largestComponentPixels": 890580,
+      "alphaThreshold": 100,
+      "padding": 2,
+      "retainedComponents": 1,
+      "preserveOriginalAlpha": false,
+      "nineSlice": false,
+      "oldBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "borderSource": "none",
+      "sourceSliceRatio": [
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "destinationSlicePixels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stagedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\ImportStaging\\a28c2e3475ac430d9069806fc7a40b6e\\0000.png"
+    }
+  ],
+  "protectedFiles": [
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\hintlevel_tx_bg.asset.meta",
+      "sha256": "37cdf0c1d1aa02bddccb2dcf393e5b4a430149ba4cd1d380290cd06f838a5b0a",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\hintlevel_tx_bg.png.meta",
+      "sha256": "e19eeed6c08afb9c58991cfecea9a64acbd0bd126b575cae55b2785c9c4231f3",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\hintlevel_tx_bg.asset",
+      "sha256": "f7ed2ede4727360da8c9cc6f5dc93de6b80956c1aa89e26e1ddfb7a4e0aec5a9",
+      "unchanged": true
+    }
+  ]
+}

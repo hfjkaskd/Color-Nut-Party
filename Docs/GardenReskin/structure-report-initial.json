@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "checkedUtc": "2026-09-21T10:46:17.894653+00:00",
+  "passed": true,
+  "baselineFiles": 3853,
+  "currentFiles": 3853,
+  "missing": [],
+  "forbiddenChanges": [],
+  "changed": [],
+  "newFiles": [],
+  "limits": "Material/texture changes require visual review. New files are listed for review. Color and sprite/font/material presentation fields are allowed; everything else in prefabs/scenes is protected."
+}

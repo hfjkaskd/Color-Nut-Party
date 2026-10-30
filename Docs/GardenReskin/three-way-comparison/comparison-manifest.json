@@ -1,0 +1,42 @@
+﻿{
+    "generatedAt":  "2026-09-21T23:48:51.4927316-04:00",
+    "labels":  [
+                   "Reference preview",
+                   "Before reskin",
+                   "Unity after reskin"
+               ],
+    "comparisons":  [
+                        {
+                            "key":  "refresh",
+                            "title":  "Refresh tool offer",
+                            "reference":  "C:\\Users\\pc\\AppData\\Local\\Temp\\codex-clipboard-cb321653-b0c0-4e85-9724-18c13fe7051e.png",
+                            "before":  "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\..\\\\RewardEvidence\\local-tool-offer-refresh.png",
+                            "after":  "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\three-way-comparison\\comparison-current-refresh-game.png",
+                            "output":  "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\three-way-comparison\\output\\refresh-three-way.png"
+                        },
+                        {
+                            "key":  "cash",
+                            "title":  "Level withdrawal",
+                            "reference":  "C:\\Users\\pc\\AppData\\Local\\Temp\\codex-clipboard-e367790a-8c10-4651-9ae9-a2a8025ecab2.png",
+                            "before":  "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\..\\\\RewardEvidence\\local-withdrawal-cash-BR.png",
+                            "after":  "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\three-way-comparison\\comparison-current-cash-game.png",
+                            "output":  "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\three-way-comparison\\output\\cash-three-way.png"
+                        },
+                        {
+                            "key":  "diamond",
+                            "title":  "My Diamonds",
+                            "reference":  "C:\\Users\\pc\\AppData\\Local\\Temp\\codex-clipboard-616d3a3f-46e1-46b1-b32e-807f2aa7a2c2.png",
+                            "before":  "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\..\\\\RewardEvidence\\local-withdrawal-coin-BR.png",
+                            "after":  "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\three-way-comparison\\comparison-current-diamond-game.png",
+                            "output":  "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\three-way-comparison\\output\\diamond-three-way.png"
+                        },
+                        {
+                            "key":  "account",
+                            "title":  "Enter Information",
+                            "reference":  "C:\\Users\\pc\\AppData\\Local\\Temp\\codex-clipboard-1ca37cce-2b87-47cc-bc67-8eea14260455.png",
+                            "before":  "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\..\\\\RewardEvidence\\local-withdrawal-account-BR.png",
+                            "after":  "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\three-way-comparison\\comparison-current-account-game.png",
+                            "output":  "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\three-way-comparison\\output\\account-three-way.png"
+                        }
+                    ]
+}
