@@ -1,0 +1,834 @@
+{
+  "BootLoadingPanel": [
+    {
+      "id": "376",
+      "path": "LoadingPanel/BarBg/lS/Text (TMP)",
+      "m_SizeDelta": "{x: 96.5, y: 80.4}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "0%",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 0014825879fba344d9a7b3514c0869b6, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_b.mat"
+    },
+    {
+      "id": "377",
+      "path": "LoadingPanel/Loading",
+      "m_SizeDelta": "{x: 491.9, y: 88.19995}",
+      "m_AnchoredPosition": "{x: 0, y: 3.14563}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "LOADING...",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 0757a4596aca64443b2e3c05ce5dd408, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_green.mat"
+    },
+    {
+      "id": "386",
+      "path": "LoadingPanel/BG",
+      "m_SizeDelta": "{x: 1080, y: 2592}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 0c46cfb80e228f44581b2cdb0e75dd7d, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\bg.asset"
+    },
+    {
+      "id": "387",
+      "path": "LoadingPanel/Logo",
+      "m_SizeDelta": "{x: 818, y: 413}",
+      "m_AnchoredPosition": "{x: 0, y: 119}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: db6b0713f0409b9429f90ed96f073001, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\logo_android.asset"
+    },
+    {
+      "id": "394",
+      "path": "LoadingPanel",
+      "m_SizeDelta": "{x: 0, y: 0}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 0}",
+      "m_Type": "0"
+    },
+    {
+      "id": "397",
+      "path": "LoadingPanel/BarBg",
+      "m_SizeDelta": "{x: 754, y: 87}",
+      "m_AnchoredPosition": "{x: 0, y: -127}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 3349aea4efac7ea449fe27bb0edbb98c, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\bar_bg.asset"
+    },
+    {
+      "id": "401",
+      "path": "LoadingPanel/BarBg/lS",
+      "m_SizeDelta": "{x: 115, y: 119}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 81f3b94a397a28f45a2b5a8fb70e00e4, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\ls.asset"
+    },
+    {
+      "id": "410",
+      "path": "LoadingPanel/BarBg/Bar",
+      "m_SizeDelta": "{x: 750, y: 83}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 065bb95c954904247a53c6f8277fa1f4, type: 2}",
+      "m_Type": "3",
+      "m_Sprite_asset": "Assets\\Sprite\\bar.asset"
+    }
+  ],
+  "NewbieGuidePanel": [
+    {
+      "id": "114969106005120503",
+      "path": "NewbieGuidePanel",
+      "m_SizeDelta": "{x: 0, y: 0}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 0, g: 0, b: 0, a: 0}",
+      "m_Sprite": "{fileID: 0}",
+      "m_Type": "0"
+    },
+    {
+      "id": "114672306508523268",
+      "path": "NewbieGuidePanel/Pos/Hand/Hand",
+      "m_SizeDelta": "{x: 192, y: 195}",
+      "m_AnchoredPosition": "{x: -153, y: -99}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 0a6c3145ce18db442a7c64d3360dde66, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Resources\\atlas\\newbieguidepanel\\hand.asset"
+    },
+    {
+      "id": "114472185465350827",
+      "path": "NewbieGuidePanel/Pos/Tip",
+      "m_SizeDelta": "{x: 900, y: 200}",
+      "m_AnchoredPosition": "{x: 0, y: -262}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: c815678b794b173498cf98fc242818aa, type: 2}",
+      "m_Type": "1",
+      "m_Sprite_asset": "Assets\\Resources\\atlas\\newbieguidepanel\\bg.asset"
+    },
+    {
+      "id": "114841364053301648",
+      "path": "NewbieGuidePanel/Pos/Tip/Value",
+      "m_SizeDelta": "{x: 774.08, y: 0}",
+      "m_AnchoredPosition": "{x: 40.08, y: 0}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 0.96078431, b: 0.85098039, a: 1}",
+      "m_text": "New Text New TextNew TextNew TextNew  TextNew  TextNew  TextN",
+      "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_FZCYT SDF Material.mat"
+    },
+    {
+      "id": "114919942235722503",
+      "path": "NewbieGuidePanel/Pos/Button",
+      "m_SizeDelta": "{x: 964.662, y: 219.139}",
+      "m_AnchoredPosition": "{x: -3.389, y: 9.57}",
+      "m_Color": "{r: 0, g: 0, b: 0, a: 0.003921569}",
+      "m_Sprite": "{fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}",
+      "m_Type": "1",
+      "m_Sprite_asset": "0000000000000000f000000000000000"
+    },
+    {
+      "id": "114719342369648492",
+      "path": "NewbieGuidePanel/Pos/Arraw",
+      "m_SizeDelta": "{x: 140, y: 182}",
+      "m_AnchoredPosition": "{x: 0, y: 250}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 0}",
+      "m_Type": "0"
+    },
+    {
+      "id": "114801075752484240",
+      "path": "NewbieGuidePanel/ButtonFull",
+      "m_SizeDelta": "{x: 0, y: 0}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 0, g: 0, b: 0, a: 0.003921569}",
+      "m_Sprite": "{fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}",
+      "m_Type": "1",
+      "m_Sprite_asset": "0000000000000000f000000000000000"
+    },
+    {
+      "id": "114581786255902400",
+      "path": "NewbieGuidePanel/Close",
+      "m_SizeDelta": "{x: 126, y: 126}",
+      "m_AnchoredPosition": "{x: 413, y: 457}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 0}",
+      "m_Type": "0"
+    },
+    {
+      "id": "114689364072382846",
+      "path": "NewbieGuidePanel/Teach/Image",
+      "m_SizeDelta": "{x: 115, y: 118}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 3f4fc3803ddc0934896e88f4b4b413ef, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Resources\\atlas\\newbieguidepanel\\bg1.asset"
+    },
+    {
+      "id": "114094320201520353",
+      "path": "NewbieGuidePanel/Teach/Image/Value",
+      "m_SizeDelta": "{x: 88.1, y: 73.3}",
+      "m_AnchoredPosition": "{x: 0, y: 1}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "1",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 379e1ba5b4c25fb409b333e15b252ae5, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline.mat"
+    },
+    {
+      "id": "114279359913592680",
+      "path": "NewbieGuidePanel/Teach/Image (1)",
+      "m_SizeDelta": "{x: 280.64, y: 5}",
+      "m_AnchoredPosition": "{x: 0, y: -145.99992}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 3b59d9d411e44344ebe75e65197edb62, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Resources\\atlas\\newbieguidepanel\\line.asset"
+    },
+    {
+      "id": "114292246286975720",
+      "path": "NewbieGuidePanel/Teach/1",
+      "m_SizeDelta": "{x: 34, y: 34}",
+      "m_AnchoredPosition": "{x: -150, y: -145.99992}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 04142e83848d4de4cb967c878018bba2, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Resources\\atlas\\newbieguidepanel\\dian.asset"
+    },
+    {
+      "id": "114370222726513266",
+      "path": "NewbieGuidePanel/Teach/2",
+      "m_SizeDelta": "{x: 34, y: 34}",
+      "m_AnchoredPosition": "{x: -50, y: -145.99992}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 04142e83848d4de4cb967c878018bba2, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Resources\\atlas\\newbieguidepanel\\dian.asset"
+    },
+    {
+      "id": "114393105877652414",
+      "path": "NewbieGuidePanel/Teach/3",
+      "m_SizeDelta": "{x: 34, y: 34}",
+      "m_AnchoredPosition": "{x: 50, y: -145.99992}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 04142e83848d4de4cb967c878018bba2, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Resources\\atlas\\newbieguidepanel\\dian.asset"
+    },
+    {
+      "id": "114574190619683098",
+      "path": "NewbieGuidePanel/Teach/4",
+      "m_SizeDelta": "{x: 34, y: 34}",
+      "m_AnchoredPosition": "{x: 150, y: -146}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 04142e83848d4de4cb967c878018bba2, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Resources\\atlas\\newbieguidepanel\\dian.asset"
+    },
+    {
+      "id": "114534704304255049",
+      "path": "NewbieGuidePanel/Teach/Get",
+      "m_SizeDelta": "{x: 206, y: 77}",
+      "m_AnchoredPosition": "{x: 0, y: -70.1}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 6279b6bc5faa98343b53f1f33e6bb684, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Resources\\atlas\\mainpanel\\hintlevel_tx_bg.asset"
+    },
+    {
+      "id": "114431740505123533",
+      "path": "NewbieGuidePanel/Teach/Get/label_1",
+      "m_SizeDelta": "{x: 177.2, y: 46.3}",
+      "m_AnchoredPosition": "{x: 0, y: -5.1}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "Withdraw",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 4c576b01446bb7e42877ae968f1113c6, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_orange.mat"
+    }
+  ],
+  "FailPanel": [
+    {
+      "id": "114161607090078389",
+      "path": "FailPanel",
+      "m_SizeDelta": "{x: 0, y: 0}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 0, g: 0, b: 0, a: 0.6}",
+      "m_Sprite": "{fileID: 0}",
+      "m_Type": "1"
+    },
+    {
+      "id": "114621510681728303",
+      "path": "FailPanel/RestartBtn",
+      "m_SizeDelta": "{x: 510, y: 192}",
+      "m_AnchoredPosition": "{x: -265, y: -54}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 97a22b21adf5ebb4dbbee2fc299d6588, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\btn.asset"
+    },
+    {
+      "id": "114969106005120503",
+      "path": "FailPanel/RestartBtn/label_68",
+      "m_SizeDelta": "{x: -20.71, y: -24.01}",
+      "m_AnchoredPosition": "{x: -1.6300049, y: 5.460022}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "Restart",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 0757a4596aca64443b2e3c05ce5dd408, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_green.mat"
+    },
+    {
+      "id": "114711914853252429",
+      "path": "FailPanel/CoinTip",
+      "m_SizeDelta": "{x: 352, y: 117}",
+      "m_AnchoredPosition": "{x: 246, y: 100.5}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 9b1c582842f35b74d86c6453bf793510, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\goldget_bg.asset"
+    },
+    {
+      "id": "114371939378208658",
+      "path": "FailPanel/CoinTip/Image",
+      "m_SizeDelta": "{x: 59, y: 60}",
+      "m_AnchoredPosition": "{x: -102.6, y: 10.3}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 1f0f79637ce23d6468cab4413071a249, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\coin_max.asset"
+    },
+    {
+      "id": "114017697238300914",
+      "path": "FailPanel/CoinTip/ItemCount",
+      "m_SizeDelta": "{x: 213.83, y: 83.2}",
+      "m_AnchoredPosition": "{x: 40.524986, y: 12.9}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "99",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 179a13802afe1ab4d80c6e793f2c8ee9, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_blue2.mat"
+    },
+    {
+      "id": "114089843903986396",
+      "path": "FailPanel/CoinTip/MAX",
+      "m_SizeDelta": "{x: 110.42, y: 73.99}",
+      "m_AnchoredPosition": "{x: -121.6, y: 12.9}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 0.36477977, g: 0.051196534, b: 0.037854463, a: 1}",
+      "m_text": "MAX",
+      "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_FZCYT SDF Material.mat"
+    },
+    {
+      "id": "114060945828524476",
+      "path": "FailPanel/ReviveBtn",
+      "m_SizeDelta": "{x: 510, y: 192}",
+      "m_AnchoredPosition": "{x: 265, y: -54}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 97a22b21adf5ebb4dbbee2fc299d6588, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\btn.asset"
+    },
+    {
+      "id": "114220653531496868",
+      "path": "FailPanel/ReviveBtn/label_69",
+      "m_SizeDelta": "{x: -188.13, y: -24.01}",
+      "m_AnchoredPosition": "{x: 69.83, y: 5.460022}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "Revive",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 0757a4596aca64443b2e3c05ce5dd408, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_green.mat"
+    },
+    {
+      "id": "114291844617409189",
+      "path": "FailPanel/ReviveBtn/Image",
+      "m_SizeDelta": "{x: 113, y: 101}",
+      "m_AnchoredPosition": "{x: -157, y: 0}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: a606eea51c8f3bd47827c337197c7d5c, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\ad.asset"
+    },
+    {
+      "id": "114107629493147155",
+      "path": "FailPanel/label_67",
+      "m_SizeDelta": "{x: 937.8, y: 197.17}",
+      "m_AnchoredPosition": "{x: 0, y: 535.8}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "Dont move Nut!",
+      "m_sharedMaterial": "{fileID: 2100000, guid: caf0a63c8b137f740925825b03de2e21, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_red_b.mat"
+    },
+    {
+      "id": "114719342369648492",
+      "path": "FailPanel/Image",
+      "m_SizeDelta": "{x: 118, y: 119}",
+      "m_AnchoredPosition": "{x: -318, y: 646.8}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 7282c3a53f0ef0b488fe675ee48914a4, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\star.asset"
+    },
+    {
+      "id": "114693329660128220",
+      "path": "FailPanel/Image (1)",
+      "m_SizeDelta": "{x: 118, y: 119}",
+      "m_AnchoredPosition": "{x: -2, y: 646.8}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 7282c3a53f0ef0b488fe675ee48914a4, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\star.asset"
+    },
+    {
+      "id": "114571718729274231",
+      "path": "FailPanel/Image (2)",
+      "m_SizeDelta": "{x: 118, y: 119}",
+      "m_AnchoredPosition": "{x: 312, y: 646.8}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 7282c3a53f0ef0b488fe675ee48914a4, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\star.asset"
+    },
+    {
+      "id": "114722951815217645",
+      "path": "FailPanel/Image (3)",
+      "m_SizeDelta": "{x: 118, y: 119}",
+      "m_AnchoredPosition": "{x: -318, y: 420.3}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 7282c3a53f0ef0b488fe675ee48914a4, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\star.asset"
+    },
+    {
+      "id": "114043919389829319",
+      "path": "FailPanel/Image (4)",
+      "m_SizeDelta": "{x: 118, y: 119}",
+      "m_AnchoredPosition": "{x: -2, y: 420.3}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 7282c3a53f0ef0b488fe675ee48914a4, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\star.asset"
+    },
+    {
+      "id": "114572839542275309",
+      "path": "FailPanel/Image (5)",
+      "m_SizeDelta": "{x: 118, y: 119}",
+      "m_AnchoredPosition": "{x: 312, y: 420.3}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 7282c3a53f0ef0b488fe675ee48914a4, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\star.asset"
+    },
+    {
+      "id": "114292246286975720",
+      "path": "FailPanel/Image (6)",
+      "m_SizeDelta": "{x: 533, y: 588}",
+      "m_AnchoredPosition": "{x: 7.5, y: -131}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 26026eed7257bf046805c10fedc1b72e, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\people.asset"
+    }
+  ],
+  "ReplayPanel": [
+    {
+      "id": "114044625135789424",
+      "path": "ReplayPanel",
+      "m_SizeDelta": "{x: 0, y: 0}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 0, g: 0, b: 0, a: 0.46666667}",
+      "m_Sprite": "{fileID: 0}",
+      "m_Type": "1"
+    },
+    {
+      "id": "114705390221481576",
+      "path": "ReplayPanel/main/BG",
+      "m_SizeDelta": "{x: 819, y: 841}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: f0133491f5aa8f841b0820f5d0c41fac, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Resources\\atlas\\appratingpanel\\bg.asset"
+    },
+    {
+      "id": "114256069497284392",
+      "path": "ReplayPanel/main/Title",
+      "m_SizeDelta": "{x: 944, y: 485}",
+      "m_AnchoredPosition": "{x: 0, y: 568}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 5a0d905155d8cc04883b57d9bdeffc24, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Resources\\atlas\\appratingpanel\\title.asset"
+    },
+    {
+      "id": "114470112387431263",
+      "path": "ReplayPanel/main/Title/label_149",
+      "m_SizeDelta": "{x: 488.2, y: 114.7}",
+      "m_AnchoredPosition": "{x: 0, y: -137}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "My Level",
+      "m_sharedMaterial": "{fileID: 2100000, guid: c7073bf4e4090b74cabcdc7856462c92, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_pink.mat"
+    },
+    {
+      "id": "114632457200066912",
+      "path": "ReplayPanel/main/Continue",
+      "m_SizeDelta": "{x: 602, y: 192}",
+      "m_AnchoredPosition": "{x: 0, y: -171}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 97a22b21adf5ebb4dbbee2fc299d6588, type: 2}",
+      "m_Type": "1",
+      "m_Sprite_asset": "Assets\\Sprite\\btn.asset"
+    },
+    {
+      "id": "114642988549198181",
+      "path": "ReplayPanel/main/Continue/label_50",
+      "m_SizeDelta": "{x: 521.3, y: 156.6}",
+      "m_AnchoredPosition": "{x: 0, y: 3.65}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 0.9529412, g: 1, b: 0.81960785, a: 1}",
+      "m_text": "Button",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 0757a4596aca64443b2e3c05ce5dd408, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_green.mat"
+    },
+    {
+      "id": "114918264173551851",
+      "path": "ReplayPanel/main/label_148",
+      "m_SizeDelta": "{x: 703.78, y: 347.56}",
+      "m_AnchoredPosition": "{x: 0, y: 151.66}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}",
+      "m_text": "'Current Level: 99'",
+      "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_FZCYT SDF Material.mat"
+    },
+    {
+      "id": "114371939378208658",
+      "path": "ReplayPanel/main/label_147",
+      "m_SizeDelta": "{x: 444.78, y: 76}",
+      "m_AnchoredPosition": "{x: 0, y: -340}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}",
+      "m_text": "Only a little",
+      "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_FZCYT SDF Material.mat"
+    }
+  ],
+  "RewardPanel": [
+    {
+      "id": "114884547391421755",
+      "path": "RewardPanel",
+      "m_SizeDelta": "{x: 0, y: 0}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 0, g: 0, b: 0, a: 0.003921569}",
+      "m_Sprite": "{fileID: 0}",
+      "m_Type": "1"
+    },
+    {
+      "id": "114587765826080250",
+      "path": "RewardPanel/Image",
+      "m_SizeDelta": "{x: 1080, y: 324}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 86c39b2cada8f534fba5a89c96e362b5, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\bg_4.asset"
+    }
+  ],
+  "SuccessPanel": [
+    {
+      "id": "114372920208702427",
+      "path": "SuccessPanel",
+      "m_SizeDelta": "{x: 0, y: 0}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 0, g: 0, b: 0, a: 0.46666667}",
+      "m_Sprite": "{fileID: 0}",
+      "m_Type": "1"
+    },
+    {
+      "id": "114977153420339851",
+      "path": "SuccessPanel/bg",
+      "m_SizeDelta": "{x: 1080, y: 2592}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: f8d2b4c91446ee147b28769a4c4350d6, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\bg_2.asset"
+    },
+    {
+      "id": "114002669891404536",
+      "path": "SuccessPanel/main/MoreGetBtn",
+      "m_SizeDelta": "{x: 764, y: 192}",
+      "m_AnchoredPosition": "{x: 0, y: -458}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 478de0d414050f7448bf0f954b7170c5, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\btn1.asset"
+    },
+    {
+      "id": "114632457200066912",
+      "path": "SuccessPanel/main/MoreGetBtn/label_186",
+      "m_SizeDelta": "{x: 528.24, y: 159.88}",
+      "m_AnchoredPosition": "{x: 68.2, y: 3.48}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "X10 Times Claimed",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 0757a4596aca64443b2e3c05ce5dd408, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_green.mat"
+    },
+    {
+      "id": "114969106005120503",
+      "path": "SuccessPanel/main/MoreGetBtn/ad",
+      "m_SizeDelta": "{x: 113, y: 101}",
+      "m_AnchoredPosition": "{x: -252, y: 3}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: a606eea51c8f3bd47827c337197c7d5c, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\ad.asset"
+    },
+    {
+      "id": "114711914853252429",
+      "path": "SuccessPanel/main/Close",
+      "m_SizeDelta": "{x: 91.1, y: 89.9}",
+      "m_AnchoredPosition": "{x: 294.8, y: 489}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}",
+      "m_Type": "1",
+      "m_Sprite_asset": "0000000000000000f000000000000000"
+    },
+    {
+      "id": "114371939378208658",
+      "path": "SuccessPanel/main/label_88",
+      "m_SizeDelta": "{x: 484.92, y: 80}",
+      "m_AnchoredPosition": "{x: 0, y: -675.2001}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}",
+      "m_text": "Only a little",
+      "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_FZCYT SDF Material.mat"
+    },
+    {
+      "id": "114089843903986396",
+      "path": "SuccessPanel/main/Title",
+      "m_SizeDelta": "{x: 896, y: 362}",
+      "m_AnchoredPosition": "{x: 0, y: 580}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 93f819f99fd497346b44916c614453f7, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\title_7.asset"
+    },
+    {
+      "id": "114060945828524476",
+      "path": "SuccessPanel/main/Title/label_58",
+      "m_SizeDelta": "{x: 605.5, y: 91}",
+      "m_AnchoredPosition": "{x: 0, y: -63.5}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "Success",
+      "m_sharedMaterial": "{fileID: 2100000, guid: c7c2bfca7db84794686330d1d4ff10bc, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_brown.mat"
+    }
+  ],
+  "MessagePanel": [
+    {
+      "id": "373",
+      "path": "MessagePanel/Button/label_74",
+      "m_SizeDelta": "{x: -40, y: -14.055}",
+      "m_AnchoredPosition": "{x: 0, y: 7.0274963}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "OK",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 0757a4596aca64443b2e3c05ce5dd408, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_green.mat"
+    },
+    {
+      "id": "378",
+      "path": "MessagePanel/Title/label_73",
+      "m_SizeDelta": "{x: 610.7, y: 131.56}",
+      "m_AnchoredPosition": "{x: 0, y: -47.03}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "Tip",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 90df37ebd34514545820ae928c353e90, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_blue.mat"
+    },
+    {
+      "id": "379",
+      "path": "MessagePanel/Content",
+      "m_SizeDelta": "{x: 676.23, y: 383.89}",
+      "m_AnchoredPosition": "{x: 0, y: 55.56}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}",
+      "m_text": "Tip",
+      "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_FZCYT SDF Material.mat"
+    },
+    {
+      "id": "384",
+      "path": "MessagePanel/Title",
+      "m_SizeDelta": "{x: 961, y: 308}",
+      "m_AnchoredPosition": "{x: 0, y: 415}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: f4bb9c88b976c014689f823ac9ff5b21, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\title.asset"
+    },
+    {
+      "id": "385",
+      "path": "MessagePanel/Image",
+      "m_SizeDelta": "{x: 819, y: 841}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 173843688e295e2458e99a296898a982, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\bg0.asset"
+    },
+    {
+      "id": "389",
+      "path": "MessagePanel/Button",
+      "m_SizeDelta": "{x: 510, y: 192}",
+      "m_AnchoredPosition": "{x: 11.48, y: -279}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 97a22b21adf5ebb4dbbee2fc299d6588, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\btn.asset"
+    },
+    {
+      "id": "412",
+      "path": "MessagePanel",
+      "m_SizeDelta": "{x: 0, y: 0}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 0, g: 0, b: 0, a: 0.392}",
+      "m_Sprite": "{fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}",
+      "m_Type": "1",
+      "m_Sprite_asset": "0000000000000000f000000000000000"
+    }
+  ],
+  "UnlockGameplayPanel": [
+    {
+      "id": "114025901758691103",
+      "path": "UnlockGameplayPanel",
+      "m_SizeDelta": "{x: 0, y: 0}",
+      "m_AnchoredPosition": "{x: 0, y: 0}",
+      "m_Color": "{r: 0, g: 0, b: 0, a: 0.46666667}",
+      "m_Sprite": "{fileID: 0}",
+      "m_Type": "1"
+    },
+    {
+      "id": "114256069497284392",
+      "path": "UnlockGameplayPanel/main/ContinueBtn",
+      "m_SizeDelta": "{x: 510, y: 192}",
+      "m_AnchoredPosition": "{x: 0, y: -513}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 97a22b21adf5ebb4dbbee2fc299d6588, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\btn.asset"
+    },
+    {
+      "id": "114313026266067498",
+      "path": "UnlockGameplayPanel/main/ContinueBtn/label_47",
+      "m_SizeDelta": "{x: -20.71, y: -24.01}",
+      "m_AnchoredPosition": "{x: -1.6300049, y: 5.459961}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "I know",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 0757a4596aca64443b2e3c05ce5dd408, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_green.mat"
+    },
+    {
+      "id": "114634108722742392",
+      "path": "UnlockGameplayPanel/main/Tip",
+      "m_SizeDelta": "{x: 937.8, y: 123.73}",
+      "m_AnchoredPosition": "{x: 0, y: -300}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "Dont move Nut!",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 4c576b01446bb7e42877ae968f1113c6, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_orange.mat"
+    },
+    {
+      "id": "114642988549198181",
+      "path": "UnlockGameplayPanel/main/Title",
+      "m_SizeDelta": "{x: 819, y: 395}",
+      "m_AnchoredPosition": "{x: 0, y: 568}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: e2f81b2931632e84bbb3dc6aef50ff4c, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\title_2.asset"
+    },
+    {
+      "id": "114918264173551851",
+      "path": "UnlockGameplayPanel/main/Title/label_62",
+      "m_SizeDelta": "{x: 634.19, y: 107.33}",
+      "m_AnchoredPosition": "{x: 0, y: 1}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_text": "New Text",
+      "m_sharedMaterial": "{fileID: 2100000, guid: 4c576b01446bb7e42877ae968f1113c6, type: 2}",
+      "m_sharedMaterial_asset": "Assets\\Material\\zh_Custom SDF_outline_orange.mat"
+    },
+    {
+      "id": "114371939378208658",
+      "path": "UnlockGameplayPanel/main/Glow",
+      "m_SizeDelta": "{x: 428, y: 425}",
+      "m_AnchoredPosition": "{x: 0, y: 74}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: b2fdda2f208743d4398603ad18fd9f15, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\glow1.asset"
+    },
+    {
+      "id": "114733206282342372",
+      "path": "UnlockGameplayPanel/main/Icon",
+      "m_SizeDelta": "{x: 353, y: 422}",
+      "m_AnchoredPosition": "{x: 0, y: 58}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 67a76421e17f88544a54e81adb9726e9, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\screwHide.asset"
+    },
+    {
+      "id": "114672306508523268",
+      "path": "UnlockGameplayPanel/main/Icon2",
+      "m_SizeDelta": "{x: 558, y: 641}",
+      "m_AnchoredPosition": "{x: 0, y: 58}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 346410f525aa7694380f2d31505d3123, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\mask.asset"
+    },
+    {
+      "id": "114900271049623953",
+      "path": "UnlockGameplayPanel/main/Icon3",
+      "m_SizeDelta": "{x: 523, y: 546}",
+      "m_AnchoredPosition": "{x: 0, y: 58}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 9625a1897f424a84ea4bf6fbef963fd5, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\doneMove.asset"
+    },
+    {
+      "id": "114220653531496868",
+      "path": "UnlockGameplayPanel/main/Icon4",
+      "m_SizeDelta": "{x: 433, y: 547}",
+      "m_AnchoredPosition": "{x: 0, y: 58}",
+      "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+      "m_Sprite": "{fileID: 21300000, guid: 486e8823eb3a0ca499e043f9cb6f4135, type: 2}",
+      "m_Type": "0",
+      "m_Sprite_asset": "Assets\\Sprite\\hide.asset"
+    }
+  ],
+  "LocalFailure": [],
+  "LocalSuccess": []
+}

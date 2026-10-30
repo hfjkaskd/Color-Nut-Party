@@ -1,0 +1,167 @@
+[
+  {
+    "name": "main-milestone-normal",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\main-milestone-normal.png",
+    "size": [
+      115,
+      118
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "119f774d319a2ade38ab17b62b33d2e769bd5b943648960e6d7307471c9000a8"
+  },
+  {
+    "name": "main-milestone-pending",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\main-milestone-pending.png",
+    "size": [
+      115,
+      118
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "3d3244b34772ff77669ea1f3e1e760c86b07519e18dc56210ef30e8ccf944624"
+  },
+  {
+    "name": "main-milestone-active",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\main-milestone-active.png",
+    "size": [
+      115,
+      118
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "32860ea11b7405f85a8361ce5a1648f67a8088a90fe4e407fb06a741ed50f80c"
+  },
+  {
+    "name": "main-milestone-crown",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\main-milestone-crown.png",
+    "size": [
+      115,
+      137
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "b4cf2ca42d129f33797b4e36b4ad2520e717b2a6b8754aedf39af7f49e01134a"
+  },
+  {
+    "name": "main-tip",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\main-tip.png",
+    "size": [
+      527,
+      99
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "ba4c4ead749d020b0ccda1fcaddca985e6f30a378b36e027175eae8534b53695"
+  },
+  {
+    "name": "main-toolbar-card",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\main-toolbar-card-final.png",
+    "size": [
+      243,
+      192
+    ],
+    "border": [
+      24,
+      24,
+      24,
+      24
+    ],
+    "sha256": "1423ac929752d8fa64ae34706e87320ab9163216a66513926a7be1aa37bc90b0"
+  },
+  {
+    "name": "main-currency-card",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\octobergarden\\input.png",
+    "size": [
+      477,
+      126
+    ],
+    "border": [
+      20,
+      20,
+      20,
+      20
+    ],
+    "sha256": "23bf4eac050ae56388592082cb857720f38bdb389bf04c397214e6af438ab595"
+  },
+  {
+    "name": "main-cash-button",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\main-cash-button-final.png",
+    "size": [
+      193,
+      117
+    ],
+    "border": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "sha256": "a602ad704480ab3f167907a81999f7b159e61b102d1bd9cccefe197f4c9da784"
+  },
+  {
+    "name": "main-revoke",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\main-revoke-original.png",
+    "size": [
+      119,
+      129
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "4f862da96332f56855b4e7b9c9766c513c9b7d9280a9add4021d936642e0c846"
+  },
+  {
+    "name": "main-replay",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\main-replay-original.png",
+    "size": [
+      59,
+      65
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "7ce25384453fc7b44cd30d3ecdc8d6f8cf19bd4b5b8c8c930a2408f6c06359e9"
+  },
+  {
+    "name": "main-setting",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\main-setting-original.png",
+    "size": [
+      68,
+      65
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "4fced731f50e21d4f1bf7348e86f0556445f19f014074f052dad98042118696d"
+  }
+]

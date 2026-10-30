@@ -1,0 +1,32 @@
+[
+  {
+    "prefab": "panels/TXPanel",
+    "protected_bytes_equal": true,
+    "rect_blocks_equal": true
+  },
+  {
+    "prefab": "panels/TXUserInfoPanel",
+    "protected_bytes_equal": true,
+    "rect_blocks_equal": true
+  },
+  {
+    "prefab": "panels/ItemGetPanel",
+    "protected_bytes_equal": true,
+    "rect_blocks_equal": true
+  },
+  {
+    "prefab": "panels/TXCoinPanel",
+    "protected_bytes_equal": true,
+    "rect_blocks_equal": true
+  },
+  {
+    "prefab": "playerinfo/PlayerInfo",
+    "protected_bytes_equal": true,
+    "rect_blocks_equal": true
+  },
+  {
+    "prefab": "playerinfo/PMDSimple",
+    "protected_bytes_equal": true,
+    "rect_blocks_equal": true
+  }
+]

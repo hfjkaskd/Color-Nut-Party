@@ -1,0 +1,62 @@
+[
+  {
+    "name": "panel",
+    "path": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-f36427ad-c6ed-4166-a411-0c68efeb48f6.png",
+    "sourceCopy": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\panel.png"
+  },
+  {
+    "name": "primary-button",
+    "path": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-f0b2b0a9-bad4-4cad-b961-befb8ac02593.png",
+    "sourceCopy": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\primary-button.png"
+  },
+  {
+    "name": "ribbon",
+    "path": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-aeae2868-468b-498b-a719-4153b7cf7212.png",
+    "sourceCopy": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\ribbon.png"
+  },
+  {
+    "name": "input",
+    "path": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-7bab3aff-3362-432d-8d4e-bbbe473f9ea4.png",
+    "sourceCopy": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\input.png"
+  },
+  {
+    "name": "wood-card",
+    "path": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-43c3242d-d974-48ee-90ab-b7a546f161ab.png",
+    "sourceCopy": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\wood-card.png"
+  },
+  {
+    "name": "title",
+    "path": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-81df9f3b-2c39-4c66-86ab-0c23d03a193a.png",
+    "sourceCopy": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\title.png"
+  },
+  {
+    "name": "amount-selected",
+    "path": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-f0f76286-ce7a-4d6a-919e-104d9e6fcec8.png",
+    "sourceCopy": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\amount-selected.png"
+  },
+  {
+    "name": "background",
+    "path": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-07805a12-e3bd-449c-a56c-f68de8bc2022.png",
+    "sourceCopy": "Docs\\GardenReskin\\implementation-20261008\\sources\\background.png"
+  },
+  {
+    "name": "close",
+    "path": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-b2bb51c3-ace8-4b42-b271-578fb41b9db0.png",
+    "sourceCopy": "Docs\\GardenReskin\\implementation-20261008\\sources\\close.png"
+  },
+  {
+    "name": "cream-ribbon",
+    "path": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-b594e35b-de0f-459a-842b-fca30e2ed70b.png",
+    "sourceCopy": "Docs\\GardenReskin\\implementation-20261008\\sources\\cream-ribbon.png"
+  },
+  {
+    "name": "progress-track",
+    "path": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-a9b0e1d9-d337-4e0b-8b76-d455b7d86dda.png",
+    "sourceCopy": "Docs\\GardenReskin\\implementation-20261008\\sources\\progress-track.png"
+  },
+  {
+    "name": "progress-fill",
+    "path": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-5dcce44e-6004-4a92-afa0-24315ad23d3c.png",
+    "sourceCopy": "Docs\\GardenReskin\\implementation-20261008\\sources\\progress-fill.png"
+  }
+]

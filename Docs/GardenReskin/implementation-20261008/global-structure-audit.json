@@ -1,0 +1,837 @@
+{
+  "status": "PASS",
+  "baseline": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\before-implementation.zip",
+  "scope": {
+    "prefabs": 63,
+    "runtime_files": 238,
+    "changed_prefabs_and_scenes": 32,
+    "scenes": 1,
+    "configuration_files": 22
+  },
+  "checks": "All baseline Prefabs/Scenes inspected independently; C# production code and configuration checked against backup.",
+  "files": [
+    {
+      "file": "Assets/NutSort/Runtime/UI/LocalGameplayController.Top.cs",
+      "sha256": "28e5f02e02c44df7cab0aa4b14b6505dc07806b2de25cc3bc31d4a0203658b3a",
+      "only_exact_authorized_runtime_change": true
+    },
+    {
+      "file": "Assets/NutSort/Runtime/UI/OriginalGameplayUnlockPanel.cs",
+      "sha256": "9a1423d5a7e3cb35a642ec4c7746f50924f786c213392d669ee0fe92036a7c75",
+      "only_exact_authorized_runtime_change": true
+    },
+    {
+      "file": "Assets/NutSort/Runtime/World/OriginalGameScene.cs",
+      "sha256": "31e41b7b67a393c296f2de1b01c8ab32eb0660ea806ff04dad391def8ef71f53",
+      "only_exact_authorized_runtime_change": true
+    },
+    {
+      "file": "Assets/NutSort/Runtime/World/OriginalPrefabPool.cs",
+      "sha256": "6ea2343244bc11190507f1d8279509e53cd60a8dfb4e876aaecfedcc518f5ea4",
+      "only_exact_authorized_runtime_change": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/items/Item.prefab",
+      "sha256": "5b8248bf0d1b40b58df0bed99a764e2bfb84ad651e32b2b9951fb66d6494d853",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_sharedMaterial": 2,
+        "rgba": 2,
+        "m_fontColor": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/items/Item_Big.prefab",
+      "sha256": "6452a93d2f5e6de80d93521eb0f3fd17535d969322a0ab08560f153efbc73ef8",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_sharedMaterial": 2,
+        "rgba": 2,
+        "m_fontColor": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/AddScrewItem.prefab",
+      "sha256": "1908abbd3648e2d3da20d740b5ead4aa212167118c2393a9906cf1e656b3e3db",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/BootLoadingPanel.prefab",
+      "sha256": "ad4685eda4ff19fa6dc81e2dfe446c13f2560016dd763d39e319e8e25e6d4068",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_sharedMaterial": 2,
+        "m_Sprite": 8
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/CoinItem.prefab",
+      "sha256": "f14b7ca9128348ac7e6ee8df02f1bc61c119c64a85b3a76d9b9b8b3663e97a2b",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 6,
+        "rgba": 2,
+        "m_fontColor": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/ExchangeItem.prefab",
+      "sha256": "1f7d841abe46bb5babe13ebd7ee27d7e7388d30d9625ec3621d7dc1e0fa74d2d",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/FailPanel.prefab",
+      "sha256": "f424403fea4bdc7a768d38b5de571cfea49f6d40caa5bff3818279af25337910",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Color": 2,
+        "m_Sprite": 8,
+        "m_Type": 6,
+        "m_sharedMaterial": 2,
+        "rgba": 2,
+        "m_fontColor": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/GoldItem.prefab",
+      "sha256": "b803a3f800585afc3a19f8766ed9da7d331bf2ff6b1184dcd7581cc82bc8c083",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 6,
+        "rgba": 2,
+        "m_fontColor": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+      "sha256": "d0dd7d0f0e29d8fd955f22a8ec01f195f4ca58047e45ad673e2fd547562431c7",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 12,
+        "m_Color": 2,
+        "m_sharedMaterial": 2,
+        "m_fontColor": 4,
+        "m_Type": 4
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+      "sha256": "0530ca0237189719d8cb9fd71f99f97a2297fcdfe199c26fadc25c29c2426ece",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 26,
+        "rgba": 4,
+        "m_fontColor": 4
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanel.prefab",
+      "sha256": "2c7195bd1ab332e4778f6730bb7e277f98a86cda3fc02d8b7af8610de0dc7a48",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+      "sha256": "5d9dbf9bf3a96f3513ec3e7a245e7ef6561e8cf71fe5e328fa16c786e7b1aee9",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 12
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MessagePanel.prefab",
+      "sha256": "64d3d48b2eb9def293339c90ed0a6622c3d344333d76b185f4601b581d54fbd2",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_sharedMaterial": 2,
+        "rgba": 4,
+        "m_fontColor": 4,
+        "m_Sprite": 6,
+        "m_Type": 4
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/NewbieGuidePanel.prefab",
+      "sha256": "0ef0ca9a47244243a63792586fc139478c1147af96ae1704116460e68785b018",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 2,
+        "rgba": 2,
+        "m_fontColor": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/ReplayPanel.prefab",
+      "sha256": "7fe4645cdc54c61ac36a11264d798513ab4d58b540a0893a19649c2fe3d721d6",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 6,
+        "m_Type": 2,
+        "m_sharedMaterial": 2,
+        "rgba": 6,
+        "m_fontColor": 6
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/RevokeItem.prefab",
+      "sha256": "c4df7884490f194705b77b33e9f5a6e628614e47eb05960e5e626f1dfd38333f",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 4
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/RewardPanel.prefab",
+      "sha256": "9203f7262dbd3be76ad3bdf57a984210881eb9cef721dc50e90ead625394c876",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/SuccessPanel.prefab",
+      "sha256": "9c65642af1667761b4f0a43b31d259625c7430b89fb265343848ce03750d4999",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 8,
+        "m_Type": 2,
+        "rgba": 4,
+        "m_fontColor": 4,
+        "m_sharedMaterial": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+      "sha256": "87debc2a48d819324436ae82e0a001973ff96c400c29a82b1bf6fbc4c621328e",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 10,
+        "m_margin": 6,
+        "m_Type": 4,
+        "m_sharedMaterial": 2,
+        "m_fontColor": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "sha256": "227c19737ac3999f03dea4dc76b23d927afdfeb1842a9391b2c04d91646a6c7a",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "selectedSpritePath": 2,
+        "normalSpritePath": 2,
+        "m_Sprite": 24,
+        "m_Color": 6,
+        "m_Type": 16,
+        "m_sharedMaterial": 16,
+        "m_fontColor": 22
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXGuideLoadingPanel.prefab",
+      "sha256": "0c48d21246739aaa68fe37e5aa7080842d9d78c84117787830e7fe6e0270cfce",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 6,
+        "m_Type": 2,
+        "m_sharedMaterial": 2,
+        "m_fontColor": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXGuideTargetCompletePanel.prefab",
+      "sha256": "48ff1cd2150c97fd16342799b9d5d2a41853d5b4589c2a100e2bd1f4c7d7c276",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 8,
+        "m_Type": 6,
+        "m_sharedMaterial": 4,
+        "m_fontColor": 4
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+      "sha256": "73dc5afa20358c72b71c90abdc7e117d2564a85977132a3c9ca8314be6383c95",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 30,
+        "m_Color": 2,
+        "m_sharedMaterial": 4,
+        "m_fontColor": 4,
+        "m_margin": 2,
+        "m_Type": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "sha256": "052f9bac0a4debceb690eea3b1e42f278f1d3bcbcd406f7e6a4ed4fadf04b008",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 20,
+        "m_sharedMaterial": 6,
+        "m_fontColor": 12,
+        "m_Type": 6,
+        "m_Color": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+      "sha256": "a8e0585cc9a808cf6cb3b2fd77e45457c229d588fa9b71b18e49a135225b7302",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 28,
+        "m_Color": 4,
+        "m_Type": 6,
+        "m_sharedMaterial": 2,
+        "m_fontColor": 4
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+      "sha256": "b331afde560985cb5ee2656ef54f9b92f8ccb4961c31e57286cffc68800c218a",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 30,
+        "m_sharedMaterial": 4,
+        "m_fontColor": 4,
+        "m_Material": 2,
+        "m_Type": 6
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+      "sha256": "b739b9058515037aa46facdc4d092fb6afc1931c1b44b26ebf949a64369d1b8a",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 20,
+        "m_Type": 12,
+        "m_sharedMaterial": 6,
+        "m_fontColor": 2,
+        "m_margin": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "sha256": "53d626910a809ad93ab58eed46cb1c4b7df2d6864c9eb8b5e1bcf6a542bf0f82",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 18,
+        "m_fontColor": 6,
+        "m_sharedMaterial": 4,
+        "m_Type": 4
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+      "sha256": "f4201623f2d7d452c806516f5b0626dc389e754e554cf46d3832c8e391c9d8bf",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 12,
+        "m_Type": 8,
+        "m_sharedMaterial": 2,
+        "m_fontColor": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/UnlockGameplayPanel.prefab",
+      "sha256": "87e9f03a66cacc5dff89c7e1000c495ea11206a48616bbaeada7b5789405b6aa",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Color": 4,
+        "m_Sprite": 4,
+        "m_Type": 4,
+        "m_sharedMaterial": 4,
+        "rgba": 4,
+        "m_fontColor": 4
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/playerinfo/PMDSimple.prefab",
+      "sha256": "9fad9d03d9c3f6c49c0417e08e7aed541de79c17cc4bc881ba141c12dc2abc37",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 2,
+        "m_Type": 2,
+        "m_Color": 2
+      }
+    },
+    {
+      "file": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+      "sha256": "3155b40c30571f00a4e5ca0153b3f4269c02ea6a2ce1b87bf96fcdc9da787bf1",
+      "checks": {
+        "component_ids_and_types": true,
+        "hierarchy_and_transforms": true,
+        "dynamic_text_strings": true,
+        "button_raycast_targetGraphic_bindings": true,
+        "only_allowlisted_visual_fields": true
+      },
+      "changed_fields": {
+        "m_Sprite": 2,
+        "m_fontColor": 8
+      }
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "file": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+      "component": "114694121525821480",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+      "component": "114924050743934937",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4280037197
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+      "component": "114642988549198181",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "component": "114477046003934300",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "component": "114043919389829319",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294784948
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "component": "114149520701623706",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4278519294
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "component": "114630643969539439",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "component": "114552309709192268",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294046207
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "component": "114264357844037074",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294046207
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "component": "114354824845356902",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294046207
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "component": "114601984538237284",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294046207
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "component": "114132862189046193",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4280037197
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "component": "114561126880652180",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "component": "114695600491528212",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXGuideLoadingPanel.prefab",
+      "component": "114470112387431263",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXGuideTargetCompletePanel.prefab",
+      "component": "114900271049623953",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXGuideTargetCompletePanel.prefab",
+      "component": "114344419225485095",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+      "component": "114000955326284023",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4287429117
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+      "component": "114026196548002408",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "component": "114733206282342372",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "component": "114472185465350827",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "component": "114801075752484240",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "component": "114431740505123533",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "component": "114699617135816954",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4280037197
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "component": "114704330047573733",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4287625982
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+      "component": "114726790013014859",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+      "component": "114743393880019028",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4278212801
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+      "component": "114967328832014496",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+      "component": "114632746491512912",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+      "component": "114518489005915545",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "component": "114107629493147155",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4280037197
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "component": "114719342369648492",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "component": "114397768327470545",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+      "component": "114694121525821480",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+      "component": "114161607090078389",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294967295
+    },
+    {
+      "file": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+      "component": "114634108722742392",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4294269074
+    },
+    {
+      "file": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+      "component": "114371939378208658",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4290088458
+    },
+    {
+      "file": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+      "component": "114060945828524476",
+      "reason": "TMP float/byte color differ",
+      "expected": 4278591308,
+      "stored": 4282352088
+    }
+  ],
+  "limitations": "This is structural validation, not a screenshot or functional runtime assertion. Editor validation scripts are intentionally excluded."
+}

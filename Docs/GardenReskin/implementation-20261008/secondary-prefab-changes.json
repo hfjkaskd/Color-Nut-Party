@@ -1,0 +1,231 @@
+[
+  {
+    "file": "Assets/Resources/prefabs/panels/BootLoadingPanel.prefab",
+    "components": {
+      "386": {
+        "m_Sprite": "{fileID: 21300000, guid: 4bb19ea8f7c7b7788eafdd074fa02602, type: 3}",
+        "m_Material": "{fileID: 0}"
+      },
+      "387": {
+        "m_Sprite": "{fileID: 21300000, guid: fc85f273d7ceb612efc255889feee468, type: 3}",
+        "m_Material": "{fileID: 0}"
+      },
+      "397": {
+        "m_Sprite": "{fileID: 21300000, guid: af84308559f0d29e599e1ea9891ff467, type: 3}",
+        "m_Material": "{fileID: 0}"
+      },
+      "410": {
+        "m_Sprite": "{fileID: 21300000, guid: c853a62d3e9cf482c3b7d85b60a1ba43, type: 3}",
+        "m_Material": "{fileID: 0}"
+      },
+      "377": {
+        "m_sharedMaterial": "{fileID: 2100000, guid: c7c2bfca7db84794686330d1d4ff10bc, type: 2}"
+      }
+    },
+    "sha256": "ad4685eda4ff19fa6dc81e2dfe446c13f2560016dd763d39e319e8e25e6d4068",
+    "geometry_hierarchy_text_bindings_unchanged": true
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/NewbieGuidePanel.prefab",
+    "components": {
+      "114472185465350827": {
+        "m_Sprite": "{fileID: 21300000, guid: 24d5391bc8ad7fb92373e0b669bf987f, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Type": "1"
+      },
+      "114841364053301648": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      }
+    },
+    "sha256": "0ef0ca9a47244243a63792586fc139478c1147af96ae1704116460e68785b018",
+    "geometry_hierarchy_text_bindings_unchanged": true
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/FailPanel.prefab",
+    "components": {
+      "114161607090078389": {
+        "m_Sprite": "{fileID: 21300000, guid: b0b6fdccb8c6fc87b85b7c518f4cff73, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Type": "0",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}"
+      },
+      "114621510681728303": {
+        "m_Sprite": "{fileID: 21300000, guid: f3e2322ec6520b68b5ee61b00cc26740, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Type": "1"
+      },
+      "114060945828524476": {
+        "m_Sprite": "{fileID: 21300000, guid: f3e2322ec6520b68b5ee61b00cc26740, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Type": "1"
+      },
+      "114291844617409189": {
+        "m_Sprite": "{fileID: 21300000, guid: 54ec3d901181acfc7d8257ba8c3a143e, type: 3}",
+        "m_Material": "{fileID: 0}"
+      },
+      "114107629493147155": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      }
+    },
+    "sha256": "f424403fea4bdc7a768d38b5de571cfea49f6d40caa5bff3818279af25337910",
+    "geometry_hierarchy_text_bindings_unchanged": true
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/ReplayPanel.prefab",
+    "components": {
+      "114705390221481576": {
+        "m_Sprite": "{fileID: 21300000, guid: 18e28c67f02f6b1af9f6f6a543502214, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Type": "1"
+      },
+      "114256069497284392": {
+        "m_Sprite": "{fileID: 21300000, guid: e5400d8088bd9b3e06ac422de179b39a, type: 3}",
+        "m_Material": "{fileID: 0}"
+      },
+      "114632457200066912": {
+        "m_Sprite": "{fileID: 21300000, guid: f3e2322ec6520b68b5ee61b00cc26740, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Type": "1"
+      },
+      "114470112387431263": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      },
+      "114918264173551851": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114371939378208658": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      }
+    },
+    "sha256": "7fe4645cdc54c61ac36a11264d798513ab4d58b540a0893a19649c2fe3d721d6",
+    "geometry_hierarchy_text_bindings_unchanged": true
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/RewardPanel.prefab",
+    "components": {
+      "114587765826080250": {
+        "m_Sprite": "{fileID: 21300000, guid: 067f68281ccdb9596cbe367b1d33bccc, type: 3}",
+        "m_Material": "{fileID: 0}"
+      }
+    },
+    "sha256": "9203f7262dbd3be76ad3bdf57a984210881eb9cef721dc50e90ead625394c876",
+    "geometry_hierarchy_text_bindings_unchanged": true
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/SuccessPanel.prefab",
+    "components": {
+      "114977153420339851": {
+        "m_Sprite": "{fileID: 21300000, guid: b0b6fdccb8c6fc87b85b7c518f4cff73, type: 3}",
+        "m_Material": "{fileID: 0}"
+      },
+      "114002669891404536": {
+        "m_Sprite": "{fileID: 21300000, guid: f3e2322ec6520b68b5ee61b00cc26740, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Type": "1"
+      },
+      "114969106005120503": {
+        "m_Sprite": "{fileID: 21300000, guid: 54ec3d901181acfc7d8257ba8c3a143e, type: 3}",
+        "m_Material": "{fileID: 0}"
+      },
+      "114089843903986396": {
+        "m_Sprite": "{fileID: 21300000, guid: ce7f58e707bc8f7d1cfdba449d240c8d, type: 3}",
+        "m_Material": "{fileID: 0}"
+      },
+      "114060945828524476": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      },
+      "114371939378208658": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      }
+    },
+    "sha256": "9c65642af1667761b4f0a43b31d259625c7430b89fb265343848ce03750d4999",
+    "geometry_hierarchy_text_bindings_unchanged": true
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/MessagePanel.prefab",
+    "components": {
+      "384": {
+        "m_Sprite": "{fileID: 21300000, guid: 8441b30338dd5b6b367fc758770f83bd, type: 3}",
+        "m_Material": "{fileID: 0}"
+      },
+      "385": {
+        "m_Sprite": "{fileID: 21300000, guid: 18e28c67f02f6b1af9f6f6a543502214, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Type": "1"
+      },
+      "389": {
+        "m_Sprite": "{fileID: 21300000, guid: f3e2322ec6520b68b5ee61b00cc26740, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Type": "1"
+      },
+      "378": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      },
+      "379": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      }
+    },
+    "sha256": "64d3d48b2eb9def293339c90ed0a6622c3d344333d76b185f4601b581d54fbd2",
+    "geometry_hierarchy_text_bindings_unchanged": true
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/UnlockGameplayPanel.prefab",
+    "components": {
+      "114025901758691103": {
+        "m_Sprite": "{fileID: 21300000, guid: b0b6fdccb8c6fc87b85b7c518f4cff73, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Type": "0",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}"
+      },
+      "114256069497284392": {
+        "m_Sprite": "{fileID: 21300000, guid: f3e2322ec6520b68b5ee61b00cc26740, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Type": "1"
+      },
+      "114634108722742392": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114918264173551851": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      },
+      "114642988549198181": {
+        "m_Color": "{r: 1, g: 1, b: 1, a: 0.25}"
+      }
+    },
+    "sha256": "87e9f03a66cacc5dff89c7e1000c495ea11206a48616bbaeada7b5789405b6aa",
+    "geometry_hierarchy_text_bindings_unchanged": true
+  },
+  {
+    "file": "Assets/Resources/prefabs/items/Item.prefab",
+    "components": {
+      "114985305603660343": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      }
+    },
+    "sha256": "5b8248bf0d1b40b58df0bed99a764e2bfb84ad651e32b2b9951fb66d6494d853",
+    "geometry_hierarchy_text_bindings_unchanged": true
+  },
+  {
+    "file": "Assets/Resources/prefabs/items/Item_Big.prefab",
+    "components": {
+      "114977153420339851": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      }
+    },
+    "sha256": "6452a93d2f5e6de80d93521eb0f3fd17535d969322a0ab08560f153efbc73ef8",
+    "geometry_hierarchy_text_bindings_unchanged": true
+  }
+]

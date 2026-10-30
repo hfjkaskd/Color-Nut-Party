@@ -1,0 +1,506 @@
+[
+  {
+    "file": "Assets/Resources/atlas/octobergarden/amount-normal.png",
+    "size": [
+      365,
+      221
+    ],
+    "sha256": "ab34601a58528fe527fb54a8e0afcb7dbec1778d1fcb2e5b1931276b5c489eb3",
+    "bytes": 81405
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/amount-selected.png",
+    "size": [
+      365,
+      221
+    ],
+    "sha256": "95c2abcf5c7b8494b93c32d3b95ab62e6484111a6e8c522e52c7cd48a621f5e5",
+    "bytes": 83193
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-blue-close.png",
+    "size": [
+      118,
+      120
+    ],
+    "sha256": "b2ec3e8a40264b5dba1d095463424991c6fcaabd6b62ee40f75eeee269e17929",
+    "bytes": 25353
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-complete-title.png",
+    "size": [
+      896,
+      362
+    ],
+    "sha256": "e98b2a0d5388684868e965446fb3b4a0c1bc94d54733c581a1f673292b5d4694",
+    "bytes": 299783
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-guide-crown.png",
+    "size": [
+      115,
+      137
+    ],
+    "sha256": "42f7509f3382b550cdb772115016ae4fa23811ed5346a092440ac39c9086521e",
+    "bytes": 20819
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-guide-node.png",
+    "size": [
+      115,
+      118
+    ],
+    "sha256": "a463c7327a6cdccf5a753e3a19c6d4a26d4a36dcda7cf75df15672b670a9af5b",
+    "bytes": 21805
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-guide-title.png",
+    "size": [
+      896,
+      828
+    ],
+    "sha256": "a812d87e1e5c7039605911639b4ca2d0e1152c53334591b31c395efe33e99e61",
+    "bytes": 850801
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-guide-withdraw.png",
+    "size": [
+      206,
+      77
+    ],
+    "sha256": "30c40ca29a479e278116ed43c8ce53c3bc7e399659f5bc6516ea99103a269c3a",
+    "bytes": 3876
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-level-band.png",
+    "size": [
+      1080,
+      234
+    ],
+    "sha256": "8c83114a0178ee728266a9e698d2293f40393fb4dd9806b1d083fd83916fdf4c",
+    "bytes": 257067
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-level-card.png",
+    "size": [
+      850,
+      376
+    ],
+    "sha256": "b25a7f6dd47abf04be32f2fa3ea6f6a8bbd165946feff1718f3349e1d4276da1",
+    "bytes": 359421
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-level-title.png",
+    "size": [
+      457,
+      84
+    ],
+    "sha256": "9d343135492c53b69f28de80ab8c464316182df68d9eea0f248861d1a4ad4c88",
+    "bytes": 2255
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-loading-band.png",
+    "size": [
+      1080,
+      505
+    ],
+    "sha256": "07be41db9fa5e9bf7afb75a3cf3603db24a600f7d4489aef8bdc9f1a207cc5db",
+    "bytes": 514769
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-status-hourglass.png",
+    "size": [
+      29,
+      42
+    ],
+    "sha256": "043b1be60d543f9705de3394b873e57af634ee0da44eee6286509d6ce2266016",
+    "bytes": 1738
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-status-line-pending.png",
+    "size": [
+      6,
+      150
+    ],
+    "sha256": "89c2396f8662d0c25f41d1430ab709051e871caf6db7beaeb55521873e7ec450",
+    "bytes": 1867
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-status-line.png",
+    "size": [
+      5,
+      36
+    ],
+    "sha256": "c6c00c41f0d7d7a8587e73253bbc5b061e6b4c4335725b3e758611038fd478a3",
+    "bytes": 297
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-status-pending.png",
+    "size": [
+      71,
+      71
+    ],
+    "sha256": "4b6d94061d92d18fd354a23a49691dd57d8a4f8dbd95d23b443a21521b741662",
+    "bytes": 6974
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-steps-panel.png",
+    "size": [
+      998,
+      1550
+    ],
+    "sha256": "f24a11ac15a24925785004ab9b5e28317786a84be6480d41d9bcf8828060cc59",
+    "bytes": 1274272
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/aux-verification-card.png",
+    "size": [
+      896,
+      246
+    ],
+    "sha256": "83c0dd5efee54ea564b1622c7c78a3166ca045380a59e306409dcb350f9e508f",
+    "bytes": 265426
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/background.png",
+    "size": [
+      1080,
+      1920
+    ],
+    "sha256": "c1afe527e85f92ac6f321fd077ab82d5349cc32215312862cc309d3e0b8bf6fd",
+    "bytes": 1926815
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/boot-background.png",
+    "size": [
+      853,
+      2048
+    ],
+    "sha256": "4158092d48854f07faba11f5e90597627992f3e16947beb5100a64b992fce02f",
+    "bytes": 1916693
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/boot-logo.png",
+    "size": [
+      818,
+      413
+    ],
+    "sha256": "ea61055a4ec1518acd86a04947c361568b8a4fa5e374ac6c51dbe792a811ffe4",
+    "bytes": 458817
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/cash-card.png",
+    "size": [
+      850,
+      369
+    ],
+    "sha256": "005bf138b44a8d19b2cc7e2055d70ffb9d4ff6a844ebda4497e3d5eb31d703dc",
+    "bytes": 268556
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/cash-heading.png",
+    "size": [
+      975,
+      163
+    ],
+    "sha256": "feb9bfdede90cdfe880bc609a696e736e7df2b96685814f4097676327f6475d2",
+    "bytes": 146150
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/close.png",
+    "size": [
+      128,
+      128
+    ],
+    "sha256": "eb1bafe2ebbb5fbcaf00238d713af6875934710d037329332aca632158264d27",
+    "bytes": 27258
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/cream-card.png",
+    "size": [
+      700,
+      300
+    ],
+    "sha256": "921d1e2ea4c75fcdfd3d77157ebed33b794cba2167b6b5c6cce0c5a944858a2c",
+    "bytes": 184056
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/cream-ribbon.png",
+    "size": [
+      740,
+      74
+    ],
+    "sha256": "5cc2d7b36833bdf2e8caca5c1d6683d0b4d42b55e3938014cefa1e2dfc0e3ee4",
+    "bytes": 47348
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/diamond-panel.png",
+    "size": [
+      1048,
+      1801
+    ],
+    "sha256": "a9f7eb8ddec8e66b79d8410c68541e93cd1a6be8cbe6fc17411e1d77ec508506",
+    "bytes": 1875333
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/flat-cream.png",
+    "size": [
+      512,
+      512
+    ],
+    "sha256": "b0bbe645a50919fbac8864a55b8c47832ac36aece37bb8ae8854fc6a05720a47",
+    "bytes": 235477
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/help.png",
+    "size": [
+      138,
+      142
+    ],
+    "sha256": "1783a3193d640ae0a917ac3b431627a71beebb2d626fb236cc9a14c300eaea50",
+    "bytes": 31821
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/input.png",
+    "size": [
+      600,
+      140
+    ],
+    "sha256": "5059f69d3c50bc2c826ad97d0c92e2a28b07482834061aae27ac0ac11aaa62c4",
+    "bytes": 83850
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/main-cash-button.png",
+    "size": [
+      193,
+      117
+    ],
+    "sha256": "a602ad704480ab3f167907a81999f7b159e61b102d1bd9cccefe197f4c9da784",
+    "bytes": 27132
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/main-currency-card.png",
+    "size": [
+      477,
+      126
+    ],
+    "sha256": "23bf4eac050ae56388592082cb857720f38bdb389bf04c397214e6af438ab595",
+    "bytes": 58094
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/main-milestone-active.png",
+    "size": [
+      115,
+      118
+    ],
+    "sha256": "32860ea11b7405f85a8361ce5a1648f67a8088a90fe4e407fb06a741ed50f80c",
+    "bytes": 22327
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/main-milestone-crown.png",
+    "size": [
+      115,
+      137
+    ],
+    "sha256": "b4cf2ca42d129f33797b4e36b4ad2520e717b2a6b8754aedf39af7f49e01134a",
+    "bytes": 24099
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/main-milestone-normal.png",
+    "size": [
+      115,
+      118
+    ],
+    "sha256": "119f774d319a2ade38ab17b62b33d2e769bd5b943648960e6d7307471c9000a8",
+    "bytes": 20695
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/main-milestone-pending.png",
+    "size": [
+      115,
+      118
+    ],
+    "sha256": "3d3244b34772ff77669ea1f3e1e760c86b07519e18dc56210ef30e8ccf944624",
+    "bytes": 22414
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/main-replay.png",
+    "size": [
+      59,
+      65
+    ],
+    "sha256": "7ce25384453fc7b44cd30d3ecdc8d6f8cf19bd4b5b8c8c930a2408f6c06359e9",
+    "bytes": 7234
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/main-revoke.png",
+    "size": [
+      119,
+      129
+    ],
+    "sha256": "4f862da96332f56855b4e7b9c9766c513c9b7d9280a9add4021d936642e0c846",
+    "bytes": 24508
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/main-setting.png",
+    "size": [
+      68,
+      65
+    ],
+    "sha256": "4fced731f50e21d4f1bf7348e86f0556445f19f014074f052dad98042118696d",
+    "bytes": 5875
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/main-tip.png",
+    "size": [
+      527,
+      99
+    ],
+    "sha256": "ba4c4ead749d020b0ccda1fcaddca985e6f30a378b36e027175eae8534b53695",
+    "bytes": 39131
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/main-toolbar-card.png",
+    "size": [
+      243,
+      192
+    ],
+    "sha256": "1423ac929752d8fa64ae34706e87320ab9163216a66513926a7be1aa37bc90b0",
+    "bytes": 50948
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/notice-title.png",
+    "size": [
+      961,
+      308
+    ],
+    "sha256": "91f816e46af32d9af43b38a0c5fec364bb2915f3b1d47cc6467b944d0775e4f2",
+    "bytes": 242771
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/panel-heading.png",
+    "size": [
+      1000,
+      1400
+    ],
+    "sha256": "fe420c9a6ac25e39aea6fcd1ae66d6aee8b677779ddc2e0765209015e3fbf57f",
+    "bytes": 1391098
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/panel.png",
+    "size": [
+      1000,
+      1100
+    ],
+    "sha256": "7d32c6ab4b0db3a1684e4eba6fd73a2153449f8ecf03642199db5504fa41219b",
+    "bytes": 1103477
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/primary-button.png",
+    "size": [
+      764,
+      192
+    ],
+    "sha256": "0dfa0ba64849cbb171501a0ca787875b8181211d800f9980cf682ad5c29eac30",
+    "bytes": 147099
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/progress-fill.png",
+    "size": [
+      850,
+      65
+    ],
+    "sha256": "1a00a7c6ab33a8bf28ce8c96294efd2e8469b3dd2e18dc30e34e00ae7c74fd7d",
+    "bytes": 60592
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/progress-track.png",
+    "size": [
+      850,
+      65
+    ],
+    "sha256": "3757b0f7bbc54b620bd196826cc2b1bd9bfaec3edfcb267daf377de7da8ef258",
+    "bytes": 50436
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/replay-title.png",
+    "size": [
+      944,
+      485
+    ],
+    "sha256": "872473c79a291eeb336c369bf7e347fd0d14557a6e0068f5a23c7c3f26369eef",
+    "bytes": 439093
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/reward-band.png",
+    "size": [
+      1080,
+      280
+    ],
+    "sha256": "b9b63b20eab697914ca1aebf8ecf4cdb7984467dabf4ff7cee8cca7f430a7230",
+    "bytes": 160725
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/ribbon.png",
+    "size": [
+      975,
+      186
+    ],
+    "sha256": "c90254c83e7623a70f7549f8e654e319403b4f0598e2c33cabf8dd78433bb63c",
+    "bytes": 193332
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/stats-panel.png",
+    "size": [
+      968,
+      334
+    ],
+    "sha256": "d8321a1f2cbf52477231dfac30cfe8119863ab3efd83feda03f5b587146778ab",
+    "bytes": 297925
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/success-title.png",
+    "size": [
+      896,
+      362
+    ],
+    "sha256": "8f63c370081496141fed92e22f74c01f439883569869482920214c05c047d602",
+    "bytes": 366128
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/title.png",
+    "size": [
+      700,
+      130
+    ],
+    "sha256": "1452421889544b59e599cc2a0a5ec7b51c79d5a33dec3b49d99e23396158de7b",
+    "bytes": 104089
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/video-ad.png",
+    "size": [
+      113,
+      101
+    ],
+    "sha256": "fa64a7371a7ce2c5d6ea07c904e9420be10bea2458ff249b2354de9fd5247eaf",
+    "bytes": 15816
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/wood-card.png",
+    "size": [
+      750,
+      1200
+    ],
+    "sha256": "870880b25d2a4456e146e455959a6207ece63922ac8acb0b5b64ea9a5b224265",
+    "bytes": 1029494
+  },
+  {
+    "file": "Assets/Resources/atlas/octobergarden/wood-ribbon.png",
+    "size": [
+      975,
+      186
+    ],
+    "sha256": "c90254c83e7623a70f7549f8e654e319403b4f0598e2c33cabf8dd78433bb63c",
+    "bytes": 193332
+  }
+]

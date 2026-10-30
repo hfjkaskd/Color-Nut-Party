@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "protectedFiles": 645,
+  "prefabAndRuntimeCodeUnchanged": true,
+  "sceneOnlyVisualChanges": {
+    "386": "m_Sprite",
+    "387": "m_Sprite",
+    "397": "m_Sprite",
+    "410": "m_Sprite",
+    "377": "m_sharedMaterial"
+  },
+  "validatedResolutions": [
+    [
+      720,
+      1560
+    ],
+    [
+      720,
+      1280
+    ]
+  ],
+  "dynamicStates": [
+    "0%",
+    "50%",
+    "90%",
+    "100%",
+    "hidden"
+  ],
+  "automaticSceneStartupCaptured": true,
+  "preferencesRestored": true,
+  "visualReview": "Both final runtime captures inspected: no logo/head overlap or loading-label/stage overlap. Central background art was uniformly reduced to fit original UI on short screens.",
+  "androidDeviceConnected": false,
+  "assetProvenance": "generation.json",
+  "imageGenFitPrompts": "safe-area-generation.json"
+}

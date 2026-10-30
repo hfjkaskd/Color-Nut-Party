@@ -1,0 +1,166 @@
+{
+  "status": "PASS",
+  "dryRun": true,
+  "generatedAtUtc": "2026-09-21T10:57:14.7772096Z",
+  "manifest": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\importer-selfcheck-manifest.json",
+  "originalZip": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\OriginalAssets\\before-reskin.zip",
+  "originalZipSha256": "09bdf1c5945a316901b3079ea0d6f8244275ef713216d3f10a83431a3a27a622",
+  "method": "Generated PNG pixels only; substantial alpha-component union bounds, original alpha bounds, bicubic or nine-slice resampling, optional original-alpha mask. No recolouring or painting.",
+  "targetCount": 2,
+  "entries": [
+    {
+      "target": "Assets/Resources/game/spirte/bg.png",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\design-previews\\main-garden-20260921\\main-garden-AI-preview.png",
+      "mode": "full",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "originalZipEntry": "Assets/Resources/game/spirte/bg.png",
+      "originalSha256": "9b02daa80d98a75a07b2b19362639387e850fd808443eb10eac64eef231c6073",
+      "previousSha256": "9b02daa80d98a75a07b2b19362639387e850fd808443eb10eac64eef231c6073",
+      "sourceSha256": "4f07baf9983fdabdc703545603c1c4fb4a6af0d75eaf771a3818f6facc8fcf28",
+      "outputSha256": "9f2a6935de0f4c02e0c2a1c72f4fa6c9d9df18f502802b1fe34cbb42ca4bb43e",
+      "outputBytes": 3461071,
+      "originalAndOutputSize": [
+        1024,
+        2048
+      ],
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "sourceCell": [
+        0,
+        0,
+        852,
+        1846
+      ],
+      "sourceBounds": [
+        0,
+        0,
+        852,
+        1846
+      ],
+      "originalAlphaBounds": [
+        0,
+        0,
+        1024,
+        2048
+      ],
+      "largestComponentPixels": 0,
+      "alphaThreshold": 100,
+      "padding": 2,
+      "retainedComponents": 0,
+      "preserveOriginalAlpha": false,
+      "nineSlice": false,
+      "oldBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "borderSource": "none",
+      "sourceSliceRatio": [
+        0.16,
+        0.16,
+        0.16,
+        0.16
+      ],
+      "destinationSlicePixels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stagedPath": null
+    },
+    {
+      "target": "Assets/Texture2D/bg_0.png",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\design-previews\\main-garden-20260921\\main-garden-AI-preview.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "originalZipEntry": "Assets/Texture2D/bg_0.png",
+      "originalSha256": "669b7acc4c5c80ce14bde556e9b06cc1c73a986c92393ad318623e76d172efa3",
+      "previousSha256": "669b7acc4c5c80ce14bde556e9b06cc1c73a986c92393ad318623e76d172efa3",
+      "sourceSha256": "4f07baf9983fdabdc703545603c1c4fb4a6af0d75eaf771a3818f6facc8fcf28",
+      "outputSha256": "ece3d6ed5dd06f679b46d15e7bb71efce793b42f69c7e56898e105eddbe26eb0",
+      "outputBytes": 1503462,
+      "originalAndOutputSize": [
+        907,
+        953
+      ],
+      "sourceSize": [
+        852,
+        1846
+      ],
+      "sourceCell": [
+        0,
+        0,
+        852,
+        1846
+      ],
+      "sourceBounds": [
+        0,
+        0,
+        852,
+        1846
+      ],
+      "originalAlphaBounds": [
+        4,
+        4,
+        898,
+        944
+      ],
+      "largestComponentPixels": 1572792,
+      "alphaThreshold": 100,
+      "padding": 2,
+      "retainedComponents": 1,
+      "preserveOriginalAlpha": true,
+      "nineSlice": true,
+      "oldBorder": [
+        0.0,
+        185.92387,
+        0.0,
+        180.9239
+      ],
+      "borderSource": "C:\\Projects\\com.nut.sort.relax\\Assets\\Texture2D\\bg_0.png.meta",
+      "sourceSliceRatio": [
+        0.16,
+        0.16,
+        0.16,
+        0.16
+      ],
+      "destinationSlicePixels": [
+        0,
+        181,
+        0,
+        177
+      ],
+      "stagedPath": null
+    }
+  ],
+  "protectedFiles": [
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Sprite\\bg_0.asset",
+      "sha256": "e5a05f229c5f13eebee7343d8a0004593cab9d70a3f737a23f5909854b2cbf36",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Texture2D\\bg_0.png.meta",
+      "sha256": "1378ebca08d18d2380a85baca8d0996121b3ead0e2f9b7021b485549402cfbd2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Sprite\\bg_0.asset.meta",
+      "sha256": "771b2b342fce0770287842a381d34b01f5e9cf076d66ff7aa56eec2d5a1fc769",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\game\\spirte\\bg.png.meta",
+      "sha256": "fda5f6e0cb4fa8ca81517593ff0b1c64574079c795afb519d75250944e6ba47f",
+      "unchanged": true
+    }
+  ]
+}

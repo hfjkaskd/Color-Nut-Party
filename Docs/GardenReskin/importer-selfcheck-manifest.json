@@ -1,0 +1,19 @@
+{
+  "report": "Docs/GardenReskin/importer-selfcheck-report.json",
+  "entries": [
+    {
+      "mode": "full",
+      "target": "Assets/Resources/game/spirte/bg.png",
+      "source": "C:/Projects/Golden  Dragon Legend/design-previews/main-garden-20260921/main-garden-AI-preview.png"
+    },
+    {
+      "target": "Assets/Texture2D/bg_0.png",
+      "rows": 1,
+      "source": "C:/Projects/Golden  Dragon Legend/design-previews/main-garden-20260921/main-garden-AI-preview.png",
+      "mode": "grid",
+      "columns": 1,
+      "preserveOriginalAlpha": true,
+      "cell": 0
+    }
+  ]
+}

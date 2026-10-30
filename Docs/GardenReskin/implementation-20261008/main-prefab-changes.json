@@ -1,0 +1,188 @@
+[
+  {
+    "file": "Assets/Resources/prefabs/panels/MainPanel.prefab",
+    "id": "114805829819301007",
+    "node": "MainPanel/Bottom/ReplayBg/ReplayBtn",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114785330607447594",
+    "node": "Top/GoldItem/BG",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114969505138979683",
+    "node": "Top/GoldItem/Click",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114824317463469755",
+    "node": "Top/GoldItem/Hint",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114570723408815475",
+    "node": "Top/CoinItem/BG",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114992816746925483",
+    "node": "Top/CoinItem/Click",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114709890794832471",
+    "node": "Top/CoinItem/Hint",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114831874417830518",
+    "node": "Top/HideLevel",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114941304181978548",
+    "node": "Top/HideLevel/Levels/1/BG",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114477794280538272",
+    "node": "Top/HideLevel/Levels/2/BG",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114195931274935818",
+    "node": "Top/HideLevel/Levels/3/BG",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114719897623072781",
+    "node": "Top/HideLevel/Levels/4/BG",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114521597976012101",
+    "node": "Top/HideLevel/Levels/4/Round",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114129116114662800",
+    "node": "Top/HideLevel/Levels/5/BG",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "id": "114433881075115309",
+    "node": "Top/HideLevel/Levels/5/Round",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+    "id": "114556043395114336",
+    "node": "Bottom/Revoke",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+    "id": "114370081907136253",
+    "node": "Bottom/Revoke/Image",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+    "id": "114962713294667487",
+    "node": "Bottom/Exchange",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+    "id": "114045646810609841",
+    "node": "Bottom/AddTile",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+    "id": "114505490946690937",
+    "node": "Bottom/SettingBg/SettingBtn",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+    "id": "114805829819301007",
+    "node": "Bottom/ReplayBg/ReplayBtn",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/GoldItem.prefab",
+    "id": "114785330607447594",
+    "node": "GoldItem/BG",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/GoldItem.prefab",
+    "id": "114969505138979683",
+    "node": "GoldItem/Click",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/GoldItem.prefab",
+    "id": "114824317463469755",
+    "node": "GoldItem/Hint",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/CoinItem.prefab",
+    "id": "114570723408815475",
+    "node": "CoinItem/BG",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/CoinItem.prefab",
+    "id": "114992816746925483",
+    "node": "CoinItem/Click",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/CoinItem.prefab",
+    "id": "114709890794832471",
+    "node": "CoinItem/Hint",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/RevokeItem.prefab",
+    "id": "114556043395114336",
+    "node": "Revoke",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/RevokeItem.prefab",
+    "id": "114370081907136253",
+    "node": "Revoke/Image",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/ExchangeItem.prefab",
+    "id": "114962713294667487",
+    "node": "Exchange",
+    "change": "existing visual sprite reference"
+  },
+  {
+    "file": "Assets/Resources/prefabs/panels/AddScrewItem.prefab",
+    "id": "114045646810609841",
+    "node": "AddTile",
+    "change": "existing visual sprite reference"
+  }
+]

@@ -1,0 +1,395 @@
+[
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+    "visualChanges": {
+      "114841364053301648": {
+        "m_Sprite": "{fileID: 21300000, guid: c045c0d33c9162dc96adc4924c3d9782, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114833703512093738": {
+        "m_Sprite": "{fileID: 21300000, guid: 256b410140a37bbbc33e1af9f703f564, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114694121525821480": {
+        "m_Sprite": "{fileID: 21300000, guid: 874e152f9c884abd366ff3495666cc2e, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114808113985169905": {
+        "m_Sprite": "{fileID: 21300000, guid: 874e152f9c884abd366ff3495666cc2e, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114726790013014859": {
+        "m_Sprite": "{fileID: 21300000, guid: 874e152f9c884abd366ff3495666cc2e, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114733206282342372": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      },
+      "114472185465350827": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      },
+      "114801075752484240": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      },
+      "114571718729274231": {
+        "m_Sprite": "{fileID: 21300000, guid: a9a1a8b8857da51f26084eba3b2e6a45, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114572839542275309": {
+        "m_Sprite": "{fileID: 21300000, guid: f3e2322ec6520b68b5ee61b00cc26740, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114370222726513266": {
+        "m_Sprite": "{fileID: 21300000, guid: af84308559f0d29e599e1ea9891ff467, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114393105877652414": {
+        "m_Sprite": "{fileID: 21300000, guid: c853a62d3e9cf482c3b7d85b60a1ba43, type: 3}",
+        "m_Material": "{fileID: 0}"
+      },
+      "114534704304255049": {
+        "m_Sprite": "{fileID: 21300000, guid: a0a15e927d6d872a0611127b956e9482, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114431740505123533": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114344419225485095": {
+        "m_Color": "{r: 1, g: 1, b: 1, a: 0}"
+      },
+      "114703931505913403": {
+        "m_Color": "{r: 1, g: 1, b: 1, a: 0}"
+      },
+      "114704330047573733": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114699617135816954": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      }
+    },
+    "baselineSha256": "f37f910407c8ca9c338efafecb740b29c35f9aee5531f93f685b74072872cbdb"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "visualChanges": {
+      "114220653531496868": {
+        "m_Sprite": "{fileID: 21300000, guid: c045c0d33c9162dc96adc4924c3d9782, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114291844617409189": {
+        "m_Color": "{r: 1, g: 1, b: 1, a: 0}"
+      },
+      "114693329660128220": {
+        "m_Sprite": "{fileID: 21300000, guid: 3cd3b05eb8b82a9a0343e1a65bfe832d, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114397768327470545": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      },
+      "114689364072382846": {
+        "m_Sprite": "{fileID: 21300000, guid: f3e2322ec6520b68b5ee61b00cc26740, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114477046003934300": {
+        "m_Sprite": "{fileID: 21300000, guid: e0ee2c7f2cf8d52ba61b3fc5e4d305a3, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114384403120170545": {
+        "m_Sprite": "{fileID: 21300000, guid: a0a15e927d6d872a0611127b956e9482, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114571878917323452": {
+        "m_Sprite": "{fileID: 21300000, guid: a0a15e927d6d872a0611127b956e9482, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114121005239445321": {
+        "m_Sprite": "{fileID: 21300000, guid: a0a15e927d6d872a0611127b956e9482, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114291632710222552": {
+        "m_Sprite": "{fileID: 21300000, guid: a0a15e927d6d872a0611127b956e9482, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114107629493147155": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114719342369648492": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      },
+      "114589652054545887": {
+        "m_Sprite": "{fileID: 21300000, guid: 7653cb321dddc2d7f717c2ec111d278d, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      }
+    },
+    "baselineSha256": "b6227e1d285bbb25dc2c9299ab59e01cc9337e2d15f01102161d69199bb92350"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+    "visualChanges": {
+      "114621510681728303": {
+        "m_Sprite": "{fileID: 21300000, guid: 18e28c67f02f6b1af9f6f6a543502214, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114302127217294661": {
+        "m_Color": "{r: 1, g: 1, b: 1, a: 0}"
+      },
+      "114946936116752871": {
+        "m_Color": "{r: 1, g: 1, b: 1, a: 0}"
+      },
+      "114587397909062814": {
+        "m_Sprite": "{fileID: 21300000, guid: 6dc423eec55e3579ad27c15464dfbf56, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114694121525821480": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      },
+      "114733206282342372": {
+        "m_Sprite": "{fileID: 21300000, guid: f3e2322ec6520b68b5ee61b00cc26740, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114841364053301648": {
+        "m_Sprite": "{fileID: 21300000, guid: a9a1a8b8857da51f26084eba3b2e6a45, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114472185465350827": {
+        "m_Sprite": "{fileID: 21300000, guid: 54ec3d901181acfc7d8257ba8c3a143e, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114924050743934937": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114632746491512912": {
+        "m_Sprite": "{fileID: 21300000, guid: a0a15e927d6d872a0611127b956e9482, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      }
+    },
+    "baselineSha256": "4a860adda5a021ee5400724e668c43e1f517c05a262a882967d51ae55ceeaaa3"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "visualChanges": {
+      "114060945828524476": {
+        "m_Sprite": "{fileID: 21300000, guid: 9f5dbb725c0a1694e02e51c8e2615830, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114397768327470545": {
+        "m_Color": "{r: 1, g: 1, b: 1, a: 0}"
+      },
+      "114477046003934300": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: dcf27bde9acc4e7d2f963953da8562cf, type: 2}"
+      },
+      "114967328832014496": {
+        "m_Sprite": "{fileID: 21300000, guid: eb5fd7f52185a4f2f05d5b95b36c94d1, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114919942235722503": {
+        "m_Sprite": "{fileID: 21300000, guid: 24d5391bc8ad7fb92373e0b669bf987f, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114632746491512912": {
+        "m_Color": "{r: 1, g: 1, b: 1, a: 0}"
+      },
+      "114436073260064126": {
+        "m_Sprite": "{fileID: 21300000, guid: a9a1a8b8857da51f26084eba3b2e6a45, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114043919389829319": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114149520701623706": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114630643969539439": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114393105877652414": {
+        "m_Sprite": "{fileID: 21300000, guid: aae89f9c832e83dc8aaa83e522eecefb, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114431740505123533": {
+        "m_Sprite": "{fileID: 21300000, guid: 3d5268288e8035c9055fa07d0cc1ae46, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114704330047573733": {
+        "m_Sprite": "{fileID: 21300000, guid: 3d5268288e8035c9055fa07d0cc1ae46, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114880619614767448": {
+        "m_Sprite": "{fileID: 21300000, guid: 3d5268288e8035c9055fa07d0cc1ae46, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114552309709192268": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114264357844037074": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114354824845356902": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114601984538237284": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114240571728440943": {
+        "m_Sprite": "{fileID: 21300000, guid: f3e2322ec6520b68b5ee61b00cc26740, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114132862189046193": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114386943702330414": {
+        "m_Sprite": "{fileID: 21300000, guid: 24d5391bc8ad7fb92373e0b669bf987f, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114561126880652180": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114695600491528212": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114187454977326620": {
+        "m_Sprite": "{fileID: 21300000, guid: af84308559f0d29e599e1ea9891ff467, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      },
+      "114592460329389196": {
+        "m_Sprite": "{fileID: 21300000, guid: c853a62d3e9cf482c3b7d85b60a1ba43, type: 3}",
+        "m_Material": "{fileID: 0}"
+      },
+      "114217368724061974": {
+        "selectedSpritePath": "Atlas/octobergarden/amount-selected",
+        "normalSpritePath": "Atlas/octobergarden/amount-normal"
+      }
+    },
+    "baselineSha256": "11363ee8c54413a2b08f65a33941b56884c88f746498699e51828eb190da7a26"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+    "visualChanges": {
+      "114977153420339851": {
+        "m_Sprite": "{fileID: 21300000, guid: c11b889e375056becdf8e9fc8b42ad5e, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 0
+      },
+      "114161607090078389": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114634108722742392": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114371939378208658": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      },
+      "114060945828524476": {
+        "m_fontColor": "{r: 0.30, g: 0.12, b: 0.025, a: 1}",
+        "m_sharedMaterial": "{fileID: 2100000, guid: f8d75af0502c5ce4e833fe267934fc89, type: 2}"
+      }
+    }
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/playerinfo/PMDSimple.prefab",
+    "visualChanges": {
+      "114589667821646929": {
+        "m_Sprite": "{fileID: 21300000, guid: a0a15e927d6d872a0611127b956e9482, type: 3}",
+        "m_Material": "{fileID: 0}",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Type": 1
+      }
+    }
+  }
+]

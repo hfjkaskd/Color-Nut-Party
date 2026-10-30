@@ -1,0 +1,34 @@
+[
+  {
+    "file": "Assets\\Resources\\prefabs\\panels\\GoldItem.prefab",
+    "id": "114187454977326620",
+    "node": "GoldItem/Hint/Text (TMP)",
+    "old": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}",
+    "new": "#4d2f1c",
+    "preserved": "dynamic text, rich text colors, rect, binding"
+  },
+  {
+    "file": "Assets\\Resources\\prefabs\\panels\\CoinItem.prefab",
+    "id": "114220697728379336",
+    "node": "CoinItem/Hint/Text (TMP)",
+    "old": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}",
+    "new": "#4d2f1c",
+    "preserved": "dynamic text, rich text colors, rect, binding"
+  },
+  {
+    "file": "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "id": "114187454977326620",
+    "node": "Top/GoldItem/Hint/Text (TMP)",
+    "old": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}",
+    "new": "#4d2f1c",
+    "preserved": "dynamic text, rich text colors, rect, binding"
+  },
+  {
+    "file": "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "id": "114220697728379336",
+    "node": "Top/CoinItem/Hint/Text (TMP)",
+    "old": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}",
+    "new": "#4d2f1c",
+    "preserved": "dynamic text, rich text colors, rect, binding"
+  }
+]

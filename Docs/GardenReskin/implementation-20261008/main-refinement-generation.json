@@ -1,0 +1,20 @@
+[
+  {
+    "name": "main-toolbar-card-final",
+    "prompt": "Generate ONE standalone transparent empty toolbar tile from the approved main screen reference: the cream rounded rectangular tile behind the yellow undo arrow along bottom. REMOVE THE ARROW, COUNT BADGE AND ALL OTHER ICONS. Only empty cream tile. Width/height ratio exactly 243:192. Match its honey wood narrow raised edge, fine dark brown outer contour, off-white inner highlight and pale cream blank face. Edge about 6% tile width, rounded corners about 18% tile width. The inner face must be broad, not thick inflated framing. No text, no leaves, no symbols. Front flat view, entire tile and small shadow within transparent canvas.",
+    "reference": "Docs/GardenReskin/regenerated-20261008/main-effect.png",
+    "source": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-68ac-7dc1-b026-94fb7dc0872f\\exec-3a602c8f-7c10-48fe-abf7-14ef43e97bdc.png",
+    "workspaceCopy": "Docs/GardenReskin/implementation-20261008/sources/main-toolbar-card-final.png",
+    "tool": "built-in image_gen.imagegen",
+    "transparent_background": true
+  },
+  {
+    "name": "main-cash-button-final",
+    "prompt": "Generate ONE transparent empty green Cash button texture matching the approved main screen upper green Cash buttons, with NO LETTERING. Width/height ratio exactly 193:117. Bright grass green face, restrained smooth gloss, rounded rectangle with big radius approximately 24% of height, thin dark brown contour, NO wood frame, NO cream inner face. Preserve broad green face. Do not make a horizontal pill or capsule; this is a short rectangular button with four rounded corners. No text, no icon, no leaves. Flat front UI asset on transparent background.",
+    "reference": "Docs/GardenReskin/regenerated-20261008/main-effect.png",
+    "source": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-68ac-7dc1-b026-94fb7dc0872f\\exec-967df90d-1c02-492f-967f-0fe674d30c3b.png",
+    "workspaceCopy": "Docs/GardenReskin/implementation-20261008/sources/main-cash-button-final.png",
+    "tool": "built-in image_gen.imagegen",
+    "transparent_background": true
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-09T07:00:02.7060272Z",
+  "width": 720,
+  "height": 1560,
+  "image": "runtime-tall.png",
+  "kind": "Unity Editor Play Mode runtime: automatic first startup capture plus same actual scene Loading view reopened at 90% through its normal public APIs",
+  "automaticImage": "automatic-tall.png",
+  "automaticStartupCaptured": true,
+  "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+  "states": [
+    {
+      "source": "Actual automatic scene startup before any manual presentation call",
+      "fillAtCaptureRequest": 0.253766716,
+      "percentAtCaptureRequest": "25%"
+    },
+    {
+      "fill": 0.0,
+      "percent": "0%",
+      "markerX": 0.0,
+      "source": "Existing presentation API: reset"
+    },
+    {
+      "fill": 0.5,
+      "percent": "50%",
+      "markerX": 375.0,
+      "source": "Existing presentation API: one-second advance"
+    },
+    {
+      "fill": 0.9,
+      "percent": "90%",
+      "markerX": 675.0,
+      "source": "Real Unity Update reaches the original cap"
+    },
+    {
+      "fill": 0.999999642,
+      "percent": "100%",
+      "markerX": 749.999756,
+      "source": "Real global animation pump completed the progress tween"
+    }
+  ],
+  "originalPreferencesRestored": true,
+  "runtimeError": null,
+  "saw100BeforeDelayedHide": true
+}

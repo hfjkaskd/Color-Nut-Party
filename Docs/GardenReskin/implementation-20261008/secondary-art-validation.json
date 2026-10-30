@@ -1,0 +1,97 @@
+[
+  {
+    "name": "boot-background",
+    "size": [
+      853,
+      2048
+    ],
+    "alpha_min_max": [
+      255,
+      255
+    ],
+    "nontransparent_bbox": [
+      0,
+      0,
+      853,
+      2048
+    ],
+    "fully_transparent_pixels": 0,
+    "sha256": "4158092d48854f07faba11f5e90597627992f3e16947beb5100a64b992fce02f"
+  },
+  {
+    "name": "boot-logo",
+    "size": [
+      818,
+      413
+    ],
+    "alpha_min_max": [
+      0,
+      255
+    ],
+    "nontransparent_bbox": [
+      0,
+      0,
+      818,
+      413
+    ],
+    "fully_transparent_pixels": 43884,
+    "sha256": "ea61055a4ec1518acd86a04947c361568b8a4fa5e374ac6c51dbe792a811ffe4"
+  },
+  {
+    "name": "replay-title",
+    "size": [
+      944,
+      485
+    ],
+    "alpha_min_max": [
+      0,
+      255
+    ],
+    "nontransparent_bbox": [
+      0,
+      0,
+      944,
+      485
+    ],
+    "fully_transparent_pixels": 188180,
+    "sha256": "872473c79a291eeb336c369bf7e347fd0d14557a6e0068f5a23c7c3f26369eef"
+  },
+  {
+    "name": "notice-title",
+    "size": [
+      961,
+      308
+    ],
+    "alpha_min_max": [
+      0,
+      255
+    ],
+    "nontransparent_bbox": [
+      0,
+      3,
+      961,
+      288
+    ],
+    "fully_transparent_pixels": 125175,
+    "sha256": "91f816e46af32d9af43b38a0c5fec364bb2915f3b1d47cc6467b944d0775e4f2"
+  },
+  {
+    "name": "success-title",
+    "size": [
+      896,
+      362
+    ],
+    "alpha_min_max": [
+      0,
+      255
+    ],
+    "nontransparent_bbox": [
+      0,
+      0,
+      896,
+      354
+    ],
+    "fully_transparent_pixels": 111021,
+    "sha256": "8f63c370081496141fed92e22f74c01f439883569869482920214c05c047d602"
+  }
+]

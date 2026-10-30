@@ -1,0 +1,227 @@
+[
+  {
+    "name": "panel",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\panel.png",
+    "size": [
+      1000,
+      1100
+    ],
+    "border": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "sha256": "7d32c6ab4b0db3a1684e4eba6fd73a2153449f8ecf03642199db5504fa41219b"
+  },
+  {
+    "name": "primary-button",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\primary-button.png",
+    "size": [
+      764,
+      192
+    ],
+    "border": [
+      56,
+      56,
+      56,
+      56
+    ],
+    "sha256": "0dfa0ba64849cbb171501a0ca787875b8181211d800f9980cf682ad5c29eac30"
+  },
+  {
+    "name": "ribbon",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\ribbon.png",
+    "size": [
+      975,
+      186
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "c90254c83e7623a70f7549f8e654e319403b4f0598e2c33cabf8dd78433bb63c"
+  },
+  {
+    "name": "wood-ribbon",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\ribbon.png",
+    "size": [
+      975,
+      186
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "c90254c83e7623a70f7549f8e654e319403b4f0598e2c33cabf8dd78433bb63c"
+  },
+  {
+    "name": "input",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\input.png",
+    "size": [
+      600,
+      140
+    ],
+    "border": [
+      36,
+      36,
+      36,
+      36
+    ],
+    "sha256": "5059f69d3c50bc2c826ad97d0c92e2a28b07482834061aae27ac0ac11aaa62c4"
+  },
+  {
+    "name": "cream-card",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\input.png",
+    "size": [
+      700,
+      300
+    ],
+    "border": [
+      42,
+      42,
+      42,
+      42
+    ],
+    "sha256": "921d1e2ea4c75fcdfd3d77157ebed33b794cba2167b6b5c6cce0c5a944858a2c"
+  },
+  {
+    "name": "amount-normal",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\input.png",
+    "size": [
+      365,
+      221
+    ],
+    "border": [
+      45,
+      45,
+      45,
+      45
+    ],
+    "sha256": "a1801ce85af808be50cb48d9815e2d951c46cd278b0e114a9d80ff1dd9d393d5"
+  },
+  {
+    "name": "amount-selected",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\amount-selected.png",
+    "size": [
+      365,
+      221
+    ],
+    "border": [
+      45,
+      45,
+      45,
+      45
+    ],
+    "sha256": "95c2abcf5c7b8494b93c32d3b95ab62e6484111a6e8c522e52c7cd48a621f5e5"
+  },
+  {
+    "name": "title",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\title.png",
+    "size": [
+      700,
+      130
+    ],
+    "border": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "sha256": "1452421889544b59e599cc2a0a5ec7b51c79d5a33dec3b49d99e23396158de7b"
+  },
+  {
+    "name": "wood-card",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\wood-card.png",
+    "size": [
+      750,
+      1200
+    ],
+    "border": [
+      70,
+      70,
+      70,
+      70
+    ],
+    "sha256": "870880b25d2a4456e146e455959a6207ece63922ac8acb0b5b64ea9a5b224265"
+  },
+  {
+    "name": "cream-ribbon",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\cream-ribbon.png",
+    "size": [
+      740,
+      74
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "5cc2d7b36833bdf2e8caca5c1d6683d0b4d42b55e3938014cefa1e2dfc0e3ee4"
+  },
+  {
+    "name": "progress-track",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\progress-track.png",
+    "size": [
+      850,
+      65
+    ],
+    "border": [
+      32,
+      0,
+      32,
+      0
+    ],
+    "sha256": "3757b0f7bbc54b620bd196826cc2b1bd9bfaec3edfcb267daf377de7da8ef258"
+  },
+  {
+    "name": "progress-fill",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\progress-fill.png",
+    "size": [
+      850,
+      65
+    ],
+    "border": [
+      32,
+      0,
+      32,
+      0
+    ],
+    "sha256": "1a00a7c6ab33a8bf28ce8c96294efd2e8469b3dd2e18dc30e34e00ae7c74fd7d"
+  },
+  {
+    "name": "close",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\close.png",
+    "size": [
+      128,
+      128
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "eb1bafe2ebbb5fbcaf00238d713af6875934710d037329332aca632158264d27"
+  },
+  {
+    "name": "background",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\implementation-20261008\\sources\\background.png",
+    "size": [
+      1080,
+      1920
+    ],
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "c1afe527e85f92ac6f321fd077ab82d5349cc32215312862cc309d3e0b8bf6fd"
+  }
+]

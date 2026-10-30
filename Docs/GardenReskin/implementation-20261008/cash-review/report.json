@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-09T06:12:04.9458696Z",
+  "runtimeError": null,
+  "note": "Matched image is explicit isolated acceptance fixture through real Unity components, not a connected statistics service or real payment.",
+  "originalPreferencesRestored": true,
+  "captures": [
+    {
+      "id": "cash-local-empty",
+      "kind": "Actual local Cash Button route; no statistics or withdrawal record response",
+      "inputs": {
+        "source": "No data response",
+        "date": "--",
+        "people": "--",
+        "attempts": "--",
+        "average": "--"
+      },
+      "progress": "3/5",
+      "fill": 0.6,
+      "amount": "$0",
+      "statistics": [
+        "--",
+        "--",
+        "--"
+      ],
+      "buttonsClicked": "Only main Cash entry Button; no Withdraw click",
+      "image": "cash-local-empty.png",
+      "preferencesUnchangedDuringPresentation": true,
+      "balanceUnchanged": true
+    },
+    {
+      "id": "cash-matched-fixture",
+      "kind": "Unity runtime using original Bind/Init/Refresh APIs with explicit visual acceptance fixture; NOT live statistics or a real payout",
+      "inputs": {
+        "source": "Explicit visual acceptance fixture",
+        "date": "9/9/2026",
+        "people": 25553,
+        "attempts": 1,
+        "average": 0.4,
+        "brand": "Venmo",
+        "displayName": "Player_N9s6",
+        "realPayout": false
+      },
+      "progress": "1/1",
+      "fill": 1.0,
+      "amount": "$0.40",
+      "statistics": [
+        "25553",
+        "1",
+        "$0.40"
+      ],
+      "buttonsClicked": "None",
+      "image": "cash-matched-fixture.png",
+      "preferencesUnchangedDuringPresentation": true,
+      "balanceUnchanged": true
+    }
+  ]
+}

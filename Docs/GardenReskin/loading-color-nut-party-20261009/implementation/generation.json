@@ -1,0 +1,30 @@
+{
+  "status": "Approved by user for Unity replacement and APK, 2026-10-09",
+  "provider": "built-in image_gen.imagegen",
+  "approvedImage": "C:/Users/pc/AppData/Local/Temp/codex-clipboard-711f44a5-23c8-43ca-a6ed-1b619d0b27c6.png",
+  "prompts": {
+    "background": "Use case: precise-object-edit. Production extraction from the APPROVED attached game loading artwork, NOT a redesign. Make a clean BACKGROUND texture for Unity. Remove the entire Color Nut Party logo and its cream/cocoa outlines and yellow accent strokes from the upper portion; seamlessly restore the same pale honey wooden background there. Remove all lower loading UI: the LOADING... lettering, entire green progress bar including wood frame, blue hexagon marker and 90% lettering; restore continuous pale wood texture in those areas. Absolutely preserve the human craftsman's exact face, curly brown hair, beard, sage apron, cream shirt, hands holding red and cyan nuts, two nut stacks, wooden stage, confetti and four lower-corner nuts. Do not redraw, rearrange, resize, reposition or change these subjects.\nOriginal image is 852x1846. Output a slightly taller production portrait canvas, 853x2048 target: extend the pale wood background by approximately 101 pixels at TOP and 101 pixels at BOTTOM, keeping the original content at the same scale and centered vertically. Do not stretch the character. The topmost 32% is empty wood for separate logo UI. The character and stage occupy roughly 33% to72% of the full output canvas. Empty wood between stage and lower corner nuts remains reserved for dynamic loading UI. Opaque continuous wood background, no transparency, no letters, no numbers, no logo, no loading bar or badge, no new objects. Every asset boundary is smooth and natural. Preserve the exact approved art as closely as possible.",
+    "logo": "Use case: background-extraction. Extract ONLY the exact approved 'Color Nut Party' logo from the attached game Loading artwork as a clean transparent PNG production sprite. Preserve EXACTLY its letter shapes, spelling, glossy 3D colors, cream edge and cocoa outer shadow, two-line arrangement 'Color Nut' above 'Party', and the small yellow decorative accent strokes on its lower sides. Do not redesign or change the logo. Completely remove the wood background and all character, nuts, confetti, loading UI and every other object. Real alpha transparency all around, no white box or checkerboard painted into pixels. Tight centered landscape canvas matching target 818x413 (approximately 1.98:1), fit full logo within that canvas without clipping, with a little transparent margin. Use full texture width efficiently, not a small logo on a portrait sheet. Only this isolated exact logo, no other text or art."
+  },
+  "generatedSources": {
+    "background": "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-6c9a9507-0d06-444f-9d4c-9bfc9f46e810.png",
+    "logo": "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-134ecd61-5fb1-4f30-b2a1-b7d887d3ed74.png"
+  },
+  "assetSizes": {
+    "background": [
+      853,
+      2048
+    ],
+    "logo": [
+      818,
+      413
+    ]
+  },
+  "preserved": "All Prefab components and RectTransforms, dynamic loading text/percentage/fill, package identity, runtime and economy logic. Build label updated; Editor internal product namespace retained for saves.",
+  "initialBackgroundExtraction": "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-ea7bd582-fd05-4ef6-b0e2-4e251983ffa6.png",
+  "safeAreaPrompts": "safe-area-generation.json",
+  "installedAssets": {
+    "Assets\\Resources\\atlas\\octobergarden\\boot-background.png": "beb19b6992d75e59a135a1bd099513074ccc8f31635b4df20e0bf8e4f7a47218",
+    "Assets\\Resources\\atlas\\octobergarden\\boot-logo.png": "9f84e8c209d4000c675396825db27f2d6e31bb32789a21932366db30d5f2c6b2"
+  }
+}

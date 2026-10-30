@@ -1,0 +1,1011 @@
+{
+  "schema": 1,
+  "artworkTool": "built-in image_gen",
+  "alphaThreshold": 100,
+  "padding": 2,
+  "sourceSliceRatio": 0.12,
+  "entries": [
+    {
+      "target": "Assets/Resources/atlas/mainpanel/tx_bg.png",
+      "source": "Docs/GardenReskin/Generated/cream-panel.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/tx_bg1.png",
+      "source": "Docs/GardenReskin/Generated/cream-panel.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/item_bg.png",
+      "source": "Docs/GardenReskin/Generated/tool-panel-light.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/item_bg1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 11
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/goldget.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 2
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/hintlevel_bg1.png",
+      "source": "Docs/GardenReskin/Generated/pending-shield.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/hintlevel_bg2.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 8
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/hintlevel_bg3.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 9
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/hintlevel_bg4.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 10
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/hintlevel_tx_bg.png",
+      "source": "Docs/GardenReskin/Generated/withdraw-label-gold.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/gold_tip_bg.png",
+      "source": "Docs/GardenReskin/Generated/cash-tip-flat.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/coin_tip_bg.png",
+      "source": "Docs/GardenReskin/Generated/diamond-tip-flat.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/tx_bar_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/tx_lv_bar_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/tx_bar.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 5
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/tx_lv_bar.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 5
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/level_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/tx_dj_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/PlayerGoldGetHint_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/TargetReward_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/target_tip_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Resources/atlas/items/Revoke.png",
+      "source": "Docs/GardenReskin/Generated/icon-sheet.png",
+      "mode": "grid",
+      "columns": 3,
+      "rows": 3,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/items/Exchange.png",
+      "source": "Docs/GardenReskin/Generated/icon-sheet.png",
+      "mode": "grid",
+      "columns": 3,
+      "rows": 3,
+      "cell": 1
+    },
+    {
+      "target": "Assets/Resources/atlas/items/AddScrew.png",
+      "source": "Docs/GardenReskin/Generated/icon-sheet.png",
+      "mode": "grid",
+      "columns": 3,
+      "rows": 3,
+      "cell": 2
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/setting.png",
+      "source": "Docs/GardenReskin/Generated/icon-sheet.png",
+      "mode": "grid",
+      "columns": 3,
+      "rows": 3,
+      "cell": 3
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/replay.png",
+      "source": "Docs/GardenReskin/Generated/icon-sheet.png",
+      "mode": "grid",
+      "columns": 3,
+      "rows": 3,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Resources/atlas/tooloffer/close.png",
+      "source": "Docs/GardenReskin/Generated/icon-sheet.png",
+      "mode": "grid",
+      "columns": 3,
+      "rows": 3,
+      "cell": 7
+    },
+    {
+      "target": "Assets/Resources/atlas/tooloffer/ad.png",
+      "source": "Docs/GardenReskin/Generated/icon-sheet.png",
+      "mode": "grid",
+      "columns": 3,
+      "rows": 3,
+      "cell": 8
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+      "source": "Docs/GardenReskin/Generated/tool-count-green.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/item_add.png",
+      "source": "Docs/GardenReskin/Generated/tool-add-green.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/appratingpanel/bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 12
+    },
+    {
+      "target": "Assets/Resources/atlas/appratingpanel/title.png",
+      "source": "Docs/GardenReskin/Generated/replay-title.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "alphaThreshold": 180
+    },
+    {
+      "target": "Assets/Resources/atlas/localstats/bg2_3.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15
+    },
+    {
+      "target": "Assets/Resources/atlas/localstats/bg_3.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15
+    },
+    {
+      "target": "Assets/Resources/atlas/newbieguidepanel/bg.png",
+      "source": "Docs/GardenReskin/Generated/teaching-thin-frame.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/newbieguidepanel/bg1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 8
+    },
+    {
+      "target": "Assets/Resources/atlas/newbieguidepanel/dian.png",
+      "source": "Docs/GardenReskin/Generated/replay-cream-disc.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/newbieguidepanel/dian1.png",
+      "source": "Docs/GardenReskin/Generated/tool-count-green.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/newbieguidepanel/line.png",
+      "source": "Docs/GardenReskin/Generated/tutorial-track-wood.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/tooloffer/bg_0.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 12
+    },
+    {
+      "target": "Assets/Resources/atlas/tooloffer/bg1_5.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15,
+      "oldBorder": [
+        32,
+        28,
+        32,
+        28
+      ],
+      "sourceSliceRatio": [
+        0.12,
+        0.28,
+        0.12,
+        0.28
+      ]
+    },
+    {
+      "target": "Assets/Resources/atlas/tooloffer/bg2_1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15
+    },
+    {
+      "target": "Assets/Resources/atlas/tooloffer/btn1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 2
+    },
+    {
+      "target": "Assets/Resources/atlas/tooloffer/goldget_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 3,
+      "preserveOriginalAlpha": true
+    },
+    {
+      "target": "Assets/Resources/atlas/tooloffer/title_0.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 13
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/bar.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 5
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/bar_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 12
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/bg3.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/bg2.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/bg4.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/btn.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 2
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/item_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 11
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/item_bg1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 1
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/item_bg2.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 2
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/item_bg1_1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 2,
+      "preserveOriginalAlpha": true
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/tip_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/title1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Resources/game/spirte/bg.png",
+      "source": "Docs/GardenReskin/Generated/background.png",
+      "mode": "full",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Texture2D/bg.png",
+      "source": "Docs/GardenReskin/Generated/background.png",
+      "mode": "full",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Texture2D/bg_2.png",
+      "source": "Docs/GardenReskin/Generated/background.png",
+      "mode": "full",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Texture2D/bg0.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 12,
+      "sourceSliceRatio": [
+        0.25,
+        0.2,
+        0.25,
+        0.45
+      ]
+    },
+    {
+      "target": "Assets/Texture2D/bg0_0.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 12
+    },
+    {
+      "target": "Assets/Texture2D/bg_0.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 12,
+      "sourceSliceRatio": 0.25
+    },
+    {
+      "target": "Assets/Texture2D/bg_10.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 12,
+      "sourceSliceRatio": [
+        0.12,
+        0.38,
+        0.12,
+        0.25
+      ]
+    },
+    {
+      "target": "Assets/Texture2D/bg_11.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 12,
+      "sourceSliceRatio": 0.25
+    },
+    {
+      "target": "Assets/Texture2D/bg_12.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 12
+    },
+    {
+      "target": "Assets/Texture2D/bg_14.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 12
+    },
+    {
+      "target": "Assets/Texture2D/bg_5.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 12
+    },
+    {
+      "target": "Assets/Texture2D/bg1_2.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15,
+      "sourceSliceRatio": 0.25
+    },
+    {
+      "target": "Assets/Texture2D/bg1_5.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15,
+      "sourceSliceRatio": 0.25
+    },
+    {
+      "target": "Assets/Texture2D/bg1_8.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15
+    },
+    {
+      "target": "Assets/Texture2D/bg2_1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15
+    },
+    {
+      "target": "Assets/Texture2D/bg3_0.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15,
+      "sourceSliceRatio": 0.25
+    },
+    {
+      "target": "Assets/Texture2D/bg1_4.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15
+    },
+    {
+      "target": "Assets/Texture2D/bg1_7.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15
+    },
+    {
+      "target": "Assets/Texture2D/bg2_4.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15,
+      "sourceSliceRatio": [
+        0.12,
+        0.45,
+        0.12,
+        0.45
+      ]
+    },
+    {
+      "target": "Assets/Texture2D/bg3_1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 15
+    },
+    {
+      "target": "Assets/Texture2D/bg1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Texture2D/bg1_1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Texture2D/bg_4.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Texture2D/bg_7.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Texture2D/bg2_0.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Texture2D/pmd_dm_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4,
+      "sourceSliceRatio": [
+        0.12,
+        0.4,
+        0.12,
+        0.4
+      ]
+    },
+    {
+      "target": "Assets/Texture2D/tip_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Texture2D/pmd_bg.png",
+      "source": "Docs/GardenReskin/Generated/cream-panel.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Texture2D/bg2_2.png",
+      "source": "Docs/GardenReskin/Generated/cash-title.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "alphaThreshold": 180
+    },
+    {
+      "target": "Assets/Texture2D/bar.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 5
+    },
+    {
+      "target": "Assets/Texture2D/bar_1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 5
+    },
+    {
+      "target": "Assets/Texture2D/bar_2.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 5
+    },
+    {
+      "target": "Assets/Texture2D/bar_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Texture2D/bar_bg_1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Texture2D/bar_bg_2.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Texture2D/btn.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 2
+    },
+    {
+      "target": "Assets/Texture2D/btn1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 2
+    },
+    {
+      "target": "Assets/Texture2D/btn_0.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 2
+    },
+    {
+      "target": "Assets/Texture2D/goldget_bg.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 3,
+      "preserveOriginalAlpha": true
+    },
+    {
+      "target": "Assets/Texture2D/tip_bg_0.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 3,
+      "preserveOriginalAlpha": true
+    },
+    {
+      "target": "Assets/Texture2D/title_0.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 13
+    },
+    {
+      "target": "Assets/Texture2D/title_9.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 13
+    },
+    {
+      "target": "Assets/Texture2D/title1.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 14
+    },
+    {
+      "target": "Assets/Texture2D/title2.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Texture2D/title3.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Texture2D/title_5.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 4
+    },
+    {
+      "target": "Assets/Texture2D/title.png",
+      "source": "Docs/GardenReskin/Generated/replay-title.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "alphaThreshold": 180
+    },
+    {
+      "target": "Assets/Texture2D/title_1.png",
+      "source": "Docs/GardenReskin/Generated/mechanic-title.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "alphaThreshold": 180
+    },
+    {
+      "target": "Assets/Texture2D/title_3.png",
+      "source": "Docs/GardenReskin/Generated/cash-title.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "alphaThreshold": 180
+    },
+    {
+      "target": "Assets/Texture2D/title_7.png",
+      "source": "Docs/GardenReskin/Generated/cash-title.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "alphaThreshold": 180
+    },
+    {
+      "target": "Assets/Texture2D/close.png",
+      "source": "Docs/GardenReskin/Generated/icon-sheet.png",
+      "mode": "grid",
+      "columns": 3,
+      "rows": 3,
+      "cell": 7
+    },
+    {
+      "target": "Assets/Texture2D/ad.png",
+      "source": "Docs/GardenReskin/Generated/icon-sheet.png",
+      "mode": "grid",
+      "columns": 3,
+      "rows": 3,
+      "cell": 8
+    },
+    {
+      "target": "Assets/Texture2D/line.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 5,
+      "preserveOriginalAlpha": true
+    },
+    {
+      "target": "Assets/Texture2D/line2.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 5,
+      "preserveOriginalAlpha": true
+    },
+    {
+      "target": "Assets/Texture2D/loading.png",
+      "source": "Docs/GardenReskin/Generated/icon-sheet.png",
+      "mode": "grid",
+      "columns": 3,
+      "rows": 3,
+      "cell": 6,
+      "preserveOriginalAlpha": true
+    },
+    {
+      "target": "Assets/Texture2D/loading1.png",
+      "source": "Docs/GardenReskin/Generated/icon-sheet.png",
+      "mode": "grid",
+      "columns": 3,
+      "rows": 3,
+      "cell": 6,
+      "preserveOriginalAlpha": true
+    },
+    {
+      "target": "Assets/Texture2D/kuang.png",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 4,
+      "cell": 1,
+      "preserveOriginalAlpha": true
+    },
+    {
+      "target": "Assets/Texture2D/logo_android.png",
+      "source": "Docs/GardenReskin/Generated/logo.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/game/spirte/Mask.png",
+      "source": "Docs/GardenReskin/Generated/cover.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "preserveOriginalAlpha": true
+    },
+    {
+      "target": "Assets/Resources/game/spirte/Mask1.png",
+      "source": "Docs/GardenReskin/Generated/cover.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "preserveOriginalAlpha": true
+    }
+  ]
+}

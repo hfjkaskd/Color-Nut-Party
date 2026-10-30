@@ -1,0 +1,6 @@
+{
+  "prefab": "Assets\\Resources\\prefabs\\playerinfo\\PMDSimple.prefab",
+  "component": "114632457200066912",
+  "path": "PMDSimple/Scroll View/Viewport/Content/PMDItem/Bg",
+  "change": "Set the redundant icon backing Image alpha to zero; channel icon, dynamic text, hierarchy and RectTransforms unchanged."
+}

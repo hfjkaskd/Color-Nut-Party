@@ -1,0 +1,22 @@
+[
+  {
+    "component": "386",
+    "field": "m_Sprite"
+  },
+  {
+    "component": "387",
+    "field": "m_Sprite"
+  },
+  {
+    "component": "397",
+    "field": "m_Sprite"
+  },
+  {
+    "component": "410",
+    "field": "m_Sprite"
+  },
+  {
+    "component": "377",
+    "field": "m_sharedMaterial"
+  }
+]

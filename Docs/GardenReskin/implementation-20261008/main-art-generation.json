@@ -1,0 +1,38 @@
+[
+  {
+    "name": "main-milestone-normal",
+    "prompt": "Create ONE transparent-background standalone empty game milestone badge for Unity, matching exactly the small milestone badges numbered 1–5 in the attached approved main screen. This is a texture asset, NOT a screenshot or redesigned UI. Front-facing rounded shield/pentagonal badge, gently rounded top corners and subtly pointed curved bottom, cream wood toy aesthetic, thin honey wood outer edging, broad smooth flat inner face. Restrained bevel, fine dark brown contour, no thick inflated frame, no decorations, no leaves, no text, no number, no symbols. Asset centered, all shadow and border fully inside canvas, transparent exterior. Inner face ivory cream, match badge 1. No crown.",
+    "referenced_image": "Docs/GardenReskin/regenerated-20261008/main-effect.png",
+    "generated_path": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-68ac-7dc1-b026-94fb7dc0872f\\exec-808c83a9-c907-493d-a3ee-7191a439dd3f.png",
+    "workspace_copy": "Docs/GardenReskin/implementation-20261008/sources/main-milestone-normal.png",
+    "tool": "built-in image_gen.imagegen",
+    "transparent_background": true
+  },
+  {
+    "name": "main-milestone-pending",
+    "prompt": "Create ONE transparent-background standalone empty game milestone badge for Unity, matching exactly the small milestone badges numbered 1–5 in the attached approved main screen. This is a texture asset, NOT a screenshot or redesigned UI. Front-facing rounded shield/pentagonal badge, gently rounded top corners and subtly pointed curved bottom, cream wood toy aesthetic, thin honey wood outer edging, broad smooth flat inner face. Restrained bevel, fine dark brown contour, no thick inflated frame, no decorations, no leaves, no text, no number, no symbols. Asset centered, all shadow and border fully inside canvas, transparent exterior. Inner face warm dark brown walnut, inactive upcoming level state, same shape and thin honey edging. No crown.",
+    "referenced_image": "Docs/GardenReskin/regenerated-20261008/main-effect.png",
+    "generated_path": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-68ac-7dc1-b026-94fb7dc0872f\\exec-8953d9b4-d400-4313-98df-172e5d18a8b5.png",
+    "workspace_copy": "Docs/GardenReskin/implementation-20261008/sources/main-milestone-pending.png",
+    "tool": "built-in image_gen.imagegen",
+    "transparent_background": true
+  },
+  {
+    "name": "main-milestone-active",
+    "prompt": "Create ONE transparent-background standalone empty game milestone badge for Unity, matching exactly the small milestone badges numbered 1–5 in the attached approved main screen. This is a texture asset, NOT a screenshot or redesigned UI. Front-facing rounded shield/pentagonal badge, gently rounded top corners and subtly pointed curved bottom, cream wood toy aesthetic, thin honey wood outer edging, broad smooth flat inner face. Restrained bevel, fine dark brown contour, no thick inflated frame, no decorations, no leaves, no text, no number, no symbols. Asset centered, all shadow and border fully inside canvas, transparent exterior. Inner face bright green, match badge 4. No crown.",
+    "referenced_image": "Docs/GardenReskin/regenerated-20261008/main-effect.png",
+    "generated_path": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-68ac-7dc1-b026-94fb7dc0872f\\exec-89892e0e-2d4d-4df9-966d-899e3f28c8b5.png",
+    "workspace_copy": "Docs/GardenReskin/implementation-20261008/sources/main-milestone-active.png",
+    "tool": "built-in image_gen.imagegen",
+    "transparent_background": true
+  },
+  {
+    "name": "main-milestone-crown",
+    "prompt": "Create ONE transparent-background standalone empty game milestone badge for Unity, matching exactly the small milestone badges numbered 1–5 in the attached approved main screen. This is a texture asset, NOT a screenshot or redesigned UI. Front-facing rounded shield/pentagonal badge, gently rounded top corners and subtly pointed curved bottom, cream wood toy aesthetic, thin honey wood outer edging, broad smooth flat inner face. Restrained bevel, fine dark brown contour, no thick inflated frame, no decorations, no leaves, no text, no number, no symbols. Asset centered, all shadow and border fully inside canvas, transparent exterior. Inner face golden yellow, match badge 5. Integrate a small golden 3 point crown centered at the top, thin turquoise accent on crown silhouette as shown in reference. Crown is inside complete asset bounds.",
+    "referenced_image": "Docs/GardenReskin/regenerated-20261008/main-effect.png",
+    "generated_path": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-68ac-7dc1-b026-94fb7dc0872f\\exec-2122b281-a709-407a-88a6-41d269c181a1.png",
+    "workspace_copy": "Docs/GardenReskin/implementation-20261008/sources/main-milestone-crown.png",
+    "tool": "built-in image_gen.imagegen",
+    "transparent_background": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "material": "Assets\\Material\\DiZuoMaterial.mat",
+  "change": "cream paint tuned for existing high ambient lighting; locked base retains grey; meshes/shaders/physics untouched",
+  "color": [
+    0.38,
+    0.31,
+    0.22,
+    1
+  ]
+}

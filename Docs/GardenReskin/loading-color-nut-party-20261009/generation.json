@@ -1,0 +1,38 @@
+{
+  "kind": "AI Loading screen preview, not Unity runtime",
+  "provider": "built-in image_gen.imagegen",
+  "prompt": "Edit image 1, the Color Nut Party loading-screen preview. Replace the central toy ROBOT completely with a HUMAN male craftsman using the exact human character identity shown in image 2: short wavy chestnut-brown hair, warm brown eyes, friendly thick eyebrows, rounded face, short neat brown beard and moustache, cream rolled-sleeve shirt, sage-green work apron with tan leather straps. NO ROBOT, NO mechanical body, NO original woman, NO cap. Render him as a polished friendly 3D cartoon casual puzzle-game character. He is a cheerful party host, holding one red hexagonal nut in his left hand and one cyan hexagonal nut in his right, arms gently extended, natural human fingers, standing on the existing oval wood stage. Keep his silhouette within the former robot's central footprint, entirely below the logo and above the loading text; proportionally large expressive head and compact human body, with both feet supported on the stage. Do not copy the wrench, money pile, coins, cash, Welcome ribbon, or other UI from image 2; that image is identity reference ONLY.\nPreserve image 1's portrait canvas, pale honey wood background, ivory cream and fresh green casual-game palette, two short nut sorting posts beside the character, existing wooden stage, a few small confetti pieces and lower-corner colorful nuts. Preserve the exact large colorful new game logo text 'Color Nut Party', its placement and legibility. Preserve the existing 'LOADING...' text, green loading bar and percentage badge exactly in their current positions as preview elements. No extra panels, no leaves, no additional text or decorations, no UI clipping or overlap. All artwork must remain inside the image, generous negative space and clean hierarchy. This is one full-screen AI visual preview, not a comparison collage.",
+  "references": [
+    "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-79bd6e70-46e1-4098-be55-f07505e625a5.png",
+    "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/guide-character-20261009/craftsman-preview.png"
+  ],
+  "generatedSource": "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-1d5cf447-ab95-4ea6-bee0-8c983489d434.png",
+  "preview": "loading-human-preview.png",
+  "gameName": "Color Nut Party",
+  "status": "User approved this human Loading on 2026-10-09 and requested APK; implemented in existing assets and actual startup scene. See implementation/loading-acceptance-summary.json.",
+  "userCorrection": "No robot on Loading",
+  "futureImplementation": {
+    "background": "Assets/Resources/atlas/octobergarden/boot-background.png",
+    "backgroundSize": [
+      853,
+      2048
+    ],
+    "logo": "Assets/Resources/atlas/octobergarden/boot-logo.png",
+    "logoSize": [
+      818,
+      413
+    ],
+    "nameTargets": [
+      "ProjectSettings/ProjectSettings.asset productName",
+      "Assets/NutSort/Editor/Validation/LocalAndroidBuild.cs APK label"
+    ],
+    "preserve": [
+      "Existing Prefab nodes, RectTransforms and interaction logic",
+      "Original dynamic LOADING label, bar fill and percentage; never bake these into shipped background",
+      "Existing package identifier com.nut.sort.relax and save data identity"
+    ],
+    "note": "This full-screen preview is not a shipping texture. After approval derive the separate background art and logo without baking loading UI."
+  },
+  "implementationEvidence": "implementation/loading-comparison.html",
+  "responsiveFit": "Central art scaled down to avoid overlap with existing fixed logo/loading UI on720x1280; nodes and runtime logic retained."
+}

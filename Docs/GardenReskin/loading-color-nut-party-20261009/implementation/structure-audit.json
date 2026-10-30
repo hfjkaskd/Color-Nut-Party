@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "protectedFiles": 645,
+  "changed": [
+    "Assets/Scenes/LuoSiSortGame.unity"
+  ],
+  "allowed": {
+    "386": "m_Sprite",
+    "387": "m_Sprite",
+    "397": "m_Sprite",
+    "410": "m_Sprite",
+    "377": "m_sharedMaterial"
+  },
+  "allPrefabsAndRuntimeCodeUnchanged": true,
+  "sceneStructureLayoutBindingsUnchanged": true
+}

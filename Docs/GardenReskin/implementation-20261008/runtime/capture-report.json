@@ -1,0 +1,1431 @@
+{
+  "status": "CAPTURE_COMPLETE",
+  "utc": "2026-10-09T04:47:05.7095823Z",
+  "buttonClickDispatches": 6,
+  "runtimeError": null,
+  "pages": [
+    {
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+          "text": "New Text",
+          "fontSize": 80.0,
+          "rect": "(x:-473.90, y:-121.00, width:947.80, height:242.00)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+          "text": "New Text",
+          "fontSize": 46.0,
+          "rect": "(x:-146.13, y:-33.99, width:292.25, height:67.98)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Cash",
+          "fontSize": 50.0,
+          "rect": "(x:-96.50, y:-49.22, width:193.00, height:98.43)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "$662.66",
+          "fontSize": 58.0,
+          "rect": "(x:-108.94, y:-59.00, width:217.87, height:118.00)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Clear this level</color> Withdraw all",
+          "fontSize": 36.65,
+          "rect": "(x:-239.83, y:-29.79, width:479.66, height:59.57)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Cash",
+          "fontSize": 50.0,
+          "rect": "(x:-96.50, y:-49.22, width:193.00, height:98.43)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "1932.58",
+          "fontSize": 51.15,
+          "rect": "(x:-86.64, y:-59.00, width:173.27, height:118.00)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Earn <color=#FF0000>$480.67</color> more Withdraw <color=#FF0000>$500</color>",
+          "fontSize": 29.55,
+          "rect": "(x:-239.83, y:-29.79, width:479.66, height:59.57)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "rect": "(x:-32.50, y:-42.40, width:65.00, height:84.80)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "rect": "(x:-32.50, y:-42.40, width:65.00, height:84.80)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "rect": "(x:-32.50, y:-42.40, width:65.00, height:84.80)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "rect": "(x:-32.50, y:-42.40, width:65.00, height:84.80)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Round/Value",
+          "text": "2/3",
+          "fontSize": 31.15,
+          "rect": "(x:-46.77, y:-19.10, width:93.54, height:38.20)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "rect": "(x:-32.50, y:-42.40, width:65.00, height:84.80)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Withdraw All",
+          "fontSize": 26.2,
+          "rect": "(x:-86.81, y:-23.80, width:173.62, height:47.60)",
+          "issues": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "rect": "(x:-27.10, y:-31.15, width:54.20, height:62.30)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_185"
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_185"
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Revoke"
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Exchange"
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile",
+          "centerRaycastReachesButton": true,
+          "firstHit": "AddTile"
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/ReplayBg/ReplayBtn",
+          "centerRaycastReachesButton": true,
+          "firstHit": "ReplayBtn"
+        }
+      ],
+      "id": "main",
+      "width": 720,
+      "height": 1280,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":5,\"LevelSeed\":0,\"Gold\":662.66,\"Coin\":1932.58,\"ExchangeCount\":0,\"RevokeCount\":5,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "90%",
+          "fontSize": 44.5,
+          "rect": "(x:-48.25, y:-40.20, width:96.50, height:80.40)",
+          "issues": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "LOADING...",
+          "fontSize": 70.0,
+          "rect": "(x:-245.95, y:-17.64, width:491.90, height:88.20)",
+          "issues": []
+        }
+      ],
+      "buttons": [],
+      "id": "startup_loading",
+      "width": 720,
+      "height": 1560,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "NewbieGuidePanel(Clone)/Pos/Tip/Value",
+          "text": "Nut can be placed on a bolt with a matching-color nut on top",
+          "fontSize": 45.0,
+          "rect": "(x:-387.04, y:-55.13, width:774.08, height:110.26)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "NewbieGuidePanel(Clone)/Pos/Button",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Button"
+        }
+      ],
+      "id": "tutorial",
+      "width": 720,
+      "height": 1280,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":1,\"LevelSeed\":1,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "TXPanel(Clone)/main/Title1/Text (TMP)",
+          "text": "Level 4",
+          "fontSize": 80.0,
+          "rect": "(x:-324.70, y:-55.18, width:649.40, height:110.35)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/ItemCount",
+          "text": "$0",
+          "fontSize": 115.4,
+          "rect": "(x:-229.15, y:-71.01, width:458.30, height:142.02)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/TXBtn/Text (TMP)",
+          "text": "Withdraw",
+          "fontSize": 86.0,
+          "rect": "(x:-310.45, y:-83.51, width:620.90, height:167.02)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/Progress/Text (TMP)",
+          "text": "3/5",
+          "fontSize": 53.1,
+          "rect": "(x:-228.41, y:-32.55, width:456.82, height:65.10)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/Tip",
+          "text": "Clear level <color=#FF0000>5</color>, withdraw all",
+          "fontSize": 44.0,
+          "rect": "(x:-386.50, y:-61.52, width:773.00, height:123.04)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/PlayerInfoPos/PlayerInfo(Clone)/Time",
+          "text": "Level Stats (--)",
+          "fontSize": 44.0,
+          "rect": "(x:-384.20, y:-31.15, width:768.40, height:62.30)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/PlayerInfoPos/PlayerInfo(Clone)/2/label_33",
+          "text": "Average attempts",
+          "fontSize": 30.0,
+          "rect": "(x:-141.00, y:-53.05, width:282.00, height:106.10)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/PlayerInfoPos/PlayerInfo(Clone)/2/Value",
+          "text": "--",
+          "fontSize": 64.1,
+          "rect": "(x:-141.00, y:-43.28, width:282.00, height:86.55)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/PlayerInfoPos/PlayerInfo(Clone)/1/label_32",
+          "text": "Players cleared today",
+          "fontSize": 30.0,
+          "rect": "(x:-141.00, y:-53.05, width:282.00, height:106.10)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/PlayerInfoPos/PlayerInfo(Clone)/1/Value",
+          "text": "--",
+          "fontSize": 64.1,
+          "rect": "(x:-141.00, y:-43.28, width:282.00, height:86.55)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/PlayerInfoPos/PlayerInfo(Clone)/3/label_34",
+          "text": "Average withdrawal amount",
+          "fontSize": 30.0,
+          "rect": "(x:-141.00, y:-53.05, width:282.00, height:106.10)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/PlayerInfoPos/PlayerInfo(Clone)/3/Value",
+          "text": "--",
+          "fontSize": 64.1,
+          "rect": "(x:-141.00, y:-43.28, width:282.00, height:86.55)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/PlayerInfoPos/PlayerInfo(Clone)/PmdPos/PMDSimple(Clone)/Scroll View/Viewport/Content/PMDItem/Text",
+          "text": "Withdrawal records unavailable",
+          "fontSize": 50.0,
+          "rect": "(x:-421.63, y:-50.00, width:843.25, height:99.99)",
+          "issues": []
+        },
+        {
+          "path": "TXPanel(Clone)/main/Image/label_37",
+          "text": "Withdrawal amount",
+          "fontSize": 43.65,
+          "rect": "(x:-219.15, y:-40.62, width:438.30, height:81.24)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "TXPanel(Clone)/main/Close",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Close"
+        },
+        {
+          "path": "TXPanel(Clone)/main/TXBtn",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Text (TMP)"
+        }
+      ],
+      "id": "cash",
+      "width": 720,
+      "height": 1280,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "TXCoinPanel(Clone)/main/Title/label_98",
+          "text": "My Diamonds",
+          "fontSize": 60.0,
+          "rect": "(x:-285.80, y:-57.77, width:571.60, height:115.54)",
+          "issues": []
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/value",
+          "text": "100=R$1",
+          "fontSize": 40.0,
+          "rect": "(x:-84.32, y:-37.09, width:168.63, height:74.17)",
+          "issues": []
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/GoldValue",
+          "text": "R$0",
+          "fontSize": 106.05,
+          "rect": "(x:-238.19, y:-64.98, width:476.37, height:129.95)",
+          "issues": []
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/CoinValue",
+          "text": "0",
+          "fontSize": 48.0,
+          "rect": "(x:-278.29, y:-37.90, width:556.58, height:75.80)",
+          "issues": []
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/Items/item1/Value",
+          "text": "R$500",
+          "fontSize": 80.0,
+          "rect": "(x:-165.96, y:-94.44, width:331.91, height:188.88)",
+          "issues": []
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/Items/item2/Value",
+          "text": "R$1.000",
+          "fontSize": 80.0,
+          "rect": "(x:-165.96, y:-94.44, width:331.91, height:188.88)",
+          "issues": []
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/Items/item3/Value",
+          "text": "R$1.500",
+          "fontSize": 80.0,
+          "rect": "(x:-165.96, y:-94.44, width:331.91, height:188.88)",
+          "issues": []
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/Items/item4/Value",
+          "text": "R$2.000",
+          "fontSize": 80.0,
+          "rect": "(x:-165.96, y:-94.44, width:331.91, height:188.88)",
+          "issues": []
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/TX/label_1",
+          "text": "Withdraw",
+          "fontSize": 81.35,
+          "rect": "(x:-371.01, y:-71.72, width:742.02, height:143.44)",
+          "issues": []
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/label_164",
+          "text": "Select withdrawal amount",
+          "fontSize": 40.25,
+          "rect": "(x:-268.25, y:-31.22, width:536.50, height:62.44)",
+          "issues": []
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/TXProgress/Value",
+          "text": "Balance reaches <color=#ABFA76>R$500</color> to withdraw all\nStill <color=#ABFA76>R$500</color> to go",
+          "fontSize": 41.95,
+          "rect": "(x:-419.35, y:-51.40, width:838.70, height:102.80)",
+          "issues": []
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/TXProgress/Bar/Value",
+          "text": "R$0/R$500",
+          "fontSize": 42.5,
+          "rect": "(x:-411.70, y:-26.04, width:823.40, height:52.08)",
+          "issues": []
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/TXProgress/Tip",
+          "text": "R$500 Withdrawal Instructions:",
+          "fontSize": 44.15,
+          "rect": "(x:-419.35, y:-33.05, width:838.70, height:66.10)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "TXCoinPanel(Clone)/main/Close",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Close"
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/Items/item1",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Kuang"
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/Items/item2",
+          "centerRaycastReachesButton": true,
+          "firstHit": "item2"
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/Items/item3",
+          "centerRaycastReachesButton": true,
+          "firstHit": "item3"
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/Items/item4",
+          "centerRaycastReachesButton": true,
+          "firstHit": "item4"
+        },
+        {
+          "path": "TXCoinPanel(Clone)/main/TX",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_1"
+        }
+      ],
+      "id": "diamond",
+      "width": 720,
+      "height": 1280,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "TXUserInfoPanel(Clone)/main/label_108",
+          "text": "Select a withdrawal method",
+          "fontSize": 35.0,
+          "rect": "(x:-317.00, y:-51.55, width:633.99, height:103.10)",
+          "issues": []
+        },
+        {
+          "path": "TXUserInfoPanel(Clone)/main/Title/label_107",
+          "text": "Enter Information",
+          "fontSize": 53.35,
+          "rect": "(x:-204.37, y:-42.00, width:408.73, height:84.00)",
+          "issues": []
+        },
+        {
+          "path": "TXUserInfoPanel(Clone)/main/Get/label_109",
+          "text": "Confirm",
+          "fontSize": 70.0,
+          "rect": "(x:-382.00, y:-100.50, width:764.00, height:201.00)",
+          "issues": []
+        },
+        {
+          "path": "TXUserInfoPanel(Clone)/main/InputName/Text Area/label_110",
+          "text": "Enter Name",
+          "fontSize": 45.0,
+          "rect": "(x:-391.00, y:-71.50, width:782.00, height:143.00)",
+          "issues": []
+        },
+        {
+          "path": "TXUserInfoPanel(Clone)/main/InputName/Text Area/Text",
+          "text": "​",
+          "fontSize": 45.0,
+          "rect": "(x:-391.00, y:-71.50, width:782.00, height:143.00)",
+          "issues": []
+        },
+        {
+          "path": "TXUserInfoPanel(Clone)/main/InputAreaNumber/Text Area/Text",
+          "text": "+1​",
+          "fontSize": 52.0,
+          "rect": "(x:-116.93, y:-71.50, width:233.87, height:143.00)",
+          "issues": []
+        },
+        {
+          "path": "TXUserInfoPanel(Clone)/main/InputNumber/Text Area/label_111",
+          "text": "Enter phone number",
+          "fontSize": 45.0,
+          "rect": "(x:-256.00, y:-71.50, width:512.00, height:143.00)",
+          "issues": []
+        },
+        {
+          "path": "TXUserInfoPanel(Clone)/main/InputNumber/Text Area/Text",
+          "text": "​",
+          "fontSize": 45.0,
+          "rect": "(x:-256.00, y:-71.50, width:512.00, height:143.00)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "TXUserInfoPanel(Clone)/main/Close",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Close"
+        },
+        {
+          "path": "TXUserInfoPanel(Clone)/main/Get",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_109"
+        },
+        {
+          "path": "TXUserInfoPanel(Clone)/main/ToggleGroup/Toggle",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Background"
+        },
+        {
+          "path": "TXUserInfoPanel(Clone)/main/ToggleGroup/Toggle1",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Background"
+        },
+        {
+          "path": "TXUserInfoPanel(Clone)/main/ToggleGroup/Toggle2",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Background"
+        },
+        {
+          "path": "TXUserInfoPanel(Clone)/main/ChannelInfo",
+          "centerRaycastReachesButton": true,
+          "firstHit": "ChannelInfo"
+        }
+      ],
+      "id": "account",
+      "width": 720,
+      "height": 1280,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "TXUserInfoSurePanel(Clone)/main/Tip",
+          "text": "Fixture User\nfixture@example.test",
+          "fontSize": 50.0,
+          "rect": "(x:-415.15, y:-90.33, width:830.30, height:180.65)",
+          "issues": []
+        },
+        {
+          "path": "TXUserInfoSurePanel(Clone)/main/Title/label_113",
+          "text": "Confirm",
+          "fontSize": 60.0,
+          "rect": "(x:-220.27, y:-42.00, width:440.54, height:84.00)",
+          "issues": []
+        },
+        {
+          "path": "TXUserInfoSurePanel(Clone)/main/btnParent/Get/label_24",
+          "text": "Withdraw now",
+          "fontSize": 70.0,
+          "rect": "(x:-382.00, y:-100.50, width:764.00, height:201.00)",
+          "issues": []
+        },
+        {
+          "path": "TXUserInfoSurePanel(Clone)/main/btnParent/ReEnter/label_115",
+          "text": "Re-enter",
+          "fontSize": 70.0,
+          "rect": "(x:-382.00, y:-100.50, width:764.00, height:201.00)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "TXUserInfoSurePanel(Clone)/main/Close",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Close"
+        },
+        {
+          "path": "TXUserInfoSurePanel(Clone)/main/btnParent/Get",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_24"
+        },
+        {
+          "path": "TXUserInfoSurePanel(Clone)/main/btnParent/ReEnter",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_115"
+        }
+      ],
+      "id": "account_confirmation",
+      "width": 720,
+      "height": 1560,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "TXChannelPanel(Clone)/main/label_154",
+          "text": "If none of our supported withdrawal methods are available, please provide your contact information so we can reach you.",
+          "fontSize": 45.0,
+          "rect": "(x:-421.83, y:-152.16, width:843.65, height:304.32)",
+          "issues": []
+        },
+        {
+          "path": "TXChannelPanel(Clone)/main/Title/label_107",
+          "text": "Enter Information",
+          "fontSize": 52.1,
+          "rect": "(x:-230.23, y:-42.00, width:460.46, height:84.00)",
+          "issues": []
+        },
+        {
+          "path": "TXChannelPanel(Clone)/main/Sure/label_155",
+          "text": "Submit",
+          "fontSize": 70.0,
+          "rect": "(x:-382.00, y:-95.45, width:764.00, height:190.90)",
+          "issues": []
+        },
+        {
+          "path": "TXChannelPanel(Clone)/main/InputInfo/Text Area/Text",
+          "text": "Fixture channel\nfixture@example.test​",
+          "fontSize": 45.0,
+          "rect": "(x:-391.00, y:-71.50, width:782.00, height:143.00)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "TXChannelPanel(Clone)/main/Close",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Close"
+        },
+        {
+          "path": "TXChannelPanel(Clone)/main/Sure",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_155"
+        }
+      ],
+      "id": "channel_contact",
+      "width": 720,
+      "height": 1560,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "TXLevelPanel(Clone)/main/GoldCount",
+          "text": "$5",
+          "fontSize": 100.0,
+          "rect": "(x:-251.51, y:-87.92, width:503.01, height:175.83)",
+          "issues": []
+        },
+        {
+          "path": "TXLevelPanel(Clone)/main/Title1/label_37",
+          "text": "Withdrawal amount",
+          "fontSize": 44.45,
+          "rect": "(x:-216.80, y:-41.32, width:433.60, height:82.64)",
+          "issues": []
+        },
+        {
+          "path": "TXLevelPanel(Clone)/main/Sure/label_93",
+          "text": "Confirm Withdrawal",
+          "fontSize": 70.0,
+          "rect": "(x:-362.00, y:-90.85, width:724.00, height:181.69)",
+          "issues": []
+        },
+        {
+          "path": "TXLevelPanel(Clone)/main/TitleTip/Tip",
+          "text": "This is your <color=#FFFF00>1</color>th withdrawal",
+          "fontSize": 60.0,
+          "rect": "(x:-437.30, y:-81.95, width:874.60, height:163.90)",
+          "issues": []
+        },
+        {
+          "path": "TXLevelPanel(Clone)/main/label_81",
+          "text": "Current Status",
+          "fontSize": 40.0,
+          "rect": "(x:-366.69, y:-41.32, width:733.37, height:82.64)",
+          "issues": []
+        },
+        {
+          "path": "TXLevelPanel(Clone)/main/Step/1/Content/label_90",
+          "text": "Withdrawal Goal: Achieved",
+          "fontSize": 40.0,
+          "rect": "(x:-340.06, y:-41.32, width:680.11, height:82.64)",
+          "issues": []
+        },
+        {
+          "path": "TXLevelPanel(Clone)/main/Step/2/Content/label_91",
+          "text": "Real-name Verification: Completed",
+          "fontSize": 40.0,
+          "rect": "(x:-340.06, y:-41.32, width:680.11, height:82.64)",
+          "issues": []
+        },
+        {
+          "path": "TXLevelPanel(Clone)/main/Step/3/Content/label_92",
+          "text": "Account Verification: Completed",
+          "fontSize": 40.0,
+          "rect": "(x:-340.06, y:-41.32, width:680.11, height:82.64)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "TXLevelPanel(Clone)/main/Sure",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_93"
+        }
+      ],
+      "id": "withdrawal_level",
+      "width": 720,
+      "height": 1560,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "TXProgress0Panel(Clone)/main/KeFu/Value",
+          "text": "Support ID: 6000000",
+          "fontSize": 37.85,
+          "rect": "(x:-188.26, y:-28.45, width:376.52, height:56.90)",
+          "issues": []
+        },
+        {
+          "path": "TXProgress0Panel(Clone)/main/Title/label_42",
+          "text": "Hello",
+          "fontSize": 60.0,
+          "rect": "(x:-235.52, y:-42.00, width:471.03, height:84.00)",
+          "issues": []
+        },
+        {
+          "path": "TXProgress0Panel(Clone)/main/Sure/label_50",
+          "text": "Continue",
+          "fontSize": 70.0,
+          "rect": "(x:-382.00, y:-95.45, width:764.00, height:190.90)",
+          "issues": []
+        },
+        {
+          "path": "TXProgress0Panel(Clone)/main/label_43",
+          "text": "Dedicated Support is assisting you",
+          "fontSize": 51.05,
+          "rect": "(x:-221.10, y:-79.60, width:442.19, height:159.19)",
+          "issues": []
+        },
+        {
+          "path": "TXProgress0Panel(Clone)/main/Step/1/Content/label_38",
+          "text": "Withdrawal goal completed",
+          "fontSize": 40.0,
+          "rect": "(x:-287.03, y:-41.32, width:574.06, height:82.64)",
+          "issues": []
+        },
+        {
+          "path": "TXProgress0Panel(Clone)/main/Step/1/Content/Time",
+          "text": "10/9/2026 12:46 AM",
+          "fontSize": 30.0,
+          "rect": "(x:-287.03, y:-29.22, width:574.06, height:58.44)",
+          "issues": []
+        },
+        {
+          "path": "TXProgress0Panel(Clone)/main/Step/2/Content/label_39",
+          "text": "Level cleared too fast, human verification required",
+          "fontSize": 33.7,
+          "rect": "(x:-287.03, y:-41.32, width:574.06, height:82.64)",
+          "issues": []
+        },
+        {
+          "path": "TXProgress0Panel(Clone)/main/Step/2/Content/Time",
+          "text": "10/9/2026 12:46 AM",
+          "fontSize": 30.0,
+          "rect": "(x:-287.03, y:-29.22, width:574.06, height:58.44)",
+          "issues": []
+        },
+        {
+          "path": "TXProgress0Panel(Clone)/main/Step/3/Content/Tip",
+          "text": "Human verification in progress, complete verification by clearing level <color=#FF0000>12</color>",
+          "fontSize": 33.25,
+          "rect": "(x:-316.12, y:-52.62, width:632.23, height:105.23)",
+          "issues": []
+        },
+        {
+          "path": "TXProgress0Panel(Clone)/main/Step/3/Content/Des",
+          "text": "(You have cleared 6/12 levels)",
+          "fontSize": 35.0,
+          "rect": "(x:-328.20, y:-57.84, width:656.39, height:115.67)",
+          "issues": []
+        },
+        {
+          "path": "TXProgress0Panel(Clone)/main/Step/4/label_41",
+          "text": "Withdrawal will be credited once human verification is passed",
+          "fontSize": 33.7,
+          "rect": "(x:-287.03, y:-41.32, width:574.06, height:82.64)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "TXProgress0Panel(Clone)/main/Sure",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_50"
+        }
+      ],
+      "id": "withdrawal_steps",
+      "width": 720,
+      "height": 1560,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "TXTooFastHintPanel(Clone)/main/label_46",
+          "text": "Your level completion speed is faster than <color=#FF0000>99%</color> of players, and your activity appears unusual. Please complete <color=#FF0000>human verification</color> to proceed with withdrawal.",
+          "fontSize": 36.55,
+          "rect": "(x:-330.96, y:-112.05, width:661.91, height:224.09)",
+          "issues": []
+        },
+        {
+          "path": "TXTooFastHintPanel(Clone)/main/LevelTip",
+          "text": "Clear level <color=#FF0000>12</color>",
+          "fontSize": 50.0,
+          "rect": "(x:-440.58, y:-44.74, width:881.15, height:89.47)",
+          "issues": []
+        },
+        {
+          "path": "TXTooFastHintPanel(Clone)/main/Title/label_51",
+          "text": "Withdrawal Verification",
+          "fontSize": 51.55,
+          "rect": "(x:-298.35, y:-42.00, width:596.70, height:84.00)",
+          "issues": []
+        },
+        {
+          "path": "TXTooFastHintPanel(Clone)/main/IKnow/label_47",
+          "text": "Got it",
+          "fontSize": 80.0,
+          "rect": "(x:-332.00, y:-91.00, width:664.00, height:182.00)",
+          "issues": []
+        },
+        {
+          "path": "TXTooFastHintPanel(Clone)/main/LevelPregress/Value",
+          "text": "6/12",
+          "fontSize": 50.0,
+          "rect": "(x:-237.85, y:-44.74, width:475.70, height:89.47)",
+          "issues": []
+        },
+        {
+          "path": "TXTooFastHintPanel(Clone)/main/VideoPregress/Value",
+          "text": "10/10",
+          "fontSize": 50.0,
+          "rect": "(x:-237.85, y:-44.74, width:475.70, height:89.47)",
+          "issues": []
+        },
+        {
+          "path": "TXTooFastHintPanel(Clone)/main/VideoTip",
+          "text": "Watch <color=#FF0000>10</color> video ads",
+          "fontSize": 50.0,
+          "rect": "(x:-440.58, y:-44.74, width:881.15, height:89.47)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "TXTooFastHintPanel(Clone)/main/IKnow",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_47"
+        }
+      ],
+      "id": "withdrawal_verification",
+      "width": 720,
+      "height": 1560,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "TXGuideLoadingPanel(Clone)/main/label_167",
+          "text": "Initiating withdrawal",
+          "fontSize": 60.0,
+          "rect": "(x:-450.00, y:-75.85, width:900.00, height:151.70)",
+          "issues": []
+        }
+      ],
+      "buttons": [],
+      "id": "withdrawal_loading",
+      "width": 720,
+      "height": 1560,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/Title/label_123",
+          "text": "Welcome",
+          "fontSize": 60.0,
+          "rect": "(x:-317.90, y:-59.60, width:635.80, height:119.20)",
+          "issues": []
+        },
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/Tip",
+          "text": "Clear levels to earn cash\nClear all levels to withdraw all",
+          "fontSize": 60.0,
+          "rect": "(x:-506.95, y:-80.70, width:1013.90, height:161.40)",
+          "issues": []
+        },
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "rect": "(x:-32.50, y:-42.40, width:65.00, height:84.80)",
+          "issues": []
+        },
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/HideLevel/Levels/1/Get/label_1",
+          "text": "Withdraw",
+          "fontSize": 32.0,
+          "rect": "(x:-86.81, y:-23.80, width:173.62, height:47.60)",
+          "issues": []
+        },
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "rect": "(x:-32.50, y:-42.40, width:65.00, height:84.80)",
+          "issues": []
+        },
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/HideLevel/Levels/2/Get/label_1",
+          "text": "Withdraw",
+          "fontSize": 32.0,
+          "rect": "(x:-86.81, y:-23.80, width:173.62, height:47.60)",
+          "issues": []
+        },
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "rect": "(x:-32.50, y:-42.40, width:65.00, height:84.80)",
+          "issues": []
+        },
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "rect": "(x:-32.50, y:-42.40, width:65.00, height:84.80)",
+          "issues": []
+        },
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/HideLevel/Levels/4/Get/label_1",
+          "text": "Withdraw",
+          "fontSize": 32.0,
+          "rect": "(x:-86.81, y:-23.80, width:173.62, height:47.60)",
+          "issues": []
+        },
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/HideLevel/Levels/7/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "rect": "(x:-32.50, y:-42.40, width:65.00, height:84.80)",
+          "issues": []
+        },
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/HideLevel/Levels/7/Get/label_160",
+          "text": "Withdraw All",
+          "fontSize": 26.2,
+          "rect": "(x:-86.81, y:-23.80, width:173.62, height:47.60)",
+          "issues": []
+        },
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/Button/Start/label_161",
+          "text": "START",
+          "fontSize": 70.0,
+          "rect": "(x:-276.35, y:-90.31, width:552.70, height:180.61)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "TXRecordGuidePanel(Clone)/main/Button/Start",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_161"
+        }
+      ],
+      "id": "withdrawal_guide",
+      "width": 720,
+      "height": 1281,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "TXGuideTargetCompletePanel(Clone)/main/TXbtn/label_1",
+          "text": "Withdraw",
+          "fontSize": 70.0,
+          "rect": "(x:-332.00, y:-82.39, width:664.00, height:164.77)",
+          "issues": []
+        },
+        {
+          "path": "TXGuideTargetCompletePanel(Clone)/main/Title/label_162",
+          "text": "Withdrawal on Clear",
+          "fontSize": 60.0,
+          "rect": "(x:-317.90, y:-49.00, width:635.80, height:98.00)",
+          "issues": []
+        },
+        {
+          "path": "TXGuideTargetCompletePanel(Clone)/main/Gold/Value",
+          "text": "$12",
+          "fontSize": 100.0,
+          "rect": "(x:-355.00, y:-80.70, width:710.00, height:161.40)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "TXGuideTargetCompletePanel(Clone)/main/TXbtn",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_1"
+        }
+      ],
+      "id": "target_complete",
+      "width": 720,
+      "height": 1560,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "SuccessPanel(Clone)/main/MoreGetBtn/label_186",
+          "text": "Claim 10X",
+          "fontSize": 72.0,
+          "rect": "(x:-264.12, y:-79.94, width:528.24, height:159.88)",
+          "issues": []
+        },
+        {
+          "path": "SuccessPanel(Clone)/main/label_88",
+          "text": "Claim",
+          "fontSize": 52.0,
+          "rect": "(x:-242.46, y:-40.00, width:484.92, height:80.00)",
+          "issues": []
+        },
+        {
+          "path": "SuccessPanel(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "$4.98",
+          "fontSize": 94.1,
+          "rect": "(x:-221.55, y:-59.60, width:443.10, height:119.20)",
+          "issues": []
+        },
+        {
+          "path": "SuccessPanel(Clone)/main/Title/label_58",
+          "text": "Level Complete",
+          "fontSize": 72.0,
+          "rect": "(x:-302.75, y:-45.50, width:605.50, height:91.00)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "SuccessPanel(Clone)/main/MoreGetBtn",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_186"
+        },
+        {
+          "path": "SuccessPanel(Clone)/main/label_88",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_88"
+        }
+      ],
+      "id": "success",
+      "width": 720,
+      "height": 1280,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "FailPanel(Clone)/RestartBtn/label_68",
+          "text": "Restart",
+          "fontSize": 82.6,
+          "rect": "(x:-244.65, y:-84.00, width:489.29, height:167.99)",
+          "issues": []
+        },
+        {
+          "path": "FailPanel(Clone)/ReviveBtn/label_69",
+          "text": "Revive",
+          "fontSize": 82.6,
+          "rect": "(x:-160.94, y:-84.00, width:321.87, height:167.99)",
+          "issues": []
+        },
+        {
+          "path": "FailPanel(Clone)/label_67",
+          "text": "No movable nuts!",
+          "fontSize": 90.0,
+          "rect": "(x:-468.90, y:-98.59, width:937.80, height:197.17)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "FailPanel(Clone)/RestartBtn",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_68"
+        },
+        {
+          "path": "FailPanel(Clone)/ReviveBtn",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_69"
+        }
+      ],
+      "id": "failure",
+      "width": 720,
+      "height": 1560,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "ReplayPanel(Clone)/main/Title/label_149",
+          "text": "Restart?",
+          "fontSize": 72.0,
+          "rect": "(x:-244.10, y:-57.35, width:488.20, height:114.70)",
+          "issues": []
+        },
+        {
+          "path": "ReplayPanel(Clone)/main/Continue/label_50",
+          "text": "Continue",
+          "fontSize": 80.2,
+          "rect": "(x:-260.65, y:-78.30, width:521.30, height:156.60)",
+          "issues": []
+        },
+        {
+          "path": "ReplayPanel(Clone)/main/label_148",
+          "text": "Abandon current progress and restart?",
+          "fontSize": 60.0,
+          "rect": "(x:-351.89, y:-173.78, width:703.78, height:347.56)",
+          "issues": []
+        },
+        {
+          "path": "ReplayPanel(Clone)/main/label_147",
+          "text": "Replay",
+          "fontSize": 42.2,
+          "rect": "(x:-222.39, y:-38.00, width:444.78, height:76.00)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "ReplayPanel(Clone)/main/Continue",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_50"
+        },
+        {
+          "path": "ReplayPanel(Clone)/main/label_147",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_147"
+        }
+      ],
+      "id": "replay",
+      "width": 720,
+      "height": 1281,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Refresh",
+          "fontSize": 72.0,
+          "rect": "(x:-318.10, y:-63.36, width:636.19, height:126.72)",
+          "issues": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Claim",
+          "fontSize": 72.0,
+          "rect": "(x:-231.54, y:-83.13, width:463.07, height:166.26)",
+          "issues": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Refresh nut arrangement",
+          "fontSize": 50.0,
+          "rect": "(x:-371.25, y:-39.52, width:742.50, height:79.04)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_140"
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Close",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Close"
+        }
+      ],
+      "id": "refresh",
+      "width": 720,
+      "height": 1280,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Undo",
+          "fontSize": 72.0,
+          "rect": "(x:-318.10, y:-63.36, width:636.19, height:126.72)",
+          "issues": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Claim",
+          "fontSize": 72.0,
+          "rect": "(x:-231.54, y:-83.13, width:463.07, height:166.26)",
+          "issues": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Undo last action",
+          "fontSize": 50.0,
+          "rect": "(x:-371.25, y:-39.52, width:742.50, height:79.04)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_140"
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Close",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Close"
+        }
+      ],
+      "id": "undo",
+      "width": 720,
+      "height": 1280,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Bolt+",
+          "fontSize": 72.0,
+          "rect": "(x:-318.10, y:-63.36, width:636.19, height:126.72)",
+          "issues": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Claim",
+          "fontSize": 72.0,
+          "rect": "(x:-231.54, y:-83.13, width:463.07, height:166.26)",
+          "issues": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Add an empty bolt",
+          "fontSize": 50.0,
+          "rect": "(x:-371.25, y:-39.52, width:742.50, height:79.04)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_140"
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Close",
+          "centerRaycastReachesButton": true,
+          "firstHit": "Close"
+        }
+      ],
+      "id": "add_screw",
+      "width": 720,
+      "height": 1280,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "RewardPanel(Clone)/Items/Item(Clone)/Count",
+          "text": "x2",
+          "fontSize": 66.6,
+          "rect": "(x:-100.09, y:-40.80, width:200.18, height:81.60)",
+          "issues": []
+        },
+        {
+          "path": "RewardPanel(Clone)/Items/Item(Clone)/Count",
+          "text": "x3",
+          "fontSize": 66.6,
+          "rect": "(x:-100.09, y:-40.80, width:200.18, height:81.60)",
+          "issues": []
+        }
+      ],
+      "buttons": [],
+      "id": "reward",
+      "width": 720,
+      "height": 1560,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "UnlockGameplayPanel(Clone)/main/ContinueBtn/label_47",
+          "text": "Got it",
+          "fontSize": 82.6,
+          "rect": "(x:-244.65, y:-84.00, width:489.29, height:167.99)",
+          "issues": []
+        },
+        {
+          "path": "UnlockGameplayPanel(Clone)/main/Tip",
+          "text": "Hidden nuts are revealed when they are at the top",
+          "fontSize": 50.45,
+          "rect": "(x:-468.90, y:-61.87, width:937.80, height:123.73)",
+          "issues": []
+        },
+        {
+          "path": "UnlockGameplayPanel(Clone)/main/Title/label_62",
+          "text": "New Gameplay",
+          "fontSize": 72.0,
+          "rect": "(x:-317.10, y:-53.67, width:634.19, height:107.33)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "UnlockGameplayPanel(Clone)/main/ContinueBtn",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_47"
+        }
+      ],
+      "id": "unlock",
+      "width": 720,
+      "height": 1560,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    },
+    {
+      "texts": [
+        {
+          "path": "MessagePanel(Clone)/Title/label_73",
+          "text": "Notice",
+          "fontSize": 72.0,
+          "rect": "(x:-305.35, y:-65.78, width:610.70, height:131.56)",
+          "issues": []
+        },
+        {
+          "path": "MessagePanel(Clone)/Button/label_74",
+          "text": "Confirm",
+          "fontSize": 72.0,
+          "rect": "(x:-235.00, y:-88.97, width:470.00, height:177.95)",
+          "issues": []
+        },
+        {
+          "path": "MessagePanel(Clone)/Content",
+          "text": "Please check the email",
+          "fontSize": 60.0,
+          "rect": "(x:-338.12, y:-191.95, width:676.23, height:383.89)",
+          "issues": []
+        }
+      ],
+      "buttons": [
+        {
+          "path": "MessagePanel(Clone)/Button",
+          "centerRaycastReachesButton": true,
+          "firstHit": "label_74"
+        }
+      ],
+      "id": "message",
+      "width": 720,
+      "height": 1560,
+      "kind": "Unity Editor Play Mode screenshot; live Prefab components; explicit fixture data",
+      "fixture": "{\"Level\":4,\"LevelSeed\":0,\"Gold\":0,\"Coin\":0,\"ExchangeCount\":0,\"RevokeCount\":0,\"AddScrewCount\":0,\"IsCompleteRecordGuide\":true,\"NewGameplayUnlockIndex\":1}",
+      "note": "Dynamic fixture values and background game state can differ from the reference; no payment or production ad request is sent."
+    }
+  ],
+  "note": "Bounds issues are reported for review, not suppressed. Dedicated ApprovedSkinPlayValidation covers real modal/input/tier/ad-callback behavior."
+}
