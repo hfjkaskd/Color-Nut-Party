@@ -1,0 +1,202 @@
+{
+  "Withdrawal on Clear": [
+    "LocalEarningFlow.json:targetTitle"
+  ],
+  "Withdraw": [
+    "LocalEarningFlow.json:withdraw"
+  ],
+  "View your cash reward": [
+    "LocalEarningFlow.json:earlyHint"
+  ],
+  "Withdrawal History": [
+    "LocalEarningFlow.json:historyTitle"
+  ],
+  "View withdrawal history": [
+    "LocalEarningFlow.json:historyEntry"
+  ],
+  "Cash Reward #{0}": [
+    "LocalEarningFlow.json:rewardTitle"
+  ],
+  "Pending - not paid": [
+    "LocalEarningFlow.json:pending"
+  ],
+  "This reward could not be moved to history. Please review your cash balance.": [
+    "LocalEarningFlow.json:archiveUnavailable"
+  ],
+  "Reward assessment": [
+    "LocalEarningFlow.json:assessmentTitle"
+  ],
+  "Your first two cash rewards are saved in withdrawal history.": [
+    "LocalEarningFlow.json:assessmentBody"
+  ],
+  "Activating rewards": [
+    "LocalEarningFlow.json:activatingTitle"
+  ],
+  "Preparing your cash rewards and level bonuses...": [
+    "LocalEarningFlow.json:activatingBody"
+  ],
+  "Your reward bonuses": [
+    "LocalEarningFlow.json:bonusesTitle"
+  ],
+  "Extra cash reward": [
+    "LocalEarningFlow.json:bonuses"
+  ],
+  "Clear a rod to earn a reward": [
+    "LocalEarningFlow.json:bonuses"
+  ],
+  "Watch a reward video for 10X": [
+    "LocalEarningFlow.json:bonuses"
+  ],
+  "Unlock diamond rewards": [
+    "LocalEarningFlow.json:bonuses"
+  ],
+  "Level 5 withdrawal requirements": [
+    "LocalEarningFlow.json:bonuses"
+  ],
+  "Rewards activated": [
+    "LocalEarningFlow.json:activatedTitle"
+  ],
+  "Continue playing to collect cash and unlock more rewards.": [
+    "LocalEarningFlow.json:activatedBody"
+  ],
+  "Your withdrawal history": [
+    "LocalEarningFlow.json:summaryTitle"
+  ],
+  "Your reward records are saved. Submitted requests remain pending; no payment has been made.": [
+    "LocalEarningFlow.json:summaryBody"
+  ],
+  "Claim {0}X": [
+    "LocalEarningFlow.json:bonusClaimCaption",
+    "LocalEarningRewards.json:moreCaption"
+  ],
+  "Lucky Reward": [
+    "LocalEarningRewards.json:luckyTitle"
+  ],
+  "Extra reward unlocked": [
+    "LocalEarningRewards.json:coinPreviewTitle"
+  ],
+  "Clear this level to claim extra reward\n{0} diamonds": [
+    "LocalEarningRewards.json:coinPreviewBody"
+  ],
+  "Diamond rewards are unlocked. Tap here to review withdrawal requirements.": [
+    "LocalEarningRewards.json:coinGuideBody"
+  ],
+  "Reward Received": [
+    "LocalWithdrawal.json:tutorialNoticeTitle"
+  ],
+  "Continue": [
+    "LocalWithdrawal.json:tutorialNoticeContinue"
+  ],
+  "Withdrawal request": [
+    "LocalWithdrawal.json:earlyVerificationTitle"
+  ],
+  "Reward #{0}": [
+    "LocalWithdrawal.json:earlyVerificationTip"
+  ],
+  "Confirm withdrawal": [
+    "LocalWithdrawal.json:earlyVerificationConfirm"
+  ],
+  "Current status": [
+    "LocalWithdrawal.json:earlyVerificationStatus"
+  ],
+  "Reward recorded": [
+    "LocalWithdrawal.json:earlyVerificationSteps"
+  ],
+  "Account details entered": [
+    "LocalWithdrawal.json:earlyVerificationSteps"
+  ],
+  "Ready to submit": [
+    "LocalWithdrawal.json:earlyVerificationSteps"
+  ],
+  "Withdrawal requirements": [
+    "LocalWithdrawal.json:title"
+  ],
+  "Cash withdrawal": [
+    "LocalWithdrawal.json:cashSubtitle"
+  ],
+  "Diamond withdrawal": [
+    "LocalWithdrawal.json:diamondSubtitle"
+  ],
+  "Complete level {0}": [
+    "LocalWithdrawal.json:firstLevel",
+    "LocalWithdrawal.json:secondLevel"
+  ],
+  "Required balance": [
+    "LocalWithdrawal.json:balance"
+  ],
+  "Complete cash guidance": [
+    "LocalWithdrawal.json:guide"
+  ],
+  "Levels completed today": [
+    "LocalWithdrawal.json:daily"
+  ],
+  "Login days": [
+    "LocalWithdrawal.json:login"
+  ],
+  "Account level": [
+    "LocalWithdrawal.json:rank"
+  ],
+  "Awaiting account update": [
+    "LocalWithdrawal.json:unknown"
+  ],
+  "Complete": [
+    "LocalWithdrawal.json:complete"
+  ],
+  "Login complete": [
+    "LocalWithdrawal.json:waived"
+  ],
+  "In progress": [
+    "LocalWithdrawal.json:pending"
+  ],
+  "Continue playing": [
+    "LocalWithdrawal.json:continue"
+  ],
+  "View next stage": [
+    "LocalWithdrawal.json:progress"
+  ],
+  "Back to withdrawal": [
+    "LocalWithdrawal.json:back"
+  ],
+  "Requirements review": [
+    "LocalWithdrawal.json:reviewTitle"
+  ],
+  "Complete the next level target to continue. Your current progress is shown below.": [
+    "LocalWithdrawal.json:reviewDescription"
+  ],
+  "Withdrawal progress": [
+    "LocalWithdrawal.json:progressTitle"
+  ],
+  "Complete the next stage requirements": [
+    "LocalWithdrawal.json:progressDescription"
+  ],
+  "First level target completed": [
+    "LocalWithdrawal.json:firstStageComplete"
+  ],
+  "Next level target pending": [
+    "LocalWithdrawal.json:nextStagePending"
+  ],
+  "Review remaining requirements before applying": [
+    "LocalWithdrawal.json:nextReview"
+  ],
+  "Complete level <color=#FF0000>{0}</color> to continue the next stage": [
+    "LocalWithdrawal.json:stageTarget"
+  ],
+  "Application not submitted": [
+    "LocalWithdrawal.json:notSubmitted"
+  ],
+  "Reward videos watched": [
+    "LocalWithdrawal.json:videoCaption"
+  ],
+  "Enter payment details": [
+    "LocalWithdrawal.json:account"
+  ],
+  "Requirements complete. Confirm your payment details.": [
+    "LocalWithdrawal.json:ready"
+  ],
+  "Complete the requirements below to continue.": [
+    "LocalWithdrawal.json:blocked"
+  ],
+  "Withdrawal service is not connected. No withdrawal has been submitted.": [
+    "LocalWithdrawal.json:service"
+  ]
+}

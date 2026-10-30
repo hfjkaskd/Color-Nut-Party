@@ -1,0 +1,1167 @@
+{
+  "passed": false,
+  "verificationEnvironment": "Unity Editor actual GameView, production scene and prefabs",
+  "physicalDeviceRetested": false,
+  "deviceRetestNote": "This request does not wait for the physical device; this report covers Editor visual validation only.",
+  "matrix": "validation/report.json",
+  "matrixCaptures": 320,
+  "homeVerification": "validation-home/report.json",
+  "homeVerificationCaptures": 32,
+  "visibleLayoutFailures": [],
+  "hiddenStandbyDiagnostics": [
+    {
+      "capture": "en-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "en-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "en-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "en-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "en-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "en-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "en-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "en-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ja-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ja-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ja-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ja-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ja-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ja-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ja-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ja-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "pt-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "pt-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "pt-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "pt-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "pt-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "pt-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "pt-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "pt-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "de-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "de-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "de-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "de-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "de-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "de-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "de-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "de-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "fr-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "fr-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "fr-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "fr-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "fr-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "fr-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "fr-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "fr-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "id-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "id-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "id-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "id-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "id-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "id-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "id-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "id-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ru-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ru-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ru-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ru-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ru-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ru-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ru-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "ru-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "es-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "es-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "es-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          784.4939,
+          244.781433,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "es-tall-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.2078,
+          916.0707,
+          125.722534,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "es-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "es-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "es-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+        "text": "New Text",
+        "fontSize": 80.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -1093.42822,
+          624.4939,
+          244.7815,
+          39.166687
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    },
+    {
+      "capture": "es-short-home",
+      "label": {
+        "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+        "text": "New Text",
+        "fontSize": 46.0,
+        "font": "zh_Custom SDF",
+        "bounds": [
+          -814.207764,
+          756.0706,
+          125.722473,
+          22.520813
+        ],
+        "failures": [
+          "glyph-outside-screen"
+        ]
+      }
+    }
+  ],
+  "diagnosticReason": "OriginalTargetRewardBanner.Init intentionally parks the inactive animation off screen. Exclusion requires this exact production component, no active motion, and wholly off-screen glyph bounds. Partially visible or unrelated off-screen text still fails.",
+  "acceptanceCorrection": "Previous overall visual pass withdrawn: it covered text bounds, but missed missing country cash images and caption/ad-icon overlap. Targeted repaired scenes and all currency-resource checks are documented in validation-reward-art/report.json."
+}

@@ -1,0 +1,29 @@
+{
+  "latin": {
+    "asset": "Assets/Resources/Localization/Fonts/LocalLatin.asset",
+    "requestedCharacters": 195,
+    "glyphs": 195,
+    "atlasPages": 1,
+    "atlasSize": 1024,
+    "alphaAtlasBytes": 1048576,
+    "mode": "dynamic",
+    "missingRequested": []
+  },
+  "japanese": {
+    "asset": "Assets/Resources/Localization/Fonts/LocalJapanese.asset",
+    "requestedCharacters": 462,
+    "glyphs": 461,
+    "atlasPages": 1,
+    "atlasSize": 2048,
+    "alphaAtlasBytes": 4194304,
+    "mode": "static",
+    "missingRequested": [
+      "U+20BD"
+    ]
+  },
+  "japaneseSource": "https://github.com/google/fonts/tree/main/ofl/notosansjp",
+  "japaneseLicense": "SIL Open Font License 1.1; OFL-NotoSansJP.txt",
+  "latinSource": "https://github.com/google/fonts/tree/main/ofl/rubik",
+  "latinLicense": "SIL Open Font License 1.1; OFL-Rubik.txt",
+  "sourceFontPackaging": "Japanese font source stays in Editor. Static TMP asset has no runtime source Font reference."
+}

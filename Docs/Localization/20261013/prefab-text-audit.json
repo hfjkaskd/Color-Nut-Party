@@ -1,0 +1,431 @@
+{
+  "New TextNew TextNew TextNew Tex": [
+    "Assets\\Resources\\prefabs\\Tip.prefab"
+  ],
+  "x5": [
+    "Assets\\Resources\\prefabs\\items\\Item.prefab"
+  ],
+  "AddTile": [
+    "Assets\\Resources\\prefabs\\panels\\AddScrewItem.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelBottom.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab"
+  ],
+  "LOADING...": [
+    "Assets\\Resources\\prefabs\\panels\\BootLoadingPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\OriginalBootstrapHost.prefab"
+  ],
+  "Draw": [
+    "Assets\\Resources\\prefabs\\panels\\CoinItem.prefab",
+    "Assets\\Resources\\prefabs\\panels\\GoldItem.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab"
+  ],
+  "New Text": [
+    "Assets\\Resources\\prefabs\\panels\\CoinItem.prefab",
+    "Assets\\Resources\\prefabs\\panels\\GoldItem.prefab",
+    "Assets\\Resources\\prefabs\\panels\\ItemGetPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\ItemGetPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\PlayerGoldGetHint.prefab",
+    "Assets\\Resources\\prefabs\\panels\\PlayerGoldGetHint.prefab",
+    "Assets\\Resources\\prefabs\\panels\\UnlockGameplayPanel.prefab"
+  ],
+  "Revoke": [
+    "Assets\\Resources\\prefabs\\panels\\ExchangeItem.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelBottom.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelBottom.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\RevokeItem.prefab"
+  ],
+  "Restart": [
+    "Assets\\Resources\\prefabs\\panels\\FailPanel.prefab"
+  ],
+  "MAX": [
+    "Assets\\Resources\\prefabs\\panels\\FailPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\FailureCoinTip.prefab",
+    "Assets\\Resources\\prefabs\\panels\\ItemGetPanel.prefab"
+  ],
+  "Revive": [
+    "Assets\\Resources\\prefabs\\panels\\FailPanel.prefab"
+  ],
+  "Dont move Nut!": [
+    "Assets\\Resources\\prefabs\\panels\\FailPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\UnlockGameplayPanel.prefab"
+  ],
+  "GM": [
+    "Assets\\Resources\\prefabs\\panels\\GMButton.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab"
+  ],
+  "Withdraw": [
+    "Assets\\Resources\\prefabs\\panels\\HiddenLevel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\HiddenLevel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\HiddenLevel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\HiddenLevel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\HiddenLevel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalCashHistoryRow.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\NewbieGuidePanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXRecordGuidePanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXRecordGuidePanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXRecordGuidePanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXRecordGuidePanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXRecordGuidePanel.prefab"
+  ],
+  "Button": [
+    "Assets\\Resources\\prefabs\\panels\\ItemGetPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalWithdrawalConditions.prefab",
+    "Assets\\Resources\\prefabs\\panels\\ReplayPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXPanel.prefab"
+  ],
+  "Withdrawal History": [
+    "Assets\\Resources\\prefabs\\panels\\LocalCashHistory.prefab"
+  ],
+  "Current cash balance": [
+    "Assets\\Resources\\prefabs\\panels\\LocalCashHistory.prefab"
+  ],
+  "Tip Tip Tip Tip Tip Tip Tip Tip TTip Tip Tip Tip Tip Tip Tip Tip TTip Tip": [
+    "Assets\\Resources\\prefabs\\panels\\LocalCashHistoryEntry.prefab"
+  ],
+  "Cash Reward #1": [
+    "Assets\\Resources\\prefabs\\panels\\LocalCashHistoryRow.prefab"
+  ],
+  "Pending - not paid": [
+    "Assets\\Resources\\prefabs\\panels\\LocalCashHistoryRow.prefab"
+  ],
+  "10/12/2026 7:24 AM": [
+    "Assets\\Resources\\prefabs\\panels\\LocalCashHistoryRow.prefab"
+  ],
+  "Bonus 2": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Reward assessment": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Bonus 1": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Your reward records are saved. Submitted requests remain pending; no payment": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Your first two cash rewards are saved in withdrawal history.": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Reward benefit": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Your reward bonuses": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Bonus 5": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Activating rewards": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Bonus 3": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Rewards activated": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Bonus 4": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "You": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Preparing your cash rewards and level bonuses...": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Continue playing to collect cash and unlock more rewards.": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Your withdrawal history": [
+    "Assets\\Resources\\prefabs\\panels\\LocalEarningSequence.prefab"
+  ],
+  "Select Screw To Shuffle": [
+    "Assets\\Resources\\prefabs\\panels\\LocalGameplay.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab"
+  ],
+  "LOCAL MODE - SDK skipped": [
+    "Assets\\Resources\\prefabs\\panels\\LocalGameplay.prefab"
+  ],
+  "Continue": [
+    "Assets\\Resources\\prefabs\\panels\\LocalGameplay.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalUserLevel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXProgress0Panel.prefab"
+  ],
+  "Level complete": [
+    "Assets\\Resources\\prefabs\\panels\\LocalGameplay.prefab"
+  ],
+  "Lucky Reward": [
+    "Assets\\Resources\\prefabs\\panels\\LocalLuckyReward.prefab"
+  ],
+  "X10 Times Claimed": [
+    "Assets\\Resources\\prefabs\\panels\\LocalLuckyReward.prefab",
+    "Assets\\Resources\\prefabs\\panels\\SuccessPanel.prefab"
+  ],
+  "Only a little": [
+    "Assets\\Resources\\prefabs\\panels\\LocalLuckyReward.prefab",
+    "Assets\\Resources\\prefabs\\panels\\ReplayPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\SuccessPanel.prefab"
+  ],
+  "恭喜<color=#000000>{0}</color> (挑战<color=#11CB00>{1}</color>次) 通过本关,成功提现<color=#FF0000>{2}</color>": [
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\PMDBullet.prefab",
+    "Assets\\Resources\\prefabs\\panels\\PMDItem.prefab"
+  ],
+  "New TextNew TextNew TextNew Te": [
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab"
+  ],
+  "All Getooe": [
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab"
+  ],
+  "LEVEL 99": [
+    "Assets\\Resources\\prefabs\\panels\\LocalMainPanelTop.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelComplete.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MainPanelTop.prefab"
+  ],
+  "Replay": [
+    "Assets\\Resources\\prefabs\\panels\\LocalSettings.prefab"
+  ],
+  "'Id:'": [
+    "Assets\\Resources\\prefabs\\panels\\LocalSettings.prefab"
+  ],
+  "ON": [
+    "Assets\\Resources\\prefabs\\panels\\LocalSettings.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalSettings.prefab"
+  ],
+  "Settings": [
+    "Assets\\Resources\\prefabs\\panels\\LocalSettings.prefab"
+  ],
+  "LV.0": [
+    "Assets\\Resources\\prefabs\\panels\\LocalSettings.prefab"
+  ],
+  "Player": [
+    "Assets\\Resources\\prefabs\\panels\\LocalSettings.prefab"
+  ],
+  "Sound": [
+    "Assets\\Resources\\prefabs\\panels\\LocalSettings.prefab"
+  ],
+  "Vibration": [
+    "Assets\\Resources\\prefabs\\panels\\LocalSettings.prefab"
+  ],
+  "'Withdrawal": [
+    "Assets\\Resources\\prefabs\\panels\\LocalSettings.prefab"
+  ],
+  "<u>User Level</u>": [
+    "Assets\\Resources\\prefabs\\panels\\LocalSettings.prefab"
+  ],
+  "'Current Level: 0'": [
+    "Assets\\Resources\\prefabs\\panels\\LocalUserLevel.prefab"
+  ],
+  "Progress unavailable": [
+    "Assets\\Resources\\prefabs\\panels\\LocalUserLevel.prefab"
+  ],
+  "User Level": [
+    "Assets\\Resources\\prefabs\\panels\\LocalUserLevel.prefab"
+  ],
+  "Level progress": [
+    "Assets\\Resources\\prefabs\\panels\\LocalUserLevel.prefab"
+  ],
+  "Level 3": [
+    "Assets\\Resources\\prefabs\\panels\\LocalWithdrawalConditions.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalWithdrawalConditions.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalWithdrawalConditions.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXPanel.prefab"
+  ],
+  "Withdrawal requirements": [
+    "Assets\\Resources\\prefabs\\panels\\LocalWithdrawalConditions.prefab"
+  ],
+  "Current State": [
+    "Assets\\Resources\\prefabs\\panels\\LocalWithdrawalVerification.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalWithdrawalVerification.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalWithdrawalVerification.prefab",
+    "Assets\\Resources\\prefabs\\panels\\LocalWithdrawalVerification.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXLevelPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXLevelPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXLevelPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXLevelPanel.prefab"
+  ],
+  "Infomation": [
+    "Assets\\Resources\\prefabs\\panels\\LocalWithdrawalVerification.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXChannelPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXGuideTargetCompletePanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXLevelPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXProgress0Panel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXRecordGuidePanel.prefab"
+  ],
+  "Sure and GetSure": [
+    "Assets\\Resources\\prefabs\\panels\\LocalWithdrawalVerification.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXLevelPanel.prefab"
+  ],
+  "Get Couunit": [
+    "Assets\\Resources\\prefabs\\panels\\LocalWithdrawalVerification.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXLevelPanel.prefab"
+  ],
+  "OK": [
+    "Assets\\Resources\\prefabs\\panels\\MessagePanel.prefab"
+  ],
+  "Tip": [
+    "Assets\\Resources\\prefabs\\panels\\MessagePanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\MessagePanel.prefab"
+  ],
+  "New Text New TextNew TextNew TextNew  TextNew  TextNew  TextN": [
+    "Assets\\Resources\\prefabs\\panels\\NewbieGuidePanel.prefab"
+  ],
+  "My Level": [
+    "Assets\\Resources\\prefabs\\panels\\ReplayPanel.prefab"
+  ],
+  "'Current Level: 99'": [
+    "Assets\\Resources\\prefabs\\panels\\ReplayPanel.prefab"
+  ],
+  "Success": [
+    "Assets\\Resources\\prefabs\\panels\\SuccessPanel.prefab"
+  ],
+  "Phone/Email": [
+    "Assets\\Resources\\prefabs\\panels\\TXChannelPanel.prefab"
+  ],
+  "'My Coin: $9999999999'": [
+    "Assets\\Resources\\prefabs\\panels\\TXCoinPanel.prefab"
+  ],
+  "My Diamond": [
+    "Assets\\Resources\\prefabs\\panels\\TXCoinPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXCoinPanel.prefab"
+  ],
+  "Withdraw <color=#FFFF00>$9999</color>": [
+    "Assets\\Resources\\prefabs\\panels\\TXCoinPanel.prefab"
+  ],
+  "'Restarting will lose your  100=$1lose your  '": [
+    "Assets\\Resources\\prefabs\\panels\\TXCoinPanel.prefab"
+  ],
+  "Restarting will lose your  100=$1lose your  100=$1lose your  100=$1lose": [
+    "Assets\\Resources\\prefabs\\panels\\TXCoinPanel.prefab"
+  ],
+  "ing Fa qi dakuan": [
+    "Assets\\Resources\\prefabs\\panels\\TXGuideLoadingPanel.prefab"
+  ],
+  "Modified": [
+    "Assets\\Resources\\prefabs\\panels\\TXGuideTargetCompletePanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXRecordGuidePanel.prefab"
+  ],
+  "kefu gonhao:9738434": [
+    "Assets\\Resources\\prefabs\\panels\\TXProgress0Panel.prefab"
+  ],
+  "Withdrawal goals completed": [
+    "Assets\\Resources\\prefabs\\panels\\TXProgress0Panel.prefab"
+  ],
+  "Level completion speed too fast, real-person verification required": [
+    "Assets\\Resources\\prefabs\\panels\\TXProgress0Panel.prefab"
+  ],
+  "Current StateCurrent StateCurrent StateCurrent StateCurrent StateCurrent State": [
+    "Assets\\Resources\\prefabs\\panels\\TXProgress0Panel.prefab"
+  ],
+  "gold get": [
+    "Assets\\Resources\\prefabs\\panels\\TXProgress0Panel.prefab"
+  ],
+  "\"tip tip tip tip tip tip tip tip tip tip tip \\ntip tip tip tip tip tip tip tip tip tip tip tip tip tip tip \"": [
+    "Assets\\Resources\\prefabs\\panels\\TXRecordGuidePanel.prefab"
+  ],
+  "\"Restarting will lose your progress on this level\\nAre you sure you want to do this?\"": [
+    "Assets\\Resources\\prefabs\\panels\\TXTooFastHintPanel.prefab"
+  ],
+  "Pass 45 Level": [
+    "Assets\\Resources\\prefabs\\panels\\TXTooFastHintPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXTooFastHintPanel.prefab"
+  ],
+  "Resrart": [
+    "Assets\\Resources\\prefabs\\panels\\TXTooFastHintPanel.prefab"
+  ],
+  "Contiune": [
+    "Assets\\Resources\\prefabs\\panels\\TXTooFastHintPanel.prefab"
+  ],
+  "Select one gold get": [
+    "Assets\\Resources\\prefabs\\panels\\TXUserInfoPanel.prefab"
+  ],
+  "Infomation info": [
+    "Assets\\Resources\\prefabs\\panels\\TXUserInfoPanel.prefab"
+  ],
+  "Enter name...": [
+    "Assets\\Resources\\prefabs\\panels\\TXUserInfoPanel.prefab",
+    "Assets\\Resources\\prefabs\\panels\\TXUserInfoPanel.prefab"
+  ],
+  "Enter text...": [
+    "Assets\\Resources\\prefabs\\panels\\TXUserInfoPanel.prefab"
+  ],
+  "Account...": [
+    "Assets\\Resources\\prefabs\\panels\\TXUserInfoPanel.prefab"
+  ],
+  "\"62-999999999\\nname\"": [
+    "Assets\\Resources\\prefabs\\panels\\TXUserInfoSurePanel.prefab"
+  ],
+  "Sure": [
+    "Assets\\Resources\\prefabs\\panels\\TXUserInfoSurePanel.prefab"
+  ],
+  "I know": [
+    "Assets\\Resources\\prefabs\\panels\\UnlockGameplayPanel.prefab"
+  ],
+  "Simulated stats (--)": [
+    "Assets\\Resources\\prefabs\\playerinfo\\PlayerInfo.prefab"
+  ],
+  "New TextNew TextNew": [
+    "Assets\\Resources\\prefabs\\playerinfo\\PlayerInfo.prefab",
+    "Assets\\Resources\\prefabs\\playerinfo\\PlayerInfo.prefab",
+    "Assets\\Resources\\prefabs\\playerinfo\\PlayerInfo.prefab"
+  ],
+  "Tip Tip Tip Tip Tip Tip Tip Tip TTip Tip Tip Tip Tip Tip Tip Tip TTip Tip Tip Tip Tip Tip Tip Tip T": [
+    "Assets\\Resources\\prefabs\\playerinfo\\PMDSimple.prefab"
+  ]
+}

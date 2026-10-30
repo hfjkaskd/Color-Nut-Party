@@ -1,0 +1,7493 @@
+{
+  "passed": true,
+  "fatal": null,
+  "issueCount": 0,
+  "captures": [
+    {
+      "id": "en-tall-settlement",
+      "language": "en",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "en-tall-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Claim 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            303.006836,
+            477.8944,
+            222.642883,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Claim",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            315.3457,
+            336.077728,
+            88.54593,
+            27.1828613
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "$512.34",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            85.706665,
+            658.432556,
+            240.7136,
+            60.6729736
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486.73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            665.7142,
+            205.775757,
+            47.29004
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Level Complete",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            194.242386,
+            1115.6748,
+            333.826538,
+            47.2041
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "US3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "en-tall-settlement-no-ad",
+      "language": "en",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "en-tall-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Claim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            298.170929,
+            475.5744,
+            122.602051,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Claim",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            315.3457,
+            336.077728,
+            88.54593,
+            27.1828613
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "$512.34",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            85.706665,
+            658.432556,
+            240.7136,
+            60.6729736
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486.73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            665.7142,
+            205.775757,
+            47.29004
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Level Complete",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            194.242386,
+            1115.6748,
+            333.826538,
+            47.2041
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "US3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "en-tall-lucky",
+      "language": "en",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "en-tall-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "Claim 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            303.006836,
+            496.5611,
+            222.642883,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Claim",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            315.3457,
+            366.211182,
+            88.54593,
+            27.18277
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "$512.34",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            240.073334,
+            658.432556,
+            240.713562,
+            60.6729736
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Lucky Reward",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            211.056168,
+            1071.11182,
+            298.2704,
+            47.4337158
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "US3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "en-tall-undo",
+      "language": "en",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "en-tall-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Undo",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            302.862274,
+            1104.73438,
+            116.158173,
+            37.6378174
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Claim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.190948,
+            560.0344,
+            122.602051,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Undo last action",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            234.492233,
+            710.1706,
+            251.462234,
+            26.14569
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "en-tall-shuffle",
+      "language": "en",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "en-tall-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Refresh",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            279.7041,
+            1105.02527,
+            161.234711,
+            37.3469238
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Claim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.190948,
+            560.0344,
+            122.602051,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Refresh nut arrangement",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            167.19281,
+            703.27,
+            388.4853,
+            33.0462646
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "en-tall-bolt",
+      "language": "en",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "en-tall-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Bolt+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            299.7475,
+            1104.96411,
+            117.581604,
+            37.40808
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Claim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.190948,
+            560.0344,
+            122.602051,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Add an empty bolt",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            216.012619,
+            703.3657,
+            288.740356,
+            32.95056
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "en-short-settlement",
+      "language": "en",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "en-short-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Claim 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            303.006836,
+            317.8944,
+            222.642883,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Claim",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            315.345673,
+            176.0778,
+            88.54596,
+            27.1828156
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "$512.34",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            85.706665,
+            498.432617,
+            240.7136,
+            60.6729126
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486.73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            505.714172,
+            205.775757,
+            47.29004
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Level Complete",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            194.242386,
+            955.674744,
+            333.826538,
+            47.2041626
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "US3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "en-short-settlement-no-ad",
+      "language": "en",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "en-short-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Claim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            298.170929,
+            315.574371,
+            122.602051,
+            37.6377869
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Claim",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            315.345673,
+            176.0778,
+            88.54596,
+            27.1828156
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "$512.34",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            85.706665,
+            498.432617,
+            240.7136,
+            60.6729126
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486.73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            505.714172,
+            205.775757,
+            47.29004
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Level Complete",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            194.242386,
+            955.674744,
+            333.826538,
+            47.2041626
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "US3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "en-short-lucky",
+      "language": "en",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "en-short-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "Claim 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            303.006836,
+            336.5611,
+            222.642883,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Claim",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            315.345673,
+            206.211166,
+            88.54596,
+            27.1828156
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "$512.34",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            240.073334,
+            498.432617,
+            240.713562,
+            60.6729126
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Lucky Reward",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            211.056168,
+            911.111938,
+            298.2704,
+            47.4335938
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "US3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "en-short-undo",
+      "language": "en",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "en-short-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Undo",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            302.862274,
+            944.7345,
+            116.158173,
+            37.6376953
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Claim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.190948,
+            400.034424,
+            122.602051,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Undo last action",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            234.492233,
+            550.1706,
+            251.462234,
+            26.14569
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "en-short-shuffle",
+      "language": "en",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "en-short-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Refresh",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            279.7041,
+            945.0253,
+            161.234711,
+            37.3468628
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Claim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.190948,
+            400.034424,
+            122.602051,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Refresh nut arrangement",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            167.19281,
+            543.27,
+            388.4853,
+            33.0462646
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "en-short-bolt",
+      "language": "en",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "en-short-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Bolt+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            299.7475,
+            944.96405,
+            117.581604,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Claim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.190948,
+            400.034424,
+            122.602051,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Add an empty bolt",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            216.012619,
+            543.3657,
+            288.740356,
+            32.95056
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "ja-tall-settlement",
+      "language": "ja",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ja-tall-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "10倍で受け取る",
+          "fontSize": 71.35,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            243.437241,
+            472.020447,
+            333.3639,
+            44.9034424
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "受け取る",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            292.020844,
+            331.6712,
+            133.08075,
+            32.725708
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "￥512",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            139.789871,
+            665.5901,
+            139.260574,
+            41.6531372
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            455.92392,
+            665.7142,
+            115.685394,
+            47.29004
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "レベルクリア",
+          "fontSize": 62.8,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            242.563492,
+            1123.313,
+            241.155838,
+            37.4373779
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "JP3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "ja-tall-settlement-no-ad",
+      "language": "ja",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ja-tall-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "受け取る",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            265.875031,
+            469.473022,
+            184.265656,
+            45.3125
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "受け取る",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            292.020844,
+            331.6712,
+            133.08075,
+            32.725708
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "￥512",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            139.789871,
+            665.5901,
+            139.260574,
+            41.6531372
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            455.92392,
+            665.7142,
+            115.685394,
+            47.29004
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "レベルクリア",
+          "fontSize": 62.8,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            242.563492,
+            1123.313,
+            241.155838,
+            37.4373779
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "JP3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "ja-tall-lucky",
+      "language": "ja",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ja-tall-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "10倍で受け取る",
+          "fontSize": 71.35,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            243.437241,
+            490.687134,
+            333.3639,
+            44.9034424
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "受け取る",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            292.020844,
+            361.804565,
+            133.08075,
+            32.72574
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "￥512",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            294.156525,
+            665.5901,
+            139.260559,
+            41.6531372
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "ラッキー報酬",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            222.281265,
+            1074.60327,
+            278.75,
+            45.125
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "JP3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "ja-tall-undo",
+      "language": "ja",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ja-tall-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "元に戻す",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            265.4844,
+            1098.52368,
+            187.390625,
+            43.0625
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "受け取る",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            315.89502,
+            553.933044,
+            184.265625,
+            45.3125
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "直前の操作を元に戻す",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            195.146973,
+            705.8562,
+            329.402283,
+            31.47705
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "ja-tall-shuffle",
+      "language": "ja",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ja-tall-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "更新",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            313.875031,
+            1098.47681,
+            92.6406555,
+            44.796875
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "受け取る",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            315.89502,
+            553.933044,
+            184.265625,
+            45.3125
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "ナットの配置を変更",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            212.850113,
+            705.791,
+            296.600952,
+            31.44458
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "ja-tall-bolt",
+      "language": "ja",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ja-tall-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "ボルト追加",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            241.9219,
+            1098.5863,
+            234.375031,
+            45.1561279
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "受け取る",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            315.89502,
+            553.933044,
+            184.265625,
+            45.3125
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "空のボルトを追加",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            228.556091,
+            705.8996,
+            262.247528,
+            31.3685913
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "ja-short-settlement",
+      "language": "ja",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ja-short-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "10倍で受け取る",
+          "fontSize": 71.35,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            243.437225,
+            312.020447,
+            333.363861,
+            44.9034424
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "受け取る",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            292.020844,
+            171.671219,
+            133.08075,
+            32.7256775
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "￥512",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            139.789871,
+            505.5901,
+            139.260574,
+            41.6532
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            455.92392,
+            505.714172,
+            115.685394,
+            47.29004
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "レベルクリア",
+          "fontSize": 62.8,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            242.563492,
+            963.3129,
+            241.155838,
+            37.4373169
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "JP3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "ja-short-settlement-no-ad",
+      "language": "ja",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ja-short-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "受け取る",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            265.875031,
+            309.473,
+            184.265656,
+            45.31253
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "受け取る",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            292.020844,
+            171.671219,
+            133.08075,
+            32.7256775
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "￥512",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            139.789871,
+            505.5901,
+            139.260574,
+            41.6532
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            455.92392,
+            505.714172,
+            115.685394,
+            47.29004
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "レベルクリア",
+          "fontSize": 62.8,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            242.563492,
+            963.3129,
+            241.155838,
+            37.4373169
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "JP3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "ja-short-lucky",
+      "language": "ja",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ja-short-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "10倍で受け取る",
+          "fontSize": 71.35,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            243.437225,
+            330.687134,
+            333.363861,
+            44.9034424
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "受け取る",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            292.020844,
+            201.804581,
+            133.08075,
+            32.7257233
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "￥512",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            294.156525,
+            505.5901,
+            139.260559,
+            41.6532
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "ラッキー報酬",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            222.281265,
+            914.6033,
+            278.750061,
+            45.125
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "JP3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "ja-short-undo",
+      "language": "ja",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ja-short-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "元に戻す",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            265.4844,
+            938.5237,
+            187.390656,
+            43.0625
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "受け取る",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            315.89502,
+            393.933044,
+            184.265625,
+            45.3125
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "直前の操作を元に戻す",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            195.146973,
+            545.8562,
+            329.402222,
+            31.47705
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "ja-short-shuffle",
+      "language": "ja",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ja-short-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "更新",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            313.875031,
+            938.476868,
+            92.6406555,
+            44.796814
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "受け取る",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            315.89502,
+            393.933044,
+            184.265625,
+            45.3125
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "ナットの配置を変更",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            212.850113,
+            545.7911,
+            296.600952,
+            31.444519
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "ja-short-bolt",
+      "language": "ja",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ja-short-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "ボルト追加",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            241.9219,
+            938.5862,
+            234.375031,
+            45.15625
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "受け取る",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            315.89502,
+            393.933044,
+            184.265625,
+            45.3125
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "空のボルトを追加",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            228.556091,
+            545.8996,
+            262.247528,
+            31.36853
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "pt-tall-settlement",
+      "language": "pt",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "pt-tall-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Receber 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            278.249176,
+            477.8944,
+            273.857147,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Receber",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            297.465179,
+            336.320923,
+            127.789093,
+            26.9396667
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "R$512,34",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            67.177536,
+            657.632446,
+            280.172363,
+            61.4730835
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            657.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Nível concluído",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            192.684021,
+            1125.81067,
+            336.5147,
+            37.40808
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "BR3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "pt-tall-settlement-no-ad",
+      "language": "pt",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "pt-tall-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Receber",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            273.4133,
+            475.911133,
+            176.938782,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Receber",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            297.465179,
+            336.320923,
+            127.789093,
+            26.9396667
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "R$512,34",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            67.177536,
+            657.632446,
+            280.172363,
+            61.4730835
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            657.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Nível concluído",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            192.684021,
+            1125.81067,
+            336.5147,
+            37.40808
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "BR3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "pt-tall-lucky",
+      "language": "pt",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "pt-tall-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "Receber 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            278.249176,
+            496.5611,
+            273.857147,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Receber",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            297.465179,
+            366.4543,
+            127.789093,
+            26.9396362
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "R$512,34",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            221.5442,
+            657.632446,
+            280.172363,
+            61.4730835
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Recompensa da sorte",
+          "fontSize": 71.85,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            123.081375,
+            1071.40125,
+            476.143677,
+            47.1057129
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "BR3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "pt-tall-undo",
+      "language": "pt",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "pt-tall-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Desfazer",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            266.28067,
+            1105.02527,
+            191.204071,
+            37.3469238
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Receber",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            323.4333,
+            560.371155,
+            176.938782,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Desfazer última ação",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            194.6329,
+            703.771,
+            332.042023,
+            32.7813721
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "pt-tall-shuffle",
+      "language": "pt",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "pt-tall-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Atualizar",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            261.1837,
+            1104.96411,
+            198.367371,
+            37.40808
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Receber",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            323.4333,
+            560.371155,
+            176.938782,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Misturar as porcas",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            217.022766,
+            703.525146,
+            285.890778,
+            32.7911377
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "pt-tall-bolt",
+      "language": "pt",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "pt-tall-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Parafuso+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            244.434982,
+            1104.96411,
+            228.20665,
+            37.40808
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Receber",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            323.4333,
+            560.371155,
+            176.938782,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Adicionar um parafuso vazio",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            137.7563,
+            703.525146,
+            443.690063,
+            32.7911377
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "pt-short-settlement",
+      "language": "pt",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "pt-short-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Receber 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            278.249176,
+            317.8944,
+            273.857147,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Receber",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            297.465179,
+            176.320953,
+            127.789093,
+            26.9396667
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "R$512,34",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            67.177536,
+            497.632446,
+            280.172363,
+            61.4730835
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            497.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Nível concluído",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            192.684021,
+            965.810547,
+            336.5147,
+            37.4081421
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "BR3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "pt-short-settlement-no-ad",
+      "language": "pt",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "pt-short-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Receber",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            273.413269,
+            315.911133,
+            176.938812,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Receber",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            297.465179,
+            176.320953,
+            127.789093,
+            26.9396667
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "R$512,34",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            67.177536,
+            497.632446,
+            280.172363,
+            61.4730835
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            497.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Nível concluído",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            192.684021,
+            965.810547,
+            336.5147,
+            37.4081421
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "BR3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "pt-short-lucky",
+      "language": "pt",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "pt-short-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "Receber 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            278.249176,
+            336.5611,
+            273.857147,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Receber",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            297.465179,
+            206.454346,
+            127.789093,
+            26.9396362
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "R$512,34",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            221.5442,
+            497.632446,
+            280.172363,
+            61.4730835
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Recompensa da sorte",
+          "fontSize": 71.85,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            123.081375,
+            911.401245,
+            476.143677,
+            47.1057129
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "BR3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "pt-short-undo",
+      "language": "pt",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "pt-short-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Desfazer",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            266.28067,
+            945.0253,
+            191.204071,
+            37.3468628
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Receber",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            323.4333,
+            400.371155,
+            176.938782,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Desfazer última ação",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            194.632935,
+            543.771,
+            332.042,
+            32.7813721
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "pt-short-shuffle",
+      "language": "pt",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "pt-short-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Atualizar",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            261.1837,
+            944.96405,
+            198.367371,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Receber",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            323.4333,
+            400.371155,
+            176.938782,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Misturar as porcas",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            217.022751,
+            543.525146,
+            285.8908,
+            32.7911377
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "pt-short-bolt",
+      "language": "pt",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "pt-short-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Parafuso+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            244.434982,
+            944.96405,
+            228.20665,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Receber",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            323.4333,
+            400.371155,
+            176.938782,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Adicionar um parafuso vazio",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            137.7563,
+            543.525146,
+            443.690063,
+            32.7911377
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "de-tall-settlement",
+      "language": "de",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "de-tall-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "10X abholen",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            273.083374,
+            477.8944,
+            277.48468,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Abholen",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            293.789551,
+            336.2436,
+            130.696472,
+            27.0169983
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            97.642,
+            658.5218,
+            214.835663,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            657.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Level geschafft",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            197.311234,
+            1115.30737,
+            329.510254,
+            47.5715332
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "de-tall-settlement-no-ad",
+      "language": "de",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "de-tall-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Abholen",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            268.324,
+            475.804,
+            180.9643,
+            37.4081726
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Abholen",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            293.789551,
+            336.2436,
+            130.696472,
+            27.0169983
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            97.642,
+            658.5218,
+            214.835663,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            657.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Level geschafft",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            197.311234,
+            1115.30737,
+            329.510254,
+            47.5715332
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "de-tall-lucky",
+      "language": "de",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "de-tall-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "10X abholen",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            273.083374,
+            496.5611,
+            277.48468,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Abholen",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            293.789551,
+            366.376923,
+            130.696472,
+            27.0170288
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            252.008636,
+            658.5218,
+            214.835724,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Glücksbelohnung",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            168.795792,
+            1071.314,
+            381.138123,
+            47.57141
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "de-tall-undo",
+      "language": "de",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "de-tall-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Rückgängig",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            231.6829,
+            1095.14063,
+            257.0628,
+            47.57141
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Abholen",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            318.344,
+            560.264038,
+            180.964325,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Letzte Aktion rückgängig",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            171.771408,
+            703.5061,
+            376.755,
+            33.0462646
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "de-tall-shuffle",
+      "language": "de",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "de-tall-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Aktualisieren",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            215.969452,
+            1104.96411,
+            285.673462,
+            37.40808
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Abholen",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            318.344,
+            560.264038,
+            180.964325,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Muttern neu anordnen",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            185.37999,
+            710.3301,
+            348.081177,
+            25.9862061
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "de-tall-bolt",
+      "language": "de",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "de-tall-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Bolzen+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            269.441376,
+            1104.96411,
+            178.193848,
+            37.40808
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Abholen",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            318.344,
+            560.264038,
+            180.964325,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Leeren Bolzen hinzufügen",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            161.344757,
+            703.5061,
+            397.7571,
+            33.0462646
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "de-short-settlement",
+      "language": "de",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "de-short-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "10X abholen",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            273.083374,
+            317.8944,
+            277.48468,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Abholen",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            293.789551,
+            176.243591,
+            130.696472,
+            27.0170288
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            97.642,
+            498.5218,
+            214.835663,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            497.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Level geschafft",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            197.311234,
+            955.3075,
+            329.510254,
+            47.57141
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "de-short-settlement-no-ad",
+      "language": "de",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "de-short-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Abholen",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            268.324,
+            315.804016,
+            180.9643,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Abholen",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            293.789551,
+            176.243591,
+            130.696472,
+            27.0170288
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            97.642,
+            498.5218,
+            214.835663,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            497.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Level geschafft",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            197.311234,
+            955.3075,
+            329.510254,
+            47.57141
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "de-short-lucky",
+      "language": "de",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "de-short-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "10X abholen",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            273.083374,
+            336.5611,
+            277.48468,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Abholen",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            293.789551,
+            206.376984,
+            130.696472,
+            27.0169983
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            252.008636,
+            498.5218,
+            214.835724,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Glücksbelohnung",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            168.795792,
+            911.313965,
+            381.138123,
+            47.57141
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "de-short-undo",
+      "language": "de",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "de-short-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Rückgängig",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            231.6829,
+            935.1407,
+            257.0628,
+            47.57141
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Abholen",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            318.344,
+            400.264,
+            180.964264,
+            37.4081726
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Letzte Aktion rückgängig",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            171.771408,
+            543.5061,
+            376.755,
+            33.0462646
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "de-short-shuffle",
+      "language": "de",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "de-short-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Aktualisieren",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            215.969437,
+            944.96405,
+            285.6734,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Abholen",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            318.344,
+            400.264,
+            180.964264,
+            37.4081726
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Muttern neu anordnen",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            185.379974,
+            550.3301,
+            348.0812,
+            25.9862061
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "de-short-bolt",
+      "language": "de",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "de-short-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Bolzen+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            269.441376,
+            944.96405,
+            178.193848,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Abholen",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            318.344,
+            400.264,
+            180.964264,
+            37.4081726
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Leeren Bolzen hinzufügen",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            161.344788,
+            543.5061,
+            397.75708,
+            33.0462646
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "fr-tall-settlement",
+      "language": "fr",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "fr-tall-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Recevoir 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            274.5068,
+            477.8944,
+            281.3419,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Recevoir",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            294.76236,
+            336.2436,
+            133.194733,
+            27.0169983
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            97.642,
+            658.5218,
+            214.835663,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            657.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Niveau terminé",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            191.19632,
+            1125.81067,
+            338.9506,
+            37.40808
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "fr-tall-settlement-no-ad",
+      "language": "fr",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "fr-tall-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Recevoir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            269.670959,
+            475.804,
+            184.423462,
+            37.4081726
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Recevoir",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            294.76236,
+            336.2436,
+            133.194733,
+            27.0169983
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            97.642,
+            658.5218,
+            214.835663,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            657.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Niveau terminé",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            191.19632,
+            1125.81067,
+            338.9506,
+            37.40808
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "fr-tall-lucky",
+      "language": "fr",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "fr-tall-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "Recevoir 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            274.5068,
+            496.5611,
+            281.3419,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Recevoir",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            294.76236,
+            366.376923,
+            133.194733,
+            27.0170288
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            252.008636,
+            658.5218,
+            214.835724,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Récompense chanceuse",
+          "fontSize": 65.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            122.766808,
+            1074.39514,
+            476.556183,
+            42.68042
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "fr-tall-undo",
+      "language": "fr",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "fr-tall-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Annuler",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            273.681152,
+            1104.96411,
+            173.372437,
+            37.40808
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Recevoir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            319.690948,
+            560.264038,
+            184.4235,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Annuler la dernière action",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            155.938049,
+            710.566162,
+            406.465271,
+            25.9862061
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "fr-tall-shuffle",
+      "language": "fr",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "fr-tall-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Actualiser",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            251.074036,
+            1104.96411,
+            218.586731,
+            37.40808
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Recevoir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            319.690948,
+            560.264038,
+            184.4235,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Mélanger les écrous",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            203.42868,
+            703.5061,
+            313.0789,
+            33.0462646
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "fr-tall-bolt",
+      "language": "fr",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "fr-tall-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Tige+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            294.9031,
+            1094.80078,
+            123.275513,
+            47.57141
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Recevoir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            319.690948,
+            560.264038,
+            184.4235,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Ajouter une tige vide",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            198.325241,
+            703.27,
+            322.8499,
+            33.0462646
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "fr-short-settlement",
+      "language": "fr",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "fr-short-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Recevoir 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            274.5068,
+            317.8944,
+            281.3419,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Recevoir",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            294.76236,
+            176.243591,
+            133.194733,
+            27.0170288
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            97.642,
+            498.5218,
+            214.835663,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            497.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Niveau terminé",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            191.19632,
+            965.810547,
+            338.9506,
+            37.4081421
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "fr-short-settlement-no-ad",
+      "language": "fr",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "fr-short-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Recevoir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            269.670959,
+            315.804016,
+            184.423462,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Recevoir",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            294.76236,
+            176.243591,
+            133.194733,
+            27.0170288
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            97.642,
+            498.5218,
+            214.835663,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            497.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Niveau terminé",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            191.19632,
+            965.810547,
+            338.9506,
+            37.4081421
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "fr-short-lucky",
+      "language": "fr",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "fr-short-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "Recevoir 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            274.5068,
+            336.5611,
+            281.3419,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Recevoir",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            294.76236,
+            206.376984,
+            133.194733,
+            27.0169983
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            252.008636,
+            498.5218,
+            214.835724,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Récompense chanceuse",
+          "fontSize": 65.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            122.766808,
+            914.395142,
+            476.556183,
+            42.68036
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "fr-short-undo",
+      "language": "fr",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "fr-short-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Annuler",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            273.681152,
+            944.96405,
+            173.372437,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Recevoir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            319.690948,
+            400.264,
+            184.4235,
+            37.4081726
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Annuler la dernière action",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            155.938049,
+            550.566162,
+            406.465271,
+            25.9862061
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "fr-short-shuffle",
+      "language": "fr",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "fr-short-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Actualiser",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            251.074036,
+            944.96405,
+            218.586731,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Recevoir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            319.690948,
+            400.264,
+            184.4235,
+            37.4081726
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Mélanger les écrous",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            203.42868,
+            543.5061,
+            313.078949,
+            33.0462646
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "fr-short-bolt",
+      "language": "fr",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "fr-short-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Tige+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            294.9031,
+            934.8008,
+            123.275513,
+            47.57141
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Recevoir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            319.690948,
+            400.264,
+            184.4235,
+            37.4081726
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Ajouter une tige vide",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            198.325211,
+            543.27,
+            322.849976,
+            33.0462646
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "id-tall-settlement",
+      "language": "id",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "id-tall-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Klaim 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            304.36908,
+            477.8944,
+            221.617371,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Klaim",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            316.329529,
+            336.387268,
+            87.80527,
+            26.8733215
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "Rp512",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            115.943504,
+            653.2115,
+            182.080292,
+            59.67273
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            455.92392,
+            665.7142,
+            115.685394,
+            47.29004
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Level selesai",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            224.196472,
+            1125.532,
+            272.387756,
+            37.3469238
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "ID3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "id-tall-settlement-no-ad",
+      "language": "id",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "id-tall-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Klaim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            299.5332,
+            476.003,
+            121.576538,
+            37.2091675
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Klaim",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            316.329529,
+            336.387268,
+            87.80527,
+            26.8733215
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "Rp512",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            115.943504,
+            653.2115,
+            182.080292,
+            59.67273
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            455.92392,
+            665.7142,
+            115.685394,
+            47.29004
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Level selesai",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            224.196472,
+            1125.532,
+            272.387756,
+            37.3469238
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "ID3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "id-tall-lucky",
+      "language": "id",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "id-tall-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "Klaim 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            304.36908,
+            496.5611,
+            221.617371,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Klaim",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            316.329529,
+            366.52063,
+            87.80527,
+            26.8733215
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "Rp512",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            270.310181,
+            653.2115,
+            182.080292,
+            59.67273
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Hadiah keberuntungan",
+          "fontSize": 66.55,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            122.880257,
+            1073.17126,
+            474.83374,
+            43.97046
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "ID3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "id-tall-undo",
+      "language": "id",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "id-tall-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Urungkan",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            252.964325,
+            1094.80078,
+            214.7143,
+            47.57141
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Klaim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            349.5532,
+            560.463,
+            121.576508,
+            37.2091675
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Batalkan tindakan terakhir",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            153.375687,
+            710.4045,
+            415.86438,
+            25.9118042
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "id-tall-shuffle",
+      "language": "id",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "id-tall-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Segarkan",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            255.7194,
+            1094.80078,
+            207.367386,
+            47.57141
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Klaim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            349.5532,
+            560.463,
+            121.576508,
+            37.2091675
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Acak susunan mur",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.128525,
+            710.3301,
+            284.253357,
+            25.9862061
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "id-tall-bolt",
+      "language": "id",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "id-tall-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Baut+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            291.9184,
+            1104.96411,
+            133.2398,
+            34.913208
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Klaim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            349.5532,
+            560.463,
+            121.576508,
+            37.2091675
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Tambah baut kosong",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            197.1264,
+            703.27,
+            323.269836,
+            33.0462646
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "id-short-settlement",
+      "language": "id",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "id-short-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Klaim 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            304.36908,
+            317.8944,
+            221.617371,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Klaim",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            316.329529,
+            176.387253,
+            87.8053,
+            26.8733673
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "Rp512",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            115.943504,
+            493.211517,
+            182.080292,
+            59.6727
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            455.92392,
+            505.714172,
+            115.685394,
+            47.29004
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Level selesai",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            224.196457,
+            965.5319,
+            272.387756,
+            37.3469849
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "ID3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "id-short-settlement-no-ad",
+      "language": "id",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "id-short-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Klaim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            299.533173,
+            316.003,
+            121.576569,
+            37.2091675
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Klaim",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            316.329529,
+            176.387253,
+            87.8053,
+            26.8733673
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "Rp512",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            115.943504,
+            493.211517,
+            182.080292,
+            59.6727
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            455.92392,
+            505.714172,
+            115.685394,
+            47.29004
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Level selesai",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            224.196457,
+            965.5319,
+            272.387756,
+            37.3469849
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "ID3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "id-short-lucky",
+      "language": "id",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "id-short-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "Klaim 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            304.36908,
+            336.5611,
+            221.617371,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Klaim",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            316.329529,
+            206.52066,
+            87.8053,
+            26.8733215
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "Rp512",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            270.310181,
+            493.211517,
+            182.080292,
+            59.6727
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Hadiah keberuntungan",
+          "fontSize": 66.55,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            122.88028,
+            913.171265,
+            474.8337,
+            43.97046
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "ID3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "id-short-undo",
+      "language": "id",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "id-short-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Urungkan",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            252.964325,
+            934.8008,
+            214.7143,
+            47.57141
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Klaim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            349.5532,
+            400.463,
+            121.576508,
+            37.2091675
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Batalkan tindakan terakhir",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            153.375687,
+            550.404541,
+            415.86438,
+            25.9117432
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "id-short-shuffle",
+      "language": "id",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "id-short-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Segarkan",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            255.7194,
+            934.8008,
+            207.367386,
+            47.57141
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Klaim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            349.5532,
+            400.463,
+            121.576508,
+            37.2091675
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Acak susunan mur",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.128525,
+            550.3301,
+            284.253357,
+            25.9862061
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "id-short-bolt",
+      "language": "id",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "id-short-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Baut+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            291.9184,
+            944.96405,
+            133.2398,
+            34.91327
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Klaim",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            349.5532,
+            400.463,
+            121.576508,
+            37.2091675
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Tambah baut kosong",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            197.1264,
+            543.27,
+            323.269836,
+            33.0462646
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "ru-tall-settlement",
+      "language": "ru",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ru-tall-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Забрать ×10",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            255.593231,
+            466.9337,
+            315.928925,
+            46.0780945
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Забрать",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            288.398468,
+            331.402954,
+            143.586823,
+            33.2786865
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34₽",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            78.04357,
+            658.0766,
+            252.724457,
+            55.25177
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            657.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Уровень пройден",
+          "fontSize": 67.2,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            158.580521,
+            1120.47266,
+            400.4182,
+            42.11682
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "RU3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "ru-tall-settlement-no-ad",
+      "language": "ru",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ru-tall-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Забрать",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            260.8594,
+            469.101624,
+            198.8125,
+            46.078125
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Забрать",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            288.398468,
+            331.402954,
+            143.586823,
+            33.2786865
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34₽",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            78.04357,
+            658.0766,
+            252.724457,
+            55.25177
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            657.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Уровень пройден",
+          "fontSize": 67.2,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            158.580521,
+            1120.47266,
+            400.4182,
+            42.11682
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "RU3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "ru-tall-lucky",
+      "language": "ru",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ru-tall-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "Забрать ×10",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            255.593231,
+            485.600342,
+            315.928925,
+            46.078125
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Забрать",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            288.398468,
+            361.536346,
+            143.586823,
+            33.2786255
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "512,34₽",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            232.410233,
+            658.0766,
+            252.724472,
+            55.25177
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Счастливая награда",
+          "fontSize": 68.05,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            122.24408,
+            1075.83752,
+            475.201782,
+            40.83313
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "RU3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "ru-tall-undo",
+      "language": "ru",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ru-tall-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Отменить",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            243.195328,
+            1106.90234,
+            234.6563,
+            34.5625
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Забрать",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            310.8794,
+            553.561646,
+            198.8125,
+            46.078125
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Отменить последнее действие",
+          "fontSize": 46.35,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            114.091927,
+            709.4458,
+            492.178467,
+            26.583313
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "ru-tall-shuffle",
+      "language": "ru",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ru-tall-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Обновить",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            244.031281,
+            1106.90234,
+            232.9844,
+            37.4375
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Забрать",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            310.8794,
+            553.561646,
+            198.8125,
+            46.078125
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Перемешать гайки",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            201.2131,
+            705.6742,
+            318.236,
+            31.3468018
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "ru-tall-bolt",
+      "language": "ru",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ru-tall-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Болт+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            284.791473,
+            1105.60022,
+            147.822418,
+            34.0780029
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Забрать",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            310.8794,
+            553.561646,
+            198.8125,
+            46.078125
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Добавить пустой болт",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            167.5096,
+            705.6416,
+            385.480225,
+            32.0415039
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "ru-short-settlement",
+      "language": "ru",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ru-short-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Забрать ×10",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            255.593231,
+            306.933624,
+            315.928925,
+            46.0781555
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Забрать",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            288.398468,
+            171.402969,
+            143.586823,
+            33.278656
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34₽",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            78.04357,
+            498.07663,
+            252.724457,
+            55.25174
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            497.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Уровень пройден",
+          "fontSize": 67.2,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            158.580521,
+            960.4727,
+            400.4182,
+            42.1167
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "RU3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "ru-short-settlement-no-ad",
+      "language": "ru",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ru-short-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Забрать",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            260.8594,
+            309.101624,
+            198.8125,
+            46.0781555
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Забрать",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            288.398468,
+            171.402969,
+            143.586823,
+            33.278656
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34₽",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            78.04357,
+            498.07663,
+            252.724457,
+            55.25174
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            497.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Уровень пройден",
+          "fontSize": 67.2,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            158.580521,
+            960.4727,
+            400.4182,
+            42.1167
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "RU3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "ru-short-lucky",
+      "language": "ru",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ru-short-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "Забрать ×10",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            255.593231,
+            325.6003,
+            315.928925,
+            46.0781555
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Забрать",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            288.398468,
+            201.536377,
+            143.586823,
+            33.27861
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "512,34₽",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            232.410263,
+            498.07663,
+            252.724442,
+            55.25174
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Счастливая награда",
+          "fontSize": 68.05,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            122.24408,
+            915.8375,
+            475.201782,
+            40.8330078
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "RU3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "ru-short-undo",
+      "language": "ru",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ru-short-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Отменить",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            243.195328,
+            946.902344,
+            234.6563,
+            34.5625
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Забрать",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            310.8794,
+            393.561676,
+            198.8125,
+            46.0780945
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Отменить последнее действие",
+          "fontSize": 46.35,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            114.091927,
+            549.4458,
+            492.178467,
+            26.583313
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "ru-short-shuffle",
+      "language": "ru",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ru-short-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Обновить",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            244.031281,
+            946.902344,
+            232.9844,
+            37.4375
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Забрать",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            310.8794,
+            393.561676,
+            198.8125,
+            46.0780945
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Перемешать гайки",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            201.2131,
+            545.6742,
+            318.236,
+            31.3468018
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "ru-short-bolt",
+      "language": "ru",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ru-short-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Болт+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            284.791473,
+            945.6001,
+            147.822418,
+            34.078125
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Забрать",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            310.8794,
+            393.561676,
+            198.8125,
+            46.0780945
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Добавить пустой болт",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            167.5096,
+            545.6416,
+            385.480225,
+            32.0415039
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "es-tall-settlement",
+      "language": "es",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "es-tall-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Recibir 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            291.932831,
+            477.8944,
+            246.489838,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Recibir",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            307.347839,
+            336.320923,
+            108.0238,
+            26.9396667
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            97.642,
+            658.5218,
+            214.835663,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            657.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Nivel completado",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            167.862274,
+            1115.6748,
+            386.158173,
+            47.2041
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "es-tall-settlement-no-ad",
+      "language": "es",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "es-tall-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Recibir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            287.096954,
+            475.911133,
+            149.571442,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Recibir",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            307.347839,
+            336.320923,
+            108.0238,
+            26.9396667
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            97.642,
+            658.5218,
+            214.835663,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            657.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Nivel completado",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            167.862274,
+            1115.6748,
+            386.158173,
+            47.2041
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "es-tall-lucky",
+      "language": "es",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "es-tall-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "Recibir 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            291.932831,
+            496.5611,
+            246.489838,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Recibir",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            307.347839,
+            366.4543,
+            108.0238,
+            26.9396362
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            252.008636,
+            658.5218,
+            214.835724,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Premio de la suerte",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            143.7475,
+            1081.13745,
+            434.816345,
+            37.40808
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "es-tall-undo",
+      "language": "es",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "es-tall-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Deshacer",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            259.89035,
+            1105.02527,
+            203.984711,
+            37.3469238
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Recibir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            337.116974,
+            560.371155,
+            149.571442,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Deshacer última acción",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            179.100723,
+            710.608643,
+            362.245178,
+            25.9437256
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "es-tall-shuffle",
+      "language": "es",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "es-tall-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Actualizar",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            249.780655,
+            1104.96411,
+            221.173477,
+            37.40808
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Recibir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            337.116974,
+            560.371155,
+            149.571442,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Mezclar las tuercas",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            211.690491,
+            710.3301,
+            296.555328,
+            25.9862061
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "es-tall-bolt",
+      "language": "es",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "es-tall-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Perno+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            277.89032,
+            1104.96411,
+            161.295959,
+            34.913208
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Recibir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            337.116974,
+            560.371155,
+            149.571442,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Añadir un perno vacío",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            186.866089,
+            703.7612,
+            345.470459,
+            32.7911377
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "es-short-settlement",
+      "language": "es",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "es-short-settlement.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Recibir 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            291.932831,
+            317.8944,
+            246.489838,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Recibir",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            307.347839,
+            176.320953,
+            108.023773,
+            26.9396667
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            97.642,
+            498.5218,
+            214.835663,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            497.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Nivel completado",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            167.862274,
+            955.674744,
+            386.158173,
+            47.2041626
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "es-short-settlement-no-ad",
+      "language": "es",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "es-short-settlement-no-ad.png",
+      "texts": [
+        {
+          "path": "LocalSuccess(Clone)/main/MoreGetBtn/label_186",
+          "text": "Recibir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            287.096954,
+            315.911133,
+            149.571442,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/label_88",
+          "text": "Recibir",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            307.347839,
+            176.320953,
+            108.023773,
+            26.9396667
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            97.642,
+            498.5218,
+            214.835663,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Count",
+          "text": "486,73",
+          "fontSize": 94.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            410.338623,
+            497.632446,
+            205.775757,
+            55.3717651
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Title/label_58",
+          "text": "Nivel completado",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            167.862274,
+            955.674744,
+            386.158173,
+            47.2041626
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        },
+        {
+          "path": "LocalSuccess(Clone)/main/Items/Item_Big(Clone)/Icon",
+          "sprite": "Coin2",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "es-short-lucky",
+      "language": "es",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "es-short-lucky.png",
+      "texts": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/MoreGetBtn/label_186",
+          "text": "Recibir 10X",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            291.932831,
+            336.5611,
+            246.489838,
+            37.6377563
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/label_88",
+          "text": "Recibir",
+          "fontSize": 52.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            307.347839,
+            206.454346,
+            108.023773,
+            26.9396362
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Count",
+          "text": "512,34€",
+          "fontSize": 82.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            252.008636,
+            498.5218,
+            214.835724,
+            48.5514526
+          ],
+          "failures": []
+        },
+        {
+          "path": "LocalLuckyReward(Clone)/main/Title/label_58",
+          "text": "Premio de la suerte",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            143.7475,
+            921.1374,
+            434.816345,
+            37.4081421
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": [
+        {
+          "path": "LocalLuckyReward(Clone)/main/Items/LocalLuckyItem(Clone)/Icon",
+          "sprite": "DE3",
+          "valid": true
+        }
+      ]
+    },
+    {
+      "id": "es-short-undo",
+      "language": "es",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "es-short-undo.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Deshacer",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            259.89035,
+            945.0253,
+            203.984711,
+            37.3468628
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Recibir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            337.116974,
+            400.371155,
+            149.571442,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Deshacer última acción",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            179.100708,
+            550.608643,
+            362.245178,
+            25.9437256
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "es-short-shuffle",
+      "language": "es",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "es-short-shuffle.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Actualizar",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            249.780655,
+            944.96405,
+            221.173447,
+            37.4081421
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Recibir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            337.116974,
+            400.371155,
+            149.571442,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Mezclar las tuercas",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            211.690491,
+            550.3301,
+            296.555328,
+            25.9862061
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    },
+    {
+      "id": "es-short-bolt",
+      "language": "es",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "es-short-bolt.png",
+      "texts": [
+        {
+          "path": "ItemGetPanel(Clone)/main/Title/Value",
+          "text": "Perno+",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            277.89032,
+            944.96405,
+            161.295959,
+            34.91327
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/GetBtn/label_140",
+          "text": "Recibir",
+          "fontSize": 72.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            337.116974,
+            400.371155,
+            149.571442,
+            37.3010254
+          ],
+          "failures": []
+        },
+        {
+          "path": "ItemGetPanel(Clone)/main/Tip",
+          "text": "Añadir un perno vacío",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            186.866119,
+            543.7613,
+            345.470428,
+            32.7910767
+          ],
+          "failures": []
+        }
+      ],
+      "currencyImages": []
+    }
+  ],
+  "currencyResources": [
+    {
+      "country": "ID",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/ID1",
+      "valid": true
+    },
+    {
+      "country": "ID",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/ID3",
+      "valid": true
+    },
+    {
+      "country": "ID",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/ID1",
+      "valid": true
+    },
+    {
+      "country": "ID",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/ID3",
+      "valid": true
+    },
+    {
+      "country": "BR",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/BR1",
+      "valid": true
+    },
+    {
+      "country": "BR",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/BR3",
+      "valid": true
+    },
+    {
+      "country": "BR",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/BR1",
+      "valid": true
+    },
+    {
+      "country": "BR",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/BR3",
+      "valid": true
+    },
+    {
+      "country": "GB",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/GB1",
+      "valid": true
+    },
+    {
+      "country": "GB",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/GB3",
+      "valid": true
+    },
+    {
+      "country": "GB",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/GB1",
+      "valid": true
+    },
+    {
+      "country": "GB",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/GB3",
+      "valid": true
+    },
+    {
+      "country": "US",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "US",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "US",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "US",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "CA",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "CA",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "CA",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "CA",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "AU",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "AU",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "AU",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "AU",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "MX",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/MX1",
+      "valid": true
+    },
+    {
+      "country": "MX",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/MX3",
+      "valid": true
+    },
+    {
+      "country": "MX",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/MX1",
+      "valid": true
+    },
+    {
+      "country": "MX",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/MX3",
+      "valid": true
+    },
+    {
+      "country": "AR",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/AR1",
+      "valid": true
+    },
+    {
+      "country": "AR",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/AR3",
+      "valid": true
+    },
+    {
+      "country": "AR",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/AR1",
+      "valid": true
+    },
+    {
+      "country": "AR",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/AR3",
+      "valid": true
+    },
+    {
+      "country": "RU",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/RU1",
+      "valid": true
+    },
+    {
+      "country": "RU",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/RU3",
+      "valid": true
+    },
+    {
+      "country": "RU",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/RU1",
+      "valid": true
+    },
+    {
+      "country": "RU",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/RU3",
+      "valid": true
+    },
+    {
+      "country": "JP",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/JP1",
+      "valid": true
+    },
+    {
+      "country": "JP",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/JP3",
+      "valid": true
+    },
+    {
+      "country": "JP",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/JP1",
+      "valid": true
+    },
+    {
+      "country": "JP",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/JP3",
+      "valid": true
+    },
+    {
+      "country": "KR",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "KR",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "KR",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "KR",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "DE",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "DE",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "DE",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "DE",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "FR",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "FR",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "FR",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "FR",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "IN",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "IN",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "IN",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "IN",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "BD",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "BD",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "BD",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "BD",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "AE",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "AE",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "AE",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "AE",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "NP",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "NP",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "NP",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "NP",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "SA",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "SA",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "SA",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "SA",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "PK",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "PK",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "PK",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "PK",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "PE",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "PE",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "PE",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "PE",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "PH",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "PH",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "PH",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "PH",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "VN",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "VN",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "VN",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "VN",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "KZ",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "KZ",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "KZ",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "KZ",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "ZA",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "ZA",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "ZA",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "ZA",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "NG",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "NG",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "NG",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "NG",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "TR",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "TR",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "TR",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "TR",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "IT",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "IT",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "IT",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "IT",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "NZ",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "NZ",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "NZ",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "NZ",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "DK",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "DK",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "DK",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "DK",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "AT",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "AT",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "AT",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "AT",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "CH",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "CH",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "CH",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "CH",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "BE",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "BE",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "BE",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "BE",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "CL",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "CL",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "CL",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "CL",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "CO",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "CO",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "CO",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "CO",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "CZ",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "CZ",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "CZ",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "CZ",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "EC",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "EC",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "EC",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "EC",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "ES",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "ES",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "ES",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "ES",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "ET",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "ET",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "ET",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "ET",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "HU",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "HU",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "HU",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "HU",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "NL",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "NL",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "NL",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "NL",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "PL",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "PL",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "PL",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "PL",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "RO",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "RO",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "RO",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "RO",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "SE",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "SE",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "SE",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "SE",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "MY",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "MY",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "MY",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "MY",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "PT",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "PT",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "PT",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/DE1",
+      "valid": true
+    },
+    {
+      "country": "PT",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/DE3",
+      "valid": true
+    },
+    {
+      "country": "TH",
+      "configuration": "OriginalRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "TH",
+      "configuration": "OriginalRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    },
+    {
+      "country": "TH",
+      "configuration": "LocalLuckyRewardItem",
+      "large": false,
+      "path": "Atlas/Golds/US1",
+      "valid": true
+    },
+    {
+      "country": "TH",
+      "configuration": "LocalLuckyRewardItem",
+      "large": true,
+      "path": "Atlas/Golds/US3",
+      "valid": true
+    }
+  ],
+  "homeChecks": [],
+  "excludedHiddenBanners": [],
+  "issues": [],
+  "method": "Production prefab initialization; actual GameView screenshots; glyph/text/ad-icon bounds and currency sprite/texture loads; saved fixture restored on exit."
+}

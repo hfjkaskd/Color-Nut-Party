@@ -1,0 +1,4460 @@
+{
+  "passed": true,
+  "fatal": null,
+  "issueCount": 0,
+  "captures": [
+    {
+      "id": "en-tall-home",
+      "language": "en",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "en-tall-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Cash",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            268.911469,
+            1507.06824,
+            71.6836853,
+            26.13733
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "$512.34",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            98.41465,
+            1497.3988,
+            132.127563,
+            37.39673
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Clear this level</color> Withdraw all",
+          "fontSize": 36.65,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            29.56054,
+            1443.26721,
+            317.55542,
+            19.1588135
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Cash",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            606.051453,
+            1507.06824,
+            71.6837158,
+            26.13733
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486.73",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            459.806671,
+            1501.887,
+            113.299774,
+            29.14795
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Earn <color=#FF0000>$495.13</color> more Withdraw <color=#FF0000>$500</color>",
+          "fontSize": 29.8,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            384.2655,
+            1442.77783,
+            317.5246,
+            19.2141113
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1359.15259,
+            11.9017792,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1359.42932,
+            20.6271362,
+            30.20935
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1358.55957,
+            20.7852783,
+            31.0791016
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1359.06042,
+            25.1743164,
+            30.18274
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1358.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Withdraw All",
+          "fontSize": 26.2,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            580.357239,
+            1299.37561,
+            113.442505,
+            20.8157959
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1338.43359,
+            28.99121,
+            15.6943359
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            144.330841,
+            16.533371,
+            24.4120483
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            145.0326,
+            16.639679,
+            24.3694763
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            144.3348,
+            16.76233,
+            25.063797
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "en-tall-loading",
+      "language": "en",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "en-tall-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            246.123917,
+            240.933228,
+            52.607254,
+            22.3067627
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "LOADING...",
+          "fontSize": 70.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            247.140289,
+            321.174866,
+            227.505768,
+            35.1451721
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "en-short-home",
+      "language": "en",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "en-short-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Cash",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            268.911469,
+            1219.06812,
+            71.6836853,
+            26.1374512
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "$512.34",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            98.41467,
+            1209.3988,
+            132.127548,
+            37.39673
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Clear this level</color> Withdraw all",
+          "fontSize": 36.65,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            29.56054,
+            1155.35669,
+            317.55542,
+            19.1586914
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Cash",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            606.051453,
+            1219.06812,
+            71.6837158,
+            26.1374512
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486.73",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            459.806671,
+            1213.88684,
+            113.299774,
+            29.14795
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Earn <color=#FF0000>$495.13</color> more Withdraw <color=#FF0000>$500</color>",
+          "fontSize": 29.8,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            384.2655,
+            1154.86707,
+            317.5246,
+            19.2142334
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1071.15259,
+            11.9017563,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1071.42944,
+            20.6271362,
+            30.2091064
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1070.55957,
+            20.7852783,
+            31.07898
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1071.0603,
+            25.1743164,
+            30.1828613
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1070.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Withdraw All",
+          "fontSize": 26.2,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            580.158,
+            1012.24207,
+            113.745422,
+            19.0913086
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1050.43359,
+            28.991272,
+            15.6942139
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            112.330856,
+            16.533371,
+            24.4120789
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            113.032608,
+            16.639679,
+            24.3695068
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            112.334824,
+            16.76233,
+            25.0637817
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "en-short-loading",
+      "language": "en",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "en-short-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            245.573608,
+            176.933258,
+            52.60727,
+            22.3067322
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "LOADING...",
+          "fontSize": 70.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            247.140289,
+            257.174866,
+            227.505768,
+            35.1452026
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "ja-tall-home",
+      "language": "ja",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ja-tall-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "出金",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            275.1504,
+            1502.79871,
+            62.7062073,
+            31.4234619
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "￥512",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            121.870888,
+            1499.59436,
+            90.022316,
+            29.35437
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>このレベルをクリア</color> 全額出金",
+          "fontSize": 35.95,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            32.6704445,
+            1440.45166,
+            315.29,
+            22.5936279
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "出金",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            612.2904,
+            1502.79871,
+            62.7061768,
+            31.4234619
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            483.843842,
+            1501.887,
+            65.89114,
+            29.14795
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>￥495</color> さらに獲得 <color=#FF0000>￥500</color> 出金",
+          "fontSize": 35.55,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            386.677338,
+            1440.53784,
+            315.301971,
+            22.39624
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1359.15259,
+            11.9017792,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1359.42932,
+            20.6271362,
+            30.20935
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1358.55957,
+            20.7852783,
+            31.0791016
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1359.06042,
+            25.1743164,
+            30.18274
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1358.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "すべて出金",
+          "fontSize": 32.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            583.715637,
+            1296.03064,
+            109.167725,
+            25.645752
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1338.43359,
+            28.99121,
+            15.6943359
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            144.330841,
+            16.533371,
+            24.4120483
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            145.0326,
+            16.639679,
+            24.3694763
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            144.3348,
+            16.76233,
+            25.063797
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "ja-tall-loading",
+      "language": "ja",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ja-tall-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            246.28981,
+            240.933228,
+            52.607254,
+            22.3067627
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "読み込み中…",
+          "fontSize": 60.9,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            239.377319,
+            318.254364,
+            239.366516,
+            38.33911
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "ja-short-home",
+      "language": "ja",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ja-short-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "出金",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            275.1504,
+            1214.79858,
+            62.7062073,
+            31.423584
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "￥512",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            121.870865,
+            1211.59424,
+            90.02234,
+            29.3547363
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>このレベルをクリア</color> 全額出金",
+          "fontSize": 35.95,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            32.6704445,
+            1152.47534,
+            315.29,
+            22.5935059
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "出金",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            612.2904,
+            1214.79858,
+            62.7061768,
+            31.423584
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            483.843842,
+            1213.88684,
+            65.8912048,
+            29.14795
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>￥495</color> さらに獲得 <color=#FF0000>￥500</color> 出金",
+          "fontSize": 35.55,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            386.677338,
+            1152.56152,
+            315.301971,
+            22.39624
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1071.15259,
+            11.9017563,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1071.42944,
+            20.6271362,
+            30.2091064
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1070.55957,
+            20.7852783,
+            31.07898
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1071.0603,
+            25.1743164,
+            30.1828613
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1070.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "すべて出金",
+          "fontSize": 32.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            583.631348,
+            1008.30023,
+            109.295227,
+            25.0969849
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1050.43359,
+            28.991272,
+            15.6942139
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            112.330856,
+            16.533371,
+            24.4120789
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            113.032608,
+            16.639679,
+            24.3695068
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            112.334824,
+            16.76233,
+            25.0637817
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "ja-short-loading",
+      "language": "ja",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ja-short-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            245.265869,
+            176.933258,
+            52.60727,
+            22.3067322
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "読み込み中…",
+          "fontSize": 60.9,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            239.377319,
+            254.254425,
+            239.366516,
+            38.33908
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "pt-tall-home",
+      "language": "pt",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "pt-tall-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Sacar",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            262.4542,
+            1507.132,
+            86.67093,
+            24.96814
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "R$512,34",
+          "fontSize": 53.75,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            93.90641,
+            1498.39758,
+            142.476379,
+            35.1135254
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Conclua este nível</color> Sacar tudo",
+          "fontSize": 34.8,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            29.7034473,
+            1444.021,
+            318.121918,
+            18.1915283
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Sacar",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            599.594238,
+            1507.132,
+            86.6709,
+            24.96814
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486,73",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            459.806671,
+            1496.90552,
+            113.299774,
+            34.1293945
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Ganhe mais <color=#FF0000>R$495,13</color> Sacar <color=#FF0000>R$500</color>",
+          "fontSize": 29.6,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            383.333832,
+            1442.69348,
+            318.68454,
+            19.3369141
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1359.15259,
+            11.9017792,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1359.42932,
+            20.6271362,
+            30.20935
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1358.55957,
+            20.7852783,
+            31.0791016
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1359.06042,
+            25.1743164,
+            30.18274
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1358.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Sacar tudo",
+          "fontSize": 30.65,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            580.6247,
+            1299.03564,
+            113.94635,
+            20.6899414
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1338.43359,
+            28.99121,
+            15.6943359
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            144.330841,
+            16.533371,
+            24.4120483
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            145.0326,
+            16.639679,
+            24.3694763
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            144.3348,
+            16.76233,
+            25.063797
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "pt-tall-loading",
+      "language": "pt",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "pt-tall-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "32%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            244.7896,
+            240.933228,
+            52.0396271,
+            22.3067627
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "CARREGANDO...",
+          "fontSize": 68.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            197.267715,
+            321.572723,
+            325.5957,
+            34.39209
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "pt-short-home",
+      "language": "pt",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "pt-short-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Sacar",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            262.4542,
+            1219.132,
+            86.67093,
+            24.9682617
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "R$512,34",
+          "fontSize": 53.75,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            93.90643,
+            1210.39746,
+            142.476349,
+            35.1135254
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Conclua este nível</color> Sacar tudo",
+          "fontSize": 34.8,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            29.7034264,
+            1156.04663,
+            318.121948,
+            18.1915283
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Sacar",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            599.594238,
+            1219.132,
+            86.6709,
+            24.9682617
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486,73",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            459.806671,
+            1208.90552,
+            113.299774,
+            34.1292725
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Ganhe mais <color=#FF0000>R$495,13</color> Sacar <color=#FF0000>R$500</color>",
+          "fontSize": 29.6,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            383.333832,
+            1154.71912,
+            318.68454,
+            19.336792
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1071.15259,
+            11.9017563,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1071.42944,
+            20.6271362,
+            30.2091064
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1070.55957,
+            20.7852783,
+            31.07898
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1071.0603,
+            25.1743164,
+            30.1828613
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1070.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Sacar tudo",
+          "fontSize": 30.65,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            580.536438,
+            1011.40076,
+            114.0531,
+            20.0472412
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1050.43359,
+            28.991272,
+            15.6942139
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            112.330856,
+            16.533371,
+            24.4120789
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            113.032608,
+            16.639679,
+            24.3695068
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            112.334824,
+            16.76233,
+            25.0637817
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "pt-short-loading",
+      "language": "pt",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "pt-short-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            245.159271,
+            176.933258,
+            52.60724,
+            22.3067322
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "CARREGANDO...",
+          "fontSize": 68.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            197.267715,
+            257.572754,
+            325.5957,
+            34.39209
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "de-tall-home",
+      "language": "de",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "de-tall-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Auszahlen",
+          "fontSize": 41.05,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            240.800522,
+            1509.57239,
+            127.277634,
+            21.3280029
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "512,34€",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            96.22764,
+            1494.613,
+            135.163025,
+            34.2159424
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Dieses Level abschließen</color> Alles abheben",
+          "fontSize": 26.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            30.1311417,
+            1446.3949,
+            317.410736,
+            13.53833
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Auszahlen",
+          "fontSize": 41.05,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            577.9405,
+            1509.57239,
+            127.27771,
+            21.3280029
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486,73",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            459.806671,
+            1496.90552,
+            113.299774,
+            34.1293945
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Verdiene noch <color=#FF0000>495,13€</color> Auszahlen <color=#FF0000>500€</color>",
+          "fontSize": 26.45,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            382.756348,
+            1442.75647,
+            319.435181,
+            16.0982666
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1359.15259,
+            11.9017792,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1359.42932,
+            20.6271362,
+            30.20935
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1358.55957,
+            20.7852783,
+            31.0791016
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1359.06042,
+            25.1743164,
+            30.18274
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1358.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Alles auszahlen",
+          "fontSize": 21.25,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            580.0545,
+            1301.64148,
+            114.289734,
+            15.4185791
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1338.43359,
+            28.99121,
+            15.6943359
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            144.330841,
+            16.533371,
+            24.4120483
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            145.0326,
+            16.639679,
+            24.3694763
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            144.3348,
+            16.76233,
+            25.063797
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "de-tall-loading",
+      "language": "de",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "de-tall-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            245.490067,
+            240.933228,
+            52.607254,
+            22.3067627
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "WIRD GELADEN...",
+          "fontSize": 63.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            196.380569,
+            322.9918,
+            326.47345,
+            31.7060242
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "de-short-home",
+      "language": "de",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "de-short-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Auszahlen",
+          "fontSize": 41.05,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            240.8005,
+            1221.57239,
+            127.277649,
+            21.32788
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "512,34€",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            96.22766,
+            1206.613,
+            135.163,
+            34.2159424
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Dieses Level abschließen</color> Alles abheben",
+          "fontSize": 26.1,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            30.1311646,
+            1158.40259,
+            317.4107,
+            13.538208
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Auszahlen",
+          "fontSize": 41.05,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            577.9405,
+            1221.57239,
+            127.277771,
+            21.32788
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486,73",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            459.806671,
+            1208.90552,
+            113.299774,
+            34.1292725
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Verdiene noch <color=#FF0000>495,13€</color> Auszahlen <color=#FF0000>500€</color>",
+          "fontSize": 26.45,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            382.756348,
+            1154.76392,
+            319.435181,
+            16.0983887
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1071.15259,
+            11.9017563,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1071.42944,
+            20.6271362,
+            30.2091064
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1070.55957,
+            20.7852783,
+            31.07898
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1071.0603,
+            25.1743164,
+            30.1828613
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1070.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Alles auszahlen",
+          "fontSize": 21.25,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            580.033752,
+            1013.74744,
+            114.313843,
+            15.241333
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1050.43359,
+            28.991272,
+            15.6942139
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            112.330856,
+            16.533371,
+            24.4120789
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            113.032608,
+            16.639679,
+            24.3695068
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            112.334824,
+            16.76233,
+            25.0637817
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "de-short-loading",
+      "language": "de",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "de-short-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            245.204376,
+            176.933258,
+            52.60724,
+            22.3067322
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "WIRD GELADEN...",
+          "fontSize": 63.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            196.380569,
+            258.991852,
+            326.47345,
+            31.7059631
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "fr-tall-home",
+      "language": "fr",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "fr-tall-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Retirer",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            255.816269,
+            1507.30212,
+            101.222336,
+            25.9034424
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "512,34€",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            96.22764,
+            1494.613,
+            135.163025,
+            34.2159424
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Terminez ce niveau</color> Tout retirer",
+          "fontSize": 33.75,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            28.42545,
+            1444.21362,
+            320.4815,
+            17.5352783
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Retirer",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            592.956238,
+            1507.30212,
+            101.222351,
+            25.9034424
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486,73",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            459.806671,
+            1496.90552,
+            113.299774,
+            34.1293945
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Gagnez encore <color=#FF0000>495,13€</color> Retirer <color=#FF0000>500€</color>",
+          "fontSize": 28.25,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            383.371582,
+            1440.55042,
+            318.9472,
+            18.6651611
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1359.15259,
+            11.9017792,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1359.42932,
+            20.6271362,
+            30.20935
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1358.55957,
+            20.7852783,
+            31.0791016
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1359.06042,
+            25.1743164,
+            30.18274
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1358.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Tout retirer",
+          "fontSize": 29.65,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            579.7783,
+            1299.09338,
+            115.581177,
+            19.7563477
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1338.43359,
+            28.99121,
+            15.6943359
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            144.330841,
+            16.533371,
+            24.4120483
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            145.0326,
+            16.639679,
+            24.3694763
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            144.3348,
+            16.76233,
+            25.063797
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "fr-tall-loading",
+      "language": "fr",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "fr-tall-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            245.562668,
+            240.933228,
+            52.607254,
+            22.3067627
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "CHARGEMENT…",
+          "fontSize": 66.55,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            197.300842,
+            322.09,
+            323.247253,
+            33.4129944
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "fr-short-home",
+      "language": "fr",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "fr-short-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Retirer",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            255.816269,
+            1219.302,
+            101.222336,
+            25.9035645
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "512,34€",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            96.22766,
+            1206.613,
+            135.163,
+            34.2159424
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Terminez ce niveau</color> Tout retirer",
+          "fontSize": 33.75,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            28.4254284,
+            1156.256,
+            320.481537,
+            17.5350342
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Retirer",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            592.956238,
+            1219.302,
+            101.222351,
+            25.9035645
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486,73",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            459.806671,
+            1208.90552,
+            113.299774,
+            34.1292725
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Gagnez encore <color=#FF0000>495,13€</color> Retirer <color=#FF0000>500€</color>",
+          "fontSize": 28.25,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            383.371582,
+            1152.59253,
+            318.9472,
+            18.66504
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1071.15259,
+            11.9017563,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1071.42944,
+            20.6271362,
+            30.2091064
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1070.55957,
+            20.7852783,
+            31.07898
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1071.0603,
+            25.1743164,
+            30.1828613
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1070.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Tout retirer",
+          "fontSize": 29.65,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            579.649231,
+            1011.64185,
+            115.738281,
+            18.956665
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1050.43359,
+            28.991272,
+            15.6942139
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            112.330856,
+            16.533371,
+            24.4120789
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            113.032608,
+            16.639679,
+            24.3695068
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            112.334824,
+            16.76233,
+            25.0637817
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "fr-short-loading",
+      "language": "fr",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "fr-short-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            245.163223,
+            176.933258,
+            52.6072235,
+            22.3067322
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "CHARGEMENT…",
+          "fontSize": 66.55,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            197.300842,
+            258.089966,
+            323.247253,
+            33.4130249
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "id-tall-home",
+      "language": "id",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "id-tall-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Tarik",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            268.334839,
+            1507.366,
+            73.2621155,
+            25.8396
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "Rp512",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            114.344933,
+            1494.18066,
+            101.40136,
+            36.78015
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Selesaikan level ini</color> Tarik semua",
+          "fontSize": 32.55,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            29.5457115,
+            1444.47083,
+            317.691223,
+            16.973877
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Tarik",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            605.474854,
+            1507.366,
+            73.262146,
+            25.8396
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            483.843842,
+            1501.887,
+            65.89114,
+            29.14795
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Dapatkan lagi <color=#FF0000>Rp999.951</color> Tarik <color=#FF0000>Rp1.000.000</color>",
+          "fontSize": 24.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            429.8724,
+            1433.465,
+            226.787079,
+            35.7780762
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1359.15259,
+            11.9017792,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1359.42932,
+            20.6271362,
+            30.20935
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1358.55957,
+            20.7852783,
+            31.0791016
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1359.06042,
+            25.1743164,
+            30.18274
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1358.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Tarik semua",
+          "fontSize": 27.8,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            579.706055,
+            1299.62488,
+            114.3996,
+            16.6867676
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1338.43359,
+            28.99121,
+            15.6943359
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            144.330841,
+            16.533371,
+            24.4120483
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            145.0326,
+            16.639679,
+            24.3694763
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            144.3348,
+            16.76233,
+            25.063797
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "id-tall-loading",
+      "language": "id",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "id-tall-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            245.077988,
+            240.933228,
+            52.607254,
+            22.3067627
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "MEMUAT...",
+          "fontSize": 70.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            254.2817,
+            321.174866,
+            210.975235,
+            34.6539
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "id-short-home",
+      "language": "id",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "id-short-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Tarik",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            268.334839,
+            1219.36584,
+            73.2621155,
+            25.8397217
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "Rp512",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            114.344933,
+            1206.18054,
+            101.40136,
+            36.7802734
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Selesaikan level ini</color> Tarik semua",
+          "fontSize": 32.55,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            29.5457115,
+            1156.49609,
+            317.691223,
+            16.973877
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Tarik",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            605.474854,
+            1219.36584,
+            73.262085,
+            25.8397217
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            483.843842,
+            1213.88684,
+            65.8912048,
+            29.14795
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Dapatkan lagi <color=#FF0000>Rp999.951</color> Tarik <color=#FF0000>Rp1.000.000</color>",
+          "fontSize": 24.3,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            429.8724,
+            1145.49023,
+            226.787079,
+            35.7780762
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1071.15259,
+            11.9017563,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1071.42944,
+            20.6271362,
+            30.2091064
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1070.55957,
+            20.7852783,
+            31.07898
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1071.0603,
+            25.1743164,
+            30.1828613
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1070.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Tarik semua",
+          "fontSize": 27.8,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            579.6324,
+            1011.948,
+            114.488892,
+            16.4337158
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1050.43359,
+            28.991272,
+            15.6942139
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            112.330856,
+            16.533371,
+            24.4120789
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            113.032608,
+            16.639679,
+            24.3695068
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            112.334824,
+            16.76233,
+            25.0637817
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "id-short-loading",
+      "language": "id",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "id-short-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            245.549713,
+            176.933258,
+            52.60727,
+            22.3067322
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "MEMUAT...",
+          "fontSize": 70.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            254.2817,
+            257.174866,
+            210.975235,
+            34.65393
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "ru-tall-home",
+      "language": "ru",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ru-tall-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Вывод",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            250.785172,
+            1505.24255,
+            110.308182,
+            26.996582
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "512,34₽",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            93.69138,
+            1497.17944,
+            139.53067,
+            34.0550537
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Пройти этот уровень</color> Вывести всё",
+          "fontSize": 26.7,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            30.3365345,
+            1443.58752,
+            317.3869,
+            16.75122
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Вывод",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            587.9252,
+            1505.24255,
+            110.308167,
+            26.996582
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486,73",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            459.806671,
+            1496.90552,
+            113.299774,
+            34.1293945
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Заработайте ещё <color=#FF0000>495,13₽</color> Вывести <color=#FF0000>500₽</color>",
+          "fontSize": 24.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            400.8005,
+            1436.92041,
+            283.508453,
+            32.482666
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1359.15259,
+            11.9017792,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1359.42932,
+            20.6271362,
+            30.20935
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1358.55957,
+            20.7852783,
+            31.0791016
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1359.06042,
+            25.1743164,
+            30.18274
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1358.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Вывести всё",
+          "fontSize": 23.7,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            581.0944,
+            1301.74609,
+            113.277039,
+            17.0738525
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1338.43359,
+            28.99121,
+            15.6943359
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            144.330841,
+            16.533371,
+            24.4120483
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            145.0326,
+            16.639679,
+            24.3694763
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            144.3348,
+            16.76233,
+            25.063797
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "ru-tall-loading",
+      "language": "ru",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "ru-tall-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            244.9171,
+            240.933228,
+            52.607254,
+            22.3067627
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "ЗАГРУЗКА…",
+          "fontSize": 70.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            213.0943,
+            322.016754,
+            291.940521,
+            33.61322
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "ru-short-home",
+      "language": "ru",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ru-short-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Вывод",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            250.785172,
+            1217.24255,
+            110.308182,
+            26.99646
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "512,34₽",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            93.69141,
+            1209.17944,
+            139.530655,
+            34.0551758
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Пройти этот уровень</color> Вывести всё",
+          "fontSize": 26.7,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            30.3365345,
+            1155.59619,
+            317.3869,
+            16.75122
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Вывод",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            587.9252,
+            1217.24255,
+            110.308167,
+            26.99646
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486,73",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            459.806671,
+            1208.90552,
+            113.299774,
+            34.1292725
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Заработайте ещё <color=#FF0000>495,13₽</color> Вывести <color=#FF0000>500₽</color>",
+          "fontSize": 24.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            400.8005,
+            1148.9292,
+            283.508453,
+            32.48242
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1071.15259,
+            11.9017563,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1071.42944,
+            20.6271362,
+            30.2091064
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1070.55957,
+            20.7852783,
+            31.07898
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1071.0603,
+            25.1743164,
+            30.1828613
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1070.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Вывести всё",
+          "fontSize": 23.7,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            581.071167,
+            1013.86365,
+            113.312439,
+            16.8371582
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1050.43359,
+            28.991272,
+            15.6942139
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            112.330856,
+            16.533371,
+            24.4120789
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            113.032608,
+            16.639679,
+            24.3695068
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            112.334824,
+            16.76233,
+            25.0637817
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "ru-short-loading",
+      "language": "ru",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "ru-short-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            245.486649,
+            176.933258,
+            52.6072235,
+            22.3067322
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "ЗАГРУЗКА…",
+          "fontSize": 70.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            213.0943,
+            258.016724,
+            291.940521,
+            33.61322
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "es-tall-home",
+      "language": "es",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "es-tall-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Retirar",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            255.114731,
+            1507.30212,
+            102.625412,
+            25.9034424
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "512,34€",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            96.22764,
+            1494.613,
+            135.163025,
+            34.2159424
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Completa este nivel</color> Retirar todo",
+          "fontSize": 31.95,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            29.5609264,
+            1440.36047,
+            318.3997,
+            20.9469
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Retirar",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            592.2547,
+            1507.30212,
+            102.625427,
+            25.9034424
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486,73",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            459.806671,
+            1496.90552,
+            113.299774,
+            34.1293945
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Gana <color=#FF0000>495,13€</color> más Retirar <color=#FF0000>500,00€</color>",
+          "fontSize": 29.4,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            383.49408,
+            1441.59473,
+            318.716736,
+            17.8937988
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1359.15259,
+            11.9017792,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1359.42932,
+            20.6271362,
+            30.20935
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1358.55957,
+            20.7852783,
+            31.0791016
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1359.06042,
+            25.1743164,
+            30.18274
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1358.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Retirar todo",
+          "fontSize": 27.45,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            581.2638,
+            1299.914,
+            113.3551,
+            19.1295166
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1338.43359,
+            28.99121,
+            15.6943359
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            144.330841,
+            16.533371,
+            24.4120483
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            145.0326,
+            16.639679,
+            24.3694763
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            144.3348,
+            16.76233,
+            25.063797
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "es-tall-loading",
+      "language": "es",
+      "width": 720,
+      "height": 1600,
+      "screenshot": "es-tall-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            245.3405,
+            240.933228,
+            52.607254,
+            22.3067627
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "CARGANDO...",
+          "fontSize": 70.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            219.4268,
+            321.174866,
+            281.2804,
+            35.1451721
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "es-short-home",
+      "language": "es",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "es-short-home.png",
+      "texts": [
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Click/label_185",
+          "text": "Retirar",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            255.114731,
+            1219.302,
+            102.625412,
+            25.9035645
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Value",
+          "text": "512,34€",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            96.22766,
+            1206.613,
+            135.163,
+            34.2159424
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/GoldItem/Hint/Text (TMP)",
+          "text": "<color=#FF0000>Completa este nivel</color> Retirar todo",
+          "fontSize": 31.95,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            29.5609055,
+            1152.37183,
+            318.3997,
+            20.9467773
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Click/label_185",
+          "text": "Retirar",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            592.2547,
+            1219.302,
+            102.625427,
+            25.9035645
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Value",
+          "text": "486,73",
+          "fontSize": 58.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            459.806671,
+            1208.90552,
+            113.299774,
+            34.1292725
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/CoinItem/Hint/Text (TMP)",
+          "text": "Gana <color=#FF0000>495,13€</color> más Retirar <color=#FF0000>500,00€</color>",
+          "fontSize": 29.4,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            383.49408,
+            1153.606,
+            318.716736,
+            17.8937988
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/1/Level",
+          "text": "1",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            74.69229,
+            1071.15259,
+            11.9017563,
+            29.6688232
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/2/Level",
+          "text": "2",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            210.6837,
+            1071.42944,
+            20.6271362,
+            30.2091064
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/3/Level",
+          "text": "3",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            348.7968,
+            1070.55957,
+            20.7852783,
+            31.07898
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/4/Level",
+          "text": "4",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            485.9082,
+            1071.0603,
+            25.1743164,
+            30.1828613
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Level",
+          "text": "5",
+          "fontSize": 62.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            626.2092,
+            1070.55957,
+            20.4953,
+            30.26184
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Get/label_160",
+          "text": "Retirar todo",
+          "fontSize": 27.45,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            581.2294,
+            1012.063,
+            113.39679,
+            18.8618164
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/MainPanel(Clone)/LocalMainPanelTop(Clone)/HideLevel/Levels/5/Round/Value",
+          "text": "3/5",
+          "fontSize": 31.15,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            622.5232,
+            1050.43359,
+            28.991272,
+            15.6942139
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Revoke/Count/Value",
+          "text": "5",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            218.226288,
+            112.330856,
+            16.533371,
+            24.4120789
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/Exchange/Count/Value",
+          "text": "2",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            418.60907,
+            113.032608,
+            16.639679,
+            24.3695068
+          ],
+          "failures": []
+        },
+        {
+          "path": "UICanvas/LocalGameplay(Clone)/MainPanelBottom/AddTile/Count/Value",
+          "text": "3",
+          "fontSize": 50.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            618.165161,
+            112.334824,
+            16.76233,
+            25.0637817
+          ],
+          "failures": []
+        }
+      ]
+    },
+    {
+      "id": "es-short-loading",
+      "language": "es",
+      "width": 720,
+      "height": 1280,
+      "screenshot": "es-short-loading.png",
+      "texts": [
+        {
+          "path": "BootLoadingPanel(Clone)/BarBg/lS/Text (TMP)",
+          "text": "33%",
+          "fontSize": 44.5,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            245.36174,
+            176.933258,
+            52.607254,
+            22.3067322
+          ],
+          "failures": []
+        },
+        {
+          "path": "BootLoadingPanel(Clone)/Loading",
+          "text": "CARGANDO...",
+          "fontSize": 70.0,
+          "font": "zh_Custom SDF",
+          "bounds": [
+            219.4268,
+            257.174866,
+            281.2804,
+            35.1452026
+          ],
+          "failures": []
+        }
+      ]
+    }
+  ],
+  "homeChecks": [],
+  "excludedHiddenBanners": [
+    {
+      "capture": "en-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        784.4939,
+        244.781433,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "en-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.2078,
+        916.0707,
+        125.722534,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "en-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        624.4939,
+        244.7815,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "en-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.207764,
+        756.0706,
+        125.722473,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "ja-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        784.4939,
+        244.781433,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "ja-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.2078,
+        916.0707,
+        125.722534,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "ja-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        624.4939,
+        244.7815,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "ja-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.207764,
+        756.0706,
+        125.722473,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "pt-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        784.4939,
+        244.781433,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "pt-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.2078,
+        916.0707,
+        125.722534,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "pt-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        624.4939,
+        244.7815,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "pt-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.207764,
+        756.0706,
+        125.722473,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "de-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        784.4939,
+        244.781433,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "de-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.2078,
+        916.0707,
+        125.722534,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "de-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        624.4939,
+        244.7815,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "de-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.207764,
+        756.0706,
+        125.722473,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "fr-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        784.4939,
+        244.781433,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "fr-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.2078,
+        916.0707,
+        125.722534,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "fr-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        624.4939,
+        244.7815,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "fr-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.207764,
+        756.0706,
+        125.722473,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "id-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        784.4939,
+        244.781433,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "id-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.2078,
+        916.0707,
+        125.722534,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "id-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        624.4939,
+        244.7815,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "id-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.207764,
+        756.0706,
+        125.722473,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "ru-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        784.4939,
+        244.781433,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "ru-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.2078,
+        916.0707,
+        125.722534,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "ru-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        624.4939,
+        244.7815,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "ru-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.207764,
+        756.0706,
+        125.722473,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "es-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        784.4939,
+        244.781433,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "es-tall-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.2078,
+        916.0707,
+        125.722534,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "es-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/Tip",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -1093.42822,
+        624.4939,
+        244.7815,
+        39.166687
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    },
+    {
+      "capture": "es-short-home",
+      "path": "UICanvas/MainPanel(Clone)/TargetReward/SubTip/Value",
+      "component": "OriginalTargetRewardBanner",
+      "animating": false,
+      "bounds": [
+        -814.207764,
+        756.0706,
+        125.722473,
+        22.520813
+      ],
+      "reason": "Wholly off-screen at the original banner's configured idle position."
+    }
+  ],
+  "issues": [],
+  "method": "Production prefab initialization; asynchronous actual GameView screenshot; glyph-metrics ink bounds exclude SDF quad padding; saved fixture restored on exit."
+}

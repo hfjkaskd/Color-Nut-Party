@@ -1,0 +1,14 @@
+{
+  "portraitRibbon": {
+    "tool": "imagegen",
+    "purpose": "Remove the embedded English word You while preserving the existing character, crown, cash, gold ribbon and transparent background.",
+    "generatedFile": "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-36ceeb6d-b5be-44f7-bc37-689983de7b26.png",
+    "installedAsset": "Assets/Resources/atlas/localearningmessages/portrait-banner.png",
+    "replacementText": "Prefab-authored TMP You label, translated by LocalLocalizedText."
+  },
+  "bonusIcons": {
+    "method": "Reuse existing language-neutral project sprites; no new bitmap editing.",
+    "bonus1": "atlas/Golds/US3 replaces embedded MORE artwork",
+    "bonus5": "atlas/mainpanel/hintlevel_bg4 with prefab-authored numeric 5 replaces embedded PASS artwork"
+  }
+}

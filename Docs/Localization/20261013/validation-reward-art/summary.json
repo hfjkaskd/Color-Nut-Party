@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "rootCause": "Incomplete import of native country large cash sprites; country path JP3/DE3/RU3/ES3 returned null. Previous localization checks did not check sprites or ad-icon overlap.",
+  "sourceAssets": [
+    {
+      "asset": "Assets/Resources/atlas/Golds/AR3.png",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\reconstruction-nut\\reference-typed\\ExportedProject\\Assets\\Resources\\atlas\\golds\\AR3.png",
+      "sha256": "2F38CDC0EEE31F69C22907DBDC5D8FA2F1B7C2117E276B8E6DC021E1CB6F77A5"
+    },
+    {
+      "asset": "Assets/Resources/atlas/Golds/DE3.png",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\reconstruction-nut\\reference-typed\\ExportedProject\\Assets\\Resources\\atlas\\golds\\DE3.png",
+      "sha256": "F8BD15A72C4FAE7210E014BB05791DF1DB632E818A9DD30C8173FF715CB71C67"
+    },
+    {
+      "asset": "Assets/Resources/atlas/Golds/GB3.png",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\reconstruction-nut\\reference-typed\\ExportedProject\\Assets\\Resources\\atlas\\golds\\GB3.png",
+      "sha256": "2B310EC87FF73F0F6CB87B39207B08586F4EDA8D269A5CACE6FAEFB3FF6285A5"
+    },
+    {
+      "asset": "Assets/Resources/atlas/Golds/JP3.png",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\reconstruction-nut\\reference-typed\\ExportedProject\\Assets\\Resources\\atlas\\golds\\JP3.png",
+      "sha256": "95D9B5532F581C39898637C13A0E976F2E72C4F87B832C58ABD66DCC440EDD48"
+    },
+    {
+      "asset": "Assets/Resources/atlas/Golds/MX3.png",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\reconstruction-nut\\reference-typed\\ExportedProject\\Assets\\Resources\\atlas\\golds\\MX3.png",
+      "sha256": "42CC853C002BD5C38747F72402F35FC4AE0A5182D1219324C74E6BE4616A8D8A"
+    },
+    {
+      "asset": "Assets/Resources/atlas/Golds/RU3.png",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\reconstruction-nut\\reference-typed\\ExportedProject\\Assets\\Resources\\atlas\\golds\\RU3.png",
+      "sha256": "E4293F130CC00425A7E803B992DDEFD76B8A158977320E8604266E2259F7BCC2"
+    }
+  ],
+  "countryResources": 184,
+  "countries": 46,
+  "captures": 96,
+  "languages": 8,
+  "aspectRatios": 2,
+  "layoutIssues": 0,
+  "physicalDeviceRetested": false,
+  "apkRebuilt": true,
+  "sdkUnchanged": true,
+  "report": "report.json",
+  "apkPath": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-1.0.1-20261013-app-icon-fix.apk"
+}
