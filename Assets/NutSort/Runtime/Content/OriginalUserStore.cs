@@ -18,6 +18,7 @@ namespace NutSort.Content
     {
         public const string Key="UserLocalData";
         private readonly IOriginalUserPreferences preferences;
+        private LocalResourceSnapshot resourceBaseline;
         public OriginalUserLocalData Data { get; }
         public OriginalUserStore(OriginalUserDefaults defaults,IOriginalUserPreferences storage,Action<OriginalUserLocalData> initializeFresh=null)
         {
@@ -31,6 +32,7 @@ namespace NutSort.Content
                 Data=fresh;
             }
             else Data=OriginalUserDataJson.Read(json,defaults);
+            resourceBaseline=new LocalResourceSnapshot(Data);
         }
         // Source SaveData skips a null user. It replaces LevelInfo only when
         // a current board exists, then writes the entire user envelope and flushes.
@@ -39,8 +41,13 @@ namespace NutSort.Content
         {
             if(Data==null)return;
             if(hasCurrentBoard)Data.LevelInfo=currentBoardJson;
+            var resourceRecords=LocalAnalytics.Current?.PrepareResources(Data,resourceBaseline);
+            LocalAnalytics.Current?.PrepareSave(Data);
             preferences.SetString(Key,OriginalUserDataJson.Write(Data));
             preferences.Save();
+            resourceBaseline=new LocalResourceSnapshot(Data);
+            LocalAnalytics.Current?.CommitResources(resourceRecords);
+            LocalAnalytics.Current?.StateCommitted(Data);
         }
     }
 }

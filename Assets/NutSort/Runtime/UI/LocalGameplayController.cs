@@ -32,11 +32,14 @@ namespace NutSort.UI
         {
             if (bound) throw new InvalidOperationException("Local gameplay is already bound.");
             game=scene; audio=player; startup=flow; language=languageCode; bound=true;
-            modeLabel.text=modeText;
+            LocalAnalytics.Current?.BindUser(game.User,game.Tables);
+            game.PreserveCompletedBoardForSettlement=true;
+            modeLabel.text=NutSort.Content.LocalUiLocalization.Text(modeText);
             resultPanel.SetActive(false);
             dismiss.onClick.AddListener(Dismiss);
             BindTools();
             BindCoreInitialization();
+            RefreshWithdrawalCalendar();
             BindRewardsTop();
             game.BoardReady+=OnBoardReady;
             // The native initialization continuation needs unavailable reward-stage
@@ -47,24 +50,26 @@ namespace NutSort.UI
 
         private void BindBoardCallbacks()
         {
+            PrepareEarningBoard();
             var board=game.Level.Board;
             game.BindMoveCompletion((target,complete)=>
             {
                 if (game.Level.Board!=board || game.IsRestarting) return;
-                if (complete) game.Success();
+                OnEarningScrewCompleted(complete);
             }, ClearGuide, ()=>{}, null, id=>
             {
                 if (game.Level.Board==board && !game.IsRestarting && !game.IsSucceed) ShowFailure();
             });
             game.BindSuccess(()=>game.NewLevelMode,SaveTutorialTransition,()=>{},()=>{},transform.parent,
-                captured=>
+                _=>
                 {
-                    if (game.Level.Board==board && game.IsSucceed && !game.IsRestarting) CompleteLocalLevel(captured);
+                    if (game.Level.Board==board && game.IsSucceed && !game.IsRestarting) CompleteLocalLevel();
                 });
         }
 
         private void OnBoardReady()
         {
+            ObserveAnalyticsBoard();
             awaitingNext=false;
             resultPanel.SetActive(false);
             game.IsFail=false;
@@ -74,6 +79,7 @@ namespace NutSort.UI
             SetExchange(false,0);
             bottom.Refresh();
             RefreshLevel();
+            if(ResumeInterruptedScrewCompletions())return;
             if(game.User.LocalPendingReward!=null)
             {
                 awaitingNext=true;game.IsInitDone=false;game.ModalInputBlocked=true;
@@ -106,23 +112,22 @@ namespace NutSort.UI
             game.User.LevelInfo=string.Empty;
             audio.UserState.Store.SaveData(false,null);
         }
-        private void CompleteLocalLevel(OriginalLevelInfo completedLevel)
+        private void CompleteLocalLevel()
         {
             if (awaitingNext) return;
+            LocalAnalytics.Current?.LevelResult("win","board_complete");
+            // Save any date rollover while the old level and board still agree.
+            RefreshWithdrawalCalendar(false);
             game.User.Level=checked(game.User.Level+1);
             game.User.LevelSeed=0;
             game.User.TodayPassLevelCount=checked(game.User.TodayPassLevelCount+1);
-            if(completedLevel.SubTotalRound<=completedLevel.SubRound)
-                LocalCashSettlement.Prepare(game.User,audio.UserState.Rewards,UnityEngine.Random.Range);
+            // Every completed board, including a progress-dot subround, earns
+            // its own normal settlement. Claim/Next alone resumes the next board.
+            LocalCashSettlement.Prepare(game.User,audio.UserState.Rewards,UnityEngine.Random.Range);
+            if(LocalAnalytics.Current!=null)game.User.LocalPendingReward["analytics_attempt"]=Newtonsoft.Json.Linq.JObject.FromObject(LocalAnalytics.Current.AttemptFields());
             PersistPendingBoard();
-            // Success response 0xA00684 skips settlement presentation for an
-            // intermediate subround and calls InitLevel(true,false,false).
-            if (completedLevel.SubTotalRound>completedLevel.SubRound)
-            {
-                game.InitLevel(true,false,false);
-                return;
-            }
             awaitingNext=true;
+            LocalAnalytics.Current?.SyncProperties();
             game.IsInitDone=false;
             game.ModalInputBlocked=true;
             ShowLocalSuccess();
@@ -140,7 +145,7 @@ namespace NutSort.UI
         {
             if (resultPanel.activeSelf) return;
             game.ModalInputBlocked=true;
-            message.text=text;
+            message.text=NutSort.Content.LocalUiLocalization.Text(text);
             dismiss.gameObject.SetActive(true);
             resultPanel.SetActive(true);
         }
@@ -174,6 +179,9 @@ namespace NutSort.UI
             if(withdrawalAccount!=null)Destroy(withdrawalAccount.gameObject);
             if(withdrawalConfirmation!=null)Destroy(withdrawalConfirmation.gameObject);
             if(toolOffer!=null)Destroy(toolOffer.gameObject);
+            if(settingsPanel!=null)Destroy(settingsPanel.gameObject);
+            if(userLevelPanel!=null)Destroy(userLevelPanel.gameObject);
+            DisposeEarningFlow();
             if(withdrawalPanel!=null)Destroy(withdrawalPanel.gameObject);
             if(diamondWithdrawalPanel!=null)Destroy(diamondWithdrawalPanel.gameObject);
             if(recordGuide!=null)Destroy(recordGuide.gameObject);

@@ -10,6 +10,8 @@ namespace NutSort.UI
         [SerializeField] private TMP_Text Time,PassCount,ChallengeTimes,GoldGetCount;
         [SerializeField] private Transform PMDPos;
         [SerializeField] private OriginalReplayPanel.Label[] labels;
+        [SerializeField] private OriginalSimulatedStatsSettings simulatedStats;
+        public OriginalSimulatedStatsSettings SimulatedStatsSettings=>simulatedStats;
         public TMP_Text DateLabel=>Time;
         public TMP_Text PeopleLabel=>PassCount;
         public TMP_Text ChallengeLabel=>ChallengeTimes;
@@ -45,6 +47,17 @@ namespace NutSort.UI
             GoldGetCount.text=formatGold(amount);
             gameObject.SetActive(true);
             createPMD(PMDPos,level);
+        }
+        public void InitSimulated(OriginalSimulatedStatsSnapshot snapshot,OriginalTables tables,string language,Func<float,string> formatGold)
+        {
+            if(snapshot==null)throw new ArgumentNullException(nameof(snapshot));
+            transform.localPosition=Vector3.zero;
+            foreach(var label in labels)label.Text.text=tables.Text.GetText(label.Id,language);
+            Time.text=snapshot.Title;
+            PassCount.text=snapshot.PassCount.ToString();
+            ChallengeTimes.text=snapshot.ChallengeTimes.ToString();
+            GoldGetCount.text=formatGold(snapshot.CashAmount);
+            gameObject.SetActive(true);
         }
         public void InitUnavailable(OriginalTables tables,string language,string placeholder)
         {

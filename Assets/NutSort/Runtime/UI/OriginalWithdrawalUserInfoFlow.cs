@@ -82,13 +82,14 @@ namespace NutSort.UI
         }
         public void Get()
         {
-            if(IsName&&ui.Name.Length<=1){ui.ShowTip(118);return;}
+            string operation=LocalAnalytics.NewId();bool edit=user.UserLssInfo!=null;
+            if(IsName&&ui.Name.Length<=1){AccountResult(operation,"validation_error","name_too_short",edit);ui.ShowTip(118);return;}
             if(IsEmail)
             {
-                if(ui.Email.Length<=5){ui.ShowTip(120);return;}
+                if(ui.Email.Length<=5){AccountResult(operation,"validation_error","email_too_short",edit);ui.ShowTip(120);return;}
             }
-            else if(ui.Number.Length<=4){ui.ShowTip(119);return;}
-            if(GetTypeIndex<0){ui.ShowTip(122);return;}
+            else if(ui.Number.Length<=4){AccountResult(operation,"validation_error","phone_too_short",edit);ui.ShowTip(119);return;}
+            if(GetTypeIndex<0){AccountResult(operation,"validation_error","channel_not_selected",edit);ui.ShowTip(122);return;}
             if(user.UserLssInfo==null)user.UserLssInfo=new JObject();
             Set(user.UserLssInfo,"Name",ui.Name);
             Set(user.UserLssInfo,"Number",ui.Number);
@@ -96,6 +97,16 @@ namespace NutSort.UI
             Set(user.UserLssInfo,"GetType",GetTypeIndex);
             Set(user.UserLssInfo,"OtherInfo",string.Empty);
             ui.ShowPanel(21,new object[]{Level});ui.Close();save();
+            AccountResult(operation,"local_saved",null,edit);LocalAnalytics.Current?.SyncProperties();
+        }
+        private void AccountResult(string operation,string result,string reason,bool edit)
+        {
+            var fields=LocalAnalytics.Current?.WithdrawalFields()??LocalAnalytics.Fields();
+            var list=channels.GetPayChannel(string.Empty,country).Channels;
+            fields["operation_id"]=operation;fields["result"]=result;fields["is_edit"]=edit;
+            if(reason!=null)fields["validation_reason"]=reason;
+            if(GetTypeIndex>=0&&GetTypeIndex<list.Count)fields["channel"]=list[GetTypeIndex];
+            LocalAnalytics.Track("withdraw_account_result",fields);
         }
         public void ChannelInfo()=>ui.ShowPanel(22,new object[]{Level});
         public void Close(){ui.Close();guideCallback(Level);clearHint();}

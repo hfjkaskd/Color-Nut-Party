@@ -34,8 +34,8 @@ namespace NutSort.UI
             main.localScale=Vector3.zero;if(title!=null)title.localScale=Vector3.zero;
             elapsed=openElapsed=0;opening=true;closing=false;
         }
-        private void Cancel() { if(owner.BeginClick()) { Close();owner.EndClick(); } }
-        private void Replay() { if(owner.BeginClick()) { Close();owner.Restart();owner.EndClick(); } }
+        private void Cancel() { if(owner.BeginClick()) { LocalAnalyticsPopup.Action(this,"cancel");Close();owner.EndClick(); } }
+        private void Replay() { if(owner.BeginClick()) { LocalAnalyticsPopup.Action(this,"restart");Close();owner.Restart();owner.EndClick(); } }
         public void Close() { if(closing)return;closing=true;opening=false;elapsed=0;closeStart=main.localScale; }
         private void Awake() { OriginalUIAnimationDriver.Register(this, Advance); }
         private void OnDestroy() { OriginalUIAnimationDriver.Unregister(this); }

@@ -55,7 +55,9 @@ namespace NutSort.Validation
                     Check(host.IsOpen&&host.Panel.Views.Count==2,"Host initializes and refreshes actual SuccessPanel");
                     host.Refresh();Check(host.Panel.transform.Find("main/Items").childCount==4,"Host refresh preserves native append behavior");
                     host.Panel.GetButton.onClick.Invoke();Check(ad!=null&&requests==0&&!reward.IsOpen,"Button enters SDK boundary with no premature request");
-                    ad(false);Check(requests==1&&requestedMore&&response!=null&&!reward.IsOpen,"Ad completion reaches actual success request adapter");
+                    ad(false);Check(requests==0&&grants==0,"Cancelled ad makes no settlement request");
+                    host.Panel.GetButton.onClick.Invoke();ad(true);ad(true);
+                    Check(requests==1&&requestedMore&&response!=null&&!reward.IsOpen,"Successful retry reaches settlement once");
                     start=Time.time;phase=1;return;
                 }
                 if(phase==1)

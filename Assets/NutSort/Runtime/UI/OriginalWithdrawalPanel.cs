@@ -56,11 +56,18 @@ namespace NutSort.UI
         [SerializeField] private string localMarqueePath,localMissingValue,localMissingFeed;
         private bool localPresentation;
         private Action localClosed;
+        private OriginalSimpleMarquee localMarquee;
+        private Button localHistoryButton;
+        private Action localHistoryAction;
+        private Func<bool> localCanClick;
+        private Action<string> localPlaySound;
+        private string localHistoryCaption;
         public bool Closing=>closes.Count>0;
         private struct CloseTrack { public float Elapsed;public Vector3 Start;public bool Started; }
         private readonly List<CloseTrack> closes=new List<CloseTrack>();
         public Button WithdrawalButton=>TXBtn;
         public Button CloseButton=>Close;
+        public Button HistoryButton=>localHistoryButton;
         public TMP_Text GoldLabel=>GoldCount;
         public TMP_Text ClaimLabel=>TXText;
         public TMP_Text ProgressLabel=>ProgressValue;
@@ -96,28 +103,54 @@ namespace NutSort.UI
         // Same prefab presentation, backed by the local balance and requirements.
         public void InitLocal(OriginalTables tables,string language,string country,Sprite icon,
             string amount,string title,string tip,string progressText,string progressHint,float fill,
-            Func<bool> canClick,Action claim,Action closed,Action<string> playSound)
+            Func<bool> canClick,Action claim,Action closed,Action<string> playSound,Action<OriginalPlayerInfo> initializeStats)
         {
             this.tables=tables;this.language=language;localPresentation=true;localClosed=closed;
+            localCanClick=canClick;localPlaySound=playSound;
             goldImage.Bind(()=>country);
             if(icon!=null)goldImage.SetOverride(icon);
             main.localScale=Vector3.zero;elapsed=0;opening=true;
             backdrop.color=new Color(0,0,0,settings.BackdropAlpha);
             foreach(var label in labels)label.Text.text=Text(label.Id);
             var player=Instantiate(playerInfoPrefab,PlayerInfoPos,false);
-            player.InitUnavailable(tables,language,localMissingValue);
-            var marquee=Instantiate(Resources.Load<GameObject>(localMarqueePath),player.MarqueeParent,false).GetComponent<OriginalSimpleMarquee>();
-            marquee.InitUnavailable(localMissingFeed);
-            GoldCount.text=amount;Title.text=title;Tip.text=tip;
+            initializeStats(player);
+            if(localHistoryButton!=null)localHistoryButton.onClick.RemoveListener(ClickLocalHistory);
+            localMarquee=Instantiate(Resources.Load<GameObject>(localMarqueePath),player.MarqueeParent,false).GetComponent<OriginalSimpleMarquee>();
+            localMarquee.InitUnavailable(LocalUiLocalization.Text(localMissingFeed));
+            localHistoryButton=localMarquee.GetComponentInChildren<Button>(true);
+            if(localHistoryButton!=null)localHistoryButton.interactable=false;
+            ApplyLocalHistoryAction();
+            GoldCount.text=amount;Title.text=LocalUiLocalization.Text(title);Tip.text=LocalUiLocalization.Text(tip);
             ProgressValue.text=progressText;Progress.fillAmount=Mathf.Clamp01(fill);
             SetMarkerX(Mathf.Clamp01(fill)*settings.WithdrawalProgressTravel+settings.WithdrawalProgressOffset);
             ProgressTipValue.text=progressHint;
             TXText.text=Text(1);
             Level1.SetActive(false);Level2.SetActive(false);
-            TXBtn.onClick.RemoveAllListeners();TXBtn.onClick.AddListener(()=>{if(!canClick()||Closing)return;claim();playSound(settings.ClickSound);});
-            Close.onClick.RemoveAllListeners();Close.onClick.AddListener(()=>{if(!canClick()||Closing)return;ClosePanel();playSound(settings.ClickSound);});
+            TXBtn.onClick.RemoveAllListeners();TXBtn.onClick.AddListener(()=>{if(!canClick()||Closing)return;LocalAnalyticsPopup.Action(this,"withdraw");claim();playSound(settings.ClickSound);});
+            Close.onClick.RemoveAllListeners();Close.onClick.AddListener(()=>{if(!canClick()||Closing)return;LocalAnalyticsPopup.Action(this,"close");ClosePanel();playSound(settings.ClickSound);});
         }
-        public void SetLocalNotice(string text){Tip.text=text;}
+        public void SetLocalNotice(string text){Tip.text=LocalUiLocalization.Text(text);}
+        public void SetLocalHistoryAction(Action openHistory,string caption)
+        {
+            localHistoryAction=openHistory??throw new ArgumentNullException(nameof(openHistory));
+            localHistoryCaption=LocalUiLocalization.Text(caption??string.Empty);
+            ApplyLocalHistoryAction();
+        }
+        private void ApplyLocalHistoryAction()
+        {
+            if(!localPresentation||localMarquee==null||localHistoryAction==null)return;
+            if(localHistoryButton==null)throw new InvalidOperationException("Local history strip prefab must contain a standard Button.");
+            localMarquee.InitUnavailable(localHistoryCaption);
+            localHistoryButton.interactable=true;
+            localHistoryButton.onClick.RemoveListener(ClickLocalHistory);
+            localHistoryButton.onClick.AddListener(ClickLocalHistory);
+        }
+        private void ClickLocalHistory()
+        {
+            if(!localPresentation||Closing||!localCanClick())return;
+            localPlaySound(settings.ClickSound);
+            localHistoryAction();
+        }
         public void Refresh()=>refresh.Refresh(arguments);
         public void GetCallback()=>claims.Run(lifecycle.Level,arguments,progress.IsDoneTask,pending.IsShowTargetHint);
         private void ClickWithdrawal(){if(!services.CanClick)return;GetCallback();services.PlaySound(settings.ClickSound);}
@@ -125,7 +158,11 @@ namespace NutSort.UI
         public void ClosePanel(){if(this==null)return;closes.Add(new CloseTrack());}
         public void Hide(){services.Hidden();services.Schedule(queueDelay,services.NextPanel);}
         private void Awake()=>OriginalUIAnimationDriver.Register(this,Advance);
-        private void OnDestroy()=>OriginalUIAnimationDriver.Unregister(this);
+        private void OnDestroy()
+        {
+            OriginalUIAnimationDriver.Unregister(this);
+            if(localHistoryButton!=null)localHistoryButton.onClick.RemoveListener(ClickLocalHistory);
+        }
         public void Advance(float delta)
         {
             if(opening)

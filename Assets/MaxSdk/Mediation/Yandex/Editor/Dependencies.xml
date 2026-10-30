@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+    <androidPackages>
+        <androidPackage spec="com.applovin.mediation:yandex-adapter:8.6.0.0" />
+    </androidPackages>
+    <iosPods>
+        <iosPod name="AppLovinMediationYandexAdapter" version="8.6.0.0" />
+    </iosPods>
+    <remoteSwiftPackage url="https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Yandex.git" version="8060000.0.0">
+        <swiftPackage name="AppLovinMediationYandexAdapter" replacesPod="AppLovinMediationYandexAdapter" target="All" />
+    </remoteSwiftPackage>
+</dependencies>

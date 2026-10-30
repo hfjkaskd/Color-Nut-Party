@@ -17,7 +17,10 @@ namespace NutSort.UI
         private void OpenLocalWithdrawal(bool coin)
         {
             if(withdrawalPanel!=null||diamondWithdrawalPanel!=null)return;
+            RefreshWithdrawalCalendar();
+            LocalAnalytics.Current?.BeginWithdrawal(coin,0);
             if(coin){OpenDiamondWithdrawal();return;}
+            LocalAnalytics.Current?.ObserveEligibility(LocalWithdrawalPolicy.Evaluate(game.User,game.Tables,false,0),"panel_open");
             RefreshRewardsTop();
             string country=audio.UserState.DisplayCountry(game.Tables);
             var formatter=new OriginalGoldFormatter(()=>game.Tables.Countries.Get(country).CountryLanguageCode);
@@ -37,7 +40,7 @@ namespace NutSort.UI
                     else if(stage==7){current=game.User.UserLevel;total=data.UserLevel;}
                 }
                 hint=game.User.Level<=data.Stage2RealLevel?game.Tables.Text.GetText(22,language,(int)total):rewardsTop.Gold.GoldHintText.text;
-                if(string.IsNullOrEmpty(hint))hint=withdrawalServiceUnavailable;
+                if(string.IsNullOrEmpty(hint))hint=LocalUiLocalization.Text(withdrawalServiceUnavailable);
                 amount=formatter.Format(game.User.Gold);
                 title=game.Tables.Text.GetText(30,language,game.Tables.GetShowLevel(game.User.Level));
                 progressText=string.Format(CultureInfo.InvariantCulture,"{0:0}/{1:0}",Math.Min(current,total),total);
@@ -49,8 +52,20 @@ namespace NutSort.UI
             withdrawalPanel=Instantiate(Resources.Load<GameObject>(withdrawalPrefabPath),transform.parent,false).GetComponent<OriginalWithdrawalPanel>();
             withdrawalPanel.InitLocal(game.Tables,language,country,coin?Resources.Load<Sprite>(withdrawalCoinIconPath):null,
                 amount,title,hint,progressText,progressHint,total>0?(float)(current/total):0,
-                TryWithdrawalClick,OpenWithdrawalAccount,
-                CloseLocalWithdrawal,s=>audio.PlaySound(s));
+                TryWithdrawalClick,BeginCashWithdrawal,
+                CloseLocalWithdrawal,s=>audio.PlaySound(s),player=>InitializeLocalStats(player,game.Tables.GetShowLevel(game.User.Level)));
+            withdrawalPanel.SetLocalHistoryAction(OpenCashHistory,EarningText("historyEntry"));
+        }
+        private void InitializeLocalStats(OriginalPlayerInfo player,int displayLevel)
+        {
+            var marquee=OriginalMarqueeData.Read(audio.UserState.Rewards.CreateDisplayDocument());
+            marquee.Init();
+            string culture=audio.UserState.DisplayCulture(game.Tables);
+            var snapshot=OriginalSimulatedStats.Create(displayLevel,game.User,marquee,player.SimulatedStatsSettings,
+                culture,DateTime.Now,DateTime.UtcNow);
+            var formatter=new OriginalGoldFormatter(()=>culture);
+            player.InitSimulated(snapshot,game.Tables,language,value=>formatter.Format(value));
+            if(snapshot.DisplayStateChanged)audio.UserState.Store.SaveData(false,null);
         }
         private void OpenDiamondWithdrawal()
         {
@@ -60,12 +75,12 @@ namespace NutSort.UI
             diamondWithdrawalPanel.Init(game.User,game.Tables,language,new OriginalGoldFormatter(()=>game.Tables.Countries.Get(country).CountryLanguageCode),
                 ()=>!game.InputBlocked&&!game.IsRestarting&&!startup.Replay.IsClickMasked&&startup.Replay.BeginClick(),
                 ()=>{Destroy(diamondWithdrawalPanel.gameObject);diamondWithdrawalPanel=null;StartCoroutine(ReleaseWithdrawalInput());},
-                ()=>audio.PlaySound(gameplaySession.SuccessPanelSound),ShowWithdrawalFeedback);
+                startup.Replay.EndClick,ShowWithdrawalFeedback,BeginDiamondWithdrawal);
         }
         private void ShowWithdrawalFeedback(string message)
         {
             var tip=Instantiate(Resources.Load<GameObject>(popTipPrefabPath),startup.TopCanvas,false).GetComponent<OriginalPopTip>();
-            tip.Show(message,game.ScheduleDelay);
+            tip.Show(LocalUiLocalization.Text(message),game.ScheduleDelay);
         }
         private bool TryWithdrawalClick()
         {

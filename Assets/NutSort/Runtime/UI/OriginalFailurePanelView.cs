@@ -73,6 +73,7 @@ namespace NutSort.UI
         private void RestartClicked()
         {
             if(!gate())return;
+            LocalAnalyticsPopup.Action(this,"restart");
             restartAction(close);audio(clickSound);
         }
         private void ReviveClicked()

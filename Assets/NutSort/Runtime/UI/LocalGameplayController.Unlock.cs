@@ -14,7 +14,7 @@ namespace NutSort.UI
         private OriginalGameplayUnlock unlock;
         private readonly OriginalPanelActionQueue unlockQueue=new OriginalPanelActionQueue();
         public OriginalGameplayUnlockPanel UnlockPanel=>unlockHost==null?null:unlockHost.Panel;
-        private bool HasLocalModal=>toolOffer!=null||toolAdPending||withdrawalAccount!=null||withdrawalConfirmation!=null||diamondWithdrawalPanel!=null||withdrawalPanel!=null||welcomePending||recordGuide!=null||ResultVisible||teachingPanel!=null||(unlockHost!=null&&unlockHost.IsOpen);
+        private bool HasLocalModal=>HasEarningModal||IsEarningRewardModal||settingsPanel!=null||userLevelPanel!=null||toolOffer!=null||toolAdPending||withdrawalStage!=null||withdrawalTooFast!=null||withdrawalConditions!=null||withdrawalAccount!=null||withdrawalConfirmation!=null||diamondWithdrawalPanel!=null||withdrawalPanel!=null||welcomePending||recordGuide!=null||ResultVisible||teachingPanel!=null||(unlockHost!=null&&unlockHost.IsOpen);
 
         private void BindCoreInitialization()
         {
@@ -32,8 +32,9 @@ namespace NutSort.UI
         }
         private void BeginCoreInitialization()
         {
-            // Preserve the core InitDone priority: stateful deadlock check before
-            // unlock. Reward/account guide branches remain outside local mode.
+            if(TryOpenEarningFlow())return;
+            if(TryOpenPendingLuckyReward())return;
+            if(TryOpenCoinUnlockGuide())return;
             var board=game.Level.Board;
             if(game.Level.IsCannotMove())
             {

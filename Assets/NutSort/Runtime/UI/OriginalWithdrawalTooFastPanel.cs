@@ -47,8 +47,16 @@ namespace NutSort.UI
             foreach(var label in labels)label.Text.text=tables.Text.GetText(label.Id,language);
         },action=>BindButton(IKnowBtn,action));
         private void BindButton(Button button,Action action)
-        {button.onClick.RemoveAllListeners();button.onClick.AddListener(()=>{if(!canClick())return;action();sound(settings.ClickSound);});}
+        {button.onClick.RemoveAllListeners();button.onClick.AddListener(()=>{if(!canClick())return;LocalAnalyticsPopup.Action(this,"continue");action();sound(settings.ClickSound);});}
         public void Refresh()=>flow.Refresh();
+        public void SetLocalReview(string heading,string description,string videoCaption,int completed,int total)
+        {
+            foreach(var label in labels)
+            {if(label.Id==46)label.Text.text=description;else if(label.Id==51)label.Text.text=heading;}
+            VideoTip.text=videoCaption;
+            VideoPregress.fillAmount=total>0?Mathf.Clamp01((float)completed/total):0;
+            VideoPregressValue.text=completed.ToString(System.Globalization.CultureInfo.InvariantCulture)+"/"+total.ToString(System.Globalization.CultureInfo.InvariantCulture);
+        }
         public void SetLevelTip(int id,int level)=>LevelTip.text=tables.Text.GetText(id,language,level);
         public void SetVideoTip(int id,int count)=>VideoTip.text=tables.Text.GetText(id,language,count);
         public void SetLevelFill(float value)=>LevelPregress.fillAmount=value;

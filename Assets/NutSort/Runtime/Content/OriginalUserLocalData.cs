@@ -33,6 +33,8 @@ namespace NutSort.Content
         public JObject ServerConfigData;
         public JObject GoldRewardTargetS2CData;
         public JObject LocalPendingReward;
+        public JObject LocalWithdrawalData;
+        public JObject LocalAnalyticsData;
         public int ScrewDoneCount;
         public int ScrewMoveCount;
         public int LuckyDrawScrewDoneTimes;
@@ -60,6 +62,7 @@ namespace NutSort.Content
         public long LastGetEveryDayGift;
         public int VideoToolRewardIndex;
         public int TodayChallengeTimes;
+        public string StatsDisplayUtcDate;
         public bool IsCompleteAppRatingPanel;
         public int NormalGetTimes;
         public int InterAdTimes;

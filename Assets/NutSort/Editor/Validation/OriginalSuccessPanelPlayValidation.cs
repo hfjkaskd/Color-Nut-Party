@@ -67,7 +67,9 @@ namespace NutSort.Validation
                     Check(pending!=null&&claims==0,"Actual Button waits for explicit SDK fixture completion");phase=5;return;
                 }
                 if(Time.time-start<.9f)return;
-                pending(false);Check(claims==1&&more,"Original completion ignores boolean and dispatches multiplied claim");
+                pending(false);Check(claims==0,"Cancelled ad does not grant");
+                panel.GetButton.onClick.Invoke();pending(true);pending(true);
+                Check(claims==1&&more,"Successful retry grants once");
                 Debug.Log("NUT_SUCCESS_PANEL_PLAY_PASS actual prefab, two current captures, original big reward visuals, shared main/title animation, guide direct close, fresh later-level button/ad layout and deferred claim; explicit reward/guide/SDK consumers, production host pending.");Finish(0);
             }
             catch(Exception error){Debug.LogException(error);Finish(1);}

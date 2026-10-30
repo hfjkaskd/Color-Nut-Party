@@ -26,7 +26,7 @@ namespace NutSort.UI
         public TMP_Text ProgressLabel=>TipBarValue;
         public TMP_Text BalanceLabel=>GoldValue;
         public int SelectedIndex=>index;
-        public void Init(OriginalUserLocalData user,OriginalTables tables,string language,OriginalGoldFormatter formatter,Func<bool> canClick,Action closed,Action sound,Action<string> showFeedback)
+        public void Init(OriginalUserLocalData user,OriginalTables tables,string language,OriginalGoldFormatter formatter,Func<bool> canClick,Action closed,Action sound,Action<string> showFeedback,Action<int> openRequirements=null)
         {
             this.user=user;this.tables=tables;this.language=language;this.formatter=formatter;
             rows=(JArray)user.GoldRewardTargetS2CData["bear_zs_list"];
@@ -40,11 +40,12 @@ namespace NutSort.UI
                 int slot=i;options[i].gameObject.SetActive(i<rows.Count);
                 if(i>=rows.Count)continue;
                 amounts[i].text=formatter.Format((float)rows[i]["psi_value"]);
-                options[i].onClick.RemoveAllListeners();options[i].onClick.AddListener(()=>{if(!canClick())return;Select(slot);sound();});
+                options[i].onClick.RemoveAllListeners();options[i].onClick.AddListener(()=>{if(!canClick())return;LocalAnalyticsPopup.Action(this,"select_tier",slot.ToString());LocalAnalytics.Current?.BeginWithdrawal(true,slot);Select(slot);LocalAnalytics.Current?.ObserveEligibility(LocalWithdrawalPolicy.Evaluate(user,tables,true,slot),"tier_selected");sound();});
             }
-            Close.onClick.RemoveAllListeners();Close.onClick.AddListener(()=>{if(!canClick())return;closed();sound();});
-            TXBtn.onClick.RemoveAllListeners();TXBtn.onClick.AddListener(()=>{if(!canClick())return;if(user.Coin>=Target())showFeedback(serviceUnavailable);else{Select(index);showFeedback(IitemTip.text);}sound();});
+            Close.onClick.RemoveAllListeners();Close.onClick.AddListener(()=>{if(!canClick())return;LocalAnalyticsPopup.Action(this,"close");closed();sound();});
+            TXBtn.onClick.RemoveAllListeners();TXBtn.onClick.AddListener(()=>{if(!canClick())return;LocalAnalyticsPopup.Action(this,"withdraw");if(openRequirements!=null)openRequirements(index);else if(user.Coin>=Target())showFeedback(serviceUnavailable);else{Select(index);showFeedback(IitemTip.text);}sound();});
             Select(0);
+            LocalAnalytics.Current?.ObserveEligibility(LocalWithdrawalPolicy.Evaluate(user,tables,true,0),"panel_open");
         }
         private double Target()=>double.Parse((string)rows[index]["caliper_psi"],CultureInfo.InvariantCulture);
         private void Select(int value)

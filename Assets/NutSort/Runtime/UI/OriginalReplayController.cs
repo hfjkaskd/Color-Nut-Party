@@ -29,7 +29,7 @@ namespace NutSort.UI
             if(game==null || game.InputBlocked || game.IsRestarting || !game.Level.AreNutsInitialized)return false;
             maskState.SetMask(true,settings.ClickMaskDuration);return true;
         }
-        public void EndClick() { audioPlayer.PlaySound(settings.ClickSound); }
+        public void EndClick() { audioPlayer.PlaySound(settings.ClickSound); audioPlayer.PlayVibration(); }
         private void Open()
         {
             if(Panel!=null || !BeginClick())return;

@@ -1,0 +1,84 @@
+apply plugin: 'com.android.library'
+**APPLY_PLUGINS**
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+// Android Resolver Dependencies Start
+    implementation 'androidx.appcompat:appcompat:1.1.0' // Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:21
+    implementation 'androidx.browser:browser:1.4.0' // Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:22
+    implementation 'androidx.recyclerview:recyclerview:1.2.1' // Assets/MaxSdk/Mediation/Mintegral/Editor/Dependencies.xml:9
+    implementation 'com.adjust.sdk:adjust-android:5.6.1' // Packages/com.adjust.sdk/Native/Editor/Dependencies.xml:5
+    implementation 'com.android.installreferrer:installreferrer:2.2' // Packages/com.adjust.sdk/Native/Editor/Dependencies.xml:7
+    implementation 'com.android.support:customtabs:28.+' // Assets/MaxSdk/Mediation/InMobi/Editor/Dependencies.xml:7
+    implementation 'com.android.support:recyclerview-v7:28.+' // Assets/MaxSdk/Mediation/InMobi/Editor/Dependencies.xml:6
+    implementation 'com.anythink.sdk:banner-tpn:6.4.17' // Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:17
+    implementation 'com.anythink.sdk:core-tpn:6.4.17' // Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:16
+    implementation 'com.anythink.sdk:interstitial-tpn:6.4.17' // Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:19
+    implementation 'com.anythink.sdk:nativead-tpn:6.4.17' // Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:18
+    implementation 'com.anythink.sdk:rewardedvideo-tpn:6.4.17' // Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:20
+    implementation 'com.anythink.sdkadx:max-mediation-adapter:1.1.8' // Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:11
+    implementation 'com.applovin.mediation:bidmachine-adapter:3.8.0.0' // Assets/MaxSdk/Mediation/BidMachine/Editor/Dependencies.xml:8
+    implementation 'com.applovin.mediation:bigoads-adapter:6.1.0.0' // Assets/MaxSdk/Mediation/BigoAds/Editor/Dependencies.xml:4
+    implementation 'com.applovin.mediation:bytedance-adapter:8.3.0.4.1' // Assets/MaxSdk/Mediation/ByteDance/Editor/Dependencies.xml:8
+    implementation 'com.applovin.mediation:chartboost-adapter:9.14.1.1' // Assets/MaxSdk/Mediation/Chartboost/Editor/Dependencies.xml:8
+    implementation 'com.applovin.mediation:facebook-adapter:[6.22.0.1]' // Assets/MaxSdk/Mediation/Facebook/Editor/Dependencies.xml:8
+    implementation 'com.applovin.mediation:fyber-adapter:8.4.7.0' // Assets/MaxSdk/Mediation/Fyber/Editor/Dependencies.xml:4
+    implementation 'com.applovin.mediation:google-adapter:[25.5.0.0]' // Assets/MaxSdk/Mediation/Google/Editor/Dependencies.xml:5
+    implementation 'com.applovin.mediation:inmobi-adapter:11.5.0.0' // Assets/MaxSdk/Mediation/InMobi/Editor/Dependencies.xml:4
+    implementation 'com.applovin.mediation:ironsource-adapter:9.6.1.0.0' // Assets/MaxSdk/Mediation/IronSource/Editor/Dependencies.xml:4
+    implementation 'com.applovin.mediation:mintegral-adapter:17.1.81.0' // Assets/MaxSdk/Mediation/Mintegral/Editor/Dependencies.xml:8
+    implementation 'com.applovin.mediation:moloco-adapter:4.13.0.0' // Assets/MaxSdk/Mediation/Moloco/Editor/Dependencies.xml:4
+    implementation 'com.applovin.mediation:unityads-adapter:4.21.0.0' // Assets/MaxSdk/Mediation/UnityAds/Editor/Dependencies.xml:4
+    implementation 'com.applovin.mediation:vungle-adapter:7.7.9.0' // Assets/MaxSdk/Mediation/Vungle/Editor/Dependencies.xml:4
+    implementation 'com.applovin.mediation:yandex-adapter:8.6.0.0' // Assets/MaxSdk/Mediation/Yandex/Editor/Dependencies.xml:4
+    implementation 'com.applovin:applovin-sdk:13.6.4' // Packages/com.applovin.mediation.ads/AppLovin/Editor/Dependencies.xml:4
+    implementation 'com.google.android.gms:play-services-base:16.1.0' // Assets/MaxSdk/Mediation/Chartboost/Editor/Dependencies.xml:9
+    implementation 'com.squareup.picasso:picasso:2.71828' // Assets/MaxSdk/Mediation/InMobi/Editor/Dependencies.xml:5
+// Android Resolver Dependencies End
+**DEPS**}
+
+// Android Resolver Exclusions Start
+android {
+  packagingOptions {
+      exclude ('/lib/armeabi/*' + '*')
+      exclude ('/lib/mips/*' + '*')
+      exclude ('/lib/mips64/*' + '*')
+      exclude ('/lib/x86/*' + '*')
+      exclude ('/lib/x86_64/*' + '*')
+  }
+}
+// Android Resolver Exclusions End
+android {
+    namespace "com.unity3d.player"
+    ndkPath "**NDKPATH**"
+    compileSdkVersion **APIVERSION**
+    buildToolsVersion '**BUILDTOOLS**'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    defaultConfig {
+        minSdkVersion **MINSDKVERSION**
+        targetSdkVersion **TARGETSDKVERSION**
+        ndk {
+            abiFilters **ABIFILTERS**
+        }
+        versionCode **VERSIONCODE**
+        versionName '**VERSIONNAME**'
+        consumerProguardFiles 'proguard-unity.txt'**USER_PROGUARD**
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    aaptOptions {
+        noCompress = **BUILTIN_NOCOMPRESS** + unityStreamingAssets.tokenize(', ')
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }**PACKAGING_OPTIONS**
+}
+**IL_CPP_BUILD_SETUP**
+**SOURCE_BUILD_SETUP**
+**EXTERNAL_SOURCES**

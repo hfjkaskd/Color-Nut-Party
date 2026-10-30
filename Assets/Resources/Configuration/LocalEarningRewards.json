@@ -1,0 +1,12 @@
+{
+  "source": "local-configured-policy-reusing-existing-cash-bands; original-Lucky-server-formula-unavailable",
+  "luckyAmountPolicy": "existing-local-cash-bands",
+  "luckyPrefab": "Prefabs/Panels/LocalLuckyReward",
+  "luckyItemSettings": "Configuration/LocalLuckyRewardItem",
+  "luckyTitle": "Lucky Reward",
+  "moreCaption": "Claim {0}X",
+  "coinPreviewTitle": "Extra reward unlocked",
+  "coinPreviewBody": "Clear this level to claim extra reward\n{0} diamonds",
+  "coinPreviewSeconds": 2,
+  "coinGuideBody": "Diamond rewards are unlocked. Tap here to review withdrawal requirements."
+}

@@ -14,9 +14,16 @@ namespace NutSort.World
         }
         private readonly Dictionary<string, Entry> entries = new Dictionary<string, Entry>(StringComparer.Ordinal);
         private readonly Dictionary<GameObject, Entry> rented = new Dictionary<GameObject, Entry>();
+        private bool shuttingDown;
+
+        // Scene teardown still releases the level's visual bindings, but its
+        // pooled objects must remain in the hierarchy Unity is already destroying.
+        public void BeginShutdown() => shuttingDown = true;
+        private void OnDestroy() => BeginShutdown();
 
         public GameObject Rent(string resourcePath, Transform parent)
         {
+            if (shuttingDown) throw new InvalidOperationException("Cannot rent a prefab while its pool is shutting down.");
             if (!entries.TryGetValue(resourcePath, out Entry entry))
             {
                 GameObject prefab = Resources.Load<GameObject>(resourcePath);
@@ -39,6 +46,7 @@ namespace NutSort.World
             if (!rented.TryGetValue(instance, out Entry entry)) throw new InvalidOperationException("Prefab is not rented from this pool.");
             rented.Remove(instance);
             instance.SetActive(false);
+            if (shuttingDown) return;
             instance.transform.SetParent(transform, false);
             entry.Available.Push(instance);
         }

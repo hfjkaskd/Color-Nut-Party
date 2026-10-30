@@ -42,13 +42,41 @@ namespace NutSort.UI
         }
         public void Init(object[] args)=>flow.Init(args,()=>
         {
+            InitializePresentation();
+        },()=>BindButton(CloseBtn,flow.Close),()=>BindButton(SureBtn,flow.Get));
+        // The local record form validates presentation only. It never constructs
+        // the native flow whose response handler marks a withdrawal as paid.
+        public void InitLocalRecord(OriginalTables tables,string language,int stage,string amount,
+            string titleText,string tipText,string confirmText,string statusText,string[] stepTexts,
+            Func<bool> canClick,Action<string> sound,Action<bool> choice,Action closed)
+        {
+            if(stepTexts==null||stepTexts.Length!=3)throw new ArgumentException("Three local verification descriptions are required.",nameof(stepTexts));
+            this.tables=tables;this.language=language;this.canClick=canClick;this.sound=sound;this.closed=closed;
+            flow=null;services=null;
+            InitializePresentation();
+            foreach(var label in labels)
+            {
+                if(label.Id==37)label.Text.text=titleText;
+                else if(label.Id==93)label.Text.text=confirmText;
+                else if(label.Id==81)label.Text.text=statusText;
+                else if(label.Id>=90&&label.Id<=92)label.Text.text=stepTexts[label.Id-90];
+            }
+            Tip.text=string.Format(System.Globalization.CultureInfo.InvariantCulture,tipText,stage);
+            GoldCount.text=amount;
+            bool decided=false;
+            BindButton(CloseBtn,()=>{if(decided)return;decided=true;choice(false);Close();});
+            BindButton(SureBtn,()=>{if(decided||steps.ActiveTracks!=0)return;decided=true;choice(true);Close();});
+            steps.Play();
+        }
+        private void InitializePresentation()
+        {
             main.localScale=Vector3.zero;elapsed=0;opening=true;
             if(title!=null)title.localScale=Vector3.zero;
             backdrop.color=new Color(0,0,0,settings.BackdropAlpha);
             foreach(var label in labels)label.Text.text=tables.Text.GetText(label.Id,language);
-        },()=>BindButton(CloseBtn,flow.Close),()=>BindButton(SureBtn,flow.Get));
+        }
         private void BindButton(Button button,Action action)
-        {button.onClick.RemoveAllListeners();button.onClick.AddListener(()=>{if(!canClick())return;action();sound(settings.ClickSound);});}
+        {button.onClick.RemoveAllListeners();button.onClick.AddListener(()=>{if(!canClick())return;LocalAnalyticsPopup.Action(this,button==CloseBtn?"close":"confirm");action();sound(settings.ClickSound);});}
         public void Refresh()=>flow.Refresh();
         public void SetTip(int id,int level)=>Tip.text=tables.Text.GetText(id,language,level);
         public void SetGold(string value)=>GoldCount.text=value;

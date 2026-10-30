@@ -24,7 +24,7 @@ namespace NutSort.Validation
         public static void Validate()
         {
             var p=Resources.Load<GameObject>(PathName);Check(p!=null,"Original guide prefab loads");
-            Check(p.GetComponentsInChildren<RectTransform>(true).Length==26,"All 26 original RectTransforms");
+            Check(p.GetComponentsInChildren<RectTransform>(true).Length==27,"All 26 original RectTransforms plus the shared screw decoration");
             foreach(var t in p.GetComponentsInChildren<Transform>(true))Check(GameObjectUtility.GetMonoBehavioursWithMissingScriptCount(t.gameObject)==0,"No missing guide scripts");
             Check(p.GetComponentsInChildren<Button>(true).Length==3,"Three original standard Buttons");
             var v=p.GetComponent<OriginalNewbieGuideView>();Check(v.MarkerCount==4 && v.Tip.font!=null,"Four progress markers and original font");
@@ -33,7 +33,7 @@ namespace NutSort.Validation
             Check(mask.FindProperty("inner_trans").objectReferenceValue!=null && v.HollowMask.raycastTarget,"Mask target and original Graphic raycast flag");
             Check(p.GetComponentsInChildren<OriginalGuideLoopMotion>(true).Length==2 && p.GetComponentsInChildren<OriginalRecordPunchRotation>(true).Length==1,"Hand, arrow and Get-marker native animation replacements");
             Check(Resources.Load<Sprite>("Atlas/NewbieGuidePanel/dian")!=null && Resources.Load<Sprite>("Atlas/NewbieGuidePanel/dian1")!=null,"Both original marker sprites");
-            Debug.Log("NUT_NEWBIE_GUIDE_VALIDATION_PASS 26-node prefab, standard UI references, mask, progress sprites and native animation components; full guide routing pending.");
+            Debug.Log("NUT_NEWBIE_GUIDE_VALIDATION_PASS original hierarchy plus screw decoration, standard UI references, mask, progress sprites and native animation components; full guide routing pending.");
         }
         public static void RunPlay()
         {

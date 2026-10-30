@@ -1,0 +1,1532 @@
+{
+  "Withdrawal on Clear": {
+    "en": "Withdrawal on Clear",
+    "ja": "クリアで出金",
+    "pt": "Saque ao concluir",
+    "de": "Auszahlung bei Abschluss",
+    "fr": "Retrait après réussite",
+    "id": "Tarik setelah selesai",
+    "ru": "Вывод после победы",
+    "es": "Retiro al completar"
+  },
+  "Withdraw": {
+    "en": "Withdraw",
+    "ja": "出金",
+    "pt": "Sacar",
+    "de": "Auszahlen",
+    "fr": "Retirer",
+    "id": "Tarik",
+    "ru": "Вывести",
+    "es": "Retirar"
+  },
+  "View your cash reward": {
+    "en": "View your cash reward",
+    "ja": "現金報酬を見る",
+    "pt": "Ver recompensa em dinheiro",
+    "de": "Geldbelohnung ansehen",
+    "fr": "Voir la récompense",
+    "id": "Lihat hadiah uang",
+    "ru": "Посмотреть награду",
+    "es": "Ver recompensa"
+  },
+  "Withdrawal History": {
+    "en": "Withdrawal History",
+    "ja": "出金履歴",
+    "pt": "Histórico de saques",
+    "de": "Auszahlungsverlauf",
+    "fr": "Historique des retraits",
+    "id": "Riwayat penarikan",
+    "ru": "История вывода",
+    "es": "Historial de retiros"
+  },
+  "View withdrawal history": {
+    "en": "View withdrawal history",
+    "ja": "出金履歴を見る",
+    "pt": "Ver histórico de saques",
+    "de": "Auszahlungsverlauf öffnen",
+    "fr": "Voir les retraits",
+    "id": "Lihat riwayat penarikan",
+    "ru": "Открыть историю вывода",
+    "es": "Ver historial de retiros"
+  },
+  "Cash Reward #{0}": {
+    "en": "Cash Reward #{0}",
+    "ja": "現金報酬 #{0}",
+    "pt": "Recompensa #{0}",
+    "de": "Geldbelohnung #{0}",
+    "fr": "Récompense #{0}",
+    "id": "Hadiah uang #{0}",
+    "ru": "Денежная награда №{0}",
+    "es": "Recompensa #{0}"
+  },
+  "Pending - not paid": {
+    "en": "Pending - not paid",
+    "ja": "保留中・未払い",
+    "pt": "Pendente · não pago",
+    "de": "Ausstehend · unbezahlt",
+    "fr": "En attente · non payé",
+    "id": "Tertunda · belum dibayar",
+    "ru": "Ожидает · не выплачено",
+    "es": "Pendiente · sin pagar"
+  },
+  "This reward could not be moved to history. Please review your cash balance.": {
+    "en": "This reward could not be moved to history. Please review your cash balance.",
+    "ja": "報酬を履歴に移せませんでした。現金残高をご確認ください。",
+    "pt": "Não foi possível salvar a recompensa no histórico. Confira seu saldo.",
+    "de": "Die Belohnung konnte nicht im Verlauf gespeichert werden. Prüfe dein Guthaben.",
+    "fr": "Impossible d'ajouter la récompense à l'historique. Vérifiez votre solde.",
+    "id": "Hadiah gagal dipindahkan ke riwayat. Periksa saldo uang Anda.",
+    "ru": "Не удалось сохранить награду в истории. Проверьте баланс.",
+    "es": "No se pudo guardar la recompensa en el historial. Revisa tu saldo."
+  },
+  "Reward assessment": {
+    "en": "Reward assessment",
+    "ja": "報酬を確認中",
+    "pt": "Analisando recompensas",
+    "de": "Belohnung wird geprüft",
+    "fr": "Évaluation des récompenses",
+    "id": "Memeriksa hadiah",
+    "ru": "Проверка наград",
+    "es": "Evaluando recompensas"
+  },
+  "Your first two cash rewards are saved in withdrawal history.": {
+    "en": "Your first two cash rewards are saved in withdrawal history.",
+    "ja": "最初の2つの現金報酬を出金履歴に保存しました。",
+    "pt": "Suas duas primeiras recompensas foram salvas no histórico de saques.",
+    "de": "Deine ersten zwei Geldbelohnungen sind im Auszahlungsverlauf gespeichert.",
+    "fr": "Vos deux premières récompenses sont enregistrées dans l'historique des retraits.",
+    "id": "Dua hadiah uang pertama Anda tersimpan di riwayat penarikan.",
+    "ru": "Первые две денежные награды сохранены в истории вывода.",
+    "es": "Tus dos primeras recompensas se guardaron en el historial de retiros."
+  },
+  "Activating rewards": {
+    "en": "Activating rewards",
+    "ja": "報酬を有効化中",
+    "pt": "Ativando recompensas",
+    "de": "Belohnungen aktivieren",
+    "fr": "Activation des récompenses",
+    "id": "Mengaktifkan hadiah",
+    "ru": "Активация наград",
+    "es": "Activando recompensas"
+  },
+  "Preparing your cash rewards and level bonuses...": {
+    "en": "Preparing your cash rewards and level bonuses...",
+    "ja": "現金報酬とレベルボーナスを準備中…",
+    "pt": "Preparando suas recompensas e bônus de nível...",
+    "de": "Geldbelohnungen und Levelboni werden vorbereitet...",
+    "fr": "Préparation des récompenses et bonus de niveau…",
+    "id": "Menyiapkan hadiah uang dan bonus level...",
+    "ru": "Готовим денежные награды и бонусы уровней…",
+    "es": "Preparando tus recompensas y bonos de nivel..."
+  },
+  "Your reward bonuses": {
+    "en": "Your reward bonuses",
+    "ja": "報酬ボーナス",
+    "pt": "Seus bônus",
+    "de": "Deine Belohnungsboni",
+    "fr": "Vos bonus",
+    "id": "Bonus hadiah Anda",
+    "ru": "Ваши бонусы",
+    "es": "Tus bonos"
+  },
+  "Extra cash reward": {
+    "en": "Extra cash reward",
+    "ja": "追加の現金報酬",
+    "pt": "Recompensa extra",
+    "de": "Zusätzliche Geldbelohnung",
+    "fr": "Récompense supplémentaire",
+    "id": "Hadiah uang tambahan",
+    "ru": "Дополнительная награда",
+    "es": "Recompensa extra"
+  },
+  "Clear a rod to earn a reward": {
+    "en": "Clear a rod to earn a reward",
+    "ja": "ボルトを完成させて報酬獲得",
+    "pt": "Complete um parafuso e ganhe",
+    "de": "Schließe einen Bolzen ab",
+    "fr": "Terminez une tige pour gagner",
+    "id": "Selesaikan baut untuk hadiah",
+    "ru": "Соберите болт для награды",
+    "es": "Completa un perno y gana"
+  },
+  "Watch a reward video for 10X": {
+    "en": "Watch a reward video for 10X",
+    "ja": "動画を見て報酬10倍",
+    "pt": "Veja um vídeo para ganhar 10X",
+    "de": "Video ansehen für 10X",
+    "fr": "Regardez une vidéo pour 10X",
+    "id": "Tonton video untuk 10X",
+    "ru": "Видео: награда ×10",
+    "es": "Mira un vídeo para ganar 10X"
+  },
+  "Unlock diamond rewards": {
+    "en": "Unlock diamond rewards",
+    "ja": "ダイヤ報酬を解放",
+    "pt": "Libere recompensas de diamantes",
+    "de": "Diamantbelohnungen freischalten",
+    "fr": "Débloquez les diamants",
+    "id": "Buka hadiah berlian",
+    "ru": "Откройте награды алмазами",
+    "es": "Desbloquea diamantes"
+  },
+  "Level 5 withdrawal requirements": {
+    "en": "Level 5 withdrawal requirements",
+    "ja": "レベル5の出金条件",
+    "pt": "Requisitos de saque do nível 5",
+    "de": "Auszahlungsregeln für Level 5",
+    "fr": "Conditions de retrait du niveau 5",
+    "id": "Syarat penarikan level 5",
+    "ru": "Условия вывода на уровне 5",
+    "es": "Requisitos de retiro del nivel 5"
+  },
+  "Rewards activated": {
+    "en": "Rewards activated",
+    "ja": "報酬の\n有効化完了",
+    "pt": "Recompensas ativadas",
+    "de": "Belohnungen aktiviert",
+    "fr": "Récompenses activées",
+    "id": "Hadiah diaktifkan",
+    "ru": "Награды активированы",
+    "es": "Recompensas activadas"
+  },
+  "Continue playing to collect cash and unlock more rewards.": {
+    "en": "Continue playing to collect cash and unlock more rewards.",
+    "ja": "プレイを続けて現金を集め、さらに報酬を解放しましょう。",
+    "pt": "Continue jogando para juntar dinheiro e liberar mais recompensas.",
+    "de": "Spiele weiter, sammle Geld und schalte mehr Belohnungen frei.",
+    "fr": "Continuez à jouer pour collecter de l'argent et débloquer des récompenses.",
+    "id": "Terus bermain untuk mengumpulkan uang dan membuka hadiah lainnya.",
+    "ru": "Играйте дальше, собирайте деньги и открывайте новые награды.",
+    "es": "Sigue jugando para reunir dinero y desbloquear más recompensas."
+  },
+  "Your withdrawal history": {
+    "en": "Your withdrawal history",
+    "ja": "あなたの出金履歴",
+    "pt": "Seu histórico de saques",
+    "de": "Dein Auszahlungsverlauf",
+    "fr": "Votre historique des retraits",
+    "id": "Riwayat penarikan Anda",
+    "ru": "Ваша история вывода",
+    "es": "Tu historial de retiros"
+  },
+  "Your reward records are saved. Submitted requests remain pending; no payment has been made.": {
+    "en": "Your reward records are saved. Submitted requests remain pending; no payment has been made.",
+    "ja": "報酬記録を保存しました。申請は保留中です。支払いは行われていません。",
+    "pt": "Registros salvos. Os pedidos enviados estão pendentes; nenhum pagamento foi feito.",
+    "de": "Belohnungen gespeichert. Anträge bleiben ausstehend; es wurde nichts ausgezahlt.",
+    "fr": "Récompenses enregistrées. Les demandes restent en attente ; aucun paiement effectué.",
+    "id": "Catatan hadiah tersimpan. Permintaan tetap tertunda; belum ada pembayaran.",
+    "ru": "Награды сохранены. Заявки ожидают обработки; выплат не было.",
+    "es": "Recompensas guardadas. Las solicitudes siguen pendientes; no se ha realizado ningún pago."
+  },
+  "Claim {0}X": {
+    "en": "Claim {0}X",
+    "ja": "{0}倍で受け取る",
+    "pt": "Receber {0}X",
+    "de": "{0}X abholen",
+    "fr": "Recevoir {0}X",
+    "id": "Klaim {0}X",
+    "ru": "Забрать ×{0}",
+    "es": "Recibir {0}X"
+  },
+  "Lucky Reward": {
+    "en": "Lucky Reward",
+    "ja": "ラッキー報酬",
+    "pt": "Recompensa da sorte",
+    "de": "Glücksbelohnung",
+    "fr": "Récompense chanceuse",
+    "id": "Hadiah keberuntungan",
+    "ru": "Счастливая награда",
+    "es": "Premio de la suerte"
+  },
+  "Extra reward unlocked": {
+    "en": "Extra reward unlocked",
+    "ja": "追加報酬を解放",
+    "pt": "Recompensa extra liberada",
+    "de": "Zusatzbelohnung freigeschaltet",
+    "fr": "Bonus débloqué",
+    "id": "Hadiah tambahan terbuka",
+    "ru": "Бонусная награда открыта",
+    "es": "Premio extra desbloqueado"
+  },
+  "Clear this level to claim extra reward\n{0} diamonds": {
+    "en": "Clear this level to claim extra reward\n{0} diamonds",
+    "ja": "このレベルをクリアして追加報酬\nダイヤ{0}個を獲得",
+    "pt": "Conclua este nível para receber\n{0} diamantes extras",
+    "de": "Schließe das Level ab für\n{0} zusätzliche Diamanten",
+    "fr": "Terminez ce niveau pour gagner\n{0} diamants bonus",
+    "id": "Selesaikan level ini untuk mendapat\n{0} berlian tambahan",
+    "ru": "Пройдите уровень и получите\nещё {0} алмазов",
+    "es": "Completa este nivel para recibir\n{0} diamantes extra"
+  },
+  "Diamond rewards are unlocked. Tap here to review withdrawal requirements.": {
+    "en": "Diamond rewards are unlocked. Tap here to review withdrawal requirements.",
+    "ja": "ダイヤ報酬を解放しました。ここをタップして出金条件を確認。",
+    "pt": "Recompensas de diamantes liberadas. Toque aqui para ver os requisitos de saque.",
+    "de": "Diamantbelohnungen freigeschaltet. Tippe hier für die Auszahlungsregeln.",
+    "fr": "Diamants débloqués. Touchez ici pour voir les conditions de retrait.",
+    "id": "Hadiah berlian terbuka. Ketuk di sini untuk melihat syarat penarikan.",
+    "ru": "Награды алмазами открыты. Нажмите здесь, чтобы узнать условия вывода.",
+    "es": "Diamantes desbloqueados. Toca aquí para ver los requisitos de retiro."
+  },
+  "Reward Received": {
+    "en": "Reward Received",
+    "ja": "報酬を獲得",
+    "pt": "Recompensa recebida",
+    "de": "Belohnung erhalten",
+    "fr": "Récompense reçue",
+    "id": "Hadiah diterima",
+    "ru": "Награда получена",
+    "es": "Recompensa recibida"
+  },
+  "Continue": {
+    "en": "Continue",
+    "ja": "続ける",
+    "pt": "Continuar",
+    "de": "Weiter",
+    "fr": "Continuer",
+    "id": "Lanjut",
+    "ru": "Продолжить",
+    "es": "Continuar"
+  },
+  "Withdrawal request": {
+    "en": "Withdrawal request",
+    "ja": "出金申請",
+    "pt": "Pedido de saque",
+    "de": "Auszahlungsantrag",
+    "fr": "Demande de retrait",
+    "id": "Permintaan penarikan",
+    "ru": "Заявка на вывод",
+    "es": "Solicitud de retiro"
+  },
+  "Reward #{0}": {
+    "en": "Reward #{0}",
+    "ja": "報酬 #{0}",
+    "pt": "Recompensa #{0}",
+    "de": "Belohnung #{0}",
+    "fr": "Récompense #{0}",
+    "id": "Hadiah #{0}",
+    "ru": "Награда №{0}",
+    "es": "Recompensa #{0}"
+  },
+  "Confirm withdrawal": {
+    "en": "Confirm withdrawal",
+    "ja": "出金を確定",
+    "pt": "Confirmar saque",
+    "de": "Auszahlung bestätigen",
+    "fr": "Confirmer le retrait",
+    "id": "Konfirmasi penarikan",
+    "ru": "Подтвердить вывод",
+    "es": "Confirmar retiro"
+  },
+  "Current status": {
+    "en": "Current status",
+    "ja": "現在の状況",
+    "pt": "Status atual",
+    "de": "Aktueller Status",
+    "fr": "Statut actuel",
+    "id": "Status saat ini",
+    "ru": "Текущий статус",
+    "es": "Estado actual"
+  },
+  "Reward recorded": {
+    "en": "Reward recorded",
+    "ja": "報酬を記録済み",
+    "pt": "Recompensa registrada",
+    "de": "Belohnung gespeichert",
+    "fr": "Récompense enregistrée",
+    "id": "Hadiah tercatat",
+    "ru": "Награда записана",
+    "es": "Recompensa registrada"
+  },
+  "Account details entered": {
+    "en": "Account details entered",
+    "ja": "口座情報を入力済み",
+    "pt": "Dados da conta inseridos",
+    "de": "Kontodaten eingegeben",
+    "fr": "Coordonnées saisies",
+    "id": "Data akun diisi",
+    "ru": "Данные счёта введены",
+    "es": "Datos de cuenta ingresados"
+  },
+  "Ready to submit": {
+    "en": "Ready to submit",
+    "ja": "申請の準備完了",
+    "pt": "Pronto para enviar",
+    "de": "Bereit zum Absenden",
+    "fr": "Prêt à envoyer",
+    "id": "Siap dikirim",
+    "ru": "Готово к отправке",
+    "es": "Listo para enviar"
+  },
+  "Withdrawal requirements": {
+    "en": "Withdrawal requirements",
+    "ja": "出金条件",
+    "pt": "Requisitos de saque",
+    "de": "Auszahlungsbedingungen",
+    "fr": "Conditions de retrait",
+    "id": "Syarat penarikan",
+    "ru": "Условия вывода",
+    "es": "Requisitos de retiro"
+  },
+  "Cash withdrawal": {
+    "en": "Cash withdrawal",
+    "ja": "現金の出金",
+    "pt": "Saque em dinheiro",
+    "de": "Geld auszahlen",
+    "fr": "Retrait d'argent",
+    "id": "Penarikan uang",
+    "ru": "Вывод денег",
+    "es": "Retiro de dinero"
+  },
+  "Diamond withdrawal": {
+    "en": "Diamond withdrawal",
+    "ja": "ダイヤの出金",
+    "pt": "Saque de diamantes",
+    "de": "Diamanten auszahlen",
+    "fr": "Retrait de diamants",
+    "id": "Penarikan berlian",
+    "ru": "Вывод алмазов",
+    "es": "Retiro de diamantes"
+  },
+  "Complete level {0}": {
+    "en": "Complete level {0}",
+    "ja": "レベル{0}をクリア",
+    "pt": "Conclua o nível {0}",
+    "de": "Level {0} abschließen",
+    "fr": "Terminez le niveau {0}",
+    "id": "Selesaikan level {0}",
+    "ru": "Пройдите уровень {0}",
+    "es": "Completa el nivel {0}"
+  },
+  "Required balance": {
+    "en": "Required balance",
+    "ja": "必要残高",
+    "pt": "Saldo necessário",
+    "de": "Benötigtes Guthaben",
+    "fr": "Solde requis",
+    "id": "Saldo yang diperlukan",
+    "ru": "Нужный баланс",
+    "es": "Saldo requerido"
+  },
+  "Complete cash guidance": {
+    "en": "Complete cash guidance",
+    "ja": "現金ガイドを完了",
+    "pt": "Conclua o guia de dinheiro",
+    "de": "Geldanleitung abschließen",
+    "fr": "Terminez le guide d'argent",
+    "id": "Selesaikan panduan uang",
+    "ru": "Завершите обучение",
+    "es": "Completa la guía de dinero"
+  },
+  "Levels completed today": {
+    "en": "Levels completed today",
+    "ja": "今日のクリア数",
+    "pt": "Níveis concluídos hoje",
+    "de": "Heute geschaffte Level",
+    "fr": "Niveaux réussis aujourd'hui",
+    "id": "Level selesai hari ini",
+    "ru": "Уровней пройдено сегодня",
+    "es": "Niveles completados hoy"
+  },
+  "Login days": {
+    "en": "Login days",
+    "ja": "ログイン日数",
+    "pt": "Dias de login",
+    "de": "Anmeldetage",
+    "fr": "Jours de connexion",
+    "id": "Hari masuk",
+    "ru": "Дней входа",
+    "es": "Días de inicio de sesión"
+  },
+  "Account level": {
+    "en": "Account level",
+    "ja": "アカウントレベル",
+    "pt": "Nível da conta",
+    "de": "Kontolevel",
+    "fr": "Niveau du compte",
+    "id": "Level akun",
+    "ru": "Уровень аккаунта",
+    "es": "Nivel de cuenta"
+  },
+  "Awaiting account update": {
+    "en": "Awaiting account update",
+    "ja": "アカウント更新待ち",
+    "pt": "Aguardando atualização",
+    "de": "Kontoaktualisierung ausstehend",
+    "fr": "Mise à jour en attente",
+    "id": "Menunggu pembaruan akun",
+    "ru": "Ожидание обновления",
+    "es": "Esperando actualización"
+  },
+  "Complete": {
+    "en": "Complete",
+    "ja": "完了",
+    "pt": "Concluído",
+    "de": "Abgeschlossen",
+    "fr": "Terminé",
+    "id": "Selesai",
+    "ru": "Готово",
+    "es": "Completado"
+  },
+  "Login complete": {
+    "en": "Login complete",
+    "ja": "ログイン完了",
+    "pt": "Login concluído",
+    "de": "Angemeldet",
+    "fr": "Connexion terminée",
+    "id": "Sudah masuk",
+    "ru": "Вход выполнен",
+    "es": "Sesión iniciada"
+  },
+  "In progress": {
+    "en": "In progress",
+    "ja": "進行中",
+    "pt": "Em andamento",
+    "de": "In Arbeit",
+    "fr": "En cours",
+    "id": "Berlangsung",
+    "ru": "В процессе",
+    "es": "En curso"
+  },
+  "Continue playing": {
+    "en": "Continue playing",
+    "ja": "プレイを続ける",
+    "pt": "Continuar jogando",
+    "de": "Weiterspielen",
+    "fr": "Continuer à jouer",
+    "id": "Lanjut bermain",
+    "ru": "Играть дальше",
+    "es": "Seguir jugando"
+  },
+  "View next stage": {
+    "en": "View next stage",
+    "ja": "次の段階を見る",
+    "pt": "Ver próxima etapa",
+    "de": "Nächste Stufe ansehen",
+    "fr": "Voir l'étape suivante",
+    "id": "Lihat tahap berikutnya",
+    "ru": "Следующий этап",
+    "es": "Ver siguiente etapa"
+  },
+  "Back to withdrawal": {
+    "en": "Back to withdrawal",
+    "ja": "出金に戻る",
+    "pt": "Voltar ao saque",
+    "de": "Zurück zur Auszahlung",
+    "fr": "Retour au retrait",
+    "id": "Kembali ke penarikan",
+    "ru": "Назад к выводу",
+    "es": "Volver al retiro"
+  },
+  "Requirements review": {
+    "en": "Requirements review",
+    "ja": "条件を確認",
+    "pt": "Revisão dos requisitos",
+    "de": "Bedingungen prüfen",
+    "fr": "Vérification des conditions",
+    "id": "Tinjau persyaratan",
+    "ru": "Проверка условий",
+    "es": "Revisar requisitos"
+  },
+  "Complete the next level target to continue. Your current progress is shown below.": {
+    "en": "Complete the next level target to continue. Your current progress is shown below.",
+    "ja": "次のレベル目標を達成して続けましょう。現在の進捗は下に表示されます。",
+    "pt": "Conclua a próxima meta de nível para continuar. Veja seu progresso abaixo.",
+    "de": "Erreiche das nächste Levelziel. Dein aktueller Fortschritt steht unten.",
+    "fr": "Atteignez le prochain objectif de niveau pour continuer. Votre progression est ci-dessous.",
+    "id": "Capai target level berikutnya untuk lanjut. Progres saat ini ditampilkan di bawah.",
+    "ru": "Достигните следующей цели уровня. Текущий прогресс показан ниже.",
+    "es": "Alcanza la siguiente meta de nivel para continuar. Tu progreso aparece abajo."
+  },
+  "Withdrawal progress": {
+    "en": "Withdrawal progress",
+    "ja": "出金の進捗",
+    "pt": "Progresso do saque",
+    "de": "Auszahlungsfortschritt",
+    "fr": "Progression du retrait",
+    "id": "Progres penarikan",
+    "ru": "Прогресс вывода",
+    "es": "Progreso del retiro"
+  },
+  "Complete the next stage requirements": {
+    "en": "Complete the next stage requirements",
+    "ja": "次の段階の条件を達成",
+    "pt": "Cumpra os requisitos da próxima etapa",
+    "de": "Erfülle die nächste Stufe",
+    "fr": "Remplissez les conditions suivantes",
+    "id": "Penuhi syarat tahap berikutnya",
+    "ru": "Выполните условия следующего этапа",
+    "es": "Cumple los requisitos de la siguiente etapa"
+  },
+  "First level target completed": {
+    "en": "First level target completed",
+    "ja": "最初のレベル目標を達成",
+    "pt": "Primeira meta concluída",
+    "de": "Erstes Levelziel erreicht",
+    "fr": "Premier objectif atteint",
+    "id": "Target level pertama tercapai",
+    "ru": "Первая цель достигнута",
+    "es": "Primera meta completada"
+  },
+  "Next level target pending": {
+    "en": "Next level target pending",
+    "ja": "次のレベル目標は未達成",
+    "pt": "Próxima meta pendente",
+    "de": "Nächstes Levelziel offen",
+    "fr": "Prochain objectif en attente",
+    "id": "Target level berikutnya tertunda",
+    "ru": "Следующая цель не достигнута",
+    "es": "Siguiente meta pendiente"
+  },
+  "Review remaining requirements before applying": {
+    "en": "Review remaining requirements before applying",
+    "ja": "申請前に残りの条件を確認",
+    "pt": "Confira os requisitos antes de solicitar",
+    "de": "Prüfe offene Bedingungen vor dem Antrag",
+    "fr": "Vérifiez les conditions avant la demande",
+    "id": "Periksa syarat tersisa sebelum mengajukan",
+    "ru": "Проверьте условия перед заявкой",
+    "es": "Revisa los requisitos antes de solicitar"
+  },
+  "Complete level <color=#FF0000>{0}</color> to continue the next stage": {
+    "en": "Complete level <color=#FF0000>{0}</color> to continue the next stage",
+    "ja": "レベル<color=#FF0000>{0}</color>をクリアして次の段階へ",
+    "pt": "Conclua o nível <color=#FF0000>{0}</color> para seguir à próxima etapa",
+    "de": "Schließe Level <color=#FF0000>{0}</color> für die nächste Stufe ab",
+    "fr": "Terminez le niveau <color=#FF0000>{0}</color> pour passer à l'étape suivante",
+    "id": "Selesaikan level <color=#FF0000>{0}</color> untuk lanjut ke tahap berikutnya",
+    "ru": "Пройдите уровень <color=#FF0000>{0}</color> для перехода дальше",
+    "es": "Completa el nivel <color=#FF0000>{0}</color> para pasar a la siguiente etapa"
+  },
+  "Application not submitted": {
+    "en": "Application not submitted",
+    "ja": "申請は未送信です",
+    "pt": "Pedido não enviado",
+    "de": "Antrag nicht gesendet",
+    "fr": "Demande non envoyée",
+    "id": "Permintaan belum dikirim",
+    "ru": "Заявка не отправлена",
+    "es": "Solicitud no enviada"
+  },
+  "Reward videos watched": {
+    "en": "Reward videos watched",
+    "ja": "視聴済み報酬動画",
+    "pt": "Vídeos de recompensa vistos",
+    "de": "Angesehene Belohnungsvideos",
+    "fr": "Vidéos récompensées vues",
+    "id": "Video hadiah ditonton",
+    "ru": "Просмотрено видео с наградой",
+    "es": "Vídeos de recompensa vistos"
+  },
+  "Enter payment details": {
+    "en": "Enter payment details",
+    "ja": "支払い情報を入力",
+    "pt": "Inserir dados de pagamento",
+    "de": "Zahlungsdaten eingeben",
+    "fr": "Saisir les coordonnées",
+    "id": "Masukkan data pembayaran",
+    "ru": "Введите платёжные данные",
+    "es": "Ingresa los datos de pago"
+  },
+  "Requirements complete. Confirm your payment details.": {
+    "en": "Requirements complete. Confirm your payment details.",
+    "ja": "条件達成。支払い情報を確認してください。",
+    "pt": "Requisitos cumpridos. Confirme seus dados de pagamento.",
+    "de": "Bedingungen erfüllt. Bestätige deine Zahlungsdaten.",
+    "fr": "Conditions remplies. Confirmez vos coordonnées de paiement.",
+    "id": "Syarat terpenuhi. Konfirmasi data pembayaran Anda.",
+    "ru": "Условия выполнены. Подтвердите платёжные данные.",
+    "es": "Requisitos cumplidos. Confirma tus datos de pago."
+  },
+  "Complete the requirements below to continue.": {
+    "en": "Complete the requirements below to continue.",
+    "ja": "下記の条件を達成して続けましょう。",
+    "pt": "Cumpra os requisitos abaixo para continuar.",
+    "de": "Erfülle die Bedingungen unten, um fortzufahren.",
+    "fr": "Remplissez les conditions ci-dessous pour continuer.",
+    "id": "Penuhi syarat di bawah untuk melanjutkan.",
+    "ru": "Выполните условия ниже, чтобы продолжить.",
+    "es": "Cumple los requisitos de abajo para continuar."
+  },
+  "Withdrawal service is not connected. No withdrawal has been submitted.": {
+    "en": "Withdrawal service is not connected. No withdrawal has been submitted.",
+    "ja": "出金サービスに未接続です。出金申請は送信されていません。",
+    "pt": "O serviço de saque não está conectado. Nenhum pedido foi enviado.",
+    "de": "Der Auszahlungsdienst ist nicht verbunden. Es wurde kein Antrag gesendet.",
+    "fr": "Le service de retrait n'est pas connecté. Aucune demande n'a été envoyée.",
+    "id": "Layanan penarikan belum terhubung. Tidak ada permintaan yang dikirim.",
+    "ru": "Сервис вывода не подключён. Заявка на вывод не отправлена.",
+    "es": "El servicio de retiros no está conectado. No se ha enviado ninguna solicitud."
+  },
+  "Settings": {
+    "en": "Settings",
+    "ja": "設定",
+    "pt": "Configurações",
+    "de": "Einstellungen",
+    "fr": "Paramètres",
+    "id": "Pengaturan",
+    "ru": "Настройки",
+    "es": "Ajustes"
+  },
+  "Sound": {
+    "en": "Sound",
+    "ja": "サウンド",
+    "pt": "Som",
+    "de": "Ton",
+    "fr": "Son",
+    "id": "Suara",
+    "ru": "Звук",
+    "es": "Sonido"
+  },
+  "Music & effects": {
+    "en": "Music & effects",
+    "ja": "音楽と効果音",
+    "pt": "Música e efeitos",
+    "de": "Musik und Effekte",
+    "fr": "Musique et effets",
+    "id": "Musik dan efek",
+    "ru": "Музыка и эффекты",
+    "es": "Música y efectos"
+  },
+  "Vibration": {
+    "en": "Vibration",
+    "ja": "振動",
+    "pt": "Vibração",
+    "de": "Vibration",
+    "fr": "Vibration",
+    "id": "Getaran",
+    "ru": "Вибрация",
+    "es": "Vibración"
+  },
+  "ON": {
+    "en": "ON",
+    "ja": "オン",
+    "pt": "SIM",
+    "de": "AN",
+    "fr": "OUI",
+    "id": "AKTIF",
+    "ru": "ВКЛ",
+    "es": "SÍ"
+  },
+  "OFF": {
+    "en": "OFF",
+    "ja": "オフ",
+    "pt": "NÃO",
+    "de": "AUS",
+    "fr": "NON",
+    "id": "NONAKTIF",
+    "ru": "ВЫКЛ",
+    "es": "NO"
+  },
+  "Id:{0}": {
+    "en": "Id:{0}",
+    "ja": "ID:{0}",
+    "pt": "ID:{0}",
+    "de": "ID:{0}",
+    "fr": "ID:{0}",
+    "id": "ID:{0}",
+    "ru": "ID:{0}",
+    "es": "ID:{0}"
+  },
+  "LV.{0}": {
+    "en": "LV.{0}",
+    "ja": "Lv.{0}",
+    "pt": "Nv.{0}",
+    "de": "Lv.{0}",
+    "fr": "Nv.{0}",
+    "id": "Lv.{0}",
+    "ru": "Ур.{0}",
+    "es": "Nv.{0}"
+  },
+  "Current Level: {0}": {
+    "en": "Current Level: {0}",
+    "ja": "現在のレベル：{0}",
+    "pt": "Nível atual: {0}",
+    "de": "Aktuelles Level: {0}",
+    "fr": "Niveau actuel : {0}",
+    "id": "Level saat ini: {0}",
+    "ru": "Текущий уровень: {0}",
+    "es": "Nivel actual: {0}"
+  },
+  "Progress unavailable": {
+    "en": "Progress unavailable",
+    "ja": "進捗は取得できません",
+    "pt": "Progresso indisponível",
+    "de": "Fortschritt nicht verfügbar",
+    "fr": "Progression indisponible",
+    "id": "Progres tidak tersedia",
+    "ru": "Прогресс недоступен",
+    "es": "Progreso no disponible"
+  },
+  "Simulated stats ({0})": {
+    "en": "Simulated stats ({0})",
+    "ja": "シミュレーション値（{0}）",
+    "pt": "Dados simulados ({0})",
+    "de": "Simulierte Werte ({0})",
+    "fr": "Données simulées ({0})",
+    "id": "Data simulasi ({0})",
+    "ru": "Симуляция данных ({0})",
+    "es": "Datos simulados ({0})"
+  },
+  "Withdrawal records unavailable": {
+    "en": "Withdrawal records unavailable",
+    "ja": "出金記録は取得できません",
+    "pt": "Registros de saque indisponíveis",
+    "de": "Auszahlungsdaten nicht verfügbar",
+    "fr": "Historique indisponible",
+    "id": "Catatan penarikan tidak tersedia",
+    "ru": "Записи о выводе недоступны",
+    "es": "Registros de retiro no disponibles"
+  },
+  "Select a withdrawal method and enter the matching account details.": {
+    "en": "Select a withdrawal method and enter the matching account details.",
+    "ja": "出金方法を選び、対応する口座情報を入力してください。",
+    "pt": "Escolha a forma de saque e informe os dados da conta correspondente.",
+    "de": "Wähle eine Auszahlungsmethode und gib die passenden Kontodaten an.",
+    "fr": "Choisissez un mode de retrait et saisissez les coordonnées du compte associé.",
+    "id": "Pilih metode penarikan dan masukkan data akun yang sesuai.",
+    "ru": "Выберите способ вывода и укажите данные соответствующего счёта.",
+    "es": "Elige el método de retiro e ingresa los datos de la cuenta correspondiente."
+  },
+  "Interstitial ad completed": {
+    "en": "Interstitial ad completed",
+    "ja": "広告の再生完了",
+    "pt": "Anúncio concluído",
+    "de": "Werbung abgeschlossen",
+    "fr": "Publicité terminée",
+    "id": "Iklan selesai",
+    "ru": "Реклама завершена",
+    "es": "Anuncio completado"
+  },
+  "Complete this level to continue in local mode": {
+    "en": "Complete this level to continue in local mode",
+    "ja": "このレベルをクリアしてローカルモードで続ける",
+    "pt": "Conclua este nível para continuar no modo local",
+    "de": "Schließe dieses Level ab, um lokal fortzufahren",
+    "fr": "Terminez ce niveau pour continuer en mode local",
+    "id": "Selesaikan level ini untuk lanjut dalam mode lokal",
+    "ru": "Пройдите уровень для продолжения в локальном режиме",
+    "es": "Completa este nivel para seguir en modo local"
+  },
+  "Reward received": {
+    "en": "Reward received",
+    "ja": "報酬を獲得",
+    "pt": "Recompensa recebida",
+    "de": "Belohnung erhalten",
+    "fr": "Récompense reçue",
+    "id": "Hadiah diterima",
+    "ru": "Награда получена",
+    "es": "Recompensa recibida"
+  },
+  "Ad unavailable. Please try again.": {
+    "en": "Ad unavailable. Please try again.",
+    "ja": "広告を利用できません。もう一度お試しください。",
+    "pt": "Anúncio indisponível. Tente novamente.",
+    "de": "Werbung nicht verfügbar. Versuche es erneut.",
+    "fr": "Publicité indisponible. Réessayez.",
+    "id": "Iklan tidak tersedia. Coba lagi.",
+    "ru": "Реклама недоступна. Попробуйте снова.",
+    "es": "Anuncio no disponible. Inténtalo de nuevo."
+  },
+  "Withdrawal service is not connected.": {
+    "en": "Withdrawal service is not connected.",
+    "ja": "出金サービスに未接続です。",
+    "pt": "O serviço de saque não está conectado.",
+    "de": "Der Auszahlungsdienst ist nicht verbunden.",
+    "fr": "Le service de retrait n'est pas connecté.",
+    "id": "Layanan penarikan belum terhubung.",
+    "ru": "Сервис вывода не подключён.",
+    "es": "El servicio de retiros no está conectado."
+  },
+  "Current cash balance": {
+    "en": "Current cash balance",
+    "ja": "現在の現金残高",
+    "pt": "Saldo atual",
+    "de": "Aktuelles Guthaben",
+    "fr": "Solde actuel",
+    "id": "Saldo uang saat ini",
+    "ru": "Текущий баланс",
+    "es": "Saldo actual"
+  },
+  "Replay": {
+    "en": "Replay",
+    "ja": "やり直す",
+    "pt": "Rejogar",
+    "de": "Neu spielen",
+    "fr": "Rejouer",
+    "id": "Ulangi",
+    "ru": "Переиграть",
+    "es": "Repetir"
+  },
+  "User Level": {
+    "en": "User Level",
+    "ja": "プレイヤーレベル",
+    "pt": "Nível do jogador",
+    "de": "Spielerlevel",
+    "fr": "Niveau du joueur",
+    "id": "Level pemain",
+    "ru": "Уровень игрока",
+    "es": "Nivel del jugador"
+  },
+  "<u>User Level</u>": {
+    "en": "<u>User Level</u>",
+    "ja": "<u>プレイヤーレベル</u>",
+    "pt": "<u>Nível do jogador</u>",
+    "de": "<u>Spielerlevel</u>",
+    "fr": "<u>Niveau du joueur</u>",
+    "id": "<u>Level pemain</u>",
+    "ru": "<u>Уровень игрока</u>",
+    "es": "<u>Nivel del jugador</u>"
+  },
+  "Level progress": {
+    "en": "Level progress",
+    "ja": "レベル進捗",
+    "pt": "Progresso do nível",
+    "de": "Levelfortschritt",
+    "fr": "Progression du niveau",
+    "id": "Progres level",
+    "ru": "Прогресс уровня",
+    "es": "Progreso del nivel"
+  },
+  "Player": {
+    "en": "Player",
+    "ja": "プレイヤー",
+    "pt": "Jogador",
+    "de": "Spieler",
+    "fr": "Joueur",
+    "id": "Pemain",
+    "ru": "Игрок",
+    "es": "Jugador"
+  },
+  "You": {
+    "en": "You",
+    "ja": "あなた",
+    "pt": "Você",
+    "de": "Du",
+    "fr": "Vous",
+    "id": "Anda",
+    "ru": "Вы",
+    "es": "Tú"
+  },
+  "Bonus 1": {
+    "en": "Bonus 1",
+    "ja": "ボーナス1",
+    "pt": "Bônus 1",
+    "de": "Bonus 1",
+    "fr": "Bonus 1",
+    "id": "Bonus 1",
+    "ru": "Бонус 1",
+    "es": "Bono 1"
+  },
+  "Bonus 2": {
+    "en": "Bonus 2",
+    "ja": "ボーナス2",
+    "pt": "Bônus 2",
+    "de": "Bonus 2",
+    "fr": "Bonus 2",
+    "id": "Bonus 2",
+    "ru": "Бонус 2",
+    "es": "Bono 2"
+  },
+  "Bonus 3": {
+    "en": "Bonus 3",
+    "ja": "ボーナス3",
+    "pt": "Bônus 3",
+    "de": "Bonus 3",
+    "fr": "Bonus 3",
+    "id": "Bonus 3",
+    "ru": "Бонус 3",
+    "es": "Bono 3"
+  },
+  "Bonus 4": {
+    "en": "Bonus 4",
+    "ja": "ボーナス4",
+    "pt": "Bônus 4",
+    "de": "Bonus 4",
+    "fr": "Bonus 4",
+    "id": "Bonus 4",
+    "ru": "Бонус 4",
+    "es": "Bono 4"
+  },
+  "Bonus 5": {
+    "en": "Bonus 5",
+    "ja": "ボーナス5",
+    "pt": "Bônus 5",
+    "de": "Bonus 5",
+    "fr": "Bonus 5",
+    "id": "Bonus 5",
+    "ru": "Бонус 5",
+    "es": "Bono 5"
+  },
+  "Bonus {0}": {
+    "en": "Bonus {0}",
+    "ja": "ボーナス{0}",
+    "pt": "Bônus {0}",
+    "de": "Bonus {0}",
+    "fr": "Bonus {0}",
+    "id": "Bonus {0}",
+    "ru": "Бонус {0}",
+    "es": "Bono {0}"
+  },
+  "Reward benefit": {
+    "en": "Reward benefit",
+    "ja": "報酬ボーナス",
+    "pt": "Bônus de recompensa",
+    "de": "Belohnungsbonus",
+    "fr": "Bonus de récompense",
+    "id": "Bonus hadiah",
+    "ru": "Бонус награды",
+    "es": "Bono de recompensa"
+  },
+  "Select Screw To Shuffle": {
+    "en": "Select Screw To Shuffle",
+    "ja": "シャッフルするボルトを選択",
+    "pt": "Escolha um parafuso para misturar",
+    "de": "Bolzen zum Mischen wählen",
+    "fr": "Choisissez une tige à mélanger",
+    "id": "Pilih baut untuk diacak",
+    "ru": "Выберите болт для перемешивания",
+    "es": "Elige un perno para mezclar"
+  },
+  "Level complete": {
+    "en": "Level complete",
+    "ja": "レベルクリア",
+    "pt": "Nível concluído",
+    "de": "Level geschafft",
+    "fr": "Niveau terminé",
+    "id": "Level selesai",
+    "ru": "Уровень пройден",
+    "es": "Nivel completado"
+  },
+  "Level Complete": {
+    "en": "Level Complete",
+    "ja": "レベルクリア",
+    "pt": "Nível concluído",
+    "de": "Level geschafft",
+    "fr": "Niveau terminé",
+    "id": "Level selesai",
+    "ru": "Уровень пройден",
+    "es": "Nivel completado"
+  },
+  "Cash": {
+    "en": "Cash",
+    "ja": "出金",
+    "pt": "Sacar",
+    "de": "Auszahlen",
+    "fr": "Retirer",
+    "id": "Tarik",
+    "ru": "Вывод",
+    "es": "Retirar"
+  },
+  "Claim": {
+    "en": "Claim",
+    "ja": "受け取る",
+    "pt": "Receber",
+    "de": "Abholen",
+    "fr": "Recevoir",
+    "id": "Klaim",
+    "ru": "Забрать",
+    "es": "Recibir"
+  },
+  "Claim 10X": {
+    "en": "Claim 10X",
+    "ja": "10倍で受け取る",
+    "pt": "Receber 10X",
+    "de": "10X abholen",
+    "fr": "Recevoir 10X",
+    "id": "Klaim 10X",
+    "ru": "Забрать ×10",
+    "es": "Recibir 10X"
+  },
+  "Confirm": {
+    "en": "Confirm",
+    "ja": "確認",
+    "pt": "Confirmar",
+    "de": "Bestätigen",
+    "fr": "Confirmer",
+    "id": "Konfirmasi",
+    "ru": "Подтвердить",
+    "es": "Confirmar"
+  },
+  "Cancel": {
+    "en": "Cancel",
+    "ja": "キャンセル",
+    "pt": "Cancelar",
+    "de": "Abbrechen",
+    "fr": "Annuler",
+    "id": "Batal",
+    "ru": "Отмена",
+    "es": "Cancelar"
+  },
+  "Close": {
+    "en": "Close",
+    "ja": "閉じる",
+    "pt": "Fechar",
+    "de": "Schließen",
+    "fr": "Fermer",
+    "id": "Tutup",
+    "ru": "Закрыть",
+    "es": "Cerrar"
+  },
+  "Loading...": {
+    "en": "Loading...",
+    "ja": "読み込み中…",
+    "pt": "Carregando...",
+    "de": "Wird geladen...",
+    "fr": "Chargement…",
+    "id": "Memuat...",
+    "ru": "Загрузка…",
+    "es": "Cargando..."
+  },
+  "LOADING...": {
+    "en": "LOADING...",
+    "ja": "読み込み中…",
+    "pt": "CARREGANDO...",
+    "de": "WIRD GELADEN...",
+    "fr": "CHARGEMENT…",
+    "id": "MEMUAT...",
+    "ru": "ЗАГРУЗКА…",
+    "es": "CARGANDO..."
+  },
+  "Withdraw All": {
+    "en": "Withdraw All",
+    "ja": "すべて出金",
+    "pt": "Sacar tudo",
+    "de": "Alles auszahlen",
+    "fr": "Tout retirer",
+    "id": "Tarik semua",
+    "ru": "Вывести всё",
+    "es": "Retirar todo"
+  },
+  "Enter Information": {
+    "en": "Enter Information",
+    "ja": "情報を入力",
+    "pt": "Inserir informações",
+    "de": "Angaben eingeben",
+    "fr": "Saisir les informations",
+    "id": "Masukkan informasi",
+    "ru": "Введите данные",
+    "es": "Ingresa información"
+  },
+  "Enter Name": {
+    "en": "Enter Name",
+    "ja": "名前を入力",
+    "pt": "Digite o nome",
+    "de": "Namen eingeben",
+    "fr": "Saisir le nom",
+    "id": "Masukkan nama",
+    "ru": "Введите имя",
+    "es": "Ingresa tu nombre"
+  },
+  "Enter phone number": {
+    "en": "Enter phone number",
+    "ja": "電話番号を入力",
+    "pt": "Digite o telefone",
+    "de": "Telefonnummer eingeben",
+    "fr": "Saisir le téléphone",
+    "id": "Masukkan nomor telepon",
+    "ru": "Введите номер телефона",
+    "es": "Ingresa tu teléfono"
+  },
+  "Enter email address": {
+    "en": "Enter email address",
+    "ja": "メールアドレスを入力",
+    "pt": "Digite o e-mail",
+    "de": "E-Mail-Adresse eingeben",
+    "fr": "Saisir l'adresse e-mail",
+    "id": "Masukkan alamat email",
+    "ru": "Введите адрес эл. почты",
+    "es": "Ingresa tu correo"
+  },
+  "Select a withdrawal method": {
+    "en": "Select a withdrawal method",
+    "ja": "出金方法を選択",
+    "pt": "Escolha a forma de saque",
+    "de": "Auszahlungsmethode wählen",
+    "fr": "Choisissez un mode de retrait",
+    "id": "Pilih metode penarikan",
+    "ru": "Выберите способ вывода",
+    "es": "Elige el método de retiro"
+  },
+  "Players cleared today": {
+    "en": "Players cleared today",
+    "ja": "今日のクリア人数",
+    "pt": "Jogadores que passaram hoje",
+    "de": "Spieler mit Erfolg heute",
+    "fr": "Joueurs ayant réussi aujourd'hui",
+    "id": "Pemain lolos hari ini",
+    "ru": "Игроков прошли сегодня",
+    "es": "Jugadores que pasaron hoy"
+  },
+  "Average attempts": {
+    "en": "Average attempts",
+    "ja": "平均挑戦回数",
+    "pt": "Média de tentativas",
+    "de": "Versuche im Schnitt",
+    "fr": "Essais moyens",
+    "id": "Rata-rata percobaan",
+    "ru": "Среднее число попыток",
+    "es": "Intentos promedio"
+  },
+  "Average withdrawal amount": {
+    "en": "Average withdrawal amount",
+    "ja": "平均出金額",
+    "pt": "Saque médio",
+    "de": "Auszahlung im Schnitt",
+    "fr": "Retrait moyen",
+    "id": "Rata-rata penarikan",
+    "ru": "Средняя сумма вывода",
+    "es": "Retiro promedio"
+  },
+  "Bolt+": {
+    "en": "Bolt+",
+    "ja": "ボルト追加",
+    "pt": "Parafuso+",
+    "de": "Bolzen+",
+    "fr": "Tige+",
+    "id": "Baut+",
+    "ru": "Болт+",
+    "es": "Perno+"
+  },
+  "Add an empty bolt": {
+    "en": "Add an empty bolt",
+    "ja": "空のボルトを追加",
+    "pt": "Adicionar um parafuso vazio",
+    "de": "Leeren Bolzen hinzufügen",
+    "fr": "Ajouter une tige vide",
+    "id": "Tambah baut kosong",
+    "ru": "Добавить пустой болт",
+    "es": "Añadir un perno vacío"
+  },
+  "Refresh nut arrangement": {
+    "en": "Refresh nut arrangement",
+    "ja": "ナットの配置を変更",
+    "pt": "Misturar as porcas",
+    "de": "Muttern neu anordnen",
+    "fr": "Mélanger les écrous",
+    "id": "Acak susunan mur",
+    "ru": "Перемешать гайки",
+    "es": "Mezclar las tuercas"
+  },
+  "Welcome": {
+    "en": "Welcome",
+    "ja": "ようこそ",
+    "pt": "Boas-vindas",
+    "de": "Willkommen",
+    "fr": "Bienvenue",
+    "id": "Selamat datang",
+    "ru": "Добро пожаловать",
+    "es": "Bienvenido"
+  },
+  "Hello": {
+    "en": "Hello",
+    "ja": "こんにちは",
+    "pt": "Olá",
+    "de": "Hallo",
+    "fr": "Bonjour",
+    "id": "Halo",
+    "ru": "Здравствуйте",
+    "es": "Hola"
+  },
+  "Dedicated Support\nis assisting you": {
+    "en": "Dedicated Support\nis assisting you",
+    "ja": "専任サポートが\nお手伝いします",
+    "pt": "O suporte dedicado\nestá ajudando você",
+    "de": "Unser Support\nhilft dir weiter",
+    "fr": "L'assistance dédiée\nvous accompagne",
+    "id": "Dukungan khusus\nsiap membantu Anda",
+    "ru": "Вам помогает\nслужба поддержки",
+    "es": "El soporte dedicado\nte está ayudando"
+  },
+  "Support ID: {0}": {
+    "en": "Support ID: {0}",
+    "ja": "サポートID：{0}",
+    "pt": "ID de suporte: {0}",
+    "de": "Support-ID: {0}",
+    "fr": "ID d'assistance : {0}",
+    "id": "ID Dukungan: {0}",
+    "ru": "ID поддержки: {0}",
+    "es": "ID de soporte: {0}"
+  },
+  "Local": {
+    "en": "Local",
+    "ja": "ローカル",
+    "pt": "Local",
+    "de": "Lokal",
+    "fr": "Local",
+    "id": "Lokal",
+    "ru": "Локально",
+    "es": "Local"
+  },
+  "LOCAL MODE - SDK skipped": {
+    "en": "LOCAL MODE - SDK skipped",
+    "ja": "ローカルモード・SDK未使用",
+    "pt": "MODO LOCAL - sem SDK",
+    "de": "LOKALER MODUS - ohne SDK",
+    "fr": "MODE LOCAL - sans SDK",
+    "id": "MODE LOKAL - SDK dilewati",
+    "ru": "ЛОКАЛЬНЫЙ РЕЖИМ — без SDK",
+    "es": "MODO LOCAL - sin SDK"
+  },
+  "Tool unavailable\nSDK rewards are skipped": {
+    "en": "Tool unavailable\nSDK rewards are skipped",
+    "ja": "道具を利用できません\nSDK報酬は無効です",
+    "pt": "Item indisponível\nRecompensas do SDK desativadas",
+    "de": "Hilfsmittel nicht verfügbar\nSDK-Belohnungen deaktiviert",
+    "fr": "Objet indisponible\nRécompenses SDK désactivées",
+    "id": "Alat tidak tersedia\nHadiah SDK dilewati",
+    "ru": "Предмет недоступен\nНаграды SDK отключены",
+    "es": "Objeto no disponible\nRecompensas del SDK desactivadas"
+  },
+  "Account...": {
+    "en": "Account...",
+    "ja": "口座…",
+    "pt": "Conta...",
+    "de": "Konto...",
+    "fr": "Compte…",
+    "id": "Akun...",
+    "ru": "Счёт…",
+    "es": "Cuenta..."
+  },
+  "Enter name...": {
+    "en": "Enter name...",
+    "ja": "名前を入力…",
+    "pt": "Digite o nome...",
+    "de": "Namen eingeben...",
+    "fr": "Saisir le nom…",
+    "id": "Masukkan nama...",
+    "ru": "Введите имя…",
+    "es": "Ingresa tu nombre..."
+  },
+  "Enter text...": {
+    "en": "Enter text...",
+    "ja": "入力…",
+    "pt": "Digite aqui...",
+    "de": "Hier eingeben...",
+    "fr": "Saisir le texte…",
+    "id": "Masukkan teks...",
+    "ru": "Введите текст…",
+    "es": "Escribe aquí..."
+  },
+  "Phone/Email": {
+    "en": "Phone/Email",
+    "ja": "電話／メール",
+    "pt": "Telefone/E-mail",
+    "de": "Telefon/E-Mail",
+    "fr": "Téléphone/E-mail",
+    "id": "Telepon/Email",
+    "ru": "Телефон/Эл. почта",
+    "es": "Teléfono/Correo"
+  },
+  "Dont move Nut!": {
+    "en": "Dont move Nut!",
+    "ja": "ナットを動かさないで！",
+    "pt": "Não mova a porca!",
+    "de": "Mutter nicht bewegen!",
+    "fr": "Ne bougez pas l'écrou !",
+    "id": "Jangan pindahkan mur!",
+    "ru": "Не двигайте гайку!",
+    "es": "¡No muevas la tuerca!"
+  },
+  "I know": {
+    "en": "I know",
+    "ja": "わかりました",
+    "pt": "Entendi",
+    "de": "Verstanden",
+    "fr": "Compris",
+    "id": "Mengerti",
+    "ru": "Понятно",
+    "es": "Entendido"
+  },
+  "My Diamond": {
+    "en": "My Diamond",
+    "ja": "所持ダイヤ",
+    "pt": "Meus diamantes",
+    "de": "Meine Diamanten",
+    "fr": "Mes diamants",
+    "id": "Berlian saya",
+    "ru": "Мои алмазы",
+    "es": "Mis diamantes"
+  },
+  "My Level": {
+    "en": "My Level",
+    "ja": "自分のレベル",
+    "pt": "Meu nível",
+    "de": "Mein Level",
+    "fr": "Mon niveau",
+    "id": "Level saya",
+    "ru": "Мой уровень",
+    "es": "Mi nivel"
+  },
+  "Only a little": {
+    "en": "Only a little",
+    "ja": "少しだけ",
+    "pt": "Só um pouco",
+    "de": "Nur ein wenig",
+    "fr": "Juste un peu",
+    "id": "Sedikit saja",
+    "ru": "Совсем немного",
+    "es": "Solo un poco"
+  },
+  "X10 Times Claimed": {
+    "en": "X10 Times Claimed",
+    "ja": "10倍報酬を獲得済み",
+    "pt": "Recompensa 10X recebida",
+    "de": "10X-Belohnung abgeholt",
+    "fr": "Récompense 10X reçue",
+    "id": "Hadiah 10X diklaim",
+    "ru": "Награда ×10 получена",
+    "es": "Recompensa 10X recibida"
+  },
+  "Withdrawal goals completed": {
+    "en": "Withdrawal goals completed",
+    "ja": "出金条件を達成",
+    "pt": "Metas de saque cumpridas",
+    "de": "Auszahlungsziele erreicht",
+    "fr": "Objectifs de retrait atteints",
+    "id": "Target penarikan tercapai",
+    "ru": "Цели вывода достигнуты",
+    "es": "Metas de retiro cumplidas"
+  },
+  "Revive": {
+    "en": "Revive",
+    "ja": "復活",
+    "pt": "Reviver",
+    "de": "Fortsetzen",
+    "fr": "Reprendre",
+    "id": "Lanjutkan",
+    "ru": "Возродиться",
+    "es": "Revivir"
+  },
+  "Revoke": {
+    "en": "Revoke",
+    "ja": "元に戻す",
+    "pt": "Desfazer",
+    "de": "Rückgängig",
+    "fr": "Annuler",
+    "id": "Urungkan",
+    "ru": "Отменить ход",
+    "es": "Deshacer"
+  },
+  "Restart": {
+    "en": "Restart",
+    "ja": "やり直す",
+    "pt": "Reiniciar",
+    "de": "Neustart",
+    "fr": "Recommencer",
+    "id": "Mulai ulang",
+    "ru": "Заново",
+    "es": "Reiniciar"
+  },
+  "Restarting will lose your progress on this level\nAre you sure you want to do this?": {
+    "en": "Restarting will lose your progress on this level\nAre you sure you want to do this?",
+    "ja": "やり直すと、このレベルの進捗が失われます。\nよろしいですか？",
+    "pt": "Reiniciar apagará seu progresso neste nível.\nTem certeza?",
+    "de": "Beim Neustart geht dein Levelfortschritt verloren.\nBist du sicher?",
+    "fr": "Recommencer effacera votre progression dans ce niveau.\nVoulez-vous continuer ?",
+    "id": "Memulai ulang akan menghapus progres level ini.\nAnda yakin?",
+    "ru": "При перезапуске прогресс уровня будет потерян.\nВы уверены?",
+    "es": "Al reiniciar perderás tu progreso en este nivel.\n¿Quieres continuar?"
+  },
+  "OK": {
+    "en": "OK",
+    "ja": "OK",
+    "pt": "OK",
+    "de": "OK",
+    "fr": "OK",
+    "id": "OK",
+    "ru": "ОК",
+    "es": "OK"
+  },
+  "MAX": {
+    "en": "MAX",
+    "ja": "最大",
+    "pt": "MÁX.",
+    "de": "MAX.",
+    "fr": "MAX.",
+    "id": "MAKS.",
+    "ru": "МАКС.",
+    "es": "MÁX."
+  },
+  "Current State": {
+    "en": "Current State",
+    "ja": "現在の状況",
+    "pt": "Status atual",
+    "de": "Aktueller Status",
+    "fr": "Statut actuel",
+    "id": "Status saat ini",
+    "ru": "Текущий статус",
+    "es": "Estado actual"
+  },
+  "Success": {
+    "en": "Success",
+    "ja": "成功",
+    "pt": "Sucesso",
+    "de": "Geschafft",
+    "fr": "Réussite",
+    "id": "Berhasil",
+    "ru": "Успех",
+    "es": "Éxito"
+  },
+  "Tip": {
+    "en": "Tip",
+    "ja": "ヒント",
+    "pt": "Dica",
+    "de": "Tipp",
+    "fr": "Conseil",
+    "id": "Tips",
+    "ru": "Подсказка",
+    "es": "Consejo"
+  },
+  "Sure": {
+    "en": "Sure",
+    "ja": "確認",
+    "pt": "Confirmar",
+    "de": "Bestätigen",
+    "fr": "Confirmer",
+    "id": "Konfirmasi",
+    "ru": "Подтвердить",
+    "es": "Confirmar"
+  },
+  "Level {0}": {
+    "en": "Level {0}",
+    "ja": "レベル{0}",
+    "pt": "Nível {0}",
+    "de": "Level {0}",
+    "fr": "Niveau {0}",
+    "id": "Level {0}",
+    "ru": "Уровень {0}",
+    "es": "Nivel {0}"
+  },
+  "Level Stats ({0})": {
+    "en": "Level Stats ({0})",
+    "ja": "レベル統計（{0}）",
+    "pt": "Estatísticas ({0})",
+    "de": "Levelstatistik ({0})",
+    "fr": "Statistiques ({0})",
+    "id": "Statistik level ({0})",
+    "ru": "Статистика ({0})",
+    "es": "Estadísticas ({0})"
+  },
+  "Withdrawal amount": {
+    "en": "Withdrawal amount",
+    "ja": "出金額",
+    "pt": "Valor do saque",
+    "de": "Auszahlungsbetrag",
+    "fr": "Montant du retrait",
+    "id": "Jumlah penarikan",
+    "ru": "Сумма вывода",
+    "es": "Importe del retiro"
+  },
+  "Withdrawal\nHistory": {
+    "en": "Withdrawal\nHistory",
+    "ja": "出金履歴",
+    "pt": "Histórico de saques",
+    "de": "Auszahlungsverlauf",
+    "fr": "Historique des retraits",
+    "id": "Riwayat penarikan",
+    "ru": "История вывода",
+    "es": "Historial de retiros"
+  }
+}

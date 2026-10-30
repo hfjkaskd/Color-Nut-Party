@@ -31,6 +31,7 @@ namespace NutSort.Content
             amount=Math.Round(amount,config.CountryCode=="ID"?0:2,MidpointRounding.AwayFromZero);
             if(amount<=0||double.IsNaN(amount)||double.IsInfinity(amount))throw new InvalidOperationException("Invalid local cash settlement.");
             user.LocalPendingReward=new JObject{{"country",config.CountryCode},{"amount",amount},{"nextLevel",user.Level}};
+            LocalAnalytics.ClaimId(user.LocalPendingReward);
             AddConfiguredDiamonds(user,random);
             return user.LocalPendingReward;
         }

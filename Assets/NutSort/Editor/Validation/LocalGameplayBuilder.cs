@@ -50,7 +50,8 @@ namespace NutSort.Validation
                 var panel=instance.GetComponent<OriginalSuccessPanel>();
                 panel.Ad.SetActive(false);panel.CloseButton.gameObject.SetActive(false);panel.GetButton.gameObject.SetActive(false);
                 panel.Main.Find("Items").gameObject.SetActive(false);
-                panel.MoreLabel.rectTransform.anchoredPosition=Vector2.zero;
+                // Keep the source prefab's text lane clear of the optional video icon.
+                // OriginalSuccessPanel centers the caption only while that icon is hidden.
                 PrefabUtility.SaveAsPrefabAsset(instance,"Assets/Resources/prefabs/panels/LocalSuccess.prefab");
             }
             finally{UnityEngine.Object.DestroyImmediate(instance);}
@@ -102,8 +103,8 @@ namespace NutSort.Validation
                 so.FindProperty("failurePrefabPath").stringValue="Prefabs/Panels/LocalFailure";
                 BuildLocalFailure();
                 var bottom=((GameObject)PrefabUtility.InstantiatePrefab(Resources.Load<GameObject>("Prefabs/Panels/MainPanelBottom"),rect)).GetComponent<OriginalMainBottomView>();
-                // Settings remain outside this core-only local composition.
-                bottom.Setting.transform.parent.gameObject.SetActive(false);
+                bottom.Setting.transform.parent.gameObject.SetActive(true);
+                so.FindProperty("settingsPrefabPath").stringValue="Prefabs/Panels/LocalSettings";
                 var original=Resources.Load<GameObject>("Prefabs/Panels/MainPanelComplete").GetComponent<OriginalMainPanelView>();
                 var mask=UnityEngine.Object.Instantiate(original.ExchangeMask.gameObject,rect,false).GetComponent<Button>();
                 mask.name="ExchangeMask";mask.gameObject.SetActive(false);
@@ -112,10 +113,7 @@ namespace NutSort.Validation
                 so.FindProperty("exchangeCancelDelay").floatValue=new SerializedObject(original).FindProperty("exchangeCancelDelay").floatValue;
                 so.FindProperty("normalClaimAdThreshold").intValue=3;
                 so.FindProperty("interstitialClaimLimit").intValue=5;
-                so.FindProperty("simulateSettlementAds").boolValue=true;
                 so.FindProperty("interstitialCompleteText").stringValue="Interstitial ad completed";
-                so.FindProperty("simulateRewardedToolAds").boolValue=true;
-                so.FindProperty("simulatedToolAdDelay").floatValue=0.5f;
                 so.FindProperty("toolAdSuccessText").stringValue="Reward received";
                 so.FindProperty("toolAdFailureText").stringValue="Ad unavailable. Please try again.";
                 so.FindProperty("toolOfferPrefabPath").stringValue="Prefabs/Panels/ItemGetPanel";

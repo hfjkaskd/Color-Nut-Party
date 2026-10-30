@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879d5131795149578e3dba9670a39bdf, type: 3}
+  m_Name: CurrencyArt
+  m_EditorClassIdentifier:
+  defaultSmallCode: US
+  defaultLargeCode: US
+  entries:
+  - Country: US
+    SmallCode: US
+    LargeCode: US
+  - Country: AR
+    SmallCode: AR
+    LargeCode: AR
+  - Country: BR
+    SmallCode: BR
+    LargeCode: BR
+  - Country: DE
+    SmallCode: DE
+    LargeCode: DE
+  - Country: ES
+    SmallCode: DE
+    LargeCode: DE
+  - Country: IT
+    SmallCode: DE
+    LargeCode: DE
+  - Country: AT
+    SmallCode: DE
+    LargeCode: DE
+  - Country: BE
+    SmallCode: DE
+    LargeCode: DE
+  - Country: NL
+    SmallCode: DE
+    LargeCode: DE
+  - Country: PT
+    SmallCode: DE
+    LargeCode: DE
+  - Country: GB
+    SmallCode: GB
+    LargeCode: GB
+  - Country: ID
+    SmallCode: ID
+    LargeCode: ID
+  - Country: JP
+    SmallCode: JP
+    LargeCode: JP
+  - Country: MX
+    SmallCode: MX
+    LargeCode: MX
+  - Country: RU
+    SmallCode: RU
+    LargeCode: RU

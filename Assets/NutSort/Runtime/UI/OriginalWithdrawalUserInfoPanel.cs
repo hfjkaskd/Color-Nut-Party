@@ -55,11 +55,11 @@ namespace NutSort.UI
             for(int i=0;i<channels.Length;i++)
             {
                 int index=i;var c=channels[i];c.Checkmark.canvasRenderer.SetAlpha(c.On?1:0);
-                c.Button.onClick.RemoveAllListeners();c.Button.onClick.AddListener(()=>SetChannelOn(index,!channels[index].On));
+                c.Button.onClick.RemoveAllListeners();c.Button.onClick.AddListener(()=>{LocalAnalyticsPopup.Action(this,"select_channel",index.ToString());SetChannelOn(index,!channels[index].On);});
             }
         }
         private void BindButton(Button button,Action action)
-        {button.onClick.RemoveAllListeners();button.onClick.AddListener(()=>{if(!canClick())return;action();sound(settings.ClickSound);});}
+        {button.onClick.RemoveAllListeners();button.onClick.AddListener(()=>{if(!canClick())return;LocalAnalyticsPopup.Action(this,button==GetBtn?"save_account":button==CloseBtn?"close":"channel_help");action();sound(settings.ClickSound);});}
         public void Refresh()=>flow.Refresh();
         public string Name{get=>InputName.text;set=>InputName.text=value;}
         public string Email{get=>InputEmail.text;set=>InputEmail.text=value;}

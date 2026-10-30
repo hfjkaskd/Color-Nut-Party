@@ -1,5 +1,31 @@
 {
   "dependencies": {
+    "com.adjust.sdk": {
+      "version": "file:com.adjust.sdk",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.applovin.mediation.ads": {
+      "version": "file:com.applovin.mediation.ads",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.google.external-dependency-manager": "1.2.182"
+      }
+    },
+    "com.google.external-dependency-manager": {
+      "version": "file:com.google.external-dependency-manager",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.thinkingdata.analytics": {
+      "version": "file:com.thinkingdata.analytics",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.burst": {
       "version": "1.8.21",
       "depth": 1,

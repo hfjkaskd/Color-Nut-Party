@@ -99,5 +99,27 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1709254077376921, guid: 9443fb7b736645958cf2f35535aec496, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4160751484603966720}
   m_SourcePrefab: {fileID: 100100000, guid: 9443fb7b736645958cf2f35535aec496, type: 3}
+--- !u!1 &2630448630174696586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1709254077376921, guid: 9443fb7b736645958cf2f35535aec496, type: 3}
+  m_PrefabInstance: {fileID: 2632118244653477139}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4160751484603966720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2630448630174696586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde6127c3c62dd84685871004a49b91a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popupId: failure
+  entry: game_flow

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+  <androidPackages>
+    <!-- Official MAX custom adapter integration uses the com.anythink namespace.
+         Do not upgrade these modules independently: later versions rename it.
+         https://help.toponad.net/docs/Integrate-TopOn-Adx-with-Max-Mediation -->
+    <androidPackage spec="com.anythink.sdkadx:max-mediation-adapter:1.1.8">
+      <repositories>
+        <repository>https://jfrog.anythinktech.com/artifactory/overseas_sdk</repository>
+      </repositories>
+    </androidPackage>
+    <androidPackage spec="com.anythink.sdk:core-tpn:6.4.17">
+      <repositories>
+        <repository>https://jfrog.anythinktech.com/artifactory/overseas_sdk</repository>
+      </repositories>
+    </androidPackage>
+    <androidPackage spec="com.anythink.sdk:banner-tpn:6.4.17" />
+    <androidPackage spec="com.anythink.sdk:nativead-tpn:6.4.17" />
+    <androidPackage spec="com.anythink.sdk:interstitial-tpn:6.4.17" />
+    <androidPackage spec="com.anythink.sdk:rewardedvideo-tpn:6.4.17" />
+    <androidPackage spec="androidx.appcompat:appcompat:1.1.0" />
+    <androidPackage spec="androidx.browser:browser:1.4.0" />
+  </androidPackages>
+</dependencies>

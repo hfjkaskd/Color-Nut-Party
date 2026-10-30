@@ -1,0 +1,6 @@
+{
+    "name": "DeviceInfo",
+    "references": [
+        "AdjustSdk.Scripts"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "AdjustIntegration.Runtime",
+    "rootNamespace": "AdjustIntegration",
+    "references": [
+        "AdjustSdk.Scripts"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

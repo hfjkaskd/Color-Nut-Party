@@ -41,7 +41,8 @@ namespace NutSort.UI
             display=new OriginalGameplayUnlockDisplay(()=>icons.Length,(i,active)=>{if(icons[i]!=null)icons[i].SetActive(active);},id=>tip.text=tables.Text.GetText(id,language));
             foreach(var label in labels)label.Text.text=tables.Text.GetText(label.Id,language);
             continueButton.onClick.RemoveAllListeners();continueButton.onClick.AddListener(Continue);
-            backdrop.color=new Color(0,0,0,settings.BackdropAlpha);
+            // The Prefab owns its backdrop tint; the panel settings own opacity.
+            var backdropTint=backdrop.color;backdropTint.a=settings.BackdropAlpha;backdrop.color=backdropTint;
             main.localScale=Vector3.zero;title.localScale=Vector3.zero;
             elapsed=closeElapsed=0;opening=true;closing=false;
             audio(appearSound);
@@ -56,7 +57,7 @@ namespace NutSort.UI
             hidden?.Invoke();
             schedule(queueDelay,actionQueue.Dequeue);
         }
-        private void Continue(){if(!gate())return;continuation.Run(index,showBanner);audio(clickSound);}
+        private void Continue(){if(!gate())return;LocalAnalyticsPopup.Action(this,"continue");continuation.Run(index,showBanner);audio(clickSound);}
         public void Close(){if(closing)return;closing=true;opening=false;closeElapsed=0;closeStart=main.localScale;}
         private void Awake(){OriginalUIAnimationDriver.Register(this,Advance);}
         private void OnDestroy(){OriginalUIAnimationDriver.Unregister(this);}

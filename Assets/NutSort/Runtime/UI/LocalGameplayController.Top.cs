@@ -39,7 +39,8 @@ namespace NutSort.UI
         }
         private bool TryTopClick()
         {
-            if(game.InputBlocked||game.IsRestarting||HasLocalModal||startup.Replay.IsClickMasked)return false;
+            if(game.InputBlocked||game.IsRestarting||startup.Replay.IsClickMasked)return false;
+            if(RejectTeachingHudClick()||HasLocalModal)return false;
             return startup.Replay.BeginClick();
         }
         private void ShowTopRequirement(bool coin)
@@ -55,12 +56,17 @@ namespace NutSort.UI
             if(changed)rewardsTop.Gold.RefreshIcon();
             rewardsTop.Gold.RefreshGold();
             rewardsTop.Coin.RefreshCoin();
-            rewardsTop.Coin.gameObject.SetActive(true);
+            bool teaching=game.User.Level<2&&!game.NewLevelMode;
+            rewardsTop.Coin.gameObject.SetActive(!teaching&&ShouldAllowDiamondRewards);
             var stage=OriginalRewardProgressData.Read(game.User.GoldRewardTargetS2CData);
-            bool hasHint=game.User.Level<=stage.Stage2RealLevel||!string.IsNullOrEmpty(game.User.TXTargetGold);
-            rewardsTop.Gold.GoldHintText.text=hasHint?topProgress.GetDescription(language).Replace("\n"," "):string.Empty;
+            bool targetPending=game.User.Level>stage.Stage2RealLevel&&string.IsNullOrEmpty(game.User.TXTargetGold);
+            bool hasHint=true;
+            rewardsTop.Gold.GoldHintText.text=targetPending?WithdrawalText("unknown"):topProgress.GetDescription(language).Replace("\n"," ");
             rewardsTop.Gold.GoldHintText.transform.parent.gameObject.SetActive(hasHint);
             rewardsTop.Hidden.Refresh();
+            // The teaching progress uses this same HUD area; its existing nodes
+            // take precedence until normal level presentation resumes.
+            if(teaching)rewardsTop.Hidden.gameObject.SetActive(false);
             rewardsTop.Hidden.SubRounds.SetActive(false); // The existing local subround strip owns this display.
             startup.MainLevel.Refresh(game.Tables,game.PlayerLevel,language,rewardsTop.Hidden.gameObject.activeSelf,false);
         }

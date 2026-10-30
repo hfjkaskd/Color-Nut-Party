@@ -236,6 +236,7 @@ namespace NutSort.UI
         private void ContinueClicked()
         {
             if(!beginClick())return;
+            LocalAnalyticsPopup.Action(this,"continue");
             ClickAction?.Invoke();
             ClickAction=null;
             clickSound();
@@ -243,6 +244,7 @@ namespace NutSort.UI
         private void CloseClicked()
         {
             if(!beginClick())return;
+            LocalAnalyticsPopup.Action(this,"close");
             IsOpen=false;
             Close();
             clickSound();

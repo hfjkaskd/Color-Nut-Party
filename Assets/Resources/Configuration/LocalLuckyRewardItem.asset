@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4df0cc3380d4cf2aac14f567cf7a503, type: 3}
+  m_Name: LocalLuckyRewardItem
+  m_EditorClassIdentifier: 
+  ItemPath: Prefabs/Items/Item
+  BigItemPath: Prefabs/Items/LocalLuckyItem
+  GoldFormat: Atlas/Golds/{0}{1}
+  ItemPrefix: Atlas/Items/
+  BigCoinPath: Atlas/Items/Coin2
+  ItemNames:
+  - Gold
+  - Coin
+  - Revoke
+  - Exchange
+  - AddScrew
+  GoldType: 1
+  BigGoldType: 3

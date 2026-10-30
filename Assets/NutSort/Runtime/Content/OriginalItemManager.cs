@@ -21,6 +21,10 @@ namespace NutSort.Content
         public void Add(OriginalItemInfo item,bool refresh=true)
         {
             if(item==null)throw new NullReferenceException("itemInfo");
+            string source=item.IntCount<0?"prop_use":string.IsNullOrEmpty(LocalAnalytics.Current?.OperationId)?"prop_reward":LocalAnalytics.Current.OperationSource;
+            using(var operation=LocalAnalytics.Operation(source,
+                LocalAnalytics.Current?.OperationId))
+            {
             switch(item.ItemType)
             {
                 case 0:setGold(item.CurrentCount,true,true);return;
@@ -30,8 +34,11 @@ namespace NutSort.Content
                 case 4:user.AddScrewCount=unchecked(user.AddScrewCount+item.IntCount);break;
                 default:return;
             }
+            if(item.IntCount<0)LocalAnalytics.Current?.PreparePropUse(item.ItemType);
             save();
+            if(item.IntCount<0)LocalAnalytics.Current?.PropUsed(item.ItemType,LocalAnalytics.Current.OperationId,"inventory");
             if(refresh)refreshBottom();
+            }
         }
     }
 }

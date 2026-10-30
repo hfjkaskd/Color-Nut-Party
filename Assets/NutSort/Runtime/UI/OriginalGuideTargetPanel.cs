@@ -24,6 +24,7 @@ namespace NutSort.UI
         private Action<string> audio;
         private Action closed;
         private OriginalGuideTargetCompletion continuation;
+        private Action noticeConfirmed;
 
 
         private bool opening,closing;
@@ -38,7 +39,27 @@ namespace NutSort.UI
             Action<bool,bool> initializeDone,Action closed)
         {
             this.gate=gate;this.audio=audio;this.closed=closed;
+            noticeConfirmed=null;
             continuation=new OriginalGuideTargetCompletion(user,level,formatGold,Close,initializeDone);
+            InitializePresentation(tables,language,country);
+        }
+        // Presentation of an already persisted reward. The caller owns its receipt;
+        // this path never claims another reward or runs withdrawal-guide callbacks.
+        public void InitializeNotice(OriginalTables tables,string language,Func<string> country,string amount,string titleText,string buttonText,
+            Func<bool> gate,Action<string> audio,Action confirmed,Action closed)
+        {
+            this.gate=gate;this.audio=audio;this.closed=closed;
+            continuation=null;noticeConfirmed=confirmed;
+            InitializePresentation(tables,language,country);
+            tip.text=amount;
+            foreach(var label in labels)
+            {
+                if(label.Id==162)label.Text.text=titleText;
+                else if(label.Id==1)label.Text.text=buttonText;
+            }
+        }
+        private void InitializePresentation(OriginalTables tables,string language,Func<string> country)
+        {
             foreach(var label in labels)label.Text.text=tables.Text.GetText(label.Id,language);
             goldImage.Bind(country);
             continueButton.onClick.RemoveAllListeners();continueButton.onClick.AddListener(Continue);
@@ -46,7 +67,7 @@ namespace NutSort.UI
             main.localScale=Vector3.zero;title.localScale=Vector3.zero;
             elapsed=closeElapsed=0;opening=true;closing=false;
         }
-        public void Refresh(){tip.text=continuation.Refresh();}
+        public void Refresh(){if(continuation!=null)tip.text=continuation.Refresh();}
         public void BindHide(OriginalPanelActionQueue actionQueue,Action<float,Action> schedule,Action hidden=null)
         {
             this.actionQueue=actionQueue;this.schedule=schedule;this.hidden=hidden;
@@ -56,7 +77,14 @@ namespace NutSort.UI
             hidden?.Invoke();
             schedule(queueDelay,actionQueue.Dequeue);
         }
-        private void Continue(){if(!gate())return;continuation.Continue();audio(clickSound);}
+        private void Continue()
+        {
+            if(!gate())return;
+            LocalAnalyticsPopup.Action(this,"continue");
+            if(noticeConfirmed!=null){noticeConfirmed();Close();}
+            else continuation.Continue();
+            audio(clickSound);
+        }
         public void Close(){if(closing)return;closing=true;opening=false;closeElapsed=0;closeStart=main.localScale;}
         private void Awake(){OriginalUIAnimationDriver.Register(this,Advance);}
         private void OnDestroy(){OriginalUIAnimationDriver.Unregister(this);}

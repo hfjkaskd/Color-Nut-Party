@@ -66,8 +66,22 @@ namespace NutSort.UI
             foreach(var label in labels)label.Text.text=tables.Text.GetText(label.Id,language);
         },action=>BindButton(SureBtn,action),action=>BindButton(CloseBtn,action));
         private void BindButton(Button button,Action action)
-        {button.onClick.RemoveAllListeners();button.onClick.AddListener(()=>{if(!canClick())return;action();sound(settings.ClickSound);});}
+        {button.onClick.RemoveAllListeners();button.onClick.AddListener(()=>{if(!canClick())return;LocalAnalyticsPopup.Action(this,button==CloseBtn?"close":"review");action();sound(settings.ClickSound);});}
         public void Refresh()=>flow.Refresh();
+        public void SetLocalReview(string heading,string description,string service,string actionCaption,string completed,string pending,string next,string targetTip)
+        {
+            foreach(var label in labels)
+            {
+                if(label.Id==42)label.Text.text=heading;
+                else if(label.Id==43)label.Text.text=description;
+                else if(label.Id==50)label.Text.text=actionCaption;
+                else if(label.Id==38)label.Text.text=completed;
+                else if(label.Id==39)label.Text.text=pending;
+                else if(label.Id==41)label.Text.text=next;
+            }
+            KeFu.text=service;
+            Tip.text=targetTip;
+        }
         public void Close(){if(this==null)return;closes.Add(new CloseTrack());}
         public void Hide(){hidden();schedule(queueDelay,next);}
         private void Awake()=>OriginalUIAnimationDriver.Register(this,Advance);

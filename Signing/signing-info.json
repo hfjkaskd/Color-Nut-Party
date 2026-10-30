@@ -1,0 +1,21 @@
+{
+  "application": "Color Nut Party",
+  "package": "com.color.nutparty",
+  "alias": "cnp_qt_qianmingwenjian",
+  "keystore_type": "JKS",
+  "key_algorithm": "RSA",
+  "key_bits": 2048,
+  "certificate_subject": "CN=Color Nut Party",
+  "certificate_country": null,
+  "valid_from_utc": "2026-10-09T05:45:03-04:00",
+  "valid_to_utc": "2054-02-24T04:45:03-05:00",
+  "certificate_sha256": "d14d534c3d52c389e24441dfe880bdcc0789fa846a7ab03e5368f81c560203a6",
+  "keystore_sha256": "ea078ab85f86b98eb7433d601e9d5e442c097784bf839bedbafeea1c7dbbf1aa",
+  "encrypted_backup": "cnp_qt_qianmingwenjian.keystore.aesgcm",
+  "backup_algorithm": "AES-256-GCM",
+  "remote_upload_status": "original_keystore_uploaded",
+  "remote_repository": "https://github.com/hfjkaskd/Color-Nut-Party",
+  "remote_branch": "main",
+  "remote_commit": "03ea3dc3de818bf6a978f9c88a82234c0ec4707c",
+  "remote_path": "Signing/cnp_qt_qianmingwenjian.keystore"
+}

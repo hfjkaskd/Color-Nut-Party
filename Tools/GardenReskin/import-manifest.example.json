@@ -1,0 +1,33 @@
+{
+  "originalZip": "Docs/GardenReskin/OriginalAssets/before-reskin.zip",
+  "report": "Docs/GardenReskin/import-report.json",
+  "alphaThreshold": 100,
+  "padding": 2,
+  "sourceSliceRatio": 0.16,
+  "entries": [
+    {
+      "target": "Assets/Resources/game/spirte/bg.png",
+      "source": "Docs/GardenReskin/Generated/background.png",
+      "mode": "full"
+    },
+    {
+      "target": "Assets/Texture2D/bg_0.png",
+      "source": "Docs/GardenReskin/Generated/panels.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 3,
+      "cell": 0,
+      "sourceSliceRatio": 0.16
+    },
+    {
+      "target": "Assets/Resources/atlas/txcoinpanel/item_bg1_1.png",
+      "source": "Docs/GardenReskin/Generated/panels.png",
+      "mode": "grid",
+      "columns": 4,
+      "rows": 3,
+      "cell": 1,
+      "alphaThreshold": 200,
+      "preserveOriginalAlpha": true
+    }
+  ]
+}

@@ -19,12 +19,15 @@ namespace NutSort.World
         private readonly List<Voice> active = new List<Voice>();
         private OriginalLevelView level;
         private bool initialized;
+        private int vibrationFrame = -1;
         public bool AudioEnabled => userState.Data.IsAudio;
+        public bool VibrationEnabled => userState.Data.IsVibrate;
         public OriginalUserSession UserState => userState;
         public AudioSource Background => background;
         public int ActiveVoiceCount => active.Count;
         public int CachedClipCount => clips.Count;
         public event Action<string> SoundStarted;
+        public event Action VibrationRequested;
 
         private void Awake() { Initialize(); }
         public void Initialize()
@@ -49,8 +52,25 @@ namespace NutSort.World
             level.MoveSoundRequested -= PlayMove;
             level = null;
         }
-        private void PlaySelection() { PlaySound(settings.SelectName); }
-        private void PlayMove(int count) { PlaySound(string.Format(CultureInfo.InvariantCulture, settings.MoveNameFormat, count)); }
+        private void PlaySelection() { PlaySound(settings.SelectName); PlayVibration(); }
+        private void PlayMove(int count) { PlaySound(string.Format(CultureInfo.InvariantCulture, settings.MoveNameFormat, count)); PlayVibration(); }
+
+        public void SetVibrationEnabled(bool value)
+        {
+            Initialize();
+            userState.Data.IsVibrate = value;
+        }
+
+        public void PlayVibration()
+        {
+            Initialize();
+            if (!VibrationEnabled || vibrationFrame == Time.frameCount) return;
+            // Selection and transfer can be emitted together by one operation.
+            // One platform request gives that action a single haptic response.
+            vibrationFrame = Time.frameCount;
+            VibrationRequested?.Invoke();
+            Handheld.Vibrate();
+        }
 
         private ClipEntry GetClip(string name)
         {

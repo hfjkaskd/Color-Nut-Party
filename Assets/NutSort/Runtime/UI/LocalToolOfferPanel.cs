@@ -18,8 +18,8 @@ namespace NutSort.UI
   {
    int slot=type-2;Title.text=tables.Text.GetText(titleIds[slot],language);Tip.text=tables.Text.GetText(tipIds[slot],language);
    claimLabel.text=tables.Text.GetText(140,language);ItemIcon.sprite=Resources.Load<Sprite>(iconPaths[slot]);CoinTip.SetActive(false);
-   GetBtn.onClick.RemoveAllListeners();GetBtn.onClick.AddListener(()=>{if(canClick())claim();});
-   Close.onClick.RemoveAllListeners();Close.onClick.AddListener(()=>{if(canClick())close();});
+   GetBtn.onClick.RemoveAllListeners();GetBtn.onClick.AddListener(()=>{if(canClick()){LocalAnalyticsPopup.Action(this,"claim",LocalAnalytics.Prop(type));claim();}});
+   Close.onClick.RemoveAllListeners();Close.onClick.AddListener(()=>{if(canClick()){LocalAnalyticsPopup.Action(this,"close");close();}});
   }
  }
 }

@@ -11,8 +11,6 @@ namespace NutSort.UI
         [SerializeField] private float exchangeCancelDelay;
         [SerializeField] private string popTipPrefabPath;
         [SerializeField] private int localToolRefillCount;
-        [SerializeField] private bool simulateRewardedToolAds;
-        [SerializeField] private float simulatedToolAdDelay;
         [SerializeField] private string toolAdSuccessText,toolAdFailureText;
         private System.Action<int,System.Action<bool>> rewardedToolAdProvider;
         private bool toolAdPending;
@@ -43,7 +41,8 @@ namespace NutSort.UI
                 (id,type)=>RefillLocalTool(type),ShowToolTip,TryToolClick,startup.Replay.EndClick,id=>
                 {
                     if(game.Level.Board!=board||game.IsRestarting)return;
-                    if(id==17)startup.Replay.OpenPanel();
+                    if(id==5)OpenSettings();
+                    else if(id==17)startup.Replay.OpenPanel();
                     else if(id==10&&!game.IsSucceed)ShowFailure();
                     else ShowUnavailable();
                 });
@@ -71,26 +70,47 @@ namespace NutSort.UI
             if(type==4&&game.User.CurrentLevelAddScrewCount>=maximumAddedTiles){ShowToolTip(5);return;}
             if(localToolRefillCount<=0){ShowUnavailable();return;}
             toolAdPending=true;game.ModalInputBlocked=true;
+            string operation=LocalAnalytics.NewId(),claim=LocalAnalytics.NewId();
             int request=++toolAdRequest;var board=game.Level.Board;
             System.Action<bool> complete=success=>
             {
                 if(this==null||!toolAdPending||request!=toolAdRequest)return;
                 toolAdPending=false;
-                if(game.Level.Board==board&&!game.IsRestarting)
+                try
                 {
-                    if(success){ApplyToolRefill(type);ShowWithdrawalFeedback(toolAdSuccessText);}
-                    else ShowWithdrawalFeedback(toolAdFailureText);
+                    if(game.Level.Board==board&&!game.IsRestarting)
+                    {
+                        if(success)
+                        {
+                            using(var analytics=LocalAnalytics.Operation("rewarded_tool",operation))
+                            {
+                                RecordWithdrawalRewardVideo();
+                                bool applicable=type!=2||game.Level.MoveHistoryCount>0;
+                                applicable=applicable&&(type!=4||game.User.CurrentLevelAddScrewCount<maximumAddedTiles);
+                                ApplyToolRefill(type);
+                                TrackClaim("rewarded_tool",claim,operation,applicable?"granted":"not_granted",applicable?"local_committed":"tool_no_longer_applicable",type);
+                            }
+                            ShowWithdrawalFeedback(toolAdSuccessText);
+                        }
+                        else{TrackClaim("rewarded_tool",claim,operation,"not_granted","ad_not_completed",type);ShowWithdrawalFeedback(toolAdFailureText);}
+                    }
+                    else TrackClaim("rewarded_tool",claim,operation,"not_granted","board_changed",type);
                 }
-                game.ModalInputBlocked=HasLocalModal||startup.Replay.Panel!=null;
+                finally
+                {
+                    game.ModalInputBlocked=HasLocalModal||startup.Replay.Panel!=null;
+                }
             };
-            if(rewardedToolAdProvider!=null)rewardedToolAdProvider(type,complete);
-            else if(simulateRewardedToolAds)StartCoroutine(SimulateToolAd(complete));
-            else complete(false);
-        }
-        private System.Collections.IEnumerator SimulateToolAd(System.Action<bool> complete)
-        {
-            yield return new WaitForSeconds(simulatedToolAdDelay);
-            complete(true);
+            try
+            {
+                if(rewardedToolAdProvider!=null)rewardedToolAdProvider(type,complete);
+                else complete(false);
+            }
+            catch(System.Exception exception)
+            {
+                Debug.LogException(exception);
+                complete(false);
+            }
         }
         private void ApplyToolRefill(int type)
         {
@@ -116,7 +136,8 @@ namespace NutSort.UI
         }
         private bool TryToolClick()
         {
-            if(game.InputBlocked||game.ModalInputBlocked||game.IsRestarting||!game.IsInitDone||game.IsSucceed)return false;
+            if(game.InputBlocked||game.IsRestarting||!game.IsInitDone||game.IsSucceed)return false;
+            if(RejectTeachingHudClick()||game.ModalInputBlocked)return false;
             return startup.Replay.BeginClick();
         }
         private void RefreshToolsAfterOperation(ScrewOperation operation,ScrewState target) => bottom.Refresh();

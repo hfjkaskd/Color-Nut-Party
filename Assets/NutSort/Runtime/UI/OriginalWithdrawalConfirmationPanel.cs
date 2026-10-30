@@ -45,7 +45,7 @@ namespace NutSort.UI
             foreach(var label in labels)label.Text.text=tables.Text.GetText(label.Id,language);
         },()=>BindButton(GetBtn,flow.Get),()=>BindButton(ReEnterBtn,flow.Reenter),()=>BindButton(CloseBtn,flow.Close));
         private void BindButton(Button button,Action action)
-        {button.onClick.RemoveAllListeners();button.onClick.AddListener(()=>{if(!canClick())return;action();sound(settings.ClickSound);});}
+        {button.onClick.RemoveAllListeners();button.onClick.AddListener(()=>{if(!canClick())return;LocalAnalyticsPopup.Action(this,button==GetBtn?"confirm":button==CloseBtn?"close":"edit_account");action();sound(settings.ClickSound);});}
         public void Refresh()=>flow.Refresh();
         public void SetConfirmVisible(bool value)=>GetBtn.gameObject.SetActive(value);
         public void SetTip(string value)=>Tip.text=value;

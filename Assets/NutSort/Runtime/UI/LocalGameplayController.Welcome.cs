@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using NutSort.Content;
 
 namespace NutSort.UI
 {
@@ -30,8 +31,9 @@ namespace NutSort.UI
             while(startup.Loading.IsVisible)yield return null;
             recordGuide=Instantiate(Resources.Load<GameObject>(recordGuidePrefabPath),transform.parent,false)
                 .GetComponent<OriginalRecordGuidePanel>();
+            LocalAnalytics.Current?.TutorialStep("welcome",0,false);
             recordGuide.Initialize(game.Tables,language,audio.UserState.DisplayCountry(game.Tables),TryWelcomeClick,
-                ()=>game.User.IsCompleteRecordGuide=true,WelcomeClosed,startup.Replay.EndClick);
+                ()=>{game.User.IsCompleteRecordGuide=true;LocalAnalytics.Current?.TutorialStep("welcome",0,true);},WelcomeClosed,startup.Replay.EndClick);
             welcomePending=false;
         }
 

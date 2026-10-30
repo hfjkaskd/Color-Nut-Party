@@ -38,12 +38,14 @@ namespace NutSort.Validation
                 if(seed>=4)
                 {
                     Check(game.PlayerLevel==2&&local.TeachingPanel==null&&!game.IsCanOperatorScrew&&!game.ModalInputBlocked,"Later local entry has no teaching modal or leaked override");
+                    Check(local.RewardsTop.Coin.gameObject.activeInHierarchy&&local.RewardsTop.Hidden.gameObject.activeInHierarchy,"Normal diamond card and milestone row return after teaching");
                     Debug.Log("NUT_LOCAL_TEACHING_VIEW_PASS default four seeds render source teaching prefab/rule text without duplicate badge and with final text without withdrawal claims; native world selection works under teaching override; level two resets override and closes guide. Explicit starting-seed fixtures only.");Finish(0);return;
                 }
                 if(phase==0){Check(local.TeachingPanel!=null,"Default startup creates teaching view");waitUntil=Time.time+1;phase=1;return;}
                 if(phase==1)
                 {
                     var panel=local.TeachingPanel;var data=new SerializedObject(local);
+                    Check(!local.RewardsTop.Coin.gameObject.activeInHierarchy&&!local.RewardsTop.Hidden.gameObject.activeInHierarchy,"Teaching progress has no overlapping normal HUD row");
                     string caption=data.FindProperty("localTeachingCaption").stringValue;
                     var labels=new SerializedObject(panel).FindProperty("labels");bool found=false;
                     for(int i=0;i<labels.arraySize;i++)

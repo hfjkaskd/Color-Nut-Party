@@ -14,14 +14,24 @@ namespace NutSort.UI
         {
             if(withdrawalAccount!=null)return;
             if(withdrawalPanel!=null)withdrawalPanel.gameObject.SetActive(false);
+            if(diamondWithdrawalPanel!=null)diamondWithdrawalPanel.gameObject.SetActive(false);
             game.ModalInputBlocked=true;
             string country=audio.UserState.DisplayCountry(game.Tables);
+            int accountStage=earlyStage;
+            bool finishEarlyOnClose=false;
             withdrawalAccount=Instantiate(Resources.Load<GameObject>(withdrawalAccountPrefabPath),transform.parent,false).GetComponent<OriginalWithdrawalUserInfoPanel>();
-            withdrawalAccount.Bind(game.User,game.Tables,language,()=>country,()=>game.Tables.Countries.Get(country).PhoneAreaNumber,
-                ()=>withdrawalAccount!=null&&!withdrawalAccount.Closing&&TryAccountClick(),s=>audio.PlaySound(s),ShowToolTip,RouteAccountPanel,
-                ()=>audio.UserState.Store.SaveData(false,null),v=>{},()=>{},
-                ()=>{Destroy(withdrawalAccount.gameObject);withdrawalAccount=null;RestoreWithdrawalParent();},()=>{},game.ScheduleDelay,()=>{});
-            withdrawalAccount.Init(new object[]{game.User.Level});withdrawalAccount.Refresh();
+            var panel=withdrawalAccount;
+            panel.Bind(game.User,game.Tables,language,()=>country,()=>game.Tables.Countries.Get(country).PhoneAreaNumber,
+                ()=>panel!=null&&!panel.Closing&&TryAccountClick(),s=>audio.PlaySound(s),ShowToolTip,RouteAccountPanel,
+                ()=>audio.UserState.Store.SaveData(false,null),v=>{if(accountStage>0)finishEarlyOnClose=true;},()=>{},
+                ()=>
+                {
+                    if(panel!=null)Destroy(panel.gameObject);
+                    if(withdrawalAccount==panel)withdrawalAccount=null;
+                    if(finishEarlyOnClose&&earlyStage==accountStage)FinishEarlyWithdrawal(false);
+                    else RestoreWithdrawalParent();
+                },()=>{},game.ScheduleDelay,()=>{});
+            panel.Init(new object[]{accountStage>0?accountStage:game.User.Level});panel.Refresh();
         }
         private void RouteAccountPanel(int id,object[] args)
         {
@@ -29,17 +39,33 @@ namespace NutSort.UI
             if(id!=21){ShowWithdrawalFeedback(withdrawalAccountHelp);return;}
             if(withdrawalConfirmation!=null)return;
             string country=audio.UserState.DisplayCountry(game.Tables);
+            int confirmationStage=earlyStage;
+            bool finishEarlyOnClose=false,verifyAfterClose=false;
             withdrawalConfirmation=Instantiate(Resources.Load<GameObject>(withdrawalConfirmationPrefabPath),transform.parent,false).GetComponent<OriginalWithdrawalConfirmationPanel>();
-            withdrawalConfirmation.Bind(game.User,game.Tables,language,()=>country,()=>game.Tables.Countries.Get(country).PhoneAreaNumber,
-                ()=>withdrawalConfirmation!=null&&!withdrawalConfirmation.Closing&&TryAccountClick(),s=>audio.PlaySound(s),RouteAccountPanel,
-                (level,hasArgs)=>ShowWithdrawalFeedback(withdrawalServiceUnavailable),v=>{},
-                ()=>{Destroy(withdrawalConfirmation.gameObject);withdrawalConfirmation=null;RestoreWithdrawalParent();},()=>{},game.ScheduleDelay,()=>{});
-            withdrawalConfirmation.Init(args);withdrawalConfirmation.Refresh();
+            var panel=withdrawalConfirmation;
+            panel.Bind(game.User,game.Tables,language,()=>country,()=>game.Tables.Countries.Get(country).PhoneAreaNumber,
+                ()=>panel!=null&&!panel.Closing&&TryAccountClick(),s=>audio.PlaySound(s),RouteAccountPanel,
+                (level,hasArgs)=>{if(confirmationStage>0)verifyAfterClose=true;else ConfirmLocalWithdrawal();},
+                v=>{if(confirmationStage>0)finishEarlyOnClose=true;},
+                ()=>
+                {
+                    if(panel!=null)Destroy(panel.gameObject);
+                    if(withdrawalConfirmation==panel)withdrawalConfirmation=null;
+                    if(confirmationStage>0&&earlyStage==confirmationStage)
+                    {
+                        if(finishEarlyOnClose){FinishEarlyWithdrawal(false);return;}
+                        if(verifyAfterClose){OpenEarlyVerification(confirmationStage);return;}
+                    }
+                    RestoreWithdrawalParent();
+                },()=>{},game.ScheduleDelay,()=>{});
+            panel.Init(confirmationStage>0?new object[]{confirmationStage}:args);panel.Refresh();
+            if(confirmationStage>0)panel.SetConfirmVisible(true);
         }
         private void RestoreWithdrawalParent()
         {
-            if(withdrawalAccount!=null||withdrawalConfirmation!=null)return;
+            if(HasEarlyAccountModal||withdrawalAccount!=null||withdrawalConfirmation!=null||withdrawalConditions!=null||withdrawalStage!=null||withdrawalTooFast!=null)return;
             if(withdrawalPanel!=null)withdrawalPanel.gameObject.SetActive(true);
+            if(diamondWithdrawalPanel!=null)diamondWithdrawalPanel.gameObject.SetActive(true);
             StartCoroutine(ReleaseWithdrawalInput());
         }
     }

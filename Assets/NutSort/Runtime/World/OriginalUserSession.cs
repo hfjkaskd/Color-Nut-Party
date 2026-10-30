@@ -30,7 +30,10 @@ namespace NutSort.World
         public void Initialize()
         {
             if(Store==null)loadedStore=new OriginalUserStore(defaults,new UnityUserPreferences());
-            if(Rewards==null)ConfigureRewardCountry(SystemCountry());
+            // Restore local profile fields that the offline startup did not
+            // previously initialize. Never replace an existing identity or board.
+            if(LocalPlayerIdentity.Ensure(Data))Store.SaveData(false,null);
+            if(Rewards==null)ConfigureRewardCountry(DeviceCountry());
         }
         // A region SDK can supply ISO alpha-2/alpha-3 through this same runtime entry point.
         public void ConfigureRewardCountry(string countryCode)
@@ -55,10 +58,17 @@ namespace NutSort.World
                 }
             return "US";
         }
-        private static string SystemCountry()
+        public static string DeviceCountry()
         {
+            // Read Android's live locale: .NET RegionInfo can retain the pre-resume locale.
+            if (Application.platform == RuntimePlatform.Android)
+            {
+                using (var localeClass = new AndroidJavaClass("java.util.Locale"))
+                using (var locale = localeClass.CallStatic<AndroidJavaObject>("getDefault"))
+                    return NormalizeCountry(locale.Call<string>("getCountry"));
+            }
             try{return RegionInfo.CurrentRegion.TwoLetterISORegionName;}
-            catch(ArgumentException){return string.Empty;}
+            catch(ArgumentException){return "US";}
         }
     }
 }

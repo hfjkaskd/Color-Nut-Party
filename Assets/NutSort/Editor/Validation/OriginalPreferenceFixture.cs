@@ -20,12 +20,22 @@ namespace NutSort.Validation
                 writer.Write(PlayerPrefs.HasKey(OriginalUserStore.Key));
                 writer.Write(PlayerPrefs.GetString(OriginalUserStore.Key, string.Empty));
             }
+            using(var writer=new BinaryWriter(File.Create(Backup+".analytics")))
+            {writer.Write(PlayerPrefs.HasKey(LocalAnalyticsService.StateKey));writer.Write(PlayerPrefs.GetString(LocalAnalyticsService.StateKey,string.Empty));}
+            PlayerPrefs.DeleteKey(LocalAnalyticsService.StateKey);
             PlayerPrefs.SetString(OriginalUserStore.Key, json);
             PlayerPrefs.Save();
         }
 
         public static void Restore()
         {
+            if(File.Exists(Backup+".analytics"))
+            {
+                bool hadKey;string saved;
+                using(var reader=new BinaryReader(File.OpenRead(Backup+".analytics"))){hadKey=reader.ReadBoolean();saved=reader.ReadString();}
+                if(hadKey)PlayerPrefs.SetString(LocalAnalyticsService.StateKey,saved);else PlayerPrefs.DeleteKey(LocalAnalyticsService.StateKey);
+                PlayerPrefs.Save();File.Delete(Backup+".analytics");
+            }
             if (!File.Exists(Backup)) return;
             bool existed; string json;
             using (var reader = new BinaryReader(File.OpenRead(Backup)))

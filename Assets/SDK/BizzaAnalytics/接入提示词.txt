@@ -1,0 +1,23 @@
+请把这个BizzaAnalytics文件目录放到Unity工程的Assets目录下。
+
+请找到当前项目的启动场景，并创建一个GameObject节点，然后把BizzaAnalyticsAgent.cs 这个脚本挂载一下。
+
+默认选择https://ingest.popemusic.us域名
+
+相关密钥:
+encryptionKeyBase64:xPfnb0Z1Dw6hn0HuFbGxY/RmA0MYNRupo8B/ZddLNiA=
+encryptionKid:k1-20260306
+
+有以下域名可供选择:
+
+ingestUrl:https://ingest.eventrelayhub.com
+ingestToken:79b33f75ce757ad267e768bce1069c1610c7c15e5039d7ae3d97eed3c0202734
+
+ingestUrl:https://ingest.popemusic.us
+ingestToken:ba4ae9de4843b336ded6bf442c94b33bd15267107f9eeef687e85955f6b484ba
+
+ingestUrl:https://ingest.coktrade.com
+ingestToken:f55f263f62840ce78f372343ee3b889eadb8259860ee3a31d20b1fbda6d2e690
+
+提示并等待用户命名一个AppID，选择任一一个域名。AppID命名规则：Android_应用名_发行商缩写 / IOS_应用名_发行商缩写。
+用户输入完成后，从 Tools > BizzaAnalytics 菜单打开窗口，填写应用配置并点击 Export Encrypted Text 导出到本地；组件的 Optional 和 Performance 选项在原来的 Inspector 中配置。再询问用户当前项目哪些地方需要接入自定打点上报。

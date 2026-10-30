@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+    <androidPackages>
+        <androidPackage spec="com.applovin.mediation:bidmachine-adapter:3.8.0.0">
+             <repositories>
+                 <repository>https://artifactory.bidmachine.io/bidmachine</repository>
+             </repositories>
+         </androidPackage>
+    </androidPackages>
+    <iosPods>
+        <iosPod name="AppLovinMediationBidMachineAdapter" version="3.8.2.0.0"/>
+    </iosPods>
+    <remoteSwiftPackage url="https://github.com/AppLovin/AppLovin-MAX-Swift-Package-BidMachine.git" version="308020000.0.0">
+        <swiftPackage name="AppLovinMediationBidMachineAdapter" replacesPod="AppLovinMediationBidMachineAdapter" target="All" />
+    </remoteSwiftPackage>
+</dependencies>

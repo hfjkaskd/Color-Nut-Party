@@ -95,7 +95,7 @@ namespace NutSort.Validation
                     local.BindSettlementAds(done=>{route=1;adDone=done;},done=>{route=2;adDone=done;});
                     local.NextButton.onClick.Invoke();local.NextButton.onClick.Invoke();
                     Check(route==(index==0?1:2)&&local.SettlementAdPending&&game.User.Gold==0,"Threshold routes interstitial then rewarded and waits for completion");
-                    adDone(index!=0);adDone(true);
+                    adDone(true);adDone(true);
                     Check(!local.SettlementAdPending&&game.User.NormalGetTimes==0&&game.User.InterAdTimes==(index==0?1:6),"Native counters and duplicate completion guard");
                     Check(game.User.Coin==diamondAmount&&game.User.Gold==amount&&game.User.LocalPendingReward==null,"Claim grants exactly once");
                     string activeCulture=UnityEngine.Object.FindObjectOfType<OriginalUserSession>().DisplayCulture(game.Tables);

@@ -66,6 +66,7 @@ namespace NutSort.Content
                         case "USERLSSINFO": data.UserLssInfo=Document(value);break;
                         case "GOLDREWARDTARGETS2CDATA": data.GoldRewardTargetS2CData=Document(value);break;
                         case "LOCALPENDINGREWARD": data.LocalPendingReward=Document(value);break;
+                        case "LOCALWITHDRAWALDATA": data.LocalWithdrawalData=Document(value);break;
                         case "SCREWDONECOUNT": data.ScrewDoneCount=(int)value;break;
                         case "SCREWMOVECOUNT": data.ScrewMoveCount=(int)value;break;
                         case "LUCKYDRAWSCREWDONETIMES": data.LuckyDrawScrewDoneTimes=(int)value;break;
@@ -93,6 +94,7 @@ namespace NutSort.Content
                         case "LASTGETEVERYDAYGIFT": data.LastGetEveryDayGift=(long)value;break;
                         case "VIDEOTOOLREWARDINDEX": data.VideoToolRewardIndex=(int)value;break;
                         case "TODAYCHALLENGETIMES": data.TodayChallengeTimes=(int)value;break;
+                        case "STATSDISPLAYUTCDATE": data.StatsDisplayUtcDate=(string)value;break;
                         case "ISCOMPLETEAPPRATINGPANEL": data.IsCompleteAppRatingPanel=(bool)value;break;
                         case "NORMALGETTIMES": data.NormalGetTimes=(int)value;break;
                         case "INTERADTIMES": data.InterAdTimes=(int)value;break;
@@ -102,6 +104,7 @@ namespace NutSort.Content
                         case "ISCOMPLETECOINNEWPEOPLEREWARD": data.IsCompleteCoinNewPeopleReward=(bool)value;break;
                         case "ISSHOWCOIN": data.IsShowCoin=(bool)value;break;
                         case "ISCOMPLETESIGNIN": data.IsCompleteSignIn=(bool)value;break;
+                        case "LOCALANALYTICSDATA": data.LocalAnalyticsData=Document(value);break;
                     }
                 }
                 throw new JsonSerializationException("Incomplete UserLocalData object.");
@@ -144,6 +147,8 @@ namespace NutSort.Content
             root["ServerConfigData"]=data.ServerConfigData==null?JValue.CreateNull():data.ServerConfigData.DeepClone();
             root["GoldRewardTargetS2CData"]=data.GoldRewardTargetS2CData==null?JValue.CreateNull():data.GoldRewardTargetS2CData.DeepClone();
             root["LocalPendingReward"]=data.LocalPendingReward==null?JValue.CreateNull():data.LocalPendingReward.DeepClone();
+            root["LocalWithdrawalData"]=data.LocalWithdrawalData==null?JValue.CreateNull():data.LocalWithdrawalData.DeepClone();
+            root["LocalAnalyticsData"]=data.LocalAnalyticsData==null?JValue.CreateNull():data.LocalAnalyticsData.DeepClone();
             root["ScrewDoneCount"]=data.ScrewDoneCount;
             root["ScrewMoveCount"]=data.ScrewMoveCount;
             root["LuckyDrawScrewDoneTimes"]=data.LuckyDrawScrewDoneTimes;
@@ -171,6 +176,7 @@ namespace NutSort.Content
             root["LastGetEveryDayGift"]=data.LastGetEveryDayGift;
             root["VideoToolRewardIndex"]=data.VideoToolRewardIndex;
             root["TodayChallengeTimes"]=data.TodayChallengeTimes;
+            root["StatsDisplayUtcDate"]=data.StatsDisplayUtcDate;
             root["IsCompleteAppRatingPanel"]=data.IsCompleteAppRatingPanel;
             root["NormalGetTimes"]=data.NormalGetTimes;
             root["InterAdTimes"]=data.InterAdTimes;

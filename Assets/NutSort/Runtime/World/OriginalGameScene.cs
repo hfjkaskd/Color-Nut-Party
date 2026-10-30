@@ -58,6 +58,7 @@ namespace NutSort.World
         public bool IsInitDone { get; set; }
         public bool IsSucceed { get; set; }
         public bool IsSkipLevel { get; set; }
+        public bool PreserveCompletedBoardForSettlement { get; set; }
         // IsSuccess 0x9FB348 short-circuits before reading the board.
         public bool IsSuccess() => IsSkipLevel || level.Board.IsSuccess;
         private readonly OriginalFailureFlow failure = new OriginalFailureFlow();
@@ -65,6 +66,7 @@ namespace NutSort.World
 
         public bool NewLevelMode => session.LSS260820;
         public event Action BoardReady;
+        public bool LastBoardRestored { get; private set; }
 
         public bool NewGameplayUnlock(bool showBanner, Action<int,int,bool> showPanel)
         {
@@ -73,6 +75,7 @@ namespace NutSort.World
 
         public void Fail(Action<int> showPanel)
         {
+            if(!IsFail)LocalAnalytics.Current?.LevelResult("fail","no_legal_move");
             failure.Fail(session.FailPanelDelay, ScheduleDelay, () => showPanel(session.FailPanelId));
         }
 
@@ -112,7 +115,15 @@ namespace NutSort.World
             BindSuccess(newLevelMode,refreshTeaching,hideGoldHint,hideProgress,effectParent,
                 captured=>requestReward(response=>responseFlow.Run(captured,response)));
         }
-        public void Success() => successFlow.Run();
+        public void Success()
+        {
+            if(!IsSucceed)
+            {
+                LocalAnalytics.Current?.LevelResult("win",IsSkipLevel?"skip":"board_complete");
+                if(User.Level==1)LocalAnalytics.Current?.TutorialStep("teaching_"+User.LevelSeed,User.LevelSeed+1,true);
+            }
+            successFlow.Run();
+        }
 
         // Type transitions are owned by the scene; the optional observer runs
         // after their native animation/save requests, never instead of them.
@@ -223,6 +234,8 @@ namespace NutSort.World
 
         public void RestartLevel()
         {
+            LocalAnalytics.Current?.LevelResult("restart","replay_confirmed");
+            LocalAnalytics.Current?.NextBoardOrigin("replay");
             // ReplayCallback calls InitLevel directly, even during reconstruction.
             BeginInitialization(true, false);
         }
@@ -231,6 +244,7 @@ namespace NutSort.World
         // advance the seed and clear failure before reinitializing, then close.
         public void RestartAfterFailure(Action closePanel)
         {
+            LocalAnalytics.Current?.NextBoardOrigin("failure_retry");
             var user = audioPlayer.UserState.Data;
             user.LevelSeed = unchecked(user.LevelSeed + 1);
             IsFail = false;
@@ -302,6 +316,7 @@ namespace NutSort.World
 
         private void RebuildBoard(bool resetBoard, bool longEntry)
         {
+            LastBoardRestored=!resetBoard;
             if (resetBoard) BindFreshBoard(longEntry);
             else
             {
@@ -311,9 +326,10 @@ namespace NutSort.World
             }
             audioPlayer.PlaySound(session.StageStartSound, longEntry ? session.FirstStageSoundDelay : session.RestartStageSoundDelay);
             ResizeCameras(Screen.width, Screen.height);
-            // Original resume initializes its view, then resets complete/empty
-            // boards through InitLevel(true) with another reconstruction delay.
-            if (!resetBoard && (IsSuccess() || level.Board.Screws.Length == 0))
+            // Native resume resets completed boards. The local settlement host
+            // must keep a completed saved board until its BoardReady recovery.
+            if (!resetBoard && (level.Board.Screws.Length == 0 ||
+                (IsSuccess() && !PreserveCompletedBoardForSettlement)))
                 BeginInitialization(true, longEntry);
         }
 
@@ -343,6 +359,7 @@ namespace NutSort.World
 
         private void ForwardOperation(ScrewOperation result, ScrewState target)
         {
+            if(result.Kind==ScrewOperationKind.Moved)LocalAnalytics.Current?.ValidMove();
             if (result.SaveRequested)
             {
                 // Original common save point follows the immediate data transfer
@@ -403,6 +420,7 @@ namespace NutSort.World
 
         private void OnDestroy()
         {
+            pool?.BeginShutdown();
             pendingInitializations.Clear();
             if (level == null) return;
             effects.Clear();

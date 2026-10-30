@@ -31,6 +31,8 @@ namespace NutSort.UI
         private Action<float,Action> schedule;
         private OriginalPanelActionQueue queue;
         private bool opening,titleOpening;
+        private Vector2 rewardedLabelPosition;
+        private bool claimLayoutCached;
         private Action openingCompleted;
         public bool Closing=>closes.Count>0;
         private float elapsed;
@@ -44,6 +46,16 @@ namespace NutSort.UI
         public GameObject Ad=>ad;
         public RectTransform Main=>main;
         public RectTransform Title=>title;
+        public void SetPresentationTitle(string value)
+        {
+            foreach(var label in labels)
+            {
+                if(label.Id!=58)continue;
+                label.Text.text=value??string.Empty;
+                return;
+            }
+            throw new InvalidOperationException("Success panel title label is not configured.");
+        }
         public void Bind(OriginalSuccessPanelFlow lifecycle,OriginalRewardGetFlow claims,OriginalRewardItemFactory factory,
             OriginalTables tables,string language,Func<bool> gate,Action<string> audio,Action closed,
             Action<Action> hideBranch,Action<float,Action> schedule,OriginalPanelActionQueue queue,Action hidden=null)
@@ -64,6 +76,7 @@ namespace NutSort.UI
             this.tables=tables;this.language=language;this.gate=gate;this.audio=audio;this.closed=closed;
             openingCompleted=null;
             InitializePresentation();moreLabel.text=caption;
+            SetClaimAdVisible(ad.activeSelf);
             Close.onClick.RemoveAllListeners();Close.onClick.AddListener(ClickClose);
             GetBtn.onClick.RemoveAllListeners();GetBtn.onClick.AddListener(ClickClose);
             MoreGetBtn.onClick.RemoveAllListeners();MoreGetBtn.onClick.AddListener(ClickClose);
@@ -84,15 +97,15 @@ namespace NutSort.UI
             Items.gameObject.SetActive(true);
             GetBtn.gameObject.SetActive(true);
             MoreGetBtn.gameObject.SetActive(allowMore);
-            ad.SetActive(allowMore&&showAd);
+            SetClaimAdVisible(allowMore&&showAd);
             if(Views!=null)
                 foreach(var view in Views)Destroy(view.gameObject);
             Views=factory.GenerateItem(value,Items,true,true);
             Close.onClick.RemoveAllListeners();Close.onClick.AddListener(ClickClose);
             GetBtn.onClick.RemoveAllListeners();
-            GetBtn.onClick.AddListener(()=>{if(!gate())return;claim(false);audio(settings.ClickSound);});
+            GetBtn.onClick.AddListener(()=>{if(!gate())return;LocalAnalyticsPopup.Action(this,"claim");claim(false);audio(settings.ClickSound);});
             MoreGetBtn.onClick.RemoveAllListeners();
-            MoreGetBtn.onClick.AddListener(()=>{if(!allowMore||!gate())return;claim(true);audio(settings.ClickSound);});
+            MoreGetBtn.onClick.AddListener(()=>{if(!allowMore||!gate())return;LocalAnalyticsPopup.Action(this,"claim_bonus");claim(true);audio(settings.ClickSound);});
         }
         private void InitializePresentation()
         {
@@ -111,15 +124,29 @@ namespace NutSort.UI
                 id=>moreLabel.text=tables.Text.GetText(id,language),
                 ()=>ad.SetActive(false),()=>GetBtn.gameObject.SetActive(false));
         }
+        private void CacheClaimLayout()
+        {
+            if(claimLayoutCached)return;
+            rewardedLabelPosition=moreLabel.rectTransform.anchoredPosition;
+            claimLayoutCached=true;
+        }
+        private void SetClaimAdVisible(bool visible)
+        {
+            CacheClaimLayout();
+            ad.SetActive(visible);
+            // The prefab reserves a separate text lane beside the video icon.
+            // Only the presentation state changes when the optional ad is absent.
+            moreLabel.rectTransform.anchoredPosition=visible?rewardedLabelPosition:Vector2.zero;
+        }
         // Guide invokes the virtual action directly, bypassing the button wrapper.
         public void GetCallback(){lifecycle.GetCallback(ClosePanel,claims.GetCallback);}
         public void MoreGetCallback(){claims.MoreGetCallback();}
-        private void ClickClose(){if(!gate())return;ClosePanel();audio(settings.ClickSound);}
+        private void ClickClose(){if(!gate())return;LocalAnalyticsPopup.Action(this,"close");ClosePanel();audio(settings.ClickSound);}
         private void ClickGet(){if(!gate())return;GetCallback();audio(settings.ClickSound);}
         private void ClickMore(){if(!gate())return;MoreGetCallback();audio(settings.ClickSound);}
         public void Hide(){hideBranch(()=>{hidden?.Invoke();schedule(queueDelay,queue.Dequeue);});}
         public void ClosePanel(){closes.Add(new CloseTrack());}
-        private void Awake(){OriginalUIAnimationDriver.Register(this,Advance);}
+        private void Awake(){CacheClaimLayout();OriginalUIAnimationDriver.Register(this,Advance);}
         private void OnDestroy(){OriginalUIAnimationDriver.Unregister(this);}
         public void Advance(float delta)
         {

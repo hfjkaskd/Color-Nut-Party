@@ -53,7 +53,7 @@ namespace NutSort.UI
         {
             tip.text=tables.Text.GetText(163,language);
             if(ownedMaterial==null)ownedMaterial=currencyParticles.material;
-            ownedMaterial.SetTexture("_MainTex",Resources.Load<Texture2D>(settings.GoldTexturePrefix+GoldCode(country)+"1"));
+            ownedMaterial.SetTexture("_MainTex",Resources.Load<Texture2D>(OriginalCurrencyArtSettings.ResolvePath(settings.GoldTexturePrefix+"{0}{1}",country,1)));
         }
 
         public void BindHide(OriginalPanelActionQueue queue,Action<float,Action> delay,Action onHidden)
@@ -77,6 +77,7 @@ namespace NutSort.UI
         private void StartClicked()
         {
             if(!beginClick())return;
+            LocalAnalyticsPopup.Action(this,"start");
             Close();started();clickSound();
         }
         public void Close()

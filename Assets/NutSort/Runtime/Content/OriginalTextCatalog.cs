@@ -8,6 +8,7 @@ namespace NutSort.Content
     public sealed class OriginalTextCatalog
     {
         private readonly Dictionary<int, string[]> rows = new Dictionary<int, string[]>();
+        private readonly Dictionary<string, string[]> englishRows = new Dictionary<string, string[]>(StringComparer.Ordinal);
         public OriginalTextCatalog(JObject table)
         {
             foreach (JToken row in (JArray)table["list"])
@@ -19,13 +20,24 @@ namespace NutSort.Content
                     (string)row["pt"], (string)row["ko"], (string)row["de"], (string)row["fr"],
                     (string)row["id"], (string)row["ru"], (string)row["bn"], (string)row["ne"],
                     (string)row["ar"], (string)row["ur"], (string)row["es"], (string)row["hi"], (string)row["fil"] });
+                string english = (string)row["en"];
+                if (!string.IsNullOrEmpty(english) && !englishRows.ContainsKey(english)) englishRows.Add(english, rows[id]);
             }
+        }
+        public bool TryTranslateEnglish(string english, string languageCode, out string translated)
+        {
+            translated = null;
+            if (string.IsNullOrEmpty(english) || !englishRows.TryGetValue(english, out string[] row)) return false;
+            translated = row[LanguageIndex(languageCode)];
+            if (string.IsNullOrEmpty(translated)) translated = row[1];
+            return true;
         }
         public string GetText(int id, string languageCode, params object[] arguments)
         {
             if (!rows.TryGetValue(id, out string[] row)) return id.ToString(CultureInfo.CurrentCulture);
             string text = row[LanguageIndex(languageCode)];
             if (string.IsNullOrEmpty(text)) text = row[1];
+            if (LocalUiLocalization.TryTranslate(row[1], languageCode, out string revised)) text = revised;
             return string.Format(CultureInfo.CurrentCulture, text, arguments);
         }
         private static int LanguageIndex(string code)

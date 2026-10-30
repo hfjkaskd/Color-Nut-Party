@@ -14,6 +14,7 @@ namespace NutSort.Gameplay
         private readonly Func<long> timeSeconds;
         private readonly Action<long> setLuckyLastGetTime;
         private readonly Action<bool> getReward;
+        private bool adPending;
         public OriginalRewardGetFlow(OriginalUserLocalData user,Func<int> normalThreshold,
             Func<int> interstitialThreshold,Action<Action<bool>> interstitial,
             Action<Action<bool>,bool> rewarded,Func<long> timeSeconds,
@@ -26,24 +27,59 @@ namespace NutSort.Gameplay
         }
         public void GetCallback()
         {
+            if(adPending)return;
+            int previousNormal=user.NormalGetTimes,previousInter=user.InterAdTimes;
             user.NormalGetTimes=unchecked(user.NormalGetTimes+1);
             if(user.NormalGetTimes<normalThreshold()){getReward(false);return;}
             user.InterAdTimes=unchecked(user.InterAdTimes+1);
             user.NormalGetTimes=0;
-            if(user.InterAdTimes<=interstitialThreshold())interstitial(ReceiveNormalAd);
-            else rewarded(ReceiveNormalAd,false);
+            bool useInterstitial=user.InterAdTimes<=interstitialThreshold();
+            RequestAd(useInterstitial,false,previousNormal,previousInter);
         }
         public void MoreGetCallback()
         {
+            if(adPending)return;
+            int previousNormal=user.NormalGetTimes,previousInter=user.InterAdTimes;
             user.NormalGetTimes=0;
-            rewarded(ReceiveMoreAd,false);
+            RequestAd(false,true,previousNormal,previousInter);
         }
-        private void ReceiveNormalAd(bool ignored){getReward(true);}
-        private void ReceiveMoreAd(bool ignored)
+        private void RequestAd(bool useInterstitial,bool more,int previousNormal,int previousInter)
         {
-            user.LuckyScrewDoneCount=0;
-            setLuckyLastGetTime(timeSeconds());
-            getReward(true);
+            adPending=true;
+            bool completed=false;
+            Action<bool> finish=success=>
+            {
+                if(completed)return;
+                completed=true;
+                adPending=false;
+                if(!success)
+                {
+                    // A normal claim already earned its base reward by completing
+                    // the level. Timeout/no fill must finish that claim, not leave
+                    // the same settlement open to request another ad later.
+                    if(!more){getReward(false);return;}
+                    // Optional bonus claims still require a real rewarded result.
+                    user.NormalGetTimes=previousNormal;
+                    user.InterAdTimes=previousInter;
+                    return;
+                }
+                if(more)
+                {
+                    user.LuckyScrewDoneCount=0;
+                    setLuckyLastGetTime(timeSeconds());
+                }
+                getReward(true);
+            };
+            try
+            {
+                if(useInterstitial)interstitial(finish);
+                else rewarded(finish,false);
+            }
+            catch
+            {
+                finish(false);
+                throw;
+            }
         }
     }
 }
