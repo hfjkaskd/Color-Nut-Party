@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-09",
+  "unity": "2022.3.62f3",
+  "policyPass": true,
+  "playPass": true,
+  "compilerErrors": 0,
+  "exceptions": 0,
+  "preferenceBackupRemaining": false,
+  "log": "Logs/withdrawal-conditions-release-check.log",
+  "review": "Docs/WithdrawalImplementation/Review.html"
+}

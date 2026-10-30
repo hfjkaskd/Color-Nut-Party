@@ -1,0 +1,14 @@
+{
+  "SdkFiles": 84,
+  "InstalledApkMatchesPreviousRelease": true,
+  "PreviousSha256": "1275f0b301d24d9abc59a103ff4ba9d776008d93169ecf8ddc7eb66cf41d5274",
+  "PhoneSerial": "G95G6128GY4070804966",
+  "StatsScreenshot": "Docs/StatsDisplayFix/20261013/device-stats-missing.png",
+  "Status": "Reproduced",
+  "MissingFields": [
+    "date",
+    "players",
+    "attempts",
+    "amount"
+  ]
+}

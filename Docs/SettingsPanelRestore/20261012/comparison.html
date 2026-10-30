@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>设置界面 · 原版 / 修改前 / 游戏实拍</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#241d17;color:#ffefd6;font:16px/1.6 system-ui,sans-serif}main{max-width:1600px;margin:auto;padding:32px}h1{font-size:26px;margin:0 0 8px}p{color:#d8c2a7;margin:0 0 24px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}figure{margin:0;background:#352b22;border:1px solid #725536;border-radius:14px;padding:14px}figcaption{font-size:18px;margin-bottom:12px;font-weight:700}figure img{display:block;width:100%;height:auto;border-radius:6px}a{color:#ffcb83}.before{min-height:500px;display:flex;align-items:center}.details{margin-top:26px}.details summary{cursor:pointer;font-size:20px;padding:14px 0}.details .grid{grid-template-columns:repeat(4,minmax(0,1fr))}.note{margin-top:20px;font-size:14px}@media(max-width:900px){.grid,.details .grid{grid-template-columns:1fr}main{padding:16px}}
+</style><main>
+<h1>设置界面：功能补齐与布局对比</h1>
+<p>参照原版的信息分区和按钮位置，使用当前木色美术。新增头像沿用已确认的 Loading 工匠形象。</p>
+<div class="grid">
+<figure><figcaption>原游戏 · 图 2</figcaption><a href="original-reference.png"><img src="original-reference.png" alt="原游戏完整设置界面"></a></figure>
+<figure><figcaption>修改前 · 功能缺失</figcaption><div class="before"><a href="before.png"><img src="before.png" alt="之前只有声音开关的设置界面"></a></div></figure>
+<figure><figcaption>修改后 · Unity 运行截图</figcaption><a href="settings-short.png"><img src="settings-short.png" alt="完成后的完整设置界面，720乘1280运行截图"></a></figure>
+</div>
+<p class="note">上方修改后为 720×1280 的实际运行截图。昵称、ID、LV.7 与余额来自隔离验收存档，用于检查长 ID、等级与关卡区分、布局和功能；实际游戏读取玩家自身存档，新安装生成并保存本地玩家身份。验收后已恢复原存档。未制作 APK，未进行 Android 真机震动测试。</p>
+<details class="details"><summary>查看长屏、开关关闭态和功能页面</summary><div class="grid">
+<figure><figcaption>长屏 · 720×1600</figcaption><a href="settings-tall.png"><img src="settings-tall.png" alt="长屏设置"></a></figure>
+<figure><figcaption>声音 / 震动关闭</figcaption><a href="settings-both-off.png"><img src="settings-both-off.png" alt="两个独立开关关闭"></a></figure>
+<figure><figcaption>User Level</figcaption><a href="userinfo-short.png"><img src="userinfo-short.png" alt="真实等级和目标进度"></a></figure>
+<figure><figcaption>Withdrawal History</figcaption><a href="history-short.png"><img src="history-short.png" alt="已接入现有提现记录"></a></figure>
+<figure><figcaption>Replay · 重开确认</figcaption><a href="replay-short.png"><img src="replay-short.png" alt="重开前的确认界面"></a></figure>
+</div></details>
+<p class="note">验证记录：<a href="report.json">界面与功能验收</a> · <a href="identity-report.json">新安装与旧存档身份迁移</a></p>
+</main></html>

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><title>顶部进度条修复 · Unity 运行对比</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5efdf;color:#4b2a13;font:16px/1.6 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1520px;margin:auto;padding:24px}h1{font-size:25px;margin:0 0 8px}p{margin:6px 0 18px}section{display:grid;grid-template-columns:1fr 1fr;gap:18px}article,details{background:#fffbf0;border:1px solid #ddc6a7;border-radius:14px;overflow:hidden;margin-bottom:20px}h2{font-size:19px;padding:12px 18px;margin:0}.viewport{position:relative;aspect-ratio:720/150;overflow:hidden}.viewport img{position:absolute;width:100%;height:auto;top:-95%;left:0}small{display:block;padding:0 18px 12px;color:#85613e}a{color:#00764d}.full{display:block;width:100%}.samples{display:grid;grid-template-columns:1fr 1fr;gap:16px}.samples .viewport{aspect-ratio:720/110}.samples .viewport img{top:-130%}summary{padding:14px;cursor:pointer;font-weight:600}.meta{padding:0 18px 18px}.source{width:100%;height:auto;display:block;background:#e6d4b7}
+@media(max-width:800px){section,.samples{grid-template-columns:1fr}}
+</style>
+<main><h1>顶部绿色进度条 · 修复前后</h1>
+<p>以下为同一关卡状态的 <strong>Unity Editor Play Mode 运行截图</strong>（720 × 1280），上方仅裁切显示进度区域。并非 AI 效果图或手机实拍。</p>
+<section>
+<article><h2>修复前：两端拉扁、填充带木框</h2><div class="viewport"><img src="before.png" alt="修复前Unity运行截图"></div><small><a href="before.png">打开原始完整截图</a></small></article>
+<article><h2>修复后：笔直绿芯、独立木质底槽</h2><div class="viewport"><img src="after.png" alt="修复后Unity运行截图"></div><small><a href="after.png">打开原始完整截图</a></small></article>
+</section>
+<p>实际改动：两张 PNG 素材。沿用原画布 831 × 44 / 829 × 44、原节点位置、原横向 Filled 组件及进度计算；标准三段适配仅延长中段，圆角等比缩放。运行检查通过，原用户存档已恢复。</p>
+<details><summary>查看五档填充的运行检查</summary><div class="meta"><p>以下是相同真实 Canvas 的显式渲染测试：仅临时设置 fillAmount，不代表玩家关卡进度；正常刷新后恢复原值。</p><div class="samples"><article><h2>0%</h2><div class="viewport"><img src="fill-000.png" alt="0% Unity填充测试"></div></article><article><h2>25%</h2><div class="viewport"><img src="fill-025.png" alt="25% Unity填充测试"></div></article><article><h2>50%</h2><div class="viewport"><img src="fill-050.png" alt="50% Unity填充测试"></div></article><article><h2>75%</h2><div class="viewport"><img src="fill-075.png" alt="75% Unity填充测试"></div></article><article><h2>100%</h2><div class="viewport"><img src="fill-100.png" alt="100% Unity填充测试"></div></article></div><a href="report-after.json">查看运行验证记录</a></div></details>
+<details><summary>素材预览及生成记录（非游戏截图）</summary><div class="meta"><p>使用内置 image_gen，保持原有绿条与木框风格，修正扁椭圆轮廓，移除绿芯木框。透明边裁切、三段适配及下采样后导入原文件。</p>
+<p>最终工程素材：<a href="../../../Assets/Resources/atlas/mainpanel/tx_lv_bar.png">绿色填充</a> · <a href="../../../Assets/Resources/atlas/mainpanel/tx_lv_bar_bg.png">木质底槽</a> · <a href="generation.json">完整提示词</a> · <a href="pack-sprites.ps1">导出脚本</a></p>
+<img class="source" src="tx_lv_bar.after.png" alt="绿色填充素材"><img class="source" src="tx_lv_bar_bg.after.png" alt="底槽素材"></div></details>
+<details><summary>展开修复后的完整 Unity 运行画面</summary><img class="full" src="after.png" alt="修复后Unity完整运行截图"></details>
+</main></html>

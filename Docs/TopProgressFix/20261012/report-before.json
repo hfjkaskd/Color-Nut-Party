@@ -1,0 +1,58 @@
+{
+  "mode": "before",
+  "kind": "Unity Editor Play Mode actual scene capture with isolated saved-user fixture",
+  "fixture": "{\"Level\":11,\"LevelSeed\":0,\"Gold\":500.58,\"Coin\":486.73,\"RevokeCount\":5,\"NewGameplayUnlockIndex\":4,\"IsCompleteRecordGuide\":true,\"IsCompleteExtraGoldGuide\":true,\"IsCompleteCoinNewPeopleReward\":true}",
+  "captures": [
+    {
+      "image": "before.png",
+      "source": "Native level 11 RefreshLevels; no progress override",
+      "fillAmount": 1.0,
+      "fillScreenRect": [
+        [
+          82.9778442,
+          1070.2655
+        ],
+        [
+          82.9778442,
+          1099.6012
+        ],
+        [
+          637.0222,
+          1099.6012
+        ],
+        [
+          637.0222,
+          1070.2655
+        ]
+      ],
+      "trackScreenRect": [
+        [
+          83.644516,
+          1070.2655
+        ],
+        [
+          83.644516,
+          1099.6012
+        ],
+        [
+          636.3555,
+          1099.6012
+        ],
+        [
+          636.3555,
+          1070.2655
+        ]
+      ],
+      "fillSprite": "tx_lv_bar",
+      "trackSprite": "tx_lv_bar_bg",
+      "playerLevel": 11,
+      "width": 720,
+      "height": 1280
+    }
+  ],
+  "error": null,
+  "adOrPaymentButtonInvoked": false,
+  "originalPreferencesRestored": true,
+  "status": "PASS",
+  "utc": "2026-10-12T04:13:17.2412674Z"
+}

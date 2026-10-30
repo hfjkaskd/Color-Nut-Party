@@ -1,0 +1,18 @@
+{
+    "capturedUtc": "2026-10-09T08:22:21.5189268Z",
+    "unityVersion": "2022.3.62f3",
+    "projectPath": "C:\\Projects\\com.nut.sort.relax",
+    "jdkRootPath": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\OpenJDK",
+    "gradlePath": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Tools\\gradle",
+    "sdkRootPath": "F:\\AndroidSDK",
+    "ndkRootPath": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK",
+    "jdkUseEmbeddedPreferencePresent": true,
+    "jdkUseEmbedded": false,
+    "gradleUseEmbeddedPreferencePresent": false,
+    "gradleUseEmbedded": true,
+    "scope": "Unity External Tools preferences are shared across projects. SDK and NDK paths are recorded but unchanged.",
+    "unityJavaVersion": "11.0.14.1",
+    "gradleDaemonJavaHome": "",
+    "gradleDaemonJavaVersion": "11.0.14.1",
+    "gradleDaemonConfigurationBeforeUpgrade": "org.gradle.java.home was absent from the project Gradle template; the daemon inherited Unity Java 11."
+}

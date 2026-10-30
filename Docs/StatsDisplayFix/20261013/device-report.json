@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "device": "UMIDIGI Note 100 5G",
+  "serial": "G95G6128GY4070804966",
+  "package": "com.color.nutparty",
+  "locale": "en-US",
+  "apkSha256": "9b999880fd70b9b56913e9899530522819c91d8965f21e90021d3ec79a5ef644",
+  "installedApkHashMatches": true,
+  "dataCleared": false,
+  "firstOpen": {
+    "players": 21068,
+    "title": "Simulated stats (10/13/2026)",
+    "image": "device-stats-fixed.png",
+    "amount": "$28,626.46",
+    "attempts": 10
+  },
+  "afterColdRestart": {
+    "amount": "$34,082.61",
+    "title": "Simulated stats (10/13/2026)",
+    "image": "device-stats-restarted.png",
+    "attempts": 10,
+    "players": 21137,
+    "localTimeAtOpen": "2026-10-13 15:19:41 WIB",
+    "expectedPlayers": 21137
+  },
+  "retainedGame": {
+    "displayedLevel": 4,
+    "cash": 501.8,
+    "diamonds": 112.79,
+    "subround": "2/3"
+  },
+  "notes": [
+    "Original client simulations are visibly labelled.",
+    "US retains the captured BR display range 20000_50000, not real US player aggregates.",
+    "Amounts are resampled on each opening as in the original; daily attempts survive cold restart.",
+    "Before inspecting old UI, the existing non-ad Lucky Reward Claim granted 0.11 in-game cash, from 501.69 to 501.80. No withdrawal or ad button was pressed.",
+    "Game balance and board persisted through update and inspection."
+  ],
+  "completedUtc": "2026-10-13T08:20:51.5324302Z"
+}

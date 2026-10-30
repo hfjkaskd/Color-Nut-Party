@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-09",
+  "scope": "Read-only project integration research. Downloaded official Maven evidence to Docs only; no Assets or Packages changes.",
+  "topon": {
+    "repository": "https://jfrog.anythinktech.com/artifactory/overseas_sdk",
+    "max_adapter": {
+      "coordinate": "com.anythink.sdkadx:max-mediation-adapter:1.1.8",
+      "latest_verified": "1.1.8",
+      "class": "com.applovin.mediation.topon.TopOnAdxAdapter",
+      "required_class_prefix": "com.anythink."
+    },
+    "latest_core": "com.anythink.sdk:core-tpn:6.6.55.2",
+    "latest_old_separate_format_modules": "6.5.40",
+    "compatibility": {
+      "documented_freeze": "max-mediation-adapter:1.1.8 with core-tpn/nativead-tpn/banner-tpn/interstitial-tpn/rewardedvideo-tpn:6.4.17",
+      "newer_candidate": "All five SDK modules:6.5.11.1. Published in all five metadata. Core AAR still uses com.anythink. Needs build and device verification before acceptance.",
+      "namespace_break": "core-tpn:6.5.12 and later inspected AARs use com.secmtp.sdk.* while adapter1.1.8 directly refers to com.anythink.*. Do not mix latest versions blindly.",
+      "format_subset": "Do not omit native/banner modules with old split SDK: adapter1.1.8 directly declares native/banner types as fields and method signatures; official instructions include all five modules.",
+      "runtime_verification": "Not performed. Max13.6.3 compatibility must be verified on device; CN docs say supports13.0.0 and EN Unity docs say latestAppLovin."
+    },
+    "additional_dependencies": [
+      "androidx.appcompat:appcompat:1.1.0",
+      "androidx.browser:browser:1.4.0"
+    ],
+    "dashboard_missing": [
+      "TopOn AppID",
+      "TopOn AppKey",
+      "TopOn rewarded/interstitial PlacementIDs"
+    ],
+    "dashboard_format": "MAX custom network App ID = TopOnAppID_TopOnAppKey; PlacementID=TopOnPlacementID",
+    "proguard": "Adapter AAR embeds proguard.txt keeping public com.anythink classes/members and com.applovin.mediation.topon package name.",
+    "sources": [
+      "https://help.toponad.net/docs/Integrate-TopOn-Adx-with-Max-Mediation",
+      "https://help.toponad.net/cn/docs/Unity-Max-jie-ru-TopOn-Adapter-shuo-ming",
+      "https://help.toponad.net/docs/Unity-Integrate-TopOn-via-Max-custom-network-adapter"
+    ]
+  },
+  "kwai": {
+    "result": "No verified official direct MAX adapter coordinate or package was located in AppLovin official adapter catalog or Kwai public developer documentation. Do not invent com.applovin.mediation:kwai-adapter.",
+    "official_documented_alternative": "TopOn officially supports Kwai bidding rewarded/interstitial. This is a different mediation route and not proof of a directMAXadapter.",
+    "missing_for_direct_max": [
+      "Official Kwai MAX custom adapter package/version/documentation from publisher/vendor",
+      "Kwai AppID/Token/PlacementIDs and matchingMAXcustomnetworkconfiguration"
+    ],
+    "sources": [
+      "https://kwainetwork.kwai.com/",
+      "https://help.toponad.net/docs/Kwai-Network",
+      "https://support.applovin.com/en/max/android/preparing-mediated-networks",
+      "https://support.applovin.com/en/max/demand-partners/building-a-custom-adapter"
+    ]
+  },
+  "files": [
+    {
+      "name": "banner-tpn-6.5.40-classes.jar",
+      "bytes": 1079,
+      "sha256": "bc64707a5c9e41f660983b6901fbf59722914545852ceff64dcc74889195fd09"
+    },
+    {
+      "name": "banner-tpn-6.5.40.aar",
+      "bytes": 33538,
+      "sha256": "c779c37a7299ada6abbbc91c354f971a2ab6bfaceca83220ddddc32af302a7df"
+    },
+    {
+      "name": "com_anythink_sdk_banner-tpn_6.5.40_banner-tpn-6.5.40.pom",
+      "bytes": 430,
+      "sha256": "aa335091a663c5f1d47ab040d3866e1a11dc11fe70189d70e5e263c5b56686e2"
+    },
+    {
+      "name": "com_anythink_sdk_banner-tpn_maven-metadata.xml",
+      "bytes": 3473,
+      "sha256": "c055f130d38498ce35d41ffa11991f6e2c106068fd906957d4ec160293ed154e"
+    },
+    {
+      "name": "com_anythink_sdk_core-tpn_6.5.40_core-tpn-6.5.40.pom",
+      "bytes": 635,
+      "sha256": "c62c10e7368cd3e9d7f9f779be076582bba527ad67f679d79a12622312cc343e"
+    },
+    {
+      "name": "com_anythink_sdk_core-tpn_6.6.55.2_core-tpn-6.6.55.2.pom",
+      "bytes": 634,
+      "sha256": "71779400ae56d7b23ef52a64279b62cac062d76e40bfa8c5332e7c65d6b6133e"
+    },
+    {
+      "name": "com_anythink_sdk_core-tpn_maven-metadata.xml",
+      "bytes": 4609,
+      "sha256": "9de16ffe8db0dfcef2c0ff7ae5f65c2e5ad369b68ba673c7af20d03b2eb1b94e"
+    },
+    {
+      "name": "com_anythink_sdk_interstitial-tpn_6.5.40_interstitial-tpn-6.5.40.pom",
+      "bytes": 436,
+      "sha256": "8b9d87730103645509fb826b9c0cf92d8502d68a291e193cf3e1b1307b41e51a"
+    },
+    {
+      "name": "com_anythink_sdk_interstitial-tpn_maven-metadata.xml",
+      "bytes": 3479,
+      "sha256": "4c2b551af78ff5e57ffc239477489f69e9f0da72d609893dbeae4d67dfdc5ba5"
+    },
+    {
+      "name": "com_anythink_sdk_nativead-tpn_6.5.40_nativead-tpn-6.5.40.pom",
+      "bytes": 432,
+      "sha256": "f5f07274a72ecaae9f336d5861f5ff8ccad458242a11ae3965d13c8f4804074f"
+    },
+    {
+      "name": "com_anythink_sdk_nativead-tpn_maven-metadata.xml",
+      "bytes": 3475,
+      "sha256": "be05cab506ac99bad99d9f647a09e94aeeecb42958ced5161af8b3c7d44452d3"
+    },
+    {
+      "name": "com_anythink_sdk_rewardedvideo-tpn_6.5.40_rewardedvideo-tpn-6.5.40.pom",
+      "bytes": 437,
+      "sha256": "520a75ddea87a34715a903aaf3b694990cfb4ee2969a60e34a165b4ff89cb7af"
+    },
+    {
+      "name": "com_anythink_sdk_rewardedvideo-tpn_maven-metadata.xml",
+      "bytes": 3480,
+      "sha256": "b6bcca6cb901c0b6c99dd73e126a1f099c91b8b0bbed16d811fc85c2b392af7a"
+    },
+    {
+      "name": "com_anythink_sdkadx_max-mediation-adapter_1.1.8_max-mediation-adapter-1.1.8.aar",
+      "bytes": 94823,
+      "sha256": "f52d28bb5f3f97f1faa388e235554abbfce643cec657e56684c97a76690bc48b"
+    },
+    {
+      "name": "com_anythink_sdkadx_max-mediation-adapter_1.1.8_max-mediation-adapter-1.1.8.pom",
+      "bytes": 452,
+      "sha256": "069eaf057b8602ab9a5b797d5613a52b09084825b48aa9910f270fff065bd0b6"
+    },
+    {
+      "name": "com_anythink_sdkadx_max-mediation-adapter_maven-metadata.xml",
+      "bytes": 488,
+      "sha256": "f7265296ff700340dae50cd6c116e6b9fc0ed1b51eca3e82c142c144191119df"
+    },
+    {
+      "name": "core-tpn-6.4.17.aar",
+      "bytes": 5066249,
+      "sha256": "e2e220becca82cab72b55a73f4cb6a8604016dc614d171730686369c042136fd"
+    },
+    {
+      "name": "core-tpn-6.4.90.aar",
+      "bytes": 5294214,
+      "sha256": "ffae3cf09c86c130a10332a4ee1a093313c3d310c0e637ec75163b2245a57b48"
+    },
+    {
+      "name": "core-tpn-6.5.05.aar",
+      "bytes": 5696304,
+      "sha256": "f5a780e77e0252a59cb80ed18f51a03b364b014121a81589b488f17cbb9ba67c"
+    },
+    {
+      "name": "core-tpn-6.5.10.aar",
+      "bytes": 5718300,
+      "sha256": "a1f09a263439f23baffecdae924b47568dac83ebb41f1d38fce4ab2ece1c2e83"
+    },
+    {
+      "name": "core-tpn-6.5.11.1.aar",
+      "bytes": 5694475,
+      "sha256": "af0c1f88e393f4e612a74f169973a9f9d88d6cda25509a071aaa858c97afd9c0"
+    },
+    {
+      "name": "core-tpn-6.5.12.aar",
+      "bytes": 5777275,
+      "sha256": "988217b31030a33a26a2199c232a4f00d643674621d912bda4128641fffe945b"
+    },
+    {
+      "name": "core-tpn-6.5.15.aar",
+      "bytes": 5791049,
+      "sha256": "5f3d4713ea9ca84846369395ed8e95404435776c820678678ab65bd9b05d7f23"
+    },
+    {
+      "name": "core-tpn-6.5.30.aar",
+      "bytes": 2186888,
+      "sha256": "fd85c862af92a1749aedda88d5ae263c419e2e8b2f2aabe92ae0fafaf6b312c9"
+    },
+    {
+      "name": "core-tpn-6.5.40-classes.jar",
+      "bytes": 1389,
+      "sha256": "83056fc38c40832caa07520350b6c8c770bc274660561d9759a0dd502a797c86"
+    },
+    {
+      "name": "core-tpn-6.5.40.aar",
+      "bytes": 2231771,
+      "sha256": "15540a6e874dade5ba3a7ce28b9a340941413874b036e5c6227be0cf5709ffe8"
+    },
+    {
+      "name": "core-tpn-6.6.55.2-classes.jar",
+      "bytes": 1389,
+      "sha256": "5175772e89b407439c6cf33ae842a3591710c71755f23d1872baed651f7e82e3"
+    },
+    {
+      "name": "core-tpn-6.6.55.2.aar",
+      "bytes": 2972743,
+      "sha256": "bf3a536ce0b79bf5f296223e767833f98738e2c1d67892cfb0fffe54d7fd56ef"
+    },
+    {
+      "name": "interstitial-tpn-6.5.40-classes.jar",
+      "bytes": 1110,
+      "sha256": "6b49f5043b4823d073ab7b39ad5872f252a7aa76f6eded60f4296174617def22"
+    },
+    {
+      "name": "interstitial-tpn-6.5.40.aar",
+      "bytes": 59709,
+      "sha256": "b1342dd32c45a9ef38e6f4069b39b897e5cbb82eeac1eec625581a4be9b9b174"
+    },
+    {
+      "name": "nativead-tpn-6.5.40-classes.jar",
+      "bytes": 1088,
+      "sha256": "76f44b43cacad3441f58cf3e94f2a33285b7b1ebc13272784fd3827837a85f07"
+    },
+    {
+      "name": "nativead-tpn-6.5.40.aar",
+      "bytes": 53019,
+      "sha256": "9fcc47e74d514c223fbc5305c99d9f225de85403bc8af5de6e899d15adbb66ce"
+    },
+    {
+      "name": "rewardedvideo-tpn-6.5.40-classes.jar",
+      "bytes": 1103,
+      "sha256": "884e66d032ed37a0861b6fb4869ac311e396037e783847e3d7aba4d29e386d58"
+    },
+    {
+      "name": "rewardedvideo-tpn-6.5.40.aar",
+      "bytes": 61578,
+      "sha256": "d1ba580196bc84967e62fb44b056e2b599b603ea420e5a78df235950eeac9c26"
+    },
+    {
+      "name": "topon-max-adapter-classes.jar",
+      "bytes": 77647,
+      "sha256": "537960516a904a09b5e76c48b1b9be62e7547d1f9e96dc810d59d9480f900013"
+    }
+  ]
+}

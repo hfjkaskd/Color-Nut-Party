@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Color Nut Party · 提现记录布局</title>
+<style>
+body{margin:0;background:#f5eee1;color:#482b17;font:16px/1.6 system-ui,sans-serif}
+main{max-width:1500px;margin:auto;padding:28px}h1{font-size:28px;margin:0 0 12px}
+.cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}figure{margin:0;padding:16px;background:#fffaf1;border:1px solid #dec7a8;border-radius:16px}
+figcaption{font-weight:650;margin-bottom:12px}img{display:block;width:100%;height:auto;border-radius:8px}
+a{color:#68471c}details{margin:24px 0}details img{max-width:480px;margin-top:16px}
+@media(max-width:760px){main{padding:14px}.cols{grid-template-columns:1fr}}
+</style>
+<main>
+<h1>提现记录 · 木色新版</h1>
+<p>余额与记录分区；记录上方为名称及操作／状态，下方对齐时间与金额。待处理记录显示独立状态文字。图片来自 Unity 实际运行与独立验收存档。</p>
+<div class="cols">
+<figure><figcaption>原游戏参考</figcaption><img src="reference.png" alt="原版提现记录"></figure>
+<figure><figcaption>修改前</figcaption><img src="before.png" alt="旧版记录卡片"></figure>
+<figure><figcaption>修改后 · 实际运行</figcaption><img src="history-tall.png" alt="重新排列后的余额与三条记录"></figure>
+</div>
+<details><summary>查看短屏适配</summary><img src="history-short.png" alt="720乘1280短屏提现记录"></details>
+<p><a href="../../RewardFlowVideo/20261012/flow-comparison.html#history">返回完整流程对比</a></p>
+</main></html>

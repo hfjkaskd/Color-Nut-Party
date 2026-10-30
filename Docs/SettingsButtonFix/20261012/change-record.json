@@ -1,0 +1,16 @@
+{
+  "request": "Restore the missing Settings entry on the gameplay screen",
+  "diagnosis": "LocalGameplay prefab overrides SettingBg to inactive; its legacy builder also hid it. Bottom routes settings to panel id 5, which had no runtime implementation.",
+  "implementation": [
+    "Restore the existing standard Settings Button at its original bottom-left position",
+    "Reuse the existing green gear and cream/wood backing",
+    "Route panel id 5 to a saved LocalSettings prefab",
+    "Connect the supported shared music/effects setting to OriginalAudioPlayer.SetAudioEnabled and game.SaveUserData",
+    "Configure ON/OFF labels and sprites in the prefab",
+    "Block board input while settings is open, guard repeated clicks, and defer release after closing"
+  ],
+  "scope": "Settings entry and existing audio preference only. No SDK, economy, ads or analytics behavior added.",
+  "userScreenshot": "user-before.png",
+  "runtimeEvidence": "Unity Editor Play Mode with an isolated test save; original player preference restored after exiting Play Mode",
+  "apkRebuilt": false
+}

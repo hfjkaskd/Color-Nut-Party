@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "apk": "C:/Projects/com.nut.sort.relax/Builds/Android/ColorNutParty-1.0.1-each-subround.apk",
+  "bytes": 151814294,
+  "sha256": "a20c1565ffec8c5bf13c08df7404d5fd40a8bf80fefd97d16efd347ca88dfe3e",
+  "product": "Color Nut Party",
+  "package": "com.color.nutparty",
+  "version": "1.0.1",
+  "versionCode": 1,
+  "signedRelease": true,
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "certificateSha256": "d14d534c3d52c389e24441dfe880bdcc0789fa846a7ab03e5368f81c560203a6",
+  "signatureVerification": "PASS",
+  "zipAlignment": "PASS",
+  "unityBuildErrors": 0,
+  "unityBuildWarnings": 462,
+  "warnings": {
+    "CS0169": 3,
+    "CS0649": 459
+  },
+  "releaseVitalLint": "No issues found",
+  "playValidation": "PASS: four actual source boards solved, four settlement panels, one cash/diamond claim per board, no group-end bonus, pending and claimed reload, stale ad callbacks and duplicate-click guard",
+  "deviceRegression": "NOT_RUN on updated APK",
+  "sdkFilesChecked": 84,
+  "sdkFilesChanged": 0,
+  "settingsRestored": true,
+  "behavior": "Every progress-dot subround now uses the existing settlement and claim path. Reward formula and claim-count ad thresholds unchanged; settlement frequency intentionally increased per user request."
+}

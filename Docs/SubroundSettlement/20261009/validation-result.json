@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "test": "NutSort.Validation.LocalSubroundPlayValidation.Run",
+  "sourceBoards": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "nextBoard": 13,
+  "settlementPanels": 4,
+  "pendingSaveReload": "PASS",
+  "claimedClosingReload": "PASS",
+  "repeatClicksAndLateAdCallbacks": "PASS",
+  "cashAndDiamonds": "Exactly once per small-round claim",
+  "groupEndBonus": "None",
+  "userPreferencesRestored": true,
+  "adProvider": "Controlled delegates, no live ad playback",
+  "checkpoints": [
+    "NUT_LOCAL_SUBROUND_SETTLEMENT completed=9 pendingNext=10",
+    "NUT_LOCAL_SUBROUND_SETTLEMENT completed=10 pendingNext=11",
+    "NUT_LOCAL_SUBROUND_SETTLEMENT completed=11 pendingNext=12",
+    "NUT_LOCAL_SUBROUND_SETTLEMENT completed=12 pendingNext=13",
+    "NUT_LOCAL_SUBROUND_PLAY_PASS real boards 9/10/11/12 solved through world input and original solver; four native settlement panels, unclaimed hold and reload, cash plus diamonds once per claim, normal-ad failure and duplicate late callbacks, closing reload, exactly four level/daily increments and playable level13 with no extra group-end reward. Ads use controlled delegates only."
+  ]
+}

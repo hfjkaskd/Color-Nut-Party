@@ -1,0 +1,17 @@
+{
+    "capturedUtc": "2026-10-14T04:03:18.2847713Z",
+    "unityVersion": "2022.3.62f3",
+    "projectPath": "C:\\Projects\\com.nut.sort.relax",
+    "jdkRootPath": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\OpenJDK",
+    "unityJavaVersion": "11.0.14.1",
+    "gradleDaemonJavaHome": "",
+    "gradleDaemonJavaVersion": "11.0.14.1",
+    "gradlePath": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\Tools\\gradle",
+    "sdkRootPath": "F:\\AndroidSDK",
+    "ndkRootPath": "C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.62f3\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK",
+    "jdkUseEmbeddedPreferencePresent": true,
+    "jdkUseEmbedded": false,
+    "gradleUseEmbeddedPreferencePresent": true,
+    "gradleUseEmbedded": true,
+    "scope": "Only the shared Gradle preference changes. Unity keeps JDK 11; project org.gradle.java.home selects daemon JDK 17. SDK and NDK paths are unchanged."
+}
