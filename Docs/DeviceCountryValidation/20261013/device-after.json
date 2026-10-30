@@ -1,0 +1,12 @@
+{
+  "systemLocale": "id-ID",
+  "systemLocales": "id-ID,zh-Hans-CN,pt-BR,en-US",
+  "appLocales": "Locales for com.color.nutparty for user 0 are []",
+  "timezone": "Asia/Jakarta",
+  "networkCountry": "cn,",
+  "package": [
+    "versionCode=1 minSdk=26 targetSdk=36",
+    "versionName=1.0.1",
+    "lastUpdateTime=2026-10-13 17:34:24"
+  ]
+}

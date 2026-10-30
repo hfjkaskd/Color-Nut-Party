@@ -1,0 +1,289 @@
+ M Assets/Material/DiZuoLockedMaterial.mat
+ M Assets/Material/DiZuoMaterial.mat
+ M "Assets/Material/zh_Custom SDF_outline.mat"
+ M "Assets/Material/zh_Custom SDF_outline_b.mat"
+ M "Assets/Material/zh_Custom SDF_outline_blue.mat"
+ M "Assets/Material/zh_Custom SDF_outline_blue1.mat"
+ M "Assets/Material/zh_Custom SDF_outline_blue2.mat"
+ M "Assets/Material/zh_Custom SDF_outline_brown.mat"
+ M "Assets/Material/zh_Custom SDF_outline_gray.mat"
+ M "Assets/Material/zh_Custom SDF_outline_green.mat"
+ M "Assets/Material/zh_Custom SDF_outline_green1.mat"
+ M "Assets/Material/zh_Custom SDF_outline_orange.mat"
+ M "Assets/Material/zh_Custom SDF_outline_pink.mat"
+ M "Assets/Material/zh_Custom SDF_outline_purple.mat"
+ M "Assets/Material/zh_Custom SDF_outline_red_b.mat"
+ M Assets/MonoBehaviour/URP-Balanced.asset
+ M Assets/NutSort/Editor/Validation/LocalAndroidBuild.cs
+ M Assets/NutSort/Editor/Validation/LocalCashRewardPlayValidation.cs
+ M Assets/NutSort/Editor/Validation/LocalDiamondRewardPlayValidation.cs
+ M Assets/NutSort/Editor/Validation/LocalGameplayBuilder.cs
+ M Assets/NutSort/Editor/Validation/LocalSubroundPlayValidation.cs
+ M Assets/NutSort/Editor/Validation/LocalTeachingViewPlayValidation.cs
+ M Assets/NutSort/Editor/Validation/LocalToolAdPlayValidation.cs
+ M Assets/NutSort/Editor/Validation/OriginalRewardGetFlowValidation.cs
+ M Assets/NutSort/Editor/Validation/OriginalSuccessPanelHostPlayValidation.cs
+ M Assets/NutSort/Editor/Validation/OriginalSuccessPanelPlayValidation.cs
+ M Assets/NutSort/Runtime/Content/OriginalUserDataJson.cs
+ M Assets/NutSort/Runtime/Content/OriginalUserLocalData.cs
+ M Assets/NutSort/Runtime/Gameplay/OriginalRewardGetFlow.cs
+ M Assets/NutSort/Runtime/UI/LocalDiamondWithdrawalPanel.cs
+ M Assets/NutSort/Runtime/UI/LocalGameplayController.Account.cs
+ M Assets/NutSort/Runtime/UI/LocalGameplayController.Interstitial.cs
+ M Assets/NutSort/Runtime/UI/LocalGameplayController.Success.cs
+ M Assets/NutSort/Runtime/UI/LocalGameplayController.Teaching.cs
+ M Assets/NutSort/Runtime/UI/LocalGameplayController.Tools.cs
+ M Assets/NutSort/Runtime/UI/LocalGameplayController.Top.cs
+ M Assets/NutSort/Runtime/UI/LocalGameplayController.Unlock.cs
+ M Assets/NutSort/Runtime/UI/LocalGameplayController.Withdrawal.cs
+ M Assets/NutSort/Runtime/UI/LocalGameplayController.cs
+ M Assets/NutSort/Runtime/UI/OriginalGameplayUnlockPanel.cs
+ M Assets/NutSort/Runtime/UI/OriginalStartupFlow.cs
+ M Assets/NutSort/Runtime/UI/OriginalWithdrawalStageZeroPanel.cs
+ M Assets/NutSort/Runtime/UI/OriginalWithdrawalTooFastPanel.cs
+ M Assets/NutSort/Runtime/World/OriginalGameScene.cs
+ M Assets/NutSort/Runtime/World/OriginalPrefabPool.cs
+ M Assets/Resources/atlas/appratingpanel/bg.png
+ M Assets/Resources/atlas/appratingpanel/title.png
+ M Assets/Resources/atlas/items/AddScrew.png
+ M Assets/Resources/atlas/items/Exchange.png
+ M Assets/Resources/atlas/items/Revoke.png
+ M Assets/Resources/atlas/localstats/bg2_3.png
+ M Assets/Resources/atlas/localstats/bg_3.png
+ M Assets/Resources/atlas/mainpanel/PlayerGoldGetHint_bg.png
+ M Assets/Resources/atlas/mainpanel/TargetReward_bg.png
+ M Assets/Resources/atlas/mainpanel/coin_tip_bg.png
+ M Assets/Resources/atlas/mainpanel/gold_tip_bg.png
+ M Assets/Resources/atlas/mainpanel/goldget.png
+ M Assets/Resources/atlas/mainpanel/hintlevel_bg1.png
+ M Assets/Resources/atlas/mainpanel/hintlevel_bg2.png
+ M Assets/Resources/atlas/mainpanel/hintlevel_bg3.png
+ M Assets/Resources/atlas/mainpanel/hintlevel_bg4.png
+ M Assets/Resources/atlas/mainpanel/hintlevel_tx_bg.png
+ M Assets/Resources/atlas/mainpanel/item_add.png
+ M Assets/Resources/atlas/mainpanel/item_bg.png
+ M Assets/Resources/atlas/mainpanel/item_bg1.png
+ M Assets/Resources/atlas/mainpanel/item_count_bg.png
+ M Assets/Resources/atlas/mainpanel/level_bg.png
+ M Assets/Resources/atlas/mainpanel/replay.png
+ M Assets/Resources/atlas/mainpanel/setting.png
+ M Assets/Resources/atlas/mainpanel/target_tip_bg.png
+ M Assets/Resources/atlas/mainpanel/tx_bar.png
+ M Assets/Resources/atlas/mainpanel/tx_bar_bg.png
+ M Assets/Resources/atlas/mainpanel/tx_bg.png
+ M Assets/Resources/atlas/mainpanel/tx_bg1.png
+ M Assets/Resources/atlas/mainpanel/tx_dj_bg.png
+ M Assets/Resources/atlas/mainpanel/tx_lv_bar.png
+ M Assets/Resources/atlas/mainpanel/tx_lv_bar_bg.png
+ M Assets/Resources/atlas/newbieguidepanel/bg.png
+ M Assets/Resources/atlas/newbieguidepanel/bg1.png
+ M Assets/Resources/atlas/newbieguidepanel/dian.png
+ M Assets/Resources/atlas/newbieguidepanel/dian1.png
+ M Assets/Resources/atlas/newbieguidepanel/line.png
+ M Assets/Resources/atlas/tooloffer/ad.png
+ M Assets/Resources/atlas/tooloffer/bg1_5.png
+ M Assets/Resources/atlas/tooloffer/bg2_1.png
+ M Assets/Resources/atlas/tooloffer/bg_0.png
+ M Assets/Resources/atlas/tooloffer/btn1.png
+ M Assets/Resources/atlas/tooloffer/close.png
+ M Assets/Resources/atlas/tooloffer/goldget_bg.png
+ M Assets/Resources/atlas/tooloffer/title_0.png
+ M Assets/Resources/atlas/txcoinpanel/bar.png
+ M Assets/Resources/atlas/txcoinpanel/bar_bg.png
+ M Assets/Resources/atlas/txcoinpanel/bg.png
+ M Assets/Resources/atlas/txcoinpanel/bg2.png
+ M Assets/Resources/atlas/txcoinpanel/bg3.png
+ M Assets/Resources/atlas/txcoinpanel/bg4.png
+ M Assets/Resources/atlas/txcoinpanel/btn.png
+ M Assets/Resources/atlas/txcoinpanel/item_bg.png
+ M Assets/Resources/atlas/txcoinpanel/item_bg1.png
+ M Assets/Resources/atlas/txcoinpanel/item_bg1_1.png
+ M Assets/Resources/atlas/txcoinpanel/item_bg2.png
+ M Assets/Resources/atlas/txcoinpanel/tip_bg.png
+ M Assets/Resources/atlas/txcoinpanel/title1.png
+ M Assets/Resources/game/spirte/Mask.png
+ M Assets/Resources/game/spirte/Mask1.png
+ M Assets/Resources/game/spirte/bg.png
+ M Assets/Resources/prefabs/items/Item.prefab
+ M Assets/Resources/prefabs/items/Item_Big.prefab
+ M Assets/Resources/prefabs/panels/AddScrewItem.prefab
+ M Assets/Resources/prefabs/panels/BootLoadingPanel.prefab
+ M Assets/Resources/prefabs/panels/CoinItem.prefab
+ M Assets/Resources/prefabs/panels/ExchangeItem.prefab
+ M Assets/Resources/prefabs/panels/FailPanel.prefab
+ M Assets/Resources/prefabs/panels/GoldItem.prefab
+ M Assets/Resources/prefabs/panels/ItemGetPanel.prefab
+ M Assets/Resources/prefabs/panels/LocalGameplay.prefab
+ M Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab
+ M Assets/Resources/prefabs/panels/MainPanel.prefab
+ M Assets/Resources/prefabs/panels/MainPanelBottom.prefab
+ M Assets/Resources/prefabs/panels/MainPanelComplete.prefab
+ M Assets/Resources/prefabs/panels/MainPanelTop.prefab
+ M Assets/Resources/prefabs/panels/MessagePanel.prefab
+ M Assets/Resources/prefabs/panels/NewbieGuidePanel.prefab
+ M Assets/Resources/prefabs/panels/ReplayPanel.prefab
+ M Assets/Resources/prefabs/panels/RevokeItem.prefab
+ M Assets/Resources/prefabs/panels/RewardPanel.prefab
+ M Assets/Resources/prefabs/panels/SuccessPanel.prefab
+ M Assets/Resources/prefabs/panels/TXChannelPanel.prefab
+ M Assets/Resources/prefabs/panels/TXCoinPanel.prefab
+ M Assets/Resources/prefabs/panels/TXGuideLoadingPanel.prefab
+ M Assets/Resources/prefabs/panels/TXGuideTargetCompletePanel.prefab
+ M Assets/Resources/prefabs/panels/TXLevelPanel.prefab
+ M Assets/Resources/prefabs/panels/TXPanel.prefab
+ M Assets/Resources/prefabs/panels/TXProgress0Panel.prefab
+ M Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab
+ M Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab
+ M Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab
+ M Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab
+ M Assets/Resources/prefabs/panels/UnlockGameplayPanel.prefab
+ M Assets/Resources/prefabs/playerinfo/PMDSimple.prefab
+ M Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab
+ M Assets/Scenes/LuoSiSortGame.unity
+ M Assets/Texture2D/ad.png
+ M Assets/Texture2D/bar.png
+ M Assets/Texture2D/bar_1.png
+ M Assets/Texture2D/bar_2.png
+ M Assets/Texture2D/bar_bg.png
+ M Assets/Texture2D/bar_bg_1.png
+ M Assets/Texture2D/bar_bg_2.png
+ M Assets/Texture2D/bg.png
+ M Assets/Texture2D/bg0.png
+ M Assets/Texture2D/bg0_0.png
+ M Assets/Texture2D/bg1.png
+ M Assets/Texture2D/bg1_1.png
+ M Assets/Texture2D/bg1_2.png
+ M Assets/Texture2D/bg1_4.png
+ M Assets/Texture2D/bg1_5.png
+ M Assets/Texture2D/bg1_7.png
+ M Assets/Texture2D/bg1_8.png
+ M Assets/Texture2D/bg2_0.png
+ M Assets/Texture2D/bg2_1.png
+ M Assets/Texture2D/bg2_2.png
+ M Assets/Texture2D/bg2_4.png
+ M Assets/Texture2D/bg3_0.png
+ M Assets/Texture2D/bg3_1.png
+ M Assets/Texture2D/bg_0.png
+ M Assets/Texture2D/bg_10.png
+ M Assets/Texture2D/bg_11.png
+ M Assets/Texture2D/bg_12.png
+ M Assets/Texture2D/bg_14.png
+ M Assets/Texture2D/bg_2.png
+ M Assets/Texture2D/bg_4.png
+ M Assets/Texture2D/bg_5.png
+ M Assets/Texture2D/bg_7.png
+ M Assets/Texture2D/btn.png
+ M Assets/Texture2D/btn1.png
+ M Assets/Texture2D/btn_0.png
+ M Assets/Texture2D/close.png
+ M Assets/Texture2D/goldget_bg.png
+ M Assets/Texture2D/kuang.png
+ M Assets/Texture2D/line.png
+ M Assets/Texture2D/line2.png
+ M Assets/Texture2D/loading.png
+ M Assets/Texture2D/loading1.png
+ M Assets/Texture2D/logo_android.png
+ M Assets/Texture2D/pmd_bg.png
+ M Assets/Texture2D/pmd_dm_bg.png
+ M Assets/Texture2D/tip_bg.png
+ M Assets/Texture2D/tip_bg_0.png
+ M Assets/Texture2D/title.png
+ M Assets/Texture2D/title1.png
+ M Assets/Texture2D/title2.png
+ M Assets/Texture2D/title3.png
+ M Assets/Texture2D/title_0.png
+ M Assets/Texture2D/title_1.png
+ M Assets/Texture2D/title_3.png
+ M Assets/Texture2D/title_5.png
+ M Assets/Texture2D/title_7.png
+ M Assets/Texture2D/title_9.png
+ M Docs/ImplementationStatus.md
+ M Docs/LocalCashSettlement.md
+ M Docs/LocalGameplayProgression.md
+ M Docs/LocalInterstitialAds.md
+ M Docs/LocalNativeSuccess.md
+ M Docs/LocalSubroundProgression.md
+ M Docs/LocalSubroundView.md
+ M Packages/packages-lock.json
+ M ProjectSettings/ProjectSettings.asset
+?? Assets/Adjust.meta
+?? Assets/Adjust/
+?? Assets/ColorNutParty_Analytics.md
+?? Assets/ColorNutParty_Analytics.md.meta
+?? Assets/Editor.meta
+?? Assets/Editor/
+?? Assets/MaxSdk.meta
+?? Assets/MaxSdk/
+?? Assets/NutSort/Editor/GardenReskin.meta
+?? Assets/NutSort/Editor/GardenReskin/
+?? Assets/NutSort/Editor/Validation/LocalSettlementAdRetryPlayValidation.cs
+?? Assets/NutSort/Editor/Validation/LocalSettlementAdRetryPlayValidation.cs.meta
+?? Assets/NutSort/Editor/Validation/LocalTeachingClickFeedbackPlayValidation.cs
+?? Assets/NutSort/Editor/Validation/LocalTeachingClickFeedbackPlayValidation.cs.meta
+?? Assets/NutSort/Editor/Validation/LocalWithdrawalConditionsBuilder.cs
+?? Assets/NutSort/Editor/Validation/LocalWithdrawalConditionsBuilder.cs.meta
+?? Assets/NutSort/Editor/Validation/LocalWithdrawalConditionsPlayValidation.cs
+?? Assets/NutSort/Editor/Validation/LocalWithdrawalConditionsPlayValidation.cs.meta
+?? Assets/NutSort/Integration.meta
+?? Assets/NutSort/Integration/
+?? Assets/NutSort/Runtime/Content/LocalWithdrawalPolicy.cs
+?? Assets/NutSort/Runtime/Content/LocalWithdrawalPolicy.cs.meta
+?? Assets/NutSort/Runtime/UI/LocalGameplayController.Settings.cs
+?? Assets/NutSort/Runtime/UI/LocalGameplayController.Settings.cs.meta
+?? Assets/NutSort/Runtime/UI/LocalGameplayController.WithdrawalConditions.cs
+?? Assets/NutSort/Runtime/UI/LocalGameplayController.WithdrawalConditions.cs.meta
+?? Assets/NutSort/Runtime/UI/LocalSettingsPanel.cs
+?? Assets/NutSort/Runtime/UI/LocalSettingsPanel.cs.meta
+?? Assets/NutSort/Runtime/UI/LocalWithdrawalConditionsPanel.cs
+?? Assets/NutSort/Runtime/UI/LocalWithdrawalConditionsPanel.cs.meta
+?? Assets/Plugins.meta
+?? Assets/Plugins/
+?? Assets/Resources/Adjust.meta
+?? Assets/Resources/Adjust/
+?? "Assets/Resources/Color Nut Party.txt"
+?? "Assets/Resources/Color Nut Party.txt.meta"
+?? Assets/Resources/Configuration/LocalWithdrawal.json
+?? Assets/Resources/Configuration/LocalWithdrawal.json.meta
+?? Assets/Resources/MaxAdapter.meta
+?? Assets/Resources/MaxAdapter/
+?? Assets/Resources/ThinkingData.meta
+?? Assets/Resources/ThinkingData/
+?? Assets/Resources/atlas/approvedgarden.meta
+?? Assets/Resources/atlas/approvedgarden/
+?? Assets/Resources/atlas/mainpanel/replay_bg.asset
+?? Assets/Resources/atlas/mainpanel/replay_bg.asset.meta
+?? Assets/Resources/atlas/mainpanel/replay_bg.png
+?? Assets/Resources/atlas/mainpanel/replay_bg.png.meta
+?? Assets/Resources/atlas/octobergarden.meta
+?? Assets/Resources/atlas/octobergarden/
+?? Assets/Resources/prefabs/panels/LocalSettings.prefab
+?? Assets/Resources/prefabs/panels/LocalSettings.prefab.meta
+?? Assets/Resources/prefabs/panels/LocalWithdrawalConditions.prefab
+?? Assets/Resources/prefabs/panels/LocalWithdrawalConditions.prefab.meta
+?? Assets/SDK.meta
+?? Assets/SDK/
+?? Docs/APKBuild/
+?? Docs/AdClaimFix/
+?? Docs/AnalyticsDesign/
+?? Docs/DiamondProgressFix/
+?? Docs/GardenReskin/
+?? Docs/SDKIntegration/
+?? Docs/SettingsButtonFix/
+?? Docs/StatsLogicAudit/
+?? Docs/SubroundSettlement/
+?? Docs/TopProgressFix/
+?? Docs/VisualRefresh/
+?? Docs/WithdrawalImplementation/
+?? Packages/com.adjust.sdk/
+?? Packages/com.applovin.mediation.ads/
+?? Packages/com.google.external-dependency-manager/
+?? Packages/com.thinkingdata.analytics/
+?? ProjectSettings/AndroidResolverDependencies.xml
+?? ProjectSettings/AppLovinInternalSettings.json
+?? ProjectSettings/SceneTemplateSettings.json
+?? Signing/README.txt
+?? Signing/cnp_qt_qianmingwenjian-certificate.pem
+?? Signing/cnp_qt_qianmingwenjian.keystore.aesgcm
+?? Signing/restore_keystore.py
+?? Signing/signing-info.json
+?? Tools/GardenReskin/

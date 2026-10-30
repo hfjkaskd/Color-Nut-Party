@@ -1,0 +1,38 @@
+{
+    "result": "PASS",
+    "validatedUtc": "2026-10-09T07:55:48.2215135Z",
+    "entryScene": "Assets/Scenes/LuoSiSortGame.unity",
+    "sdkNode": "SDK",
+    "productName": "Color Nut Party",
+    "packageName": "com.color.nutparty",
+    "version": "1.0.1",
+    "versionCode": 1,
+    "components": [
+        "SDKAdapter",
+        "BizzaAnalyticsAgent",
+        "QTGameAdsBridge"
+    ],
+    "automaticInitialization": true,
+    "bridgeReferenceVerified": true,
+    "placementTags": [
+        "tool_undo",
+        "tool_refresh",
+        "tool_add_screw",
+        "settlement_interstitial",
+        "settlement_rewarded"
+    ],
+    "encryptedConfigs": [
+        "Assets/Resources/MaxAdapter/max_ads_config.bytes",
+        "Assets/Resources/Adjust/adjust_config.bytes",
+        "Assets/Resources/ThinkingData/thinking_data_config.bytes",
+        "Assets/Resources/Color Nut Party.txt"
+    ],
+    "allSuppliedParametersMatchedAfterDecrypt": true,
+    "officialMaxSettings": "Assets/MaxSdk/Resources/AppLovinSettings.asset",
+    "maxKeyAndAdMobAppIdMatched": true,
+    "bizzaReleaseReporting": true,
+    "bizzaIngestHost": "ingest.popemusic.us",
+    "iosConfigured": false,
+    "sdkSourceModifiedByThisTool": false,
+    "verificationScope": "Saved scene, Editor configuration and encrypted resource round trips; no ad or analytics network requests. SDK source hashes are verified separately."
+}

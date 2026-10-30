@@ -1,0 +1,19 @@
+{
+  "implementedBusinessEvents": 24,
+  "policyPassed": true,
+  "policyChecks": 63,
+  "productionUiPlayStatus": "PASS",
+  "productionUiPlayChecks": 597,
+  "nativePassed": true,
+  "nativeEvents": 75,
+  "configuredPopupPrefabs": 23,
+  "sdkFilesUnchanged": true,
+  "sdkFileCount": 84,
+  "productionPackage": "com.color.nutparty",
+  "testPackage": "com.color.nutparty.localtest",
+  "productionTestFlag": false,
+  "backendDashboardVerified": false,
+  "testApk": "Builds/Android/ColorNutParty-SDK-device-test.apk",
+  "originalAppDataCleared": false,
+  "nativeBizzaBusinessPropertyCount": 11
+}

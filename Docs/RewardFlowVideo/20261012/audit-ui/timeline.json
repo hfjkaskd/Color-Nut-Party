@@ -1,0 +1,127 @@
+{
+  "source": "C:/Users/pc/AppData/Roaming/LarkShell/screenshot/20261012061133_rec_.mp4",
+  "review": "38-132 seconds sampled at 1fps; 40-52 and 74-85 at 2fps; 109-133 at 4fps. Approximate transition timestamps. Clicks inferred from cursor location and resulting UI transition; no click-event overlay.",
+  "findings": [
+    {
+      "time": "38-40.5",
+      "screen": "Level 1 board victory/confetti; top social reward notification",
+      "action": "Automatic victory transition."
+    },
+    {
+      "time": "41-41.5",
+      "screen": "Level Complete, $0.40, Withdraw button",
+      "action": "Cursor reaches Withdraw; transitions after button interaction."
+    },
+    {
+      "time": "42.5-43.5",
+      "screen": "Withdrawal on Clear, $0.40, Withdraw button",
+      "action": "Withdraw interaction continues to level withdrawal details."
+    },
+    {
+      "time": "44-45",
+      "screen": "Level 1, $0.40, full 1/1 progress, three statistics, Withdraw",
+      "action": "Withdraw interaction opens loading."
+    },
+    {
+      "time": "45.5-49.5",
+      "screen": "Initiating withdrawal progress overlay",
+      "action": "Automatic progress over about 4.5 seconds; no button."
+    },
+    {
+      "time": "50-51.5",
+      "screen": "Enter Information; Venmo default; empty name/phone; Confirm and close X",
+      "action": "Cursor clicks close X around 51 seconds, abandoning first entry form."
+    },
+    {
+      "time": "52-55",
+      "screen": "Level 2 board initialization and Clear this level Withdraw all banner",
+      "action": "Automatic banner and return to gameplay."
+    },
+    {
+      "time": "55-73",
+      "screen": "Level 2 gameplay and victory",
+      "action": "User solves board."
+    },
+    {
+      "time": "74.5-76",
+      "screen": "Level Complete, $0.60, Withdraw",
+      "action": "Withdraw interaction."
+    },
+    {
+      "time": "77-78",
+      "screen": "Withdrawal on Clear, $0.60, Withdraw",
+      "action": "Withdraw interaction."
+    },
+    {
+      "time": "78.5-79",
+      "screen": "Level 2, $0.60, full 2/2 progress, statistics, Withdraw",
+      "action": "Withdraw interaction."
+    },
+    {
+      "time": "79.5-84",
+      "screen": "Initiating withdrawal progress overlay",
+      "action": "Automatic progress then account form."
+    },
+    {
+      "time": "84.5-100",
+      "screen": "Enter Information",
+      "action": "User switches to PayPal, types name and email, then clicks Confirm."
+    },
+    {
+      "time": "101-103",
+      "screen": "Confirm account with PayPal/name/email; Withdraw now and Re-enter",
+      "action": "User clicks Withdraw now at about 103 seconds."
+    },
+    {
+      "time": "104-108",
+      "screen": "This is your 2th withdrawal; $0.60; current status",
+      "action": "Automatic checks: withdrawal goal, real-name verification, account verification. Confirm Withdrawal becomes available."
+    },
+    {
+      "time": "109-109.5",
+      "screen": "All checks complete; Confirm Withdrawal button",
+      "action": "User clicks Confirm Withdrawal; gone by 109.75."
+    },
+    {
+      "time": "110-112",
+      "screen": "Level 3 board loading; top Successfully Withdrawn $0.60 notice",
+      "action": "Automatic; this is the source game visual claim, not verified actual payment."
+    },
+    {
+      "time": "112.25-115",
+      "screen": "You have completed 2 withdrawal verifications...evaluating your account value...",
+      "action": "Automatic 3-second explanation band; no button."
+    },
+    {
+      "time": "115.25-118",
+      "screen": "Withdrawal Privilege Activating",
+      "action": "Automatic 3-second status band; no button."
+    },
+    {
+      "time": "118.25-123.5",
+      "screen": "Full-screen activation panel; Bonus 1-5 animate in sequentially",
+      "action": "Automatic approximately 5.5-second sequence; no button."
+    },
+    {
+      "time": "123.75-125.5",
+      "screen": "Cash icon and $500 across central reward band",
+      "action": "Automatic; no button. HUD remains $0 through 124.5 and changes to $500 by 124.75 as cash flies to HUD."
+    },
+    {
+      "time": "125.75-128.5",
+      "screen": "Withdrawal privileges are fully activated",
+      "action": "Automatic approximately 3-second band; no button."
+    },
+    {
+      "time": "128.75-131.75",
+      "screen": "8579 users rated super premium today; Total Withdrawn $27,660.10 and floating avatars",
+      "action": "Automatic presentation about 3 seconds; source visual claims only."
+    },
+    {
+      "time": "132",
+      "screen": "Level 3 board; HUD $500",
+      "action": "Automatic return to gameplay."
+    }
+  ],
+  "implementationImplication": "The original $500 appearance uses an automatic central reward band, not the button-based TXGuideTargetCompletePanel. Preserve existing balances and prevent duplicate grants when reconnecting presentation."
+}

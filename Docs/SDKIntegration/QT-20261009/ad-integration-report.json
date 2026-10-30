@@ -1,0 +1,54 @@
+{
+  "bridge": "NutSort.Integration.QTGameAdsBridge",
+  "bridgeScriptGuid": "ae8322496f9f46cd8e153330e33fda88",
+  "sdkFilesEdited": [],
+  "assemblyDefinitionFilesEdited": [],
+  "routes": [
+    {
+      "source": "Undo tool",
+      "method": "SDKAdapter.ShowRewardVideo",
+      "placementField": "undoPlacement"
+    },
+    {
+      "source": "Refresh tool",
+      "method": "SDKAdapter.ShowRewardVideo",
+      "placementField": "refreshPlacement"
+    },
+    {
+      "source": "Add screw tool",
+      "method": "SDKAdapter.ShowRewardVideo",
+      "placementField": "addScrewPlacement"
+    },
+    {
+      "source": "Normal settlement threshold",
+      "method": "SDKAdapter.ShowInterstitial",
+      "placementField": "settlementInterstitialPlacement"
+    },
+    {
+      "source": "Settlement rewarded threshold",
+      "method": "SDKAdapter.ShowRewardVideo",
+      "placementField": "settlementRewardedPlacement"
+    }
+  ],
+  "behavior": [
+    "Persistent SDK bridge binds every newly initialized gameplay controller through a typed event",
+    "No fake ad success or Editor-specific ad bypass",
+    "Missing provider, no fill, failure and cancellation do not grant reward",
+    "Failed settlement restores counters to retain the same ad requirement on retry",
+    "Pending settlement counters are not persisted before successful or failed completion",
+    "Duplicate or late callbacks cannot grant twice",
+    "Original amounts, tool counts and threshold values remain unchanged"
+  ],
+  "validation": {
+    "pureStateMachine": "PASS",
+    "log": "ad-validation/reward-flow-validation.log",
+    "actualProductionSourceCompiled": true,
+    "fixtureOnly": "Unity Resources and minimal user data",
+    "unityPlayMode": "PASS - tool-ad-play-validation.log",
+    "liveSdkAds": "Requires device with SDK fill",
+    "unityPureMethod": "NutSort.Validation.OriginalRewardGetFlowValidation.Validate",
+    "unityToolMethod": "NutSort.Validation.LocalToolAdPlayValidation.Run",
+    "unityPureStateMachine": "PASS - reward-unity-validation.log",
+    "unitySceneUIAudit": "PASS - entry-scene-ui-preservation.json"
+  }
+}

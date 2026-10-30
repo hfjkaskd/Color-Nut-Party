@@ -1,0 +1,8 @@
+{
+  "popupPrefabs": 23,
+  "sceneNode": "SDK",
+  "adapterConfigured": true,
+  "isTest": false,
+  "summaryIntervalSeconds": 60.0,
+  "startupQueueCapacity": 256
+}

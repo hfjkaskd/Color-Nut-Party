@@ -1,0 +1,76 @@
+{
+  "inspectedAt": "2026-10-13T23:56:24.8293141-04:00",
+  "device": "MuMu Android Device-1, Android 15",
+  "package": "com.color.nutparty",
+  "version": "1.0.1",
+  "versionCode": 1,
+  "apkSha256": "c0c4e5de0dacdf0f8e7376c8a270bf2bd11ab6d06b6989994f0858a73266b238",
+  "matchesDeliveredApk": true,
+  "userSessionBeforeInspection": {
+    "gameDurationSeconds": 426.1796579,
+    "dailyQueuedEventCount": {
+      "2026-10-14": 4
+    },
+    "eventsRetainedInQueue": [
+      {
+        "event": "MaxTrack",
+        "timestampUtc": "2026-10-14T03:46:19.933932Z",
+        "step": "ad_call",
+        "adType": "iv",
+        "placement": "settlement_interstitial"
+      },
+      {
+        "event": "MaxTrack",
+        "timestampUtc": "2026-10-14T03:46:19.936445Z",
+        "step": "ad_start",
+        "adType": "iv",
+        "placement": "settlement_interstitial"
+      },
+      {
+        "event": "MaxTrack",
+        "timestampUtc": "2026-10-14T03:46:19.937598Z",
+        "step": "ad_ready",
+        "adType": "iv",
+        "placement": "settlement_interstitial"
+      }
+    ],
+    "pendingBatches": 3,
+    "droppedRecordCount": 0
+  },
+  "afterReopeningGame": {
+    "pendingBatches": 0,
+    "realtimeBufferedRecords": 0,
+    "userProfileBufferedRecords": 0,
+    "delayedBatches": 0,
+    "droppedRecordCount": 0,
+    "newQueuedEvents": 1,
+    "note": "Inspector reopened app after snapshot; newly generated SDK login is separate from original user session."
+  },
+  "conclusion": {
+    "sdkEventsObserved": true,
+    "businessEventsImplemented": false,
+    "missingBusinessExamples": [
+      "level_start",
+      "level_result",
+      "resource_change",
+      "withdraw_submit",
+      "withdraw_submit_result",
+      "abnormal_exit"
+    ],
+    "queueDrainObserved": true,
+    "directHttpResponseObserved": false,
+    "backendIngestionVerified": false,
+    "thinkingDataPrivateCacheReadable": false,
+    "limitations": [
+      "Verbose SDK logs are disabled in release.",
+      "MuMu was already stopped; historical logcat was unavailable.",
+      "Queue drained with zero drop and delay counters; this supports SDK delivery but does not prove analytics dashboard ingestion.",
+      "App is non-debuggable and emulator has no su; ThinkingData private database was inaccessible."
+    ]
+  },
+  "sourceEvidence": [
+    "Assets/ColorNutParty_Analytics.md:3 states pending, not implemented.",
+    "Assets/SDK/SDKAdapter.cs:167 forwards SDK events to Bizza and ThinkingData.",
+    "Full source audit found no gameplay business Track/BTrack integrations."
+  ]
+}

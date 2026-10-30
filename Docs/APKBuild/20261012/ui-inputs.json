@@ -1,0 +1,30 @@
+[
+  {
+    "path": "Assets/Resources/prefabs/panels/LocalGameplay.prefab",
+    "sha256": "A45A80CDE11FA9CD9BE9F55AA367E5646720311F22692FFCBDD2117C7D4F7843"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/LocalSettings.prefab",
+    "sha256": "C6B37982CFF584B2C1166A4FB5FFE3834B1E67FAF674511DBF8AD2877FCA9A48"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "sha256": "EB8B729E18A42B2A83D570BF12B01961A2EE8DDC45F7EF67931577F69C134EB6"
+  },
+  {
+    "path": "Assets/Resources/atlas/mainpanel/tx_lv_bar.png",
+    "sha256": "0813FFD76B170FBD4A2F4586E41E728B08366714AF3E5D2D21A9893F1A0ECA6A"
+  },
+  {
+    "path": "Assets/Resources/atlas/mainpanel/tx_lv_bar_bg.png",
+    "sha256": "0C59EF212A10FC8E191503873901E6C281AE9D9E891D492D606B2218ED76ABF9"
+  },
+  {
+    "path": "Assets/Resources/atlas/octobergarden/diamond-progress-fill.png",
+    "sha256": "52AE1293EDE25B8F775E49DB9C40C12068E08547392353585F42CB3176049DB2"
+  },
+  {
+    "path": "Assets/NutSort/Runtime/UI/LocalSettingsPanel.cs",
+    "sha256": "C4CC3C707554E0FF9EF7B93FEB1B0B812470759E0EFC6B0B2E5AED06591E20A0"
+  }
+]

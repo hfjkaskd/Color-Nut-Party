@@ -1,0 +1,22 @@
+{
+  "apk": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-1.0.1-ui-fixes.apk",
+  "resources": [
+    {
+      "resource": "settings_prefab",
+      "bytes": 6968,
+      "sha256": "ac8b8a33d882e475b3c4c64ff7818b2d544b427f5f31d26961206446c3524fcf"
+    },
+    {
+      "resource": "diamond_progress_fill",
+      "bytes": 222212,
+      "sha256": "aa8a4fd7db333b2dd9928852ca4beae00c6dbfa8d2fa7271be9845e021f36d5f"
+    },
+    {
+      "resource": "resources_index",
+      "bytes": 594284,
+      "sha256": "c7ebe9d50f8cbbf459d0498302c54c1eead174aac4619ccd37ef2f2db609fba3"
+    }
+  ],
+  "status": "PASS",
+  "apk_crc": "PASS"
+}

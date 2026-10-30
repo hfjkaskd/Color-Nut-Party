@@ -1,0 +1,27 @@
+{
+  "issue": "Diamond withdrawal close plays level-clear audio instead of button feedback",
+  "original": {
+    "audio": "Click",
+    "closeBinding": "C:/Projects/Golden  Dragon Legend/reconstruction-nut/native/9c5b7c.asm:101-117",
+    "closeAction": "C:/Projects/Golden  Dragon Legend/reconstruction-nut/native/9c70b0.asm",
+    "commonFeedback": "C:/Projects/Golden  Dragon Legend/reconstruction-nut/native/9c04a8.asm:83-88"
+  },
+  "cause": {
+    "file": "Assets/NutSort/Runtime/UI/LocalGameplayController.Withdrawal.cs",
+    "before": "()=>audio.PlaySound(gameplaySession.SuccessPanelSound)",
+    "configuredClip": "Pass_level",
+    "affectedActions": ["close", "select amount", "withdraw"]
+  },
+  "fix": {
+    "after": "startup.Replay.EndClick",
+    "configuration": "Assets/Resources/Configuration/OriginalPanels.asset",
+    "configuredClip": "Click",
+    "behavior": "Use the existing configured button feedback with independent audio and vibration preferences"
+  },
+  "device": {
+    "serial": "G95G6128GY4070804966",
+    "installedPackage": "com.color.nutparty",
+    "installedApkIncludesThisFix": false,
+    "note": "Existing app opened; current reward dialog left unchanged. No player data reset or reward claim. Device screenshot does not establish audio playback."
+  }
+}

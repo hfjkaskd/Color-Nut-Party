@@ -1,0 +1,9 @@
+{
+  "uiLanguage": "en",
+  "appLocales": [],
+  "systemLocale": "en-US",
+  "screenshot": "en-US-home.png",
+  "currency": "$",
+  "visibleDiamondWithdrawalThreshold": "$500",
+  "status": "country_pass"
+}

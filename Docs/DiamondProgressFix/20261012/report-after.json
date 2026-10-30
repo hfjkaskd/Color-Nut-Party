@@ -1,0 +1,99 @@
+{
+  "mode": "after",
+  "fixture": "{\"Level\":11,\"LevelSeed\":0,\"Gold\":500.58,\"Coin\":486.73,\"RevokeCount\":5,\"NewGameplayUnlockIndex\":4,\"IsCompleteRecordGuide\":true,\"IsCompleteExtraGoldGuide\":true,\"IsCompleteCoinNewPeopleReward\":true}",
+  "captures": [
+    {
+      "image": "diamond-after.png",
+      "kind": "Unity Editor Play Mode actual original Coin Cash Button route, isolated acceptance fixture; NOT live player data",
+      "fixtureDiamonds": 486.73,
+      "fillAmount": 0.0097346,
+      "label": "$4.87/$500",
+      "fillRectSize": [
+        856.0,
+        47.0
+      ],
+      "fillPosition": [
+        0.0,
+        0.0
+      ],
+      "trackRectSize": [
+        860.0,
+        51.0
+      ],
+      "fillSprite": "diamond-progress-fill",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "image": "diamond-fixture-000.png",
+      "kind": "Unity Editor Play Mode actual original Coin Cash Button route, isolated acceptance fixture; NOT live player data",
+      "fixtureDiamonds": 0.0,
+      "fillAmount": 0.0,
+      "label": "$0/$500",
+      "fillRectSize": [
+        856.0,
+        47.0
+      ],
+      "fillPosition": [
+        0.0,
+        0.0
+      ],
+      "trackRectSize": [
+        860.0,
+        51.0
+      ],
+      "fillSprite": "diamond-progress-fill",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "image": "diamond-fixture-050.png",
+      "kind": "Unity Editor Play Mode actual original Coin Cash Button route, isolated acceptance fixture; NOT live player data",
+      "fixtureDiamonds": 25000.0,
+      "fillAmount": 0.5,
+      "label": "$250/$500",
+      "fillRectSize": [
+        856.0,
+        47.0
+      ],
+      "fillPosition": [
+        0.0,
+        0.0
+      ],
+      "trackRectSize": [
+        860.0,
+        51.0
+      ],
+      "fillSprite": "diamond-progress-fill",
+      "width": 720,
+      "height": 1600
+    },
+    {
+      "image": "diamond-fixture-100.png",
+      "kind": "Unity Editor Play Mode actual original Coin Cash Button route, isolated acceptance fixture; NOT live player data",
+      "fixtureDiamonds": 50000.0,
+      "fillAmount": 1.0,
+      "label": "$500/$500",
+      "fillRectSize": [
+        856.0,
+        47.0
+      ],
+      "fillPosition": [
+        0.0,
+        0.0
+      ],
+      "trackRectSize": [
+        860.0,
+        51.0
+      ],
+      "fillSprite": "diamond-progress-fill",
+      "width": 720,
+      "height": 1600
+    }
+  ],
+  "error": null,
+  "withdrawOrAdButtonInvoked": false,
+  "originalPreferencesRestored": true,
+  "status": "PASS",
+  "utc": "2026-10-12T04:59:09.8075672Z"
+}

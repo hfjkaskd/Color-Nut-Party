@@ -1,0 +1,576 @@
+{
+  "audit_date": "2026-10-09",
+  "project": "C:/Projects/com.nut.sort.relax",
+  "scope": "Read-only source audit for analytics redesign; no SDK, gameplay, scene, configuration or tracking implementation changed. DJS spreadsheet is a comparison reference, not proof of current SDK behavior.",
+  "source_prefix": "C:/Projects/com.nut.sort.relax/",
+  "conclusions": [
+    "Business events must use public instance SDKAdapter.Track. It forwards to Bizza and ThinkingData, not Adjust custom events.",
+    "New business user attributes must use BizzaAnalyticsAgent.BUserProp or UserProp. These are Bizza-only; they do not reach ThinkingData.",
+    "SDKAdapter.SetUserProperties is private and auto-sends SDK-owned identity/ad/attribution attributes to Bizza plus ThinkingData; do not expose it by reflection or alter read-only SDK.",
+    "Current Assets/SDK has no automatic register event. Bizza login is once per runtime initialization, not account login, install-first-only or foreground session.",
+    "Bizza login and user_profile_change do not forward to ThinkingData. ThinkingData auto lifecycle events do not forward to Bizza.",
+    "Bizza user_profile_change is a record type with key/old/new/ts, not a business event to emit through Track.",
+    "Avoid duplicating MaxTrack/ad_revenue, Adjust IPU milestone and native attribution/session reporting. Business reward grant and ad intent/outcome metrics must be distinguished from SDK ad lifecycle.",
+    "SDK auto lifecycle does not implement DJS session_start after 30-minute background or its 30-second gameplay/FPS session_summary.",
+    "SDKAdapter.Track has no delivery result and no generic deduplication. Bizza and TA can accept/drop independently; do not claim guaranteed exactly-once or identical counts."
+  ],
+  "public_apis": [
+    {
+      "signature": "void SDKAdapter.Track(string eventName, Dictionary<string,object> properties = null)",
+      "route": [
+        "Bizza",
+        "ThinkingData"
+      ],
+      "source": "Assets/SDK/SDKAdapter.cs:167",
+      "notes": "Bizza exception isolated, TA still called. Missing Bizza Instance silently skipped; TA return value ignored. Event blank checked before route."
+    },
+    {
+      "signature": "void BizzaAnalyticsAgent.BUserProp(Dictionary<string,object> data)",
+      "route": [
+        "Bizza"
+      ],
+      "source": "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsAgent.cs:150",
+      "notes": "Instance setter; EnsureRuntime may initialize on first call."
+    },
+    {
+      "signature": "static void BizzaAnalyticsAgent.UserProp(Dictionary<string,object> data)",
+      "route": [
+        "Bizza"
+      ],
+      "source": "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsAgent.cs:166",
+      "notes": "Missing Instance warns and drops; safe public business entry with correctly configured scene component."
+    },
+    {
+      "signature": "void BizzaAnalyticsAgent.BTrack(string eventName, Dictionary<string,object> data)",
+      "route": [
+        "Bizza"
+      ],
+      "source": "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsAgent.cs:144",
+      "notes": "SDKAdapter uses this. Business must not bypass SDKAdapter to directly report events."
+    },
+    {
+      "signature": "bool ThinkingDataAdapter.Track(string eventName, Dictionary<string,object> properties = null)",
+      "route": [
+        "ThinkingData"
+      ],
+      "source": "Assets/SDK/ThinkingDataAdapter/ThinkingDataAdapter.cs:293",
+      "notes": "Used by facade; do not separately call for same business event."
+    },
+    {
+      "signature": "bool ThinkingDataAdapter.UserSet(Dictionary<string,object> properties); bool ThinkingDataAdapter.UserSetOnce(Dictionary<string,object> properties)",
+      "route": [
+        "ThinkingData"
+      ],
+      "source": "Assets/SDK/ThinkingDataAdapter/ThinkingDataAdapter.cs:318",
+      "notes": "Existing public APIs, but new business-property requirement is Bizza-only. Bizza itself has no set-once/add/increment API."
+    },
+    {
+      "signature": "private void SDKAdapter.SetUserProperties(Dictionary<string,object> properties)",
+      "route": [
+        "Bizza",
+        "ThinkingData"
+      ],
+      "source": "Assets/SDK/SDKAdapter.cs:203",
+      "notes": "Not available to business callers; SDK-owned auto attributes only."
+    }
+  ],
+  "initialization_and_delivery": {
+    "facade": {
+      "source": "Assets/SDK/SDKAdapter.cs:106",
+      "before_initialize": "Track logs and drops; no facade queue (178–182).",
+      "initialization": "initializationStarted is set before SDK initialization completes (117). It is not a reliable all-backends-ready signal.",
+      "recommendation": "Configure one SDK scene node, reference it through serialized component from game analytics adapter. Use an explicit bounded game startup buffer if required; do not create UI/SDK hierarchy dynamically or invent Editor-only success fallback. Keep completion timestamps captured at event occurrence."
+    },
+    "bizza": {
+      "sources": [
+        "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsAgent.cs:31",
+        "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsAgent.cs:186",
+        "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsRuntime.cs:110",
+        "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsRuntime.cs:206"
+      ],
+      "behavior": "Agent BTrack/BUserProp EnsureRuntime; invalid encrypted config leaves runtime not-ready and incoming calls drop. Runtime accepts only IsReady && IsReportingEnabled && !shutdown. Reporting requires release plus sampling. Missing singleton silently skipped by facade. No pre-ready queue. Once ready, records enter persistent bounded queues; pause permits enqueue but suspends ordinary sender. Network retries operate on batches, not business dedup.",
+      "visibility": "Agent exposes IsReady, IsReportingEnabled, LastError, DroppedRecordCount, LastDropReason and QueuedRecordCount.",
+      "platform_note": "Awake auto-initialization is gated to Android non-Editor (Agent:199–205); explicit BTrack/BUserProp can call Initialize through EnsureRuntime. Existing SDK behavior must be reported accurately; this audit does not introduce or repair platform logic.",
+      "bounds": "Default total queued records 10000, bytes 8 MiB, batch records 500, batch bytes 256 KiB, record bytes 32 KiB, retention 7 days. Limits/dropped diagnostics matter; no guaranteed shutdown flush."
+    },
+    "thinkingdata": {
+      "sources": [
+        "Assets/SDK/ThinkingDataAdapter/ThinkingDataAdapter.cs:372",
+        "Assets/SDK/ThinkingDataAdapter/ThinkingDataAdapter.cs:450",
+        "Assets/SDK/ThinkingDataAdapter/ThinkingDataAdapter.cs:549"
+      ],
+      "behavior": "Queues up to 512 pending operations before Ready, rejects new on overflow; failed init remains buffering. Initialize drains pending operations, enables all auto-track, drains remaining, marks Ready. An executed operation exception logs and returns false; adapter does not requeue it. Facade ignores returned bool. SDK transport may independently cache/retry.",
+      "snapshot": "Only shallow dictionary copy (658–663). Avoid reusing/mutating nested payload objects after enqueue."
+    },
+    "duplicate_suppression": [
+      "No generic Bizza Track or SDKAdapter.Track event deduplication.",
+      "Bizza unchanged user value suppressed by DeepEquals; update_ip uses force=true so repeated same successful IP can still make a change record.",
+      "SDKFacade attribution signature suppresses identical six-field attribution per facade instance; Adjust adapter also suppresses identical attribution objects.",
+      "SDK GAID suppresses empty/unchanged value.",
+      "MAX active request and displayed/reward flags suppress duplicate current-show/earned-reward callback handling, not all paid-impression callbacks.",
+      "Bizza batch_id is a transport batch identity reused for retry; it does not prevent repeated caller Track calls or prove server exactly-once handling."
+    ]
+  },
+  "automatic_events": [
+    {
+      "name": "MaxTrack",
+      "route": [
+        "Bizza",
+        "ThinkingData"
+      ],
+      "source": "Assets/SDK/SDKAdapter.cs:474",
+      "fields": {
+        "step": "string",
+        "adtype": "string: rv|iv",
+        "from": "string placement",
+        "errorCode": "string (empty if absent)",
+        "networkName": "string (empty if absent)"
+      },
+      "steps": [
+        {
+          "value": "ad_call",
+          "trigger": "ShowAsync called (including requests that later fail)",
+          "source": "Assets/SDK/MaxAdapter/MaxAdsAdapter.cs:594"
+        },
+        {
+          "value": "ad_start",
+          "trigger": "Immediately after ad_call at request entry; not actual load start or displayed impression",
+          "source": "Assets/SDK/MaxAdapter/MaxAdsAdapter.cs:599"
+        },
+        {
+          "value": "ad_ready",
+          "trigger": "Show request found cached ready advertisement; not every network load callback",
+          "source": "Assets/SDK/MaxAdapter/MaxAdsAdapter.cs:632"
+        },
+        {
+          "value": "ad_show",
+          "trigger": "Displayed callback or revenue/reward fallback, once per active request",
+          "source": "Assets/SDK/MaxAdapter/MaxAdsAdapter.cs:1212"
+        },
+        {
+          "value": "ad_complete",
+          "trigger": "Rewarded ad reward callback only; interstitial close does NOT emit it",
+          "source": "Assets/SDK/MaxAdapter/MaxAdsAdapter.cs:814"
+        },
+        {
+          "value": "ad_fail",
+          "trigger": "Not initialized, busy, not ready, show failure and other adapter ReportFailure paths",
+          "source": "Assets/SDK/MaxAdapter/MaxAdsAdapter.cs:1281"
+        },
+        {
+          "value": "ad_closed",
+          "trigger": "Rewarded or interstitial hidden callback for active request",
+          "source": "Assets/SDK/MaxAdapter/MaxAdsAdapter.cs:849"
+        }
+      ],
+      "notes": "Raw MAX load-success/failure callbacks cache/retry/log but are not separately sent as business events (719–738, 884–908). Do not interpret ad_start→ad_ready as network loading latency."
+    },
+    {
+      "name": "ad_revenue",
+      "route": [
+        "Bizza",
+        "ThinkingData"
+      ],
+      "source": "Assets/SDK/SDKAdapter.cs:510",
+      "trigger": "MAX revenue-paid callback, valid nonnegative finite revenue",
+      "fields": {
+        "countryCode": "string",
+        "revenue": "double USD",
+        "networkName": "string",
+        "adUnitId": "string",
+        "adFormat": "string REWARDED|INTER",
+        "mediation": "string MAX",
+        "networkfirmid": "int 0",
+        "placement": "string",
+        "ispvn": "bool (SDK spelling)",
+        "adsource": "string same placement"
+      },
+      "notes": "Callback first records ad counter and Adjust IPU before revenue validity check; invalid revenue does not produce this event. SDK separately sends native AdjustAdRevenue source applovin_max_sdk, currency USD, impressionsCount 1. Do not add second business revenue event."
+    },
+    {
+      "name": "login",
+      "route": [
+        "Bizza"
+      ],
+      "source": "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsRuntime.LoginIp.cs:90",
+      "trigger": "Once per Bizza runtime initialization, after async public-IP lookup or timeout/lifecycle flush; ts is initialization time",
+      "fields": {
+        "ip": "string public IP, or unknown"
+      },
+      "notes": "No account login, no 30-minute session rule, no foreground-resume repetition. If IP valid, sets update_ip user property. This event is not forwarded to ThinkingData."
+    },
+    {
+      "name": "user_profile_change",
+      "kind": "record_type",
+      "route": [
+        "Bizza"
+      ],
+      "sources": [
+        "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsState.cs:31",
+        "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsRuntime.cs:401"
+      ],
+      "trigger": "Each accepted changed property; forced update_ip can repeat same old/new",
+      "fields": {
+        "type": "user_profile_change",
+        "key": "string",
+        "old": "typed previous value/null",
+        "new": "typed next value/null",
+        "ts": "UTC timestamp"
+      },
+      "notes": "Not a Track event. Business calls UserProp once for state changes and lets SDK create records."
+    },
+    {
+      "name": "register",
+      "route": [],
+      "status": "NOT IMPLEMENTED IN CURRENT SDK",
+      "evidence": "Search for register and all BizzaRecord.NewEvent sites in SDK C# sources; current automatic NewEvent literal is login only.",
+      "notes": "DJS spreadsheet describes another implementation/version; do not label register SDK-covered."
+    },
+    {
+      "name": "ta_app_start",
+      "route": [
+        "ThinkingData"
+      ],
+      "trigger": "App foreground",
+      "source": "Packages/com.thinkingdata.analytics/ThinkingAnalytics/TDEnum.cs:45"
+    },
+    {
+      "name": "ta_app_end",
+      "route": [
+        "ThinkingData"
+      ],
+      "trigger": "App background",
+      "source": "Packages/com.thinkingdata.analytics/ThinkingAnalytics/TDEnum.cs:46"
+    },
+    {
+      "name": "ta_app_crash",
+      "route": [
+        "ThinkingData"
+      ],
+      "trigger": "SDK crash/exception tracking (native and enabled C# exception handling)",
+      "sources": [
+        "Packages/com.thinkingdata.analytics/ThinkingAnalytics/TDEnum.cs:47",
+        "Packages/com.thinkingdata.analytics/ThinkingAnalytics/TDAnalytics.cs:274"
+      ]
+    },
+    {
+      "name": "ta_app_install",
+      "route": [
+        "ThinkingData"
+      ],
+      "trigger": "First app opening after install according to SDK",
+      "source": "Packages/com.thinkingdata.analytics/ThinkingAnalytics/TDEnum.cs:48"
+    },
+    {
+      "name": "ta_scene_loaded",
+      "route": [
+        "ThinkingData"
+      ],
+      "trigger": "Unity scene load/current active scene when tracking enabled",
+      "fields": {
+        "#scene_name": "string",
+        "#scene_path": "string"
+      },
+      "source": "Packages/com.thinkingdata.analytics/ThinkingAnalytics/Wrapper/TDWrapper.cs:141"
+    },
+    {
+      "name": "ta_scene_unloaded",
+      "route": [
+        "ThinkingData"
+      ],
+      "trigger": "Unity scene unload; load starts timer for unload",
+      "fields": {
+        "#scene_name": "string",
+        "#scene_path": "string"
+      },
+      "source": "Packages/com.thinkingdata.analytics/ThinkingAnalytics/Wrapper/TDWrapper.cs:182"
+    },
+    {
+      "name": "Adjust native install/session/attribution",
+      "route": [
+        "Adjust"
+      ],
+      "trigger": "Native Adjust SDK after initialization in Production",
+      "source": "Assets/SDK/AdjustAdapter/AdjustAdapter.cs:347",
+      "notes": "Not an SDKAdapter.Track business event, no identical automatic Bizza session stream. Attribution callbacks update SDK-owned properties in both Bizza/TA."
+    },
+    {
+      "name": "Adjust configured IPU3/IPU5/IPU10 event tokens",
+      "route": [
+        "Adjust"
+      ],
+      "trigger": "3rd/5th/10th local ad revenue callback after initialized mobile runtime",
+      "source": "Assets/SDK/AdjustAdapter/AdjustAdapter.cs:548",
+      "notes": "Installation-local capped counter persisted in PlayerPrefs. Not a generic game session/reward count. Already invoked from SDKAdapter; no business duplicate."
+    }
+  ],
+  "thinkingdata_auto_enable": {
+    "source": "Assets/SDK/ThinkingDataAdapter/ThinkingDataSdkBridge.cs:72",
+    "value": "TDAutoTrackEventType.All",
+    "notes": "No automatic generic UI clicks or popup views implied. ta_app_click/ta_scene_view wrapper APIs exist but are not among the enabled enum flags."
+  },
+  "sdk_owned_user_attributes": {
+    "dual_backend": {
+      "initialization_source": "Assets/SDK/SDKAdapter.cs:276",
+      "initialization": [
+        {
+          "name": "deviceId",
+          "type": "string",
+          "value": "DeviceInfo persistent cid"
+        },
+        {
+          "name": "isVpnUser",
+          "type": "bool",
+          "value": "Current VPN determination"
+        },
+        {
+          "name": "simState",
+          "type": "int",
+          "value": "DeviceInfo SIM state"
+        },
+        {
+          "name": "appcode",
+          "type": "string",
+          "value": "Configured app code"
+        },
+        {
+          "name": "gaid",
+          "type": "string",
+          "value": "Google advertising ID if nonempty; later callback updates",
+          "source": "Assets/SDK/SDKAdapter.cs:404"
+        },
+        {
+          "name": "ads_amout",
+          "type": "long",
+          "value": "rewardvideo_amout + interstitial_amout; spelling intentional SDK exact"
+        },
+        {
+          "name": "rewardvideo_amout",
+          "type": "long",
+          "value": "Persisted rewarded paid-callback count"
+        },
+        {
+          "name": "interstitial_amout",
+          "type": "long",
+          "value": "Persisted interstitial paid-callback count"
+        }
+      ],
+      "counter_source": "Assets/SDK/SDKAdapter.cs:440",
+      "attribution_source": "Assets/SDK/SDKAdapter.cs:320",
+      "attribution": [
+        {
+          "name": "usernatural",
+          "type": "string",
+          "value": "organic|paid; unknown omitted"
+        },
+        {
+          "name": "ad_network",
+          "type": "string",
+          "value": "Network else TrackerName; lowercased/trimmed"
+        },
+        {
+          "name": "campaign_name",
+          "type": "string"
+        },
+        {
+          "name": "creative_name",
+          "type": "string"
+        },
+        {
+          "name": "tracker_name",
+          "type": "string"
+        },
+        {
+          "name": "tracker_token",
+          "type": "string"
+        }
+      ],
+      "notes": "Only nonempty attribution fields included; when later data omits a previous field SDK does not explicitly clear it. No automatic attribution_update business event. Do not overwrite these names from business layer."
+    },
+    "bizza_only": {
+      "source": "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsRuntime.cs:386",
+      "attributes": [
+        {
+          "name": "playerID",
+          "type": "string",
+          "value": "Bizza generated persistent player identifier"
+        },
+        {
+          "name": "device_model",
+          "type": "string"
+        },
+        {
+          "name": "language",
+          "type": "string",
+          "value": "Unity system language name"
+        },
+        {
+          "name": "country",
+          "type": "string",
+          "value": "Device locale region, not IP-derived country"
+        },
+        {
+          "name": "os_version",
+          "type": "string"
+        },
+        {
+          "name": "app_version",
+          "type": "string"
+        },
+        {
+          "name": "platform",
+          "type": "string",
+          "value": "Unity runtime platform name"
+        },
+        {
+          "name": "game_duration",
+          "type": "long",
+          "value": "Floor of cumulative foreground seconds persisted across runs; finalized on pause/quit/destroy, not gameplay-only/session/daily duration",
+          "source": "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsRuntime.cs:461"
+        },
+        {
+          "name": "update_ip",
+          "type": "string",
+          "value": "Successful startup public IP; force update even identical value",
+          "source": "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsRuntime.LoginIp.cs:108"
+        }
+      ]
+    }
+  },
+  "public_and_preset_properties": {
+    "source": "Assets/SDK/SDKAdapter.cs:276",
+    "thinkingdata_identity": "distinctId and accountId both appcode@cid; MAX UserId set to same. Adjust global callback params ta_distinct_id, ta_account_id, cid are set before initialization.",
+    "thinkingdata_super_properties": {
+      "appcode": "string. Facade clears prior super properties before setting this one at 289–293."
+    },
+    "bizza_identity": "Bizza uid and playerID separately generated/persisted (Runtime:373–383). They are not inherently the same as DeviceInfo cid or TA account ID. SDK-owned deviceId/appcode properties support correlation.",
+    "bizza_common_envelope": {
+      "app_id": "string",
+      "uid": "string",
+      "batch_id": "string",
+      "dt": "date partition",
+      "part": "int",
+      "records": "array"
+    },
+    "bizza_envelope_source": "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsRuntime.cs:867",
+    "bizza_event_properties": "Bizza does not merge stored user properties or SDKAdapter appcode into every business payload. If analysis needs event-time snapshots/session IDs, game event adapter must add explicit common fields before SDKAdapter.Track.",
+    "ta_native_presets_source": "Packages/com.thinkingdata.analytics/ThinkingAnalytics/TDPresetProperties.cs:34",
+    "ta_native_presets": {
+      "#app_version": "string",
+      "#bundle_id": "string",
+      "#carrier": "string",
+      "#device_id": "string",
+      "#device_model": "string",
+      "#manufacturer": "string",
+      "#network_type": "string",
+      "#os": "string",
+      "#os_version": "string",
+      "#screen_height": "double",
+      "#screen_width": "double",
+      "#system_language": "string",
+      "#zone_offset": "double",
+      "#install_time": "string",
+      "#disk": "string",
+      "#ram": "string",
+      "#fps": "double",
+      "#simulator": "bool"
+    },
+    "ta_native_presets_notes": "These are SDK preset-accessor fields, not a promise every platform/event populates every field. Names differ from Bizza attrs; do not conflate availability/routes. Never send business fields using reserved # prefix."
+  },
+  "bizza_property_semantics": {
+    "sources": [
+      "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsRuntime.cs:237",
+      "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsRuntime.cs:401",
+      "Assets/SDK/BizzaAnalytics/Runtime/BizzaPayloadBudget.cs:12",
+      "Assets/SDK/BizzaAnalytics/Runtime/BizzaAnalyticsState.cs:429"
+    ],
+    "merge": "Top-level patch/set: supplied keys replace values; omitted existing keys retained. A supplied nested dictionary replaces the whole value; not recursive merge.",
+    "increment": "No public Bizza Add/Increment/UserAdd. UserProp({count:1}) means set count=1, not +1. Compute absolute value from game authoritative persistent state, then set.",
+    "once": "No public Bizza SetOnce. Business must guard first-seen properties using its authoritative persisted state if required.",
+    "null": "Allowed as a value by Bizza; do not equate with delete semantics. No delete/remove API contract.",
+    "equality": "Unchanged deep values skipped; primitive DeepEquals compares invariant string representations, so 1 and string '1' may be treated equal. Keep fixed property types across versions.",
+    "limits": {
+      "top_level_key_length": 128,
+      "top_level_property_count": 128,
+      "nested_key_length": 256,
+      "max_nested_depth": 8,
+      "max_traversal_nodes": 2048,
+      "max_map_or_list_items": 256,
+      "max_single_user_value_bytes": 8192,
+      "event_name_length": 256,
+      "default_max_record_bytes": 32768
+    },
+    "allowed": "null, bool, string, finite numeric types; dictionaries/lists recursively normalized within budgets. DateTime/DateTimeOffset become UTC ISO strings; unknown objects become invariant strings. Business should explicitly use primitives/flat small payloads, never raw Unity objects or enum.ToString keys.",
+    "performance": "User property change emits its own record; avoid per-frame setters and enormous mutable nested objects. Submit on real persistent state transitions or bounded milestones."
+  },
+  "dual_backend_payload_contract": {
+    "source": "Packages/com.thinkingdata.analytics/ThinkingAnalytics/Utils/TDPropertiesChecker.cs:9",
+    "recommendation": "Constrain business Track names/keys to ASCII letter first, snake_case alphanumeric/underscore, max 50 chars, fixed schema/types, finite numbers, no null values; omit unavailable optional fields. String UTF-8 max 2048 bytes. Use stable constants rather than enum.ToString. Both backends should receive same immutable flat dictionary.",
+    "reason": "Bizza allows wider names/types than ThinkingData, so Bizza acceptance does not prove TA acceptance. TD checker regex is ^[a-zA-Z][a-zA-Z\\d_#]{0,49}$ with reserved internal whitelist; null property value flagged invalid; number range approximately +/-9999999999999.999. The Unity wrapper calls this checker but ignores its return for ordinary Track (Wrapper/TDWrapper.cs:214,231), so this audit uses it as the declared compatibility contract, not proof of an early rejection or native-server acceptance.",
+    "sources": [
+      "Packages/com.thinkingdata.analytics/ThinkingAnalytics/Utils/TDPropertiesChecker.cs:44",
+      "Packages/com.thinkingdata.analytics/ThinkingAnalytics/Utils/TDPropertiesChecker.cs:134",
+      "Assets/SDK/ThinkingDataAdapter/ThinkingDataAdapter.cs:658"
+    ]
+  },
+  "djs_lifecycle_recommendations": [
+    {
+      "event": "first_open",
+      "action": "Retain only if consistent dual-backend install funnel required",
+      "reason": "TA ta_app_install exists but Bizza has no register/first-open auto event. Persist local-install first-observed marker; never synthesize historical timestamp.",
+      "route_if_retained": "SDKAdapter.Track"
+    },
+    {
+      "event": "session_start",
+      "action": "Retain business session semantic",
+      "reason": "DJS starts on process launch or return after >=30 min background. Bizza login only initializes; TA app_start fires foreground without DJS rule. Use one stable session_id and explicit reason."
+    },
+    {
+      "event": "startup_result",
+      "action": "Retain",
+      "reason": "Game initialization success/failure/duration/phase is not covered by SDK lifecycle; capture before SDK ready and bounded-buffer if required without claiming lossless SDK init failure telemetry."
+    },
+    {
+      "event": "app_state_change",
+      "action": "Narrow or remove generic duplicate transitions after defining analysis requirement",
+      "reason": "TA already has foreground/background but Bizza does not. Keep only if dual-backend transition/ad-visible diagnostic needed; do not report both focus and pause callbacks as separate equivalent transitions."
+    },
+    {
+      "event": "session_end",
+      "action": "Retain as observed normal exit or fold into session_summary with report_reason",
+      "reason": "Mobile process kills often provide no quit callback. Cannot label all session endings or infer crash from missing event. DJS foreground/gameplay totals must actually be populated if retained."
+    },
+    {
+      "event": "session_summary",
+      "action": "Retain compact gameplay-quality metrics if required; reduce irrelevant context fields",
+      "reason": "30-second foreground/gameplay/ad duration + FPS windows are not Bizza cumulative game_duration nor TA app_end. Use window_start/end and summary_seq; avoid double-counting total vs window values; omit FPS if insufficient samples rather than null."
+    },
+    {
+      "event": "device_profile",
+      "action": "Replace stable device facts with Bizza user attributes; avoid duplicate event stream",
+      "reason": "SDK already provides some Bizza/TA device attrs. Add only missing useful fields, with source/type. New Bizza attrs do not automatically reach TA."
+    },
+    {
+      "event": "attribution_update",
+      "action": "Remove duplicated SDK facts as business event unless history-specific analysis explicitly needed",
+      "reason": "SDK auto sends available attribution properties to both backends. Old publisher_* user/country/channel/active-days fields are not interchangeable with Adjust fields and unsupported placeholders must not be invented."
+    },
+    {
+      "event": "register/login/user_profile_change",
+      "action": "Do not business emit",
+      "reason": "register absent; login and profile record Bizza-only SDK generated. Correct the comparison table rather than pretend uniform backend coverage."
+    },
+    {
+      "event": "ad_request/ad_show/ad_result/ad_revenue",
+      "action": "Use existing MaxTrack + ad_revenue for SDK lifecycle; retain only distinct business intent/reward-application outcome as needed",
+      "reason": "No second lifecycle/revenue stream. SDK ad_complete means rewarded callback, not game inventory credit; a separate actual reward-grant event after successful grant is legitimate with idempotent business reward ID."
+    }
+  ],
+  "validation_required_before_future_implementation": [
+    "Review this proposal first; no tracking code changed by this audit.",
+    "Validate startup ordering with scene-configured SDK/Bizza components; do not invoke network tracking during this audit.",
+    "On a controlled device/test environment verify both backend records for one business event and only Bizza user attribute record for one new business attribute.",
+    "Verify repeated business trigger guards, resumed session threshold, final partial summary, ad callbacks and actual reward granting exactly once at game level.",
+    "Keep SDK automatic names/typos unchanged and document them; no source edits to read-only SDK."
+  ]
+}

@@ -1,0 +1,89 @@
+*** Begin Patch
+*** Update File: C:/Projects/com.nut.sort.relax/Assets/NutSort/Runtime/Content/LocalLuckyRewardPolicy.cs
+@@
+         public static bool TryConsumeScrewCompletion(OriginalUserLocalData user)
+@@
+             state["lastProcessedScrewDone"]=unchecked(previous+1);
+             return true;
+         }
++
++        // A completed move is saved before its delayed reward callback. At the
++        // first restored board only, settle that persisted gap without replaying
++        // live completion callbacks, Lucky requests, or level-success actions.
++        public static int RecoverScrewCompletions(OriginalUserLocalData user,int completedShowLevel,
++            float cashPerScrew,float diamondsPerScrew)
++        {
++            var state=State(user);
++            if(state["lastProcessedScrewDone"]==null)
++            {
++                // Pre-feature saves do not prove any unpaid historical rewards.
++                state["lastProcessedScrewDone"]=user.ScrewDoneCount;
++                return 0;
++            }
++            int count=unchecked(user.ScrewDoneCount-(int)state["lastProcessedScrewDone"]);
++            if(count<=0)return 0;
++            if(cashPerScrew<0||float.IsNaN(cashPerScrew)||float.IsInfinity(cashPerScrew)||
++                diamondsPerScrew<0||float.IsNaN(diamondsPerScrew)||float.IsInfinity(diamondsPerScrew))
++                throw new ArgumentOutOfRangeException(nameof(cashPerScrew));
++            float cash=user.Gold+(completedShowLevel>=3?cashPerScrew*count:0);
++            double diamonds=user.Coin+(completedShowLevel>=4?(double)diamondsPerScrew*count:0);
++            if(float.IsNaN(cash)||float.IsInfinity(cash)||double.IsNaN(diamonds)||double.IsInfinity(diamonds))
++                throw new InvalidOperationException("Invalid recovered rod reward balance.");
++            user.Gold=cash;user.Coin=diamonds;
++            state["lastProcessedScrewDone"]=user.ScrewDoneCount;
++            return count;
++        }
+*** Update File: C:/Projects/com.nut.sort.relax/Assets/NutSort/Runtime/UI/LocalGameplayController.Lucky.cs
+@@
+         private bool luckyAdPending,luckyReceiptPending,coinGuidePending;
++        private bool earningRecoveryChecked;
+@@
+         public void PrepareEarningBoard()=>EnsureEarningScrewFlow();
++
++        // Run once only after the world and success callback are initialized.
++        // A pending settlement refers to the completed board, not User.Level.
++        private bool ResumeInterruptedScrewCompletions()
++        {
++            if(earningRecoveryChecked)return false;
++            earningRecoveryChecked=true;
++            int completedLevel=game.User.LocalPendingReward==null?game.User.Level:
++                ((int?)game.User.LocalPendingReward["nextLevel"]??game.User.Level)-1;
++            int restored=LocalLuckyRewardPolicy.RecoverScrewCompletions(game.User,
++                game.Tables.GetShowLevel(Math.Max(1,completedLevel)),
++                LocalLuckyRewardPolicy.Number(game.User.GoldRewardTargetS2CData?["bear_torque"]),
++                LocalLuckyRewardPolicy.Number(game.User.GoldRewardTargetS2CData?["zs_ea"]));
++            if(restored>0){SaveEarningRewards();RefreshRewardsTop();}
++            // Recovery may have saved the rod reward, then exited before the
++            // delayed victory. Resume victory even when the reward gap is zero.
++            if(game.User.LocalPendingReward==null&&game.IsSuccess())
++            {
++                game.ModalInputBlocked=true;
++                game.Success();
++                return true;
++            }
++            return false;
++        }
+         private void EnsureEarningScrewFlow(bool handlingCompletion=false)
+*** Update File: C:/Projects/com.nut.sort.relax/Assets/NutSort/Runtime/UI/LocalGameplayController.cs
+@@
+             game=scene; audio=player; startup=flow; language=languageCode; bound=true;
++            game.PreserveCompletedBoardForSettlement=true;
+@@
+             bottom.Refresh();
+             RefreshLevel();
++            if(ResumeInterruptedScrewCompletions())return;
+             if(game.User.LocalPendingReward!=null)
+*** Update File: C:/Projects/com.nut.sort.relax/Assets/NutSort/Runtime/World/OriginalGameScene.cs
+@@
+         public bool IsSkipLevel { get; set; }
++        public bool PreserveCompletedBoardForSettlement { get; set; }
+@@
+-            // Original resume initializes its view, then resets complete/empty
+-            // boards through InitLevel(true) with another reconstruction delay.
+-            if (!resetBoard && (IsSuccess() || level.Board.Screws.Length == 0))
++            // Native resume resets completed boards. The local settlement host
++            // must keep a completed saved board until its BoardReady recovery.
++            if (!resetBoard && (level.Board.Screws.Length == 0 ||
++                (IsSuccess() && !PreserveCompletedBoardForSettlement)))
+                 BeginInitialization(true, longEntry);
+*** End Patch

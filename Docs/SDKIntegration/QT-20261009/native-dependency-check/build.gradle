@@ -1,0 +1,73 @@
+import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+import org.gradle.api.attributes.Category
+import org.gradle.api.attributes.Usage
+import org.gradle.api.attributes.java.TargetJvmEnvironment
+import org.gradle.api.artifacts.result.UnresolvedDependencyResult
+
+plugins { id 'java-base' }
+
+def inputs = new JsonSlurper().parse(file('inputs.json'))
+
+repositories {
+    google()
+    mavenCentral()
+    inputs.repositories.each { repositoryUrl ->
+        maven { url = uri(repositoryUrl) }
+    }
+}
+
+configurations {
+    sdkRuntime {
+        canBeConsumed = false
+        canBeResolved = true
+        attributes {
+            attribute(Usage.USAGE_ATTRIBUTE, objects.named(Usage, Usage.JAVA_RUNTIME))
+            attribute(Category.CATEGORY_ATTRIBUTE, objects.named(Category, Category.LIBRARY))
+            attribute(TargetJvmEnvironment.TARGET_JVM_ENVIRONMENT_ATTRIBUTE,
+                objects.named(TargetJvmEnvironment, TargetJvmEnvironment.ANDROID))
+        }
+    }
+}
+
+dependencies {
+    inputs.dependencies.each { coordinate -> add('sdkRuntime', coordinate) }
+}
+
+tasks.register('resolveSdkRuntime') {
+    group = 'verification'
+    description = 'Download the Unity-declared Android runtime dependency graph into Gradle cache.'
+    doLast {
+        def started = new Date().format("yyyy-MM-dd'T'HH:mm:ssXXX", TimeZone.getTimeZone('UTC'))
+        def configuration = configurations.sdkRuntime
+        def resolvedArtifacts = configuration.incoming.artifactView { lenient = true }.artifacts
+        def artifacts = resolvedArtifacts.artifacts.collect { artifact ->
+            [component: artifact.id.componentIdentifier.displayName,
+             name: artifact.file.name, path: artifact.file.absolutePath, bytes: artifact.file.length()]
+        }.sort { a, b -> a.component <=> b.component }
+        def selected = configuration.incoming.resolutionResult.allComponents.findAll {
+            it.moduleVersion != null
+        }.collect { component ->
+            [group: component.moduleVersion.group, module: component.moduleVersion.name,
+             version: component.moduleVersion.version,
+             selectionReasons: component.selectionReason.descriptions.collect { it.description }]
+        }.sort { a, b -> (a.group + ':' + a.module) <=> (b.group + ':' + b.module) }
+        def failures = resolvedArtifacts.failures.collect { it.message }
+        configuration.incoming.resolutionResult.allDependencies.findAll {
+            it instanceof UnresolvedDependencyResult
+        }.each { unresolved -> failures.add(unresolved.attempted.displayName + ': ' + unresolved.failure.message) }
+        failures = failures.unique()
+        def report = [result: failures.isEmpty() ? 'PASS' : 'FAIL', startedUtc: started,
+            completedUtc: new Date().format("yyyy-MM-dd'T'HH:mm:ssXXX", TimeZone.getTimeZone('UTC')),
+            gradleVersion: gradle.gradleVersion, javaVersion: System.getProperty('java.version'),
+            javaHome: System.getProperty('java.home'), declaredCoordinates: inputs.dependencies,
+            repositories: ['https://dl.google.com/dl/android/maven2/', 'https://repo.maven.apache.org/maven2/'] + inputs.repositories,
+            selectedModuleCount: selected.size(), selectedModules: selected,
+            downloadedArtifactCount: artifacts.size(), downloadedArtifacts: artifacts,
+            failures: failures,
+            verificationScope: 'Runtime Maven graph and artifact downloads only. No Android compilation, manifest merge, Jetifier, device initialization, or revenue verification.']
+        file('resolution-report.json').text = JsonOutput.prettyPrint(JsonOutput.toJson(report))
+        logger.lifecycle('QT_NATIVE_GRAPH_' + report.result + ': ' + selected.size() + ' modules; ' + artifacts.size() + ' artifacts; ' + failures.size() + ' failures')
+        if (!failures.isEmpty()) throw new GradleException('Native dependencies unresolved; see resolution-report.json')
+    }
+}

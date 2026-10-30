@@ -1,0 +1,69 @@
+{
+  "checks": [
+    {
+      "name": "Recovery uses positive per-rod amounts from the existing production country configuration",
+      "passed": true
+    },
+    {
+      "name": "Restart restores exactly 1 interrupted rod rewards at display level 3",
+      "passed": true
+    },
+    {
+      "name": "Recovery updates the same durable receipt counter as live callbacks",
+      "passed": true
+    },
+    {
+      "name": "Recovery neither creates/replaces Lucky nor resets its thresholds nor creates a settlement",
+      "passed": true
+    },
+    {
+      "name": "Second persisted restart cannot repeat the restored cash or diamonds",
+      "passed": true
+    },
+    {
+      "name": "A late duplicate done callback cannot pay an already restored rod",
+      "passed": true
+    },
+    {
+      "name": "Restart restores exactly 2 interrupted rod rewards at display level 4",
+      "passed": true
+    },
+    {
+      "name": "Recovery updates the same durable receipt counter as live callbacks",
+      "passed": true
+    },
+    {
+      "name": "Recovery neither creates/replaces Lucky nor resets its thresholds nor creates a settlement",
+      "passed": true
+    },
+    {
+      "name": "Second persisted restart cannot repeat the restored cash or diamonds",
+      "passed": true
+    },
+    {
+      "name": "A late duplicate done callback cannot pay an already restored rod",
+      "passed": true
+    },
+    {
+      "name": "Legacy save without a receipt marker does not receive historical rod payouts",
+      "passed": true
+    },
+    {
+      "name": "Legacy save establishes its current counter as the migration baseline",
+      "passed": true
+    },
+    {
+      "name": "Persisted legacy migration remains idempotent",
+      "passed": true
+    },
+    {
+      "name": "A pending third-level settlement uses the completed display level instead of its advanced user level",
+      "passed": true
+    },
+    {
+      "name": "Rod recovery does not claim, scale, or replace an existing level settlement",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

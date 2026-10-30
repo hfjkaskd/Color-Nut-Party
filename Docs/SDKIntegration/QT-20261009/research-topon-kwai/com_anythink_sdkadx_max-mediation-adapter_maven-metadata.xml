@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.anythink.sdkadx</groupId>
+  <artifactId>max-mediation-adapter</artifactId>
+  <version>1.1.8</version>
+  <versioning>
+    <latest>1.1.8</latest>
+    <release>1.1.8</release>
+    <versions>
+      <version>1.1.5</version>
+      <version>1.1.6</version>
+      <version>1.1.7</version>
+      <version>1.1.8</version>
+    </versions>
+    <lastUpdated>20241011095309</lastUpdated>
+  </versioning>
+</metadata>

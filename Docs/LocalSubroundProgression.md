@@ -1,5 +1,13 @@
 # 本地多回合关卡推进
 
+2026-10-09 当前策略：按用户要求，小圆点对应的每个小局都显示普通结算。`CompleteLocalLevel` 每次棋盘完成均生成并保存 `LocalPendingReward`，显示原有 SuccessPanel；等待玩家领取后才经关闭动画进入下一棋盘。显示关卡、轮次、子回合点阵和原始关卡表不变。
+
+现金与钻石逐小局使用现有余额分档规则生成，领取时各入账一次；末小局没有额外整组奖励。未领取重启恢复同一奖励，领取后重启不重复发放。广告仍按既有普通领取次数阈值判断，小局领取也计入；普通广告失败继续基础结算，额外激励仍要求成功。第一关教学步骤保持原逻辑。
+
+`LocalSubroundPlayValidation` 已改为连续操作原内部 9/10/11/12 四个棋盘并分别领取，检查四次弹窗、现金与钻石、等待、重载、重复点击及晚到广告回调；当前验证和构建结果保存在 `Docs/SubroundSettlement/20261009`。
+
+以下为此前“整组末局才结算”的历史实现与验证记录，已由上面的用户指定策略替代：
+
 差异：默认 LocalGameplayController 之前忽略 OriginalSuccessFlow 捕获的关卡表项，每次核心棋盘完成都创建过关面板。源 Success 响应回调 0xA00684 比较捕获表项的 SubTotalRound / SubRound；中间子回合直接 InitLevel(true,false,false)，不会走结算面板。原表中内部 4/5/6 关的 TotalRound/Round 为普通回合，但 SubTotalRound/SubRound 均为 0，仍应逐局结算；内部 9/10/11/12 关才是 SubTotalRound=4 的 1/2/3/4 子回合，前三局自动续局。
 
 修复将捕获表项传入本地完成入口。保留用户批准的本地 Level+1、LevelSeed=0、TodayPassLevelCount+1，并先以空 LevelInfo 保存待重建进度；如果是中间子回合，则按原参数自动初始化下一棋盘；末回合仍显示原版过关预制体变体，等待标准 Next Button 的关闭动画后进入下一关。原 SuccessFlow 的 0.6 秒请求边界和仅末回合庆祝保持原实现。没有构造服务器响应或奖励数据。

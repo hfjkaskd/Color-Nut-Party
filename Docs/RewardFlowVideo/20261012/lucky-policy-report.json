@@ -1,0 +1,109 @@
+{
+  "checks": [
+    {
+      "name": "Preparing Lucky chooses configured cash without crediting inventory",
+      "passed": true
+    },
+    {
+      "name": "Repeated preparation retains the pending amount",
+      "passed": true
+    },
+    {
+      "name": "Unclaimed Lucky reward survives a save/reload",
+      "passed": true
+    },
+    {
+      "name": "Normal claim grants the base amount",
+      "passed": true
+    },
+    {
+      "name": "Duplicate claim cannot upgrade or repeat a granted reward",
+      "passed": true
+    },
+    {
+      "name": "Reload before receipt completion cannot grant twice",
+      "passed": true
+    },
+    {
+      "name": "Claimed receipt retains its actual amount after reload",
+      "passed": true
+    },
+    {
+      "name": "Only completed claimed receipt removes its pending state",
+      "passed": true
+    },
+    {
+      "name": "Lucky amount follows configured local sampling, not a fixed video amount",
+      "passed": true
+    },
+    {
+      "name": "Completing an unclaimed receipt never discards the reward",
+      "passed": true
+    },
+    {
+      "name": "Ad request does not credit early: more=False, success=False",
+      "passed": true
+    },
+    {
+      "name": "Ad result credits exactly once with correct multiplier: more=False, success=False",
+      "passed": true
+    },
+    {
+      "name": "Ad request does not credit early: more=False, success=True",
+      "passed": true
+    },
+    {
+      "name": "Ad result credits exactly once with correct multiplier: more=False, success=True",
+      "passed": true
+    },
+    {
+      "name": "Ad request does not credit early: more=True, success=False",
+      "passed": true
+    },
+    {
+      "name": "Ad result credits exactly once with correct multiplier: more=True, success=False",
+      "passed": true
+    },
+    {
+      "name": "Failed optional bonus restores counters and remains claimable",
+      "passed": true
+    },
+    {
+      "name": "Ad request does not credit early: more=True, success=True",
+      "passed": true
+    },
+    {
+      "name": "Ad result credits exactly once with correct multiplier: more=True, success=True",
+      "passed": true
+    },
+    {
+      "name": "The first completion is consumed when initialization first runs inside its callback",
+      "passed": true
+    },
+    {
+      "name": "Repeated first callback does not credit another rod",
+      "passed": true
+    },
+    {
+      "name": "Skip/landing with unchanged counter owes no rod reward",
+      "passed": true
+    },
+    {
+      "name": "Three delayed rod callbacks observing the same counter consume exactly three rewards",
+      "passed": true
+    },
+    {
+      "name": "Saved rod receipts survive reload without repeating inventory",
+      "passed": true
+    },
+    {
+      "name": "Level three rod grants cash and opens the configured Lucky threshold without diamonds",
+      "passed": true
+    },
+    {
+      "name": "Board completion settles once and takes priority over a simultaneous Lucky threshold",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

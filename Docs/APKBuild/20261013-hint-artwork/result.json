@@ -1,0 +1,20 @@
+{
+  "apk": "C:/Projects/com.nut.sort.relax/Builds/Android/ColorNutParty-1.0.1-20261013-hint-artwork.apk",
+  "size": 156945466,
+  "sha256": "97C676286DFD21DFCFF5C95F94B37CC8FC79A024E440ED283D7CA9083D539292",
+  "buildStatus": "Success",
+  "errors": 0,
+  "warnings": 12,
+  "signatureVerified": true,
+  "signatureScheme": "v2",
+  "certificateSha256": "d14d534c3d52c389e24441dfe880bdcc0789fa846a7ab03e5368f81c560203a6",
+  "zipAlignmentPassed": true,
+  "debuggable": false,
+  "sdkFilesChecked": 84,
+  "sdkFilesChanged": 0,
+  "installedDevice": "G95G6128GY4070804966",
+  "installedApkHashMatches": true,
+  "deviceCountryTest": "ID, US, BR currency and visible threshold passed; system settings used, no app locale override",
+  "localization": "FAIL: fixed en startup and static English text",
+  "artVisualReview": "Four messages, two screen sizes complete; editor report retains TMP quad-padding assertion failure, visible overflow pixel count is zero"
+}

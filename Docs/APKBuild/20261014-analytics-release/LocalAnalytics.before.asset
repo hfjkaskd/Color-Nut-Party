@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de8b83f696775749b8cd8c7c13ef79d, type: 3}
+  m_Name: LocalAnalytics
+  m_EditorClassIdentifier: 
+  Enabled: 1
+  IsTest: 0
+  BuildId: 1
+  SummaryIntervalSeconds: 60
+  SessionTimeoutSeconds: 1800
+  StartupQueueCapacity: 256
+  ExceptionFingerprintLimit: 20
+  ExceptionWindowSeconds: 60
+  DiagnosticLog: 1
+  DiagnosticRecordLimit: 2048

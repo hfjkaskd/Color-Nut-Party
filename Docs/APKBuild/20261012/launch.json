@@ -1,0 +1,7 @@
+{
+  "pid": 18036,
+  "startedUtc": "2026-10-12T06:43:06.4734823Z",
+  "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\APKBuild\\20261012\\unity-build.log",
+  "method": "NutSort.Validation.LocalAndroidBuild.RunSignedRelease",
+  "output": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-1.0.1-release.apk"
+}

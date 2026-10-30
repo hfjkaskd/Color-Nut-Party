@@ -1,0 +1,33 @@
+{
+  "apk": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-1.0.1-20261013-localization.apk",
+  "size": 157977606,
+  "sha256": "23E9355BFCCE6928A56A08895E04ED93DB07837493BE4A6F5812653BE84E2E8A",
+  "package": "com.color.nutparty",
+  "version": "1.0.1",
+  "versionCode": 1,
+  "buildStatus": "Success",
+  "errors": 0,
+  "reportedWarnings": 623,
+  "signatureVerified": true,
+  "signatureScheme": "v2",
+  "certificateSha256": "d14d534c3d52c389e24441dfe880bdcc0789fa846a7ab03e5368f81c560203a6",
+  "zipAlignmentPassed": true,
+  "debuggable": false,
+  "sdkFilesChecked": 84,
+  "sdkFilesChanged": 0,
+  "languages": [
+    "en",
+    "ja",
+    "pt",
+    "de",
+    "fr",
+    "id",
+    "ru",
+    "es"
+  ],
+  "uiValidation": "320 actual GameView captures, home/loading recheck 32, zero visible layout failures",
+  "deviceRetested": false,
+  "deviceRetestNote": "User requested APK delivery without waiting for physical-device verification.",
+  "validationReport": "Docs/Localization/20261013/final-acceptance.json",
+  "countryLanguageSelection": "Country table language selected at startup. Device country changes reload views after safe board save when pending reward/ad/modal flows are finished."
+}

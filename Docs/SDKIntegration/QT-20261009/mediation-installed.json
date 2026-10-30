@@ -1,0 +1,128 @@
+[
+  {
+    "network": "BidMachine",
+    "androidVersion": "3.8.0.0",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/bidmachine-adapter/AppLovin-BidMachine-Adapters-Android-3.8.0.0-iOS-3.8.2.0.0.unitypackage",
+    "sha256": "fed01ddcea0b597ebf0fc1a1dbba7a8ce3cc1154e694a1fb5442438cc8c4520a",
+    "files": [
+      "Assets/MaxSdk/Mediation/BidMachine/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "BIGO Ads",
+    "androidVersion": "6.1.0.0",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/bigoads-adapter/AppLovin-BigoAds-Adapters-Android-6.1.0.0-iOS-6.1.0.0.unitypackage",
+    "sha256": "e52d97054753f0b664ce9e59ec1b81100edc1d2e6fe369f6ae8ef9d1b8ad0c08",
+    "files": [
+      "Assets/MaxSdk/Mediation/BigoAds/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "Chartboost",
+    "androidVersion": "9.14.1.1",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/chartboost-adapter/AppLovin-Chartboost-Adapters-Android-9.14.1.1-iOS-9.14.2.0.unitypackage",
+    "sha256": "0882bf151dc57e8612088e3148e1a40e0fbfa16bed98ca4520e8ccf3b72c0041",
+    "files": [
+      "Assets/MaxSdk/Mediation/Chartboost/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "DT Exchange",
+    "androidVersion": "8.4.7.0",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/fyber-adapter/AppLovin-Fyber-Adapters-Android-8.4.7.0-iOS-8.5.0.0.unitypackage",
+    "sha256": "767692f2373bd7d61a0275504ec4a47c9b7ff3aac48d590ff74657b4a0920020",
+    "files": [
+      "Assets/MaxSdk/Mediation/Fyber/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "Facebook",
+    "androidVersion": "6.22.0.1",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/facebook-adapter/AppLovin-Facebook-Adapters-Android-6.22.0.1-iOS-6.22.0.4.unitypackage",
+    "sha256": "54c91cd5afb113583e3c8e5008e9a4291710cb024a78b74e8c75835514ae9cf7",
+    "files": [
+      "Assets/MaxSdk/Mediation/Facebook/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "Google AdMob",
+    "androidVersion": "25.5.0.0",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/google-adapter/AppLovin-Google-Adapters-Android-25.5.0.0-iOS-13.11.0.0.unitypackage",
+    "sha256": "1ba4d2cf1c15547981f3626cea71dc732ac29ae5b0e0d2dc48f74adb524bd728",
+    "files": [
+      "Assets/MaxSdk/Mediation/Google/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "InMobi",
+    "androidVersion": "11.5.0.0",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/inmobi-adapter/AppLovin-InMobi-Adapters-Android-11.5.0.0-iOS-11.5.0.0.unitypackage",
+    "sha256": "1008395601704fcfe26492a4ef84f6bd27b25480a960a81dd39c3bf422a09ca5",
+    "files": [
+      "Assets/MaxSdk/Mediation/InMobi/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "ironSource",
+    "androidVersion": "9.6.1.0.0",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/ironsource-adapter/AppLovin-IronSource-Adapters-Android-9.6.1.0.0-iOS-9.6.1.0.0.unitypackage",
+    "sha256": "673913782688414f062faa5e2dedf351b449b73e59d6c6931ba598f248a2515e",
+    "files": [
+      "Assets/MaxSdk/Mediation/IronSource/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "Liftoff Monetize",
+    "androidVersion": "7.7.9.0",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/vungle-adapter/AppLovin-Vungle-Adapters-Android-7.7.9.0-iOS-7.7.8.0.unitypackage",
+    "sha256": "79eb921054a1b49d6c57365c0f2698c7176411755d580451d2bbcb0f5fd72c92",
+    "files": [
+      "Assets/MaxSdk/Mediation/Vungle/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "Mintegral",
+    "androidVersion": "17.1.81.0",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/mintegral-adapter/AppLovin-Mintegral-Adapters-Android-17.1.81.0-iOS-8.1.7.0.1.unitypackage",
+    "sha256": "6cba4d6e82505f63fcf4e9446327d90f402588f7dbdbab1b074f4929983545cd",
+    "files": [
+      "Assets/MaxSdk/Mediation/Mintegral/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "Moloco",
+    "androidVersion": "4.13.0.0",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/moloco-adapter/AppLovin-Moloco-Adapters-Android-4.13.0.0-iOS-4.11.1.0.unitypackage",
+    "sha256": "4c8d2e84aa49cf6848577dede8c05051c661c2581507c003c4449ca3a750a1a5",
+    "files": [
+      "Assets/MaxSdk/Mediation/Moloco/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "Pangle",
+    "androidVersion": "8.3.0.4.1",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/bytedance-adapter/AppLovin-ByteDance-Adapters-Android-8.3.0.4.1-iOS-8.3.0.8.0.unitypackage",
+    "sha256": "62eb9a632b6862a870b2f88570f9a50e0754906ed37d70e22c61bd24157ce00c",
+    "files": [
+      "Assets/MaxSdk/Mediation/ByteDance/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "Unity Ads",
+    "androidVersion": "4.21.0.0",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/unityads-adapter/AppLovin-UnityAds-Adapters-Android-4.21.0.0-iOS-4.21.0.0.unitypackage",
+    "sha256": "e2883694302f8351ad03cd5e27af03e2a553a708b8d36dfd4ef0520c5282abc3",
+    "files": [
+      "Assets/MaxSdk/Mediation/UnityAds/Editor/Dependencies.xml"
+    ]
+  },
+  {
+    "network": "Yandex",
+    "androidVersion": "8.6.0.0",
+    "source": "https://artifacts.applovin.com/unity/com/applovin/mediation/yandex-adapter/AppLovin-Yandex-Adapters-Android-8.6.0.0-iOS-8.6.0.0.unitypackage",
+    "sha256": "314168dedc76db8bd046deda15d0b2a39f14b1820aee3f1dbaa96cf25a1ffac4",
+    "files": [
+      "Assets/MaxSdk/Mediation/Yandex/Editor/Dependencies.xml"
+    ]
+  }
+]

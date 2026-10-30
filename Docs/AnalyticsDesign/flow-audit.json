@@ -1,0 +1,287 @@
+{
+  "project": "C:/Projects/com.nut.sort.relax",
+  "scope": "Read-only audit of active NutSort gameplay/business flows; design only. No code, Prefab or gameplay changes.",
+  "existingBusinessAnalyticsCalls": [],
+  "existingBusinessAnalyticsFinding": "No Track/BTrack/ThinkingData business event invocation was found under Assets/NutSort. CloseTrack is an animation struct, not analytics.",
+  "existingSDKEntryCalls": [
+    {
+      "path": "Assets/NutSort/Integration/QTGameAdsBridge.cs",
+      "line": 93,
+      "call": "sdkAdapter.ShowRewardVideo",
+      "note": "SDK handles ad telemetry separately; not a business Track invocation."
+    },
+    {
+      "path": "Assets/NutSort/Integration/QTGameAdsBridge.cs",
+      "line": 94,
+      "call": "sdkAdapter.ShowInterstitial",
+      "note": "SDK handles ad telemetry separately; avoid duplicating SDK ad events."
+    }
+  ],
+  "identityDefinitions": {
+    "level_id": "Recommended: snapshot User.Level for the raw progression round before it increments. Keep it fixed on the attempt; never read live User.Level for a previous-round end/reward.",
+    "display_level": "Tables.GetShowLevel(level_id). Player-visible level can contain several raw rounds.",
+    "sub_round": "OriginalLevelInfo.SubRound; also include SubTotalRound.",
+    "content_level_id": "User.LevelId is the selected content/catalog ID, not the progression or displayed level.",
+    "tutorial_step": "For legacy tutorial User.Level==1, LevelSeed selects stages 0,1,2,3. It is NOT retry number.",
+    "attempt_id": "New persisted unique ID per actual fresh board attempt; retain on saved-board resume; allocate only once after successful ready, not every InitLevel call.",
+    "attempt_no": "Separate analytics counter per raw round/tutorial stage; increment only on fresh replay/failure retry, do not derive from LevelSeed or ScrewMoveCount.",
+    "origin": [
+      "new_progression",
+      "tutorial_next",
+      "manual_replay",
+      "failure_retry",
+      "resume",
+      "recovery"
+    ],
+    "seed": "If needed capture LevelSelection.SeedIndex/Seed when chosen; User.LevelSeed is not actual selected seed in random mode.",
+    "references": [
+      "Assets/NutSort/Runtime/World/OriginalGameScene.cs:54",
+      "Assets/NutSort/Runtime/Content/OriginalTables.cs:10",
+      "Assets/NutSort/Runtime/Content/OriginalTables.cs:49",
+      "Assets/NutSort/Runtime/World/OriginalGameScene.cs:320",
+      "Assets/NutSort/Runtime/Content/OriginalLevelSelector.cs:68",
+      "Assets/NutSort/Runtime/Content/OriginalLevelSelector.cs:76",
+      "Assets/NutSort/Runtime/Gameplay/OriginalSuccessFlow.cs:28",
+      "Assets/NutSort/Runtime/World/OriginalGameScene.cs:232"
+    ]
+  },
+  "recommendedMinimalBusinessEvents": [
+    {
+      "event": "level_start",
+      "meaning": "A real gameplay board is ready and not merely showing a previously pending reward.",
+      "trigger": "LocalGameplayController.OnBoardReady after LocalPendingReward early return; record once per new attempt. Resume retains attempt ID and should not count a second start.",
+      "fields": [
+        "attempt_id",
+        "attempt_no",
+        "level_id",
+        "display_level",
+        "sub_round",
+        "sub_total_round",
+        "content_level_id",
+        "tutorial_step",
+        "origin"
+      ],
+      "dedupe": "attempt_id:start",
+      "references": [
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.cs:67",
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.cs:78",
+        "Assets/NutSort/Runtime/World/OriginalGameScene.cs:271"
+      ],
+      "caution": "Do not instrument every BeginInitialization/RebuildBoard. Multiple pending initializations and automatic resume reconstruction exist. Board-ready is not necessarily the first input-enabled frame; specify this as the event definition."
+    },
+    {
+      "event": "level_end",
+      "meaning": "One terminal outcome for an attempt.",
+      "resultValues": [
+        "win",
+        "fail",
+        "restart"
+      ],
+      "trigger": "Win: first succeeded state transition in OriginalSuccessFlow.Run, before tutorial seed or User.Level changes. Fail: first OriginalFailureFlow.IsFail false-to-true. Manual replay: accepted OriginalReplayPanel.Replay/OriginalGameScene.RestartLevel, only if no terminal outcome exists.",
+      "fields": [
+        "attempt_id",
+        "level_id",
+        "display_level",
+        "sub_round",
+        "tutorial_step",
+        "result",
+        "reason",
+        "elapsed_seconds",
+        "valid_moves",
+        "move_attempts"
+      ],
+      "dedupe": "attempt_id:end; never emit both fail and restart for the failed attempt; next start uses origin=failure_retry.",
+      "references": [
+        "Assets/NutSort/Runtime/Gameplay/OriginalSuccessFlow.cs:24",
+        "Assets/NutSort/Runtime/Gameplay/OriginalFailureFlow.cs:11",
+        "Assets/NutSort/Runtime/UI/OriginalReplayPanel.cs:38",
+        "Assets/NutSort/Runtime/World/OriginalGameScene.cs:224",
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.cs:110"
+      ],
+      "caution": "Do not emit win at reward popup or reward claim; popup can re-open from pending settlement. App pause is not a quit and may be caused by an ad."
+    },
+    {
+      "event": "tutorial_step",
+      "meaning": "Welcome and the four actual teaching stages, on entry/completion only.",
+      "trigger": "Welcome open and accepted Start; teaching stage entry keyed by LevelSeed 0..3. Completion at actual success transition: 0..2 increment seed, final stage advances User.Level to 2.",
+      "fields": [
+        "tutorial_id",
+        "step_id",
+        "status",
+        "attempt_id"
+      ],
+      "dedupe": "Persisted tutorial_id + step_id + status; RefreshTeaching/Teaching.Run/CloseTeaching can be called repeatedly and are not standalone completion evidence.",
+      "references": [
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.Welcome.cs:28",
+        "Assets/NutSort/Runtime/UI/OriginalRecordGuidePanel.cs:77",
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.Teaching.cs:13",
+        "Assets/NutSort/Runtime/Gameplay/OriginalTeachingFlow.cs:18",
+        "Assets/NutSort/Runtime/Gameplay/OriginalSuccessFlow.cs:28",
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.cs:110"
+      ]
+    },
+    {
+      "event": "resource_change",
+      "meaning": "Committed local game balance/inventory change; one event per changed resource with signed delta.",
+      "resourceValues": [
+        "soft_cash",
+        "diamond",
+        "undo",
+        "refresh",
+        "add_screw"
+      ],
+      "fields": [
+        "transaction_id",
+        "source",
+        "resource",
+        "delta",
+        "balance_before",
+        "balance_after",
+        "level_id",
+        "attempt_id",
+        "currency_code"
+      ],
+      "sources": [
+        "level_reward",
+        "rewarded_tool",
+        "tool_use",
+        "tutorial_balance_adjustment"
+      ],
+      "trigger": "Tools: OriginalItemManager after count mutation and save returns. Level rewards: LocalCashSettlement.Claim true and local persist completed, capture exact pending amounts first. Tutorial balance: separately capture actual max(new,old)-old delta and save success.",
+      "dedupe": "transaction_id + resource; store once-only ledger with same local state checkpoint. Do not also emit equivalent resource gain from the SDK reward callback or visual fly animation.",
+      "references": [
+        "Assets/NutSort/Runtime/Content/OriginalItemManager.cs:20",
+        "Assets/NutSort/Runtime/Content/OriginalItemManager.cs:28",
+        "Assets/NutSort/Runtime/Content/LocalCashSettlement.cs:74",
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.Success.cs:30",
+        "Assets/NutSort/Runtime/Content/LocalWithdrawalPolicy.cs:72",
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.WithdrawalConditions.cs:31"
+      ],
+      "caution": "Refresh mode entry does not consume a tool; actual selected-rod exchange does. Ad callback success may grant then immediately spend undo/add_screw. Record both real deltas, not a zero net balance. Local cash is not a paid withdrawal or ad revenue."
+    },
+    {
+      "event": "withdrawal_view",
+      "meaning": "Actual cash/diamond withdrawal panel shown.",
+      "fields": [
+        "flow_id",
+        "asset_type",
+        "entry",
+        "level_id"
+      ],
+      "trigger": "OpenLocalWithdrawal/OpenDiamondWithdrawal only after guarded new panel creation, not every Refresh.",
+      "dedupe": "One per panel-open instance; reopening is a legitimate new view.",
+      "references": [
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.Withdrawal.cs:17",
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.Withdrawal.cs:50",
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.Withdrawal.cs:56"
+      ]
+    },
+    {
+      "event": "withdrawal_action",
+      "meaning": "User intent and client-side requirement outcome, never backend payment success.",
+      "fields": [
+        "flow_id",
+        "request_id",
+        "stage",
+        "asset_type",
+        "tier_index",
+        "requested_amount",
+        "client_eligible",
+        "block_reason",
+        "result"
+      ],
+      "trigger": "Accepted cash/diamond withdrawal action; conditions continue; final local account confirmation. Stage enum can replace many duplicated click-only event names.",
+      "allowedResults": [
+        "client_blocked",
+        "account_form_opened",
+        "service_unavailable"
+      ],
+      "references": [
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.WithdrawalConditions.cs:42",
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.WithdrawalConditions.cs:49",
+        "Assets/NutSort/Runtime/UI/LocalWithdrawalConditionsPanel.cs:34",
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.WithdrawalConditions.cs:72"
+      ],
+      "caution": "Do not emit submitted, processing or success: ConfirmLocalWithdrawal only rechecks eligibility and displays service text. No backend request/order ID exists."
+    },
+    {
+      "event": "account_form_result",
+      "meaning": "Accepted form confirmation and local validation/save result.",
+      "fields": [
+        "flow_id",
+        "form_attempt_id",
+        "channel",
+        "result",
+        "validation_reason",
+        "is_edit"
+      ],
+      "allowedResults": [
+        "validation_error",
+        "local_saved"
+      ],
+      "trigger": "OriginalWithdrawalUserInfoFlow.Get validation branches or after local save returns.",
+      "dedupe": "Once per accepted form attempt, not keyboard changes or every Refresh. A later deliberate edit/save is a new form attempt.",
+      "references": [
+        "Assets/NutSort/Runtime/UI/OriginalWithdrawalUserInfoFlow.cs:83",
+        "Assets/NutSort/Runtime/UI/OriginalWithdrawalUserInfoFlow.cs:92",
+        "Assets/NutSort/Runtime/UI/LocalGameplayController.Account.cs:21",
+        "Assets/NutSort/Runtime/UI/OriginalWithdrawalConfirmationFlow.cs:50"
+      ],
+      "caution": "Never include name, phone number, email, full account JSON, or freeform text. Local save is not server submission/verification/payment."
+    }
+  ],
+  "toolConsumptionEvidence": [
+    {
+      "tool": "undo",
+      "reference": "Assets/NutSort/Runtime/UI/OriginalToolItemController.cs:55",
+      "note": "Only after inventory/history checks, actual revoke then AddTool(-1)."
+    },
+    {
+      "tool": "refresh",
+      "reference": "Assets/NutSort/Runtime/World/OriginalLevelView.cs:250",
+      "note": "Selecting the rod performs reorder and AddTool(3,-1) at line269; entering/cancelling exchange is not use."
+    },
+    {
+      "tool": "add_screw",
+      "reference": "Assets/NutSort/Runtime/Gameplay/OriginalAddScrewFlow.cs:24",
+      "note": "After max/inventory checks and unlock/add world operation, AddTool(4,-1) at34."
+    },
+    {
+      "tool": "rewarded_tool",
+      "reference": "Assets/NutSort/Runtime/UI/LocalGameplayController.Tools.cs:65",
+      "note": "SDK completion passes request/board guards. Actual grant exists at ApplyToolRefill:101; don't emit grant at ad-request/offer-open."
+    }
+  ],
+  "removeOrDefer": [
+    "No new check-in/sign-in or skin/cosmetic events; active login-day calendar does not constitute a check-in reward feature.",
+    "No revive success/continue-by-ad event: LocalGameplayController.Failure.cs:16-21 explicitly excludes SDK revive from active local UI.",
+    "No generic application_pause -> level_exit mapping; advertisements/backgrounding generate pauses. There is no active explicit quit-level action in Runtime.",
+    "No withdrawal_submit_success/payment_success/server_verification_success until an authoritative asynchronous backend response/order ID exists.",
+    "Do not log reward again at Prepare, success UI show, animation completion or SDK reward callback when resource_change already logs committed balance.",
+    "Do not duplicate SDK ad request/show/reward/revenue events from business code; SDK audit is owned separately."
+  ],
+  "countingAndDurationRisks": [
+    {
+      "reference": "Assets/NutSort/Runtime/World/OriginalGameScene.cs:337",
+      "finding": "ScrewMoveCount is lifetime attempted moves and increments before destination validity. It is neither successful moves nor per-attempt count."
+    },
+    {
+      "reference": "Assets/NutSort/Runtime/World/OriginalGameScene.cs:369",
+      "finding": "PassLevelTime increments whenever IsInitDone, including modal time. Label it round elapsed time; do not call it active interaction time without a separate timer definition."
+    },
+    {
+      "reference": "Assets/NutSort/Runtime/UI/LocalGameplayController.cs:163",
+      "finding": "OnApplicationPause currently only saves; it provides no reliable level-exit intent."
+    },
+    {
+      "reference": "Assets/NutSort/Runtime/Content/LocalCashSettlement.cs:33",
+      "finding": "Pending reward currently has country, amount, nextLevel and optional diamonds, but no durable transaction_id. A dedupe design must add an analytics ID if implemented later, not pretend it exists now."
+    }
+  ],
+  "implementationConstraintsIfApproved": [
+    "Use typed business notifications to the default-assembly integration bridge; runtime asmdefs cannot directly reference Assembly-CSharp SDKAdapter.",
+    "Do not modify Assets/SDK to add business tracking.",
+    "Instrument only low-frequency transitions, no per-frame Track, UI-refresh Track or per-move uploads.",
+    "Persist attempt/transaction IDs and dispatch state; SDK queue/retry behavior alone is not proof of end-to-end exactly-once business delivery."
+  ]
+}

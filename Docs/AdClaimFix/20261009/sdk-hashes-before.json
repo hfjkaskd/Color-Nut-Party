@@ -1,0 +1,338 @@
+[
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter.meta",
+    "Sha256": "EA8E7FE84306D2303D6E245C516362D24AECE5F85127197926ECB3ED0EA2F7F9"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics.meta",
+    "Sha256": "98FA0F74B5108BD85BC87FE9106D115F771FE7BCD0F4DBBEE4F541EFEEA9CCAB"
+  },
+  {
+    "Path": "Assets\\SDK\\DeviceInfo.meta",
+    "Sha256": "E520B357EE11102FE838AE6E7AD922B90D50A45D843F1F072D55E6B8885C5BF5"
+  },
+  {
+    "Path": "Assets\\SDK\\MaxAdapter.meta",
+    "Sha256": "56F84CED658D964F0C5CD14E088B0C727B9D3E1EE39722629CDCEEF9D11E98DC"
+  },
+  {
+    "Path": "Assets\\SDK\\SDKAdapter.cs",
+    "Sha256": "2209DFD155D7305DEFC9AB0F2D7C58738B58D813BC4E47E8603B2EEAAAF2FEA7"
+  },
+  {
+    "Path": "Assets\\SDK\\SDKAdapter.cs.meta",
+    "Sha256": "C52D866701EC6D3DBD9788A2276E359F0B75C85B9A4B1FFFABE71BE471F86C4D"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter.meta",
+    "Sha256": "33FBA81B275BB15EB86E37DE4896B5F7BCDF9784EB5E852F121646E72E98F72D"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\AdjustAdapter.cs",
+    "Sha256": "472F0DC7A4861EEF0D599B162853219E99A97AA487C3FBE1D736ECB906B6DB36"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\AdjustAdapter.cs.meta",
+    "Sha256": "578E4A673095B95D5E1EAE9671B446AA8ED110EB6F1EB8D2401842A8E378466B"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\AdjustConfigCrypto.cs",
+    "Sha256": "A8163BC03E1C914FA42E9421353F179445D2FBE16D5C87019532140F30619284"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\AdjustConfigCrypto.cs.meta",
+    "Sha256": "1DA50DCBD5C5EAD11C8B234A5E599101AC30657342E06ADB6A1319D276C768C7"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\AdjustIntegration.Runtime.asmdef",
+    "Sha256": "E5DF72D1E211D2911863EA009E86CA36C39B18A40262F30F89A2BA5D3891D7FC"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\AdjustIntegration.Runtime.asmdef.meta",
+    "Sha256": "63CFC901DCE596081DE61AE2B0EB12DBEBF7A28F42C5321B30A35C6D2F5441C5"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\Editor.meta",
+    "Sha256": "D71A2643A82706257B79E904A99BE47A03C4F01655A67C06D96C7712EF427221"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\Editor\\AdjustConfigStorage.cs",
+    "Sha256": "5D617DE7C70085AC0712E8E4DEFBF3CD1CC43986077E00F8996ABE6153040C42"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\Editor\\AdjustConfigStorage.cs.meta",
+    "Sha256": "59D7C36EA460C229482756107175D2CA0E52037560070FC3A7A1187F63DEFE4B"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\Editor\\AdjustConfigWindow.cs",
+    "Sha256": "82DD9975EB88F08B9717D30509524BD8BF60037798C43ABC25E5075B06CA8543"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\Editor\\AdjustConfigWindow.cs.meta",
+    "Sha256": "4EFE5332CB89267E50B1415E6EFD719B5816EBC00C0B053B0191FD577C69E437"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\Editor\\AdjustIntegration.Editor.asmdef",
+    "Sha256": "E6DE0E492CF6583D87299B3DAD2C7D9DBDBB5204BCCFC37889690AE891C5C898"
+  },
+  {
+    "Path": "Assets\\SDK\\AdjustAdapter\\Editor\\AdjustIntegration.Editor.asmdef.meta",
+    "Sha256": "71EA07EF412C252A91F4EFF687BB31B7586042129A3406BE1C889C3FFABF42BB"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Editor.meta",
+    "Sha256": "BEC6DB2578C2B1B8697A6ABCC8D14D32571F9DB266F6591B49B8BD39043D1AAC"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime.meta",
+    "Sha256": "D3912F37A2AF7AD6A702EBD4C49ABEC7A2A329D4700B5F73A512EC805137CB8E"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\接入提示词.txt",
+    "Sha256": "7CAB80BFF7E1D07D8F50A706FB8CF2CF22AFA3C166DCAADDB252F35A26C130AF"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\接入提示词.txt.meta",
+    "Sha256": "8ECDD7A7F82C41F0A16DBC06F887AD6C70682BED85E35F417AE40D6AB1124F66"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\默认上报数据说明.md",
+    "Sha256": "D8AD4812F4DFFFA651C8C85732C772F5E5C7307A42CE98DAF62A1823052734C7"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\默认上报数据说明.md.meta",
+    "Sha256": "1622DBC0E5C1BE32821D8E0480D8BFD24E95C075518E0D95DE6B794FC19CCA9F"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Editor\\AnalyticsB.Editor.asmdef",
+    "Sha256": "0F0A63EEC04BFA4A74980A20229AD07727F81955DE78E14F5056067C01ACB670"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Editor\\AnalyticsB.Editor.asmdef.meta",
+    "Sha256": "21983E57C7E93404FFC32406B1E63A3B145DE39FC5FD75386C4EE4D72F00A619"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Editor\\BizzaAnalyticsAgentEditor.cs",
+    "Sha256": "9D0CFC907325D98D3BAF02376F8524A0ED1FD9A63479BFE7C47B2689700851BF"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Editor\\BizzaAnalyticsAgentEditor.cs.meta",
+    "Sha256": "0CE23DE9585449904C71F5E05C547947DC708691CC6543E2F8ACD7FD5165B81E"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Editor\\BizzaAnalyticsWindow.cs",
+    "Sha256": "AC69FFF465A3EB4D0458A24398840728F9840A0A042F5976C6DBD44048271206"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Editor\\BizzaAnalyticsWindow.cs.meta",
+    "Sha256": "A94CDF4AD0D4AD30CBD6872F54CFBAB737BFFE8A807A8BF4976ADDB7CA44285C"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\AnalyticsB.asmdef",
+    "Sha256": "89AAB9A7E4161BF888F31FC0A613E907B271C82FFAC8EB03B17C71846BF50911"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\AnalyticsB.asmdef.meta",
+    "Sha256": "CDA2646FA81A4D82D963028F5BA1DDA3C9F5E47276F23789B5E9785E24278433"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaAnalyticsAgent.cs",
+    "Sha256": "65340CAE042DE49AFE8074A8C97B32B043B428C19D3E20B6F62BDA4F9631B243"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaAnalyticsAgent.cs.meta",
+    "Sha256": "6C129717711900E4BEBED8382D2CF01EB3BA4B282C58770FADA7801B6323BB44"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaAnalyticsOptions.cs",
+    "Sha256": "1E93711CCFF4E21D56E1BF3A6D1068D49015FAFE2D1BA104B9F1E381C595E700"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaAnalyticsOptions.cs.meta",
+    "Sha256": "3509334A7DB42EE059A41BD032391317D7D606B1EB25593A4E01490141F2B451"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaAnalyticsRuntime.cs",
+    "Sha256": "85DF52885388F1A80FA3516FC2EEE17E1BE7EF252063F4C8682802CB43388CE1"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaAnalyticsRuntime.cs.meta",
+    "Sha256": "DF7B98F6F79494BEA1BFBF8D36E373E1B241B22B4D11FAA2FB1FCBF6E91ABA17"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaAnalyticsRuntime.LoginIp.cs",
+    "Sha256": "1F90D5E2E7A632F5C3D5A3353C1EF518A7577CDD47AF59BA649F06CBEAE8E82B"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaAnalyticsRuntime.LoginIp.cs.meta",
+    "Sha256": "5DA4A250B6146116ACC173F60E0AB37977428E4F781F1D58FF688C1EAF22FC5D"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaAnalyticsRuntime.Storage.cs",
+    "Sha256": "5B5001D6D13C99FF5BF91823307E901EF1AF299BBBAAE3314442F24BE78D70CB"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaAnalyticsRuntime.Storage.cs.meta",
+    "Sha256": "DD8C3505ECFF143E0DE85271F8C87E00F7B90FA405154649DD25A992BA5D62E9"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaAnalyticsState.cs",
+    "Sha256": "AB2DE1BCF74607AA563FD97646A6832DCC2CE44AF117719B15BA994C966A2FAA"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaAnalyticsState.cs.meta",
+    "Sha256": "379DA3E0C6AA3870829800DDB9CC17FBD86B158CC586B57691BA4E1FB1ACD271"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaCrypto.cs",
+    "Sha256": "94AD99B0E9539A5139D4F9A668813209A45F74CCB2BC8A9162EA923277445A96"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaCrypto.cs.meta",
+    "Sha256": "B44F97239AA78EBAEE8F0D6064707665CC9FB95FD2DECF4695322414C79CAE10"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaJson.cs",
+    "Sha256": "DC9ECC52FDB38D89340267EA31B31424C1A29547F2FBB2C4CDD241FFFA0E553E"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaJson.cs.meta",
+    "Sha256": "AA9A4C18D0E46EFBDC85AE3BAA7063D8F1C3001F756BD577035EB5AFE2E58E7C"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaPayloadBudget.cs",
+    "Sha256": "A37467AF69019E9FF613F2593B6A70D445BA976382B187BDF5EC2C7410043CBB"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaPayloadBudget.cs.meta",
+    "Sha256": "24F15080A0F8814A035BC09D95A3283856BD9665B97BB9C21FA8E8629E17717E"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaStateStore.cs",
+    "Sha256": "738A26525E94CC7B1E366838A7E72D3B45C180DA9693239A28C85207948EF2FE"
+  },
+  {
+    "Path": "Assets\\SDK\\BizzaAnalytics\\Runtime\\BizzaStateStore.cs.meta",
+    "Sha256": "42C72E08D084BB14DC6AB1FC41C2D07D9809B0732C1C92E8E29AE49268A92838"
+  },
+  {
+    "Path": "Assets\\SDK\\DeviceInfo\\DeviceInfo.asmdef",
+    "Sha256": "625BAE7DA3139B39E9957364C0A429D62DA12BBE756E35867AB5182A3A322C04"
+  },
+  {
+    "Path": "Assets\\SDK\\DeviceInfo\\DeviceInfo.asmdef.meta",
+    "Sha256": "4BCF7AB2ABCF1468C4C56BE072E3194CA4ABDAD03E2A865D63709227A451128D"
+  },
+  {
+    "Path": "Assets\\SDK\\DeviceInfo\\DeviceInfo.cs",
+    "Sha256": "B09D50F95879E630475518FFE15723BF208620C1C841416FFD1B2C097B8E2728"
+  },
+  {
+    "Path": "Assets\\SDK\\DeviceInfo\\DeviceInfo.cs.meta",
+    "Sha256": "128E1F85BFABA16A6E0A685023C48072C24A1EA620630CDFEE0F9EA231CA0195"
+  },
+  {
+    "Path": "Assets\\SDK\\MaxAdapter\\Editor.meta",
+    "Sha256": "B5DBCB8084E80C10DA13DEB689EBAE104062AD7400BF64F736E7A1DDB213E525"
+  },
+  {
+    "Path": "Assets\\SDK\\MaxAdapter\\MaxAdsAdapter.cs",
+    "Sha256": "BF05E9F5AE11B59BB29830841CED6B722A4AA746ED6936ED1F14B366C13D4094"
+  },
+  {
+    "Path": "Assets\\SDK\\MaxAdapter\\MaxAdsAdapter.cs.meta",
+    "Sha256": "AEFD649230644F09470610FF69B8054E0E6C8E1C94077BE78FE4EF73E3B0EE71"
+  },
+  {
+    "Path": "Assets\\SDK\\MaxAdapter\\MaxAdsConfigCrypto.cs",
+    "Sha256": "3984D3404C101A773C0908CED7E4407C1FE87E30D9B31C792CF59F61F5BBFC6F"
+  },
+  {
+    "Path": "Assets\\SDK\\MaxAdapter\\MaxAdsConfigCrypto.cs.meta",
+    "Sha256": "EDE3788F2BB6770B29593946FCB991D12D299D15BA403569CE851471ED0D574F"
+  },
+  {
+    "Path": "Assets\\SDK\\MaxAdapter\\MaxAdsIntegration.Runtime.asmdef",
+    "Sha256": "9B52759B02C25A7A9002C7DD60686558275DD7A5341D2B2C98740A85B0491F4C"
+  },
+  {
+    "Path": "Assets\\SDK\\MaxAdapter\\MaxAdsIntegration.Runtime.asmdef.meta",
+    "Sha256": "C4E4BF5DDB9FE02F6515C599DEA4D4931E5D44EE267182DA21869A8BEC206669"
+  },
+  {
+    "Path": "Assets\\SDK\\MaxAdapter\\Editor\\MaxAdsConfigWindow.cs",
+    "Sha256": "D8CEAB12012EC79BC47E12DD0D599688BD631247AE243E814DBC875F96C1E5EF"
+  },
+  {
+    "Path": "Assets\\SDK\\MaxAdapter\\Editor\\MaxAdsConfigWindow.cs.meta",
+    "Sha256": "026315497CE395E21D2B114A56F4F8EF63F22C9E1751C9EAD0CC570CD3C7D0A5"
+  },
+  {
+    "Path": "Assets\\SDK\\MaxAdapter\\Editor\\MaxAdsIntegration.Editor.asmdef",
+    "Sha256": "F7B8FEC915C50DE5039A4E7B57050E8DD3B2AD46AE18C0B66238F60C4DE6DBCA"
+  },
+  {
+    "Path": "Assets\\SDK\\MaxAdapter\\Editor\\MaxAdsIntegration.Editor.asmdef.meta",
+    "Sha256": "53241A8F0D146C476A7E2AA4CDB50A677205034CAD1F2D35495DB43693FF9259"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\Editor.meta",
+    "Sha256": "B7CE5982D964BA289416C337EB7B1732DE87FBC27783C4CFA09813E6E91E2B3C"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\ThinkingDataAdapter.cs",
+    "Sha256": "EA621DC92761C13C010F2C8D5CEA3C5FA5B69B4AFAB62D5EB7BCA1C2753D0A25"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\ThinkingDataAdapter.cs.meta",
+    "Sha256": "7DE6C88676FD06E089D6BD3F6DDD9CAABFCDB6094021F64FC10A791CF966202A"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\ThinkingDataConfigCrypto.cs",
+    "Sha256": "71819902374117B853486F4900DDC0A0E3ED1A3FB921428BCB0ED5AA725F0AD3"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\ThinkingDataConfigCrypto.cs.meta",
+    "Sha256": "172BF0330A87094F56C622BFC08563D72FF4166CF5A69BC5CAB1B85087EF6477"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\ThinkingDataIntegration.Runtime.asmdef",
+    "Sha256": "54EE72E317A4F0E1E03033B251ADD9903D0EF4DF762CC248D8EA84BBA02C2239"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\ThinkingDataIntegration.Runtime.asmdef.meta",
+    "Sha256": "363022D1867E260C737813FF63E603BED835F0811F800EF53531F3B69FA62BE2"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\ThinkingDataSdkBridge.cs",
+    "Sha256": "4D6FF197D50951FB7A944BD964901F1708F3F41FA1CBB031CD69D1F764948129"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\ThinkingDataSdkBridge.cs.meta",
+    "Sha256": "BD009828A0E64D562E3AEDA2DFC3DDAA1B9DBB7D866B6001A1BFCD08CEACB25E"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\Editor\\ThinkingDataConfigStorage.cs",
+    "Sha256": "284CDEA72073256BC478D6413E19232E7408B1E164513853465B983A7A8D5627"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\Editor\\ThinkingDataConfigStorage.cs.meta",
+    "Sha256": "34639E9B5970AC0BA8FF5301AADF1FE4E3F8C9158CC83C4E79BCE0FE7DF93D0C"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\Editor\\ThinkingDataConfigWindow.cs",
+    "Sha256": "64F7E76B6690A06DFC50EC9823A9975EE5C540B2E615A357C88DD69DA73D5DC9"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\Editor\\ThinkingDataConfigWindow.cs.meta",
+    "Sha256": "5EBDB4557C8260DAF460AD02F691914696223B03181AFB5E708D741E288CD862"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\Editor\\ThinkingDataIntegration.Editor.asmdef",
+    "Sha256": "13E3A397FCF3E17B0D74DCA3E1DCB10EB258AB10CA3E1C299E76ADD81722B8A1"
+  },
+  {
+    "Path": "Assets\\SDK\\ThinkingDataAdapter\\Editor\\ThinkingDataIntegration.Editor.asmdef.meta",
+    "Sha256": "A10C274C74DC83E087EC186BCD4CCEAFD814BDD152FD20D03253590B568DCF25"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "level": 9,
+    "showLevel": 5,
+    "round": 3,
+    "totalRound": 5,
+    "subRound": 1,
+    "subTotalRound": 4
+  },
+  {
+    "level": 10,
+    "showLevel": 5,
+    "round": 3,
+    "totalRound": 5,
+    "subRound": 2,
+    "subTotalRound": 4
+  },
+  {
+    "level": 11,
+    "showLevel": 5,
+    "round": 3,
+    "totalRound": 5,
+    "subRound": 3,
+    "subTotalRound": 4
+  },
+  {
+    "level": 12,
+    "showLevel": 5,
+    "round": 3,
+    "totalRound": 5,
+    "subRound": 4,
+    "subTotalRound": 4
+  },
+  {
+    "level": 13,
+    "showLevel": 5,
+    "round": 4,
+    "totalRound": 5,
+    "subRound": 1,
+    "subTotalRound": 5
+  }
+]

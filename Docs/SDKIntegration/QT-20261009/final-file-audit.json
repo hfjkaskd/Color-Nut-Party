@@ -1,0 +1,25 @@
+{
+  "baselineFileChanges": [
+    "Packages/packages-lock.json",
+    "ProjectSettings/ProjectSettings.asset",
+    "Assets/Scenes/LuoSiSortGame.unity",
+    "Assets/NutSort/Runtime/Gameplay/OriginalRewardGetFlow.cs",
+    "Assets/NutSort/Runtime/UI/LocalGameplayController.Interstitial.cs",
+    "Assets/NutSort/Runtime/UI/LocalGameplayController.Tools.cs",
+    "Assets/NutSort/Runtime/UI/OriginalStartupFlow.cs",
+    "Assets/NutSort/Editor/Validation/LocalAndroidBuild.cs",
+    "Assets/NutSort/Editor/Validation/LocalCashRewardPlayValidation.cs",
+    "Assets/NutSort/Editor/Validation/LocalDiamondRewardPlayValidation.cs",
+    "Assets/NutSort/Editor/Validation/LocalGameplayBuilder.cs",
+    "Assets/NutSort/Editor/Validation/LocalToolAdPlayValidation.cs",
+    "Assets/NutSort/Editor/Validation/OriginalRewardGetFlowValidation.cs",
+    "Assets/NutSort/Editor/Validation/OriginalSuccessPanelHostPlayValidation.cs",
+    "Assets/NutSort/Editor/Validation/OriginalSuccessPanelPlayValidation.cs"
+  ],
+  "sdkSourceFileCount": 78,
+  "sdkSourceChanges": [],
+  "packageCompatibilityChanges": [
+    "Packages/com.thinkingdata.analytics/Editor/TDPostprocessBuild.iOS.cs",
+    "Packages/com.google.external-dependency-manager/ExternalDependencyManager/Editor/1.2.182/Google.IOSResolver.dll.meta"
+  ]
+}

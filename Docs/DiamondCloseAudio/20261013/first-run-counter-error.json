@@ -1,0 +1,235 @@
+{
+  "fixture": {
+    "Level": 4,
+    "LevelSeed": 0,
+    "Gold": 512.5,
+    "Coin": 0,
+    "RevokeCount": 5,
+    "UserName": "Audio_Tester",
+    "UserId": "diamond-close-audio-acceptance",
+    "IsAudio": true,
+    "IsVibrate": true,
+    "NewGameplayUnlockIndex": 4,
+    "IsCompleteRecordGuide": true,
+    "IsCompleteCoinNewPeopleReward": true,
+    "IsCompleteExtraGoldGuide": true,
+    "IsShowCoin": true,
+    "IsCompleteShowCoinRewardHint": true,
+    "LocalWithdrawalData": {
+      "tutorialBalanceApplied": true,
+      "tutorialBalanceAmount": 500,
+      "tutorialBalanceNoticeAcknowledged": true,
+      "earningFlow": {
+        "activationComplete": true,
+        "activationStep": 6
+      }
+    }
+  },
+  "checks": [
+    "Actual scene uses isolated US fixture with audio and vibration enabled",
+    "Gameplay input is available before reopening",
+    "Standard Button is active and interactable",
+    "Real UI raycast reaches Click",
+    "Standard Button receives the pointer click",
+    "Actual HUD diamond Cash Button opens the panel",
+    "HUD opens the real diamond withdrawal prefab and blocks gameplay",
+    "Fresh real-panel screenshot captured",
+    "Original amount choices are present",
+    "Standard Button is active and interactable",
+    "Real UI raycast reaches item2",
+    "Standard Button receives the pointer click",
+    "select_amount: production shared click mask is active",
+    "select_amount: exactly one Click, no Pass_level or duplicate",
+    "select_amount: haptic request respects its independent setting and is not duplicated",
+    "Actual amount Button selects the second amount once",
+    "first_close: panel exists",
+    "Standard Button is active and interactable",
+    "Real UI raycast reaches Close",
+    "Standard Button receives the pointer click",
+    "first_close: production shared click mask is active",
+    "first_close: exactly one Click, no Pass_level or duplicate",
+    "first_close: haptic request respects its independent setting and is not duplicated",
+    "first_close: controller clears the panel immediately",
+    "Closed popup is destroyed, shared audio remains alive, and modal/click blocks are released",
+    "Gameplay input is available before reopening",
+    "Standard Button is active and interactable",
+    "Real UI raycast reaches Click",
+    "Standard Button receives the pointer click",
+    "Actual HUD diamond Cash Button opens the panel",
+    "reopened_close: panel exists",
+    "Standard Button is active and interactable",
+    "Real UI raycast reaches Close",
+    "Standard Button receives the pointer click",
+    "reopened_close: production shared click mask is active",
+    "reopened_close: exactly one Click, no Pass_level or duplicate",
+    "reopened_close: haptic request respects its independent setting and is not duplicated",
+    "reopened_close: controller clears the panel immediately",
+    "Closed popup is destroyed, shared audio remains alive, and modal/click blocks are released",
+    "Gameplay input is available before reopening",
+    "Standard Button is active and interactable",
+    "Real UI raycast reaches Click",
+    "Standard Button receives the pointer click",
+    "Actual HUD diamond Cash Button opens the panel",
+    "muted_close: panel exists",
+    "Standard Button is active and interactable",
+    "Real UI raycast reaches Close",
+    "Standard Button receives the pointer click",
+    "muted_close: production shared click mask is active",
+    "muted_close: exactly zero new sounds, no Pass_level or duplicate",
+    "muted_close: haptic request respects its independent setting and is not duplicated",
+    "muted_close: controller clears the panel immediately",
+    "Closed popup is destroyed, shared audio remains alive, and modal/click blocks are released",
+    "Gameplay input is available before reopening",
+    "Standard Button is active and interactable",
+    "Real UI raycast reaches Click",
+    "Standard Button receives the pointer click",
+    "Actual HUD diamond Cash Button opens the panel",
+    "restored_audio_vibration_off_close: panel exists",
+    "Standard Button is active and interactable",
+    "Real UI raycast reaches Close",
+    "Standard Button receives the pointer click",
+    "restored_audio_vibration_off_close: production shared click mask is active",
+    "restored_audio_vibration_off_close: exactly one Click, no Pass_level or duplicate",
+    "restored_audio_vibration_off_close: haptic request respects its independent setting and is not duplicated",
+    "restored_audio_vibration_off_close: controller clears the panel immediately",
+    "Closed popup is destroyed, shared audio remains alive, and modal/click blocks are released",
+    "Gameplay input is available before reopening",
+    "Standard Button is active and interactable",
+    "Real UI raycast reaches Click",
+    "Standard Button receives the pointer click",
+    "Actual HUD diamond Cash Button opens the panel",
+    "restored_audio_and_vibration_close: panel exists",
+    "Standard Button is active and interactable",
+    "Real UI raycast reaches Close",
+    "Standard Button receives the pointer click",
+    "restored_audio_and_vibration_close: production shared click mask is active",
+    "restored_audio_and_vibration_close: exactly one Click, no Pass_level or duplicate",
+    "restored_audio_and_vibration_close: haptic request respects its independent setting and is not duplicated",
+    "restored_audio_and_vibration_close: controller clears the panel immediately",
+    "Closed popup is destroyed, shared audio remains alive, and modal/click blocks are released"
+  ],
+  "actions": [
+    {
+      "name": "select_amount",
+      "audioEnabled": true,
+      "vibrationEnabled": true,
+      "clickSounds": 1,
+      "allSounds": 1,
+      "passLevelSounds": 0,
+      "hapticRequests": 1,
+      "duplicateCallbackRejected": true
+    },
+    {
+      "name": "first_close",
+      "audioEnabled": true,
+      "vibrationEnabled": true,
+      "clickSounds": 1,
+      "allSounds": 1,
+      "passLevelSounds": 0,
+      "hapticRequests": 1,
+      "duplicateCallbackRejected": true
+    },
+    {
+      "name": "reopened_close",
+      "audioEnabled": true,
+      "vibrationEnabled": true,
+      "clickSounds": 1,
+      "allSounds": 1,
+      "passLevelSounds": 0,
+      "hapticRequests": 1,
+      "duplicateCallbackRejected": true
+    },
+    {
+      "name": "muted_close",
+      "audioEnabled": false,
+      "vibrationEnabled": true,
+      "clickSounds": 0,
+      "allSounds": 0,
+      "passLevelSounds": 0,
+      "hapticRequests": 1,
+      "duplicateCallbackRejected": true
+    },
+    {
+      "name": "restored_audio_vibration_off_close",
+      "audioEnabled": true,
+      "vibrationEnabled": false,
+      "clickSounds": 1,
+      "allSounds": 1,
+      "passLevelSounds": 0,
+      "hapticRequests": 0,
+      "duplicateCallbackRejected": true
+    },
+    {
+      "name": "restored_audio_and_vibration_close",
+      "audioEnabled": true,
+      "vibrationEnabled": true,
+      "clickSounds": 1,
+      "allSounds": 1,
+      "passLevelSounds": 0,
+      "hapticRequests": 1,
+      "duplicateCallbackRejected": true
+    }
+  ],
+  "events": [
+    {
+      "action": "open_from_HUD",
+      "sound": "StageStart",
+      "frame": 684
+    },
+    {
+      "action": "select_amount",
+      "sound": "Click",
+      "frame": 1256
+    },
+    {
+      "action": "select_amount",
+      "vibrationRequested": true,
+      "frame": 1256
+    },
+    {
+      "action": "first_close",
+      "sound": "Click",
+      "frame": 1605
+    },
+    {
+      "action": "first_close",
+      "vibrationRequested": true,
+      "frame": 1605
+    },
+    {
+      "action": "reopened_close",
+      "sound": "Click",
+      "frame": 2296
+    },
+    {
+      "action": "reopened_close",
+      "vibrationRequested": true,
+      "frame": 2296
+    },
+    {
+      "action": "muted_close",
+      "vibrationRequested": true,
+      "frame": 3007
+    },
+    {
+      "action": "restored_audio_vibration_off_close",
+      "sound": "Click",
+      "frame": 3730
+    },
+    {
+      "action": "restored_audio_and_vibration_close",
+      "sound": "Click",
+      "frame": 4435
+    },
+    {
+      "action": "restored_audio_and_vibration_close",
+      "vibrationRequested": true,
+      "frame": 4435
+    }
+  ],
+  "error": "System.InvalidOperationException: Entire sequence has exactly five Click sounds and five enabled haptic requests, no Pass_level or delayed duplicate\r\n  at NutSort.Validation.LocalDiamondCloseAudioPlayValidation.Check (System.Boolean condition, System.String message) [0x0001a] in C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Editor\\Validation\\LocalDiamondCloseAudioPlayValidation.cs:218 \r\n  at NutSort.Validation.LocalDiamondCloseAudioPlayValidation.Tick () [0x0029b] in C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Editor\\Validation\\LocalDiamondCloseAudioPlayValidation.cs:151 ",
+  "verification": "Actual LuoSiSortGame scene, production HUD and popup Buttons via EventSystem; SoundStarted after source.Play; haptic request events only, no physical-device test; no ads/payment/build",
+  "originalPreferencesRestored": true,
+  "status": "FAIL",
+  "utc": "2026-10-13T07:29:52.1676419Z"
+}

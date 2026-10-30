@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "apk": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-1.0.1-20261013-stats.apk",
+  "bytes": 153018166,
+  "sha256": "9b999880fd70b9b56913e9899530522819c91d8965f21e90021d3ec79a5ef644",
+  "warnings": 609,
+  "errors": 0,
+  "package": "com.color.nutparty",
+  "version": "1.0.1",
+  "versionCode": 1,
+  "signatureVerification": "PASS",
+  "zipAlignment": "PASS",
+  "sdkFilesChanged": 0,
+  "settingsRestored": true,
+  "installedOn": "UMIDIGI Note 100 5G / G95G6128GY4070804966",
+  "installedApkHashMatches": true,
+  "deviceRegression": "PASS: three visible simulated stats, date, cold restart, saved daily attempts and retained balance/board",
+  "deviceReport": "Docs/StatsDisplayFix/20261013/device-report.json"
+}

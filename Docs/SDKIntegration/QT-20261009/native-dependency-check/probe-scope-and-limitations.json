@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETED_NO_FURTHER_PROBE_ITERATION",
+  "purpose": "Pre-download native runtime artifacts into shared Gradle cache.",
+  "result": "PASS",
+  "selectedModuleCount": 326,
+  "downloadedArtifactCount": 310,
+  "noProductionDependencyEdits": true,
+  "limitation": "Standalone Gradle dependency resolution is not APK compilation or device validation. Earlier probe failures came from missing Kotlin/Java variant selection rules; no production dependency was changed based on them. Unity native build remains the acceptance authority.",
+  "actualBuildIssueObserved": "Unity bundled AGP7.4.2 fails androidx.browser1.9.0 requirement AGP8.9.1+; root is upgrading actual build toolchain.",
+  "completedUtc": "2026-10-09T08:22:53.3646734Z"
+}

@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "apk": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-1.0.1-20261013-app-icon-fix.apk",
+  "bytes": 159251988,
+  "version": "1.0.1",
+  "versionCode": 1,
+  "package": "com.color.nutparty",
+  "sha256": "C0C4E5DE0DACDF0F8E7376C8A270BF2BD11AB6D06B6989994F0858A73266B238",
+  "certificateSha256": "d14d534c3d52c389e24441dfe880bdcc0789fa846a7ab03e5368f81c560203a6",
+  "keystore": "Signing/cnp_qt_qianmingwenjian.keystore",
+  "alias": "cnp_qt_qianmingwenjian",
+  "keystoreUnchanged": true,
+  "sdkFilesUnchanged": 84,
+  "signatureVerified": true,
+  "alignmentVerified": true,
+  "debuggable": false,
+  "architectures": [
+    "armeabi-v7a",
+    "arm64-v8a"
+  ],
+  "unityWarnings": 12,
+  "unityErrors": 0,
+  "includesRewardArtFix": true,
+  "includesCustomAppIcon": true,
+  "physicalDeviceRetested": false,
+  "verifiedAt": "2026-10-13T23:29:38.0514521-04:00",
+  "iconResourcesVerified": true,
+  "iconResourceReport": "apk-icons/result.json",
+  "iconPngCount": 24
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "path": "Assets/NutSort/Runtime/UI/LocalEarningSequencePanel.cs",
+    "bytes": 9399,
+    "sha256": "19C530AEC691FBDB9D4872A9C71408FA3AB774D1C61C02CB47B9F43CBACEE53D"
+  },
+  {
+    "path": "Assets/NutSort/Runtime/UI/LocalGameplayController.TutorialBalance.cs",
+    "bytes": 13851,
+    "sha256": "87B2E7ED978B5B9DA4C13EE5C46061B90CA7C2DF67B677531F5F50ED5A07980F"
+  },
+  {
+    "path": "Assets/NutSort/Editor/Validation/LocalEarningPanelsBuilder.cs",
+    "bytes": 40053,
+    "sha256": "4E0DFE413BDBA794F234443EBA7AEAAFF749A02EF182728874E71D112EFE006C"
+  },
+  {
+    "path": "Assets/NutSort/Editor/Validation/LocalEarningMessageArtPlayValidation.cs",
+    "bytes": 28257,
+    "sha256": "4203908BC2D14E6A22B93A395BAF5AE97AC437F286E947FD38A52A1EDEA72101"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/LocalEarningSequence.prefab",
+    "bytes": 168564,
+    "sha256": "63DEE9B32EB83B06188F9AB214349571787FBD651D4ACB71E2AF641120923884"
+  },
+  {
+    "path": "Assets/Resources/atlas/localearningmessages/cash-banner.png",
+    "bytes": 1602607,
+    "sha256": "506E70E6DC50B63B15909D85E678CF1ADE964423A7B23962EFCBE690C3981190"
+  },
+  {
+    "path": "Assets/Resources/atlas/localearningmessages/portrait-banner.png",
+    "bytes": 1788020,
+    "sha256": "17456829B083A0354D895EEE88EC6A9661FB0A6713A42F508D83B84E1CD6C783"
+  }
+]

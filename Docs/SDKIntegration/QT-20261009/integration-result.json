@@ -1,0 +1,101 @@
+{
+  "status": "INTEGRATED_AND_ANDROID_BUILD_VERIFIED_WITH_KWAI_PENDING",
+  "project": "C:\\Projects\\com.nut.sort.relax",
+  "product": "Color Nut Party",
+  "version": "1.0.1",
+  "versionCode": 1,
+  "package": "com.color.nutparty",
+  "source": "C:/Users/pc/Desktop/QT",
+  "backup": "before-sdk-integration.zip",
+  "entryScene": "Assets/Scenes/LuoSiSortGame.unity",
+  "entryNode": "SDK",
+  "automaticComponents": [
+    "SDKAdapter",
+    "BizzaAnalyticsAgent"
+  ],
+  "bridge": "NutSort.Integration.QTGameAdsBridge",
+  "configuredServices": [
+    "MAX",
+    "AdMob Android App ID",
+    "Adjust token and IPU3/IPU5/IPU10",
+    "ThinkingData AppID/ServerURL/AppCode",
+    "Bizza AppID"
+  ],
+  "installedNetworks": [
+    "AppLovin",
+    "Mintegral",
+    "Unity Ads",
+    "ironSource",
+    "Pangle",
+    "BIGO",
+    "Liftoff",
+    "InMobi",
+    "AdMob",
+    "TopOn",
+    "Digital Turbine",
+    "BidMachine",
+    "Facebook",
+    "Yandex",
+    "Chartboost",
+    "Moloco"
+  ],
+  "pendingNetworks": [
+    {
+      "name": "Kwai",
+      "reason": "No verified MAX adapter supplied; awaiting user adapter or TopOn route.",
+      "questionAsked": true
+    }
+  ],
+  "validation": {
+    "savedConfigurationRoundTrip": "PASS",
+    "entrySceneUiPreservation": "PASS",
+    "rewardStateMachineInUnity": "PASS",
+    "toolButtonsPlayModeCallbacks": "PASS",
+    "nativeDependencyDownload": "PASS",
+    "androidApkBuild": "PASS",
+    "apkIdentityAndSignature": "PASS",
+    "assetsSdkSourceHashes": "PASS"
+  },
+  "sdkSourceFilesChanged": [],
+  "packageCompatibilityFixes": [
+    {
+      "path": "Packages/com.thinkingdata.analytics/Editor/TDPostprocessBuild.iOS.cs",
+      "reason": "iOS-only build processor referenced absent iOS Xcode module during Android compilation; restrict to UNITY_EDITOR && UNITY_IOS."
+    },
+    {
+      "path": "Packages/com.google.external-dependency-manager/ExternalDependencyManager/Editor/1.2.182/Google.IOSResolver.dll.meta",
+      "reason": "Editor iOS resolver referenced absent Xcode module during Android import; limit importer to UNITY_IOS."
+    }
+  ],
+  "androidBuildConfiguration": {
+    "agp": "8.10.1",
+    "gradle": "8.13",
+    "unityJava": "11.0.14.1",
+    "gradleDaemonJava": "17.0.14",
+    "sdkTarget": 36,
+    "sdkMin": 26,
+    "ndk": "23.1.7779620",
+    "customManifest": "Unity standard manifest plus Adjust required declarations",
+    "sharedPreferenceChange": "Unity External Tools Gradle path; previous settings in toolchain-before.json; restore menu provided."
+  },
+  "apk": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-SDK.apk",
+  "apkBytes": 195708276,
+  "apkSha256": "14acd1f5ab627c678a2a57d803f68d92a071cc6ced5ce28379b334989680f6f7",
+  "apkType": "Development test APK, debug signing, ARM64 and ARMv7",
+  "limitations": [
+    "No connected Android device; live ad loading/showing, attribution, revenue and analytics delivery not validated.",
+    "MAX network accounts/placements, including custom TopOn parameters, must be enabled in the mediation dashboard.",
+    "Kwai is pending user integration details.",
+    "Nonfatal vendor TopOn string-format and native stripping/NDK default-version messages occurred; APK build completed with zero errors."
+  ],
+  "evidence": [
+    "configuration-validation.json",
+    "entry-scene-ui-preservation.json",
+    "reward-unity-validation.log",
+    "tool-ad-play-validation.log",
+    "native-dependency-check/resolution-report.json",
+    "android-build-2.log",
+    "apk-validation.json",
+    "final-file-audit.json"
+  ]
+}

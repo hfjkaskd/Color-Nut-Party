@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "apk": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-1.0.1-20261012.apk",
+  "bytes": 153009546,
+  "sha256": "1275f0b301d24d9abc59a103ff4ba9d776008d93169ecf8ddc7eb66cf41d5274",
+  "product": "Color Nut Party",
+  "package": "com.color.nutparty",
+  "version": "1.0.1",
+  "versionCode": 1,
+  "signedRelease": true,
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "minSdk": 26,
+  "targetSdk": 36,
+  "certificateSha256": "d14d534c3d52c389e24441dfe880bdcc0789fa846a7ab03e5368f81c560203a6",
+  "signatureVerification": "PASS",
+  "zipAlignment": "PASS",
+  "apkCrc": "PASS",
+  "newResourceVerification": "PASS",
+  "currentResourceFilesChecked": 8,
+  "unityBuildErrors": 0,
+  "unityBuildWarnings": 610,
+  "sdkFilesChecked": 84,
+  "sdkFilesChanged": 0,
+  "settingsRestored": true,
+  "deviceRegression": "NOT_RUN on updated APK",
+  "includes": [
+    "Shared guide yellow screw decoration and bounded text layout",
+    "Lucky Reward three screw stacks above wood ribbon",
+    "Updated withdrawal history cards",
+    "Full settings panel",
+    "Five reward activation bonuses and automatic 500 receipt"
+  ],
+  "completedUtc": "2026-10-13T02:34:52.2329835Z"
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>钻石提现进度条 · 修复前后</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f8f1e4;color:#503118;font:16px/1.65 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1320px;margin:auto;padding:28px}h1{font-size:26px;margin:0 0 8px}h2{font-size:19px;margin:0 0 10px}p{margin:8px 0 20px}.note{color:#76604c;font-size:14px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.card{background:#fffaf0;border:1px solid #dcc5a5;border-radius:14px;padding:18px;margin-bottom:20px}svg{display:block;width:100%;height:auto;border-radius:7px}.full{width:100%;height:auto;display:block;margin-top:16px}summary{cursor:pointer;font-weight:600;padding:8px 0}a{color:#664322}.pass{color:#25722a} @media(max-width:700px){main{padding:16px}.grid{grid-template-columns:1fr}}
+</style>
+<main>
+<h1>钻石提现进度条 · 修复前后</h1>
+<p>绿色填充收到底槽内部，移除填充素材自带的木边框。$4.87/$500 对应约 0.97%，仍按真实比例显示。</p>
+<p class="note">以下均为 Unity Editor Play Mode 实际运行截图，使用隔离验收存档；并非真机截图或正式玩家数据。验收后原存档已恢复。局部图仅通过显示窗口放大，未修改截图像素。</p>
+<div class="grid">
+<article class="card"><h2>修复前 · 约 0.97%</h2><svg viewBox="40 1214 620 56" role="img" aria-label="修复前，左侧弧边伸出底槽"><image href="diamond-before.png" width="720" height="1600"/></svg><p class="note">填充层比底槽大，左端木边框露在槽外。</p><details><summary>展开完整运行截图</summary><a href="diamond-before.png"><img class="full" src="diamond-before.png" alt="修复前完整运行截图" loading="lazy"></a></details></article>
+<article class="card"><h2>修复后 · 约 0.97%</h2><svg viewBox="40 1214 620 56" role="img" aria-label="修复后，绿色填充位于底槽内部"><image href="diamond-after.png" width="720" height="1600"/></svg><p class="note">绿色从底槽内起步，小额进度不再露出外侧弧边。</p><details><summary>展开完整运行截图</summary><a href="diamond-after.png"><img class="full" src="diamond-after.png" alt="修复后完整运行截图" loading="lazy"></a></details></article>
+</div>
+<h2>边界状态检查</h2>
+<article class="card"><h2>0% · $0/$500</h2><svg viewBox="40 1214 620 56" role="img" aria-label="0% 空进度"><image href="diamond-fixture-000.png" width="720" height="1600"/></svg></article>
+<article class="card"><h2>50% · $250/$500</h2><svg viewBox="40 1214 620 56" role="img" aria-label="50% 半满进度"><image href="diamond-fixture-050.png" width="720" height="1600"/></svg></article>
+<article class="card"><h2>100% · $500/$500</h2><svg viewBox="40 1214 620 56" role="img" aria-label="100% 满进度"><image href="diamond-fixture-100.png" width="720" height="1600"/></svg></article>
+<p class="pass">Unity 验收通过：进度比例、金额标签、填充边界、原存档恢复。</p>
+<p class="note"><a href="report-before.json">修复前验收报告</a> · <a href="report-after.json">修复后验收报告</a> · 工程已更新，本次未重打 APK。</p>
+</main>
+</html>

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "apk": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-1.0.1-20261014-analytics-release.apk",
+  "bytes": 159339168,
+  "versionName": "1.0.1",
+  "versionCode": 1,
+  "package": "com.color.nutparty",
+  "sha256": "A96488DEB6A3CF48021FC3EC2AAF064BE33707C67B533FF4C7F008FBA5CB4892",
+  "certificateSha256": "d14d534c3d52c389e24441dfe880bdcc0789fa846a7ab03e5368f81c560203a6",
+  "keystore": "C:\\Projects\\com.nut.sort.relax\\Signing\\cnp_qt_qianmingwenjian.keystore",
+  "alias": "cnp_qt_qianmingwenjian",
+  "keystoreUnchanged": true,
+  "sdkFilesUnchanged": 84,
+  "signatureVerified": true,
+  "alignmentVerified": true,
+  "debuggable": false,
+  "architectures": [
+    "armeabi-v7a",
+    "arm64-v8a"
+  ],
+  "includesCustomAppIcon": true,
+  "includesAnalyticsImplementation": true,
+  "analyticsIsTest": false,
+  "buildSettingsRestored": true,
+  "unityWarnings": 630,
+  "unityErrors": 0,
+  "verifiedAt": "2026-10-14T03:19:18.7376016-04:00",
+  "iconResourcesVerified": true,
+  "iconPngCount": 24,
+  "adaptiveIconXmlCount": 2
+}

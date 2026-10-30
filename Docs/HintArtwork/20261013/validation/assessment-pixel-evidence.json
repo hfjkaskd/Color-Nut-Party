@@ -1,0 +1,32 @@
+[
+  {
+    "Image": "C:\\Projects\\com.nut.sort.relax\\Docs\\HintArtwork\\20261013\\validation\\assessment-tall.png",
+    "Width": 720,
+    "Height": 1600,
+    "Method": "Read-only pixel analysis of reported glyph region; dark brown ink threshold R<140,G<110,B<70; no image transformation",
+    "VisibleInkMinX": 90,
+    "VisibleInkMaxX": 628,
+    "VisibleInkMinY": 773,
+    "VisibleInkMaxY": 855,
+    "InkPixelCount": 10789,
+    "PixelsOutsideHorizontalTextRect": 0,
+    "TextRectX": 89.99998,
+    "TextRectWidth": 540.0,
+    "QuadMinX": 88.44224
+  },
+  {
+    "Image": "C:\\Projects\\com.nut.sort.relax\\Docs\\HintArtwork\\20261013\\validation\\assessment-short.png",
+    "Width": 720,
+    "Height": 1280,
+    "Method": "Read-only pixel analysis of reported glyph region; dark brown ink threshold R<140,G<110,B<70; no image transformation",
+    "VisibleInkMinX": 90,
+    "VisibleInkMaxX": 628,
+    "VisibleInkMinY": 613,
+    "VisibleInkMaxY": 695,
+    "InkPixelCount": 10788,
+    "PixelsOutsideHorizontalTextRect": 0,
+    "TextRectX": 90.0,
+    "TextRectWidth": 540.0,
+    "QuadMinX": 88.442215
+  }
+]

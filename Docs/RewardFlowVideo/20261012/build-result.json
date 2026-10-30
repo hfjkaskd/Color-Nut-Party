@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "apk": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-1.0.1-earning-flow.apk",
+  "bytes": 152007942,
+  "sha256": "d19e2669652d54626164f0f2306af67fef377b14ac81c0f118cff71861eaad00",
+  "package": "com.color.nutparty",
+  "productName": "Color Nut Party",
+  "version": "1.0.1",
+  "versionCode": 1,
+  "architectures": [
+    "armeabi-v7a",
+    "arm64-v8a"
+  ],
+  "minSdk": 26,
+  "targetSdk": 36,
+  "development": false,
+  "certificateSha256": "d14d534c3d52c389e24441dfe880bdcc0789fa846a7ab03e5368f81c560203a6",
+  "signature": "PASS",
+  "alignment": "PASS",
+  "crc": "PASS",
+  "currentResourcesChecked": 11,
+  "runtimeSymbolsChecked": [
+    "LocalCashHistoryPanel",
+    "LocalEarningSequencePanel",
+    "RecoverScrewCompletions",
+    "ResumeInterruptedScrewCompletions"
+  ],
+  "buildWarnings": 579,
+  "buildErrors": 0,
+  "mainFlowChecks": 390,
+  "luckyAndRecoveryChecks": 141,
+  "originalPreferencesRestored": true,
+  "projectSettingsRestored": true,
+  "androidDeviceRegression": "NOT_RUN",
+  "utc": "2026-10-12T11:51:41.4984264Z",
+  "delivery": "WITHHELD_USER_REQUESTED_NO_PACKAGING_AFTER_BUILD_COMPLETED"
+}

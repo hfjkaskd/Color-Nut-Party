@@ -1,0 +1,174 @@
+{
+  "apk": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-1.0.1-20261012.apk",
+  "project": "C:\\Projects\\com.nut.sort.relax",
+  "verified_at_utc": "2026-10-13T02:32:04.109356+00:00",
+  "status": "PASS",
+  "apk_crc": "PASS",
+  "resources": [
+    {
+      "file": "globalgamemanagers",
+      "apk_entry": "assets/bin/Data/globalgamemanagers",
+      "cache_file": "C:\\Projects\\com.nut.sort.relax\\Library\\PlayerDataCache\\Android\\Data\\globalgamemanagers",
+      "bytes": 629836,
+      "apk_sha256": "d76ae46c00b185463c1054f6e960c4d738b0f7cc9d3f4d4f827eaa8dc1f7a1cb",
+      "cache_sha256": "d76ae46c00b185463c1054f6e960c4d738b0f7cc9d3f4d4f827eaa8dc1f7a1cb",
+      "status": "PASS"
+    },
+    {
+      "file": "4168ae33bf6d474d9908806761bc078a",
+      "apk_entry": "assets/bin/Data/4168ae33bf6d474d9908806761bc078a",
+      "cache_file": "C:\\Projects\\com.nut.sort.relax\\Library\\PlayerDataCache\\Android\\Data\\4168ae33bf6d474d9908806761bc078a",
+      "source_asset": "Assets/Resources/prefabs/panels/NewbieGuidePanel.prefab",
+      "bytes": 15056,
+      "apk_sha256": "53920f8e9cda7540bfb2292b77c2dc7e84dd368abc5bc07257c19022b23d58ff",
+      "cache_sha256": "53920f8e9cda7540bfb2292b77c2dc7e84dd368abc5bc07257c19022b23d58ff",
+      "status": "PASS"
+    },
+    {
+      "file": "b3106d840727c2a42a258b920af7e6e3",
+      "apk_entry": "assets/bin/Data/b3106d840727c2a42a258b920af7e6e3",
+      "cache_file": "C:\\Projects\\com.nut.sort.relax\\Library\\PlayerDataCache\\Android\\Data\\b3106d840727c2a42a258b920af7e6e3",
+      "source_asset": "Assets/Resources/prefabs/panels/LocalLuckyReward.prefab",
+      "bytes": 9056,
+      "apk_sha256": "bc59eb76891818323f96912104cceda20fa6edd93bda1c7de3de819d0ffa24ee",
+      "cache_sha256": "bc59eb76891818323f96912104cceda20fa6edd93bda1c7de3de819d0ffa24ee",
+      "status": "PASS"
+    },
+    {
+      "file": "be812f84e09f445428f4d015f0df1907",
+      "apk_entry": "assets/bin/Data/be812f84e09f445428f4d015f0df1907",
+      "cache_file": "C:\\Projects\\com.nut.sort.relax\\Library\\PlayerDataCache\\Android\\Data\\be812f84e09f445428f4d015f0df1907",
+      "source_asset": "Assets/Resources/prefabs/panels/LocalCashHistory.prefab",
+      "bytes": 6672,
+      "apk_sha256": "a82206bada0871e76728186afec37078ae44e3e9c53f6415145eb9e5df7eb125",
+      "cache_sha256": "a82206bada0871e76728186afec37078ae44e3e9c53f6415145eb9e5df7eb125",
+      "status": "PASS"
+    },
+    {
+      "file": "ead3608527956df48a7127ed00901cc8",
+      "apk_entry": "assets/bin/Data/ead3608527956df48a7127ed00901cc8",
+      "cache_file": "C:\\Projects\\com.nut.sort.relax\\Library\\PlayerDataCache\\Android\\Data\\ead3608527956df48a7127ed00901cc8",
+      "source_asset": "Assets/Resources/prefabs/panels/LocalCashHistoryRow.prefab",
+      "bytes": 6336,
+      "apk_sha256": "1ad429ae7de9e880b40d72818e56d4572973cbf8bb4609d3b67e7d0234c063fb",
+      "cache_sha256": "1ad429ae7de9e880b40d72818e56d4572973cbf8bb4609d3b67e7d0234c063fb",
+      "status": "PASS"
+    },
+    {
+      "file": "2a3742a14875f8440bef51f34d49ff62",
+      "apk_entry": "assets/bin/Data/2a3742a14875f8440bef51f34d49ff62",
+      "cache_file": "C:\\Projects\\com.nut.sort.relax\\Library\\PlayerDataCache\\Android\\Data\\2a3742a14875f8440bef51f34d49ff62",
+      "source_asset": "Assets/Resources/prefabs/panels/LocalSettings.prefab",
+      "bytes": 18608,
+      "apk_sha256": "e5df78d61148607e1ed0fd28ef8e4477f7d3c0b24ad64016e923bed5267502db",
+      "cache_sha256": "e5df78d61148607e1ed0fd28ef8e4477f7d3c0b24ad64016e923bed5267502db",
+      "status": "PASS"
+    },
+    {
+      "file": "dae300cad68621743b396bc4ce4f9963",
+      "apk_entry": "assets/bin/Data/dae300cad68621743b396bc4ce4f9963",
+      "cache_file": "C:\\Projects\\com.nut.sort.relax\\Library\\PlayerDataCache\\Android\\Data\\dae300cad68621743b396bc4ce4f9963",
+      "source_asset": "Assets/Resources/prefabs/panels/LocalEarningSequence.prefab",
+      "bytes": 28064,
+      "apk_sha256": "b6e390b027c0b722d09761a0deaaa644f8349068ca1b30275705c5008554b559",
+      "cache_sha256": "b6e390b027c0b722d09761a0deaaa644f8349068ca1b30275705c5008554b559",
+      "status": "PASS"
+    },
+    {
+      "file": "30a3faa67b5537941959cfbabd44982e",
+      "apk_entry": "assets/bin/Data/30a3faa67b5537941959cfbabd44982e",
+      "cache_file": "C:\\Projects\\com.nut.sort.relax\\Library\\PlayerDataCache\\Android\\Data\\30a3faa67b5537941959cfbabd44982e",
+      "source_asset": "Assets/Resources/atlas/newbieguidepanel/yellow-screw.png",
+      "bytes": 245728,
+      "apk_sha256": "19628213a6f749f8a18e7282e06a5bbfd5f5bfef46f9c4cbafa0b452cc1e9059",
+      "cache_sha256": "19628213a6f749f8a18e7282e06a5bbfd5f5bfef46f9c4cbafa0b452cc1e9059",
+      "status": "PASS"
+    }
+  ],
+  "resources_index": [
+    {
+      "path": "prefabs/panels/newbieguidepanel",
+      "status": "PASS"
+    },
+    {
+      "path": "prefabs/panels/localluckyreward",
+      "status": "PASS"
+    },
+    {
+      "path": "prefabs/panels/localcashhistory",
+      "status": "PASS"
+    },
+    {
+      "path": "prefabs/panels/localcashhistoryrow",
+      "status": "PASS"
+    },
+    {
+      "path": "prefabs/panels/localsettings",
+      "status": "PASS"
+    },
+    {
+      "path": "prefabs/panels/localearningsequence",
+      "status": "PASS"
+    },
+    {
+      "path": "atlas/newbieguidepanel/yellow-screw",
+      "status": "PASS"
+    }
+  ],
+  "source_inputs": [
+    {
+      "asset": "Assets/Resources/prefabs/panels/NewbieGuidePanel.prefab",
+      "guid": "4168ae33bf6d474d9908806761bc078a",
+      "source_sha256": "2385a5635db297359126e2900fc8ed54eb780df8eeab8193bf307b88ce80f311",
+      "build_start_sha256": "2385a5635db297359126e2900fc8ed54eb780df8eeab8193bf307b88ce80f311",
+      "status": "PASS"
+    },
+    {
+      "asset": "Assets/Resources/prefabs/panels/LocalLuckyReward.prefab",
+      "guid": "b3106d840727c2a42a258b920af7e6e3",
+      "source_sha256": "827cd75f4141ba51ac12c1014f67e7ce85ae3a52bd8a0e8f834e3de1ea37787b",
+      "build_start_sha256": "827cd75f4141ba51ac12c1014f67e7ce85ae3a52bd8a0e8f834e3de1ea37787b",
+      "status": "PASS"
+    },
+    {
+      "asset": "Assets/Resources/prefabs/panels/LocalCashHistory.prefab",
+      "guid": "be812f84e09f445428f4d015f0df1907",
+      "source_sha256": "eace7de9f6715c0ec136a5e793ee1554b6d493e5e4a2400def04e10548df97d0",
+      "build_start_sha256": "eace7de9f6715c0ec136a5e793ee1554b6d493e5e4a2400def04e10548df97d0",
+      "status": "PASS"
+    },
+    {
+      "asset": "Assets/Resources/prefabs/panels/LocalCashHistoryRow.prefab",
+      "guid": "ead3608527956df48a7127ed00901cc8",
+      "source_sha256": "0827c1299797e65eed1d416cb0cefae87554bd7ba07d99119de3a0e3f1ed58d9",
+      "build_start_sha256": "0827c1299797e65eed1d416cb0cefae87554bd7ba07d99119de3a0e3f1ed58d9",
+      "status": "PASS"
+    },
+    {
+      "asset": "Assets/Resources/prefabs/panels/LocalSettings.prefab",
+      "guid": "2a3742a14875f8440bef51f34d49ff62",
+      "source_sha256": "5915367173f7b55bd06a9c4ed1abe1735d196beb39fd5d6d3c7a4e494b094439",
+      "build_start_sha256": "5915367173f7b55bd06a9c4ed1abe1735d196beb39fd5d6d3c7a4e494b094439",
+      "status": "PASS"
+    },
+    {
+      "asset": "Assets/Resources/prefabs/panels/LocalEarningSequence.prefab",
+      "guid": "dae300cad68621743b396bc4ce4f9963",
+      "source_sha256": "91e21c842d51e99ec28acce487bb9ee7472cccbca437cc37c2e5c4761de6bf8d",
+      "build_start_sha256": "91e21c842d51e99ec28acce487bb9ee7472cccbca437cc37c2e5c4761de6bf8d",
+      "status": "PASS"
+    },
+    {
+      "asset": "Assets/Resources/atlas/newbieguidepanel/yellow-screw.png",
+      "guid": "30a3faa67b5537941959cfbabd44982e",
+      "source_sha256": "e6eaaade59011612fb0b8963e906d56a0e9aff3b8de284c18a6156786bc9223f",
+      "build_start_sha256": "e6eaaade59011612fb0b8963e906d56a0e9aff3b8de284c18a6156786bc9223f",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "verification_scope": "Packaged serialized resource bytes must match the current Android PlayerDataCache. This check does not reconstruct Unity assets from source YAML/PNG or replace runtime visual validation.",
+  "build_input_manifest": "C:\\Projects\\com.nut.sort.relax\\Docs\\APKBuild\\20261012-ui-restored\\ui-inputs.json",
+  "zip_entries": 5127,
+  "texture_payload_scope": "Compared GUID-named texture serialized files and any GUID-prefixed companion files found. Atlas/shared texture payloads without those names are not independently mapped by this script."
+}

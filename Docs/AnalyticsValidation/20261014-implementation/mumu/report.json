@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "device": "MuMu Android Device-1, Android 15",
+  "package": "com.color.nutparty.localtest",
+  "version": "1.0.1",
+  "versionCode": 1,
+  "eventCount": 75,
+  "counts": {
+    "abnormal_exit": 1,
+    "first_open": 1,
+    "level_first_action": 4,
+    "level_result": 4,
+    "level_start": 5,
+    "popup_action": 6,
+    "popup_close": 5,
+    "popup_show": 6,
+    "resource_change": 1,
+    "reward_claim_result": 1,
+    "session_start": 2,
+    "session_summary": 21,
+    "startup_result": 2,
+    "tutorial_complete": 1,
+    "tutorial_start": 1,
+    "tutorial_step_complete": 5,
+    "tutorial_step_show": 5,
+    "withdraw_account_result": 2,
+    "withdraw_eligibility_change": 1,
+    "withdraw_task_change": 1
+  },
+  "checks": [
+    {
+      "name": "Fresh marker is reported once across emulator restart",
+      "passed": true
+    },
+    {
+      "name": "Four tutorial boards each have one first action and one result",
+      "passed": true
+    },
+    {
+      "name": "Welcome and four steps complete once",
+      "passed": true
+    },
+    {
+      "name": "Double click grants and records cash only once",
+      "passed": true
+    },
+    {
+      "name": "Unclosed emulator run is recorded without a crash claim",
+      "passed": true
+    },
+    {
+      "name": "Event IDs are unique",
+      "passed": true
+    },
+    {
+      "name": "All custom native events have the test flag",
+      "passed": true
+    },
+    {
+      "name": "ThinkingData HTTP 200 and Bizza HTTP 201 are observed",
+      "passed": true
+    }
+  ],
+  "upload": {
+    "thinkingDataHttp": 200,
+    "bizzaHttp": 201,
+    "bizzaPendingBatches": 0,
+    "bizzaBufferedRecords": 1,
+    "bizzaDroppedRecords": 0,
+    "dashboardQueried": false
+  },
+  "scope": "Actual emulator touch interactions: fresh launch, four tutorial boards, settlement claim and duplicate click, invalid account validation, emulator restart and state recovery. Valid account, submit/result, all tools and retry paths are covered by separate production-UI Play Mode and policy validation.",
+  "apkSha256": "CBD6AD1E0585EBF235546423201B92DB35A382B6ADC43E18E22D88916295C16B"
+}

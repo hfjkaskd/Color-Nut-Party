@@ -1,0 +1,29 @@
+[
+  {
+    "uiLanguage": "en",
+    "appLocales": [],
+    "systemLocale": "id-ID",
+    "screenshot": "id-ID-restored-home.png",
+    "currency": "Rp",
+    "visibleDiamondWithdrawalThreshold": "Rp1.000.000",
+    "status": "country_pass_localization_fail"
+  },
+  {
+    "uiLanguage": "en",
+    "appLocales": [],
+    "systemLocale": "en-US",
+    "screenshot": "en-US-home.png",
+    "currency": "$",
+    "visibleDiamondWithdrawalThreshold": "$500",
+    "status": "country_pass"
+  },
+  {
+    "uiLanguage": "en",
+    "appLocales": [],
+    "systemLocale": "pt-BR",
+    "screenshot": "pt-BR-home.png",
+    "currency": "R$",
+    "visibleDiamondWithdrawalThreshold": "R$500",
+    "status": "country_pass_localization_fail"
+  }
+]

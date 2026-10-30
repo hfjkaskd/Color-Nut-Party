@@ -1,0 +1,13 @@
+{
+  "device": "G95G6128GY4070804966",
+  "model": "UMIDIGI Note 100 5G",
+  "package": "com.color.nutparty",
+  "systemLocale": "id-ID",
+  "systemLocales": "id-ID,zh-Hans-CN,pt-BR,en-US",
+  "applicationLocales": "Locales for com.color.nutparty for user 0 are [en-US]",
+  "timezone": "Asia/Jakarta",
+  "networkCountry": "cn,",
+  "config": "config: in-rID,b+zh+Hans+CN,pt-rBR,en-rUS-ldltr-sw360dp-w360dp-h728dp-normal-long-notround-nowidecg-lowdr-port-night-xhdpi-finger-keysexposed-nokeys-navhidden-nonav-1504x720-v34",
+  "dataPolicy": "Preserve existing app data; no direct save edits or runtime country override",
+  "capturedUtc": "2026-10-13T10:15:22.2518807Z"
+}

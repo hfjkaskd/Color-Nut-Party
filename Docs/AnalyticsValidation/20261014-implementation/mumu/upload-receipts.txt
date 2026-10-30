@@ -1,0 +1,13 @@
+10-14 01:36:27.139  6150  6408 D ThinkingAnalytics.HttpService: ret_code:200
+10-14 01:36:27.676  6150  6408 D ThinkingAnalytics.HttpService: ret_code:200
+10-14 01:36:29.910  6150  6238 I Unity   : <color=#66CCFF>[BizzaAnalytics] send(result) batch=b_41197cb9b76a46799a5d ok=True status=201 error=</color>
+10-14 01:36:31.842  6150  6238 I Unity   : <color=#66CCFF>[BizzaAnalytics] send(result) batch=b_e3d244e50a32421ba3cd ok=True status=201 error=</color>
+10-14 01:36:33.141  6150  6238 I Unity   : <color=#66CCFF>[BizzaAnalytics] send(result) batch=b_d701fbd7ae7f4237aa43 ok=True status=201 error=</color>
+10-14 01:36:34.443  6150  6238 I Unity   : <color=#66CCFF>[BizzaAnalytics] send(result) batch=b_cef6d8d631c6462984f0 ok=True status=201 error=</color>
+10-14 01:36:58.807  6150  6408 D ThinkingAnalytics.HttpService: ret_code:200
+10-14 02:04:27.440  2032  2223 I Unity   : <color=#66CCFF>[BizzaAnalytics] send(result) batch=b_fdf033f4471d41749088 ok=True status=201 error=</color>
+10-14 02:04:28.854  2032  2223 I Unity   : <color=#66CCFF>[BizzaAnalytics] send(result) batch=b_5a09923a91c846c2be85 ok=True status=201 error=</color>
+10-14 02:04:30.122  2032  2223 I Unity   : <color=#66CCFF>[BizzaAnalytics] send(result) batch=b_d86f44ffc7424c76b000 ok=True status=201 error=</color>
+10-14 02:04:55.622  2032  2375 D ThinkingAnalytics.HttpService: ret_code:200
+10-14 02:05:20.554  2032  2223 I Unity   : <color=#66CCFF>[BizzaAnalytics] send(result) batch=b_df985810d014456d9199 ok=True status=201 error=</color>
+10-14 02:05:25.999  2032  2375 D ThinkingAnalytics.HttpService: ret_code:200

@@ -1,0 +1,30 @@
+[
+  {
+    "path": "Assets/Resources/prefabs/panels/NewbieGuidePanel.prefab",
+    "sha256": "2385A5635DB297359126E2900FC8ED54EB780DF8EEAB8193BF307B88CE80F311"
+  },
+  {
+    "path": "Assets/Resources/atlas/newbieguidepanel/yellow-screw.png",
+    "sha256": "E6EAAADE59011612FB0B8963E906D56A0E9AFF3B8DE284C18A6156786BC9223F"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/LocalLuckyReward.prefab",
+    "sha256": "827CD75F4141BA51AC12C1014F67E7CE85AE3A52BD8A0E8F834E3DE1EA37787B"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/LocalCashHistory.prefab",
+    "sha256": "EACE7DE9F6715C0EC136A5E793EE1554B6D493E5E4A2400DEF04E10548DF97D0"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/LocalCashHistoryRow.prefab",
+    "sha256": "0827C1299797E65EED1D416CB0CEFAE87554BD7BA07D99119DE3A0E3F1ED58D9"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/LocalSettings.prefab",
+    "sha256": "5915367173F7B55BD06A9C4ED1ABE1735D196BEB39FD5D6D3C7A4E494B094439"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/LocalEarningSequence.prefab",
+    "sha256": "91E21C842D51E99EC28ACCE487BB9EE7472CCCBCA437CC37C2E5C4761DE6BF8D"
+  }
+]

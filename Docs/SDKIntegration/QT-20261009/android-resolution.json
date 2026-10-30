@@ -1,0 +1,149 @@
+{
+    "result": "PASS",
+    "startedUtc": "2026-10-09T08:01:54.5112191Z",
+    "completedUtc": "2026-10-09T08:01:54.9394127Z",
+    "unityVersion": "2022.3.62f3",
+    "androidTargetActive": true,
+    "resolverApi": "GooglePlayServices.PlayServicesResolver.ResolveSync(true)",
+    "resolverStateFile": "ProjectSettings/AndroidResolverDependencies.xml",
+    "resolverStateExists": true,
+    "mainGradleTemplatePresent": true,
+    "bundledAndroidTools": "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data\\PlaybackEngines/AndroidPlayer",
+    "bundledAgpVersion": "7.4.2",
+    "bundledJavaVersion": "11.0.14.1",
+    "declaredPackages": [
+        {
+            "spec": "androidx.appcompat:appcompat:1.1.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:21"
+        },
+        {
+            "spec": "androidx.browser:browser:1.4.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:22"
+        },
+        {
+            "spec": "androidx.recyclerview:recyclerview:1.2.1",
+            "declarationSource": "Assets/MaxSdk/Mediation/Mintegral/Editor/Dependencies.xml:9"
+        },
+        {
+            "spec": "com.adjust.sdk:adjust-android:5.6.1",
+            "declarationSource": "Packages/com.adjust.sdk/Native/Editor/Dependencies.xml:5"
+        },
+        {
+            "spec": "com.android.installreferrer:installreferrer:2.2",
+            "declarationSource": "Packages/com.adjust.sdk/Native/Editor/Dependencies.xml:7"
+        },
+        {
+            "spec": "com.android.support:customtabs:28.+",
+            "declarationSource": "Assets/MaxSdk/Mediation/InMobi/Editor/Dependencies.xml:7"
+        },
+        {
+            "spec": "com.android.support:recyclerview-v7:28.+",
+            "declarationSource": "Assets/MaxSdk/Mediation/InMobi/Editor/Dependencies.xml:6"
+        },
+        {
+            "spec": "com.anythink.sdk:banner-tpn:6.4.17",
+            "declarationSource": "Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:17"
+        },
+        {
+            "spec": "com.anythink.sdk:core-tpn:6.4.17",
+            "declarationSource": "Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:16"
+        },
+        {
+            "spec": "com.anythink.sdk:interstitial-tpn:6.4.17",
+            "declarationSource": "Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:19"
+        },
+        {
+            "spec": "com.anythink.sdk:nativead-tpn:6.4.17",
+            "declarationSource": "Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:18"
+        },
+        {
+            "spec": "com.anythink.sdk:rewardedvideo-tpn:6.4.17",
+            "declarationSource": "Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:20"
+        },
+        {
+            "spec": "com.anythink.sdkadx:max-mediation-adapter:1.1.8",
+            "declarationSource": "Assets/MaxSdk/Mediation/TopOn/Editor/Dependencies.xml:11"
+        },
+        {
+            "spec": "com.applovin.mediation:bidmachine-adapter:3.8.0.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/BidMachine/Editor/Dependencies.xml:8"
+        },
+        {
+            "spec": "com.applovin.mediation:bigoads-adapter:6.1.0.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/BigoAds/Editor/Dependencies.xml:4"
+        },
+        {
+            "spec": "com.applovin.mediation:bytedance-adapter:8.3.0.4.1",
+            "declarationSource": "Assets/MaxSdk/Mediation/ByteDance/Editor/Dependencies.xml:8"
+        },
+        {
+            "spec": "com.applovin.mediation:chartboost-adapter:9.14.1.1",
+            "declarationSource": "Assets/MaxSdk/Mediation/Chartboost/Editor/Dependencies.xml:8"
+        },
+        {
+            "spec": "com.applovin.mediation:facebook-adapter:[6.22.0.1]",
+            "declarationSource": "Assets/MaxSdk/Mediation/Facebook/Editor/Dependencies.xml:8"
+        },
+        {
+            "spec": "com.applovin.mediation:fyber-adapter:8.4.7.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/Fyber/Editor/Dependencies.xml:4"
+        },
+        {
+            "spec": "com.applovin.mediation:google-adapter:[25.5.0.0]",
+            "declarationSource": "Assets/MaxSdk/Mediation/Google/Editor/Dependencies.xml:5"
+        },
+        {
+            "spec": "com.applovin.mediation:inmobi-adapter:11.5.0.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/InMobi/Editor/Dependencies.xml:4"
+        },
+        {
+            "spec": "com.applovin.mediation:ironsource-adapter:9.6.1.0.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/IronSource/Editor/Dependencies.xml:4"
+        },
+        {
+            "spec": "com.applovin.mediation:mintegral-adapter:17.1.81.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/Mintegral/Editor/Dependencies.xml:8"
+        },
+        {
+            "spec": "com.applovin.mediation:moloco-adapter:4.13.0.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/Moloco/Editor/Dependencies.xml:4"
+        },
+        {
+            "spec": "com.applovin.mediation:unityads-adapter:4.21.0.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/UnityAds/Editor/Dependencies.xml:4"
+        },
+        {
+            "spec": "com.applovin.mediation:vungle-adapter:7.7.9.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/Vungle/Editor/Dependencies.xml:4"
+        },
+        {
+            "spec": "com.applovin.mediation:yandex-adapter:8.6.0.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/Yandex/Editor/Dependencies.xml:4"
+        },
+        {
+            "spec": "com.applovin:applovin-sdk:13.6.3",
+            "declarationSource": "Packages/com.applovin.mediation.ads/AppLovin/Editor/Dependencies.xml:4"
+        },
+        {
+            "spec": "com.google.android.gms:play-services-base:16.1.0",
+            "declarationSource": "Assets/MaxSdk/Mediation/Chartboost/Editor/Dependencies.xml:9"
+        },
+        {
+            "spec": "com.squareup.picasso:picasso:2.71828",
+            "declarationSource": "Assets/MaxSdk/Mediation/InMobi/Editor/Dependencies.xml:5"
+        }
+    ],
+    "declaredPackageCount": 30,
+    "repositories": [
+        "https://artifactory.bidmachine.io/bidmachine",
+        "https://artifact.bytedance.com/repository/pangle",
+        "https://cboost.jfrog.io/artifactory/chartboost-ads/",
+        "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea",
+        "https://jfrog.anythinktech.com/artifactory/overseas_sdk"
+    ],
+    "resolverReturnedSuccess": true,
+    "resolvedProjectLibraries": [],
+    "resolvedProjectLibraryCount": 0,
+    "failureType": "",
+    "verificationScope": "EDM4U Android dependency resolution result. APK compilation and device SDK delivery are separate checks."
+}

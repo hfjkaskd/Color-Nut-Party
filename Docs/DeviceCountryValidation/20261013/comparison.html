@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Color Nut Party · 真机地区与多语言检查</title>
+<style>body{margin:0;background:#faf5eb;color:#48311e;font:16px/1.7 system-ui,sans-serif}main{max-width:1300px;margin:32px auto;padding:0 24px}h1{font-size:28px}h2{font-size:21px;margin-top:36px}table{border-collapse:collapse;width:100%;background:white}td,th{padding:12px;text-align:left;border-bottom:1px solid #e6d8c5}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.cards img{width:100%;border-radius:12px}.card{background:#fff;border:1px solid #e6d8c5;border-radius:16px;padding:16px}a{color:#986222}code{overflow-wrap:anywhere}.note{padding:16px 20px;border-left:4px solid #b97724;background:#fff2d9}small{color:#796652}@media(max-width:760px){.cards{grid-template-columns:1fr}}</style>
+<main><h1>真机地区检测正常，多语言未完整接通</h1>
+<p>2026-10-13 · UMIDIGI Note 100 5G · Android 14 · Color Nut Party 1.0.1 (1)</p>
+<p>同一个正式签名 APK，先安装、再通过手机系统设置切换语言与地区。每轮均强制停止后冷启动；应用语言覆盖为空，跟随系统。没有清除数据、改写国家存档、注入国家值或修改 APK。</p>
+<table><thead><tr><th>系统设置</th><th>实际货币 / 提现门槛</th><th>界面语言</th><th>结果</th></tr></thead><tbody>
+<tr><td>Indonesia (Indonesia) / id-ID</td><td>Rp / Rp1.000.000</td><td>英文</td><td>地区生效；多语言缺失</td></tr>
+<tr><td>English (United States) / en-US</td><td>$ / $500</td><td>英文</td><td>地区生效</td></tr>
+<tr><td>Português (Brasil) / pt-BR</td><td>R$ / R$500</td><td>英文</td><td>地区生效；多语言缺失</td></tr>
+</tbody></table>
+<div class="cards"><article class="card"><h2>印尼</h2><a href="id-ID-restored-home.png"><img src="id-ID-restored-home.png" alt="印尼系统下的真实手机截图，显示Rp与英文文案"></a></article><article class="card"><h2>美国</h2><a href="en-US-home.png"><img src="en-US-home.png" alt="美国系统下的真实手机截图，显示美元"></a></article><article class="card"><h2>巴西</h2><a href="pt-BR-home.png"><img src="pt-BR-home.png" alt="巴西系统下的真实手机截图，显示雷亚尔与英文文案"></a></article></div>
+<h2>多语言问题</h2>
+<p>正式入口从 <code>OriginalMainLevel.asset</code> 读取固定的 <code>LanguageCode: en</code>，再由 <code>OriginalStartupFlow</code> 传入主界面、重开及玩法控制器。国家检测另走 <code>RegionInfo.CurrentRegion</code>，所以货币改变、文案仍是英文。</p>
+<p>只读检查实际语言表：英文、日文、葡语、德语、法语、印尼语、俄语、西语已有译文；表中中文、韩文等另外八种语言列为空，不能算已支持。已有译文的页面仍未按设备语言选择。</p>
+<ul><li>启动语言选择需接设备语言，并与国家/货币选择分开处理。</li><li>新增奖励提示、权益、提现历史、提现条件等配置还存在固定英文，需要接入语言表。</li><li>设置、统计等 Prefab 的静态英文与图片上的 You 等文字需覆盖。</li><li>接入后仍需检查长文案、字体缺字及不同屏幕尺寸。</li></ul>
+<p><a href="pt-BR-settings.png">巴西系统下的设置页截图</a>也显示 Settings、Sound、Vibration、Withdrawal History、Replay 等英文。<a href="id-ID-home.png">印尼提现页截图</a>显示货币已变化而说明仍为英文。</p>
+<h2>检测边界与设备恢复</h2>
+<p>现有游戏国家判断读取 Java 默认 Locale（通过 IL2CPP / .NET），不使用 SIM、IP、时区。测试期间网络与时区未改。现有余额不会因切换地区自动换算，历史/待领取奖励也不能用来判断新地区奖励配置，因此本次没有用旧奖励金额作断言。</p>
+<p>测试后恢复原系统语言顺序：<code>id-ID, zh-Hans-CN, pt-BR, en-US</code>；移除了之前的应用 en-US 覆盖，当前游戏跟随系统，已打开。原存档和关卡保留。</p>
+<h2>本次 APK</h2>
+<p><a href="../../../Builds/Android/ColorNutParty-1.0.1-20261013-hint-artwork.apk">下载已安装并测试的 APK</a> · 包名 <code>com.color.nutparty</code> · ARMv7 + ARM64 · 原签名验证通过。</p>
+<p>安装后与测试结束再次校验手机中 base.apk，均与本地文件一致：<br><code>97c676286dfd21dfcff5c95f94b37cc8fc79a024e440ed283d7ca9083d539292</code></p>
+<p class="note">本包包含四个提示美术替换。本轮多语言为问题定位与实测，没有修改语言逻辑后重新打包。<a href="../../HintArtwork/20261013/implementation.html">查看四个提示的效果图与实际 GameView 对比</a>。</p>
+</main></html>

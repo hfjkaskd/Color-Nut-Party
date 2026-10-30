@@ -20,4 +20,4 @@ Unity 2022.3.62f3 验证：
 
 原用户存档已恢复；既有退出对象池和编辑模式工具特效诊断未在本轮处理。本轮的场景重载测试不等同于 Android/iOS 系统强杀测试。
 
-后续已接入原 SubTotalRound/SubRound 中间子回合自动续局，仅末子回合进入本面板；普通 TotalRound/Round 不因此跳过结算。见 LocalSubroundProgression.md 的真实关卡及普通回合回归。
+2026-10-09 用户指定新策略：原 SubTotalRound/SubRound 的每个小局均进入本结算面板，领取后才继续；不再跳过中间小局。每个小局沿用现有现金、钻石和广告领取流程，末局不额外发整组奖励。见 LocalSubroundProgression.md。

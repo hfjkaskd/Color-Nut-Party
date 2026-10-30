@@ -1,0 +1,58 @@
+{
+  "fixture": {
+    "Level": 3,
+    "LevelSeed": 0,
+    "Gold": 0,
+    "Coin": 0,
+    "RevokeCount": 5,
+    "ExchangeCount": 2,
+    "AddScrewCount": 3,
+    "IsAudio": true,
+    "NewGameplayUnlockIndex": 4,
+    "IsCompleteRecordGuide": true,
+    "IsCompleteCoinNewPeopleReward": true,
+    "IsShowCoin": true,
+    "IsCompleteShowCoinRewardHint": true,
+    "UserName": "Message_Art_Tester",
+    "UserId": "message-art-acceptance",
+    "Level1Gold": 0.4,
+    "Level2Gold": 0.6,
+    "IsGoldReduceLevel1": true,
+    "IsGoldReduceLevel2": true,
+    "LocalWithdrawalData": {
+      "earningFlow": {
+        "activationStep": 0,
+        "records": [
+          {
+            "stage": 1,
+            "amount": 0.4,
+            "createdUtcSeconds": 1791777600,
+            "archived": true,
+            "pending": false
+          },
+          {
+            "stage": 2,
+            "amount": 0.6,
+            "createdUtcSeconds": 1791777660,
+            "archived": true,
+            "pending": true,
+            "submittedUtcSeconds": 1791777660
+          }
+        ]
+      }
+    }
+  },
+  "checks": [
+    "tall: Real scene uses the US reward configuration",
+    "tall: Production message duration remains three seconds",
+    "tall: A legal saved activation resumes at the first message"
+  ],
+  "captures": [],
+  "timings": [],
+  "textDiagnostics": [],
+  "error": "System.InvalidOperationException: Game view screenshot was unavailable: C:\\Projects\\com.nut.sort.relax\\Docs\\HintArtwork\\20261013\\validation\\assessment-tall.png\r\n  at NutSort.Validation.LocalEarningMessageArtPlayValidation.Capture (System.String name, NutSort.UI.LocalEarningSequencePanel panel) [0x00025] in C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Editor\\Validation\\LocalEarningMessageArtPlayValidation.cs:315 \r\n  at NutSort.Validation.LocalEarningMessageArtPlayValidation.Tick () [0x000dc] in C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Editor\\Validation\\LocalEarningMessageArtPlayValidation.cs:127 ",
+  "verification": "Real saved step-0 activation and scene, four message artworks at both viewports, natural three-second transitions, existing bonus/receipt regression, single grant and reload, original preferences restored",
+  "originalPreferencesRestored": true,
+  "status": "FAIL",
+  "utc": "2026-10-13T09:28:50.5033607Z"
+}

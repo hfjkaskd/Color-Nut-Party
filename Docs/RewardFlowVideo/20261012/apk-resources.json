@@ -1,0 +1,69 @@
+{
+  "apk": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-1.0.1-earning-flow.apk",
+  "resources": [
+    {
+      "asset": "Assets/Resources/Configuration/LocalEarningFlow.json",
+      "bytes": 1652,
+      "sha256": "705a2b0b42f4ac0cfc493ce6efea520c6adc8b91d3b057ed65e5a08c32a22f64"
+    },
+    {
+      "asset": "Assets/Resources/Configuration/LocalEarningRewards.json",
+      "bytes": 760,
+      "sha256": "dadd4efb2b2050583da7a4eff0d9916b24c727c9e06f38f49e662843ecf7fd36"
+    },
+    {
+      "asset": "Assets/Resources/Configuration/LocalWithdrawal.json",
+      "bytes": 2520,
+      "sha256": "167c2ebc0ab68ff8d0690903fdf545a480027205640e6389784aa0ae7b8e3f85"
+    },
+    {
+      "asset": "Assets/Resources/Configuration/LocalLuckyRewardItem.asset",
+      "bytes": 444,
+      "sha256": "435cfc86d6185d5e89f4cfba4ecb97fb225b8d62c6f3d311da246446b415a5b3"
+    },
+    {
+      "asset": "Assets/Resources/prefabs/panels/LocalCashHistory.prefab",
+      "bytes": 6136,
+      "sha256": "6a567ca7de5b34d4cd4894b9e8481e3a6900647be6bc34861ffd6a4c3272535c"
+    },
+    {
+      "asset": "Assets/Resources/prefabs/panels/LocalCashHistoryRow.prefab",
+      "bytes": 5296,
+      "sha256": "c0123c6673997925182e13061da63cf3b8f5afd59ed111772c461b5b6f9c6996"
+    },
+    {
+      "asset": "Assets/Resources/prefabs/panels/LocalCashHistoryEntry.prefab",
+      "bytes": 5232,
+      "sha256": "96531e9145ea28864db0ba3dffed88ed504b76f5d267682ef8095ad52045925e"
+    },
+    {
+      "asset": "Assets/Resources/prefabs/panels/LocalEarningSequence.prefab",
+      "bytes": 22408,
+      "sha256": "52695ed2a4557bcd7fe0a179a8521c84dbd38bbe3c7107a6bc462a2ce3a10218"
+    },
+    {
+      "asset": "Assets/Resources/prefabs/panels/LocalWithdrawalVerification.prefab",
+      "bytes": 20736,
+      "sha256": "de4365830c748f6ae49cd0dc7d8dec837e77b68893fb164f4a9b22078aa915f6"
+    },
+    {
+      "asset": "Assets/Resources/prefabs/panels/LocalLuckyReward.prefab",
+      "bytes": 8128,
+      "sha256": "b972dffac20ffa6affe45bc134d2ea189a9cdad3e9d035a4c20e089a80614197"
+    },
+    {
+      "asset": "Assets/Resources/prefabs/items/LocalLuckyItem.prefab",
+      "bytes": 11432,
+      "sha256": "39ebca64d8645b290359cfd73a91413d4007906e17d3b9a448b2e3efd4e8ccf0"
+    }
+  ],
+  "runtime_symbols": [
+    "LocalCashHistoryPanel",
+    "LocalEarningSequencePanel",
+    "RecoverScrewCompletions",
+    "ResumeInterruptedScrewCompletions"
+  ],
+  "status": "PASS",
+  "apk_crc": "PASS",
+  "sha256": "d19e2669652d54626164f0f2306af67fef377b14ac81c0f118cff71861eaad00"
+}

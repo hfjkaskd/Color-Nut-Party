@@ -1,0 +1,71 @@
+{
+  "Passed": false,
+  "Apk": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-1.0.1-20261013-localization.apk",
+  "ApkSha256": "23E9355BFCCE6928A56A08895E04ED93DB07837493BE4A6F5812653BE84E2E8A",
+  "ManifestIconResourceId": "0x7f100000",
+  "ManifestRoundIconDeclared": false,
+  "RoundResourceId": "0x7f100001",
+  "RgbMeanAbsoluteErrorLimit": 12,
+  "XmlResources": [
+    {
+      "Role": "legacy",
+      "ResourceId": "0x7f100000",
+      "ArchivePath": "res/Qu.xml",
+      "BackgroundResourceId": "0x7f100002",
+      "ForegroundResourceId": "0x7f100003"
+    },
+    {
+      "Role": "round",
+      "ResourceId": "0x7f100001",
+      "ArchivePath": "res/hH.xml",
+      "BackgroundResourceId": "0x7f100002",
+      "ForegroundResourceId": "0x7f100003"
+    }
+  ],
+  "PngResources": [
+    {
+      "Role": "legacy",
+      "ResourceId": "0x7f100000",
+      "Config": "mdpi",
+      "ArchivePath": "res/W5.png",
+      "ExtractedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\APKBuild\\20261013-app-icon\\old-apk-negative-control\\legacy-mdpi-W5.png",
+      "Width": 96,
+      "Height": 96,
+      "FullyTransparent": false,
+      "FullyOpaque": true,
+      "SourceArtwork": "C:\\Projects\\com.nut.sort.relax\\Assets\\Art\\Branding\\ColorNutParty-AppIcon.png",
+      "RgbMeanAbsoluteError": 161.2748
+    },
+    {
+      "Role": "adaptive-background",
+      "ResourceId": "0x7f100002",
+      "Config": "mdpi",
+      "ArchivePath": "res/3z.png",
+      "ExtractedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\APKBuild\\20261013-app-icon\\old-apk-negative-control\\adaptive-background-mdpi-3z.png",
+      "Width": 108,
+      "Height": 108,
+      "FullyTransparent": false,
+      "FullyOpaque": true,
+      "SourceArtwork": "C:\\Projects\\com.nut.sort.relax\\Assets\\Art\\Branding\\ColorNutParty-AdaptiveBackground.png",
+      "RgbMeanAbsoluteError": 180.2779
+    },
+    {
+      "Role": "adaptive-foreground",
+      "ResourceId": "0x7f100003",
+      "Config": "mdpi",
+      "ArchivePath": "res/QZ.png",
+      "ExtractedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\APKBuild\\20261013-app-icon\\old-apk-negative-control\\adaptive-foreground-mdpi-QZ.png",
+      "Width": 108,
+      "Height": 108,
+      "FullyTransparent": false,
+      "FullyOpaque": false,
+      "SourceArtwork": "",
+      "RgbMeanAbsoluteError": null
+    }
+  ],
+  "Failures": [
+    "Unexpected artwork in legacy-mdpi-W5.png; RGB mean error=161.2748",
+    "Unexpected artwork in adaptive-background-mdpi-3z.png; RGB mean error=180.2779",
+    "Adaptive foreground is not clear: adaptive-foreground-mdpi-QZ.png"
+  ]
+}

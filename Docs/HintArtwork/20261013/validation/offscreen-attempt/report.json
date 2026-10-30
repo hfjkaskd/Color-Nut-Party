@@ -1,0 +1,124 @@
+{
+  "fixture": {
+    "Level": 3,
+    "LevelSeed": 0,
+    "Gold": 0,
+    "Coin": 0,
+    "RevokeCount": 5,
+    "ExchangeCount": 2,
+    "AddScrewCount": 3,
+    "IsAudio": true,
+    "NewGameplayUnlockIndex": 4,
+    "IsCompleteRecordGuide": true,
+    "IsCompleteCoinNewPeopleReward": true,
+    "IsShowCoin": true,
+    "IsCompleteShowCoinRewardHint": true,
+    "UserName": "Message_Art_Tester",
+    "UserId": "message-art-acceptance",
+    "Level1Gold": 0.4,
+    "Level2Gold": 0.6,
+    "IsGoldReduceLevel1": true,
+    "IsGoldReduceLevel2": true,
+    "LocalWithdrawalData": {
+      "earningFlow": {
+        "activationStep": 0,
+        "records": [
+          {
+            "stage": 1,
+            "amount": 0.4,
+            "createdUtcSeconds": 1791777600,
+            "archived": true,
+            "pending": false
+          },
+          {
+            "stage": 2,
+            "amount": 0.6,
+            "createdUtcSeconds": 1791777660,
+            "archived": true,
+            "pending": true,
+            "submittedUtcSeconds": 1791777660
+          }
+        ]
+      }
+    }
+  },
+  "checks": [
+    "tall: Real scene uses the US reward configuration",
+    "tall: Production message duration remains three seconds",
+    "tall: A legal saved activation resumes at the first message",
+    "tall: Offscreen capture uses the real scene camera stack and its configured UI camera",
+    "tall: Message uses the requested rendered viewport",
+    "tall: Only the chosen message group is visible and all four prefab layouts are configured",
+    "tall: Actual activation step selects its own statically authored layout",
+    "tall: Exactly one of the four message layouts is visible",
+    "tall: Message title and body retain the exact production wording: assessment",
+    "tall: Public message labels reference the active layout",
+    "tall: Illustration references an approved transparent Resource path",
+    "tall: Correct complete illustration loads dynamically with its aspect ratio and no intercepted clicks",
+    "tall: Full artwork rectangle stays on screen",
+    "tall: Artwork layout matches its source proportions",
+    "tall: Only Assessment intentionally hides its title"
+  ],
+  "captures": [
+    {
+      "image": "C:\\Projects\\com.nut.sort.relax\\Docs\\HintArtwork\\20261013\\validation\\assessment-tall.png",
+      "width": 720,
+      "height": 1600,
+      "step": 0,
+      "cash": 0.0,
+      "title": "Reward assessment",
+      "body": "Your first two cash rewards are saved in withdrawal history.",
+      "artwork": "atlas/localearningmessages/cash-banner",
+      "frame": 1157,
+      "captureMethod": "URP StandardRequest: actual scene camera stack to RenderTexture",
+      "cameraStack": [
+        "GameCamera",
+        "Main Camera",
+        "TopGameCamera"
+      ],
+      "uiCamera": "Main Camera",
+      "graphicsDevice": "NVIDIA GeForce RTX 3060"
+    }
+  ],
+  "timings": [],
+  "textDiagnostics": [
+    {
+      "viewport": "tall",
+      "step": 0,
+      "label": "body",
+      "object": "Body",
+      "text": "Your first two cash rewards are saved in withdrawal history.",
+      "isActive": true,
+      "isTextOverflowing": false,
+      "isTextTruncated": false,
+      "color": {
+        "r": 0.3254902,
+        "g": 0.168627456,
+        "b": 0.0627451,
+        "a": 1.0
+      },
+      "fontSize": 56.55,
+      "rectBounds": {
+        "x": 89.99998,
+        "y": 722.6666,
+        "width": 540.0,
+        "height": 133.333435
+      },
+      "glyphBounds": {
+        "x": 88.44224,
+        "y": 742.5893,
+        "width": 541.8292,
+        "height": 85.36481
+      },
+      "glyphsInsideRect": false,
+      "glyphsInsideViewport": true,
+      "lineCount": 2,
+      "characterCount": 60
+    }
+  ],
+  "error": "System.InvalidOperationException: body renders complete actual glyphs inside its configured text rectangle and screen; diagnostics={\"viewport\":\"tall\",\"step\":0,\"label\":\"body\",\"object\":\"Body\",\"text\":\"Your first two cash rewards are saved in withdrawal history.\",\"isActive\":true,\"isTextOverflowing\":false,\"isTextTruncated\":false,\"color\":{\"r\":0.3254902,\"g\":0.168627456,\"b\":0.0627451,\"a\":1.0},\"fontSize\":56.55,\"rectBounds\":{\"x\":89.99998,\"y\":722.6666,\"width\":540.0,\"height\":133.333435},\"glyphBounds\":{\"x\":88.44224,\"y\":742.5893,\"width\":541.8292,\"height\":85.36481},\"glyphsInsideRect\":false,\"glyphsInsideViewport\":true,\"lineCount\":2,\"characterCount\":60}\r\n  at NutSort.Validation.LocalEarningMessageArtPlayValidation.Check (System.Boolean value, System.String message) [0x00029] in C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Editor\\Validation\\LocalEarningMessageArtPlayValidation.cs:361 \r\n  at NutSort.Validation.LocalEarningMessageArtPlayValidation.CheckText (TMPro.TMP_Text text, System.String label) [0x001ec] in C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Editor\\Validation\\LocalEarningMessageArtPlayValidation.cs:280 \r\n  at NutSort.Validation.LocalEarningMessageArtPlayValidation.CheckMessage (NutSort.UI.LocalEarningSequencePanel panel, System.Int32 step, System.Int32 index) [0x002be] in C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Editor\\Validation\\LocalEarningMessageArtPlayValidation.cs:221 \r\n  at NutSort.Validation.LocalEarningMessageArtPlayValidation.Tick () [0x000f8] in C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Editor\\Validation\\LocalEarningMessageArtPlayValidation.cs:130 ",
+  "verification": "Real saved step-0 activation and scene, four message artworks at both viewports, natural three-second transitions, existing bonus/receipt regression, single grant and reload, original preferences restored",
+  "originalPreferencesRestored": true,
+  "status": "FAIL",
+  "utc": "2026-10-13T10:27:28.5586417Z"
+}

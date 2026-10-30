@@ -1,0 +1,34 @@
+[
+  {
+    "Path": "C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Runtime\\Content\\OriginalSimulatedStats.cs",
+    "Hash": "7FED12D680CA64B8495C74CFC2BFEB3B694EFB5FA6860354C645E32A07CECABF"
+  },
+  {
+    "Path": "C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Runtime\\UI\\OriginalPlayerInfo.cs",
+    "Hash": "5A1686B3B780B9E3BFDB7755D37924D498160666CD6D1D39C3A210E1B43CF872"
+  },
+  {
+    "Path": "C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Runtime\\UI\\OriginalWithdrawalPanel.cs",
+    "Hash": "526816F98FDC95CBF7CC1681D75E6AA9DEF488B1B0599F34DAEDA785F86FFEA2"
+  },
+  {
+    "Path": "C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Runtime\\UI\\LocalGameplayController.Withdrawal.cs",
+    "Hash": "8524CA209E11CF17524600D92CF98EFEA848E8315F06672647E03435E67C6BC5"
+  },
+  {
+    "Path": "C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Runtime\\UI\\LocalGameplayController.TutorialBalance.cs",
+    "Hash": "0555C76C98BC757CCD7C16F57278F1B7B6D854DA79859DC4667611BFB2ADB32B"
+  },
+  {
+    "Path": "C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Runtime\\Content\\OriginalUserDataJson.cs",
+    "Hash": "016BF2BE88DB317E6E24C58735182C082F9217118FF4D34C677DBF82A207F8C9"
+  },
+  {
+    "Path": "C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Runtime\\Content\\OriginalUserLocalData.cs",
+    "Hash": "2B7634434242B8C665025FEF9B70EAB5E60CC7AF041377A824685ACFDA5EEB04"
+  },
+  {
+    "Path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\prefabs\\playerinfo\\PlayerInfo.prefab",
+    "Hash": "12F806496978EF604A0DF3FF7AB44A56E66BB5CF90E4657A22EB70A1F36520CE"
+  }
+]

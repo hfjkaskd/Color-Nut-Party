@@ -1,0 +1,82 @@
+{
+  "fixture": {
+    "Level": 3,
+    "LevelSeed": 0,
+    "Gold": 0,
+    "Coin": 0,
+    "RevokeCount": 5,
+    "ExchangeCount": 2,
+    "AddScrewCount": 3,
+    "IsAudio": true,
+    "NewGameplayUnlockIndex": 4,
+    "IsCompleteRecordGuide": true,
+    "IsCompleteCoinNewPeopleReward": true,
+    "IsShowCoin": true,
+    "IsCompleteShowCoinRewardHint": true,
+    "UserName": "Message_Art_Tester",
+    "UserId": "message-art-acceptance",
+    "Level1Gold": 0.4,
+    "Level2Gold": 0.6,
+    "IsGoldReduceLevel1": true,
+    "IsGoldReduceLevel2": true,
+    "LocalWithdrawalData": {
+      "earningFlow": {
+        "activationStep": 0,
+        "records": [
+          {
+            "stage": 1,
+            "amount": 0.4,
+            "createdUtcSeconds": 1791777600,
+            "archived": true,
+            "pending": false
+          },
+          {
+            "stage": 2,
+            "amount": 0.6,
+            "createdUtcSeconds": 1791777660,
+            "archived": true,
+            "pending": true,
+            "submittedUtcSeconds": 1791777660
+          }
+        ]
+      }
+    }
+  },
+  "checks": [
+    "tall: Real scene uses the US reward configuration",
+    "tall: Production message duration remains three seconds",
+    "tall: A legal saved activation resumes at the first message",
+    "tall: GameView uses the real scene camera stack and its configured UI camera",
+    "tall: Screenshot completes while its actual message remains visible",
+    "tall: Actual GameView frame is persisted before presentation assertions"
+  ],
+  "captures": [
+    {
+      "image": "C:\\Projects\\com.nut.sort.relax\\Docs\\HintArtwork\\20261013\\validation\\assessment-tall.png",
+      "width": 720,
+      "height": 1600,
+      "step": 0,
+      "cash": 0.0,
+      "title": "Reward assessment",
+      "body": "Your first two cash rewards are saved in withdrawal history.",
+      "artwork": "atlas/localearningmessages/cash-banner",
+      "frame": 1260,
+      "captureMethod": "ScreenCapture: actual ordinary-Editor GameView at end of frame",
+      "cameraStack": [
+        "GameCamera",
+        "Main Camera",
+        "TopGameCamera"
+      ],
+      "uiCamera": "Main Camera",
+      "graphicsDevice": "NVIDIA GeForce RTX 3060"
+    }
+  ],
+  "timings": [],
+  "textDiagnostics": [],
+  "presentationFailures": [],
+  "error": "System.InvalidOperationException: Message uses the requested rendered viewport\r\n  at NutSort.Validation.LocalEarningMessageArtPlayValidation.Check (System.Boolean value, System.String message) [0x00029] in C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Editor\\Validation\\LocalEarningMessageArtPlayValidation.cs:358 \r\n  at NutSort.Validation.LocalEarningMessageArtPlayValidation.CheckMessage (NutSort.UI.LocalEarningSequencePanel panel, System.Int32 step, System.Int32 index) [0x00005] in C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Editor\\Validation\\LocalEarningMessageArtPlayValidation.cs:212 \r\n  at NutSort.Validation.LocalEarningMessageArtPlayValidation.Tick () [0x00116] in C:\\Projects\\com.nut.sort.relax\\Assets\\NutSort\\Editor\\Validation\\LocalEarningMessageArtPlayValidation.cs:135 ",
+  "verification": "Real saved step-0 activation and scene, four message artworks at both viewports, natural three-second transitions, existing bonus/receipt regression, single grant and reload, original preferences restored",
+  "originalPreferencesRestored": true,
+  "status": "FAIL",
+  "utc": "2026-10-13T10:33:56.6495057Z"
+}

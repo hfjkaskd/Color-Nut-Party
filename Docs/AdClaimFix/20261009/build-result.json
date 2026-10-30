@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "apk": "C:/Projects/com.nut.sort.relax/Builds/Android/ColorNutParty-1.0.1-ad-claim-fix.apk",
+  "bytes": 151815318,
+  "sha256": "3f4b4ff6f62efb8fde44c17b40398264f72f7f9cc8c01489bfcc70a158654b22",
+  "package": "com.color.nutparty",
+  "version": "1.0.1",
+  "versionCode": 1,
+  "architectures": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "signedRelease": true,
+  "signingCertificateSha256": "d14d534c3d52c389e24441dfe880bdcc0789fa846a7ab03e5368f81c560203a6",
+  "signatureVerification": "PASS",
+  "zipAlignment": "PASS",
+  "unityBuildErrors": 0,
+  "unityBuildWarnings": 523,
+  "warningKinds": [
+    {
+      "Name": "CS0169",
+      "Count": 6
+    },
+    {
+      "Name": "CS0649",
+      "Count": 1040
+    }
+  ],
+  "flowRegression": "FAIL before fix, PASS after fix",
+  "actualPanelRegression": "PASS: normal claim interstitial/rewarded failure, delayed clicks, stale callbacks, balance once, next board and save reload",
+  "sdkFilesChecked": 84,
+  "sdkFilesChanged": 0,
+  "projectSettingsRestored": true,
+  "releaseVitalLint": "No issues found",
+  "deviceLogs": "Read existing Android logcat, confirmed timeout precedes delayed Hidden",
+  "liveAdRegression": "NOT_RUN on fixed APK; controlled completion fixtures used in Unity Play tests",
+  "scope": "Earned base reward continues on normal ad failure; optional rewarded bonus still requires success. SDK callback latency unchanged."
+}

@@ -1,0 +1,67 @@
+{
+  "apk": "C:\\Projects\\com.nut.sort.relax\\Builds\\Android\\ColorNutParty-SDK.apk",
+  "sizeBytes": 195708276,
+  "sha256": "14acd1f5ab627c678a2a57d803f68d92a071cc6ced5ce28379b334989680f6f7",
+  "badging": [
+    "package: name='com.color.nutparty' versionCode='1' versionName='1.0.1' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+    "sdkVersion:'26'",
+    "targetSdkVersion:'36'",
+    "application-label:'Color Nut Party'",
+    "application-debuggable",
+    "native-code: 'arm64-v8a' 'armeabi-v7a'"
+  ],
+  "dexFiles": [
+    "classes.dex",
+    "classes10.dex",
+    "classes11.dex",
+    "classes12.dex",
+    "classes13.dex",
+    "classes14.dex",
+    "classes15.dex",
+    "classes2.dex",
+    "classes3.dex",
+    "classes4.dex",
+    "classes5.dex",
+    "classes6.dex",
+    "classes7.dex",
+    "classes8.dex",
+    "classes9.dex"
+  ],
+  "nativeSdkClassMarkers": {
+    "Lcom/applovin/sdk/AppLovinSdk;": true,
+    "Lcom/adjust/sdk/Adjust;": true,
+    "Lcom/applovin/mediation/topon/TopOnAdxAdapter;": true,
+    "Lcn/thinkingdata/analytics/ThinkingAnalyticsProxy;": true,
+    "Lcn/thinkingdata/analytics/TDAnalytics;": true
+  },
+  "maxAdapters": [
+    "Lcom/applovin/mediation/adapters/AppLovinMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/BidMachineMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/BigoAdsMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/ByteDanceMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/ChartboostMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/FacebookMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/GoogleMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/InMobiMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/InneractiveMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/IronSourceMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/MDBigoAdsMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/MintegralMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/MolocoMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/UnityAdsMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/VungleMediationAdapter;",
+    "Lcom/applovin/mediation/adapters/YandexMediationAdapter;"
+  ],
+  "adMobAppIdMatches": true,
+  "isDevelopmentBuild": true,
+  "deviceValidation": "Not run: no Android device attached",
+  "signatureVerification": {
+    "result": "PASS",
+    "schemeV2": true,
+    "signers": 1
+  },
+  "buildResult": "Success",
+  "buildErrors": 0,
+  "buildWarnings": 1,
+  "result": "PASS"
+}

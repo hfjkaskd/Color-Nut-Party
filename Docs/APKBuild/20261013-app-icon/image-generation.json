@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "path": "Assets/Art/Branding/ColorNutParty-AppIcon.png",
+      "source": "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-49304867-d0b3-41dd-9a03-414a7c0c8702.png",
+      "prompt": "Use case: stylized-concept. Asset type: final mobile game app icon, square 1024x1024 opaque PNG for Color Nut Party, a cheerful colorful hex-nut sorting puzzle. Create a premium polished casual 3D cartoon game illustration consistent with warm honey-colored wood and cream UI, glossy saturated toy-like hexagonal metal nuts. One extremely clear iconic subject: a short upright silver threaded bolt with three chunky hexagonal nuts stacked neatly on it, lime green on bottom, sunny yellow middle, bright coral red top; immediately beside it one large cyan-blue nut leaning slightly with its central hole clearly visible. Render beautifully rounded bevels, soft highlights, dark crisp contact shadows, tasteful polished depth, playful proportions, near frontal three-quarter view, readable at tiny phone launcher sizes. The whole complete subject including wooden circular base must fit inside the centered 60% of the square width and height, so circular/squircle Android masks never clip the subject. Use the outer margin only for a smooth warm cream-to-honey golden background with very subtle wood grain and soft halo; full bleed background to all four square edges. Minimal composition, no leaves, no people, no robots, no wrench, no money, no diamonds, no badges, no UI, no text, no lettering, no logo marks, no watermarks, no borders and no baked rounded corners. One finished app icon, no mockup, no grid."
+    },
+    {
+      "path": "Assets/Art/Branding/ColorNutParty-AdaptiveBackground.png",
+      "source": "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-48e46234-4c28-456b-8bb5-0c9efa37927c.png",
+      "prompt": "Edit this finished square game icon to make an Android adaptive-icon background companion. Preserve exactly the existing subject: upright silver threaded bolt with coral red, yellow, lime green hexagonal nuts stacked on it, leaning cyan blue hexnut, and wooden round base; same glossy 3D cartoon appearance, same shapes/colors/light. Keep background fully opaque warm yellow wood. ONLY framing change: shrink the entire existing object group including the wooden base to about 68% of its current size, keep the group centered in the whole image, and extend the smooth yellow background naturally into the extra margin. On the output, all subject pixels including base and highlights should fit between x=24%-76% and y=22%-78% of the square. Broad plain background padding on all four sides is intentional and required because Android crops the outer 18% from every edge. No new objects, no text, no borders, no rounded corners, no transparency. Preserve square aspect ratio."
+    }
+  ]
+}

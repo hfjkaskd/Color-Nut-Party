@@ -1,0 +1,1108 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "passed": true,
+      "check": "Fresh local marker emits first_open and cold-start session once"
+    },
+    {
+      "passed": true,
+      "check": "Two effective moves emit one first-action event"
+    },
+    {
+      "passed": true,
+      "check": "Saved attempt recovery keeps attempt ID without another start"
+    },
+    {
+      "passed": true,
+      "check": "Failure followed by restart cannot produce two results for one attempt"
+    },
+    {
+      "passed": true,
+      "check": "New retry produces a distinct attempt"
+    },
+    {
+      "passed": true,
+      "check": "Grant then consume with net-zero balance retains two resource records"
+    },
+    {
+      "passed": true,
+      "check": "Only actual tool consumption emits prop_use"
+    },
+    {
+      "passed": true,
+      "check": "Tool behavior joins resource flow by operation without duplicate inventory fields"
+    },
+    {
+      "passed": true,
+      "check": "Unchanged save does not manufacture resource flow"
+    },
+    {
+      "passed": true,
+      "check": "Mutation index persists with committed inventory"
+    },
+    {
+      "passed": true,
+      "check": "Pending cash and diamond claim succeeds"
+    },
+    {
+      "passed": true,
+      "check": "Repeated multi-resource claim cannot regrant or record extra flow"
+    },
+    {
+      "passed": true,
+      "check": "Welcome and four teaching steps deduplicate exposure and completion"
+    },
+    {
+      "passed": true,
+      "check": "Identical requirements refresh does not duplicate snapshots"
+    },
+    {
+      "passed": true,
+      "check": "True qualification changes emit updated eligibility and task state"
+    },
+    {
+      "passed": true,
+      "check": "Both original withdrawal event names remain independent"
+    },
+    {
+      "passed": true,
+      "check": "Withdrawal result retains the request ID and truthful local-only status"
+    },
+    {
+      "passed": true,
+      "check": "Short background stay keeps session"
+    },
+    {
+      "passed": true,
+      "check": "Long background stay creates one new session"
+    },
+    {
+      "passed": true,
+      "check": "Repeated exception is aggregated instead of repeated immediately"
+    },
+    {
+      "passed": true,
+      "check": "Exception aggregate flushes in the next summary window"
+    },
+    {
+      "passed": true,
+      "check": "Normal quit closes the run marker"
+    },
+    {
+      "passed": true,
+      "check": "Next cold launch records an unclosed run without claiming a crash"
+    },
+    {
+      "passed": true,
+      "check": "Repeated cold starts never manufacture first_open"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: session_start"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: first_open"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: level_start"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: startup_result"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: level_first_action"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: level_result"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: level_start"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: level_start"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: resource_change"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: resource_change"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: prop_use"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: resource_change"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: resource_change"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: tutorial_start"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: tutorial_step_show"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: tutorial_step_complete"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: tutorial_step_show"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: tutorial_step_complete"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: tutorial_step_show"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: tutorial_step_complete"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: tutorial_step_show"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: tutorial_step_complete"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: tutorial_step_show"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: tutorial_step_complete"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: tutorial_complete"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: withdraw_eligibility_change"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: withdraw_task_change"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: withdraw_eligibility_change"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: withdraw_task_change"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: withdraw_submit"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: withdraw_submit_result"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: session_summary"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: session_start"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: runtime_exception"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: session_summary"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: runtime_exception"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: session_start"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: session_start"
+    },
+    {
+      "passed": true,
+      "check": "Unique event ID: abnormal_exit"
+    }
+  ],
+  "events": [
+    {
+      "Key": "session_start",
+      "Value": {
+        "reason": "cold_start",
+        "schema_version": 1,
+        "event_id": "d65a742c590d4c85ba4207fdcebbbdb6",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 1,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "loading"
+      }
+    },
+    {
+      "Key": "first_open",
+      "Value": {
+        "first_open_basis": "local_marker_absent",
+        "schema_version": 1,
+        "event_id": "61b535f6b3e1482d9d5cbf702ee8a5a7",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 2,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "loading"
+      }
+    },
+    {
+      "Key": "level_start",
+      "Value": {
+        "attempt_id": "0a39aa6eab1749e68762e8ffc0eadccb",
+        "level_id": 1,
+        "display_level": 1,
+        "content_level_id": 1,
+        "sub_round": 0,
+        "sub_total_round": 0,
+        "observation_scope": "complete",
+        "origin": "new_board",
+        "elapsed_seconds": 0.0,
+        "active_seconds": 0.0,
+        "valid_move_count": 0,
+        "undo_used": 0,
+        "refresh_used": 0,
+        "add_screw_used": 0,
+        "attempt_no": 1,
+        "initial_screw_count": 4,
+        "initial_nut_count": 8,
+        "color_count": 2,
+        "step_id": "teaching_0",
+        "schema_version": 1,
+        "event_id": "2e7c43bf9af3480cbb3e444ba2cc6b90",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 3,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "loading"
+      }
+    },
+    {
+      "Key": "startup_result",
+      "Value": {
+        "result": "success",
+        "phase": "board_ready",
+        "duration_seconds": 0.0,
+        "schema_version": 1,
+        "event_id": "784505648ab444c1898bb82c0ccda0bb",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 4,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "level_first_action",
+      "Value": {
+        "attempt_id": "0a39aa6eab1749e68762e8ffc0eadccb",
+        "level_id": 1,
+        "display_level": 1,
+        "content_level_id": 1,
+        "sub_round": 0,
+        "sub_total_round": 0,
+        "observation_scope": "complete",
+        "origin": "new_board",
+        "elapsed_seconds": 0.0,
+        "active_seconds": 0.0,
+        "valid_move_count": 1,
+        "undo_used": 0,
+        "refresh_used": 0,
+        "add_screw_used": 0,
+        "attempt_no": 1,
+        "initial_screw_count": 4,
+        "initial_nut_count": 8,
+        "color_count": 2,
+        "step_id": "teaching_0",
+        "first_action_type": "move",
+        "time_to_first_action_seconds": 0.0,
+        "schema_version": 1,
+        "event_id": "be2fef7228de428a88353305753cfe2b",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 5,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "level_result",
+      "Value": {
+        "attempt_id": "0a39aa6eab1749e68762e8ffc0eadccb",
+        "level_id": 1,
+        "display_level": 1,
+        "content_level_id": 1,
+        "sub_round": 0,
+        "sub_total_round": 0,
+        "observation_scope": "complete",
+        "origin": "new_board",
+        "elapsed_seconds": 0.0,
+        "active_seconds": 0.0,
+        "valid_move_count": 2,
+        "undo_used": 0,
+        "refresh_used": 0,
+        "add_screw_used": 0,
+        "attempt_no": 1,
+        "initial_screw_count": 4,
+        "initial_nut_count": 8,
+        "color_count": 2,
+        "step_id": "teaching_0",
+        "result": "fail",
+        "reason": "no_legal_move",
+        "schema_version": 1,
+        "event_id": "8d0c3e97eadf4539be7b4fec9b813ac2",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 6,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "level_start",
+      "Value": {
+        "attempt_id": "a82c4d415a214f16a71a3ec4d1c9dcbd",
+        "level_id": 1,
+        "display_level": 1,
+        "content_level_id": 1,
+        "sub_round": 0,
+        "sub_total_round": 0,
+        "observation_scope": "complete",
+        "origin": "failure_retry",
+        "elapsed_seconds": 0.0,
+        "active_seconds": 0.0,
+        "valid_move_count": 0,
+        "undo_used": 0,
+        "refresh_used": 0,
+        "add_screw_used": 0,
+        "attempt_no": 2,
+        "initial_screw_count": 4,
+        "initial_nut_count": 8,
+        "color_count": 2,
+        "step_id": "teaching_0",
+        "schema_version": 1,
+        "event_id": "3906ffee6e3d4b3d8e6d6505579d0b66",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 7,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "level_start",
+      "Value": {
+        "attempt_id": "2b18290d4115496cb3c620d2ee10aad9",
+        "level_id": 1,
+        "display_level": 1,
+        "content_level_id": 1,
+        "sub_round": 0,
+        "sub_total_round": 0,
+        "observation_scope": "complete",
+        "origin": "new_board",
+        "elapsed_seconds": 0.0,
+        "active_seconds": 0.0,
+        "valid_move_count": 0,
+        "undo_used": 0,
+        "refresh_used": 0,
+        "add_screw_used": 0,
+        "attempt_no": 2,
+        "initial_screw_count": 4,
+        "initial_nut_count": 8,
+        "color_count": 2,
+        "step_id": "teaching_0",
+        "schema_version": 1,
+        "event_id": "9fbcde7a1c244012ab19b99f407f2d8f",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 8,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "resource_change",
+      "Value": {
+        "transaction_id": "b9ee7434025e4efa8edaa43fac2c61ae",
+        "operation_id": "tool-operation",
+        "mutation_index": 1,
+        "source": "rewarded_tool",
+        "resource": "refresh",
+        "value_unit": "item_count",
+        "balance_before": 0.0,
+        "delta": 1.0,
+        "balance_after": 1.0,
+        "schema_version": 1,
+        "event_id": "fb6358a32e1a4c14b60b09f2fd57c064",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 9,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "resource_change",
+      "Value": {
+        "transaction_id": "cff1c6003d274a71b0eac86c9128d8d0",
+        "operation_id": "tool-operation",
+        "mutation_index": 2,
+        "source": "prop_use",
+        "resource": "refresh",
+        "value_unit": "item_count",
+        "balance_before": 1.0,
+        "delta": -1.0,
+        "balance_after": 0.0,
+        "schema_version": 1,
+        "event_id": "5b64876457164df684a100a7c30016d1",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 10,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "prop_use",
+      "Value": {
+        "attempt_id": "2b18290d4115496cb3c620d2ee10aad9",
+        "level_id": 1,
+        "display_level": 1,
+        "content_level_id": 1,
+        "sub_round": 0,
+        "sub_total_round": 0,
+        "observation_scope": "complete",
+        "origin": "new_board",
+        "elapsed_seconds": 0.0,
+        "active_seconds": 0.0,
+        "valid_move_count": 0,
+        "undo_used": 0,
+        "refresh_used": 1,
+        "add_screw_used": 0,
+        "attempt_no": 2,
+        "initial_screw_count": 4,
+        "initial_nut_count": 8,
+        "color_count": 2,
+        "step_id": "teaching_0",
+        "operation_id": "tool-operation",
+        "prop": "refresh",
+        "source": "inventory",
+        "schema_version": 1,
+        "event_id": "0c241013305e4d14b3c5d52f2c8f504f",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 11,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "resource_change",
+      "Value": {
+        "transaction_id": "ce4f877bb6934aa982cd904c9216cc4c",
+        "operation_id": "reward-operation",
+        "mutation_index": 3,
+        "source": "level_reward",
+        "resource": "soft_cash",
+        "value_unit": "game_cash",
+        "balance_before": 0.0,
+        "delta": 1.25,
+        "balance_after": 1.25,
+        "schema_version": 1,
+        "event_id": "bf25d755813947eeb28f40c78a81d09e",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 12,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "resource_change",
+      "Value": {
+        "transaction_id": "ce4f877bb6934aa982cd904c9216cc4c",
+        "operation_id": "reward-operation",
+        "mutation_index": 4,
+        "source": "level_reward",
+        "resource": "diamond",
+        "value_unit": "diamond_count",
+        "balance_before": 0.0,
+        "delta": 8.0,
+        "balance_after": 8.0,
+        "schema_version": 1,
+        "event_id": "9478da266c344f4995ced9a3d1aea83a",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 13,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "tutorial_start",
+      "Value": {
+        "guide_id": "initial_guide",
+        "guide_version": 1,
+        "schema_version": 1,
+        "event_id": "2ff5d9a518ba40adb57c1013bef1f032",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 14,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "tutorial_step_show",
+      "Value": {
+        "guide_id": "initial_guide",
+        "step_id": "welcome",
+        "step_index": 0,
+        "schema_version": 1,
+        "event_id": "85d58ffb069a4233955943d59e0feed7",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 15,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "tutorial_step_complete",
+      "Value": {
+        "guide_id": "initial_guide",
+        "step_id": "welcome",
+        "step_index": 0,
+        "elapsed_seconds": 0.0,
+        "schema_version": 1,
+        "event_id": "8c23b0efd7fd4f3ca82ac15edb49b458",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 16,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "tutorial_step_show",
+      "Value": {
+        "guide_id": "initial_guide",
+        "step_id": "teaching_0",
+        "step_index": 1,
+        "schema_version": 1,
+        "event_id": "5f8d684620ed4c3c9cd31f9f4e6f2745",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 17,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "tutorial_step_complete",
+      "Value": {
+        "guide_id": "initial_guide",
+        "step_id": "teaching_0",
+        "step_index": 1,
+        "elapsed_seconds": 0.0,
+        "schema_version": 1,
+        "event_id": "1128dc64d05f498685b8c1a068f37d61",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 18,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "tutorial_step_show",
+      "Value": {
+        "guide_id": "initial_guide",
+        "step_id": "teaching_1",
+        "step_index": 2,
+        "schema_version": 1,
+        "event_id": "e5c733fb04ce4ae9a39e35b51447e46a",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 19,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "tutorial_step_complete",
+      "Value": {
+        "guide_id": "initial_guide",
+        "step_id": "teaching_1",
+        "step_index": 2,
+        "elapsed_seconds": 0.0,
+        "schema_version": 1,
+        "event_id": "dfd0a58d549c463d8175bf43e89d9c54",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 20,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "tutorial_step_show",
+      "Value": {
+        "guide_id": "initial_guide",
+        "step_id": "teaching_2",
+        "step_index": 3,
+        "schema_version": 1,
+        "event_id": "2224c46f636d47a5b39c93fcc63e955b",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 21,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "tutorial_step_complete",
+      "Value": {
+        "guide_id": "initial_guide",
+        "step_id": "teaching_2",
+        "step_index": 3,
+        "elapsed_seconds": 0.0,
+        "schema_version": 1,
+        "event_id": "7658102177264c83a6261ebe8170917d",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 22,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "tutorial_step_show",
+      "Value": {
+        "guide_id": "initial_guide",
+        "step_id": "teaching_3",
+        "step_index": 4,
+        "schema_version": 1,
+        "event_id": "b820030aef5a48cb95ffaee1da125a0a",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 23,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "tutorial_step_complete",
+      "Value": {
+        "guide_id": "initial_guide",
+        "step_id": "teaching_3",
+        "step_index": 4,
+        "elapsed_seconds": 0.0,
+        "schema_version": 1,
+        "event_id": "6454c932619e48e1a1b66462f3573c8f",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 24,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "tutorial_complete",
+      "Value": {
+        "guide_id": "initial_guide",
+        "elapsed_seconds": 0.0,
+        "schema_version": 1,
+        "event_id": "47912d0c64ab4cb2b76913f0d3225dd3",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 25,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "withdraw_eligibility_change",
+      "Value": {
+        "flow_id": "48730109e5df46039fc880a6f52e5552",
+        "withdraw_type": "cash",
+        "tier_id": 0,
+        "status_source": "client",
+        "observation": "initial",
+        "eligible": false,
+        "blocking_condition": "balance",
+        "schema_version": 1,
+        "event_id": "5e62b852fae84530b900cfb354614376",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 26,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "withdraw_task_change",
+      "Value": {
+        "flow_id": "48730109e5df46039fc880a6f52e5552",
+        "withdraw_type": "cash",
+        "tier_id": 0,
+        "status_source": "client",
+        "condition_id": "balance",
+        "state": "pending",
+        "source": "test",
+        "progress": 1.0,
+        "target": 500.0,
+        "schema_version": 1,
+        "event_id": "a43b4651960540d3b2ed100f0446682b",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 27,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "withdraw_eligibility_change",
+      "Value": {
+        "flow_id": "48730109e5df46039fc880a6f52e5552",
+        "withdraw_type": "cash",
+        "tier_id": 0,
+        "status_source": "client",
+        "observation": "change",
+        "eligible": true,
+        "blocking_condition": "ready",
+        "previous_eligible": false,
+        "schema_version": 1,
+        "event_id": "a031b43722ac4a7da1809fc860703acd",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 28,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "withdraw_task_change",
+      "Value": {
+        "flow_id": "48730109e5df46039fc880a6f52e5552",
+        "withdraw_type": "cash",
+        "tier_id": 0,
+        "status_source": "client",
+        "condition_id": "balance",
+        "state": "complete",
+        "source": "test",
+        "progress": 500.0,
+        "target": 500.0,
+        "schema_version": 1,
+        "event_id": "5329c3a338ec4d52886eded8b2f3108a",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 29,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "withdraw_submit",
+      "Value": {
+        "flow_id": "48730109e5df46039fc880a6f52e5552",
+        "withdraw_type": "cash",
+        "tier_id": 0,
+        "status_source": "client",
+        "operation_id": "7ef8bfd4986a4527b41cabbc12aac0e3",
+        "amount": 500.0,
+        "value_unit": "game_cash",
+        "request_sent": false,
+        "channel": "PayPal",
+        "schema_version": 1,
+        "event_id": "20ec7348d90e426caa2a7f58b7c61cc2",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 30,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "withdraw_submit_result",
+      "Value": {
+        "flow_id": "48730109e5df46039fc880a6f52e5552",
+        "withdraw_type": "cash",
+        "tier_id": 0,
+        "status_source": "client",
+        "operation_id": "7ef8bfd4986a4527b41cabbc12aac0e3",
+        "request_sent": false,
+        "result": "not_submitted",
+        "reason": "service_unavailable",
+        "schema_version": 1,
+        "event_id": "8579c97b0b4a4e15861477cb46183177",
+        "event_utc_ms": 1791936000000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 31,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "session_summary",
+      "Value": {
+        "summary_seq": 1,
+        "window_start_ms": 1791936000000,
+        "window_end_ms": 1791936061000,
+        "report_reason": "interval",
+        "foreground_seconds": 61.0,
+        "gameplay_seconds": 61.0,
+        "schema_version": 1,
+        "event_id": "55c2398c099d4cf88748a13d000d6eff",
+        "event_utc_ms": 1791936061000,
+        "app_session_id": "ba792e0a9ab1437eb93fa26c61aaae9e",
+        "sequence": 32,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "session_start",
+      "Value": {
+        "reason": "background_timeout",
+        "schema_version": 1,
+        "event_id": "0e6cf344ca614b9e9ddcf2da4b462c67",
+        "event_utc_ms": 1791937872000,
+        "app_session_id": "979ba75746294b9095e8d5a18b60ab96",
+        "sequence": 1,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "runtime_exception",
+      "Value": {
+        "fingerprint": "game:sample:InvalidOperationException",
+        "component": "game",
+        "error_code": "sample",
+        "exception_type": "InvalidOperationException",
+        "count": 1,
+        "first_utc_ms": 1791937872000,
+        "last_utc_ms": 1791937872000,
+        "schema_version": 1,
+        "event_id": "a3b534c0c2d64edcb6a5f7f21826cd05",
+        "event_utc_ms": 1791937872000,
+        "app_session_id": "979ba75746294b9095e8d5a18b60ab96",
+        "sequence": 2,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "session_summary",
+      "Value": {
+        "summary_seq": 1,
+        "window_start_ms": 1791937872000,
+        "window_end_ms": 1791937933000,
+        "report_reason": "interval",
+        "foreground_seconds": 61.0,
+        "gameplay_seconds": 61.0,
+        "schema_version": 1,
+        "event_id": "30fdca11b61b49918ad286ba7ac377aa",
+        "event_utc_ms": 1791937933000,
+        "app_session_id": "979ba75746294b9095e8d5a18b60ab96",
+        "sequence": 3,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "runtime_exception",
+      "Value": {
+        "fingerprint": "game:sample:InvalidOperationException",
+        "component": "game",
+        "error_code": "sample",
+        "exception_type": "InvalidOperationException",
+        "count": 2,
+        "first_utc_ms": 1791937872000,
+        "last_utc_ms": 1791937872000,
+        "schema_version": 1,
+        "event_id": "288ed7fe43544d588cd7f636bbb43a85",
+        "event_utc_ms": 1791937933000,
+        "app_session_id": "979ba75746294b9095e8d5a18b60ab96",
+        "sequence": 4,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "gameplay"
+      }
+    },
+    {
+      "Key": "session_start",
+      "Value": {
+        "reason": "cold_start",
+        "schema_version": 1,
+        "event_id": "86ba862b30d44dce947d600df9e322a8",
+        "event_utc_ms": 1791937933000,
+        "app_session_id": "05b2564fe29648fc919f37a5d194d418",
+        "sequence": 1,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "loading"
+      }
+    },
+    {
+      "Key": "session_start",
+      "Value": {
+        "reason": "cold_start",
+        "schema_version": 1,
+        "event_id": "f6be94b234d748d09cc201445f6f42a5",
+        "event_utc_ms": 1791937933000,
+        "app_session_id": "7c8d3b7f5d7f4363ace0db1a171a7e64",
+        "sequence": 1,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "loading"
+      }
+    },
+    {
+      "Key": "abnormal_exit",
+      "Value": {
+        "previous_run_id": "9bd6842d61814db38acb7663df9efece",
+        "previous_session": "05b2564fe29648fc919f37a5d194d418",
+        "previous_page": "loading",
+        "previous_build_id": "1",
+        "last_app_state": "foreground",
+        "last_observed_utc_ms": 1791937933000,
+        "observed_utc_ms": 1791937933000,
+        "reason": "unclosed_run",
+        "diagnostic_source": "local_run_marker",
+        "confirmed": false,
+        "schema_version": 1,
+        "event_id": "99d006ed14a34821babb5a829cbbd7d6",
+        "event_utc_ms": 1791937933000,
+        "app_session_id": "7c8d3b7f5d7f4363ace0db1a171a7e64",
+        "sequence": 2,
+        "app_version": "1.0.1",
+        "build_id": "1",
+        "is_test": true,
+        "current_page": "loading"
+      }
+    }
+  ],
+  "properties": {
+    "cnp_schema_version": 1,
+    "cnp_current_level": 1,
+    "cnp_display_level": 1,
+    "cnp_tutorial_completed": false,
+    "cnp_cash_balance": 1.25,
+    "cnp_diamond_balance": 8.0,
+    "cnp_undo_count": 5,
+    "cnp_refresh_count": 0,
+    "cnp_add_screw_count": 0,
+    "cnp_user_rank": 0,
+    "cnp_has_withdraw_account": false
+  }
+}

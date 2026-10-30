@@ -1,0 +1,164 @@
+{
+    "passed": true,
+    "version": "1.0.1",
+    "packageName": "com.color.nutparty",
+    "defaultIcon": "Assets/Art/Branding/ColorNutParty-AppIcon.png",
+    "defaultIconWidth": 1254,
+    "defaultIconHeight": 1254,
+    "adaptiveBackground": "Assets/Art/Branding/ColorNutParty-AdaptiveBackground.png",
+    "adaptiveBackgroundWidth": 1254,
+    "adaptiveBackgroundHeight": 1254,
+    "adaptiveForeground": "Assets/Art/Branding/ColorNutParty-AdaptiveForeground.png",
+    "slots": [
+        {
+            "kind": "legacy",
+            "width": 192,
+            "height": 192,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AppIcon.png"
+            ]
+        },
+        {
+            "kind": "legacy",
+            "width": 144,
+            "height": 144,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AppIcon.png"
+            ]
+        },
+        {
+            "kind": "legacy",
+            "width": 96,
+            "height": 96,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AppIcon.png"
+            ]
+        },
+        {
+            "kind": "legacy",
+            "width": 72,
+            "height": 72,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AppIcon.png"
+            ]
+        },
+        {
+            "kind": "legacy",
+            "width": 48,
+            "height": 48,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AppIcon.png"
+            ]
+        },
+        {
+            "kind": "legacy",
+            "width": 36,
+            "height": 36,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AppIcon.png"
+            ]
+        },
+        {
+            "kind": "round",
+            "width": 192,
+            "height": 192,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AppIcon.png"
+            ]
+        },
+        {
+            "kind": "round",
+            "width": 144,
+            "height": 144,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AppIcon.png"
+            ]
+        },
+        {
+            "kind": "round",
+            "width": 96,
+            "height": 96,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AppIcon.png"
+            ]
+        },
+        {
+            "kind": "round",
+            "width": 72,
+            "height": 72,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AppIcon.png"
+            ]
+        },
+        {
+            "kind": "round",
+            "width": 48,
+            "height": 48,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AppIcon.png"
+            ]
+        },
+        {
+            "kind": "round",
+            "width": 36,
+            "height": 36,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AppIcon.png"
+            ]
+        },
+        {
+            "kind": "adaptive",
+            "width": 432,
+            "height": 432,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AdaptiveForeground.png",
+                "Assets/Art/Branding/ColorNutParty-AdaptiveBackground.png"
+            ]
+        },
+        {
+            "kind": "adaptive",
+            "width": 324,
+            "height": 324,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AdaptiveForeground.png",
+                "Assets/Art/Branding/ColorNutParty-AdaptiveBackground.png"
+            ]
+        },
+        {
+            "kind": "adaptive",
+            "width": 216,
+            "height": 216,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AdaptiveForeground.png",
+                "Assets/Art/Branding/ColorNutParty-AdaptiveBackground.png"
+            ]
+        },
+        {
+            "kind": "adaptive",
+            "width": 162,
+            "height": 162,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AdaptiveForeground.png",
+                "Assets/Art/Branding/ColorNutParty-AdaptiveBackground.png"
+            ]
+        },
+        {
+            "kind": "adaptive",
+            "width": 108,
+            "height": 108,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AdaptiveForeground.png",
+                "Assets/Art/Branding/ColorNutParty-AdaptiveBackground.png"
+            ]
+        },
+        {
+            "kind": "adaptive",
+            "width": 81,
+            "height": 81,
+            "layers": [
+                "Assets/Art/Branding/ColorNutParty-AdaptiveForeground.png",
+                "Assets/Art/Branding/ColorNutParty-AdaptiveBackground.png"
+            ]
+        }
+    ]
+}

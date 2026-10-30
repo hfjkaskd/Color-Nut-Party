@@ -1,0 +1,18 @@
+{
+  "request": "Diamond withdrawal progress starts outside the brown track at $4.87/$500",
+  "diagnosis": "TXCoinPanel track is 860x51, but its centered fill child is 870x60. The old fill includes a wood frame, so its first 0.97346% appears as an isolated frame arc outside the track.",
+  "scope": "TXCoinPanel progress fill only; no currency, withdrawal, reward, or saved-data rule change",
+  "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+  "fillRectFileID": "224091882994760266",
+  "fillImageFileID": "114592460329389196",
+  "beforeRect": [870, 60],
+  "afterRect": [856, 47],
+  "trackRect": [860, 51],
+  "sprite": "Assets/Resources/atlas/octobergarden/diamond-progress-fill.png",
+  "spriteGuid": "b5bf4b18c1b947278ed1038b8faac3bb",
+  "source": "Docs/TopProgressFix/20261012/fill-generated.png",
+  "sourceProvenance": "Previously generated using built-in image_gen; prompt in Docs/TopProgressFix/20261012/generation.json",
+  "preparation": "Reuse the borderless green source; transparent-margin crop, proportional cap downsampling and three-slice center fitting to 850x65. No new artwork generation.",
+  "rendering": "Keep standard Image.Type.Filled / Horizontal / left origin; no artificial minimum fill",
+  "amountFixture": {"diamonds":486.73,"targetDiamonds":50000,"exchangeRate":100,"fill":0.0097346,"label":"$4.87/$500"}
+}

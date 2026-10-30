@@ -1,0 +1,289 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using Newtonsoft.Json.Linq;
+using NutSort.Content;
+using NutSort.Gameplay;
+using NutSort.UI;
+using NutSort.World;
+using TMPro;
+using UnityEditor;
+using UnityEditor.SceneManagement;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+namespace NutSort.Validation
+{
+    [InitializeOnLoad]
+    public static class LocalLuckyRewardPlayValidation
+    {
+        const string Key="NutSort.LocalLuckyRewardPlayValidation";
+        const string Output="Docs/RewardFlowVideo/20261012/lucky-validation";
+        const string Backup="Library/ValidationBackups/GameplayUserLocalData.bin";
+        static readonly JArray Checks=new JArray(),Captures=new JArray();
+        static readonly List<RaycastResult> Hits=new List<RaycastResult>();
+        static OriginalGameScene game;
+        static OriginalStartupFlow startup;
+        static OriginalAudioPlayer audio;
+        static LocalGameplayController local;
+        static int phase,rewardedRequests,interstitialRequests;
+        static double readyAt,deadline,nextProbe;
+        static float rodAward,expectedCash,pendingAmount,pendingMultiplier;
+        static string error;
+        static DateTime began;
+        static Action<bool> adDone;
+
+        static LocalLuckyRewardPlayValidation()
+        {
+            if(SessionState.GetBool(Key+".Finish",false))
+            {EditorApplication.playModeStateChanged+=OnPlayModeChanged;EditorApplication.delayCall+=CompleteFinish;}
+            else if(SessionState.GetBool(Key,false))StartPolling();
+        }
+        public static void Run()
+        {
+            try
+            {
+                if(EditorApplication.isPlayingOrWillChangePlaymode)throw new InvalidOperationException("Start in Edit Mode.");
+                Directory.CreateDirectory(Output);
+                string fixture=CreateFixture();
+                SessionState.SetString(Key+".Fixture",fixture);
+                OriginalPreferenceFixture.Begin(fixture);
+                SessionState.SetBool(Key+".Finish",false);SessionState.SetBool(Key,true);
+                EditorSceneManager.OpenScene("Assets/Scenes/LuoSiSortGame.unity");
+                PlayModeWindow.SetCustomRenderingResolution(720,1600,"Lucky reward acceptance: isolated US fixture");
+                StartPolling();EditorApplication.EnterPlaymode();
+            }
+            catch(Exception exception){Fail(exception);}
+        }
+        static string CreateFixture()
+        {
+            // Three genuine 1+3 transfers. The first two are rod completions;
+            // the third completes the board, without changing production gates.
+            var board=new OriginalBoardState(new LevelData{B=new[]{Rod(1),Rod(1,1,1),Rod(2),Rod(2,2,2),Rod(3),Rod(3,3,3)}},
+                Resources.Load<OriginalLayoutSettings>("Configuration/OriginalLayout"));
+            var user=new OriginalUserLocalData(Resources.Load<OriginalUserDefaults>("Configuration/OriginalUserDefaults"))
+            {
+                Level=3,Gold=500,Coin=0,RevokeCount=5,NewGameplayUnlockIndex=4,IsCompleteRecordGuide=true,
+                IsCompleteExtraGoldGuide=true,IsCompleteCoinNewPeopleReward=true,LuckyScrewDoneCount=3,
+                LocalWithdrawalData=new JObject
+                {
+                    ["tutorialBalanceApplied"]=true,["tutorialBalanceAmount"]=500,["tutorialBalanceNoticeAcknowledged"]=true,
+                    ["earningFlow"]=new JObject{["activationComplete"]=true}
+                },
+                LevelInfo=OriginalBoardSnapshotJson.Write(OriginalBoardSnapshot.Capture(board,new List<OriginalMoveRecord>()))
+            };
+            return OriginalUserDataJson.Write(user);
+        }
+        static ScrewData Rod(params int[] colors)
+        {
+            var cells=new CData[4];
+            for(int i=0;i<cells.Length;i++)cells[i]=new CData{LP=new LPData{y=i},BIM=i<colors.Length?new BIMData{Id=1,CI=colors[i]}:null};
+            return new ScrewData{Id=1,C=cells};
+        }
+        static void StartPolling()
+        {
+            phase=rewardedRequests=interstitialRequests=0;ClearReferences();Checks.Clear();Captures.Clear();
+            readyAt=nextProbe=0;deadline=EditorApplication.timeSinceStartup+180;began=DateTime.UtcNow;error=null;adDone=null;
+            EditorApplication.update-=Tick;EditorApplication.update+=Tick;
+            SceneManager.sceneLoaded-=ConfigureCountry;SceneManager.sceneLoaded+=ConfigureCountry;
+        }
+        static void ConfigureCountry(Scene scene,LoadSceneMode mode)
+        {
+            if(scene.name!="LuoSiSortGame")return;
+            var session=UnityEngine.Object.FindObjectOfType<OriginalUserSession>();
+            if(session!=null)session.ConfigureRewardCountry("US");
+        }
+        static void ClearReferences(){game=null;startup=null;audio=null;local=null;}
+        static bool SceneReady()
+        {
+            if(local!=null)return true;
+            if(EditorApplication.timeSinceStartup<nextProbe)return false;nextProbe=EditorApplication.timeSinceStartup+.15;
+            if(game==null)game=UnityEngine.Object.FindObjectOfType<OriginalGameScene>();
+            if(startup==null)startup=UnityEngine.Object.FindObjectOfType<OriginalStartupFlow>();
+            if(audio==null)audio=UnityEngine.Object.FindObjectOfType<OriginalAudioPlayer>();
+            if(game==null||startup==null||audio==null||startup.LocalGameplay==null||game.Level==null||
+                !game.Level.AreNutsInitialized||game.IsRestarting||startup.Loading.IsVisible)return false;
+            local=startup.LocalGameplay;
+            Check(audio.UserState.DisplayCountry(game.Tables)=="US","Production country selection loads the US fixture");
+            BindAds();return true;
+        }
+        static void BindAds()=>local.BindSettlementAds(
+            done=>{interstitialRequests++;adDone=done;},done=>{rewardedRequests++;adDone=done;});
+        static bool BoardReady()=>game.IsInitDone&&!game.ModalInputBlocked&&!game.IsRestarting;
+        static bool EntriesSettled()
+        {
+            foreach(var rod in game.Level.Board.Screws)foreach(var slot in rod.Slots)
+                if(slot.Nut!=null&&game.Level.GetNut(slot.Nut).IsEntryAnimating)return false;
+            return true;
+        }
+        static bool PanelReady(OriginalSuccessPanel panel)=>panel!=null&&!panel.Closing&&Vector3.Distance(panel.Title.localScale,Vector3.one)<.001f;
+        static void Tick()
+        {
+            if(!EditorApplication.isPlaying)return;
+            try
+            {
+                if(EditorApplication.timeSinceStartup>=deadline)throw new TimeoutException("Lucky validation timed out at phase "+phase);
+                if(EditorApplication.timeSinceStartup<readyAt||!SceneReady()||startup.Replay.IsClickMasked)return;
+                switch(phase)
+                {
+                    case 0:
+                        if(!BoardReady()||!EntriesSettled())return;
+                        Check(game.User.Level==3&&Near(game.User.Gold,500)&&game.User.Coin==0,"Fixture enters activated third level with cash 500 and zero diamonds");
+                        Check(!local.RewardsTop.Coin.gameObject.activeSelf,"Diamond entry stays hidden during the third level");
+                        rodAward=LocalLuckyRewardPolicy.Number(game.User.GoldRewardTargetS2CData["bear_torque"]);
+                        Check(rodAward>0,"Rod cash reads bear_torque from the loaded country configuration");
+                        expectedCash=500+rodAward;
+                        Capture("before-first-rod",null);Move(0,1);Next(1,.2);break;
+                    case 1:
+                        if(!PanelReady(local.LuckyPanel))return;
+                        Check(game.User.ScrewDoneCount==1&&!game.IsSuccess()&&local.SuccessPanel==null,"One real rod completion opens Lucky without completing the remaining board");
+                        Check(Near(game.User.Gold,expectedCash)&&game.User.Coin==0,"Real rod completion adds configured cash once and no early diamonds");
+                        Check(local.LuckyPanel.GetButton.gameObject.activeInHierarchy&&local.LuckyPanel.MoreButton.gameObject.activeInHierarchy&&local.LuckyPanel.Ad.activeInHierarchy,"Lucky presents both ordinary Claim and rewarded Claim 10X Buttons");
+                        var pending=LocalLuckyRewardPolicy.Pending(game.User);
+                        Check(pending!=null&&!((bool)pending["claimed"]),"Threshold creates an unclaimed persisted Lucky amount");
+                        pendingAmount=(float)pending["amount"];pendingMultiplier=(float)pending["multiplier"];
+                        Check(Near(pendingMultiplier,10),"10X comes from the loaded original reward multiplier");
+                        Capture("lucky-tall",local.LuckyPanel.gameObject);
+                        PlayModeWindow.SetCustomRenderingResolution(720,1280,"Lucky reward short viewport");Next(2,1);break;
+                    case 2:
+                        if(Screen.width!=720||Screen.height!=1280)return;
+                        Capture("lucky-short",local.LuckyPanel.gameObject);Click(local.LuckyPanel.MoreButton);Next(3,.1);break;
+                    case 3:
+                        Check(rewardedRequests==1&&interstitialRequests==0&&local.LuckyAdPending&&adDone!=null,"More Button waits for an explicit rewarded ad result");
+                        adDone(false);adDone(true);
+                        Check(Near(game.User.Gold,expectedCash)&&!local.LuckyAdPending&&!local.LuckyPanel.Closing&&
+                            !((bool)LocalLuckyRewardPolicy.Pending(game.User)["claimed"]),"Failed optional ad and its late duplicate success leave the base reward unclaimed");
+                        Next(4,1);break;
+                    case 4: Click(local.LuckyPanel.MoreButton);Next(5,.1);break;
+                    case 5:
+                        Check(rewardedRequests==2&&local.LuckyAdPending,"Player can retry the optional rewarded claim after failure");
+                        adDone(true);adDone(true);expectedCash+=pendingAmount*pendingMultiplier;
+                        Check(Near(game.User.Gold,expectedCash)&&game.User.Coin==0&&
+                            ((bool)LocalLuckyRewardPolicy.Pending(game.User)["claimed"]),"Actual rewarded success grants exactly 10X once, including duplicate callback protection");
+                        Next(6,.1);break;
+                    case 6:
+                        if(local.EarningSequencePanel==null)return;
+                        Check(local.EarningSequencePanel.ReceiptVisible&&local.EarningSequencePanel.GetComponentsInChildren<Button>(true).Length==0,"Lucky receipt is automatic and has no extra confirmation Button");
+                        Capture("lucky-10x-receipt",local.EarningSequencePanel.gameObject);Next(7,.2);break;
+                    case 7:
+                        if(!BoardReady()||local.EarningSequencePanel!=null||local.LuckyPanel!=null)return;
+                        Check(Near(game.User.Gold,expectedCash)&&LocalLuckyRewardPolicy.Pending(game.User)==null,"Receipt animation closes and clears its pending state without a second grant");
+                        game.SaveUserData();Reload(8);break;
+                    case 8:
+                        if(!BoardReady()||!EntriesSettled())return;
+                        Check(Near(game.User.Gold,expectedCash)&&LocalLuckyRewardPolicy.Pending(game.User)==null&&local.LuckyPanel==null,"Scene reload preserves the claimed reward and does not reopen Lucky");
+                        Check(game.Level.Board.Screws[1].IsDone&&game.User.ScrewDoneCount==1,"Scene reload retains the completed first rod and its receipt counter");
+                        game.User.LuckyScrewDoneCount=3;game.User.NormalGetTimes=0;
+                        expectedCash+=rodAward;Move(2,3);Next(9,.2);break;
+                    case 9:
+                        if(!PanelReady(local.LuckyPanel))return;
+                        Check(game.User.ScrewDoneCount==2&&Near(game.User.Gold,expectedCash)&&!game.IsSuccess(),"Second real rod reaches Lucky threshold while the third pair remains unsolved");
+                        pendingAmount=(float)LocalLuckyRewardPolicy.Pending(game.User)["amount"];
+                        Click(local.LuckyPanel.GetButton);expectedCash+=pendingAmount;Next(10,.1);break;
+                    case 10:
+                        if(local.EarningSequencePanel==null)return;
+                        Check(Near(game.User.Gold,expectedCash)&&rewardedRequests==2&&interstitialRequests==0,"Ordinary Claim grants only its base amount through the real Button and respects the configured ad counter");
+                        Capture("lucky-base-receipt",local.EarningSequencePanel.gameObject);Next(11,.2);break;
+                    case 11:
+                        if(!BoardReady()||local.EarningSequencePanel!=null||local.LuckyPanel!=null)return;
+                        Check(LocalLuckyRewardPolicy.Pending(game.User)==null&&game.User.Coin==0,"Ordinary receipt also closes automatically without adding diamonds");
+                        game.User.LuckyScrewDoneCount=3;
+                        expectedCash+=rodAward;Move(4,5);Next(12,.2);break;
+                    case 12:
+                        if(!PanelReady(local.SuccessPanel))return;
+                        Check(game.User.Level==4&&game.User.LocalPendingReward!=null&&game.User.ScrewDoneCount==3,"Third real transfer completes the board and opens its level settlement");
+                        Check(local.LuckyPanel==null&&LocalLuckyRewardPolicy.Pending(game.User)==null,"A simultaneous Lucky count threshold cannot steal or overlay board settlement");
+                        Check(Near(game.User.Gold,expectedCash)&&game.User.Coin==0&&
+                            (double)game.User.LocalPendingReward["diamonds"]==0&&!local.ShouldAllowDiamondRewards,"Third-level settlement remains cash only despite User.Level already advancing to four");
+                        var saved=OriginalUserDataJson.Read(PlayerPrefs.GetString(OriginalUserStore.Key),Resources.Load<OriginalUserDefaults>("Configuration/OriginalUserDefaults"));
+                        Check(saved.Level==4&&saved.LocalPendingReward!=null&&string.IsNullOrEmpty(saved.LevelInfo),"Settlement checkpoint never serializes the old completed board under the next level");
+                        Capture("third-level-cash-only-settlement",local.SuccessPanel.gameObject);Next(13,1);break;
+                    case 13: Finish(0);break;
+                }
+            }
+            catch(Exception exception){Fail(exception);}
+        }
+        static void Move(int from,int to)
+        {
+            Physics.SyncTransforms();
+            ScrewOperation ClickRod(int index)=>game.TryOperateAtScreenPoint(game.WorldCamera.WorldToScreenPoint(game.Level.GetScrew(index).Bounds.bounds.center));
+            Check(ClickRod(from).Kind==ScrewOperationKind.Ready&&ClickRod(to).Kind==ScrewOperationKind.Moved,"World camera physics input performs transfer "+from+" to "+to);
+        }
+        static bool Near(float actual,float expected)=>Mathf.Abs(actual-expected)<.001f;
+        static void Next(int value,double delay=.7){phase=value;readyAt=EditorApplication.timeSinceStartup+delay;}
+        static void Reload(int next){ClearReferences();SceneManager.LoadScene("LuoSiSortGame");Next(next,.5);}
+        static Rect Bounds(RectTransform rect)
+        {
+            var canvas=rect.GetComponentInParent<Canvas>();
+            Camera camera=canvas.renderMode==RenderMode.ScreenSpaceOverlay?null:canvas.worldCamera;
+            var corners=new Vector3[4];rect.GetWorldCorners(corners);
+            Vector2 min=RectTransformUtility.WorldToScreenPoint(camera,corners[0]),max=min;
+            for(int i=1;i<4;i++){Vector2 point=RectTransformUtility.WorldToScreenPoint(camera,corners[i]);min=Vector2.Min(min,point);max=Vector2.Max(max,point);}
+            return Rect.MinMaxRect(min.x,min.y,max.x,max.y);
+        }
+        static void Click(Button button)
+        {
+            Check(button!=null&&button.gameObject.activeInHierarchy&&button.IsInteractable(),"Live Button is interactable",false);
+            Canvas.ForceUpdateCanvases();
+            var pointer=new PointerEventData(EventSystem.current){position=Bounds((RectTransform)button.transform).center,button=PointerEventData.InputButton.Left};
+            Hits.Clear();EventSystem.current.RaycastAll(pointer,Hits);
+            var target=Hits.Count==0?null:ExecuteEvents.GetEventHandler<IPointerClickHandler>(Hits[0].gameObject);
+            Check(target==button.gameObject,"Unity UI raycast reaches "+button.name);
+            Check(ExecuteEvents.Execute(target,pointer,ExecuteEvents.pointerClickHandler),"Button pointer click dispatched",false);
+        }
+        static void Capture(string name,GameObject panel)
+        {
+            Canvas.ForceUpdateCanvases();
+            if(panel!=null)foreach(var label in panel.GetComponentsInChildren<TMP_Text>())
+            {
+                if(!label.isActiveAndEnabled||string.IsNullOrEmpty(label.text)||label.canvasRenderer.GetAlpha()<.01f)continue;
+                label.ForceMeshUpdate();Rect bounds=Bounds(label.rectTransform);
+                Check(!label.isTextOverflowing,"Text fits its prefab rectangle: "+label.name);
+                Check(bounds.xMin>=-1&&bounds.yMin>=-1&&bounds.xMax<=Screen.width+1&&bounds.yMax<=Screen.height+1,"Text stays inside viewport: "+label.name);
+            }
+            string file=Path.GetFullPath(Output+"/"+name+".png");
+            Captures.Add(new JObject{{"image",file},{"phase",phase},{"cash",game.User.Gold},{"width",Screen.width},{"height",Screen.height}});
+            ScreenCapture.CaptureScreenshot(file);
+        }
+        static void Check(bool value,string message,bool record=true){if(!value)throw new InvalidOperationException(message);if(record)Checks.Add(message);}
+        static void Fail(Exception exception){error=exception.ToString();Debug.LogException(exception);Finish(1);}
+        static void Finish(int result)
+        {
+            if(SessionState.GetBool(Key+".Finish",false))return;
+            if(result==0)foreach(JObject capture in Captures)
+                if(!File.Exists((string)capture["image"])||File.GetLastWriteTimeUtc((string)capture["image"])<began.AddSeconds(-2))
+                {result=1;error="Missing fresh screenshot: "+capture["image"];break;}
+            SessionState.SetBool(Key,false);SessionState.SetBool(Key+".Finish",true);SessionState.SetInt(Key+".Result",result);
+            SessionState.SetString(Key+".Report",new JObject
+            {
+                ["fixture"]=SessionState.GetString(Key+".Fixture",""),["phase"]=phase,["checks"]=Checks,["captures"]=Captures,["error"]=error,
+                ["verification"]="Unity Play, production scene and prefabs, isolated saved board, real world physics moves and Button pointer events; explicit test ad callbacks, no live ad network or payment service"
+            }.ToString());
+            EditorApplication.update-=Tick;SceneManager.sceneLoaded-=ConfigureCountry;
+            EditorApplication.playModeStateChanged-=OnPlayModeChanged;EditorApplication.playModeStateChanged+=OnPlayModeChanged;
+            if(EditorApplication.isPlayingOrWillChangePlaymode)EditorApplication.ExitPlaymode();else CompleteFinish();
+        }
+        static void OnPlayModeChanged(PlayModeStateChange state){if(state==PlayModeStateChange.EnteredEditMode)CompleteFinish();}
+        static void CompleteFinish()
+        {
+            if(!SessionState.GetBool(Key+".Finish",false)||EditorApplication.isPlayingOrWillChangePlaymode)return;
+            int result=SessionState.GetInt(Key+".Result",1);var report=JObject.Parse(SessionState.GetString(Key+".Report","{}"));
+            try
+            {
+                bool existed;string saved;
+                using(var reader=new BinaryReader(File.OpenRead(Backup))){existed=reader.ReadBoolean();saved=reader.ReadString();}
+                OriginalPreferenceFixture.Restore();
+                if(File.Exists(Backup)||PlayerPrefs.HasKey(OriginalUserStore.Key)!=existed||existed&&PlayerPrefs.GetString(OriginalUserStore.Key)!=saved)
+                    throw new InvalidOperationException("Original user preferences were not restored.");
+                report["originalPreferencesRestored"]=true;
+            }
+            catch(Exception exception){Debug.LogException(exception);report["restoreError"]=exception.ToString();result=1;}
+            report["status"]=result==0?"PASS":"FAIL";report["utc"]=DateTime.UtcNow.ToString("o");
+            Directory.CreateDirectory(Output);File.WriteAllText(Output+"/report.json",report.ToString());
+            SessionState.SetBool(Key+".Finish",false);EditorApplication.playModeStateChanged-=OnPlayModeChanged;
+            Debug.Log("LOCAL_LUCKY_REWARD_PLAY_"+(result==0?"PASS":"FAIL"));EditorApplication.Exit(result);
+        }
+    }
+}
