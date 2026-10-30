@@ -1,0 +1,8 @@
+Use case: precise-object-edit. AI-only Unity UI preview of existing tool popup variant.
+EDIT TARGET Image 1 is generated Refresh preview. Image2 is ORIGINAL shared ItemGetPanel screenshot in Refresh state and layout evidence only. Image3 is the existing actual AddScrew icon.
+Change exactly THREE foreground things in Image1, keeping every other detail/composition/layout/style as unchanged as possible:
+1 Header title becomes exactly "Bolt+" (B-o-l-t followed immediately by plus sign).
+2 Center pink/cyan refresh arrows become exact Image3-style silver threaded bolt standing vertically on base with orange plus to LEFT, same icon center and approximate occupied area.
+3 Description becomes exactly "Add an empty bolt", centered on same baseline in same existing bounds.
+These are existing game text IDs143 and146, no invented copy. Bottom "Claim" remains unchanged with video advertisement icon at left. Top-right Close X identical. Exactly two popup buttons. Keep all control positions and sizes, background currency/top five nodes/bottom three toolbuttons and reload, source amountstext, allgeometry. The style is pale honeywood, cream, green action, warmbrown type, thin frame, matching Image1 exactly.
+No icon backplate and no description backplate. No new elements. Entire popup inside canvas, no clipping, text comfortably inside. ZERO leaves, ZERO flowers, no plants/stars/ornaments, no purple theme. Output single portrait9:16 preview without captions or watermark.

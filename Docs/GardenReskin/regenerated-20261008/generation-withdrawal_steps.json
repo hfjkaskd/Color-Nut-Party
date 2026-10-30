@@ -1,0 +1,10 @@
+{
+  "id": "withdrawal_steps",
+  "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/withdrawal-stage-zero-current.png",
+  "sourceKind": "换皮前Unity截图",
+  "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_steps-effect.png",
+  "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-4627e5ea-b493-4be8-94be-163a9a533137.png",
+  "tool": "built-in image_gen",
+  "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_steps-prompt.txt",
+  "review": "All four statuses, 6000000, both timestamps, 6/12, level12 and Continue retained; all text fits."
+}

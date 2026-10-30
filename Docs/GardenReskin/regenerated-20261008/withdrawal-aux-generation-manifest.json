@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-08",
+  "sourceKind": "换皮前Unity截图",
+  "scope": "AI previews only; no production assets modified",
+  "images": [
+    {
+      "id": "channel_contact",
+      "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/withdrawal-channel-current.png",
+      "sourceKind": "换皮前Unity截图",
+      "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/channel_contact-effect.png",
+      "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-51095e84-ae50-4c98-acba-25991fe505b9.png",
+      "tool": "built-in image_gen",
+      "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/channel_contact-prompt.txt",
+      "review": "All source text/controls retained; no text overflow or new decoration observed."
+    },
+    {
+      "id": "withdrawal_loading",
+      "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/withdrawal-loading-current.png",
+      "sourceKind": "换皮前Unity截图",
+      "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_loading-effect.png",
+      "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-bebff7ff-4f1c-4484-8034-770762137f7f.png",
+      "tool": "built-in image_gen",
+      "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_loading-prompt.txt",
+      "correctionPrompt": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_loading-correction-prompt.txt",
+      "rejectedVariant": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-ec4d8cdf-9ed5-46fc-acf3-b506325f33cb.png",
+      "review": "Removed misplaced spurious 1/1 label with targeted imagegen correction; foreground exact copy/control count preserved."
+    },
+    {
+      "id": "target_complete",
+      "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/guide-target-complete.png",
+      "sourceKind": "换皮前Unity截图",
+      "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/target_complete-effect.png",
+      "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-ad209b1d-ed9a-4a86-aad5-242e9dfb7745.png",
+      "tool": "built-in image_gen",
+      "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/target_complete-prompt.txt",
+      "review": "Title, $12 cash, original gesture, single Withdraw action retained; no clipping observed."
+    },
+    {
+      "id": "withdrawal_level",
+      "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/withdrawal-level-current.png",
+      "sourceKind": "换皮前Unity截图",
+      "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_level-effect.png",
+      "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-503d7f4e-cea8-48e7-a18c-4ff4534ae070.png",
+      "tool": "built-in image_gen",
+      "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_level-prompt.txt",
+      "review": "All text exact including original 1th wording; 3 status rows and single visible action preserved; no overflow. AI preview does not establish pixel-exact Prefab placement."
+    },
+    {
+      "id": "withdrawal_steps",
+      "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/withdrawal-stage-zero-current.png",
+      "sourceKind": "换皮前Unity截图",
+      "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_steps-effect.png",
+      "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-4627e5ea-b493-4be8-94be-163a9a533137.png",
+      "tool": "built-in image_gen",
+      "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_steps-prompt.txt",
+      "review": "All four statuses, 6000000, both timestamps, 6/12, level12 and Continue retained; all text fits."
+    },
+    {
+      "id": "withdrawal_guide",
+      "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/record-guide.png",
+      "sourceKind": "换皮前Unity截图",
+      "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_guide-effect.png",
+      "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-0255048d-dcc7-464e-9733-448bd4275fe1.png",
+      "tool": "built-in image_gen",
+      "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_guide-prompt.txt",
+      "correctionPrompt": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_guide-correction-prompt.txt",
+      "rejectedVariant": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-44c02300-f3b1-42d5-8f77-b461487e3593.png",
+      "review": "Removed invented top-left HUD via targeted correction; Welcome/2-line explanation/5milestones/4badges/START retained, no clipping."
+    },
+    {
+      "id": "withdrawal_verification",
+      "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/withdrawal-too-fast-current.png",
+      "sourceKind": "换皮前Unity截图",
+      "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_verification-effect.png",
+      "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-47b8ceef-2789-40f2-a368-71b785f36b53.png",
+      "tool": "built-in image_gen",
+      "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_verification-prompt.txt",
+      "review": "All source prose plus 99%,12,6/12,10,10/10 exact; separate progress bars and Got it retained, no clipping."
+    },
+    {
+      "id": "account_confirmation",
+      "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/withdrawal-confirmation-current.png",
+      "sourceKind": "换皮前Unity截图",
+      "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/account_confirmation-effect.png",
+      "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-44bb8bd7-76a9-446f-a18f-f3479aa35219.png",
+      "tool": "built-in image_gen",
+      "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/account_confirmation-prompt.txt",
+      "review": "PayPal and fixture text exact; Withdraw now, Re-enter and separate lower X preserved; no overflow."
+    }
+  ]
+}

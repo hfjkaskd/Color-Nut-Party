@@ -1,0 +1,10 @@
+{
+  "id": "tutorial",
+  "source": "C:/Projects/Golden  Dragon Legend/reconstruction-nut/reward-device-evidence/tutorial-1-ready.png",
+  "sourceKind": "原版设备截图",
+  "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/tutorial-effect.png",
+  "generatedOriginal": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-72e48232-a97a-4fef-8744-c5c3f84da05a.png",
+  "prompt": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/tutorial-prompt.txt",
+  "generator": "built-in ImageGen",
+  "previewOnly": true
+}

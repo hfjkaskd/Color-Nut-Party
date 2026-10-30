@@ -1,0 +1,492 @@
+{
+  "date": "2026-10-08",
+  "planned": 23,
+  "completed": 23,
+  "missing": [],
+  "mode": "Built-in ImageGen previews; originals unchanged; no Unity replacement",
+  "pages": [
+    {
+      "index": 1,
+      "id": "main",
+      "title": "游戏主界面",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\reconstruction-nut\\reward-device-evidence\\diamond-live.png",
+      "sourceKind": "原版设备截图",
+      "sourceSha256": "93b89aec4c8d1eafe473f7d07573fa4ef578c86da526d8b14c3878d31d8db163",
+      "sourceCopy": "originals/main-original.png",
+      "sourceSize": [
+        1440,
+        2560
+      ],
+      "effect": "main-effect.png",
+      "effectSha256": "94cee6251d363e6a67e010569f8813c2fa626075eaf2faccd0041827b3910551",
+      "effectSize": [
+        941,
+        1672
+      ],
+      "comparison": "comparisons/01-main-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 2,
+      "id": "startup_loading",
+      "title": "启动加载",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\boot-loading-current.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "ad52d2a1284736d744614fc7e8ac27b1e7854e3b7b0521daf5b0f74bae8ddd4f",
+      "sourceCopy": "originals/startup_loading-original.png",
+      "sourceSize": [
+        480,
+        1040
+      ],
+      "effect": "startup_loading-effect.png",
+      "effectSha256": "d3f7669eb95f8c41cad1c26fedbaf4afbecd4c4c96f9ac144ac257a45ddbd1d3",
+      "effectSize": [
+        852,
+        1846
+      ],
+      "comparison": "comparisons/02-startup_loading-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "id": "tutorial",
+      "title": "新手教学",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\reconstruction-nut\\reward-device-evidence\\tutorial-1-ready.png",
+      "sourceKind": "原版设备截图",
+      "sourceSha256": "3fc7b6dfb4ba1b6c843b5429f7d423bff4079193227964a9105e1f25ba168bf6",
+      "sourceCopy": "originals/tutorial-original.png",
+      "sourceSize": [
+        1440,
+        2560
+      ],
+      "effect": "tutorial-effect.png",
+      "effectSha256": "8ba9dcf37a9acead282bb4129ad9402c80581a9c09a61a84ad79ca814c1ec913",
+      "effectSize": [
+        941,
+        1672
+      ],
+      "comparison": "comparisons/03-tutorial-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 4,
+      "id": "cash",
+      "title": "关卡提现",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\reconstruction-nut\\reward-device-evidence\\first-guide-result.png",
+      "sourceKind": "原版设备截图",
+      "sourceSha256": "43c51e58f613934b496b9e604d8c82d0538dacc90e42d7db67a70565437ce766",
+      "sourceCopy": "originals/cash-original.png",
+      "sourceSize": [
+        1440,
+        2560
+      ],
+      "effect": "cash-effect.png",
+      "effectSha256": "905133a48512d6ee7d8efc7c4853d9e84c45ff3651adc003fb5eceb9314476ea",
+      "effectSize": [
+        941,
+        1672
+      ],
+      "comparison": "comparisons/04-cash-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 5,
+      "id": "diamond",
+      "title": "钻石提现",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\RewardEvidence\\local-withdrawal-coin-BR.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "40cdad3cf5082fb2305ddffdf9686ba1b1d69c54bbdc2463fe8f82d81ddab31f",
+      "sourceCopy": "originals/diamond-original.png",
+      "sourceSize": [
+        720,
+        1280
+      ],
+      "effect": "diamond-effect.png",
+      "effectSha256": "97a4b773522403c0964d2c3462d2e3171b5bfd52ff810a437aeb3a3642e938fe",
+      "effectSize": [
+        941,
+        1672
+      ],
+      "comparison": "comparisons/05-diamond-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 6,
+      "id": "account",
+      "title": "账户信息",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\reconstruction-nut\\reward-device-evidence\\second-payment-ready.png",
+      "sourceKind": "原版设备截图",
+      "sourceSha256": "92d3e25134ca24d684ef9a128744c200808e71d168baf9167b3940f25d863635",
+      "sourceCopy": "originals/account-original.png",
+      "sourceSize": [
+        1440,
+        2560
+      ],
+      "effect": "account-effect.png",
+      "effectSha256": "36168aedb0875c075135c846398234130b02102ced1fe60a43475d1141c0a1c1",
+      "effectSize": [
+        941,
+        1672
+      ],
+      "comparison": "comparisons/06-account-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 7,
+      "id": "account_confirmation",
+      "title": "账户确认",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\withdrawal-confirmation-current.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "d40dcb1b145f9482621cd186ffb3c35cce40adb742c0370a349a17fb58eedd8a",
+      "sourceCopy": "originals/account_confirmation-original.png",
+      "sourceSize": [
+        480,
+        1040
+      ],
+      "effect": "account_confirmation-effect.png",
+      "effectSha256": "47ff944611b1be32bea9ce5fe2310a047db76a597df67c2d82caafab8bdb66fd",
+      "effectSize": [
+        852,
+        1846
+      ],
+      "comparison": "comparisons/07-account_confirmation-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 8,
+      "id": "channel_contact",
+      "title": "其他提现渠道",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\withdrawal-channel-current.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "99ec2ee2d613969d78aa2bbb68a0a3d54e81000dd2fd3f51343a98fe2a6eb44f",
+      "sourceCopy": "originals/channel_contact-original.png",
+      "sourceSize": [
+        480,
+        1040
+      ],
+      "effect": "channel_contact-effect.png",
+      "effectSha256": "ac6fb82327ea23ec75b2da6a198ae57929563a11a00f8767cec4afb987abe1d8",
+      "effectSize": [
+        852,
+        1846
+      ],
+      "comparison": "comparisons/08-channel_contact-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 9,
+      "id": "withdrawal_level",
+      "title": "提现状态确认",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\withdrawal-level-current.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "40a6bce9456ef33884a4e725a3bc252f658398fd3714620a53f3fb80679253f2",
+      "sourceCopy": "originals/withdrawal_level-original.png",
+      "sourceSize": [
+        480,
+        1040
+      ],
+      "effect": "withdrawal_level-effect.png",
+      "effectSha256": "21da7470191368c043d68b33d2515addf03ba38ecfab75da170933a905e7fb4b",
+      "effectSize": [
+        852,
+        1846
+      ],
+      "comparison": "comparisons/09-withdrawal_level-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 10,
+      "id": "withdrawal_steps",
+      "title": "提现处理进度",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\withdrawal-stage-zero-current.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "e4bad1b742f176513a4974e6d7ee907dd6ff84eef978abe57589944d4f678d96",
+      "sourceCopy": "originals/withdrawal_steps-original.png",
+      "sourceSize": [
+        480,
+        1040
+      ],
+      "effect": "withdrawal_steps-effect.png",
+      "effectSha256": "352397f3f75f6dc05303235946fe7b4c4427da74f19b50bc71f2ad9760f3cd95",
+      "effectSize": [
+        852,
+        1846
+      ],
+      "comparison": "comparisons/10-withdrawal_steps-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "id": "withdrawal_verification",
+      "title": "提现验证提示",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\withdrawal-too-fast-current.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "aab7a00aa8c84cdd684797805d6fe530ec34a8a9924fac83d384a75fa6691356",
+      "sourceCopy": "originals/withdrawal_verification-original.png",
+      "sourceSize": [
+        480,
+        1040
+      ],
+      "effect": "withdrawal_verification-effect.png",
+      "effectSha256": "33e3fedb18c3af82a506c5f15e4f071bbea43c1e865264b06f614cddf5b21379",
+      "effectSize": [
+        852,
+        1846
+      ],
+      "comparison": "comparisons/11-withdrawal_verification-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 12,
+      "id": "withdrawal_loading",
+      "title": "提现加载",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\withdrawal-loading-current.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "40c1e8d68133dea5c92016da883475afb6ad2aafa7c2abebd5731a90d03df4c8",
+      "sourceCopy": "originals/withdrawal_loading-original.png",
+      "sourceSize": [
+        480,
+        1040
+      ],
+      "effect": "withdrawal_loading-effect.png",
+      "effectSha256": "5c9207faecd112fd63714a7f5bad9348d7cb3a7fc6ee6379e39b03c355f9f7cd",
+      "effectSize": [
+        852,
+        1846
+      ],
+      "comparison": "comparisons/12-withdrawal_loading-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 13,
+      "id": "withdrawal_guide",
+      "title": "欢迎与提现说明",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\record-guide.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "cfe96985a825149410a801a5858533dea3bbf0a8d674eef262159c55cc80f4a3",
+      "sourceCopy": "originals/withdrawal_guide-original.png",
+      "sourceSize": [
+        480,
+        854
+      ],
+      "effect": "withdrawal_guide-effect.png",
+      "effectSha256": "eef214ff0ac63d945c0b5298d7e87f85ec72ccfd9776ff5ecaa3d5a9914665e5",
+      "effectSize": [
+        939,
+        1674
+      ],
+      "comparison": "comparisons/13-withdrawal_guide-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 14,
+      "id": "target_complete",
+      "title": "目标完成",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\guide-target-complete.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "4ed2dabaf23024fdb9d57affa926cf8fafa63cab15a811073107614a2cb399be",
+      "sourceCopy": "originals/target_complete-original.png",
+      "sourceSize": [
+        480,
+        1040
+      ],
+      "effect": "target_complete-effect.png",
+      "effectSha256": "2f2c25b1aed7205034f671a9d2e78754dd339a3a438b1d09cfb4defa252b034a",
+      "effectSize": [
+        852,
+        1846
+      ],
+      "comparison": "comparisons/14-target_complete-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 15,
+      "id": "success",
+      "title": "通关结算",
+      "source": "C:\\Projects\\Golden  Dragon Legend\\reconstruction-nut\\reward-device-evidence\\third-settlement-final.png",
+      "sourceKind": "原版设备截图",
+      "sourceSha256": "7bcd4bd3dac4ea990ec92febaf46a3856dcdca292ea64ac2f21bc8fbe5e13063",
+      "sourceCopy": "originals/success-original.png",
+      "sourceSize": [
+        1440,
+        2560
+      ],
+      "effect": "success-effect.png",
+      "effectSha256": "4cbe86e7c68738c1c442f9cab13cc81dfb9bc65f040d0080009acad4eee6a8bc",
+      "effectSize": [
+        941,
+        1672
+      ],
+      "comparison": "comparisons/15-success-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 16,
+      "id": "failure",
+      "title": "失败提示",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\failure-panel-play.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "21cec82aba11ded063df39f1eeefc14034b98af6f9801bcd0e81a2ac5bf6f967",
+      "sourceCopy": "originals/failure-original.png",
+      "sourceSize": [
+        480,
+        1040
+      ],
+      "effect": "failure-effect.png",
+      "effectSha256": "1668a4e96f58eebf2f97e931795f43f212eb93f5b6fa790d4b06b91ab23fd670",
+      "effectSize": [
+        852,
+        1846
+      ],
+      "comparison": "comparisons/16-failure-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 17,
+      "id": "replay",
+      "title": "重开确认",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\replay-panel.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "b8273b8f28070af78af365b0a310e64de36be3790beb2c1b8b8132e93927f5af",
+      "sourceCopy": "originals/replay-original.png",
+      "sourceSize": [
+        480,
+        854
+      ],
+      "effect": "replay-effect.png",
+      "effectSha256": "77601404bb3cd84777e3090a90eecc1f8f01533f508a04b66d7ded1caba6d8ca",
+      "effectSize": [
+        940,
+        1674
+      ],
+      "comparison": "comparisons/17-replay-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 18,
+      "id": "refresh",
+      "title": "刷新道具",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\RewardEvidence\\local-tool-offer-refresh.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "922cd65b75f9cc47a008de01b8ca8f58ff03ac68c36c54477a59f34f961daca0",
+      "sourceCopy": "originals/refresh-original.png",
+      "sourceSize": [
+        720,
+        1280
+      ],
+      "effect": "refresh-effect.png",
+      "effectSha256": "3846244f10881b7daf35eeaa46571b16b1dc9729d13b520cf2e97bbdb247a0d0",
+      "effectSize": [
+        941,
+        1672
+      ],
+      "comparison": "comparisons/18-refresh-comparison.png",
+      "note": ""
+    },
+    {
+      "index": 19,
+      "id": "undo",
+      "title": "撤销道具",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\RewardEvidence\\local-tool-offer-refresh.png",
+      "sourceKind": "换皮前共享道具弹窗（刷新态）",
+      "sourceSha256": "922cd65b75f9cc47a008de01b8ca8f58ff03ac68c36c54477a59f34f961daca0",
+      "sourceCopy": "originals/undo-original.png",
+      "sourceSize": [
+        720,
+        1280
+      ],
+      "effect": "undo-effect.png",
+      "effectSha256": "7ea564f5ad3ea3bbf10b925c9b4862be4ae617c186450b0baaf6dc7440e83bc4",
+      "effectSize": [
+        941,
+        1672
+      ],
+      "comparison": "comparisons/19-undo-comparison.png",
+      "note": "这两种道具共用原弹窗结构；新图标题、图标和说明来自现有道具配置。"
+    },
+    {
+      "index": 20,
+      "id": "add_screw",
+      "title": "加螺丝道具",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\RewardEvidence\\local-tool-offer-refresh.png",
+      "sourceKind": "换皮前共享道具弹窗（刷新态）",
+      "sourceSha256": "922cd65b75f9cc47a008de01b8ca8f58ff03ac68c36c54477a59f34f961daca0",
+      "sourceCopy": "originals/add_screw-original.png",
+      "sourceSize": [
+        720,
+        1280
+      ],
+      "effect": "add_screw-effect.png",
+      "effectSha256": "027e0e542c14b41099e32c99c30cd2ad305197e8262d91c85cbaadb252e863c7",
+      "effectSize": [
+        941,
+        1672
+      ],
+      "comparison": "comparisons/20-add_screw-comparison.png",
+      "note": "这两种道具共用原弹窗结构；新图标题、图标和说明来自现有道具配置。"
+    },
+    {
+      "index": 21,
+      "id": "reward",
+      "title": "自动领取奖励",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\reward-panel-current.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "1a2bd2fb21a1d9dcffe7c39401e03e28ed504bd04f1f2cf301d1b5ba0ce2c410",
+      "sourceCopy": "originals/reward-original.png",
+      "sourceSize": [
+        480,
+        1040
+      ],
+      "effect": "reward-effect.png",
+      "effectSha256": "66831f33459324f280c80de45eb111e7d37059b5edc8e2c60905ed7a04593e11",
+      "effectSize": [
+        852,
+        1846
+      ],
+      "comparison": "comparisons/21-reward-comparison.png",
+      "note": "AI横幅中心较原图低约1.6%屏高；实施时保持Prefab原位置，不按AI图移动控件。"
+    },
+    {
+      "index": 22,
+      "id": "unlock",
+      "title": "新玩法说明",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\unlock-0.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "3eb7de2ea0fec703f91c2d7a41eef34cfaad56e8c31f326c7afed4cebf6085a8",
+      "sourceCopy": "originals/unlock-original.png",
+      "sourceSize": [
+        480,
+        1040
+      ],
+      "effect": "unlock-effect.png",
+      "effectSha256": "6020d0d68877ad9a1ccbb96b9d710634e0147cb3e3bf1808256810bbb9128904",
+      "effectSize": [
+        852,
+        1846
+      ],
+      "comparison": "comparisons/22-unlock-comparison.png",
+      "note": "展示隐藏螺母这一代表状态，其余玩法状态复用同一说明界面。"
+    },
+    {
+      "index": 23,
+      "id": "message",
+      "title": "通用提示",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Library\\ValidationCaptures\\message-panel-current.png",
+      "sourceKind": "换皮前 Unity 截图",
+      "sourceSha256": "163dd572accd72e620b60cf19718fc0d60becc83e60ce5bcd35017296db42048",
+      "sourceCopy": "originals/message-original.png",
+      "sourceSize": [
+        480,
+        1040
+      ],
+      "effect": "message-effect.png",
+      "effectSha256": "7b1dde89897b954e79e00b5f85748f2df8185c5ea0861517235a0a06aab8ba6d",
+      "effectSize": [
+        852,
+        1846
+      ],
+      "comparison": "comparisons/23-message-comparison.png",
+      "note": ""
+    }
+  ]
+}

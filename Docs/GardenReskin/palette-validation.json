@@ -1,0 +1,976 @@
+{
+  "status": "PASS",
+  "check": "Only permitted serialized colour and base metallic fields differ; all other serialized bytes unchanged.",
+  "files": [
+    "Assets/Resources/prefabs/panels/AddScrewItem.prefab",
+    "Assets/Resources/prefabs/panels/CoinItem.prefab",
+    "Assets/Resources/prefabs/panels/ExchangeItem.prefab",
+    "Assets/Resources/prefabs/panels/GoldItem.prefab",
+    "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+    "Assets/Resources/prefabs/panels/LocalGameplay.prefab",
+    "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+    "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+    "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+    "Assets/Resources/prefabs/panels/MainPanelTop.prefab",
+    "Assets/Resources/prefabs/panels/MessagePanel.prefab",
+    "Assets/Resources/prefabs/panels/NewbieGuidePanel.prefab",
+    "Assets/Resources/prefabs/panels/ReplayPanel.prefab",
+    "Assets/Resources/prefabs/panels/RevokeItem.prefab",
+    "Assets/Resources/prefabs/panels/SuccessPanel.prefab",
+    "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+    "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "Assets/Resources/prefabs/panels/TXPanel.prefab",
+    "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+    "Assets/Resources/prefabs/playerinfo/PMDSimple.prefab",
+    "Assets/Material/zh_Custom SDF_outline.mat",
+    "Assets/Material/zh_Custom SDF_outline_b.mat",
+    "Assets/Material/zh_Custom SDF_outline_blue.mat",
+    "Assets/Material/zh_Custom SDF_outline_blue1.mat",
+    "Assets/Material/zh_Custom SDF_outline_blue2.mat",
+    "Assets/Material/zh_Custom SDF_outline_brown.mat",
+    "Assets/Material/zh_Custom SDF_outline_gray.mat",
+    "Assets/Material/zh_Custom SDF_outline_green.mat",
+    "Assets/Material/zh_Custom SDF_outline_green1.mat",
+    "Assets/Material/zh_Custom SDF_outline_orange.mat",
+    "Assets/Material/zh_Custom SDF_outline_pink.mat",
+    "Assets/Material/zh_Custom SDF_outline_purple.mat",
+    "Assets/Material/zh_Custom SDF_outline_red_b.mat",
+    "Assets/Material/DiZuoMaterial.mat",
+    "Assets/Material/DiZuoLockedMaterial.mat"
+  ],
+  "changes": [
+    {
+      "file": "Assets/Resources/prefabs/panels/AddScrewItem.prefab",
+      "component": "114910201747455131",
+      "path": "AddTile/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/CoinItem.prefab",
+      "component": "114038333544927157",
+      "path": "CoinItem/Value",
+      "field": "m_fontColor",
+      "before": "{r: 0.13333334, g: 0.10980393, b: 0.23529413, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/CoinItem.prefab",
+      "component": "114220697728379336",
+      "path": "CoinItem/Hint/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 1}",
+      "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/ExchangeItem.prefab",
+      "component": "114360591974699550",
+      "path": "Exchange/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/GoldItem.prefab",
+      "component": "114328299215684997",
+      "path": "GoldItem/Value",
+      "field": "m_fontColor",
+      "before": "{r: 0.13333334, g: 0.10980393, b: 0.23529413, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/GoldItem.prefab",
+      "component": "114187454977326620",
+      "path": "GoldItem/Hint/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0, g: 0, b: 0, a: 1}",
+      "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+      "component": "114924050743934937",
+      "path": "ItemGetPanel/main/Tip",
+      "field": "m_fontColor",
+      "before": "{r: 0.073165014, g: 0.17442524, b: 0.51758504, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/LocalGameplay.prefab",
+      "component": "4153085057173183233",
+      "path": "LocalGameplay/Result/Card/Dismiss",
+      "field": "m_Color",
+      "before": "{r: 0.16, g: 0.53, b: 0.29, a: 1}",
+      "after": "{r: 0.28627451, g: 0.49019608, b: 0.19215686, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/LocalGameplay.prefab",
+      "component": "6735994600662206426",
+      "path": "LocalGameplay/Result/Card",
+      "field": "m_Color",
+      "before": "{r: 0.1, g: 0.18, b: 0.24, a: 1}",
+      "after": "{r: 0.98039216, g: 0.92941176, b: 0.84313725, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/LocalGameplay.prefab",
+      "component": "165710342353963279",
+      "path": "LocalGameplay/Result/Card/Message",
+      "field": "m_fontColor",
+      "before": "{r: 1, g: 1, b: 1, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+      "component": "114328299215684997",
+      "path": "Top/GoldItem/Value",
+      "field": "m_fontColor",
+      "before": "{r: 0.13333334, g: 0.10980393, b: 0.23529413, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+      "component": "114187454977326620",
+      "path": "Top/GoldItem/Hint/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0, g: 0, b: 0, a: 1}",
+      "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+      "component": "114038333544927157",
+      "path": "Top/CoinItem/Value",
+      "field": "m_fontColor",
+      "before": "{r: 0.13333334, g: 0.10980393, b: 0.23529413, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+      "component": "114220697728379336",
+      "path": "Top/CoinItem/Hint/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 1}",
+      "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+      "component": "114405989028062321",
+      "path": "Bottom/Revoke/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+      "component": "114360591974699550",
+      "path": "Bottom/Exchange/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+      "component": "114910201747455131",
+      "path": "Bottom/AddTile/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "component": "114328299215684997",
+      "path": "MainPanel/Top/GoldItem/Value",
+      "field": "m_fontColor",
+      "before": "{r: 0.13333334, g: 0.10980393, b: 0.23529413, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "component": "114187454977326620",
+      "path": "MainPanel/Top/GoldItem/Hint/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0, g: 0, b: 0, a: 1}",
+      "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "component": "114038333544927157",
+      "path": "MainPanel/Top/CoinItem/Value",
+      "field": "m_fontColor",
+      "before": "{r: 0.13333334, g: 0.10980393, b: 0.23529413, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "component": "114220697728379336",
+      "path": "MainPanel/Top/CoinItem/Hint/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 1}",
+      "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "component": "114405989028062321",
+      "path": "MainPanel/Bottom/Revoke/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "component": "114360591974699550",
+      "path": "MainPanel/Bottom/Exchange/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "component": "114910201747455131",
+      "path": "MainPanel/Bottom/AddTile/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelTop.prefab",
+      "component": "114328299215684997",
+      "path": "Top/GoldItem/Value",
+      "field": "m_fontColor",
+      "before": "{r: 0.13333334, g: 0.10980393, b: 0.23529413, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelTop.prefab",
+      "component": "114187454977326620",
+      "path": "Top/GoldItem/Hint/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0, g: 0, b: 0, a: 1}",
+      "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelTop.prefab",
+      "component": "114038333544927157",
+      "path": "Top/CoinItem/Value",
+      "field": "m_fontColor",
+      "before": "{r: 0.13333334, g: 0.10980393, b: 0.23529413, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelTop.prefab",
+      "component": "114220697728379336",
+      "path": "Top/CoinItem/Hint/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 1}",
+      "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MessagePanel.prefab",
+      "component": "379",
+      "path": "MessagePanel/Content",
+      "field": "m_fontColor",
+      "before": "{r: 0.11202086, g: 0.22325069, b: 0.6037736, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/NewbieGuidePanel.prefab",
+      "component": "114841364053301648",
+      "path": "NewbieGuidePanel/Pos/Tip/Value",
+      "field": "m_fontColor",
+      "before": "{r: 0.20784315, g: 0.5058824, b: 0.7254902, a: 1}",
+      "after": "{r: 1, g: 0.96078431, b: 0.85098039, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/ReplayPanel.prefab",
+      "component": "114918264173551851",
+      "path": "ReplayPanel/main/label_148",
+      "field": "m_fontColor",
+      "before": "{r: 0.08627451, g: 0.46274513, b: 0.7176471, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/ReplayPanel.prefab",
+      "component": "114371939378208658",
+      "path": "ReplayPanel/main/label_147",
+      "field": "m_fontColor",
+      "before": "{r: 0.24226421, g: 0.24226421, b: 0.24226421, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/RevokeItem.prefab",
+      "component": "114405989028062321",
+      "path": "Revoke/Text (TMP)",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/SuccessPanel.prefab",
+      "component": "114371939378208658",
+      "path": "SuccessPanel/main/label_88",
+      "field": "m_fontColor",
+      "before": "{r: 1, g: 1, b: 1, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+      "component": "114313026266067498",
+      "path": "TXChannelPanel/main/label_154",
+      "field": "m_fontColor",
+      "before": "{r: 0.18431373, g: 0.12941177, b: 0.2509804, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+      "component": "114967328832014496",
+      "path": "TXChannelPanel/main/InputInfo/Text Area/label_156",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 0.5}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+      "component": "114107629493147155",
+      "path": "TXChannelPanel/main/InputInfo/Text Area/Text",
+      "field": "m_fontColor",
+      "before": "{r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "component": "114132862189046193",
+      "path": "TXCoinPanel/main/label_164",
+      "field": "m_fontColor",
+      "before": "{r: 1, g: 1, b: 1, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+      "component": "114384403120170545",
+      "path": "TXLevelPanel/main/label_81",
+      "field": "m_fontColor",
+      "before": "{r: 0.3871699, g: 0.3871699, b: 0.3871699, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+      "component": "114699617135816954",
+      "path": "TXLevelPanel/main/Step/1/Content/label_90",
+      "field": "m_fontColor",
+      "before": "{r: 0.3871699, g: 0.3871699, b: 0.3871699, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+      "component": "114240571728440943",
+      "path": "TXLevelPanel/main/Step/2/Content/label_91",
+      "field": "m_fontColor",
+      "before": "{r: 0.3871699, g: 0.3871699, b: 0.3871699, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+      "component": "114528911807818478",
+      "path": "TXLevelPanel/main/Step/3/Content/label_92",
+      "field": "m_fontColor",
+      "before": "{r: 0.3871699, g: 0.3871699, b: 0.3871699, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "component": "114699617135816954",
+      "path": "TXPanel/main/Tip",
+      "field": "m_fontColor",
+      "before": "{r: 0.3529412, g: 0.48235297, b: 0.9568628, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+      "component": "114534704304255049",
+      "path": "TXProgress0Panel/main/Step/1/Content/label_38",
+      "field": "m_fontColor",
+      "before": "{r: 0.3871699, g: 0.3871699, b: 0.3871699, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+      "component": "114208575754630950",
+      "path": "TXProgress0Panel/main/Step/1/Content/Time",
+      "field": "m_fontColor",
+      "before": "{r: 0.3871699, g: 0.3871699, b: 0.3871699, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+      "component": "114855482821919830",
+      "path": "TXProgress0Panel/main/Step/2/Content/label_39",
+      "field": "m_fontColor",
+      "before": "{r: 0.3871699, g: 0.3871699, b: 0.3871699, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+      "component": "114880619614767448",
+      "path": "TXProgress0Panel/main/Step/2/Content/Time",
+      "field": "m_fontColor",
+      "before": "{r: 0.3871699, g: 0.3871699, b: 0.3871699, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+      "component": "114295428814336086",
+      "path": "TXProgress0Panel/main/Step/3/Content/Tip",
+      "field": "m_fontColor",
+      "before": "{r: 0.3871699, g: 0.3871699, b: 0.3871699, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+      "component": "114232094423628703",
+      "path": "TXProgress0Panel/main/Step/4/label_41",
+      "field": "m_fontColor",
+      "before": "{r: 0.3871699, g: 0.3871699, b: 0.3871699, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+      "component": "114017697238300914",
+      "path": "TXTooFastHintPanel/main/label_46",
+      "field": "m_fontColor",
+      "before": "{r: 0.39607847, g: 0.5019608, b: 0.91372555, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+      "component": "114089843903986396",
+      "path": "TXTooFastHintPanel/main/LevelTip",
+      "field": "m_fontColor",
+      "before": "{r: 0.39607847, g: 0.5019608, b: 0.91372555, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+      "component": "114026196548002408",
+      "path": "TXTooFastHintPanel/main/VideoTip",
+      "field": "m_fontColor",
+      "before": "{r: 0.39607847, g: 0.5019608, b: 0.91372555, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "component": "114107629493147155",
+      "path": "TXUserInfoPanel/main/label_108",
+      "field": "m_fontColor",
+      "before": "{r: 1, g: 1, b: 1, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "component": "114574304967836189",
+      "path": "TXUserInfoPanel/main/InputName/Text Area/label_110",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 0.5}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "component": "114829625606037309",
+      "path": "TXUserInfoPanel/main/InputName/Text Area/Text",
+      "field": "m_fontColor",
+      "before": "{r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "component": "114356319167443197",
+      "path": "TXUserInfoPanel/main/InputAreaNumber/Text Area/Placeholder",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 0.5}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "component": "114499726237547504",
+      "path": "TXUserInfoPanel/main/InputAreaNumber/Text Area/Text",
+      "field": "m_fontColor",
+      "before": "{r: 0.2735849, g: 0.2735849, b: 0.2735849, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "component": "114354824845356902",
+      "path": "TXUserInfoPanel/main/InputNumber/Text Area/label_111",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 0.5}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "component": "114492842699383957",
+      "path": "TXUserInfoPanel/main/InputNumber/Text Area/Text",
+      "field": "m_fontColor",
+      "before": "{r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "component": "114168775426067361",
+      "path": "TXUserInfoPanel/main/InputEmail/Text Area/label_112",
+      "field": "m_fontColor",
+      "before": "{r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 0.5}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "component": "114709890794832471",
+      "path": "TXUserInfoPanel/main/InputEmail/Text Area/Text",
+      "field": "m_fontColor",
+      "before": "{r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+      "component": "114946936116752871",
+      "path": "TXUserInfoSurePanel/main/Tip",
+      "field": "m_fontColor",
+      "before": "{r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Resources/prefabs/playerinfo/PMDSimple.prefab",
+      "component": "114711914853252429",
+      "path": "PMDSimple/Scroll View/Viewport/Content/PMDItem/Text",
+      "field": "m_fontColor",
+      "before": "{r: 0.11320752, g: 0.11320752, b: 0.11320752, a: 1}",
+      "after": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0, g: 0, b: 0, a: 1}",
+      "after": "{r: 0.34117647, g: 0.20784314, b: 0.12156863, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_b.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0, g: 0, b: 0, a: 1}",
+      "after": "{r: 0.34117647, g: 0.20784314, b: 0.12156863, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_blue.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0, g: 0.2930089, b: 0.4433962, a: 1}",
+      "after": "{r: 0.34117647, g: 0.20784314, b: 0.12156863, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_blue1.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0.034175836, g: 0.16023326, b: 0.33962262, a: 1}",
+      "after": "{r: 0.34117647, g: 0.20784314, b: 0.12156863, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_blue2.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0.20291919, g: 0.3070488, b: 0.4528302, a: 1}",
+      "after": "{r: 0.34117647, g: 0.20784314, b: 0.12156863, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_brown.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0.5188679, g: 0.17650308, b: 0.10034709, a: 1}",
+      "after": "{r: 0.41176471, g: 0.25098039, b: 0.14901961, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_gray.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0.34082413, g: 0.3490566, b: 0.33753115, a: 1}",
+      "after": "{r: 0.34901961, g: 0.31764706, b: 0.26666667, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_green.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0, g: 0.4528302, b: 0, a: 1}",
+      "after": "{r: 0.15686275, g: 0.34509804, b: 0.16862745, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_green1.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0.010902455, g: 0.46226418, b: 0.46226418, a: 1}",
+      "after": "{r: 0.15686275, g: 0.34509804, b: 0.16862745, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_orange.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0.6509434, g: 0.123546764, b: 0, a: 1}",
+      "after": "{r: 0.56862745, g: 0.23529412, b: 0.070588235, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_pink.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0.84687346, g: 0.05951124, b: 0.597202, a: 1}",
+      "after": "{r: 0.41176471, g: 0.25098039, b: 0.14901961, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_purple.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0.48084074, g: 0.06140977, b: 0.5660378, a: 1}",
+      "after": "{r: 0.38039216, g: 0.23137255, b: 0.43921569, a: 1}"
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_red_b.mat",
+      "field": "_OutlineColor",
+      "before": "{r: 0.8867924, g: 0.25148746, b: 0.14640439, a: 1}",
+      "after": "{r: 0.6, g: 0.26666667, b: 0.17254902, a: 1}"
+    },
+    {
+      "file": "Assets/Material/DiZuoMaterial.mat",
+      "field": "_BaseColor",
+      "before": "{r: 0.84276724, g: 0.84276724, b: 0.84276724, a: 1}",
+      "after": "{r: 0.2, g: 0.17, b: 0.13, a: 1}"
+    },
+    {
+      "file": "Assets/Material/DiZuoMaterial.mat",
+      "field": "_Color",
+      "before": "{r: 0.84276724, g: 0.84276724, b: 0.84276724, a: 1}",
+      "after": "{r: 0.2, g: 0.17, b: 0.13, a: 1}"
+    },
+    {
+      "file": "Assets/Material/DiZuoMaterial.mat",
+      "field": "_Metallic",
+      "before": "0.722",
+      "after": "0"
+    },
+    {
+      "file": "Assets/Material/DiZuoLockedMaterial.mat",
+      "field": "_BaseColor",
+      "before": "{r: 0.57216877, g: 0.5830465, b: 0.69182384, a: 1}",
+      "after": "{r: 0.12, g: 0.105, b: 0.082, a: 1}"
+    },
+    {
+      "file": "Assets/Material/DiZuoLockedMaterial.mat",
+      "field": "_Color",
+      "before": "{r: 0.57216877, g: 0.5830465, b: 0.69182384, a: 1}",
+      "after": "{r: 0.12, g: 0.105, b: 0.082, a: 1}"
+    },
+    {
+      "file": "Assets/Material/DiZuoLockedMaterial.mat",
+      "field": "_Metallic",
+      "before": "0.8",
+      "after": "0"
+    }
+  ],
+  "git_baseline_verification": [
+    {
+      "file": "Assets/Resources/prefabs/panels/AddScrewItem.prefab",
+      "serialized_object_count": 24,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/CoinItem.prefab",
+      "serialized_object_count": 33,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/ExchangeItem.prefab",
+      "serialized_object_count": 24,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/GoldItem.prefab",
+      "serialized_object_count": 34,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+      "serialized_object_count": 69,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/LocalGameplay.prefab",
+      "serialized_object_count": 44,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+      "serialized_object_count": 307,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+      "serialized_object_count": 95,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "serialized_object_count": 434,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MainPanelTop.prefab",
+      "serialized_object_count": 307,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/MessagePanel.prefab",
+      "serialized_object_count": 30,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/NewbieGuidePanel.prefab",
+      "serialized_object_count": 104,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/ReplayPanel.prefab",
+      "serialized_object_count": 39,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/RevokeItem.prefab",
+      "serialized_object_count": 24,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/SuccessPanel.prefab",
+      "serialized_object_count": 48,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+      "serialized_object_count": 57,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "serialized_object_count": 152,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+      "serialized_object_count": 145,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "serialized_object_count": 110,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+      "serialized_object_count": 147,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+      "serialized_object_count": 77,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "serialized_object_count": 169,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+      "serialized_object_count": 61,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Resources/prefabs/playerinfo/PMDSimple.prefab",
+      "serialized_object_count": 32,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_b.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_blue.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_blue1.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_blue2.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_brown.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_gray.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_green.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_green1.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_orange.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_pink.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_purple.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/zh_Custom SDF_outline_red_b.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/DiZuoMaterial.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    },
+    {
+      "file": "Assets/Material/DiZuoLockedMaterial.mat",
+      "serialized_object_count": null,
+      "structure_unchanged_from_HEAD": true
+    }
+  ],
+  "runtime_visual_status": "Pending main task Unity capture; this report validates serialized structure only.",
+  "finalAlbedoRevision": {
+    "reason": "First Unity capture showed clipped-white nonmetal bases under existing Gamma-space ambient intensity 5 and main-light intensity 1.2. Lower warm albedo preserves shading without changing lights.",
+    "checks": [
+      {
+        "file": "Assets/Material/DiZuoMaterial.mat",
+        "finalColour": "{r: 0.2, g: 0.17, b: 0.13, a: 1}",
+        "metallic": 0,
+        "sha256": "38db61e7cc6b5bcc92cbd2e2fd685ef770f952afadd68e9d1d788c1d4f071cc9"
+      },
+      {
+        "file": "Assets/Material/DiZuoLockedMaterial.mat",
+        "finalColour": "{r: 0.12, g: 0.105, b: 0.082, a: 1}",
+        "metallic": 0,
+        "sha256": "ecc56cd2af1fbe1f7d9f5c137b7f696e41bf43a2be2e2fc1ccd315b567cfe2fb"
+      }
+    ],
+    "scriptUpdatedWithoutRerunningAssets": true
+  },
+  "teachingContrastRevision": {
+    "file": "Assets/Resources/prefabs/panels/NewbieGuidePanel.prefab",
+    "component": "114841364053301648",
+    "path": "NewbieGuidePanel/Pos/Tip/Value",
+    "colour": "{r: 1, g: 0.96078431, b: 0.85098039, a: 1}",
+    "rgba32": 4292474367,
+    "reason": "Runtime-final teaching screenshots showed dark text unreadable on the generated dark-wood banner.",
+    "onlyChangedFields": [
+      "m_fontColor",
+      "m_fontColor32.rgba"
+    ],
+    "allOtherSerializedBytesUnchanged": true,
+    "sha256": "62154a2e9d30ba6fb8fdaf648c6c619adc4da3727aee497d64a7924b3853ad25",
+    "runtimeRetest": "Pending root teaching suite rerun"
+  },
+  "currencyHintPreviewMatchRevision": {
+    "reason": "Match the approved AI preview deep-indigo ordinary text in the near-white Cash hint strips.",
+    "colour": "#171339",
+    "onlyChangedFields": [
+      "m_fontColor",
+      "m_fontColor32.rgba"
+    ],
+    "ordinaryHintComponents": 8,
+    "prefabFiles": 5,
+    "allOtherSerializedBytesUnchanged": true,
+    "currencyAmountTextUnchanged": true,
+    "richTextContentAndExplicitRedTagsUnchanged": true,
+    "checks": [
+      {
+        "file": "Assets/Resources/prefabs/panels/CoinItem.prefab",
+        "component": "114220697728379336",
+        "path": "CoinItem/Hint/Text (TMP)",
+        "before": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}",
+        "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}",
+        "rgba32": 4281930519
+      },
+      {
+        "file": "Assets/Resources/prefabs/panels/GoldItem.prefab",
+        "component": "114187454977326620",
+        "path": "GoldItem/Hint/Text (TMP)",
+        "before": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}",
+        "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}",
+        "rgba32": 4281930519
+      },
+      {
+        "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+        "component": "114187454977326620",
+        "path": "Top/GoldItem/Hint/Text (TMP)",
+        "before": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}",
+        "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}",
+        "rgba32": 4281930519
+      },
+      {
+        "file": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+        "component": "114220697728379336",
+        "path": "Top/CoinItem/Hint/Text (TMP)",
+        "before": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}",
+        "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}",
+        "rgba32": 4281930519
+      },
+      {
+        "file": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+        "component": "114187454977326620",
+        "path": "MainPanel/Top/GoldItem/Hint/Text (TMP)",
+        "before": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}",
+        "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}",
+        "rgba32": 4281930519
+      },
+      {
+        "file": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+        "component": "114220697728379336",
+        "path": "MainPanel/Top/CoinItem/Hint/Text (TMP)",
+        "before": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}",
+        "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}",
+        "rgba32": 4281930519
+      },
+      {
+        "file": "Assets/Resources/prefabs/panels/MainPanelTop.prefab",
+        "component": "114187454977326620",
+        "path": "Top/GoldItem/Hint/Text (TMP)",
+        "before": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}",
+        "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}",
+        "rgba32": 4281930519
+      },
+      {
+        "file": "Assets/Resources/prefabs/panels/MainPanelTop.prefab",
+        "component": "114220697728379336",
+        "path": "Top/CoinItem/Hint/Text (TMP)",
+        "before": "{r: 0.30196078, g: 0.18431373, b: 0.10980392, a: 1}",
+        "after": "{r: 0.090196078, g: 0.074509804, b: 0.22352941, a: 1}",
+        "rgba32": 4281930519
+      }
+    ],
+    "runtimeRetest": "Verified in live Unity Editor Play Mode after asset refresh and restart; see top-hints-match/unity-live.png"
+  }
+}

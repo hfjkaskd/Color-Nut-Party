@@ -1,0 +1,27 @@
+{
+  "source": "C:/Projects/com.nut.sort.relax/Docs/RewardEvidence/local-tool-offer-refresh.png",
+  "sourceKind": "Original reconstructed game Unity runtime screenshot of shared tool popup IN REFRESH STATE",
+  "editTarget": "refresh-effect.png",
+  "output": "undo-effect.png",
+  "generatedOriginalPath": "C:/Users/pc/.codex/generated_images/01a11e9f-252f-74a1-9801-0003349d4747/exec-170594c3-4dc4-460b-9fe9-437b26408aaa.png",
+  "method": "built-in image_gen",
+  "prompt": "undo-prompt.txt",
+  "comparisonNote": "换皮前共享道具弹窗（刷新态）；撤销变体文案和图标来自现有配置，左图并非撤销态截图。",
+  "variantSource": [
+    "C:/Projects/com.nut.sort.relax/Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+    "C:/Projects/com.nut.sort.relax/Assets/NutSort/Runtime/UI/LocalToolOfferPanel.cs",
+    "C:/Projects/Golden  Dragon Legend/reconstruction-nut/tables-decoded/text.json",
+    "C:/Projects/com.nut.sort.relax/Assets/Resources/atlas/items/Revoke.png"
+  ],
+  "textIds": {
+    "title": 141,
+    "description": 144,
+    "claim": 140
+  },
+  "text": {
+    "title": "Undo",
+    "description": "Undo last action",
+    "claim": "Claim"
+  },
+  "review": "Correct reverse arrow; Close and ad Claim retained; exact configured text, no clipping or decorations. AI variant preview only."
+}

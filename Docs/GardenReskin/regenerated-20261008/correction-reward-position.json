@@ -1,0 +1,31 @@
+{
+  "id": "reward",
+  "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/reward-panel-current.png",
+  "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/reward-effect.png",
+  "selectedGeneratedOriginal": "C:/Users/pc/.codex/generated_images/01a11e9f-252f-74a1-9801-0003349d4747/exec-67e7cc99-6354-458f-b963-f543cab762a1.png",
+  "method": "built-in image_gen",
+  "prompts": [
+    "reward-position-correction-prompt.txt",
+    "reward-position-correction-prompt-2.txt",
+    "reward-position-correction-prompt-3.txt"
+  ],
+  "attempts": 3,
+  "selectedAttempt": 2,
+  "targetNormalizedBandRange": [
+    0.434,
+    0.566
+  ],
+  "selectedApproximateNormalizedBandRange": [
+    0.453,
+    0.579
+  ],
+  "canvas": [
+    852,
+    1846
+  ],
+  "review": "Selected closest of three AI position edits. Reward band and two screw bases relocated to central screen area. x2/x3, both reward icons, toolbar5/+ /+,settings,reload retained. No clipping. Not pixel exact: selected band remains about1.6% screenheight below original; Unity implementation must retain actual Prefab positions rather than infer from AI pixels. Original generated files kept.",
+  "unusedGeneratedVariants": [
+    "C:/Users/pc/.codex/generated_images/01a11e9f-252f-74a1-9801-0003349d4747/exec-344bebc6-fe18-4d97-994a-984ff1a758aa.png",
+    "C:/Users/pc/.codex/generated_images/01a11e9f-252f-74a1-9801-0003349d4747/exec-2da2a213-e07b-4f41-8135-ce18cf41fb46.png"
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "passed": true,
+    "method": "NutSort.Validation.LocalRewardsTopPlayValidation.Run",
+    "marker": "NUT_LOCAL_REWARDS_TOP_PASS",
+    "exitCode": 0,
+    "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-polish-final\\main.log",
+    "screenshots": [
+      {
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-polish-final\\main-unity-play-local-rewards-top-BR.png",
+        "sha256": "323D6C0A56DA58707452D44BB415E2F29A6C6742A9AA2A575BF6FC9BA59A0B17"
+      },
+      {
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-polish-final\\main-unity-play-local-rewards-top-ID.png",
+        "sha256": "03C05814C1337077652472A136C3FDE333D6E557FC5DE2C5AFF9852BDE14E78D"
+      }
+    ],
+    "suite": "main"
+  },
+  {
+    "passed": true,
+    "method": "NutSort.Validation.LocalToolOfferPlayValidation.Run",
+    "marker": "NUT_LOCAL_TOOL_OFFER_PASS",
+    "exitCode": 0,
+    "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-polish-final\\tooloffer.log",
+    "screenshots": [
+      {
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-polish-final\\tooloffer-unity-play-local-tool-offer-refresh.png",
+        "sha256": "A8AA1C3357F017F76C775EE15F96660C9E00F2E6B804154B382A3ACF2B53DF59"
+      }
+    ],
+    "suite": "tooloffer"
+  }
+]

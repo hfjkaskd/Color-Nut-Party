@@ -1,0 +1,30 @@
+{
+  "exitCode": 0,
+  "suite": "teaching",
+  "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-teaching-final\\teaching.log",
+  "passed": true,
+  "method": "NutSort.Validation.LocalTeachingViewPlayValidation.Run",
+  "marker": "NUT_LOCAL_TEACHING_VIEW_PASS",
+  "screenshots": [
+    {
+      "sha256": "7B4558F5F11AED2C25D73EE001E231738A9E0081A525D2FBC3A2C34EA3BF9B91",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-teaching-final\\teaching-unity-play-local-teaching-0-current.png"
+    },
+    {
+      "sha256": "EAD59B0F0FE34382DC6711DE1A558F629777D4AE5C5A47B8727B9B770B7D985E",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-teaching-final\\teaching-unity-play-local-teaching-1-current.png"
+    },
+    {
+      "sha256": "288323DFADEC0E33528D5EEC90D68D4CF17CFF33C7326C4F153037D87BC0D950",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-teaching-final\\teaching-unity-play-local-teaching-2-current.png"
+    },
+    {
+      "sha256": "806F404E9B70231505F8BA1734814A38A1E471431A2F565E19ADA8B3B876592F",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-teaching-final\\teaching-unity-play-local-teaching-3-current.png"
+    }
+  ]
+}

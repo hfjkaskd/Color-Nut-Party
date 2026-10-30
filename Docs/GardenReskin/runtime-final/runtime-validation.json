@@ -1,0 +1,152 @@
+[
+  {
+    "exitCode": 0,
+    "method": "NutSort.Validation.LocalRewardsTopPlayValidation.Run",
+    "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\main.log",
+    "screenshots": [
+      {
+        "sha256": "8C9B5351F05D8B785D88EA86C0780BEB5A17888FFE078CADC8D21CB77F6111FE",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\main-unity-play-local-rewards-top-BR.png"
+      },
+      {
+        "sha256": "93B05C3C48213B99C05CB5764210B1DB108FDDCF50CC463542C9E787FEECCD85",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\main-unity-play-local-rewards-top-ID.png"
+      }
+    ],
+    "suite": "main",
+    "passed": true,
+    "marker": "NUT_LOCAL_REWARDS_TOP_PASS"
+  },
+  {
+    "exitCode": 0,
+    "method": "NutSort.Validation.LocalWelcomePlayValidation.Run",
+    "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\welcome.log",
+    "screenshots": [
+      {
+        "sha256": "1F1737A2866E36B55CD4B903F55B37E00F770C5C39ECA6D67D0443C9AD68C19D",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\welcome-unity-play-welcome-startup.png"
+      }
+    ],
+    "suite": "welcome",
+    "passed": true,
+    "marker": "NUT_LOCAL_WELCOME_PASS"
+  },
+  {
+    "exitCode": 0,
+    "method": "NutSort.Validation.LocalTeachingViewPlayValidation.Run",
+    "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\teaching.log",
+    "screenshots": [
+      {
+        "sha256": "C7CD7FE19F7D1CDAC4033A8014CF3D1BCBEF07A26EEEFD59EDAE3F8A3C5380F5",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\teaching-unity-play-local-teaching-0-current.png"
+      },
+      {
+        "sha256": "6E654867455B306F44CCC2C1BAA3380AE07C43811AD76C579AF1E6BF042AFA58",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\teaching-unity-play-local-teaching-1-current.png"
+      },
+      {
+        "sha256": "14FD9DF208629BF86A5BDE4C809968D21556C3E940CF068A6D4B685B54E1941C",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\teaching-unity-play-local-teaching-2-current.png"
+      },
+      {
+        "sha256": "EF40C70107A054A69CE1FE92E0E156B013EB13A3A8FDB408FEB0A588DAFD35C1",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\teaching-unity-play-local-teaching-3-current.png"
+      }
+    ],
+    "suite": "teaching",
+    "passed": true,
+    "marker": "NUT_LOCAL_TEACHING_VIEW_PASS"
+  },
+  {
+    "exitCode": 0,
+    "method": "NutSort.Validation.LocalCashRewardPlayValidation.Run",
+    "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\success.log",
+    "screenshots": [
+      {
+        "sha256": "222386828D6008A34D7D2B65CE2E55D44F9571BA5EE5DE4E9734B7424E83DA31",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\success-unity-play-local-cash-BR.png"
+      },
+      {
+        "sha256": "8A8F3776AA231A561E6E887262A94524FFE9DB6399ED915D490EAD85E91D8905",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\success-unity-play-local-cash-ID.png"
+      }
+    ],
+    "suite": "success",
+    "passed": true,
+    "marker": "NUT_LOCAL_CASH_REWARD_PASS"
+  },
+  {
+    "exitCode": 0,
+    "method": "NutSort.Validation.LocalFailurePlayValidation.Run",
+    "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\failure.log",
+    "screenshots": [
+      {
+        "sha256": "29EFEAD2976FF4BB78B8A7044CFF2E275711F482A776D5B5C91C78B996E948B9",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\failure-unity-play-local-native-failure-current.png"
+      }
+    ],
+    "suite": "failure",
+    "passed": true,
+    "marker": "NUT_LOCAL_FAILURE_PLAY_PASS"
+  },
+  {
+    "exitCode": 0,
+    "method": "NutSort.Validation.LocalWithdrawalPlayValidation.Run",
+    "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\withdrawal.log",
+    "screenshots": [
+      {
+        "sha256": "5AA77D104C96B29541F560E8DBA994C50303DA409114D571834D59E35B5C0A73",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\withdrawal-unity-play-local-withdrawal-cash-BR.png"
+      },
+      {
+        "sha256": "6390A029676FE13951CABB96BF38EFAE23730FB9672479D74EB13E6D3A23D24B",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\withdrawal-unity-play-local-withdrawal-cash-ID.png"
+      },
+      {
+        "sha256": "99B2D7B7C747643F9B6FA527B0943DD58CFAE9462EDAF5E9C6AF20FF870D0809",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\withdrawal-unity-play-local-withdrawal-account-BR.png"
+      },
+      {
+        "sha256": "C05E34527A9534F5BD431AD5CF542839F48B93E50A4A4A77E5020FE82A71C286",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\withdrawal-unity-play-local-withdrawal-account-ID.png"
+      },
+      {
+        "sha256": "48941E2092A97DEFFE3A1147FF408F5F962AFB3E5446325B13DCB272F9582397",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\withdrawal-unity-play-local-withdrawal-coin-BR.png"
+      },
+      {
+        "sha256": "9E5469DDB08EB6B81D60C8671F4F244F41735A47410297D54FCF136A4E6E2B41",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\withdrawal-unity-play-local-withdrawal-coin-ID.png"
+      },
+      {
+        "sha256": "5E8EA2FE8CD4F97B0B37D972E69E5E948EFDC6763901B0507F54FB6DB8D31ADD",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\withdrawal-unity-play-local-diamond-withdraw-feedback-BR.png"
+      },
+      {
+        "sha256": "A3A3CFDFFB05D0DB096BDD4C0D7157AB2470C5BC217A2890B92C98DAB13DB5F4",
+        "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\withdrawal-unity-play-local-diamond-withdraw-feedback-ID.png"
+      }
+    ],
+    "suite": "withdrawal",
+    "passed": true,
+    "marker": "NUT_LOCAL_WITHDRAWAL_PASS"
+  }
+]

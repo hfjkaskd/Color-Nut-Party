@@ -1,0 +1,27 @@
+{
+  "source": "C:/Projects/com.nut.sort.relax/Docs/RewardEvidence/local-tool-offer-refresh.png",
+  "sourceKind": "Original reconstructed game Unity runtime screenshot of shared tool popup IN REFRESH STATE",
+  "editTarget": "refresh-effect.png",
+  "output": "add_screw-effect.png",
+  "generatedOriginalPath": "C:/Users/pc/.codex/generated_images/01a11e9f-252f-74a1-9801-0003349d4747/exec-9c1dfe10-dfd9-4078-97e1-346e458a9f80.png",
+  "method": "built-in image_gen",
+  "prompt": "add_screw-prompt.txt",
+  "comparisonNote": "换皮前共享道具弹窗（刷新态）；加螺丝变体文案和图标来自现有配置，左图并非加螺丝态截图。",
+  "variantSource": [
+    "C:/Projects/com.nut.sort.relax/Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+    "C:/Projects/com.nut.sort.relax/Assets/NutSort/Runtime/UI/LocalToolOfferPanel.cs",
+    "C:/Projects/Golden  Dragon Legend/reconstruction-nut/tables-decoded/text.json",
+    "C:/Projects/com.nut.sort.relax/Assets/Resources/atlas/items/AddScrew.png"
+  ],
+  "textIds": {
+    "title": 143,
+    "description": 146,
+    "claim": 140
+  },
+  "text": {
+    "title": "Bolt+",
+    "description": "Add an empty bolt",
+    "claim": "Claim"
+  },
+  "review": "Correct vertical bolt and plus symbol; Close and ad Claim retained; exact configured text, no clipping or decorations. AI variant preview only."
+}

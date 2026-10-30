@@ -1,0 +1,7 @@
+Use case: precise-object-edit. AI-only Unity UI preview of an existing tool popup variant.
+EDIT TARGET Image 1 is the already-approved generated Refresh preview. Image 2 is the ORIGINAL shared ItemGetPanel screenshot in Refresh state and is layout evidence only. Image 3 is the existing actual Undo icon.
+Edit exactly THREE things in Image 1, leaving all other pixels/composition/layout/styles as unchanged as possible:
+1. Header title becomes exactly "Undo".
+2. Central pink/blue refresh icon becomes the Image3 brown thick single reverse arrow, matching its exact orientation/meaning, in the same center and overall icon area as old refresh icon. A single leftward curved undo arrow, no extra icon panel.
+3. Description becomes exactly "Undo last action", centered on the same text baseline and within same bounds.
+All these strings come from existing game text table IDs141,144; keep bottom "Claim" with original advertisement camera/play icon and Close X in identical locations. Exactly two popup buttons. Keep original surrounding background HUD and toolbar, amounts, counts, all geometry and thin light-honey wood/cream/green style. Entire popup fully inside image. No shifts to title/description/button rows. No frame or container behind icon or description. ZERO leaves, ZERO flowers, no added decoration, no new colors/themes. This image is a content variant preview of same configured shared popup, not an actual screenshot. Do not add captions or watermark.

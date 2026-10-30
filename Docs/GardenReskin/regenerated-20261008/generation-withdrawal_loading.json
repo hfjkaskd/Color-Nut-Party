@@ -1,0 +1,12 @@
+{
+  "id": "withdrawal_loading",
+  "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/withdrawal-loading-current.png",
+  "sourceKind": "换皮前Unity截图",
+  "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_loading-effect.png",
+  "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-bebff7ff-4f1c-4484-8034-770762137f7f.png",
+  "tool": "built-in image_gen",
+  "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_loading-prompt.txt",
+  "correctionPrompt": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_loading-correction-prompt.txt",
+  "rejectedVariant": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-ec4d8cdf-9ed5-46fc-acf3-b506325f33cb.png",
+  "review": "Removed misplaced spurious 1/1 label with targeted imagegen correction; foreground exact copy/control count preserved."
+}

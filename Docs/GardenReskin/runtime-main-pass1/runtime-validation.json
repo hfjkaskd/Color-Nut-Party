@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "exitCode": 0,
+  "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-main-pass1\\main.log",
+  "screenshots": [
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-main-pass1\\main-unity-play-local-rewards-top-BR.png",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+      "sha256": "A174968B089838644DFFEB4FC0DFC514B3F021DCCC84619AA218C1C3390F9AF5"
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-main-pass1\\main-unity-play-local-rewards-top-ID.png",
+      "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+      "sha256": "0AB3076539833A5FAD87D7F22F9AD251F3B58B989766FADE3DB13B29E9BBF60E"
+    }
+  ],
+  "marker": "NUT_LOCAL_REWARDS_TOP_PASS",
+  "method": "NutSort.Validation.LocalRewardsTopPlayValidation.Run",
+  "suite": "main"
+}

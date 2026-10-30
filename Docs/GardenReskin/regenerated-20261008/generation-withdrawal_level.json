@@ -1,0 +1,10 @@
+{
+  "id": "withdrawal_level",
+  "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/withdrawal-level-current.png",
+  "sourceKind": "换皮前Unity截图",
+  "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_level-effect.png",
+  "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-503d7f4e-cea8-48e7-a18c-4ff4534ae070.png",
+  "tool": "built-in image_gen",
+  "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_level-prompt.txt",
+  "review": "All text exact including original 1th wording; 3 status rows and single visible action preserved; no overflow. AI preview does not establish pixel-exact Prefab placement."
+}

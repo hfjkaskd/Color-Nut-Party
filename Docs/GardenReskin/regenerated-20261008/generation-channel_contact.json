@@ -1,0 +1,10 @@
+{
+  "id": "channel_contact",
+  "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/withdrawal-channel-current.png",
+  "sourceKind": "换皮前Unity截图",
+  "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/channel_contact-effect.png",
+  "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-51095e84-ae50-4c98-acba-25991fe505b9.png",
+  "tool": "built-in image_gen",
+  "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/channel_contact-prompt.txt",
+  "review": "All source text/controls retained; no text overflow or new decoration observed."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "account_confirmation",
+  "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/withdrawal-confirmation-current.png",
+  "sourceKind": "换皮前Unity截图",
+  "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/account_confirmation-effect.png",
+  "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-44bb8bd7-76a9-446f-a18f-f3479aa35219.png",
+  "tool": "built-in image_gen",
+  "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/account_confirmation-prompt.txt",
+  "review": "PayPal and fixture text exact; Withdraw now, Re-enter and separate lower X preserved; no overflow."
+}

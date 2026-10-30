@@ -1,0 +1,10 @@
+{
+  "id": "withdrawal_verification",
+  "source": "C:/Projects/com.nut.sort.relax/Library/ValidationCaptures/withdrawal-too-fast-current.png",
+  "sourceKind": "换皮前Unity截图",
+  "output": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_verification-effect.png",
+  "imageGenOriginalPath": "C:\\Users\\pc\\.codex\\generated_images\\01a11e99-bafd-7853-9fee-b11439c264a0\\exec-47b8ceef-2789-40f2-a368-71b785f36b53.png",
+  "tool": "built-in image_gen",
+  "promptFile": "C:/Projects/com.nut.sort.relax/Docs/GardenReskin/regenerated-20261008/withdrawal_verification-prompt.txt",
+  "review": "All source prose plus 99%,12,6/12,10,10/10 exact; separate progress bars and Got it retained, no clipping."
+}
