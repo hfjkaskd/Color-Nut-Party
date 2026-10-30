@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-09",
+  "project": "C:\\Projects\\com.nut.sort.relax",
+  "pages": 23,
+  "implementedIn": "Existing Unity Prefabs, sprite references, serialized presentation parameters and existing base material",
+  "newSpriteCount": 56,
+  "newSpriteDiskBytes": 17371159,
+  "runtimeCaptureUtc": "2026-10-09T04:47:05.7095823Z",
+  "capturedTexts": 132,
+  "buttonCenterRaycasts": 45,
+  "actualAllClickDispatches": 6,
+  "interactionSuites": "20 real Button dispatches at each of 720x1600 and 720x1280",
+  "teaching": "4 explicit teaching seeds hide overlapping ordinary HUD; Level 2 restores ordinary HUD; world selection and current-instruction feedback checked",
+  "structureAudit": {
+    "prefabs": 63,
+    "runtime_files": 238,
+    "changed_prefabs_and_scenes": 32,
+    "scenes": 1,
+    "configuration_files": 22
+  },
+  "structureErrors": 0,
+  "structureWarnings": "38 TMP float/byte serialized color cache differences; live float colors verified in runtime images",
+  "productionCodeCorrections": [
+    "Preserve serialized unlock backdrop tint",
+    "Prevent pool reparenting during scene destruction",
+    "Hide ordinary diamond/milestone row during teaching and restore it afterward"
+  ],
+  "unchanged": [
+    "Prefab hierarchy and RectTransforms",
+    "Button components, target graphics and code-bound events",
+    "Dynamic/localized text content",
+    "Reward amounts, economic configuration and gameplay rules"
+  ],
+  "validationLogs": [
+    "all-20261009-004505.log",
+    "interaction-20261009-003106.log",
+    "interactionwide-20261009-004817.log",
+    "teaching-view-20261009.log",
+    "teaching-click-20261009.log"
+  ],
+  "limits": [
+    "Editor Play Mode captures, not Android device captures",
+    "No production payment or ad SDK calls; fixture callbacks only",
+    "Text boundary checks cover shown states and tested dimensions, not every translation or possible balance",
+    "Raycast reachability is not a business-logic test for every one of the 45 controls"
+  ],
+  "visibleDifferences": [
+    "Live balances, board layouts, hidden nuts and disabled states differ from historical reference fixtures",
+    "AI preview omits some live background HUD and tutorial elements; no new static controls were added to imitate those omissions",
+    "Original 3D geometry and lighting remain; their highlights and shadows are not pixel-identical to the AI illustration",
+    "Some frame thickness, text outline and icon shading differ from the AI mockup",
+    "Withdrawal guide retains original falling-cash animation, including transient text occlusion"
+  ],
+  "apk": "This delivery changes the Unity project; the existing September APK has not been rebuilt by this request.",
+  "cashStateReview": {
+    "status": "PASS",
+    "utc": "2026-10-09T06:12:04.9458696Z",
+    "runtimeError": null,
+    "note": "Matched image is explicit isolated acceptance fixture through real Unity components, not a connected statistics service or real payment.",
+    "originalPreferencesRestored": true,
+    "captures": [
+      {
+        "id": "cash-local-empty",
+        "kind": "Actual local Cash Button route; no statistics or withdrawal record response",
+        "inputs": {
+          "source": "No data response",
+          "date": "--",
+          "people": "--",
+          "attempts": "--",
+          "average": "--"
+        },
+        "progress": "3/5",
+        "fill": 0.6,
+        "amount": "$0",
+        "statistics": [
+          "--",
+          "--",
+          "--"
+        ],
+        "buttonsClicked": "Only main Cash entry Button; no Withdraw click",
+        "image": "cash-local-empty.png",
+        "preferencesUnchangedDuringPresentation": true,
+        "balanceUnchanged": true
+      },
+      {
+        "id": "cash-matched-fixture",
+        "kind": "Unity runtime using original Bind/Init/Refresh APIs with explicit visual acceptance fixture; NOT live statistics or a real payout",
+        "inputs": {
+          "source": "Explicit visual acceptance fixture",
+          "date": "9/9/2026",
+          "people": 25553,
+          "attempts": 1,
+          "average": 0.4,
+          "brand": "Venmo",
+          "displayName": "Player_N9s6",
+          "realPayout": false
+        },
+        "progress": "1/1",
+        "fill": 1.0,
+        "amount": "$0.40",
+        "statistics": [
+          "25553",
+          "1",
+          "$0.40"
+        ],
+        "buttonsClicked": "None",
+        "image": "cash-matched-fixture.png",
+        "preferencesUnchangedDuringPresentation": true,
+        "balanceUnchanged": true
+      }
+    ]
+  }
+}

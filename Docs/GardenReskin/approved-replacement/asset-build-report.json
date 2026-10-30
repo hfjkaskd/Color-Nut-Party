@@ -1,0 +1,401 @@
+[
+  {
+    "name": "panel-diamond",
+    "sha256": "EE7365F434DD105E3D9016BF5049E6B611A8629D008923B7E709CB8147E22D63",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\panel.png",
+    "sourceBounds": [
+      16,
+      9,
+      927,
+      1615
+    ],
+    "size": [
+      1048,
+      1801
+    ],
+    "slices": [
+      155,
+      155,
+      155,
+      155
+    ]
+  },
+  {
+    "name": "panel-account",
+    "sha256": "04E8E240B7EA12B03D757D73775682E9A97B14E299FFC5B8A4ADB9AA530F7845",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\panel.png",
+    "sourceBounds": [
+      16,
+      9,
+      927,
+      1615
+    ],
+    "size": [
+      988,
+      1421
+    ],
+    "slices": [
+      155,
+      155,
+      155,
+      155
+    ]
+  },
+  {
+    "name": "panel-cash",
+    "sha256": "1BEF35FDB5BCFFFBA23F772BF09A934DCA8BDE4D6801C25604C277DE78A7B743",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\panel.png",
+    "sourceBounds": [
+      16,
+      9,
+      927,
+      1615
+    ],
+    "size": [
+      983,
+      1034
+    ],
+    "slices": [
+      155,
+      155,
+      155,
+      155
+    ]
+  },
+  {
+    "name": "panel-tool",
+    "sha256": "C8A406B6E27E9E5E641BB0CF98CD44128E9FFB4052F39D57BD1A9A446FBC4D0A",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\panel.png",
+    "sourceBounds": [
+      16,
+      9,
+      927,
+      1615
+    ],
+    "size": [
+      907,
+      965
+    ],
+    "slices": [
+      155,
+      155,
+      155,
+      155
+    ]
+  },
+  {
+    "name": "ribbon",
+    "sha256": "C58C0DD07E012AC29DA674404B30915D7D4BB62E0C95AC95DE383F20DD9ADF9F",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\controls.png",
+    "sourceBounds": [
+      20,
+      121,
+      588,
+      185
+    ],
+    "size": [
+      975,
+      186
+    ],
+    "slices": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "primary-button",
+    "sha256": "141CB396DB0A9F5C851319B149C20B37595FCA5D084ED28A15E4BF1D260EF96F",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\clean-controls.png",
+    "sourceBounds": [
+      229,
+      175,
+      1077,
+      270
+    ],
+    "size": [
+      764,
+      192
+    ],
+    "slices": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "title",
+    "sha256": "1CDEA6AED03AEE698DD966FAB9B5F739D142E7EE4C3994399E9F7F9677167C98",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\clean-controls.png",
+    "sourceBounds": [
+      63,
+      610,
+      1410,
+      244
+    ],
+    "size": [
+      613,
+      99
+    ],
+    "slices": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "cash-title",
+    "sha256": "D43D471D4BEB1B632FA887632BA5609CD19B315FF3235A896C254CC799CEE180",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\clean-controls.png",
+    "sourceBounds": [
+      63,
+      610,
+      1410,
+      244
+    ],
+    "size": [
+      457,
+      84
+    ],
+    "slices": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "selection-title",
+    "sha256": "BB6E31DA8892F6C13C9C5D48F9144153FD947746E1EF90C79BC6649B188F0902",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\clean-controls.png",
+    "sourceBounds": [
+      63,
+      610,
+      1410,
+      244
+    ],
+    "size": [
+      710,
+      75
+    ],
+    "slices": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "input",
+    "sha256": "B5569A661E3F2BECFFE214B75CA6CBDD89E8D0548CEB13E42D496E818ABD7788",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\controls.png",
+    "sourceBounds": [
+      655,
+      434,
+      571,
+      111
+    ],
+    "size": [
+      552,
+      156
+    ],
+    "slices": [
+      40,
+      40,
+      40,
+      40
+    ]
+  },
+  {
+    "name": "conversion",
+    "sha256": "2CFF2119D4C2B00480BDCDD561545CC0E4511C669A02B8A087A531F8CC0843BA",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\controls.png",
+    "sourceBounds": [
+      655,
+      434,
+      571,
+      111
+    ],
+    "size": [
+      740,
+      74
+    ],
+    "slices": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "amount-normal",
+    "sha256": "2CB46DBD0F0105AA0A1CEEE8DB164829A7F997C2F414870776D05CF470DB3585",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\controls.png",
+    "sourceBounds": [
+      67,
+      658,
+      493,
+      210
+    ],
+    "size": [
+      365,
+      221
+    ],
+    "slices": [
+      65,
+      55,
+      65,
+      55
+    ]
+  },
+  {
+    "name": "amount-selected",
+    "sha256": "E57A216F92AF46E9D9016C1A2EFC542077E73693960BEFCAC0CAD1DA7381A0DF",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\controls.png",
+    "sourceBounds": [
+      689,
+      658,
+      503,
+      210
+    ],
+    "size": [
+      365,
+      221
+    ],
+    "slices": [
+      65,
+      55,
+      65,
+      55
+    ]
+  },
+  {
+    "name": "cash-card",
+    "sha256": "B6F8E609FEFA0E92D5E4BFD12D9277F63563940906B9F859621F07748966E61C",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\controls.png",
+    "sourceBounds": [
+      18,
+      953,
+      605,
+      206
+    ],
+    "size": [
+      850,
+      369
+    ],
+    "slices": [
+      100,
+      65,
+      100,
+      65
+    ]
+  },
+  {
+    "name": "instructions",
+    "sha256": "A72234BC52353748AA9076A20821B53D3688F28C86CF25060FEB560A817E32B9",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\controls.png",
+    "sourceBounds": [
+      18,
+      953,
+      605,
+      206
+    ],
+    "size": [
+      944,
+      281
+    ],
+    "slices": [
+      70,
+      35,
+      70,
+      35
+    ]
+  },
+  {
+    "name": "tool-icon-card",
+    "sha256": "F77BFA7E35C0A0867621CB9818F5CE12325A01AAECCBD0B94275732BFDF54F52",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\controls.png",
+    "sourceBounds": [
+      655,
+      434,
+      571,
+      111
+    ],
+    "size": [
+      625,
+      396
+    ],
+    "slices": [
+      60,
+      60,
+      60,
+      60
+    ]
+  },
+  {
+    "name": "stats",
+    "sha256": "8E1052673577338DF86CC8966960BFA9178048FDC1722EBC7ACE138FA2818DD8",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\stats.png",
+    "sourceBounds": [
+      25,
+      20,
+      2078,
+      679
+    ],
+    "size": [
+      968,
+      334
+    ],
+    "slices": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "stats-card",
+    "sha256": "50F803DA9523D44FFB45A2B129C9D1524D01B89E7C83B318FE4DD7205B73D3CC",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\controls.png",
+    "sourceBounds": [
+      655,
+      434,
+      571,
+      111
+    ],
+    "size": [
+      256,
+      117
+    ],
+    "slices": [
+      24,
+      24,
+      24,
+      24
+    ]
+  },
+  {
+    "name": "records",
+    "sha256": "22F0D51F136E95AF9431379B7A91F740E67F93D2B44F784469DE19B86D75A753",
+    "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\sources\\controls.png",
+    "sourceBounds": [
+      655,
+      434,
+      571,
+      111
+    ],
+    "size": [
+      1013,
+      120
+    ],
+    "slices": [
+      40,
+      20,
+      40,
+      20
+    ]
+  }
+]

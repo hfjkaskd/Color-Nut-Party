@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-21",
+  "scope": [
+    "Assets/Resources/atlas/mainpanel/item_bg.png",
+    "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+    "Assets/Resources/atlas/mainpanel/item_add.png",
+    "Assets/Resources/prefabs/panels/MainPanel.prefab",
+    "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+    "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+    "Assets/Resources/atlas/mainpanel/replay_bg.png",
+    "Assets/Resources/atlas/mainpanel/replay_bg.png.meta",
+    "Assets/Resources/atlas/mainpanel/replay_bg.asset",
+    "Assets/Resources/atlas/mainpanel/replay_bg.asset.meta"
+  ],
+  "request": "Match bottom toolbar to approved reference using thinner pale wood panels, thin green badges, and cream replay backing on the existing node.",
+  "evidenceType": "Live Unity Editor Play Mode screenshot in current user state; not AI preview or Prefab static preview",
+  "screenshot": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\unity-live.png",
+  "screenshotSha256": "3c13f33bd9a61de10551b448e218dfe8c514d39054da43c25cd63b282b22ba5f",
+  "crop": {
+    "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\unity-toolbar-crop.png",
+    "sha256": "5afa3903e6c2cc8926ff28e2004d7f284c10d4101d372acde9559f6788db6568",
+    "sourceRect": [
+      356,
+      1080,
+      500,
+      144
+    ],
+    "processing": "Lossless crop only; no resizing or retouching"
+  },
+  "visualCheck": "PASS: pale thinner panel rims, green badge outlines, cream replay backing, original dynamic count 5 preserved",
+  "structuralCheck": "Docs/GardenReskin/bottom-toolbar-match/integrity-report.json",
+  "modifiedExistingAssets": [
+    "Assets/Resources/atlas/mainpanel/item_bg.png",
+    "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+    "Assets/Resources/atlas/mainpanel/item_add.png",
+    "Assets/Resources/prefabs/panels/MainPanel.prefab",
+    "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+    "Assets/Resources/prefabs/panels/MainPanelComplete.prefab"
+  ],
+  "newAssets": [
+    "Assets/Resources/atlas/mainpanel/replay_bg.png",
+    "Assets/Resources/atlas/mainpanel/replay_bg.png.meta",
+    "Assets/Resources/atlas/mainpanel/replay_bg.asset",
+    "Assets/Resources/atlas/mainpanel/replay_bg.asset.meta"
+  ],
+  "newTextureCount": 1,
+  "verifiedFiles": [
+    {
+      "path": "Assets/Resources/atlas/mainpanel/item_bg.png",
+      "sha256": "bb90ea2f7cad5b2c60a47ac6931dbc3ba3c83df65741000f352c7c941f11e5c5"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+      "sha256": "8128a0e61bb982775940624e10aac4dfb2180b90c4dd16286e85b35afe123b9b"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/item_add.png",
+      "sha256": "fe807bd08a14829e0a2ff623a29d3e85fa27448c05f06882a01267a559a18594"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanel.prefab",
+      "sha256": "77867b6e3f5082a02e70c26b1b3d644fbacf8b54413c22baefb7d0b986edd92a"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+      "sha256": "e16c95d0d9d06559f07b52aa35268617d8b51e3e2a65d288d6e9d53ab411f712"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "sha256": "d55d68240cb73480e370854376a5369d108019b2123f7cdddeb4c95ee1960943"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/replay_bg.png",
+      "sha256": "d0406f4ebb2170d4c7023e750df781a61740201f3a1c26a6385a1e036cca931a"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/replay_bg.png.meta",
+      "sha256": "56766c7abb1908ef61ca25f2a40c36e687646fa5f55860ff7d3b285ccadff274"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/replay_bg.asset",
+      "sha256": "c65981109fdaf2e1eceee9b54ee0143a248a2d7ac9597b88a8c05e375e2d7f0d"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/replay_bg.asset.meta",
+      "sha256": "e7355148d7b41780bb92c5da7a39c10ed583b35d5b7a9e5503ca3f9f9ae2e05d"
+    }
+  ],
+  "liveInteractionCheck": {
+    "state": "Level 1 teaching seed 3; cash 0, diamonds 0; undo count 5, exchange and add +",
+    "actions": [
+      "Undo",
+      "Exchange",
+      "Add Screw",
+      "Replay"
+    ],
+    "result": "All four OS mouse clicks show the existing teaching feedback. Board, balances and displayed counts remain unchanged. Teaching restrictions preserved.",
+    "screenshots": [
+      {
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\unity-click-add.png",
+        "sha256": "1c5592e9f44ea1b71f881b21b5b92f99775a24f5a11087dfd61564290dbf7eda"
+      },
+      {
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\unity-click-exchange.png",
+        "sha256": "16dabcf2c43e65d77af7496258986b14892ab2f9d83153560c8a4e2b3c5ab117"
+      },
+      {
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\unity-click-replay.png",
+        "sha256": "a27eb7a915b763207a79a5994cac0522d664a9e0a51b1c9408e6ba4b4a445bad"
+      },
+      {
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\unity-click-undo.png",
+        "sha256": "4378920ac91fa91fdad81e89836f8abd120df34a09c6dacfd981a70caf96c160"
+      }
+    ]
+  },
+  "limitations": [
+    "No Android/iOS device test. Existing broader functional validation was not rerun for this artwork and Image configuration revision.",
+    "Existing Android Build Settings GUILayout repaint exception remains visible in Editor; it predates this revision. Stopping Play Mode also reported the existing Row_0 parent-during-destruction message. Neither issue was changed or treated as a passing global error check."
+  ]
+}

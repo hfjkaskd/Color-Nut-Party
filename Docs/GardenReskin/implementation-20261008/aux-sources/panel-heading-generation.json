@@ -1,0 +1,7 @@
+{
+  "asset": "panel-heading",
+  "prompt": "Create one transparent UI BACKGROUND sprite extracted conceptually from the approved game reference. ONLY the empty outer dialog: portrait rounded rectangle, width 1000 height 1400 proportions. Match reference exactly: extremely slim honey wood outer outline about 10px; pale wood-grain header field covering top14% height; a continuous warm ivory cream body below with rounded upper corners, very fine brown/beige boundary against wood. Outer corners radius70px. Pale horizontal grain low contrast. Full blank header and body, do not include interior cards or plaque. NO text, logos, buttons, icons, close button, money, people, letters, numbers, leaves, flowers, glitter, thick ornamental ridges. 98% of available body surface stays blank. Transparent only outside rounded silhouette. Front-facing orthographic UI asset filling canvas with at most2px transparent margin. This is the panel-heading sprite for Unity 9-slice use.",
+  "raw_path": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-2e47-7e41-9aa6-55df75001fab\\exec-57731b19-bc38-4d5c-8314-64a19ff3b6ba.png",
+  "provider": "image_gen__imagegen",
+  "transparent": true
+}

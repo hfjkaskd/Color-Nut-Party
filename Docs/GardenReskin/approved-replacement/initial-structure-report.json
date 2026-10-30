@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "checkedUtc": "2026-09-22T08:11:43.006456+00:00",
+  "passed": false,
+  "baselineFiles": 3859,
+  "currentFiles": 3899,
+  "missing": [],
+  "forbiddenChanges": [
+    {
+      "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "reason": "non-presentation prefab/scene content changed"
+    }
+  ],
+  "changed": [
+    {
+      "path": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+      "kind": "structure"
+    },
+    {
+      "path": "Assets/Resources/prefabs/playerinfo/PMDSimple.prefab",
+      "kind": "structure"
+    }
+  ],
+  "newFiles": [
+    "Assets/NutSort/Editor/GardenReskin.meta",
+    "Assets/Resources/atlas/approvedgarden.meta",
+    "Assets/Resources/atlas/approvedgarden/amount-normal.png",
+    "Assets/Resources/atlas/approvedgarden/amount-normal.png.meta",
+    "Assets/Resources/atlas/approvedgarden/amount-selected.png",
+    "Assets/Resources/atlas/approvedgarden/amount-selected.png.meta",
+    "Assets/Resources/atlas/approvedgarden/cash-card.png",
+    "Assets/Resources/atlas/approvedgarden/cash-card.png.meta",
+    "Assets/Resources/atlas/approvedgarden/cash-title.png",
+    "Assets/Resources/atlas/approvedgarden/cash-title.png.meta",
+    "Assets/Resources/atlas/approvedgarden/conversion.png",
+    "Assets/Resources/atlas/approvedgarden/conversion.png.meta",
+    "Assets/Resources/atlas/approvedgarden/input.png",
+    "Assets/Resources/atlas/approvedgarden/input.png.meta",
+    "Assets/Resources/atlas/approvedgarden/instructions.png",
+    "Assets/Resources/atlas/approvedgarden/instructions.png.meta",
+    "Assets/Resources/atlas/approvedgarden/panel-account.png",
+    "Assets/Resources/atlas/approvedgarden/panel-account.png.meta",
+    "Assets/Resources/atlas/approvedgarden/panel-cash.png",
+    "Assets/Resources/atlas/approvedgarden/panel-cash.png.meta",
+    "Assets/Resources/atlas/approvedgarden/panel-diamond.png",
+    "Assets/Resources/atlas/approvedgarden/panel-diamond.png.meta",
+    "Assets/Resources/atlas/approvedgarden/panel-tool.png",
+    "Assets/Resources/atlas/approvedgarden/panel-tool.png.meta",
+    "Assets/Resources/atlas/approvedgarden/primary-button.png",
+    "Assets/Resources/atlas/approvedgarden/primary-button.png.meta",
+    "Assets/Resources/atlas/approvedgarden/records.png",
+    "Assets/Resources/atlas/approvedgarden/records.png.meta",
+    "Assets/Resources/atlas/approvedgarden/ribbon.png",
+    "Assets/Resources/atlas/approvedgarden/ribbon.png.meta",
+    "Assets/Resources/atlas/approvedgarden/selection-title.png",
+    "Assets/Resources/atlas/approvedgarden/selection-title.png.meta",
+    "Assets/Resources/atlas/approvedgarden/stats-card.png",
+    "Assets/Resources/atlas/approvedgarden/stats-card.png.meta",
+    "Assets/Resources/atlas/approvedgarden/stats.png",
+    "Assets/Resources/atlas/approvedgarden/stats.png.meta",
+    "Assets/Resources/atlas/approvedgarden/title.png",
+    "Assets/Resources/atlas/approvedgarden/title.png.meta",
+    "Assets/Resources/atlas/approvedgarden/tool-icon-card.png",
+    "Assets/Resources/atlas/approvedgarden/tool-icon-card.png.meta"
+  ],
+  "limits": "Material/texture changes require visual review. New files are listed for review. Color and sprite/font/material presentation fields are allowed; everything else in prefabs/scenes is protected."
+}

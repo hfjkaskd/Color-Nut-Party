@@ -1,0 +1,12 @@
+[
+  {
+    "name": "add-badge",
+    "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-14765b6f-0873-49d7-98ae-0477d4385737.png",
+    "prompt": "Restyle this exact circular plus badge for a garden woodwork game. Same round silhouette, centered bold dark forest-green PLUS glyph, bright but mellow green face, very thin warm honey wood rim. Preserve relative plus size, circle size, no new text or decorations. Transparent RGBA outside the circle, no glow or external shadow. This is one isolated inventory add badge, square image. It replaces a runtime existing sprite and must keep plus inside its circular backing."
+  },
+  {
+    "name": "pending-shield",
+    "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-7b519ef8-0ca5-4394-b3e9-b03179224a08.png",
+    "prompt": "Make a FUTURE/NOT-YET-REACHED variant of this existing milestone game sprite. Keep exact rounded-hexagonal wooden rim and silhouette, size, light direction, and transparent alpha. Change the blank CREAM center to muted DARK WALNUT BROWN, sufficient contrast for an existing separate white number. Subtle bevel only. This is inactive pending state; no green, no gray disabled overlay, no number, no label, no crown, no added icon. Original completed state stays cream elsewhere; this version must be clearly visually distinct with dark brown center. True transparent outside the original shield shape."
+  }
+]

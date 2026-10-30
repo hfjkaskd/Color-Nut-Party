@@ -1,0 +1,7 @@
+{
+  "asset": "help",
+  "prompt": "Create one isolated Unity UI HELP icon matching the question mark button at top right of approved SECOND screenshot. FIRST is the existing tiny icon to replace; THIRD is companion close-button sprite for style. Render a neat circular wooden medallion, pale honey wood center subtle grain, very thin warm brown/honey rim and soft cream highlight, one large dark brown question mark '?' centered with thin ivory edge. Same circular silhouette and size relationship as existing icon, front-facing orthographic, transparent outside circle, almost no margin. Do not use green X, do not include screenshot or surrounding interface. No leaves, flowers, extra decorations, wording or any other symbols. Crisp clean 256x256 sprite suitable for scaling to original69x71 rectangle.",
+  "raw_path": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-2e47-7e41-9aa6-55df75001fab\\exec-15fa28bf-fc46-41db-a00a-c99e9f9411a0.png",
+  "provider": "image_gen__imagegen",
+  "transparent": true
+}

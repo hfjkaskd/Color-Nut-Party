@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "method": "Mechanical generated-alpha crop and bicubic resize only",
+  "target": "Assets/Resources/atlas/mainpanel/replay_bg.png",
+  "source": "Docs/GardenReskin/Generated/replay-cream-disc.png",
+  "size": [
+    85,
+    85
+  ],
+  "dimensionsTemplate": "OriginalAssets/before-reskin.zip:Assets/Texture2D/kuang.png",
+  "originalSharedTextureModified": false,
+  "sourceBounds": [
+    134,
+    132,
+    986,
+    983
+  ],
+  "destinationBounds": [
+    0,
+    0,
+    85,
+    85
+  ],
+  "outputSha256": "d0406f4ebb2170d4c7023e750df781a61740201f3a1c26a6385a1e036cca931a",
+  "sourceSha256": "7bcd3342308afa080caa1a35c834d1dee634fe1ff2e713e61a288754f88f25fd"
+}

@@ -1,0 +1,257 @@
+{
+  "status": "PASS",
+  "dryRun": false,
+  "generatedAtUtc": "2026-09-21T12:24:43.4652568Z",
+  "manifest": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\import-manifest.json",
+  "originalZip": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\OriginalAssets\\before-reskin.zip",
+  "originalZipSha256": "09bdf1c5945a316901b3079ea0d6f8244275ef713216d3f10a83431a3a27a622",
+  "method": "Generated PNG pixels only; substantial alpha-component union bounds, original alpha bounds, bicubic or nine-slice resampling, optional original-alpha mask. No recolouring or painting.",
+  "targetCount": 3,
+  "entries": [
+    {
+      "target": "Assets/Resources/atlas/mainpanel/item_bg.png",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\Generated\\tool-panel-light.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "originalZipEntry": "Assets/Resources/atlas/mainpanel/item_bg.png",
+      "originalSha256": "da9a101b442913652453ecdf027ece1aec9cb846acebdd0d9bb672b34e5f3915",
+      "previousSha256": "c6624d903d9eba7753899636f3d9c901d04ab051637778a1de4e97cf2ae07794",
+      "sourceSha256": "721420a89e321114ce43519013ae36068a149dbc7f214755edcfd10058a540c8",
+      "outputSha256": "bb90ea2f7cad5b2c60a47ac6931dbc3ba3c83df65741000f352c7c941f11e5c5",
+      "outputBytes": 64302,
+      "originalAndOutputSize": [
+        243,
+        192
+      ],
+      "sourceSize": [
+        1411,
+        1115
+      ],
+      "sourceCell": [
+        0,
+        0,
+        1411,
+        1115
+      ],
+      "sourceBounds": [
+        80,
+        139,
+        1250,
+        823
+      ],
+      "originalAlphaBounds": [
+        0,
+        0,
+        243,
+        191
+      ],
+      "largestComponentPixels": 986681,
+      "alphaThreshold": 100,
+      "padding": 2,
+      "retainedComponents": 1,
+      "preserveOriginalAlpha": false,
+      "nineSlice": false,
+      "oldBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "borderSource": "none",
+      "sourceSliceRatio": [
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "destinationSlicePixels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stagedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\ImportStaging\\1b325ea73f214351aacf955753a9f545\\0000.png"
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\Generated\\tool-count-green.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "originalZipEntry": "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+      "originalSha256": "bee9de3f537d3c60a5fcdde5c2909edd26c7f20c89088a72b20e071deabc999b",
+      "previousSha256": "2acd8da871106ce33074727bae60d5b68dd9ccabb97702a3844e8f0f9ea20a82",
+      "sourceSha256": "190d228fcf94ad117bc73a4aa1335d7d9288779b315a4ff506946bf117bc6a98",
+      "outputSha256": "8128a0e61bb982775940624e10aac4dfb2180b90c4dd16286e85b35afe123b9b",
+      "outputBytes": 13439,
+      "originalAndOutputSize": [
+        80,
+        80
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceCell": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sourceBounds": [
+        135,
+        124,
+        984,
+        989
+      ],
+      "originalAlphaBounds": [
+        0,
+        1,
+        80,
+        79
+      ],
+      "largestComponentPixels": 756722,
+      "alphaThreshold": 100,
+      "padding": 2,
+      "retainedComponents": 1,
+      "preserveOriginalAlpha": false,
+      "nineSlice": false,
+      "oldBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "borderSource": "none",
+      "sourceSliceRatio": [
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "destinationSlicePixels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stagedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\ImportStaging\\1b325ea73f214351aacf955753a9f545\\0001.png"
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/item_add.png",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\Generated\\tool-add-green.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "originalZipEntry": "Assets/Resources/atlas/mainpanel/item_add.png",
+      "originalSha256": "32f83b0188e8a126beb2ef4571b808101edb3cc0cbe932443550524272572f68",
+      "previousSha256": "8a6259db55b9044efc3378fbb0fa4e1d5b221f411c9f3c5139aaebfba079525b",
+      "sourceSha256": "1c829150fdce94d0bcf2feffa0fea0864ea272c033e4a476cb4cb1d170d105ad",
+      "outputSha256": "fe807bd08a14829e0a2ff623a29d3e85fa27448c05f06882a01267a559a18594",
+      "outputBytes": 13883,
+      "originalAndOutputSize": [
+        80,
+        80
+      ],
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceCell": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "sourceBounds": [
+        272,
+        269,
+        710,
+        708
+      ],
+      "originalAlphaBounds": [
+        0,
+        1,
+        80,
+        79
+      ],
+      "largestComponentPixels": 389730,
+      "alphaThreshold": 100,
+      "padding": 2,
+      "retainedComponents": 1,
+      "preserveOriginalAlpha": false,
+      "nineSlice": false,
+      "oldBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "borderSource": "none",
+      "sourceSliceRatio": [
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "destinationSlicePixels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stagedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\ImportStaging\\1b325ea73f214351aacf955753a9f545\\0002.png"
+    }
+  ],
+  "protectedFiles": [
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_bg.png.meta",
+      "sha256": "0cf325f4d796a52c3dbe90b18c947a7b240cf1871659fbfb56c7cd4a31390ecb",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_add.png.meta",
+      "sha256": "c0156208bd296fb8798c9a52c57fca9a62083157e79c753008358765d2182776",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_bg.asset.meta",
+      "sha256": "d3224d1a65035aa43afbcb97913d4512909f600d8541a50d89aa254d472c77d2",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_add.asset.meta",
+      "sha256": "813027d757b0bb5f045e82ed5ee52c95549d4c0dc69f9ae9bb2aa6e6cc68e884",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_bg.asset",
+      "sha256": "ce2600b5d5de6ddcdabf71177f54369561bd87e68808f358c5bddec2a92b1a95",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_count_bg.asset.meta",
+      "sha256": "80bc283c682a79a727a33eb1ee7de1fc40385956fd046c533531999279cd9a8b",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_count_bg.asset",
+      "sha256": "2632eee9d5b2954d75cb4306072557d5007c5f8d437dbcb47a318d7fa6004a86",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_count_bg.png.meta",
+      "sha256": "5b6f849f77db1ab7bed0c62002ea409bca8f55a6f72e8153d9a21a7b157f6667",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_add.asset",
+      "sha256": "319b8d96f0077a7ff80a28f9d46adeade3e1b95207b4c24fbf4dc59d2610bbcc",
+      "unchanged": true
+    }
+  ]
+}

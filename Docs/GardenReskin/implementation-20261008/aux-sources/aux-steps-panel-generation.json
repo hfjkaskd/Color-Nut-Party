@@ -1,0 +1,7 @@
+{
+  "asset": "aux-steps-panel",
+  "prompt": "Edit FIRST transparent 998x1550 Unity background asset only, use SECOND approved screenshot solely to match palette. Preserve original exact arrangement and silhouettes: photoreal female headset support worker in black blazer on upper left with head reaching top; embossed bank behind her, upperheader from y145 to480, little empty ID plaque x0..465 y400..487, mainlower panel from y455 to1540. Replace gold/blue surfaces with very pale honey wood and ivory cream, slim wood outlines, as second reference. Restore cream center content region x50..948 y515..1275, slim line and pale wood lowerbuttonarea y1275..1540. Keep portrait identically sized and positioned. Large blank right header will have live title/text, blank cream inner region for live timeline, blank bottom for live button. NO text, letters, numbers, badges, buttons, timeline icons, lines, leaves or flowers. Do NOT copy text or buttons from second reference. Transparent outside asset; retain exact canvas proportions.",
+  "raw_path": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-2e47-7e41-9aa6-55df75001fab\\exec-61b3a010-12df-4f7c-bed2-1f2c2f14a38e.png",
+  "provider": "image_gen__imagegen",
+  "transparent": true
+}

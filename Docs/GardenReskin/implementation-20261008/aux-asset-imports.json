@@ -1,0 +1,115 @@
+[
+  {
+    "asset": "aux-guide-title",
+    "guid": "2982494e2a22fa2f6e8431638e82d06c",
+    "size": [
+      896,
+      828
+    ],
+    "source": "Docs/GardenReskin/implementation-20261008/aux-sources/aux-guide-title-raw.png"
+  },
+  {
+    "asset": "aux-complete-title",
+    "guid": "dff059ca4e6e86b4dd9ec4ca689a7124",
+    "size": [
+      896,
+      362
+    ],
+    "source": "Docs/GardenReskin/implementation-20261008/aux-sources/aux-complete-title-raw.png"
+  },
+  {
+    "asset": "aux-loading-band",
+    "guid": "663ce5794a8ce840a17f075c6801f838",
+    "size": [
+      1080,
+      505
+    ],
+    "source": "Docs/GardenReskin/implementation-20261008/aux-sources/aux-loading-band-raw.png"
+  },
+  {
+    "asset": "aux-steps-panel",
+    "guid": "69a2a79d42d96e6d0706b04791f46b06",
+    "size": [
+      998,
+      1550
+    ],
+    "source": "Docs/GardenReskin/implementation-20261008/aux-sources/aux-steps-panel-raw.png"
+  },
+  {
+    "asset": "aux-level-band",
+    "guid": "784310d691daf954b2dd14a7009e1f6e",
+    "size": [
+      1080,
+      234
+    ],
+    "source": "Docs/GardenReskin/implementation-20261008/aux-sources/aux-level-band-raw.png"
+  },
+  {
+    "asset": "aux-verification-card",
+    "guid": "c9f69ffaab7f14c864515c3d54d23007",
+    "size": [
+      896,
+      246
+    ],
+    "source": "Docs/GardenReskin/implementation-20261008/aux-sources/aux-verification-card-raw.png"
+  },
+  {
+    "asset": "panel-heading",
+    "guid": "c045c0d33c9162dc96adc4924c3d9782",
+    "size": [
+      1000,
+      1400
+    ],
+    "source": "Docs/GardenReskin/implementation-20261008/aux-sources/panel-heading-raw.png"
+  },
+  {
+    "asset": "aux-level-card",
+    "guid": "0690dd105e55e52117663744a5af7d2d",
+    "source": "before-reskin.zip/Assets/Texture2D/bg2_0.png"
+  },
+  {
+    "asset": "aux-blue-close",
+    "guid": "e0ee2c7f2cf8d52ba61b3fc5e4d305a3",
+    "source": "before-reskin.zip/Assets/Texture2D/close.png"
+  },
+  {
+    "asset": "aux-guide-node",
+    "guid": "84a02c6eaa44219e74e99389c8074ecf",
+    "source": "before-reskin.zip/Assets/Resources/atlas/mainpanel/hintlevel_bg1.png"
+  },
+  {
+    "asset": "aux-guide-crown",
+    "guid": "912f4165aa68506167c85060bf3318ed",
+    "source": "before-reskin.zip/Assets/Resources/atlas/mainpanel/hintlevel_bg4.png"
+  },
+  {
+    "asset": "aux-guide-withdraw",
+    "guid": "56c34384598cfec80a9ddf28b6b8c843",
+    "source": "before-reskin.zip/Assets/Resources/atlas/mainpanel/hintlevel_tx_bg.png"
+  },
+  {
+    "asset": "aux-level-title",
+    "guid": "5f4257c46e6451fe207456337ac992a3",
+    "source": "before-reskin.zip/Assets/Texture2D/title3.png"
+  },
+  {
+    "asset": "aux-status-line",
+    "guid": "4d4a666d15e953f33b31a41ccc5079e1",
+    "source": "before-reskin.zip/Assets/Texture2D/line.png"
+  },
+  {
+    "asset": "aux-status-line-pending",
+    "guid": "4d85b0ec1ebfa903fed333b22023daa5",
+    "source": "before-reskin.zip/Assets/Texture2D/line2.png"
+  },
+  {
+    "asset": "aux-status-pending",
+    "guid": "f573394545a93ff2c4c97a47a37f55aa",
+    "source": "before-reskin.zip/Assets/Texture2D/loading.png"
+  },
+  {
+    "asset": "aux-status-hourglass",
+    "guid": "e509b9b46d4ced6c5359892de4c50aaf",
+    "source": "before-reskin.zip/Assets/Texture2D/loading1.png"
+  }
+]

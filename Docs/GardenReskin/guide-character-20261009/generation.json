@@ -1,0 +1,27 @@
+{
+  "kind": "AI Welcome character replacement preview, not Unity runtime",
+  "provider": "built-in image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Asset type: character replacement preview for an existing Unity casual puzzle game screen. Edit the attached approved Welcome screen and preserve its layout. Change ONLY the blue-cap, blue-overalls male mechanic to a clearly different original fictional adult male craftsman: uncovered short wavy chestnut hair (NO CAP), a friendly rounded face, neat short brown beard, relaxed welcoming smile, cream work shirt with rolled sleeves and muted sage-green work apron with tan leather straps. Polished warm 3D-cartoon mobile-game rendering, cohesive with pale honey wood, ivory cream and green UI. This must be a genuinely different face and silhouette, not the same man recolored. Keep the new figure at the same scale and in the same upper-center character footprint, with the SAME shoulder-carried silver adjustable wrench and same natural hand grip. Keep existing cash banknote piles, their reward meaning, the small original coin stacks and gold rays unchanged; do not introduce additional decorations. Keep the same silhouette extent: no hair, limbs or tools outside the old character/wrench area. Keep the entire full portrait frame, every panel, ribbon and button, all text (including 'Welcome', instructions and 'START'), progress badges 1 2 3 4 5 and their positions unchanged. Preserve the original background. Character lower body remains obscured by the existing cash and title ribbon. Do not let the character or any money overlap the Welcome lettering. No new plants, leaves, flowers, mascots, extra UI, new labels, new frames or changed typography. No cropping or zoom. Single coherent edited screen, not a side-by-side comparison. This is an AI visual preview only.",
+  "reference": "Docs/GardenReskin/regenerated-20261008/withdrawal_guide-effect.png",
+  "generatedSource": "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-7ef7ee8f-1ee9-4856-ab55-49ebfcab53ff.png",
+  "preview": "craftsman-preview.png",
+  "status": "Preview for user visual confirmation; no Assets files modified",
+  "implementationTarget": "Assets/Resources/atlas/octobergarden/aux-guide-title.png",
+  "targetSize": [
+    896,
+    828
+  ],
+  "targetPrefabImage": "TXRecordGuidePanel/main/Title; RectTransform position (9,415)",
+  "characterAndWrenchRegion": [190, 0, 740, 425],
+  "protectedLiveWelcomeRegion": [130, 431, 766, 550],
+  "reuseScope": "Only TXRecordGuidePanel uses this sprite; BootLoading has a different independent character and is unchanged.",
+  "particles": "Flying cash is a separate original runtime particle system, not part of the new portrait asset.",
+  "preserve": [
+    "Existing TXRecordGuidePanel Title Image and RectTransform",
+    "Shoulder wrench and cash reward semantics",
+    "Dynamic Welcome label, controls and bindings",
+    "Existing character footprint",
+    "Blank ribbon asset and alpha outside art"
+  ],
+  "nextImplementation": "After character confirmation, edit the blank existing sprite using this approved new portrait as the reference. Do not put full-screen preview or baked text into the game."
+}

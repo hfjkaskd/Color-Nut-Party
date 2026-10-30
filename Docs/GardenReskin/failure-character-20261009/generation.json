@@ -1,0 +1,31 @@
+{
+  "kind": "AI failure-screen character replacement preview, not Unity runtime",
+  "provider": "built-in image_gen.imagegen",
+  "prompt": "Use case: precise-object-edit. Asset type: AI character replacement preview for an existing Unity game's failure screen. Input 1 is the EDIT TARGET: actual 720x1560 game screenshot. Input 2 is ONLY a CHARACTER IDENTITY AND CLOTHING REFERENCE: the new chestnut curly-haired bearded craftsman in the Welcome image. In input 1, replace ONLY the blue-cap, blue-uniform person behind the yellow toolbox with the SAME fictional male craftsman from input 2: no cap, short wavy chestnut hair, the same rounded face, warm brown eyes, thick eyebrows, neatly shaped short brown beard and moustache, cream rolled-sleeve work shirt, muted sage-green work apron and tan straps. Render as the same polished casual mobile-game 3D cartoon. CRUCIAL: adapt the reference character to the ORIGINAL failure pose and emotion: both arms raised to the sides, open palms in a gentle shrug, slightly raised inner eyebrows and a mild puzzled/apologetic closed-mouth expression that fits 'No movable nuts!', not the big victory grin. Keep head, shoulders, hands and torso within the existing person's footprint, about x190..488 y691..912 in input 1. Keep the original white character silhouette edge. Character remains BEHIND the yellow toolbox. Preserve the toolbox exactly including yellow material, size, position, gray latches and white nut symbol; preserve the existing nut thought bubble at upper-right of the character without covering it. Do not import the reference's wrench, cash, coins, gold rays, title ribbon or any other scene elements. Preserve the entire exact original screen composition, low-contrast pale wood background, title 'No movable nuts!', existing small stars, green 'Restart' and 'Revive' buttons, video icon, all spacing and all wording. Do not add rods or nuts behind the person, because the actual target screenshot has none. No new UI, no panels, no leaves or flowers, no rearrangement, no zoom and no cropping. Single portrait image, not a comparison sheet. Change only the character.",
+  "references": [
+    {
+      "role": "Edit target",
+      "path": "Docs/GardenReskin/implementation-20261008/runtime/failure.png"
+    },
+    {
+      "role": "Candidate character identity and clothing reference",
+      "path": "Docs/GardenReskin/guide-character-20261009/craftsman-preview.png"
+    }
+  ],
+  "generatedSource": "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-814deefd-2159-475a-ba41-75813091bbed.png",
+  "preview": "craftsman-shrug-preview.png",
+  "status": "Awaiting visual confirmation under user preview-first workflow; no Assets files modified",
+  "implementationTarget": "Assets/Texture2D/people.png",
+  "originalSprite": "Assets/Sprite/people.asset; guid 26026eed7257bf046805c10fedc1b72e",
+  "targetSize": [533, 588],
+  "targetPrefabImage": "FailPanel/Image (6); Image 114292246286975720; RectTransform position (7.5,-131), size 533x588",
+  "reuseScope": "Only FailPanel uses this sprite. Person, toolbox and thought bubble are baked together in the original transparent image; replace only the person.",
+  "preserve": [
+    "FailPanel node hierarchy and layout",
+    "Original shrug and mildly puzzled failure expression",
+    "Yellow toolbox, nut emblem, thought bubble",
+    "Dynamic/localized title and two Button components",
+    "Original character footprint"
+  ],
+  "nextImplementation": "Once confirmed, edit the original character sprite with this identity reference, keeping its native canvas and all non-character graphics. Never use the full screenshot as a shipping UI texture."
+}

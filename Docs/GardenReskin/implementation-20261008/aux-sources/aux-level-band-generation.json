@@ -1,0 +1,7 @@
+{
+  "asset": "aux-level-band",
+  "prompt": "Edit FIRST isolated transparent Unity banner (1080x234 original aspect ratio). SECOND is approved screen style reference only. Preserve two yellow nut stacks/gray bolts at extreme left and right EXACTLY, unchanged position, size and clipping at canvas edges. Replace blue/purple screw-pattern center with pale honey wood / ivory cream, subtle horizontal wood grain and extremely thin honey brown top and bottom rails. Keep same bounding box and transparent pixels, full width strip no side rounded caps. No letters, words, numbers, leaves, flowers, extra screw motifs or new icons. Blank center for live text. Output this isolated sprite, not screenshot.",
+  "raw_path": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-2e47-7e41-9aa6-55df75001fab\\exec-ea69e1c7-f3a8-4beb-b3e1-0f710f72cff8.png",
+  "provider": "image_gen__imagegen",
+  "transparent": true
+}

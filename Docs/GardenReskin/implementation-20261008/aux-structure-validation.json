@@ -1,0 +1,74 @@
+[
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+    "protected_content_sha256": "21ce7c97559f9a42984d6c119ab964a0b869fb4d43bac6496145441c310a29a4",
+    "rect_transforms_unchanged": true,
+    "hierarchy_unchanged": true,
+    "buttons_and_bindings_unchanged": true,
+    "live_strings_unchanged": true,
+    "modified_components": 7
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+    "protected_content_sha256": "5d32a8c6166a69cd95059a198dd3227cadc05f9f45303044a385357b1df8dc2d",
+    "rect_transforms_unchanged": true,
+    "hierarchy_unchanged": true,
+    "buttons_and_bindings_unchanged": true,
+    "live_strings_unchanged": true,
+    "modified_components": 8
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "protected_content_sha256": "74078eff2b9b18cf41043562064e2d6e78cfd43f9ac0460c074584932cb1c2a1",
+    "rect_transforms_unchanged": true,
+    "hierarchy_unchanged": true,
+    "buttons_and_bindings_unchanged": true,
+    "live_strings_unchanged": true,
+    "modified_components": 18
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "protected_content_sha256": "4c61044e302d20b72f59622c85e9f9c997bd8601a0076fffa18d62053390dd0b",
+    "rect_transforms_unchanged": true,
+    "hierarchy_unchanged": true,
+    "buttons_and_bindings_unchanged": true,
+    "live_strings_unchanged": true,
+    "modified_components": 17
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "protected_content_sha256": "c3fd52feaeb519c43c664e17297823f8741ec0ed6c214dd4ae06f016b692e4f0",
+    "rect_transforms_unchanged": true,
+    "hierarchy_unchanged": true,
+    "buttons_and_bindings_unchanged": true,
+    "live_strings_unchanged": true,
+    "modified_components": 13
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXGuideLoadingPanel.prefab",
+    "protected_content_sha256": "576fe069337ad42b692e3ea35d7e5c93a05b4d5ec7ff30e5040c587a2f39d49c",
+    "rect_transforms_unchanged": true,
+    "hierarchy_unchanged": true,
+    "buttons_and_bindings_unchanged": true,
+    "live_strings_unchanged": true,
+    "modified_components": 4
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "protected_content_sha256": "6b2c8343ed32d2d3d14ca2da450cb9db82636187ab5a67e6b286004213769eaf",
+    "rect_transforms_unchanged": true,
+    "hierarchy_unchanged": true,
+    "buttons_and_bindings_unchanged": true,
+    "live_strings_unchanged": true,
+    "modified_components": 17
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXGuideTargetCompletePanel.prefab",
+    "protected_content_sha256": "850ecd11f3d3f0fdf4154a60a3cfcecfa46f5418ce3931d9282b44762dabbaea",
+    "rect_transforms_unchanged": true,
+    "hierarchy_unchanged": true,
+    "buttons_and_bindings_unchanged": true,
+    "live_strings_unchanged": true,
+    "modified_components": 6
+  }
+]

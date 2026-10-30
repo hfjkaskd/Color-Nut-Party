@@ -1,0 +1,129 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "name": "background",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-c4051e4a-f57b-4eff-bcfc-71ec11fd470a.png",
+      "prompt": "Game asset: background texture ONLY for existing Unity portrait nut-sort game. Create 1024x2048 portrait, edge-to-edge opaque RGB. Match only the pale honey/cream low-contrast wood background from reference. Flat orthographic tabletop, very subtle soft horizontal grain and occasional tiny grain swirl. Main 90% central area completely unobstructed pale warm wood, no floor perspective, no seam, no plank dividing lines, no frame. Restrained painterly green leaf/daisy hints only in the extreme 3% left/right edges and the four corners, very small and softly faded, no conspicuous dark shadows. Uniform calm lighting. Much less saturated and much less texture contrast than a wooden photograph. This is a background behind colorful gameplay and dense text UI, readability first. NO buttons, NO panels, NO money, NO diamonds, NO nuts or screws, NO any game object, NO text, NO logo, NO watermark. All UI and gameplay will be separate existing objects."
+    },
+    {
+      "name": "core-sheet",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-613e60c3-34b9-4d5c-a5d4-969229a4c32a.png",
+      "prompt": "Production game UI sprite atlas, not mockup. Generate 2048x2048 transparent RGBA canvas, exactly 4 columns by 4 rows of equally sized 512x512 cells. Sixteen isolated sprites, each centered entirely inside its own cell, nothing straddling cell boundaries; leave at least 32 transparent pixels around each sprite. Real transparent background, no checkerboard pixels, no labels, no text, no numbers, no watermark. Orthographic front view only, consistent soft upper-left highlight, compact shadow contained in sprite. Polished casual game look: pale honey wood rims, smooth cream inset, rounded bevels, subdued natural grain, green glazed buttons. See reference for style only. All centers blank for runtime text/icons; NEVER draw text or icon unless specified crown. Cell shapes:\nrow1 col1: WIDE rounded rectangle cream balance panel, light warm wooden bevel rim, aspect 3.8:1;\nrow1 col2: squat rounded rectangle cream tool tile with thick light wooden bevel rim, aspect1.27:1;\nrow1 col3: glossy leaf-green rounded button, narrow honeywood outer rim, aspect2.7:1;\nrow1 col4: glossy warm orange rounded button, gold honeywood rim, aspect2.7:1.\nrow2 col1: dark walnut horizontal recessed empty progress groove, rounded ends, aspect8:1;\nrow2 col2: bright leaf-green horizontal progress fill with subtle bevel, rounded ends, aspect8:1;\nrow2 col3: cream wide rounded speech bubble with tiny centered upward pointer, thin green rim, aspect5.2:1;\nrow2 col4: identical cream wide rounded speech bubble with centered upward pointer, thin pale lavender rim, aspect5.2:1.\nrow3 col1: tall rounded hexagonal wooden shield frame with blank CREAM inset, aspect.96:1;\nrow3 col2: same rounded hexagonal wooden shield frame with blank GREEN inset, aspect.96:1;\nrow3 col3: same shield with GOLD inset and small existing-style gold crown attached at top, all within cell, overall aspect.84:1;\nrow3 col4: muted gray-beige disabled rounded tool tile matching row1col2, no icon, aspect1.27:1.\nrow4 col1: portrait modal cream panel with warm wooden rim, generous blank center, round corners, aspect.78:1; no decoration invading blank center;\nrow4 col2: green satin title ribbon with small tails behind both ends, blank center, aspect4.6:1;\nrow4 col3: warm honeywood title sign with small simple ribbon tails, blank cream central face, aspect4.6:1;\nrow4 col4: cream inset text input rectangle with very thin warm brown border, softly rounded corners, aspect4:1.\nMaintain precise 4x4 grid with no overlap. Leave alpha genuinely transparent. No background sheet, no cell outlines. These sprites will be automatically sliced by fixed grid and alpha bounds, so absolutely each asset must fit its cell. Consistent production-ready asset family."
+    },
+    {
+      "name": "icon-sheet",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-4fa8407d-fa73-4c50-8151-83f318f95130.png",
+      "prompt": "Production UI icon sprite atlas for garden woodwork Unity mobile game. Exactly 3x3 grid of nine equal square cells on square transparent RGBA canvas. Each asset centered inside its own cell with 12% empty transparent margin, nothing overlapping cells. No labels or watermark. Real alpha background. Consistent polished casual-game 2D/3D illustrated icons with simple chunky silhouettes, soft bevels and warm rim-light. Warm honey wood/cream/forest green palette except exchange which must retain magenta and blue arrows.\nRow1Col1: chunky curved counterclockwise UNDO arrow icon, muted dark brown with cream highlight, no backing plate.\nRow1Col2: TWO chunky circular EXCHANGE arrows, upper magenta and lower cyan-blue, no backing plate, preserve two-direction semantic.\nRow1Col3: ADD SCREW tool icon, a short shiny silver threaded screw with round gray base, prominent orange plus sign at left, no backing plate.\nRow2Col1: forest green gear SETTINGS icon, simple seven/eight teeth and central hole, no backing plate.\nRow2Col2: two forest green REPLAY circular arrows, no backing plate.\nRow2Col3: thick deep forest green PLUS sign, no backing plate.\nRow3Col1: round GREEN inventory badge, subtle wood outer rim, blank center, NO icon/number.\nRow3Col2: round cream/wood CLOSE button with clear dark forest green X glyph.\nRow3Col3: simple cream video camera play icon with leaf green triangle, representing rewarded ad video, no text, no button plate.\nAll full visible silhouettes with no crop. Must be sliced cell-by-cell. No text anywhere. This is an asset sheet, not a game screen."
+    },
+    {
+      "name": "cash-title",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-5567eea5-040a-496b-944f-450be7b58680.png",
+      "prompt": "Edit this isolated UI sprite. Change ONLY the pink ribbon into deep leaf-green satin with a thin warm honey-gold bevel edge. Keep the original empty ribbon face, paper banknotes, gold accents and both silver spanners, exact relative positions, overall silhouette, transparent background and all original alpha edges. Do not add any glow or backdrop. No words, no text, no symbols on blank ribbon. This is a game sprite, not a picture of a sign. True transparent RGBA output. Keep original wide 896:362 aspect ratio, no margin added. All existing content remains banknote cash decoration."
+    },
+    {
+      "name": "mechanic-title",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-2fe74614-b598-4812-baf5-77a96e9987c2.png",
+      "prompt": "Retexture this original isolated game title sprite while preserving all exact silhouette, layout, object positions and empty title space. Replace the PINK title ribbon by dark leaf-green satin with a restrained honey-gold bevel. Mechanic blue overalls and cap become muted garden green, face/pose/spanner unchanged. Preserve paper banknotes as paper banknotes. Reduce yellow glow intensity greatly but keep transparent alpha outside the artwork; no added background or new decoration. Do NOT add words or numbers. Keep blank ribbon and same visual area. No entire game screen, just this existing sprite retextured in warm garden theme."
+    },
+    {
+      "name": "replay-title",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-62ddbdec-d1a3-44a3-819d-641f052c6912.png",
+      "prompt": "Edit this existing Unity sprite in place: change ONLY the bright pink blank ribbon to deep leaf-green satin with a thin warm wooden/honey-gold bevel. Preserve the hand holding the spanner, colorful nuts, exact count, silhouette, relative placements, and blank title area. Keep transparent background and existing broad aspect ratio. Do not add glow or any backdrop. No new text. Pure isolated RGBA game sprite with all original semantics."
+    },
+    {
+      "name": "logo",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-93b82095-9d90-4240-a023-b9d1baa11665.png",
+      "prompt": "Restyle this original game logo sprite. Keep exact wording \"NUT SORT RELAX\", same two lines, same two spanners and two nuts, exact overall structure and crop. Change blue plaque interior to dark forest green, gold/orange border to warm honey wood, lettering to warm cream with brown outline for readability. Two nuts warm wood, spanners remain silver. No added leaves outside outline. Genuine transparent background. Retain original wide aspect ratio and every existing element. This is the existing static game logo, do not add other text."
+    },
+    {
+      "name": "cover",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-f806ba9d-0249-4395-9253-2cef5b397c21.png",
+      "prompt": "Retexture this EXACT isolated game piece: an opaque hollow-looking bell/cap cover with vertical molded grooves and tiered rounded top. Change violet/purple plastic to warm honey wood with subtle smooth grain, cream highlight, walnut groove shadows. Keep silhouette, dimensions, perspective, existing holes and shape precisely. No added objects, no decorations, no text, no visible nuts, do not make it see-through. Transparent alpha background outside original object. Preserve same tall ratio. This is a gameplay cover sprite, not a button."
+    },
+    {
+      "name": "add-badge",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-14765b6f-0873-49d7-98ae-0477d4385737.png",
+      "prompt": "Restyle this exact circular plus badge for a garden woodwork game. Same round silhouette, centered bold dark forest-green PLUS glyph, bright but mellow green face, very thin warm honey wood rim. Preserve relative plus size, circle size, no new text or decorations. Transparent RGBA outside the circle, no glow or external shadow. This is one isolated inventory add badge, square image. It replaces a runtime existing sprite and must keep plus inside its circular backing."
+    },
+    {
+      "name": "pending-shield",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-7b519ef8-0ca5-4394-b3e9-b03179224a08.png",
+      "prompt": "Make a FUTURE/NOT-YET-REACHED variant of this existing milestone game sprite. Keep exact rounded-hexagonal wooden rim and silhouette, size, light direction, and transparent alpha. Change the blank CREAM center to muted DARK WALNUT BROWN, sufficient contrast for an existing separate white number. Subtle bevel only. This is inactive pending state; no green, no gray disabled overlay, no number, no label, no crown, no added icon. Original completed state stays cream elsewhere; this version must be clearly visually distinct with dark brown center. True transparent outside the original shield shape."
+    },
+    {
+      "name": "teaching-thin-frame",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-334148c5-e252-48ee-b0d9-c8624968004c.png",
+      "prompt": "Use case: precise-object-edit. Edit target: the attached existing Unity teaching-hint background sprite. Make its thick golden wooden frame MUCH THINNER and quieter: reduce visible rim thickness by about 75%, to a single fine honey-wood line approximately 3% of total panel height. Remove the bulky rounded extrusion, heavy inset bevel, stacked shiny highlights and strong drop shadow. Keep the same wide rounded-rectangle outer silhouette, same overall aspect ratio, warm dark-walnut opaque interior (for separate cream text), and existing overall bounds. The interior should be smooth matte dark brown with only extremely subtle grain and soft even lighting. The dark interior expands inside the unchanged silhouette as the rim becomes thin. Rounded corners, one restrained fine pale wood rim, only a very small soft outside shadow. Maintain game garden-wood family, not gold metal. Sprite ONLY on genuine transparent RGBA outside its silhouette, with adequate transparent margin. NO TEXT, no letters, no title, no icons, no leaves, no additional decoration. Do NOT move or render UI text; all text is an existing separate Unity TMP element. This should look like a calm lightweight tooltip surface rather than a thick embossed button."
+    },
+    {
+      "name": "cash-tip-flat",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-1543142b-2418-4fa5-9fde-00ab99da2aff.png",
+      "prompt": "Use case: precise-object-edit. Image 1 is the edit target: an existing blank Unity status speech-bubble sprite. Image 2 is the previously approved whole-screen AI preview and is ONLY a style reference for the two slim white status bubbles below the Cash panels. Output ONLY the isolated blank edited sprite, never the screen and never the text. Preserve the original very wide rounded rectangle silhouette, centered small upward pointer, outer bounds and aspect ratio. Match the approved preview: opaque near-white #FFFDF8 fill with uniform very subtle warm tint, ONE fine single-color outline about 2 pixels thick when scaled to a 527x99-pixel asset. Make the face essentially flat. Remove the existing thick double rim, metallic bevel, gold/brown inner stroke, yellow cream gradient, glossy highlights and colored halo. A tiny soft neutral shadow only, not a deep inset or button bevel. Crisp clean edge and calm white empty interior for existing dynamic red/navy text. Genuine RGBA transparent canvas outside the full complete silhouette, all edges visible with a small clear margin. NO WORDS, NO letters, NO amounts, NO currency symbols, NO logos, NO icons, NO ornament. The original runtime text, size and position are separate and must not be baked in.\nOutline is soft leaf green #8ACD59, like the LEFT status bubble in Image 2. Its line is consistently thin, including at the upward pointer; no dark green outside stroke."
+    },
+    {
+      "name": "diamond-tip-flat",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-3571729e-a0c3-4e61-9913-4f35660ad61f.png",
+      "prompt": "Use case: precise-object-edit. Image 1 is the edit target: an existing blank Unity status speech-bubble sprite. Image 2 is the previously approved whole-screen AI preview and is ONLY a style reference for the two slim white status bubbles below the Cash panels. Output ONLY the isolated blank edited sprite, never the screen and never the text. Preserve the original very wide rounded rectangle silhouette, centered small upward pointer, outer bounds and aspect ratio. Match the approved preview: opaque near-white #FFFDF8 fill with uniform very subtle warm tint, ONE fine single-color outline about 2 pixels thick when scaled to a 527x99-pixel asset. Make the face essentially flat. Remove the existing thick double rim, metallic bevel, gold/brown inner stroke, yellow cream gradient, glossy highlights and colored halo. A tiny soft neutral shadow only, not a deep inset or button bevel. Crisp clean edge and calm white empty interior for existing dynamic red/navy text. Genuine RGBA transparent canvas outside the full complete silhouette, all edges visible with a small clear margin. NO WORDS, NO letters, NO amounts, NO currency symbols, NO logos, NO icons, NO ornament. The original runtime text, size and position are separate and must not be baked in.\nOutline is soft pale lavender #C8B9E8, like the RIGHT status bubble in Image 2. Its line is consistently thin, including at the upward pointer; no dark purple outside stroke."
+    },
+    {
+      "name": "withdraw-label-gold",
+      "source": "C:/Users/pc/.codex/generated_images/01a0c383-d971-7902-9a40-c44d55d1fbcd/exec-2116a895-b0ce-4c75-88e3-3c5ac7a24c21.png",
+      "prompt": "Use case: style-transfer. Asset type: one production Unity UI sprite, transparent PNG, NO TEXT. Input image 1 is the approved whole-game style reference; specifically match the small orange-red Withdraw labels under stages 4 and 5. Input image 2 is the original blank 207 by 77 pixel label silhouette, used as the exact structural shape guide. Generate a single unlettered replacement label background. Straight horizontal rounded RECTANGLE, short corner radii (not a pill/capsule), with a small centered upward triangular pointer integrated into the top edge. The triangle occupies about the top 12 percent of the total silhouette height, matching image 2; maintain the original wide aspect ratio approximately 2.69:1 and centered silhouette. Orange-red / vermilion center, fine luminous cream-gold inner edging, restrained golden outer bevel, soft narrow warm shadow below. Bright and charming polished casual game rendering exactly in the family of the orange labels in image 1. The border must be much thinner than a wooden frame: fine rim approx 3 percent of body height, tiny bottom gold thickness, large clean flat-ish orange-red central field for dynamic white text. Keep straight top/bottom body edges and subtle round corners. Full center free for text; no letters, no numbers, no symbols, no watermark, no green, no wood or dark bronze rim, no extra objects, no perspective tilt or rotation. Transparent background with real alpha, not a checkerboard painting. One isolated label only, subject fills most of canvas with modest transparent margins."
+    },
+    {
+      "name": "tool-panel-light",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-e3ddf9f2-754e-4804-b440-85b75c07c2ce.png",
+      "savedPath": "Docs/GardenReskin/Generated/tool-panel-light.png",
+      "prompt": "Use case: style-transfer. Create one production Unity UI sprite only, a blank wide rounded rectangular cream-and-light-wood tool button panel. Image 1 is the approved visual style reference; specifically match the three large tool button bases at the very bottom, ignoring all other artwork. Image 2 is the current button background to correct. Keep its front-facing rounded rectangular outline and approximate width:height 243:192. Change the current thick shiny orange-bronze multi-layer rim to a much slimmer pale honey wood rim (about 6% of width), subtle fine brown outline, softly rounded bevel, a generous nearly flat ivory/cream inset, a little subdued natural wood texture. Soft top-left light, understated shallow lower shadow contained within the sprite. No icons, no text, no digits, no badges, no symbols. All icon and count overlays are separate existing Unity components; leave the center blank. Single centered complete panel with small transparent margin. Genuine transparent background. No wood tabletop, no scene, no extra objects, no checkerboard painted into pixels.",
+      "references": [
+        "C:\\Projects\\Golden  Dragon Legend\\design-previews\\main-garden-20260921\\main-garden-AI-preview.png",
+        "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_bg.png"
+      ]
+    },
+    {
+      "name": "tool-count-green",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-8478f8b3-b481-4388-b395-12a6ab3bb382.png",
+      "savedPath": "Docs/GardenReskin/Generated/tool-count-green.png",
+      "prompt": "Use case: style-transfer. Create one production Unity UI sprite only, a blank green circular counter badge. Image 1 is the approved reference; match the bright green circular plus badges over the bottom tool buttons. Image 2 is the current blank counter badge to correct. Replace its orange/copper/wood ring entirely with a very thin deep forest-green outer outline. Smooth lime-to-grass-green face, restrained soft upper-left highlight, subtle shallow lower shading, friendly dimensional casual mobile game art, no metallic gloss. Perfect circle front-facing, no perspective, 80:80 final display ratio. Center must remain entirely blank because Unity renders the count dynamically. No number, no plus sign, no letters, no wood, no gold, no separate drop shadow blob. Single circle centered and fully visible with small genuine transparent margin and transparent background. No other objects.",
+      "references": [
+        "C:\\Projects\\Golden  Dragon Legend\\design-previews\\main-garden-20260921\\main-garden-AI-preview.png",
+        "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_count_bg.png"
+      ]
+    },
+    {
+      "name": "tool-add-green",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-08311d2f-b42a-4651-9e07-2ef7f87d8d33.png",
+      "savedPath": "Docs/GardenReskin/Generated/tool-add-green.png",
+      "prompt": "Use case: style-transfer. Create one production Unity UI sprite only, a bright green circular plus badge for the bottom tool controls in Image 1, the approved visual reference. Image 2 is the existing plus badge to correct. Keep a centered deep forest green plus glyph with rounded ends, large and very clear. Replace the existing orange/copper rim entirely with a very thin dark forest-green outline, using a fresh vivid lime-to-grass-green face, restrained soft upper-left highlight and subtle shallow lower shading. Polished friendly casual mobile game sprite, modest dimensionality, no metallic shine. Perfect circle, straight front view. No text other than the plus symbol, no number, no wood, no gold, no UI panel. One complete centered circular icon with small genuine transparent margin and transparent background, final intended size 80x80. Match the reference bottom bright green badges, not any cash buttons.",
+      "references": [
+        "C:\\Projects\\Golden  Dragon Legend\\design-previews\\main-garden-20260921\\main-garden-AI-preview.png",
+        "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_add.png"
+      ]
+    },
+    {
+      "name": "replay-cream-disc",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-2dcc263e-0b77-4e9f-b44e-95968fad7e15.png",
+      "savedPath": "Docs/GardenReskin/Generated/replay-cream-disc.png",
+      "prompt": "Use case: stylized-concept. Create one production Unity UI sprite only: the blank circular button backing of the small replay button at the bottom right in the attached approved game reference. Match that cream round backing with a narrow pale honey wood rim and fine brown outline. Nearly flat warm ivory center, subtle rounded edge and light upper-left highlight, understated shallow lower shadow inside the sprite. Perfect front-facing circle, intended 85x85 UI pixels, small transparent margin. Very important: do NOT draw the green replay arrows; those are supplied by a separate existing Unity Image. No icon, no symbol, no text, no plus, no number. Only one blank circular cream and light wooden disc, fully visible on a genuine transparent background. No tabletop or scene, no gold metal or orange bulky bevel, no extra objects.",
+      "references": [
+        "C:\\Projects\\Golden  Dragon Legend\\design-previews\\main-garden-20260921\\main-garden-AI-preview.png"
+      ]
+    },
+    {
+      "name": "tutorial-track-wood",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-9be7311c-cd35-4e66-acc3-2a9073205bb5.png",
+      "savedPath": "Docs/GardenReskin/Generated/tutorial-track-wood.png",
+      "prompt": "Use case: stylized-concept. Production Unity UI sprite, a single thin horizontal warm pale honey-wood connector track for a small tutorial step indicator. Match the soft cream and light wood garden-game palette in the attached first reference image; second image is the old connector being replaced, do not retain its green fill or orange metallic rim. Subject: one very long slender flat capsule line, width:height exactly about 26:1, straight horizontal, softly rounded tiny end caps. Warm light honey-beige body, low contrast delicate soft darker brown lower edge, restrained ivory upper edge, subtle depth without glossy metal and no visible grain at small size. It must read as an understated clean wooden rail behind four circular progress markers. Output ONLY the rail, do not draw markers. Actual target 131x5 pixels. Place this complete slender horizontal sprite across the center of a transparent canvas with plenty of transparent space above and below, small margin at its ends. Genuine transparent RGBA background. No green, no orange-gold metallic trim, no diamonds, no notches, no buttons, no text, no numbers, no icons, no scene or backdrop. It should remain coherent when scaled down to a few pixels high."
+    }
+  ],
+  "derivedAssets": [
+    {
+      "name": "cream-panel",
+      "source": "Docs/GardenReskin/Generated/core-sheet.png",
+      "operation": "Exact rectangle extraction x=0 y=0 width=342 height=313; preserves the generated panel beyond its nominal grid-cell boundary.",
+      "script": "Tools/GardenReskin/ExtractGeneratedCreamPanel.ps1",
+      "output": "Docs/GardenReskin/Generated/cream-panel.png"
+    }
+  ]
+}

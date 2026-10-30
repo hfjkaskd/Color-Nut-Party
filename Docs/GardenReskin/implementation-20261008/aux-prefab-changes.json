@@ -1,0 +1,542 @@
+[
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+    "component": "114002669891404536",
+    "before_sha256": "18cb41bed9579acbb5753b1c99ffa58fd20f104f19ee09c859daf44972d75d5e",
+    "after_sha256": "cc922b2fa0498dd0ac535c9187c6222e09f1513e56d5c91d332d628c57d89468"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+    "component": "114621510681728303",
+    "before_sha256": "28ace8e6fa537d22a221c528f7bf23c74a9d8492ea94ccb0e6375a07c935f972",
+    "after_sha256": "6e9a319ab8897705de97a508acd666d388e357652978b5798fbbcb0e2656e7f7"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+    "component": "114587397909062814",
+    "before_sha256": "b17282dc6eeaf47c691259dc043ebfa73a37e103186158fcbdfd7e3eba02c91f",
+    "after_sha256": "f5b2a89f61f7e524280da0d0616def01ed0b1ec8cfee2e00889e3f4f9df7808c"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+    "component": "114694121525821480",
+    "before_sha256": "b1a45eb37fe2f6f1aaadd2053a4b3b6e8a71b078564f20b44158bfa0f425e4cc",
+    "after_sha256": "ea0cf5312aa90eb0f81f515560201161bfccf889639f48af141c34f22ae39a39"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+    "component": "114733206282342372",
+    "before_sha256": "ef7066fd35da3058eb3f2124bc75cd306de8fdc02bd869ee6c5c5da4a43459d8",
+    "after_sha256": "3b7017982dd2a03ae647efe42c25984e0e76e6319682af6ac86fcb5e12310f1a"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+    "component": "114472185465350827",
+    "before_sha256": "d00dcd3162bfe725f9ed20abdb54aed55a737aca9c8659db97c27ca6ce4e0576",
+    "after_sha256": "5a39e5791d34943d4e3b8469394682bb5fc9c0f2d94e766214d9f5aae5b3a923"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+    "component": "114919942235722503",
+    "before_sha256": "78a8f3096fb56d3e73f5da882923ccd1762511ee204686925b928d7ad1bd523d",
+    "after_sha256": "4a999a5b64da259953130fc6bc78a98a6c0f6f16dc568228a391b8071717555d"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+    "component": "114161607090078389",
+    "before_sha256": "00a801730ace8d5266dc1e76d35e8784ce621185f133ba410a52108152c4551d",
+    "after_sha256": "30588888cdd33168f4219585fd61d1e8ec7b7271c8f4ef58796f58f08f690bed"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+    "component": "114313026266067498",
+    "before_sha256": "0968ae2bceb4ca460efdc85602d9b99157c21ccf5662d779cd5d96feac70821c",
+    "after_sha256": "484cdd2d7bb7db3014683abf17e13bdee75ccc18a0975b42d2fe7da8a6cbab7d"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+    "component": "114634108722742392",
+    "before_sha256": "900617c247a5b9d27402018278bd355b914bb822f685864f73a3f2066149fe7f",
+    "after_sha256": "d6f4c1e972306acacdc7d2b2ede3900e0541d651daf76425fa63bfbfe79efa54"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+    "component": "114642988549198181",
+    "before_sha256": "69aceb3753fde379019aa88686b654f36dd0cf42cfc5b1ec972e21cfb4cb9c45",
+    "after_sha256": "6aa153d0c2efe9865395b825f9595d7c311db36c948cb160fc5f6dedc6c99761"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+    "component": "114918264173551851",
+    "before_sha256": "5b7ee0862b0e4fe359effe9727ad96f2d10b2b62b60ef0c0cdf02f14a64ca84f",
+    "after_sha256": "8e117545d38cd9f33416e2902c6d9daca388832ba3a02b0cc93eb0aba12faf25"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+    "component": "114320256170494724",
+    "before_sha256": "295d97c38d8c913fc4be4baa2b85479ceb4b3d8f9e5ca759a9134c1e8d68079f",
+    "after_sha256": "b772dd3d855a035726775eabf01986f0da08c2fa89b44ba78d0ce7425790816d"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+    "component": "114060945828524476",
+    "before_sha256": "3ec5a709f137dbf29d203f24f83e4f89ce622ec7f43b6dd33bd052d0e4aff2a5",
+    "after_sha256": "f84e49ece167b3223bdcb6448bf48b742066dc7410a2a3aa54ecde236eb95a1a"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+    "component": "114107629493147155",
+    "before_sha256": "71913a5fa3af3d244168609e660504b05e678a53ae88078134feb49cc382cd30",
+    "after_sha256": "5012ff3b53dd351d11c277395bf6e74fe7d0b9a42ae227f0bc140f40fc0e92ca"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114060945828524476",
+    "before_sha256": "c5af7249568004c55f3cc3b2036651399e54c2f9ac64fe06f614afb86daba1ab",
+    "after_sha256": "7d1922cbf2fccf70ebab08453b98680ecd3e580f55ee60e3e946cd5e3d5bc5ef"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114518489005915545",
+    "before_sha256": "bc58d3c96a9a57439a82e78b37671bfe8ee254c76a50ecd29031fa3c25edb55a",
+    "after_sha256": "0049e68b3a715da07ee34527f496212a9316c201b0479e5161d007e7cdeab0f3"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114967328832014496",
+    "before_sha256": "fe1aa9e93d7c80dc9a3da4f36d0955ad8be99ba63e9d1b1a3b0fd87c71152f96",
+    "after_sha256": "4af597f873919e771fb516ceede41a10c4a83d42fe44432f34143eff1455db7b"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114436073260064126",
+    "before_sha256": "6b3f64ae37235038364648f4d5a5c1068c095265d9f9dca70ef0a99dbba52b80",
+    "after_sha256": "f09abed7cbe1cd49091834d1208e2b5e46dad4f406bfd865d727568f09f20fdd"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114000955326284023",
+    "before_sha256": "5408672f3f741a391d82b589e776ec98796ece18ab154f3a8ff0549e908d563d",
+    "after_sha256": "f38f40d0d629fcb35342e5977b507783e781f47761a497a0d9ccbb93888dc90e"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114581786255902400",
+    "before_sha256": "0d414035d278083263be7774e53642d928df9ceda28ad64f6d246b78397b9b96",
+    "after_sha256": "2f82c9713fd4b4195f19ccce26cd7568ccbfa2611fecc671561612995ddfc2dd"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114043919389829319",
+    "before_sha256": "32a8ad80c410217229ccfd82fdfc99b96c1f78dbaa023b09a675839a72c29ac3",
+    "after_sha256": "64bc392475f611197cf971f6bb4c34bb22d2bc925bf2bc0dc2eb6c6796a5e8a3"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114026196548002408",
+    "before_sha256": "36baba9ddd08e2fe458582a9fe907d2f91707d2bde85e49a4d0a33cb6627f597",
+    "after_sha256": "08a0a05bece19924288764b5aa7c55bee636558a6173607488020771666e3b92"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114693062532245359",
+    "before_sha256": "80261ba3a54494f0b4a14f76ee81a21b10c64cc83d43208174e9efa2e7a3b759",
+    "after_sha256": "893eecbfb65b4530abe80ffb28b519cfed00ceb1090982a76de0285eab7e0887"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114571878917323452",
+    "before_sha256": "3b8c26e979f7ec3e155b99ff7ea791af08fdadb0eda3281c2d39d505321fa767",
+    "after_sha256": "196d6f766746232ce9f51a31d472d6c0da25165bd53c372dfd0575de629898f4"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114964469411310401",
+    "before_sha256": "75fdee2e640936a66265409d6906e5e6c41701352480d33fd6c3e50a2a450d65",
+    "after_sha256": "d87bf4625f037b17017c19eb27b7cd52f356735c479d1571c7d4bd091f575897"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114658330495870062",
+    "before_sha256": "db7c27f17b19ab28414bef897d4f06f75b09d6a7115c0ed8a9bda849afb97a12",
+    "after_sha256": "c455b7c1cbfab0900be439e34beb54226af3c10243f677ec8e5792c46d3268c6"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114085275382694935",
+    "before_sha256": "bf815b938bbffdf8b9476cb2cb10fcbae11e71731cecc41d9d58feb2ca34b0b3",
+    "after_sha256": "e29854017cd597e643cd23140c246266fc61a13aa5590d0d4a15a4e8bc726e4d"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114492842699383957",
+    "before_sha256": "e44957caa45a3794cbf2abc1882a611b94278a21d2b066f4f30b6db5365f9a0b",
+    "after_sha256": "efd8989ba9e680b3f8afcfd779389c697eec6e0e90bd1f9f4369751ab91750dd"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114167524263268962",
+    "before_sha256": "3b74cd5bca8268c7170e518bd4c89b78091b937832d8f42c31bf50f7e805b7c4",
+    "after_sha256": "972e027cb6e5417ca85f1674bf12ccd41d74a61a2df1585c738cab304e8c51e1"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114007513189690300",
+    "before_sha256": "0e36c38877a73f0f624129d64a1732eaa252ae16f78e5908914786bf5f50832d",
+    "after_sha256": "5cd0f5b18fe19035eb72c9a4c4bb7cbb43aaa1ce8415fcbf039c7b384c6d1970"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114611579644537198",
+    "before_sha256": "f7e597bafab6e9116973fcbbb4b37d83b996dc8d8340f4eae9be9b4b95653be4",
+    "after_sha256": "8aa068098187e35d0e166d36eecb5253a0dc6a79eedb19b0908764351733ae6a"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+    "component": "114132862189046193",
+    "before_sha256": "db2207e88ddb5be923a8d7d9b29c6ff6fa6864319505bbd56133e8225fa4bf5f",
+    "after_sha256": "b23a7b5e900df34363adf3ac8f861c5c9ee1c4c46fb093d3bdc332ce2081ffc2"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114472185465350827",
+    "before_sha256": "b32994d9756bd0385151f93cdf40c858902881b8b2d19d8f5fb7c8be05a2977a",
+    "after_sha256": "f0f2caa6955b3711dd3912c87c742a7c0c5f8604b6fd7ecc14ee06ba855b461d"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114841364053301648",
+    "before_sha256": "0c660ffda6829349df6fd0342e36923bb6a45712a97c329353228c697333c485",
+    "after_sha256": "93285f497b79ea7cc5c14cda5c9cb1921f59caae3e68d7c690b2d397d33e48fd"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114833703512093738",
+    "before_sha256": "f252b8da245c605c2decb891e5b6da283136ca142af1d9a573b079a9a1ea2f17",
+    "after_sha256": "f1eae344db425eedbc57ac70afbc49f2dfce2b86c97a644284c8bdbb17ba66eb"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114726790013014859",
+    "before_sha256": "9c59a5952907eb122173f6d84f43762fd3ca063afdea406b4bea25567d8c56b8",
+    "after_sha256": "9fafeca0280594f0c44fbc69ebe66fa4fbf6d648264b559915eed6c26fb7fd5a"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114477046003934300",
+    "before_sha256": "c9dd409619bdfca98dff81e4a11ba2237a190b0fdeb033fbb5c3613382717ae2",
+    "after_sha256": "a626a1b4ee6c5db7122002f251ba2a43a581b5d026cd7fb553566ef154eabc81"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114743393880019028",
+    "before_sha256": "aaf68092df6f8e45ee6f2cd4bd36e8d09c715d5d72da1d2674482031c888fa55",
+    "after_sha256": "8495124b844be45f29ce1ac8a255fe123321a7d2e2c2f9342da076c1296c38e5"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114693062532245359",
+    "before_sha256": "218f8d913412789fa24318cbe126e2e8a5064fe4d05c4b5826f19b0c3adaab83",
+    "after_sha256": "13ddbf553783766eaa7e0c7a9dac6153df868614b21bb25e4ac092a192fa8b27"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114574304967836189",
+    "before_sha256": "13250a40991c6d4e42682130dc6f018124ab83a1dccc12bc13102ea4704b7f21",
+    "after_sha256": "962db31af0eaf8e79f461526fb034fd1c83abd593439c80f841a75db22a68bb2"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114574190619683098",
+    "before_sha256": "bf427314ffb3a8c73ec1100be7fc9a76b4026a7f2988178883b1ead73992eade",
+    "after_sha256": "bb71f7703305465b0f8b073514fcf7520dc0a14ba38c819a5d7a9ca6391bfd1c"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114658330495870062",
+    "before_sha256": "98c69ff1a109deed6ec458a8a106b42645e9666726f4a4b8967e57959739c031",
+    "after_sha256": "34b74b170b473ec356912c0e520bb1eea614802c6b78b1a9053244452689266a"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114806657225351454",
+    "before_sha256": "f139f33168865a7ca45bcf668a815799165f133a5f9a87d862afa37852dac0e7",
+    "after_sha256": "ea963cf66afe2979a8988598444d66439ad359ab957479c137bb2186c03a5296"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114354824845356902",
+    "before_sha256": "c5000e9335993199c97b2c0f99d3e1a616917d1a4e5912a2c960d68f4441ddc0",
+    "after_sha256": "950d9c186ab064e26450e99a9db04953837e76f14cdbeb25b108028076b2a09b"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114601984538237284",
+    "before_sha256": "0d9549cc9836652d53e91cb004438167812b9a0d159b729325d8d87c23560815",
+    "after_sha256": "d801e0d16b53cf75ea9f8ac36d5d4b27580217538832704bbc12411f6783ee9c"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114690175861776792",
+    "before_sha256": "6e24e49bba894cb9e17c4ac871c2eef76ff25776287d065ced0fb7cacefd573a",
+    "after_sha256": "fe158c0e2e6fdaba8e5a517442fa0074134598cc656e60e80ada494e4fcc0f93"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114998874197659892",
+    "before_sha256": "04dc7b3c41c68a43544b4d802aba70f32e9a6b2d13cdb87e9f5a20fa4f9972a0",
+    "after_sha256": "2eb7d2a5488b3c89a649afd7ffc8269a63af5b000d48a9f1c32a84284b094f89"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114328299215684997",
+    "before_sha256": "4a42377789225401651c6f04fd78bc59d04a5bde793375539e866580b3ee2bca",
+    "after_sha256": "52be23e2a8b6d8398b7be6a8eded9c58a3ff830ef94110d0d5aac4aa67367d8d"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+    "component": "114528911807818478",
+    "before_sha256": "38fb126217a7488716a26dc53dc4b144f1da70694bfb30a19202b41da51e472d",
+    "after_sha256": "f1e1440ab00c2dd1c414844cc9d54e2980a9681d19b98a17feb5bae09cf5b6a7"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114634108722742392",
+    "before_sha256": "5f01b95977351cc663e8a1e169157d8f5af9a75bb56bd82920bbc21024b414b7",
+    "after_sha256": "cf96cc6ac8ad44e391baf38ed23c7ffa03ae43f44d7c87da6553a24b990b9c1c"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114642988549198181",
+    "before_sha256": "53c82a1e3437801d26ad2580c9389d187ea6bf179b20b3f507a351f449cd00bd",
+    "after_sha256": "c664f39d2d99a811f65181c46c31a2cec7bd5110dcaa2c8a3d817420d6675a41"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114918264173551851",
+    "before_sha256": "b62c1636779eb2abf35583c4c88dbc5583df1f1daf1459f44c828c116ca2c32c",
+    "after_sha256": "6402b6b5abc5ccc41f5c3cb3a52e128a59d180c420c5cb30dd6cc8aa99c47ae2"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114371939378208658",
+    "before_sha256": "6f536fba257edac760d2ef84a08db1e08d8088e6bda6ece8dc72b8d84218a1e0",
+    "after_sha256": "db0114b7ca1aad0599346164e2c593b8fb0f5988eec489e315ec2add826b0f2a"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114060945828524476",
+    "before_sha256": "6388a99f4d1e39f4f176efcb33d55951dff2ed876efb4941f5e9c4b94c8c1be0",
+    "after_sha256": "a2d7834f7cb2fd5e47a00f558bb711e8e0bfa16dca26b8e175f6e2bc2d1ee0ca"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114518489005915545",
+    "before_sha256": "c4046da8027fe3a12321d84dcacb80894009bac7c3c974093c945e666e99ae58",
+    "after_sha256": "caa6138fae79f15d6dc267e0774ab4d25a8ba2399ce60eb13a95f64a08ffa1ad"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114967328832014496",
+    "before_sha256": "5952d5d2b2592c95ce4057e09bb4ff33e2163d87a2bccc6297978a0ac9ea232d",
+    "after_sha256": "46c9528d5178cb9ea9472def6481c80502ee44d259d30b3dfddce45a1e34e365"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114719342369648492",
+    "before_sha256": "a3f7b4ca6464d1b23d00048168f4cd92f94b2a3afbaeeca7559458e59f57af56",
+    "after_sha256": "b57c90f82d15827f2eb65eb83ff11e0fbadd9acb13ea54a65d39d63eb477e7ea"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114693329660128220",
+    "before_sha256": "bf334ef9365b196b901e03159e56ca2bbbecae77416fc761fb44cd0351238b58",
+    "after_sha256": "7fce7b081ea9ff1e0cafb3a8eb603a882b1cad0da0a670539d726316967ba657"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114397768327470545",
+    "before_sha256": "6db584038c99e1c4b0c44c8288768538e12e78d4f2adf0b3fd236ed7ed588f24",
+    "after_sha256": "009ee97ce7bcdd3745013e36fca55e69d24c5301551634b144d1d8ecf129871d"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114477046003934300",
+    "before_sha256": "8642e967138f9137a402d2c2178781f5e8929effe72d046d0243772e2722cc08",
+    "after_sha256": "ba31f3a1fe85ef6c6e278fbb266dfcdc12b3458e54abd4f28482a878fa06474c"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114924050743934937",
+    "before_sha256": "eabcd94d075f4a62241fff2d69a29129bdaaa4f457c2ac261215856f273116b6",
+    "after_sha256": "f0e86ecafde3c9a50c5663552c0ec25cf0aba92373015bb27fa8d5820d977d03"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+    "component": "114043919389829319",
+    "before_sha256": "b3f06f7388ff1906b8c52818aa717f6928c1986d10c8b7669e371aeb134a83a3",
+    "after_sha256": "bb551ce628c865f27e08c431f34e004bd2dd494c57cbcb94c1bbcfe2fb005c68"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXGuideLoadingPanel.prefab",
+    "component": "114372920208702427",
+    "before_sha256": "5deadef5780c3273994b5840e38b6ac0006d45683a37e0b06accfe31e93fbfde",
+    "after_sha256": "2e717fdb7fe4216b8f214e2e6fe0233f5e29b7cb2f30eba2fb451ca32f0b0ac7"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXGuideLoadingPanel.prefab",
+    "component": "114705390221481576",
+    "before_sha256": "74eb3a8cba35a2f08c194e797c74f57cfbcbe97dc54a05a79895cb4a75ed1889",
+    "after_sha256": "109066d80ddf2e8a2de9dd161d4247173308b9fd1e79acc352286029cbf3de8f"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXGuideLoadingPanel.prefab",
+    "component": "114256069497284392",
+    "before_sha256": "989c713c0146397993a0dcfbac1e6e31df5bc179c0b5c0dfe749bcad0b1818c4",
+    "after_sha256": "d1f743380178c85d3ba31f353f3bcafff8536846dbe03266d6f17327a4c7b807"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXGuideLoadingPanel.prefab",
+    "component": "114470112387431263",
+    "before_sha256": "a5514bc6229f3d6fe0c68fe084eb79d67a0ff12d2372174e89452e575e4aa7de",
+    "after_sha256": "d4b015f710996d4602aa190792a8649dcc3e7a93263d7379d8271b303c6c8e06"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114518489005915545",
+    "before_sha256": "2e81f29757f09a909901874d2e974d3d4b06d49007fe0c1195db6ee88772fe33",
+    "after_sha256": "316cc984988d70506dc0f3a523ffebd4d6eca0f78da8202975bd81b9766fd77a"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114967328832014496",
+    "before_sha256": "db7d5dd973830b30e72fe73f9ba28074c0468f5281810f08dbd11a6906eb2a4f",
+    "after_sha256": "f1a6d5c8ae9059a86064ffcdd15ec89fbb205482328e05330c60e865e48817fa"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114919942235722503",
+    "before_sha256": "db9ac4a8481d6c1ee5c8b5ab3d6e37dc39ee1e0fe62a59500418e643298e02a6",
+    "after_sha256": "42b10547ff33610e1edcd22aa86f931490c7d4f06ca4e8eaab96ad1105fa573e"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114632746491512912",
+    "before_sha256": "36c1d8ee38031b7679e413e152691838a72309fd15b9c74abc90a6ac555a14e6",
+    "after_sha256": "b4e1f7cb73c7aead7317b25d60ecfdb854271200c90633bb043eef99d27aaa67"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114801075752484240",
+    "before_sha256": "e6bf5199c3577ebd3bb067c04e948962d9468b4c1e0062ea5d1a08b28b848593",
+    "after_sha256": "2ee8600c4d2043d8fb294b973247eff58baa11cd24f371fc8d247690621c86fc"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114571718729274231",
+    "before_sha256": "18c77eed0d388735c6ec2215f165a0e73b321c4a5a9eac6cb9431e8d76422fda",
+    "after_sha256": "59158caf9fec11130704a19c93bbbcfecb25a53f67cd8df45e4f66221d326cea"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114215879266689626",
+    "before_sha256": "76f9908076b7fe247dc1408c65d5e17c15eedd4039ad194f088c31d40a50599c",
+    "after_sha256": "9ae28712a20c4ded2233bb9b589e25b657dfceec2dea177402361f416e56f4f7"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114572839542275309",
+    "before_sha256": "43303aca112799630bb150dd5adbc807784efa4b827e831e85e78b2a03211593",
+    "after_sha256": "b9ea73fb70c105a93d5cb08d61a442a1264be05acffd5137625bd4333d065986"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114574304967836189",
+    "before_sha256": "868941aa608c3032c3643f7d8fc5ae74f6dc79d1a5148bbb9e75ee9f28535e4c",
+    "after_sha256": "ae2bde839cf364f5b6591a3d7b35e5b5cb4839a3c5eb35872c22b1481f2b6bad"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114552309709192268",
+    "before_sha256": "416f9c0817c7fc13b66d12e8115b97b702300f0d10c8931eb8ff632a16ad2ee5",
+    "after_sha256": "407f4f95c990b6ce48279a9348c914af9df965e9f826117a264c9c1edbc77568"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114976365255789935",
+    "before_sha256": "6ca1aa3056ff29970035f2553646333e63c09c37cc724c81bb9c773b487a018b",
+    "after_sha256": "905ee84a75601ec1761c0cddfd909e1f08a6554f8b78c5288908605c45590938"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114121005239445321",
+    "before_sha256": "dd0669728a8ebe3bde39df289c7f45702bc55b69225a7024619ed7c88480aecc",
+    "after_sha256": "0458cf7d5edf9abee4cffe6b61982bd695b5e5a192d2fae2b672d1685862b7b4"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114123703392571528",
+    "before_sha256": "475f1755f004d8c9c43a796a71efada6d9db4e3f09e6d9687b4f2f467155110c",
+    "after_sha256": "063ad0236720c3753c398c8fedbd3b3042cfefcddec64284689480cc489ad8aa"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114641631609468814",
+    "before_sha256": "50b993a18007a70e4d2f21889d37d3e28d7d3f9ef96e8af4504922c54c92f5af",
+    "after_sha256": "47109edef6ec27ed84e0614cba3878aa77486ff4f7d3aea63847d339da7ecaef"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114240571728440943",
+    "before_sha256": "be3763e0b4afa756df71279b919b928d5814d9d2556999492e210743fef951f6",
+    "after_sha256": "21380a36d2e8adda4dadda3e72fef6b697dd7d9467f734b0ff982a75f317a205"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114633296557590524",
+    "before_sha256": "8665762ce389eecbc9f6f3146c68a2c6a49530bc4fb242c430733e00db9e60c7",
+    "after_sha256": "f01cfb191bbd20c5ef2e13e1136b2990d220f1da14d0132b2cb27222972cc9a0"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+    "component": "114771092198208730",
+    "before_sha256": "19f64bdd4d51f724cad160ddba8436eb286825ebf95b6e77406453b3fb908380",
+    "after_sha256": "23cedea3f12dbf801f4183e35427daffb215c60e8362fa73616ad05a41a693f1"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXGuideTargetCompletePanel.prefab",
+    "component": "114002669891404536",
+    "before_sha256": "3e29788541e1461cd7ed290b557acf755455c71c7e71f2077a29cc55de0a5fb3",
+    "after_sha256": "a1c2554eb7f4a351b515fbc4d293ed732c7d0dc0f51c52d9f08b06db8b12fa97"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXGuideTargetCompletePanel.prefab",
+    "component": "114621510681728303",
+    "before_sha256": "125d7259f671109723633e138a389fe0ac41c063fdf08e6d5dc34ef741be9924",
+    "after_sha256": "6e9a319ab8897705de97a508acd666d388e357652978b5798fbbcb0e2656e7f7"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXGuideTargetCompletePanel.prefab",
+    "component": "114711914853252429",
+    "before_sha256": "9572be1ed523614e8da2ceb04ea3a61637fd0279b2a7be98883393442b43b7cd",
+    "after_sha256": "f2dde7df90057f2af3eb633a86b8f90113981aecb74cad5498e21c3448644047"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXGuideTargetCompletePanel.prefab",
+    "component": "114672306508523268",
+    "before_sha256": "77f86acfb94808a32c1fda57d9565fe96287a17bbe053f4ffcd3cc56347a4781",
+    "after_sha256": "cb8cf497913e0a66b84223df9569e2e709920339daa980ec2451fba139da8d0b"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXGuideTargetCompletePanel.prefab",
+    "component": "114900271049623953",
+    "before_sha256": "868ee9f919ed1accb23025292f6c46c38ecdf5103a91259c5970cfa2ec02052a",
+    "after_sha256": "2e87f095a92aa905d5843247ebdc40d63bd5065503b57957253cf1ff732b69f9"
+  },
+  {
+    "prefab": "Assets/Resources/prefabs/panels/TXGuideTargetCompletePanel.prefab",
+    "component": "114344419225485095",
+    "before_sha256": "761de77fd651b8bee3003bd5df76dcab1a9b4cc43a6ae2e01f88f68b808466b6",
+    "after_sha256": "da5e888967df43fa5a2091ce6e681f1afa844f8d5d5b46f17831906cd5538678"
+  }
+]

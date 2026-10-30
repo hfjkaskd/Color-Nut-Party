@@ -1,0 +1,7 @@
+{
+  "asset": "aux-verification-card",
+  "prompt": "Edit FIRST sprite 896x246. Preserve its exact wide aspect ratio and original silver-blue bank building icon on far right (x700..846, y48..196), unchanged size and position. SECOND is style reference for the top information card of approved dialog. Replace flat offwhite background with subtly textured warm ivory cream and a very fine honey wood single-line rounded rectangle perimeter, 3px original-scale, corners20px, no thick bevel. Keep left 75% entirely blank for live text. No text, letters, words, numbers, leaves, flowers or other illustrations. Full image is one isolated card with transparent outside rounded corners, no screenshot.",
+  "raw_path": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-2e47-7e41-9aa6-55df75001fab\\exec-3f540e4e-94f8-4de4-a6e4-961bb81d83f7.png",
+  "provider": "image_gen__imagegen",
+  "transparent": true
+}

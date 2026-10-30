@@ -1,0 +1,490 @@
+{
+  "status": "PASS",
+  "project": "C:\\Projects\\com.nut.sort.relax",
+  "evidenceType": "Unity Play Mode real rendering with explicit test fixtures; not AI previews or device captures",
+  "textureReplacements": 118,
+  "prefabsWithColourOnlyChanges": 24,
+  "materialsWithPaletteChanges": 15,
+  "structureBaselineFiles": 3853,
+  "newAssets": 0,
+  "runtimeSuiteCount": 7,
+  "runtimeScreenshotCount": 19,
+  "sourcePngBytes": {
+    "before": 11068714,
+    "after": 31908115
+  },
+  "preservedCandidates": {
+    "Texture2D/bg2_5.png": "Cream information strip with an embedded blue-white bank icon at its right edge; used by TXTooFastHintPanel/main/bg (2). Preserve the bank symbol and existing text-safe area instead of replacing it with a blank frame.",
+    "Resources/atlas/txrecordpanel/bg1.png": "Bank building icon despite the generic bg1 filename; preserve the original blue-white bank, columns and roof. Used by TXCoinPanel/main/Image, not a blank status badge.",
+    "Resources/atlas/mainpanel/house.png": "Bank entry icon already honey-gold; retains bank semantics.",
+    "Resources/game/spirte/ALCI.png": "Neutral stone fixed-screw obstacle; preserve cracks/state readability.",
+    "Resources/game/spirte/Stone.png": "Neutral broken stone state paired with ALCI; preserve exact fragments.",
+    "Resources/game/spirte/Mask_done.png": "White completion check mark; preserve state meaning.",
+    "Texture2D/ls.png": "Gameplay nut icon; preserve color semantics and hole geometry.",
+    "Texture2D/Nut_Stand_Color.png": "Shared mesh UV/metal thread texture. Cream base is supplied by existing material palette changes.",
+    "Texture2D/screwHide.png": "Tutorial demonstrates exact hidden-nut count/colors; preserve instructional content."
+  },
+  "runtimeEvidence": [
+    {
+      "passed": true,
+      "method": "NutSort.Validation.LocalRewardsTopPlayValidation.Run",
+      "marker": "NUT_LOCAL_REWARDS_TOP_PASS",
+      "exitCode": 0,
+      "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-polish-final\\main.log",
+      "screenshots": [
+        {
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-polish-final\\main-unity-play-local-rewards-top-BR.png",
+          "sha256": "323D6C0A56DA58707452D44BB415E2F29A6C6742A9AA2A575BF6FC9BA59A0B17"
+        },
+        {
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-polish-final\\main-unity-play-local-rewards-top-ID.png",
+          "sha256": "03C05814C1337077652472A136C3FDE333D6E557FC5DE2C5AFF9852BDE14E78D"
+        }
+      ],
+      "suite": "main"
+    },
+    {
+      "exitCode": 0,
+      "method": "NutSort.Validation.LocalWelcomePlayValidation.Run",
+      "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\welcome.log",
+      "screenshots": [
+        {
+          "sha256": "1F1737A2866E36B55CD4B903F55B37E00F770C5C39ECA6D67D0443C9AD68C19D",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\welcome-unity-play-welcome-startup.png"
+        }
+      ],
+      "suite": "welcome",
+      "passed": true,
+      "marker": "NUT_LOCAL_WELCOME_PASS"
+    },
+    {
+      "exitCode": 0,
+      "suite": "teaching",
+      "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-teaching-final\\teaching.log",
+      "passed": true,
+      "method": "NutSort.Validation.LocalTeachingViewPlayValidation.Run",
+      "marker": "NUT_LOCAL_TEACHING_VIEW_PASS",
+      "screenshots": [
+        {
+          "sha256": "7B4558F5F11AED2C25D73EE001E231738A9E0081A525D2FBC3A2C34EA3BF9B91",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-teaching-final\\teaching-unity-play-local-teaching-0-current.png"
+        },
+        {
+          "sha256": "EAD59B0F0FE34382DC6711DE1A558F629777D4AE5C5A47B8727B9B770B7D985E",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-teaching-final\\teaching-unity-play-local-teaching-1-current.png"
+        },
+        {
+          "sha256": "288323DFADEC0E33528D5EEC90D68D4CF17CFF33C7326C4F153037D87BC0D950",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-teaching-final\\teaching-unity-play-local-teaching-2-current.png"
+        },
+        {
+          "sha256": "806F404E9B70231505F8BA1734814A38A1E471431A2F565E19ADA8B3B876592F",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-teaching-final\\teaching-unity-play-local-teaching-3-current.png"
+        }
+      ]
+    },
+    {
+      "exitCode": 0,
+      "method": "NutSort.Validation.LocalCashRewardPlayValidation.Run",
+      "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\success.log",
+      "screenshots": [
+        {
+          "sha256": "222386828D6008A34D7D2B65CE2E55D44F9571BA5EE5DE4E9734B7424E83DA31",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\success-unity-play-local-cash-BR.png"
+        },
+        {
+          "sha256": "8A8F3776AA231A561E6E887262A94524FFE9DB6399ED915D490EAD85E91D8905",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\success-unity-play-local-cash-ID.png"
+        }
+      ],
+      "suite": "success",
+      "passed": true,
+      "marker": "NUT_LOCAL_CASH_REWARD_PASS"
+    },
+    {
+      "exitCode": 0,
+      "method": "NutSort.Validation.LocalFailurePlayValidation.Run",
+      "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\failure.log",
+      "screenshots": [
+        {
+          "sha256": "29EFEAD2976FF4BB78B8A7044CFF2E275711F482A776D5B5C91C78B996E948B9",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-final\\failure-unity-play-local-native-failure-current.png"
+        }
+      ],
+      "suite": "failure",
+      "passed": true,
+      "marker": "NUT_LOCAL_FAILURE_PLAY_PASS"
+    },
+    {
+      "suite": "withdrawal",
+      "marker": "NUT_LOCAL_WITHDRAWAL_PASS",
+      "passed": true,
+      "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal.log",
+      "screenshots": [
+        {
+          "sha256": "64C88F4CF8CAC82D9C184A26BA833E1D857FF87B1D3DF72BF767AD34F40254A1",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-withdrawal-cash-BR.png",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+        },
+        {
+          "sha256": "AA280BD29CB7B8682038B8F4D2DE9C1F02357E79B092F8F620CA96C82E2453FE",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-withdrawal-cash-ID.png",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+        },
+        {
+          "sha256": "701A3C09058C529F0578C204E15C551B10F56D90F08F23A67F9B7A155A6CBA4C",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-withdrawal-account-BR.png",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+        },
+        {
+          "sha256": "8888F98BAF7580B3E232870AFB9C37C5DA3B3DF78D8761FFC11711551FC46951",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-withdrawal-account-ID.png",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+        },
+        {
+          "sha256": "CD3AAA055A1FB70EE339A095BB6164C1C95DCB9B710A79B1C454BD51B6728E6C",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-withdrawal-coin-BR.png",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+        },
+        {
+          "sha256": "362C084FF68A56D9D2917F0BBD615D7B8FF2A8D224EBABB57D1EE35F17714158",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-withdrawal-coin-ID.png",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+        },
+        {
+          "sha256": "FCDA5A4CAE7811CECBBB794B1D7056BD8F8D99BE52A4B3D08FD7DAB05B943CA7",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-diamond-withdraw-feedback-BR.png",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+        },
+        {
+          "sha256": "D1D074AF5D3AC0AAE2916B496AF83A137F824CD8BD52D175772FE86EE33F72E1",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-withdrawal-final\\withdrawal-unity-play-local-diamond-withdraw-feedback-ID.png",
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture"
+        }
+      ],
+      "exitCode": 0,
+      "method": "NutSort.Validation.LocalWithdrawalPlayValidation.Run"
+    },
+    {
+      "passed": true,
+      "screenshots": [
+        {
+          "evidenceType": "Unity Play Mode screenshot with explicit test fixture",
+          "sha256": "46762274B83E03EC3CD6F4743365D35CE7EA2FF5114DA4FBCDCB2ACCF3D672B2",
+          "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-tooloffer-final\\tooloffer-unity-play-local-tool-offer-refresh.png"
+        }
+      ],
+      "method": "NutSort.Validation.LocalToolOfferPlayValidation.Run",
+      "marker": "NUT_LOCAL_TOOL_OFFER_PASS",
+      "suite": "tooloffer",
+      "exitCode": 0,
+      "log": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\runtime-tooloffer-final\\tooloffer.log"
+    }
+  ],
+  "withdrawalValidationSourceRestored": true,
+  "limitations": [
+    "No Android/iOS physical-device build or test performed.",
+    "Tool offer advertising uses the existing simulated callback fixture.",
+    "Older gameplay/tools validators with stale reward/offer assertions were not counted as passing.",
+    "Other infrequent dialogs use replaced shared assets and static structural checks; not every dialog state has a runtime capture."
+  ],
+  "visualRevisions": [
+    {
+      "date": "2026-09-21",
+      "scope": [
+        "Assets/Resources/atlas/newbieguidepanel/bg.png"
+      ],
+      "request": "Make the teaching hint frame thinner",
+      "evidenceType": "Live Unity Editor Play Mode screenshot, using the currently loaded user state",
+      "screenshot": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\border-thinning\\unity-live.png",
+      "screenshotSha256": "6AC531DA96313E18972D04E70923D24C10A3B24937DD8B97268F1E93E2605128",
+      "visualCheck": "PASS: thin frame and both dynamic text lines visible",
+      "structuralCheck": "Docs/GardenReskin/border-thinning/structure-report.json",
+      "note": "Previous runtime-teaching-final captures show the earlier thick frame; seven-suite results remain historical functional evidence. This revision changed one PNG only."
+    },
+    {
+      "date": "2026-09-21",
+      "scope": [
+        "Assets/Resources/atlas/mainpanel/gold_tip_bg.png",
+        "Assets/Resources/atlas/mainpanel/coin_tip_bg.png",
+        "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+        "Assets/Resources/prefabs/panels/MainPanelTop.prefab",
+        "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+        "Assets/Resources/prefabs/panels/GoldItem.prefab",
+        "Assets/Resources/prefabs/panels/CoinItem.prefab"
+      ],
+      "request": "Match the two HUD hint bubbles to the approved AI preview style",
+      "evidenceType": "Live Unity Editor Play Mode screenshot, using the currently loaded user state",
+      "screenshot": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\top-hints-match\\unity-live.png",
+      "screenshotSha256": "C1FF11ACAAF534F014E72CBA786E65262264C96F4F332D6B4607C5ED4C40749E",
+      "visualCheck": "PASS: near-white fill, fine green/lavender rims, navy ordinary text, red dynamic rich text preserved",
+      "structuralCheck": "Docs/GardenReskin/top-hints-match/structure-report.json",
+      "note": "Two PNGs and eight TMP colour fields across five Prefabs changed. Layout, bindings and gameplay remain unchanged. Seven-suite results are historical functional evidence and were not rerun for this visual revision; older main screenshots show the previous hint style."
+    },
+    {
+      "date": "2026-09-21",
+      "scope": [
+        "Assets/Resources/atlas/mainpanel/hintlevel_tx_bg.png"
+      ],
+      "request": "Match Withdraw labels to approved preview: orange-red fill, fine golden rim, original upward pointer",
+      "evidenceType": "Live Unity Editor Play Mode screenshot, current level-one user state",
+      "screenshot": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\withdraw-label-match\\unity-live.png",
+      "screenshotSha256": "64DD5294B9757BD9107147B2BBD3833C647F54AA6F1825C51C1469EBE92AE4A1",
+      "visualCheck": "PASS: four existing stage labels render the orange-red pointed sprite with unchanged dynamic white text",
+      "structuralCheck": "Docs/GardenReskin/withdraw-label-match/integrity-report.json",
+      "note": "Only one 206x77 PNG changed among 3812 audited files. Existing Prefabs, scripts, sprite metadata and tutorial click fix retained. Historical functional suites were not rerun for this sprite-only revision."
+    },
+    {
+      "date": "2026-09-21",
+      "scope": [
+        "Assets/Resources/atlas/mainpanel/item_bg.png",
+        "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+        "Assets/Resources/atlas/mainpanel/item_add.png",
+        "Assets/Resources/prefabs/panels/MainPanel.prefab",
+        "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+        "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+        "Assets/Resources/atlas/mainpanel/replay_bg.png",
+        "Assets/Resources/atlas/mainpanel/replay_bg.png.meta",
+        "Assets/Resources/atlas/mainpanel/replay_bg.asset",
+        "Assets/Resources/atlas/mainpanel/replay_bg.asset.meta"
+      ],
+      "request": "Match bottom toolbar to approved reference using thinner pale wood panels, thin green badges, and cream replay backing on the existing node.",
+      "evidenceType": "Live Unity Editor Play Mode screenshot in current user state; not AI preview or Prefab static preview",
+      "screenshot": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\unity-live.png",
+      "screenshotSha256": "3c13f33bd9a61de10551b448e218dfe8c514d39054da43c25cd63b282b22ba5f",
+      "crop": {
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\unity-toolbar-crop.png",
+        "sha256": "5afa3903e6c2cc8926ff28e2004d7f284c10d4101d372acde9559f6788db6568",
+        "sourceRect": [
+          356,
+          1080,
+          500,
+          144
+        ],
+        "processing": "Lossless crop only; no resizing or retouching"
+      },
+      "visualCheck": "PASS: pale thinner panel rims, green badge outlines, cream replay backing, original dynamic count 5 preserved",
+      "structuralCheck": "Docs/GardenReskin/bottom-toolbar-match/integrity-report.json",
+      "modifiedExistingAssets": [
+        "Assets/Resources/atlas/mainpanel/item_bg.png",
+        "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+        "Assets/Resources/atlas/mainpanel/item_add.png",
+        "Assets/Resources/prefabs/panels/MainPanel.prefab",
+        "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+        "Assets/Resources/prefabs/panels/MainPanelComplete.prefab"
+      ],
+      "newAssets": [
+        "Assets/Resources/atlas/mainpanel/replay_bg.png",
+        "Assets/Resources/atlas/mainpanel/replay_bg.png.meta",
+        "Assets/Resources/atlas/mainpanel/replay_bg.asset",
+        "Assets/Resources/atlas/mainpanel/replay_bg.asset.meta"
+      ],
+      "newTextureCount": 1,
+      "verifiedFiles": [
+        {
+          "path": "Assets/Resources/atlas/mainpanel/item_bg.png",
+          "sha256": "bb90ea2f7cad5b2c60a47ac6931dbc3ba3c83df65741000f352c7c941f11e5c5"
+        },
+        {
+          "path": "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+          "sha256": "8128a0e61bb982775940624e10aac4dfb2180b90c4dd16286e85b35afe123b9b"
+        },
+        {
+          "path": "Assets/Resources/atlas/mainpanel/item_add.png",
+          "sha256": "fe807bd08a14829e0a2ff623a29d3e85fa27448c05f06882a01267a559a18594"
+        },
+        {
+          "path": "Assets/Resources/prefabs/panels/MainPanel.prefab",
+          "sha256": "77867b6e3f5082a02e70c26b1b3d644fbacf8b54413c22baefb7d0b986edd92a"
+        },
+        {
+          "path": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+          "sha256": "e16c95d0d9d06559f07b52aa35268617d8b51e3e2a65d288d6e9d53ab411f712"
+        },
+        {
+          "path": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+          "sha256": "d55d68240cb73480e370854376a5369d108019b2123f7cdddeb4c95ee1960943"
+        },
+        {
+          "path": "Assets/Resources/atlas/mainpanel/replay_bg.png",
+          "sha256": "d0406f4ebb2170d4c7023e750df781a61740201f3a1c26a6385a1e036cca931a"
+        },
+        {
+          "path": "Assets/Resources/atlas/mainpanel/replay_bg.png.meta",
+          "sha256": "56766c7abb1908ef61ca25f2a40c36e687646fa5f55860ff7d3b285ccadff274"
+        },
+        {
+          "path": "Assets/Resources/atlas/mainpanel/replay_bg.asset",
+          "sha256": "c65981109fdaf2e1eceee9b54ee0143a248a2d7ac9597b88a8c05e375e2d7f0d"
+        },
+        {
+          "path": "Assets/Resources/atlas/mainpanel/replay_bg.asset.meta",
+          "sha256": "e7355148d7b41780bb92c5da7a39c10ed583b35d5b7a9e5503ca3f9f9ae2e05d"
+        }
+      ],
+      "liveInteractionCheck": {
+        "state": "Level 1 teaching seed 3; cash 0, diamonds 0; undo count 5, exchange and add +",
+        "actions": [
+          "Undo",
+          "Exchange",
+          "Add Screw",
+          "Replay"
+        ],
+        "result": "All four OS mouse clicks show the existing teaching feedback. Board, balances and displayed counts remain unchanged. Teaching restrictions preserved.",
+        "screenshots": [
+          {
+            "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\unity-click-add.png",
+            "sha256": "1c5592e9f44ea1b71f881b21b5b92f99775a24f5a11087dfd61564290dbf7eda"
+          },
+          {
+            "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\unity-click-exchange.png",
+            "sha256": "16dabcf2c43e65d77af7496258986b14892ab2f9d83153560c8a4e2b3c5ab117"
+          },
+          {
+            "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\unity-click-replay.png",
+            "sha256": "a27eb7a915b763207a79a5994cac0522d664a9e0a51b1c9408e6ba4b4a445bad"
+          },
+          {
+            "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\bottom-toolbar-match\\unity-click-undo.png",
+            "sha256": "4378920ac91fa91fdad81e89836f8abd120df34a09c6dacfd981a70caf96c160"
+          }
+        ]
+      },
+      "limitations": [
+        "No Android/iOS device test. Existing broader functional validation was not rerun for this artwork and Image configuration revision.",
+        "Existing Android Build Settings GUILayout repaint exception remains visible in Editor; it predates this revision. Stopping Play Mode also reported the existing Row_0 parent-during-destruction message. Neither issue was changed or treated as a passing global error check."
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "scope": [
+        "Assets/Resources/atlas/newbieguidepanel/dian.png",
+        "Assets/Resources/atlas/newbieguidepanel/dian1.png",
+        "Assets/Resources/atlas/newbieguidepanel/line.png"
+      ],
+      "request": "Replace gray square tutorial markers with coherent circular progress art and a pale wood connector. Correct artwork roles: dian empty cream, dian1 filled green.",
+      "evidenceType": "Live Unity Editor Play Mode screenshot in current user state, Level 1 Seed 3",
+      "screenshot": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\tutorial-progress-match\\unity-live.png",
+      "screenshotSha256": "bc15a5e64fc5f47aa24fd571f16ac8568f2f5ec730743903739a8ef54ed55525",
+      "crop": {
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\tutorial-progress-match\\unity-progress-crop.png",
+        "sha256": "d065da767149e15ef02a85e9c72388bf3ecc14a9456bc658f3d9c3261c880be8",
+        "sourceRect": [
+          500,
+          350,
+          210,
+          54
+        ],
+        "processing": "Lossless crop only"
+      },
+      "visualCheck": "PASS: four circular green filled markers with a pale wood connector in the unchanged positions",
+      "structuralCheck": "Docs/GardenReskin/tutorial-progress-match/integrity-report.json",
+      "verifiedFiles": [
+        {
+          "path": "Assets/Resources/atlas/newbieguidepanel/dian.png",
+          "sha256": "8238e083113559cfc19583db025014b9f665d25a6dd4eedf9b3208d66fd86e5c"
+        },
+        {
+          "path": "Assets/Resources/atlas/newbieguidepanel/dian1.png",
+          "sha256": "9a4b919590a771dbe561c8cd181ddca86785eb849c029e83a0fe27c6cf1acbb9"
+        },
+        {
+          "path": "Assets/Resources/atlas/newbieguidepanel/line.png",
+          "sha256": "2e1881551cfdd6bb74968cc4e0a99c3ea780bb8253ebac0d9b2c009709d0563f"
+        }
+      ],
+      "behaviorCheck": "Existing SetMarker(index,index<=LevelSeed) code and empty/filled resource paths unchanged; seed3 renders four filled markers. Shared hidden-level marker behavior and current-marker alpha animation remain unchanged.",
+      "newAssets": [],
+      "newTextureCount": 0,
+      "limitations": [
+        "Only current Seed 3 state was inspected live in this artwork revision. Earlier states were verified by their unchanged source mappings, not new runtime captures.",
+        "No runtime code or Prefab edits; broader functional suites not rerun. No device test."
+      ]
+    }
+  ],
+  "visualRevisionAssetAdditions": [
+    "Assets/Resources/atlas/mainpanel/replay_bg.png",
+    "Assets/Resources/atlas/mainpanel/replay_bg.png.meta",
+    "Assets/Resources/atlas/mainpanel/replay_bg.asset",
+    "Assets/Resources/atlas/mainpanel/replay_bg.asset.meta"
+  ],
+  "visualRevisionNewTextureCount": 1,
+  "functionalRevisions": [
+    {
+      "date": "2026-09-21",
+      "status": "PASS",
+      "scope": "Preserve tutorial locks and add standard Button click feedback; three runtime source files and one Editor validator plus meta",
+      "testMethod": "NutSort.Validation.LocalTeachingClickFeedbackPlayValidation.Run",
+      "exitCode": 0,
+      "marker": "NUT_LOCAL_TEACHING_CLICK_FEEDBACK_PASS",
+      "mouseValidation": "Live current-user-state Cash and replay mouse clicks show existing tutorial instruction",
+      "preferenceFixtureRestored": true,
+      "verifiedFiles": [
+        {
+          "path": "Assets/NutSort/Runtime/UI/LocalGameplayController.Teaching.cs",
+          "sha256": "D027BAE2A109E8583D49A3EAA58C6867E3E61BDEB7560EB8E8D1ADB47154080D"
+        },
+        {
+          "path": "Assets/NutSort/Runtime/UI/LocalGameplayController.Tools.cs",
+          "sha256": "913C5AE6B6A8DCC5CB689C0A405061AEEE37F07DB6F18FF32AAC28FB5F45A10F"
+        },
+        {
+          "path": "Assets/NutSort/Runtime/UI/LocalGameplayController.Top.cs",
+          "sha256": "3A4E1FD86FC65BD3AA2397A31ECA6C4C01859CCD764E65FACCC798EBBC5894B2"
+        },
+        {
+          "path": "Assets/NutSort/Editor/Validation/LocalTeachingClickFeedbackPlayValidation.cs",
+          "sha256": "C9BC7CE94AF61EDDD238C983A0A1E45C088730C56C74AC63851533B388230452"
+        },
+        {
+          "path": "Assets/NutSort/Editor/Validation/LocalTeachingClickFeedbackPlayValidation.cs.meta",
+          "sha256": "0A9B6538E3A2AF0E3071164705DFBC92600812CD8658940E0C8929F26F290625"
+        },
+        {
+          "path": "Docs/GardenReskin/ui-click-feedback/final-play-validation.log",
+          "sha256": "25343D6ED2BF26592E6555758EB34F4988DF8C5DBA11A04DCAB40CD13A873449"
+        },
+        {
+          "path": "Docs/GardenReskin/ui-click-feedback/unity-live-cash.png",
+          "sha256": "DD1F2CCC4B0F02044D7AB9AB90D26C72AC2E282F831A9592B2AAB1F8E1C8FE99"
+        },
+        {
+          "path": "Docs/GardenReskin/ui-click-feedback/unity-live-replay.png",
+          "sha256": "983C341F5E6964FC549E0408E9B906701E4A791B09ADBB450C368321A27C728E"
+        },
+        {
+          "path": "Docs/GardenReskin/ui-click-feedback/unity-test-seed-0.png",
+          "sha256": "40F5B2B10674FB5BE6392C83159BF7DFD86D27DEB2906F03E03DFCE8A18F7B9E"
+        },
+        {
+          "path": "Docs/GardenReskin/ui-click-feedback/unity-test-seed-1.png",
+          "sha256": "61FB5DF5A7547767538FED1B97B22BED758B95ECE5B4F1535F449B5A7BA7E960"
+        },
+        {
+          "path": "Docs/GardenReskin/ui-click-feedback/unity-test-seed-2.png",
+          "sha256": "3CC36640947DDCF8AD1A7665DC3E8A0F2301FE1441F879E4143209D21F31EF22"
+        },
+        {
+          "path": "Docs/GardenReskin/ui-click-feedback/unity-test-seed-3.png",
+          "sha256": "FA48F803C899C9AFDC0F755BE69390F6BA6EC2CF76EBC7BE592D146996FD52C9"
+        }
+      ],
+      "limitations": [
+        "No Android/iOS device test.",
+        "Historical reskin-only structure baseline predates this runtime fix.",
+        "Interactive Editor logged an Android Build Settings GUILayout repaint exception unrelated to game Button callbacks; retained in interactive-unity.log."
+      ]
+    }
+  ],
+  "structureReportScope": "Historical visual-reskin-only baseline, including its newAssets=0 field. Later runtime code and Editor validation additions are recorded in functionalRevisions; the replay background texture/Sprite and Image reference changes are recorded in visualRevisions and visualRevisionAssetAdditions."
+}

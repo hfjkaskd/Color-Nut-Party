@@ -1,0 +1,534 @@
+[
+  {
+    "name": "panel-diamond",
+    "width": 1048,
+    "height": 1801,
+    "source": "panel",
+    "columns": 1,
+    "rows": 1,
+    "cell": 0,
+    "border": [
+      155,
+      155,
+      155,
+      155
+    ],
+    "ratios": [
+      0.26,
+      0.15,
+      0.26,
+      0.15
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "panel-account",
+    "width": 988,
+    "height": 1421,
+    "source": "panel",
+    "columns": 1,
+    "rows": 1,
+    "cell": 0,
+    "border": [
+      155,
+      155,
+      155,
+      155
+    ],
+    "ratios": [
+      0.26,
+      0.15,
+      0.26,
+      0.15
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "panel-cash",
+    "width": 983,
+    "height": 1034,
+    "source": "panel",
+    "columns": 1,
+    "rows": 1,
+    "cell": 0,
+    "border": [
+      155,
+      155,
+      155,
+      155
+    ],
+    "ratios": [
+      0.26,
+      0.15,
+      0.26,
+      0.15
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "panel-tool",
+    "width": 907,
+    "height": 965,
+    "source": "panel",
+    "columns": 1,
+    "rows": 1,
+    "cell": 0,
+    "border": [
+      155,
+      155,
+      155,
+      155
+    ],
+    "ratios": [
+      0.26,
+      0.15,
+      0.26,
+      0.15
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "ribbon",
+    "width": 975,
+    "height": 186,
+    "source": "controls",
+    "columns": 2,
+    "rows": 4,
+    "cell": 0,
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ratios": [
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "primary-button",
+    "width": 764,
+    "height": 192,
+    "source": "clean-controls",
+    "columns": 1,
+    "rows": 2,
+    "cell": 0,
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ratios": [
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "title",
+    "width": 613,
+    "height": 99,
+    "source": "clean-controls",
+    "columns": 1,
+    "rows": 2,
+    "cell": 1,
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ratios": [
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "cash-title",
+    "width": 457,
+    "height": 84,
+    "source": "clean-controls",
+    "columns": 1,
+    "rows": 2,
+    "cell": 1,
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ratios": [
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "selection-title",
+    "width": 710,
+    "height": 75,
+    "source": "clean-controls",
+    "columns": 1,
+    "rows": 2,
+    "cell": 1,
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ratios": [
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "input",
+    "width": 552,
+    "height": 156,
+    "source": "controls",
+    "columns": 2,
+    "rows": 4,
+    "cell": 3,
+    "border": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "ratios": [
+      0.15,
+      0.4,
+      0.15,
+      0.4
+    ],
+    "inset": 0,
+    "meta_border": [
+      40,
+      40,
+      40,
+      40
+    ]
+  },
+  {
+    "name": "conversion",
+    "width": 740,
+    "height": 74,
+    "source": "controls",
+    "columns": 2,
+    "rows": 4,
+    "cell": 3,
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ratios": [
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "amount-normal",
+    "width": 365,
+    "height": 221,
+    "source": "controls",
+    "columns": 2,
+    "rows": 4,
+    "cell": 4,
+    "border": [
+      65,
+      55,
+      65,
+      55
+    ],
+    "ratios": [
+      0.25,
+      0.3,
+      0.25,
+      0.3
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "amount-selected",
+    "width": 365,
+    "height": 221,
+    "source": "controls",
+    "columns": 2,
+    "rows": 4,
+    "cell": 5,
+    "border": [
+      65,
+      55,
+      65,
+      55
+    ],
+    "ratios": [
+      0.25,
+      0.3,
+      0.25,
+      0.3
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "cash-card",
+    "width": 850,
+    "height": 369,
+    "source": "controls",
+    "columns": 2,
+    "rows": 4,
+    "cell": 6,
+    "border": [
+      100,
+      65,
+      100,
+      65
+    ],
+    "ratios": [
+      0.22,
+      0.3,
+      0.22,
+      0.3
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "instructions",
+    "width": 944,
+    "height": 281,
+    "source": "controls",
+    "columns": 2,
+    "rows": 4,
+    "cell": 6,
+    "border": [
+      100,
+      35,
+      100,
+      35
+    ],
+    "ratios": [
+      0.22,
+      0.3,
+      0.22,
+      0.3
+    ],
+    "inset": 30,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "tool-icon-card",
+    "width": 625,
+    "height": 396,
+    "source": "controls",
+    "columns": 2,
+    "rows": 4,
+    "cell": 3,
+    "border": [
+      60,
+      60,
+      60,
+      60
+    ],
+    "ratios": [
+      0.15,
+      0.4,
+      0.15,
+      0.4
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "stats",
+    "width": 968,
+    "height": 334,
+    "source": "stats",
+    "columns": 1,
+    "rows": 1,
+    "cell": 0,
+    "border": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "ratios": [
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "stats-card",
+    "width": 256,
+    "height": 117,
+    "source": "controls",
+    "columns": 2,
+    "rows": 4,
+    "cell": 3,
+    "border": [
+      24,
+      24,
+      24,
+      24
+    ],
+    "ratios": [
+      0.15,
+      0.4,
+      0.15,
+      0.4
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "records",
+    "width": 1013,
+    "height": 120,
+    "source": "controls",
+    "columns": 2,
+    "rows": 4,
+    "cell": 3,
+    "border": [
+      40,
+      20,
+      40,
+      20
+    ],
+    "ratios": [
+      0.15,
+      0.4,
+      0.15,
+      0.4
+    ],
+    "inset": 0,
+    "meta_border": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

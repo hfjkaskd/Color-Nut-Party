@@ -1,0 +1,7 @@
+{
+  "asset": "aux-guide-title",
+  "prompt": "Edit the FIRST supplied transparent Unity sprite only. Preserve exact original 896x828 canvas proportions, placement, character, blue clothing, hat, wrench, banknotes, coins, yellow glow, feet and transparency. The SECOND image is approved full-screen style reference only. Change ONLY the pink ribbon to very pale honey wood and ivory cream with slim warm brown outlines exactly matching the approved reference's Welcome ribbon. Leave ribbon completely BLANK. No text, numbers, logos, letters or icons added. Keep ribbon in same existing bounding box at x0..896 y426..605 with center face x90..805 y435..570; cannot move any existing art. Isolated sprite with transparent background, no game screenshot, no UI text.",
+  "raw_path": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-2e47-7e41-9aa6-55df75001fab\\exec-0a1f7cfa-afad-4624-ae69-c7a6cf3a2832.png",
+  "provider": "image_gen__imagegen",
+  "transparent": true
+}

@@ -1,0 +1,7 @@
+{
+  "asset": "aux-complete-title",
+  "prompt": "Edit FIRST transparent Unity sprite to the approved style in SECOND screenshot. FIRST is 896x362; keep its canvas aspect ratio and all transparent margins EXACTLY, keep money, coins, two wrenches and their position, scale, color and silhouette unchanged. Only change the pink folded ribbon at y180..355 to pale honey wood/ivory cream with a slim brown outline, same shape and position. The central face must be blank, absolutely no words, letters, amounts, button, hands or confetti. New text will be a live Unity component. Do not imitate the entire second screenshot; output only this isolated transparent sprite with same ribbon center at 69% canvas height, same money/tools upper section, no leaves/flowers.",
+  "raw_path": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-2e47-7e41-9aa6-55df75001fab\\exec-4f69d5a4-fa1a-4552-b495-baf4eb2e0508.png",
+  "provider": "image_gen__imagegen",
+  "transparent": true
+}

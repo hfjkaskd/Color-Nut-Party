@@ -1,0 +1,7 @@
+{
+  "asset": "aux-loading-band",
+  "prompt": "Edit FIRST transparent Unity sprite only. Keep its original 1080x505 canvas aspect ratio, graphic positions and transparent pixels. SECOND is the approved screenshot for palette/style. FIRST: unchanged money banknotes pile, gold coins and two gray wrenches in upper 0..184 px; lower full-width panel at y184..496. Replace ONLY the purple rectangle with ivory cream pale horizontal wood, very slim honey wood perimeter edge and subtly rounded 20px corners. The rectangle must remain x0..1080 y184..496 and completely BLANK, enough flat cream for live title and progress bar. Remove purple screw pattern. No ribbons/folded tails, no text, no progress bars, no numbers, no leaves, no new illustrations. Preserve existing top illustration and placement. Transparent isolated game asset, not screen mockup.",
+  "raw_path": "C:\\Users\\pc\\.codex\\generated_images\\01a11ec5-2e47-7e41-9aa6-55df75001fab\\exec-0b5b5982-a7eb-4be8-9087-4004be0c5110.png",
+  "provider": "image_gen__imagegen",
+  "transparent": true
+}

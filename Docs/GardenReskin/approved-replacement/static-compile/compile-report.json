@@ -1,0 +1,61 @@
+{
+  "status": "STATIC_COMPILE_PASS",
+  "checkedUtc": "2026-09-22T08:26:38.815264+00:00",
+  "method": "Unity bundled Roslyn invoked directly against current Library/ScriptAssemblies dependencies and OriginalPreferenceFixture.cs; no Unity process launched or controlled",
+  "compilerExitCode": 0,
+  "assemblyReference": "NutSort.Validation.asmref -> GUID:603813fbf9d1ade4085a3a3fe432efd0 (Editor-only existing assembly)",
+  "files": [
+    {
+      "path": "Assets/NutSort/Editor/GardenReskin.meta",
+      "sha256": "850ad4a4412dc464bddab294525d8fe4a2ac83b50abe7265347213e89f1cdd40",
+      "guid": "fde356f3445640869d62eaf99a6885c9",
+      "unique": true
+    },
+    {
+      "path": "Assets/NutSort/Editor/GardenReskin/ApprovedSkinPlayValidation.cs",
+      "sha256": "a4f0770deb7736b4396d1f985ac72fa754f96c98a9c9f65b0679364c331d348a"
+    },
+    {
+      "path": "Assets/NutSort/Editor/GardenReskin/ApprovedSkinPlayValidation.cs.meta",
+      "sha256": "be6025b8482dd7aefa36ce9b2eb2beb727def43eadba8fdf093b31bf8e457aed",
+      "guid": "c8af283ba0e7459488eab63470ed8c29",
+      "unique": true
+    },
+    {
+      "path": "Assets/NutSort/Editor/GardenReskin/NutSort.Validation.asmref",
+      "sha256": "e508ab3ab7e55963872ac400b4d06d332edc9874636fd8fe0ae0d201e8742eac"
+    },
+    {
+      "path": "Assets/NutSort/Editor/GardenReskin/NutSort.Validation.asmref.meta",
+      "sha256": "70710681300e7b5a6d788ebfcc2271699fdc53663b55e8b3eb694c75a8bccbc7",
+      "guid": "f927e7ec609a493286b40ba5752841c9",
+      "unique": true
+    }
+  ],
+  "runtimeExecuted": false,
+  "runtimeResult": "BR initial run previously passed by root; new configurable entrances pending root run.",
+  "entrypoints": {
+    "Run": {
+      "country": "BR",
+      "size": [
+        720,
+        1600
+      ]
+    },
+    "RunUS": {
+      "country": "US",
+      "size": [
+        720,
+        1600
+      ]
+    },
+    "RunUSWide": {
+      "country": "US",
+      "size": [
+        720,
+        1280
+      ]
+    }
+  },
+  "exitChecks": "Log capture remains subscribed through fixture Restore; exact prior PlayerPrefs presence/value and removed backup verified before PASS."
+}

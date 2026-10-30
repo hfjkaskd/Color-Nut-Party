@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "artworkTool": "built-in image_gen",
+  "alphaThreshold": 100,
+  "padding": 2,
+  "sourceSliceRatio": 0.12,
+  "entries": [
+    {
+      "target": "Assets/Resources/atlas/mainpanel/item_bg.png",
+      "source": "Docs/GardenReskin/Generated/tool-panel-light.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+      "source": "Docs/GardenReskin/Generated/tool-count-green.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    },
+    {
+      "target": "Assets/Resources/atlas/mainpanel/item_add.png",
+      "source": "Docs/GardenReskin/Generated/tool-add-green.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0
+    }
+  ],
+  "report": "Docs/GardenReskin/bottom-toolbar-match/import-report.json"
+}

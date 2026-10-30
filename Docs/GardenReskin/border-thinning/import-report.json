@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "dryRun": false,
+  "generatedAtUtc": "2026-09-21T11:37:45.5444534Z",
+  "manifest": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\border-thinning\\import-manifest.json",
+  "originalZip": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\OriginalAssets\\before-reskin.zip",
+  "originalZipSha256": "09bdf1c5945a316901b3079ea0d6f8244275ef713216d3f10a83431a3a27a622",
+  "method": "Generated PNG pixels only; substantial alpha-component union bounds, original alpha bounds, bicubic or nine-slice resampling, optional original-alpha mask. No recolouring or painting.",
+  "targetCount": 1,
+  "entries": [
+    {
+      "target": "Assets/Resources/atlas/newbieguidepanel/bg.png",
+      "source": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\Generated\\teaching-thin-frame.png",
+      "mode": "grid",
+      "columns": 1,
+      "rows": 1,
+      "cell": 0,
+      "originalZipEntry": "Assets/Resources/atlas/newbieguidepanel/bg.png",
+      "originalSha256": "34c1ad3542d33490d5a35f71dd3ddb8fa73ad68aa16cec76605cbe8b3eef5112",
+      "previousSha256": "df5b9bcf3310345ab335442ab169985d83faea6cb1c280f09e12c1adf3d6a074",
+      "sourceSha256": "49c2959795104cb0d8679f0b03abfb0b405ba22e473bb738f71c131debecee42",
+      "outputSha256": "afd0e52469f089c951bba449750e4025ccb6ee7da46f1c4ff2a99438286aac01",
+      "outputBytes": 221869,
+      "originalAndOutputSize": [
+        809,
+        200
+      ],
+      "sourceSize": [
+        2172,
+        724
+      ],
+      "sourceCell": [
+        0,
+        0,
+        2172,
+        724
+      ],
+      "sourceBounds": [
+        66,
+        186,
+        2041,
+        349
+      ],
+      "originalAlphaBounds": [
+        0,
+        2,
+        809,
+        196
+      ],
+      "largestComponentPixels": 681347,
+      "alphaThreshold": 100,
+      "padding": 2,
+      "retainedComponents": 1,
+      "preserveOriginalAlpha": false,
+      "nineSlice": false,
+      "oldBorder": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "borderSource": "none",
+      "sourceSliceRatio": [
+        0.12,
+        0.12,
+        0.12,
+        0.12
+      ],
+      "destinationSlicePixels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "stagedPath": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\ImportStaging\\d0d6be64065442f8bbf42e06177419e9\\0000.png"
+    }
+  ],
+  "protectedFiles": [
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\newbieguidepanel\\bg.png.meta",
+      "sha256": "87fda5dd366b6bc8819ffa2cd36ae6ebaea14d0b446ec9b7887afc75a2d24de5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\newbieguidepanel\\bg.asset.meta",
+      "sha256": "247a597080355604d37ef0494ca9f030814419df138440238e4bc5027153babb",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\newbieguidepanel\\bg.asset",
+      "sha256": "7766c79fbda7c219d0567e09f7f6ff873ca3b6c8136b17b323dc3ecf37eb7e19",
+      "unchanged": true
+    }
+  ]
+}

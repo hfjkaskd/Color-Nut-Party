@@ -1,0 +1,30 @@
+{
+  "finding": "Single preexisting duplicate reference repaired; no current ownership/reference violations across 48 prefabs.",
+  "issues": [
+    {
+      "prefab": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "version": "baseline",
+      "component": "114990000000000169",
+      "declaredOwner": "1217368724061974",
+      "referencingObjects": [
+        {
+          "id": "1587765826080250",
+          "name": "Get"
+        },
+        {
+          "id": "1217368724061974",
+          "name": "ChannelInfo"
+        }
+      ]
+    }
+  ],
+  "fix": {
+    "prefab": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "wrongGameObject": "1587765826080250",
+    "correctGameObject": "1217368724061974",
+    "component": "114990000000000169",
+    "componentType": "OriginalButtonFeedback",
+    "fix": "Remove only erroneous Get m_Component reference; correct owner reference and component definition unchanged",
+    "independentlyVerified": true
+  }
+}

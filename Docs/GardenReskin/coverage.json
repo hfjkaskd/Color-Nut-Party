@@ -1,0 +1,18 @@
+{
+  "candidateCount": 125,
+  "replacedThemeCandidates": 116,
+  "totalTextureReplacements": 118,
+  "preservedCandidates": {
+    "Texture2D/bg2_5.png": "Cream information strip with an embedded blue-white bank icon at its right edge; used by TXTooFastHintPanel/main/bg (2). Preserve the bank symbol and existing text-safe area instead of replacing it with a blank frame.",
+    "Resources/atlas/txrecordpanel/bg1.png": "Bank building icon despite the generic bg1 filename; preserve the original blue-white bank, columns and roof. Used by TXCoinPanel/main/Image, not a blank status badge.",
+    "Resources/atlas/mainpanel/house.png": "Bank entry icon already honey-gold; retains bank semantics.",
+    "Resources/game/spirte/ALCI.png": "Neutral stone fixed-screw obstacle; preserve cracks/state readability.",
+    "Resources/game/spirte/Stone.png": "Neutral broken stone state paired with ALCI; preserve exact fragments.",
+    "Resources/game/spirte/Mask_done.png": "White completion check mark; preserve state meaning.",
+    "Texture2D/ls.png": "Gameplay nut icon; preserve color semantics and hole geometry.",
+    "Texture2D/Nut_Stand_Color.png": "Shared mesh UV/metal thread texture. Cream base is supplied by existing material palette changes.",
+    "Texture2D/screwHide.png": "Tutorial demonstrates exact hidden-nut count/colors; preserve instructional content."
+  },
+  "uncovered": [],
+  "semanticAndTechnicalPreserved": "Country banknotes, diamonds, payment logos, shader masks/font atlases/normal maps, exact puzzle colors and question marks."
+}

@@ -1,0 +1,1654 @@
+{
+  "review": "independent read-only audit; no Unity run; newline-normalized exact whitelist comparison",
+  "baseline": {
+    "schema": 1,
+    "createdUtc": "2026-09-22T07:57:56.946153+00:00",
+    "count": 3859,
+    "kindCounts": {
+      "texture": 220,
+      "metadata": 2713,
+      "material": 57,
+      "protected": 781,
+      "structure": 88
+    }
+  },
+  "changedBaselineFiles": [
+    "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+    "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "Assets/Resources/prefabs/panels/TXPanel.prefab",
+    "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+    "Assets/Resources/prefabs/playerinfo/PMDSimple.prefab"
+  ],
+  "missingBaselineFiles": [],
+  "backupPrefabCount": 48,
+  "totals": {
+    "objects": 3394,
+    "GameObjects": 831,
+    "Transforms": 831,
+    "changedObjectBlocks": 50,
+    "changedComponents": 49,
+    "changedGameObjects": 1
+  },
+  "prefabs": [
+    {
+      "path": "Assets/Resources/prefabs/panels/AddScrewItem.prefab",
+      "objects": 24,
+      "sha256": "c1df0dbc92133084526a173cc88a8857cb3b8d364aa807f1a8176314040266cb",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/BootLoadingPanel.prefab",
+      "objects": 33,
+      "sha256": "45a719b269942b7e05cf7a09d1ec5b5297e7bdf5ad4eab71118b6f383a941b47",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/CoinItem.prefab",
+      "objects": 33,
+      "sha256": "ce5c494e4c890bb44d558ee77ed4829c3bfeae1a0da897d46a7824ac51457464",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/ExchangeItem.prefab",
+      "objects": 24,
+      "sha256": "0d1148caa0bd9186f6a584926d23d46807914990b9ed1fdc467eaec426b55fca",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/FailPanel.prefab",
+      "objects": 83,
+      "sha256": "2439b614ab80c389f677f85bebc491d5d8865a41444a1fbc7484cd1df3c429a4",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/FailureCoinTip.prefab",
+      "objects": 17,
+      "sha256": "49f4e3b88fcbf6bf43b894e66d24e5df7eda0f5f41f707ddd4b50823fab506c0",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/FailureSparkle1.prefab",
+      "objects": 5,
+      "sha256": "f886ebcc945839eaffdfddacd4e12a7e770c16ac1a67830c1e50ec6993304369",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/FailureSparkle2.prefab",
+      "objects": 5,
+      "sha256": "fb54640efab92202fe3ee8f2edd278a2111353fa5bc63dc2bcb10464343df86b",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/FailureSparkle3.prefab",
+      "objects": 5,
+      "sha256": "e164aa67ed207bdc9a8544b4e4cbd72ff82d3850425afff959e0da4c028b47a9",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/FailureSparkle4.prefab",
+      "objects": 5,
+      "sha256": "403141d04acfbb246c0cdf9a70b9b26e3a7b8d255798e4dc7ce612a443a7aa61",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/FailureSparkle5.prefab",
+      "objects": 5,
+      "sha256": "26022f95d95a3851357d3b4d889fbf39f8a0800d691cbf83476808f4f9d84a5e",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/GMButton.prefab",
+      "objects": 11,
+      "sha256": "a69daf72244e29e9286c96440afd785390afaa9146b20c6377cc5fde7a05c940",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/GoldItem.prefab",
+      "objects": 34,
+      "sha256": "7136719193fd6d2170a3dd471f765a8703f3c5b98edbe6b52a187e4420e14c8f",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/HiddenLevel.prefab",
+      "objects": 143,
+      "sha256": "c609e9f3e5ce09ee7dc411f7bfa36af482b768c30f7b20c8d7533fa600e3f662",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+      "objects": 69,
+      "sha256": "4a860adda5a021ee5400724e668c43e1f517c05a262a882967d51ae55ceeaaa3",
+      "changed": [
+        {
+          "fileID": "114621510681728303",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: ee31e89b587741948688a0673b99ce84, type: 3}",
+              "after": "{fileID: 21300000, guid: 44152ab09a101adc6a664d4142ca5843, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114302127217294661",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Color": {
+              "before": "{r: 1, g: 1, b: 1, a: 1}",
+              "after": "{r: 1, g: 1, b: 1, a: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114946936116752871",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 9233f8d6a1174ebeb55163e42c572d28, type: 3}",
+              "after": "{fileID: 21300000, guid: 792897cfc52d7d419e24b5ed461a0e46, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114587397909062814",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: e59dc53f474f496385c76ba47e249c9d, type: 3}",
+              "after": "{fileID: 21300000, guid: 807b48754d1abfa54294626860fc357d, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114733206282342372",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 3de0cd2afa1e4c68ab3cc6f95744b524, type: 3}",
+              "after": "{fileID: 21300000, guid: 059ff3fcaaaaa0d3b04eb19485d6f96a, type: 3}"
+            }
+          }
+        }
+      ],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/LocalFailure.prefab",
+      "objects": 1,
+      "sha256": "b1602d6528ff2fc6341e9d1d37fc5044b1960e042f1ee10bc6bed7028a7590db",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/LocalGameplay.prefab",
+      "objects": 42,
+      "sha256": "1611ce56f438003acfe396a4d313ab9695501fbe7bb646ffbae8d9de01e5063d",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/LocalMainPanelTop.prefab",
+      "objects": 307,
+      "sha256": "3f4756a2b75f9ad95b4c4e530d991e26ada0b73b871883a7dd37b1b2f806ac44",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/LocalSubrounds.prefab",
+      "objects": 1,
+      "sha256": "154e11627246e08b87b1161ba671bf6ce9d1adc917fa036e44b5ba78422ef1e2",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/LocalSuccess.prefab",
+      "objects": 1,
+      "sha256": "2cc49442feb7e619e07d98106957061518c16ed9418ccaaec1cc2bd5ecb86179",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanel.prefab",
+      "objects": 80,
+      "sha256": "77867b6e3f5082a02e70c26b1b3d644fbacf8b54413c22baefb7d0b986edd92a",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+      "objects": 95,
+      "sha256": "e16c95d0d9d06559f07b52aa35268617d8b51e3e2a65d288d6e9d53ab411f712",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "objects": 434,
+      "sha256": "d55d68240cb73480e370854376a5369d108019b2123f7cdddeb4c95ee1960943",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanelTop.prefab",
+      "objects": 307,
+      "sha256": "7e7180e0e9d8b3ffe74ec9932b1e3646f21dd8384a81d18099af43b66406043e",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MessagePanel.prefab",
+      "objects": 30,
+      "sha256": "453b59626cd3b4ba97c5343455a7221526879fe5482af482ee8f82ff55fff83a",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/NewbieGuidePanel.prefab",
+      "objects": 104,
+      "sha256": "62154a2e9d30ba6fb8fdaf648c6c619adc4da3727aee497d64a7924b3853ad25",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/OriginalBootstrapHost.prefab",
+      "objects": 36,
+      "sha256": "dc11e2a67c0a5c08def6b2e82fcabbe93f19cdc87941e3ff01f3f4648b669e12",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/PlayerGoldGetHint.prefab",
+      "objects": 23,
+      "sha256": "bc6a5f1f010ea384d79e93d941bb4cf557ac702e825a9de7302c6eaabec23444",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/PMDBullet.prefab",
+      "objects": 17,
+      "sha256": "fea68c0e6d41e5919e9c5204443fd3c1ea01fa8cb07bf90440908e491415628a",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/PMDItem.prefab",
+      "objects": 14,
+      "sha256": "df987babfaa7f6bd2a9da50fc9cb12b6b8bb2e64fb0eb46dfdca6677b9115cfd",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/ReplayPanel.prefab",
+      "objects": 39,
+      "sha256": "8e8e2f351bb68fbf51d76dbefdd4a007ef4a1d2538ed33e79a5fc44cefcbba1a",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/RevokeItem.prefab",
+      "objects": 24,
+      "sha256": "ead6f5add8c1b6e74f9c8251f5c2d22322db16550251cd851764c5b0d022ff1f",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/RewardPanel.prefab",
+      "objects": 12,
+      "sha256": "eee778154f227f4c6168eb1b7a38ada62d08be7bf44ddcf4b9fe72dd71029d59",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/SuccessPanel.prefab",
+      "objects": 48,
+      "sha256": "30d96d2d691c842a4b22bf5b199e3145f6ac39fe8fd092100cdb43a77942469d",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXChannelPanel.prefab",
+      "objects": 57,
+      "sha256": "69ff8dc5c816e45dfc5b9943accb8a452c98311790311a5a1c8a552aaaa442a8",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "objects": 152,
+      "sha256": "11363ee8c54413a2b08f65a33941b56884c88f746498699e51828eb190da7a26",
+      "changed": [
+        {
+          "fileID": "114217368724061974",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "selectedSpritePath": {
+              "before": "Atlas/TXCoinPanel/item_bg1",
+              "after": "Atlas/approvedgarden/amount-selected"
+            },
+            "normalSpritePath": {
+              "before": "Atlas/TXCoinPanel/item_bg",
+              "after": "Atlas/approvedgarden/amount-normal"
+            }
+          }
+        },
+        {
+          "fileID": "114060945828524476",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 393e0001bdc489f40857dbec5ac936f9, type: 2}",
+              "after": "{fileID: 21300000, guid: 0b5d683639348bbd373c4c8943db85bb, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114967328832014496",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 47c80652793b83443a20e8c87092eef7, type: 2}",
+              "after": "{fileID: 21300000, guid: d19570fbddf1c12647d735548c6c1ff9, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114919942235722503",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Color": {
+              "before": "{r: 1, g: 1, b: 1, a: 1}",
+              "after": "{r: 1, g: 1, b: 1, a: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114632746491512912",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 8b63430dfeacc5143ad59c4b247dc73f, type: 2}",
+              "after": "{fileID: 21300000, guid: b82dfe36787867a6319d29991dec2ac2, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114397768327470545",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_RaycastTarget": {
+              "before": "1",
+              "after": "0"
+            },
+            "m_Enabled": {
+              "before": "0",
+              "after": "1"
+            },
+            "m_Sprite": {
+              "before": "{fileID: 0}",
+              "after": "{fileID: 21300000, guid: 3730382f5da49195aac1f45e859ee626, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114393105877652414",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: a302f6d71f2231e41868fbeb99534a3d, type: 2}",
+              "after": "{fileID: 21300000, guid: b8489731a77e9f4bf62531c694697103, type: 3}"
+            },
+            "m_Material": {
+              "before": "{fileID: 2100000, guid: ef32e62743e373641af63ed5be0bfb28, type: 2}",
+              "after": "{fileID: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114651560128206891",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Color": {
+              "before": "{r: 1, g: 1, b: 1, a: 1}",
+              "after": "{r: 1, g: 1, b: 1, a: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114431740505123533",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: a302f6d71f2231e41868fbeb99534a3d, type: 2}",
+              "after": "{fileID: 21300000, guid: b8489731a77e9f4bf62531c694697103, type: 3}"
+            },
+            "m_Material": {
+              "before": "{fileID: 2100000, guid: ef32e62743e373641af63ed5be0bfb28, type: 2}",
+              "after": "{fileID: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114703931505913403",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Color": {
+              "before": "{r: 1, g: 1, b: 1, a: 1}",
+              "after": "{r: 1, g: 1, b: 1, a: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114704330047573733",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: a302f6d71f2231e41868fbeb99534a3d, type: 2}",
+              "after": "{fileID: 21300000, guid: b8489731a77e9f4bf62531c694697103, type: 3}"
+            },
+            "m_Material": {
+              "before": "{fileID: 2100000, guid: ef32e62743e373641af63ed5be0bfb28, type: 2}",
+              "after": "{fileID: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114855482821919830",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Color": {
+              "before": "{r: 1, g: 1, b: 1, a: 1}",
+              "after": "{r: 1, g: 1, b: 1, a: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114880619614767448",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: a302f6d71f2231e41868fbeb99534a3d, type: 2}",
+              "after": "{fileID: 21300000, guid: b8489731a77e9f4bf62531c694697103, type: 3}"
+            },
+            "m_Material": {
+              "before": "{fileID: 2100000, guid: ef32e62743e373641af63ed5be0bfb28, type: 2}",
+              "after": "{fileID: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114690175861776792",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Color": {
+              "before": "{r: 1, g: 1, b: 1, a: 1}",
+              "after": "{r: 1, g: 1, b: 1, a: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114240571728440943",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 478de0d414050f7448bf0f954b7170c5, type: 2}",
+              "after": "{fileID: 21300000, guid: 059ff3fcaaaaa0d3b04eb19485d6f96a, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114132862189046193",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_margin": {
+              "before": "{x: 0, y: 0, z: 0, w: 0}",
+              "after": "{x: 24, y: 6, z: 24, w: 6}"
+            }
+          }
+        },
+        {
+          "fileID": "114386943702330414",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 13e72ae3d373a734199475b4e6b6e4cf, type: 2}",
+              "after": "{fileID: 21300000, guid: 9ec2d68adfac06b033ba321f4b623b7f, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114561126880652180",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_margin": {
+              "before": "{x: 0, y: 0, z: -0.39340228, w: 0}",
+              "after": "{x: 20, y: 0, z: 20, w: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114695600491528212",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_margin": {
+              "before": "{x: 0, y: 0, z: -0.39340228, w: 0}",
+              "after": "{x: 20, y: 12, z: 20, w: 0}"
+            }
+          }
+        }
+      ],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXGuideLoadingPanel.prefab",
+      "objects": 23,
+      "sha256": "3a2c57ef1d1d6c7bd238c909c9b77c2a4fa86f35c43e4a0b0792b137896725b9",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXGuideTargetCompletePanel.prefab",
+      "objects": 60,
+      "sha256": "e488fd3cec2e5793b674d39ccc937e25fadec063ca85cf23c98fd9fd11c9dbd0",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXLevelPanel.prefab",
+      "objects": 145,
+      "sha256": "0541d791bebb5d04942403b12835ec24c84841ba87510037d584a53905681c4f",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "objects": 110,
+      "sha256": "f37f910407c8ca9c338efafecb740b29c35f9aee5531f93f685b74072872cbdb",
+      "changed": [
+        {
+          "fileID": "114694121525821480",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: df365c29f1615334a92cb38561d71bce, type: 2}",
+              "after": "{fileID: 21300000, guid: 807b48754d1abfa54294626860fc357d, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114808113985169905",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: df365c29f1615334a92cb38561d71bce, type: 2}",
+              "after": "{fileID: 21300000, guid: 807b48754d1abfa54294626860fc357d, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114841364053301648",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: a555350051decaa409b0bc4e671a77ef, type: 2}",
+              "after": "{fileID: 21300000, guid: b8ce5da003c8178c6ca83a05723faa8e, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114344419225485095",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Color": {
+              "before": "{r: 1, g: 1, b: 1, a: 1}",
+              "after": "{r: 1, g: 1, b: 1, a: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114833703512093738",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 3f75fc0e8f50482418eda5124ef69eaa, type: 2}",
+              "after": "{fileID: 21300000, guid: 5009ed5472ecc2afe6a85df45bdd7074, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114726790013014859",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: fb54e0afe06f77543ba4e3c1d815a785, type: 2}",
+              "after": "{fileID: 21300000, guid: 807b48754d1abfa54294626860fc357d, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114572839542275309",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 7c19ace8db4e7db43a76a8a3dececaac, type: 2}",
+              "after": "{fileID: 21300000, guid: 059ff3fcaaaaa0d3b04eb19485d6f96a, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114703931505913403",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: b62f196d870a4a04ebb83d335928508e, type: 2}",
+              "after": "{fileID: 21300000, guid: 589428e16cc872384c1f0ca4e5c74967, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114704330047573733",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_fontColor": {
+              "before": "{r: 0.9960785, g: 0.9803922, b: 0.56078434, a: 1}",
+              "after": "{r: 0.3, g: 0.14, b: 0.06, a: 1}"
+            },
+            "m_margin": {
+              "before": "{x: 0, y: 0, z: 0, w: 0}",
+              "after": "{x: 18, y: 4, z: 18, w: 4}"
+            }
+          }
+        }
+      ],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXProgress0Panel.prefab",
+      "objects": 147,
+      "sha256": "e53b25579a9dac5f68129835520e5827b4ce3af2ae203b65b10a097f2166776e",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXRecordGuidePanel.prefab",
+      "objects": 151,
+      "sha256": "2a67d99554c305ee55a32df37202b24b2eeb528f5f1e214ebdbfc9aade4dd94e",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXTooFastHintPanel.prefab",
+      "objects": 77,
+      "sha256": "10397a20c075078985ccb48c885d16d3385abd054df8bcbb394b76024e0c503e",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "objects": 169,
+      "sha256": "b6227e1d285bbb25dc2c9299ab59e01cc9337e2d15f01102161d69199bb92350",
+      "changed": [
+        {
+          "fileID": "1587765826080250",
+          "class": "1",
+          "allowed": true,
+          "fields": {
+            "m_Component": {
+              "change": "Remove only duplicate invalid component reference",
+              "removedFileID": "114990000000000169",
+              "correctOwner": "1217368724061974"
+            }
+          }
+        },
+        {
+          "fileID": "114220653531496868",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: ca1309e5a7c702c4a93e1d9e41b869e5, type: 2}",
+              "after": "{fileID: 21300000, guid: 0f23d85b0e9151a5353293608cdc4215, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114291844617409189",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Color": {
+              "before": "{r: 1, g: 1, b: 1, a: 1}",
+              "after": "{r: 1, g: 1, b: 1, a: 0}"
+            }
+          }
+        },
+        {
+          "fileID": "114693329660128220",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 67b6ad0bc98fa064a9f431cf3127100b, type: 2}",
+              "after": "{fileID: 21300000, guid: 3730382f5da49195aac1f45e859ee626, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114689364072382846",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 478de0d414050f7448bf0f954b7170c5, type: 2}",
+              "after": "{fileID: 21300000, guid: 059ff3fcaaaaa0d3b04eb19485d6f96a, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114384403120170545",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: c19c5e8f5fc73844094d6ced1b2e0d7e, type: 2}",
+              "after": "{fileID: 21300000, guid: 8e74cd9c4790c3832374c80a19e756a3, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114571878917323452",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: c19c5e8f5fc73844094d6ced1b2e0d7e, type: 2}",
+              "after": "{fileID: 21300000, guid: 8e74cd9c4790c3832374c80a19e756a3, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114121005239445321",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: c19c5e8f5fc73844094d6ced1b2e0d7e, type: 2}",
+              "after": "{fileID: 21300000, guid: 8e74cd9c4790c3832374c80a19e756a3, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114291632710222552",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: c19c5e8f5fc73844094d6ced1b2e0d7e, type: 2}",
+              "after": "{fileID: 21300000, guid: 8e74cd9c4790c3832374c80a19e756a3, type: 3}"
+            }
+          }
+        }
+      ],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/TXUserInfoSurePanel.prefab",
+      "objects": 61,
+      "sha256": "2a78a6ff61ef43c66b976e8382484b38e718bc261a814a49b3839be4aafce1a3",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/UnlockGameplayPanel.prefab",
+      "objects": 50,
+      "sha256": "f2cbbb147828533097f58b61bb1ae6e87de5f49b36700cd181a1c1fac143a9fd",
+      "changed": [],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+      "objects": 49,
+      "sha256": "6be5521367923d1346b13699a20c10ed363e88a852b8fd591aec59d96df1dc03",
+      "changed": [
+        {
+          "fileID": "114977153420339851",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 984ce007d85e478ca6065bcacfea7172, type: 3}",
+              "after": "{fileID: 21300000, guid: 46565f691c68133bf955b8c36b0447c1, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114313026266067498",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 0f24a8e9f50648eb8c063e2041616424, type: 3}",
+              "after": "{fileID: 21300000, guid: 6a0fdc0e699084272c99ba8c82056fb0, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114634108722742392",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_margin": {
+              "before": "{x: 0, y: 0, z: 0, w: 0}",
+              "after": "{x: 12, y: 10, z: 12, w: 10}"
+            }
+          }
+        },
+        {
+          "fileID": "114918264173551851",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 6ec954b8e53d68b4c87acc6462e58004, type: 2}",
+              "after": "{fileID: 21300000, guid: 6a0fdc0e699084272c99ba8c82056fb0, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114371939378208658",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_margin": {
+              "before": "{x: 0, y: 0, z: 0, w: 0}",
+              "after": "{x: 12, y: 10, z: 12, w: 10}"
+            }
+          }
+        },
+        {
+          "fileID": "114089843903986396",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: 5258a5ea48e6c0c428a4887269254a42, type: 2}",
+              "after": "{fileID: 21300000, guid: 6a0fdc0e699084272c99ba8c82056fb0, type: 3}"
+            }
+          }
+        },
+        {
+          "fileID": "114060945828524476",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_margin": {
+              "before": "{x: 0, y: 0, z: 0, w: 0}",
+              "after": "{x: 12, y: 10, z: 12, w: 10}"
+            }
+          }
+        }
+      ],
+      "verified": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/playerinfo/PMDSimple.prefab",
+      "objects": 32,
+      "sha256": "145f5919ffb636168ca375df6b1998d487318345d3f5b8840ddf662cf92bea17",
+      "changed": [
+        {
+          "fileID": "114589667821646929",
+          "class": "114",
+          "allowed": true,
+          "fields": {
+            "m_Sprite": {
+              "before": "{fileID: 21300000, guid: e8958cd8be8350f47af7e3ba8b2a3a89, type: 2}",
+              "after": "{fileID: 21300000, guid: 6042d5c44768111fb8a416ce9118d0f9, type: 3}"
+            }
+          }
+        }
+      ],
+      "verified": true
+    }
+  ],
+  "newAssets": [
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/amount-normal.png",
+      "guid": "2e8a335c6b9bd0bea873ddd2f7ed1842",
+      "sha256": "2cb46dbd0f0105aa0a1ceee8db164829a7f997c2f414870776d05cf470db3585",
+      "metaSha256": "f38114524950b53fe7e499afc5b56be0382983720ae1896f391afa5e24337424",
+      "pixels": [
+        365,
+        221
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": []
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/amount-selected.png",
+      "guid": "b8489731a77e9f4bf62531c694697103",
+      "sha256": "e57a216f92af46e9d9016c1a2efc542077e73693960befcac0cad1da7381a0df",
+      "metaSha256": "8a2896e38b4a5a66f0a180fab2f627af52b458b77e26523ca5fe6376bda648fe",
+      "pixels": [
+        365,
+        221
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+          "fileID": "114393105877652414"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+          "fileID": "114431740505123533"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+          "fileID": "114704330047573733"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+          "fileID": "114880619614767448"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/cash-card.png",
+      "guid": "5009ed5472ecc2afe6a85df45bdd7074",
+      "sha256": "b6f8e609fefa0e92d5e4bfd12d9277f63563940906b9f859621f07748966e61c",
+      "metaSha256": "786239759777548c9fca84f43ec9cbfa4ebb6b296c9e1c2f4b2af152591dfcad",
+      "pixels": [
+        850,
+        369
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+          "fileID": "114833703512093738"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/cash-title.png",
+      "guid": "589428e16cc872384c1f0ca4e5c74967",
+      "sha256": "d43d471d4beb1b632fa887632ba5609cd19b315ff3235a896c254cc799cee180",
+      "metaSha256": "114746d5fd8986fe9317442be980fba96ba1962df846ef84da46136ca03af54e",
+      "pixels": [
+        457,
+        84
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+          "fileID": "114703931505913403"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/conversion.png",
+      "guid": "d19570fbddf1c12647d735548c6c1ff9",
+      "sha256": "2cff2119d4c2b00480bdcdd561545cc0e4511c669a02b8a087a531f8cc0843ba",
+      "metaSha256": "926cacb449fce6dc73f22b7e1fe4056690fe05a149b1b5cdf3814fc9a70f07a4",
+      "pixels": [
+        740,
+        74
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+          "fileID": "114967328832014496"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/input.png",
+      "guid": "8e74cd9c4790c3832374c80a19e756a3",
+      "sha256": "b5569a661e3f2becffe214b75ca6cbdd89e8d0548ceb13e42d496e818abd7788",
+      "metaSha256": "94c8b2b7d72ceae7f088cab0ad0bd806294b0b5a730cf156f4a5a1910062fbee",
+      "pixels": [
+        552,
+        156
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 40, y: 40, z: 40, w: 40}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+          "fileID": "114384403120170545"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+          "fileID": "114571878917323452"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+          "fileID": "114121005239445321"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+          "fileID": "114291632710222552"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/instructions.png",
+      "guid": "9ec2d68adfac06b033ba321f4b623b7f",
+      "sha256": "a72234bc52353748aa9076a20821b53d3688f28c86cf25060feb560a817e32b9",
+      "metaSha256": "8d3850cc03bf0792d26e17eb106a1ebcf03fe028a27a7608b3909fc5fce7ef9d",
+      "pixels": [
+        944,
+        281
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+          "fileID": "114386943702330414"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/panel-account.png",
+      "guid": "0f23d85b0e9151a5353293608cdc4215",
+      "sha256": "04e8e240b7ea12b03d757d73775682e9a97b14e299ffc5b8a4adb9aa530f7845",
+      "metaSha256": "cb15b2bfbfa672f0a579f44b23287c3f12f96c68fec1b28aeb4c61c4a7df2f4e",
+      "pixels": [
+        988,
+        1421
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+          "fileID": "114220653531496868"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/panel-cash.png",
+      "guid": "b8ce5da003c8178c6ca83a05723faa8e",
+      "sha256": "1bef35fdb5bcfffba23f772bf09a934dca8bde4d6801c25604c277de78a7b743",
+      "metaSha256": "9cc858755ebfa8f6504859312cd39df3ed7bafabd05097573cb3291bbbbba419",
+      "pixels": [
+        983,
+        1034
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+          "fileID": "114841364053301648"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/panel-diamond.png",
+      "guid": "0b5d683639348bbd373c4c8943db85bb",
+      "sha256": "ee7365f434dd105e3d9016bf5049e6b611a8629d008923b7e709cb8147e22d63",
+      "metaSha256": "bee98314dd5e4296fe40fc3d4f7f9046e3f7fc12bdd7462823e093a5bed4e410",
+      "pixels": [
+        1048,
+        1801
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+          "fileID": "114060945828524476"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/panel-tool.png",
+      "guid": "44152ab09a101adc6a664d4142ca5843",
+      "sha256": "c8a406b6e27e9e5e641bb0cf98cd44128e9ffb4052f39d57bd1a9a446fbc4d0a",
+      "metaSha256": "37774155086088ada6d75e241f4a1a3ec973a9ae79548b56d9fe195e82d2a65a",
+      "pixels": [
+        907,
+        965
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+          "fileID": "114621510681728303"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/primary-button.png",
+      "guid": "059ff3fcaaaaa0d3b04eb19485d6f96a",
+      "sha256": "141cb396db0a9f5c851319b149c20b37595fca5d084ed28a15e4bf1d260ef96f",
+      "metaSha256": "f9bcaeec5a05ef53911ab3219ac20e4caef67b63a24ea6e39475bcae8fd98ab6",
+      "pixels": [
+        764,
+        192
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+          "fileID": "114733206282342372"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+          "fileID": "114240571728440943"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+          "fileID": "114572839542275309"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+          "fileID": "114689364072382846"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/records.png",
+      "guid": "6042d5c44768111fb8a416ce9118d0f9",
+      "sha256": "22f0d51f136e95af9431379b7a91f740e67f93d2b44f784469de19b86d75a753",
+      "metaSha256": "f0ac283aefcb5fda2cb173a1e572a7281dab8ae9767c2074d60830108bd6d913",
+      "pixels": [
+        1013,
+        120
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/playerinfo/PMDSimple.prefab",
+          "fileID": "114589667821646929"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/ribbon.png",
+      "guid": "807b48754d1abfa54294626860fc357d",
+      "sha256": "c58c0dd07e012ac29da674404b30915d7d4bb62e0c95ac95de383f20dd9adf9f",
+      "metaSha256": "0c02a6523d037827f24b5e658e3403dd91da77d3822ca26df892a924e93963dd",
+      "pixels": [
+        975,
+        186
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+          "fileID": "114587397909062814"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+          "fileID": "114694121525821480"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+          "fileID": "114808113985169905"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+          "fileID": "114726790013014859"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/selection-title.png",
+      "guid": "b82dfe36787867a6319d29991dec2ac2",
+      "sha256": "bb6e31da8892f6c13c9c5d48f9144153fd947746e1ef90c79bc6649b188f0902",
+      "metaSha256": "50cb99a289ff1af3d9a68debbc00c5b854f24a25b34f2f09f0b5435057502a9d",
+      "pixels": [
+        710,
+        75
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+          "fileID": "114632746491512912"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/stats-card.png",
+      "guid": "6a0fdc0e699084272c99ba8c82056fb0",
+      "sha256": "50f803da9523d44ffb45a2b129c9d1524d01b89e7c83b318fe4dd7205b73d3cc",
+      "metaSha256": "30a054ef2551738d0f422f201e563eb3c77d2adb3c79356f308355bbd833d03d",
+      "pixels": [
+        256,
+        117
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+          "fileID": "114313026266067498"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+          "fileID": "114918264173551851"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+          "fileID": "114089843903986396"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/stats.png",
+      "guid": "46565f691c68133bf955b8c36b0447c1",
+      "sha256": "8e1052673577338df86cc8966960bfa9178048fdc1722ebc7ace138fa2818dd8",
+      "metaSha256": "984e2edf175c951a948b81f9e2a1b71c409311343d577d0deea0666c505910e2",
+      "pixels": [
+        968,
+        334
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+          "fileID": "114977153420339851"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/title.png",
+      "guid": "3730382f5da49195aac1f45e859ee626",
+      "sha256": "1cdea6aed03aee698dd966fab9b5f739d142e7ee4c3994399e9f7f9677167c98",
+      "metaSha256": "6e699a81c1b796b4cb981a6aeb4a1bc06a32465cd0bf35a801cde9c2b6844754",
+      "pixels": [
+        613,
+        99
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+          "fileID": "114397768327470545"
+        },
+        {
+          "prefab": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+          "fileID": "114693329660128220"
+        }
+      ]
+    },
+    {
+      "path": "Assets/Resources/atlas/approvedgarden/tool-icon-card.png",
+      "guid": "792897cfc52d7d419e24b5ed461a0e46",
+      "sha256": "f77bfa7e35c0a0867621cb9818f5ce12325a01aaeccbd0b94275732bfdf54f52",
+      "metaSha256": "cdeb0d3460a31a949e8b953c483d1d369478534aab09732ce66f48c5a23dce21",
+      "pixels": [
+        625,
+        396
+      ],
+      "mode": "RGBA",
+      "importer": {
+        "spriteMode": "1",
+        "spriteMeshType": "0",
+        "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+        "spritePixelsToUnits": "100",
+        "textureType": "8",
+        "maxTextureSize": "2048",
+        "nPOTScale": "0"
+      },
+      "references": [
+        {
+          "prefab": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+          "fileID": "114946936116752871"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "pass": true,
+  "dynamicResources": [
+    {
+      "path": "Atlas/approvedgarden/amount-selected",
+      "candidates": [
+        "Assets/Resources/atlas/approvedgarden/amount-selected.png"
+      ],
+      "newSkin": true
+    },
+    {
+      "path": "Atlas/approvedgarden/amount-normal",
+      "candidates": [
+        "Assets/Resources/atlas/approvedgarden/amount-normal.png"
+      ],
+      "newSkin": true
+    },
+    {
+      "path": "Atlas/Items/Revoke",
+      "candidates": [
+        "Assets/Resources/atlas/items/Revoke.asset",
+        "Assets/Resources/atlas/items/Revoke.png"
+      ],
+      "newSkin": false
+    },
+    {
+      "path": "Atlas/Items/Exchange",
+      "candidates": [
+        "Assets/Resources/atlas/items/Exchange.asset",
+        "Assets/Resources/atlas/items/Exchange.png"
+      ],
+      "newSkin": false
+    },
+    {
+      "path": "Atlas/Items/AddScrew",
+      "candidates": [
+        "Assets/Resources/atlas/items/AddScrew.asset",
+        "Assets/Resources/atlas/items/AddScrew.png"
+      ],
+      "newSkin": false
+    },
+    {
+      "path": "Atlas/Pay/Venmo",
+      "candidates": [
+        "Assets/Resources/atlas/pay/Venmo.asset",
+        "Assets/Resources/atlas/pay/Venmo.png"
+      ],
+      "newSkin": false
+    },
+    {
+      "path": "Atlas/Pay/Zelle",
+      "candidates": [
+        "Assets/Resources/atlas/pay/Zelle.asset",
+        "Assets/Resources/atlas/pay/Zelle.png"
+      ],
+      "newSkin": false
+    },
+    {
+      "path": "Atlas/Pay/paypal",
+      "candidates": [
+        "Assets/Resources/atlas/pay/paypal.asset",
+        "Assets/Resources/atlas/pay/paypal.png"
+      ],
+      "newSkin": false
+    },
+    {
+      "path": "Atlas/Golds/US1",
+      "candidates": [
+        "Assets/Resources/atlas/Golds/US1.asset",
+        "Assets/Resources/atlas/Golds/US1.png"
+      ],
+      "newSkin": false
+    },
+    {
+      "path": "Prefabs/PlayerInfo/PMDSimple",
+      "candidates": [
+        "Assets/Resources/prefabs/playerinfo/PMDSimple.prefab"
+      ],
+      "newSkin": false
+    },
+    {
+      "path": "Atlas/PaySimple/PayPal",
+      "candidates": [
+        "Assets/Resources/atlas/paysimple/PayPal.asset",
+        "Assets/Resources/atlas/paysimple/PayPal.png"
+      ],
+      "newSkin": false
+    }
+  ],
+  "hiddenImages": [
+    {
+      "prefab": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+      "fileID": "114302127217294661",
+      "isButtonTargetGraphic": false
+    },
+    {
+      "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "fileID": "114919942235722503",
+      "isButtonTargetGraphic": false
+    },
+    {
+      "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "fileID": "114651560128206891",
+      "isButtonTargetGraphic": false
+    },
+    {
+      "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "fileID": "114703931505913403",
+      "isButtonTargetGraphic": false
+    },
+    {
+      "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "fileID": "114855482821919830",
+      "isButtonTargetGraphic": false
+    },
+    {
+      "prefab": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+      "fileID": "114690175861776792",
+      "isButtonTargetGraphic": false
+    },
+    {
+      "prefab": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+      "fileID": "114344419225485095",
+      "isButtonTargetGraphic": false
+    },
+    {
+      "prefab": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+      "fileID": "114291844617409189",
+      "isButtonTargetGraphic": false
+    }
+  ],
+  "revision": "second frozen replacement audit; additional text-padding exceptions approved by root",
+  "reviewedUtc": "2026-09-22T08:29:11.316661+00:00",
+  "knownPreexistingIssues": [],
+  "preexistingIssueFix": {
+    "prefab": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "wrongGameObject": "1587765826080250",
+    "correctGameObject": "1217368724061974",
+    "component": "114990000000000169",
+    "componentType": "OriginalButtonFeedback",
+    "fix": "Remove only erroneous Get m_Component reference; correct owner reference and component definition unchanged",
+    "independentlyVerified": true
+  }
+}

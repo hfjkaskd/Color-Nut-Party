@@ -1,0 +1,134 @@
+[
+  {
+    "comparison": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\comparisons\\diamond-three-way.png",
+    "sources": [
+      {
+        "size": [
+          841,
+          1870
+        ],
+        "label": "已确认效果图（AI）",
+        "sha256": "9C5DC602C15A4EF036085F7D81D364136AD47314ADC2C96ED12E8C5930F28B94",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\previews-clean-boundaries\\my-diamonds.png"
+      },
+      {
+        "size": [
+          500,
+          1110
+        ],
+        "label": "替换前游戏截图",
+        "sha256": "EAE7CBC0C5A91A5FE60F023C5198BB3C2659A78DAFD6950E1CA6B6F83B950184",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\three-way-comparison\\comparison-current-diamond-game.png"
+      },
+      {
+        "size": [
+          720,
+          1600
+        ],
+        "label": "替换后 Unity 运行截图",
+        "sha256": "45DADD77969BB504117B9F265A1F1E7B0312DCDFF4C723FC58F2DDC782E6D9FC",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\runtime-us-tall\\approved-skin-diamond.png"
+      }
+    ],
+    "page": "diamond"
+  },
+  {
+    "comparison": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\comparisons\\account-three-way.png",
+    "sources": [
+      {
+        "size": [
+          841,
+          1870
+        ],
+        "label": "已确认效果图（AI）",
+        "sha256": "34596166B7A3EC12C1283A1398633CC505D7FD232B82A2AA375930F317601402",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\previews-clean-boundaries\\enter-information.png"
+      },
+      {
+        "size": [
+          500,
+          1110
+        ],
+        "label": "替换前游戏截图",
+        "sha256": "B3545CEBD134CCB32ACD346076C18D8555855B1F0DB2558DB73C7E71F0A74CF3",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\three-way-comparison\\comparison-current-account-game.png"
+      },
+      {
+        "size": [
+          720,
+          1600
+        ],
+        "label": "替换后 Unity 运行截图",
+        "sha256": "604C168D159C7A508992D0CBFF4CD1F04D0F83801E2A7D5E83056185D39A3781",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\runtime-us-tall\\approved-skin-account.png"
+      }
+    ],
+    "page": "account"
+  },
+  {
+    "comparison": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\comparisons\\cash-three-way.png",
+    "sources": [
+      {
+        "size": [
+          841,
+          1870
+        ],
+        "label": "已确认效果图（AI）",
+        "sha256": "BC2D439E4F906EC8886C4FC2E0485CA1A6424ABB30F97C164696254F0C5550E1",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\previews-clean-boundaries\\level-withdrawal.png"
+      },
+      {
+        "size": [
+          500,
+          1110
+        ],
+        "label": "替换前游戏截图",
+        "sha256": "4DE9F77F51EDDADCD2C40CC4243C8DC668B82D01D03D66CCBF5D8D93872B9D47",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\three-way-comparison\\comparison-current-cash-game.png"
+      },
+      {
+        "size": [
+          720,
+          1600
+        ],
+        "label": "替换后 Unity 运行截图",
+        "sha256": "13724A11A5FF474B6522D9464069F2EF8F616603AA2DFF5C39D474432D690B3B",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\runtime-us-tall\\approved-skin-cash.png"
+      }
+    ],
+    "page": "cash"
+  },
+  {
+    "comparison": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\comparisons\\refresh-three-way.png",
+    "sources": [
+      {
+        "size": [
+          1086,
+          1448
+        ],
+        "label": "已确认效果图（AI）",
+        "sha256": "4D4A6DF8A3438BF44211585B73A78BD6A3B2F1964A55C1FD553E876FD34B82C8",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\previews-clean-boundaries\\refresh.png"
+      },
+      {
+        "size": [
+          500,
+          1110
+        ],
+        "label": "替换前游戏截图",
+        "sha256": "A444D49F7B84C52781979D5EC8F9496241EA1A7894F8EAF880AC570E6C93A591",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\three-way-comparison\\comparison-current-refresh-game.png"
+      },
+      {
+        "size": [
+          720,
+          1600
+        ],
+        "label": "替换后 Unity 运行截图",
+        "sha256": "FEC2ED780B8BA66362EC523619AD9A5D2289886D3B05FEA7292D2B6ED4986DED",
+        "path": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\approved-replacement\\runtime-us-tall\\approved-skin-refresh.png"
+      }
+    ],
+    "page": "refresh"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "scope": "ReplayBg Image m_Sprite and m_Color only",
+  "textureGuid": "0513d34314154e4297b1d9f4ab2ffd98",
+  "spriteGuid": "9fa45da9c8c5439bb43c8de5dfc8ac0c",
+  "artworkPath": "Assets/Resources/atlas/mainpanel/replay_bg.png",
+  "artworkProvided": false,
+  "prefabs": [
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanel.prefab",
+      "imageFileID": "114450063812975771",
+      "beforeSha256": "afa596a383d1eb3dc8124602770d13e10df8ae4c27c94cc83b4fc2c734c5bfe3",
+      "afterSha256": "77867b6e3f5082a02e70c26b1b3d644fbacf8b54413c22baefb7d0b986edd92a",
+      "onlyAllowedImageFieldsChanged": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+      "imageFileID": "114450063812975771",
+      "beforeSha256": "0d95e242c29f023e5abfc2dc8709a0f4528d782398638bfc4a02e0277e22e446",
+      "afterSha256": "e16c95d0d9d06559f07b52aa35268617d8b51e3e2a65d288d6e9d53ab411f712",
+      "onlyAllowedImageFieldsChanged": true
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "imageFileID": "114450063812975771",
+      "beforeSha256": "1a9e8d68d6dc60fbadeb797e7ab4593d3dfe1c84fa97b5c8bf2d1d0c60eac905",
+      "afterSha256": "d55d68240cb73480e370854376a5369d108019b2123f7cdddeb4c95ee1960943",
+      "onlyAllowedImageFieldsChanged": true
+    }
+  ],
+  "newAssets": [
+    "Assets/Resources/atlas/mainpanel/replay_bg.png.meta",
+    "Assets/Resources/atlas/mainpanel/replay_bg.asset",
+    "Assets/Resources/atlas/mainpanel/replay_bg.asset.meta"
+  ],
+  "unityValidation": "Not run; PNG artwork and Unity import/visual validation are separate."
+}

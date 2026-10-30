@@ -1,0 +1,296 @@
+[
+  {
+    "path": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+    "fileID": "114694121525821480",
+    "before": "5aaee68fa5d1abeef9c482c4c2371ecd9c6f6c832b8de7c3cad06c521e1984b7",
+    "after": "2c86ea9aecab3748f9ecd373617d21045c06953cfcf8e9b5243cfeb6e77e4d1b"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+    "fileID": "114808113985169905",
+    "before": "5bcede74c16673cc626c8825684a0c413b3c74c0dba87b10d50b460a21df5534",
+    "after": "9214f4ff110de7fd64e5eb86e513838752630f40717f76e047b0dea47cd69b24"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+    "fileID": "114841364053301648",
+    "before": "0e239843dab877691c10c3577c662ba59e0b987c091306e4afe4359a6fffbaae",
+    "after": "ea9ccefa26aa4c52f7c9fb07afe5f1fb396bdc0ddec83bca2cc0dd37f6b0e637"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+    "fileID": "114344419225485095",
+    "before": "ab988f5c0ac621a927798dae622f0ef2aff1a5ae4b9333f9df7552848ebe7da7",
+    "after": "1fb194bc36d55d795f011ed7c1d4f99fc162171c1eedd9a36c682cd4228c1e2d"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+    "fileID": "114833703512093738",
+    "before": "e74454e0dfa62f77c8850ed6cc3b0049f4872c935aaba2fa454faa7a88ea3c1a",
+    "after": "d35720b9c2120e8ebd2321e88ab66d137af1158a04efe20f00d63b199058c897"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+    "fileID": "114726790013014859",
+    "before": "6d9b1bf288e83aea5ff25ddfac4df42b742e5e25437c44b03601319171f71af8",
+    "after": "db522853e923b70d16c874e60ea673a2888b5a8f2bbbde7f79c1ee38537a74bd"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+    "fileID": "114572839542275309",
+    "before": "4550d12aafb153771013437a0e75a2fa11ce2a6242548b9eba369b15d6b581fd",
+    "after": "3d0a066d89d92df2d8107a0f373fe682081717ad863ed2e683d423d00b31d7d1"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+    "fileID": "114703931505913403",
+    "before": "850018aa6ad91861fef152e9198f49f6903cf4df655a2116540a9ed35aceb395",
+    "after": "a626b7c5b88888c7699fe4075aa407def3e8ef07f186602dce4015a185ff314a"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXPanel.prefab",
+    "fileID": "114704330047573733",
+    "before": "bf1aed8fdd660455e1244d26c473eb0cbf95960d1eb4313022627e276e6a489d",
+    "after": "5d734ff946b31f32210bdd948ab888bed24b6cb23fd47c7b78b3457c7ec3482d"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "fileID": "114220653531496868",
+    "before": "8a4762e260ce232845ec5d341efc71d2d54e98ab7497856208bc11fc18488fce",
+    "after": "7936f5126948aa16f0293edd2c7679d112fda20bf42027d20f6c33ff1c3ebffe"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "fileID": "114291844617409189",
+    "before": "93434716003a4d32f96e3a9f750aa30a46a4542873e83f424258a08cbec9edcf",
+    "after": "4ee417e3a6ec7e76b22fd2cf59d012de7a8d0204e0b4459c094e1572a7248ddc"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "fileID": "114693329660128220",
+    "before": "3da40fbb2d964f5ed18a53542d77b614fbab01ddca3d5517098d3fea20d1140b",
+    "after": "c2013faec7b16af0d1010e7f650f3e304db461f61ca2810a07a8bfccd80c231d"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "fileID": "114689364072382846",
+    "before": "7fa4e57186195a04b5f5697bf53531e955d736a2400d5f280ad370c634283efa",
+    "after": "393f5fe210fb4a83590b080bdec149d10fe532d6d96717262848a8aa50e02d2e"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "fileID": "114384403120170545",
+    "before": "202baea71dd3a4c6cb75b75fa5903c7e85af331c1185f24bff3d2c2abf4663e3",
+    "after": "cad8c0045ba9a47e01b392d190ec9bfaa8910e2325e74801f54a48394714a1a2"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "fileID": "114571878917323452",
+    "before": "f273bf292283c5720e32b293f6c7f47178dfb23a0547032814488ef30bcd3b28",
+    "after": "92760eb88de9af76dcf10d5cce828e2afac288db73bb7301222394d35ea2f192"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "fileID": "114121005239445321",
+    "before": "7d2830efbbf1036a12f64ed9d5557af9bdbf2839106c4a85a58116e95d90e5b6",
+    "after": "d6e36a13ef3addcd4a934cd5385c51771d1cad5adc7492c7f31b3970c310e9fd"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXUserInfoPanel.prefab",
+    "fileID": "114291632710222552",
+    "before": "6a7c711a8864b8e8c7a0bad091189b6bc5f93fb2d877d202db747bbab0b3c432",
+    "after": "f151291a4c1f9951a551c1c894f593af7aeaccdeed1b4613c725442cb962d899"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+    "fileID": "114621510681728303",
+    "before": "4252685636f2b3e7c8994ed8952154b6cfce10fd1e7a0a9e8bd111850ac0f6ff",
+    "after": "ec360f751f1f3f148392d031bbd5e16c8e1eb647296df7b3beab47ac1bcbeb87"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+    "fileID": "114302127217294661",
+    "before": "f1d00e517e7b0d9906631261165f3ad6b64aeae34960f580c4fa6dcfe407444d",
+    "after": "acbea1dab29f4091c4de9e14ddea7570ff16715e9434de826691c3674452bfce"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+    "fileID": "114946936116752871",
+    "before": "810874426cb82b59a6b64c7733d11c0d44855ddfb5cb9beb91d0d88c3fde5015",
+    "after": "8a9c5a8844bd2885f5183b76ef204a282b6210f33cf23c2cd3e2f462a522de28"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+    "fileID": "114587397909062814",
+    "before": "69352224143c678f8ecd85c547dd2d30cd86a387ffd54afe0d6ce0ffbd7648b3",
+    "after": "286253f28927c9fc42ef96ce321fc0449ede575d8a60c1403b68789293f88817"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/ItemGetPanel.prefab",
+    "fileID": "114733206282342372",
+    "before": "83a736065e78ca99fdbb9084709709c941495540d85263e5b7c00f7a43073ad1",
+    "after": "a1ee129796cb42fd7138feadc2d0b29223be48eb19ed4f79d6164381db02d397"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114217368724061974",
+    "before": "4580dc2f2d2b828f096941e29f78e5f225a60e5389b7388d711c7a6f5215033e",
+    "after": "446bc1c622826aa96aa1201908fb6fe2b86deb19960e68dabd348e78217a9bd5"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114060945828524476",
+    "before": "196745231585d84e38d9c34a1566c9c522a1f12edb6a19a2e1cb59d54f84b526",
+    "after": "2ee0ad0a54868e72b76deaf0167b261016f83f67f50192ae1e009b94c0364878"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114967328832014496",
+    "before": "89d1e5ecfe9767bff982101989da5ca8b63277f554c2bf1b767bb7dc5480e2e7",
+    "after": "62d30b58ad790f8e2f7644bb9872ed8e7cd1e35da17c362e6b9e15d164cfae0a"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114919942235722503",
+    "before": "a23d8664a4169a8ea5abb32acfa8ba5a42b7a78be93d464984af7f6d0e93bc77",
+    "after": "eb4970b0c73f19aadd1b238c1fd8bdcbb3c3d406aa247131ae8840417f74e706"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114632746491512912",
+    "before": "2ad43032b1213a8481cbf56a387b99cc131963e532ac1176e5869692470c2d82",
+    "after": "8332a9a44cc88c3c5d10e525746d0558e17d7ab77940416a3be98248d62a7c53"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114397768327470545",
+    "before": "48903e23773d289b42d6bce34dd3af71daae93e57dd783348e6a0f2b54b2c08d",
+    "after": "c124812d927ca61add7523a85c4d5a91c02b6fbe8bee6e82bef24bee7cd0c0ac"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114393105877652414",
+    "before": "7b924736c1f273ea180625640788a1fe9286d050f71fb6b58db26b8e9e0bc321",
+    "after": "83c35cdcb3d2bf68630cb8b3a52953602688d88c0ff18b6ffc5f636fb5e58315"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114651560128206891",
+    "before": "90597280fc0ae16bb91bf3a86e5fb4b65bccdabd8ff5180723d63219ea5dce10",
+    "after": "021c19d0014756bdeb69d9ce6b25b8ca28f94a27ac5f4d5010a8ba82c41a7245"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114431740505123533",
+    "before": "01a676ee44e489d8cc86d6acf780136de8b868118cb4c8b16cf473ff6e45375e",
+    "after": "18d6a304d46f8356e855da0632e3428b51437a0a132580f2123b28f4e48329d8"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114703931505913403",
+    "before": "aece5dff6a8a341143861b7927dada0672cc595d2c454941fdb626c96db96de6",
+    "after": "6aaebc494b7ec5276fec8bcdffffe5548aff906351950c228b44b6b856dd1b04"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114704330047573733",
+    "before": "10d4b7e0b0f34e5362ef7028bc15620e067081d97ca56ec4638648e79f925ea1",
+    "after": "974a32588aaf0cadf77e1cefec3fb0949c8c8a7565a95b7e3e14f729e2f44839"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114855482821919830",
+    "before": "7bf179d99c814482dd1c966553452e080d4517e64f1cf6c3559eb3a8881f6585",
+    "after": "bbab1b37850d88c3561b1c66fe1aa3389f6daafd7f79d135dcfa5a71f790b828"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114880619614767448",
+    "before": "1f95e98d53b5849f22131281aad3ac5b70ace8722cc0e30b40386be60ac51888",
+    "after": "d82c83ba7e2557382a75c5b73ad744a1ae504f1b85b75c25cadbedd5961fec0c"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114690175861776792",
+    "before": "d60e6800d98c87bc4edd430271fbc9c842f1691898976f4d30306d5d164974a1",
+    "after": "5605491b5e9f31c21bc1a002846b178bf153f23a95e52e8e7a06c32eedcb1153"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114240571728440943",
+    "before": "84e403e13d76c3abf54e4105ea11895d0a573d59a6ece61c149edafebce789a7",
+    "after": "12fc86c350c3ffff6eb44896dee778e522d74339e681fa2844619860c1270e6c"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114132862189046193",
+    "before": "390dc08d3fc1fc173b226b5c57ed66bb352f1d09d0491e18156e1cc1e34e0c44",
+    "after": "ae80deb87187386da484ae5441a35fa473e74c3b2cf578125ae0a45629d9017c"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114386943702330414",
+    "before": "b3f98fb85edfee5ea28eba98c8322ca2d7172aea6f6f39ef452a5ea678862733",
+    "after": "18acd596ceeb048b1910dbeb363ae448ff77c7dfff206481233b52f488457051"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114561126880652180",
+    "before": "fe246d9fe16cbb0c12080aee23df8ae8e61aab9737a9fa0ffb1b57690fdd7cba",
+    "after": "ff1e5a105f81d4a7bf07addd6407f0d93b9ec41dd196bea0f76b33c4c873511e"
+  },
+  {
+    "path": "Assets/Resources/prefabs/panels/TXCoinPanel.prefab",
+    "fileID": "114695600491528212",
+    "before": "14ef6e82e4ed6a005585b23eb3c62a1acef2c67a7b4c2e8b3334214b0bc163da",
+    "after": "5fc5ee1ecaebdac59dce7fd0dc02e3c158a02f9cbc4cd98b0d41bcf6ea97467e"
+  },
+  {
+    "path": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+    "fileID": "114977153420339851",
+    "before": "0c668841c63d70dbe8c83a0e282ad118d68034265876510142fb9c095bb496e5",
+    "after": "6018ee61d285636a6c1ffe3bd265f8f89d6b730b9abb0dc39fa8adcd381342b0"
+  },
+  {
+    "path": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+    "fileID": "114313026266067498",
+    "before": "d6b5c3e4d3426426075818e55d56392d9a0759fa632840a98481f76067926f38",
+    "after": "bbdf5dbe88583ba90f44ad3cf53bab39d6c26bf918d9f164568ddaa7eb98ec9f"
+  },
+  {
+    "path": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+    "fileID": "114634108722742392",
+    "before": "17a792e0128457892cd22efab3e633c6007d4dd22acbb1cd85357ca2dc8128dd",
+    "after": "873caba3d44c4cc34341565e32961e217b82d1d5a96ebc0463210f3e5b9d42b0"
+  },
+  {
+    "path": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+    "fileID": "114918264173551851",
+    "before": "fdcb8a2cf4ebfd74c317f495dcd84be6183fac228950cb32bfeba5430b7f529c",
+    "after": "c2b9014b11a540d814593755c5f0aedeb2759e09d09ac1f527fff34d0fdbed2b"
+  },
+  {
+    "path": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+    "fileID": "114371939378208658",
+    "before": "701d3b3da71dd58b024080efa747e177f23cbf6bfd5f9938093f8f4844441898",
+    "after": "fc21d9eca00dbf7b7a0f51ba9331603b968debc47a0ae7c1dc4a7da70ce3d263"
+  },
+  {
+    "path": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+    "fileID": "114089843903986396",
+    "before": "7a7bd864b251c83e4c53598b0894f828d49e6ea5c274103f21369ca9037d6509",
+    "after": "c7bd03650b266a4d9a0e5f6db4d5bd0d4bdcf48541c377d86e5ff49c213ab522"
+  },
+  {
+    "path": "Assets/Resources/prefabs/playerinfo/PlayerInfo.prefab",
+    "fileID": "114060945828524476",
+    "before": "0706aaca82197572f73e8aa2d9c72711da28290b6b7443abb9f132c4327f1623",
+    "after": "ab5c4c1da2707fecabfe32a21f36fdc488070ac612f2f0bf56f5173f044d5ed0"
+  },
+  {
+    "path": "Assets/Resources/prefabs/playerinfo/PMDSimple.prefab",
+    "fileID": "114589667821646929",
+    "before": "42e5f9c8c661b7f28d4a5815b2ba92b5f0e23e642c03b7d63163ad6f12f777b2",
+    "after": "d4a55891611ed4f4dbc7bc5e97ee3b1895bcc5a00e0d38baff829db16841eb45"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-21",
+  "purpose": "Bottom toolbar artwork to match approved style within original Prefab layout",
+  "entries": [
+    {
+      "key": "tool-panel-light",
+      "prompt": "Use case: style-transfer. Create one production Unity UI sprite only, a blank wide rounded rectangular cream-and-light-wood tool button panel. Image 1 is the approved visual style reference; specifically match the three large tool button bases at the very bottom, ignoring all other artwork. Image 2 is the current button background to correct. Keep its front-facing rounded rectangular outline and approximate width:height 243:192. Change the current thick shiny orange-bronze multi-layer rim to a much slimmer pale honey wood rim (about 6% of width), subtle fine brown outline, softly rounded bevel, a generous nearly flat ivory/cream inset, a little subdued natural wood texture. Soft top-left light, understated shallow lower shadow contained within the sprite. No icons, no text, no digits, no badges, no symbols. All icon and count overlays are separate existing Unity components; leave the center blank. Single centered complete panel with small transparent margin. Genuine transparent background. No wood tabletop, no scene, no extra objects, no checkerboard painted into pixels.",
+      "refs": [
+        "C:\\Projects\\Golden  Dragon Legend\\design-previews\\main-garden-20260921\\main-garden-AI-preview.png",
+        "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_bg.png"
+      ],
+      "generatedPath": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-e3ddf9f2-754e-4804-b440-85b75c07c2ce.png",
+      "savedPath": "Docs/GardenReskin/Generated/tool-panel-light.png"
+    },
+    {
+      "key": "tool-count-green",
+      "prompt": "Use case: style-transfer. Create one production Unity UI sprite only, a blank green circular counter badge. Image 1 is the approved reference; match the bright green circular plus badges over the bottom tool buttons. Image 2 is the current blank counter badge to correct. Replace its orange/copper/wood ring entirely with a very thin deep forest-green outer outline. Smooth lime-to-grass-green face, restrained soft upper-left highlight, subtle shallow lower shading, friendly dimensional casual mobile game art, no metallic gloss. Perfect circle front-facing, no perspective, 80:80 final display ratio. Center must remain entirely blank because Unity renders the count dynamically. No number, no plus sign, no letters, no wood, no gold, no separate drop shadow blob. Single circle centered and fully visible with small genuine transparent margin and transparent background. No other objects.",
+      "refs": [
+        "C:\\Projects\\Golden  Dragon Legend\\design-previews\\main-garden-20260921\\main-garden-AI-preview.png",
+        "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_count_bg.png"
+      ],
+      "generatedPath": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-8478f8b3-b481-4388-b395-12a6ab3bb382.png",
+      "savedPath": "Docs/GardenReskin/Generated/tool-count-green.png"
+    },
+    {
+      "key": "tool-add-green",
+      "prompt": "Use case: style-transfer. Create one production Unity UI sprite only, a bright green circular plus badge for the bottom tool controls in Image 1, the approved visual reference. Image 2 is the existing plus badge to correct. Keep a centered deep forest green plus glyph with rounded ends, large and very clear. Replace the existing orange/copper rim entirely with a very thin dark forest-green outline, using a fresh vivid lime-to-grass-green face, restrained soft upper-left highlight and subtle shallow lower shading. Polished friendly casual mobile game sprite, modest dimensionality, no metallic shine. Perfect circle, straight front view. No text other than the plus symbol, no number, no wood, no gold, no UI panel. One complete centered circular icon with small genuine transparent margin and transparent background, final intended size 80x80. Match the reference bottom bright green badges, not any cash buttons.",
+      "refs": [
+        "C:\\Projects\\Golden  Dragon Legend\\design-previews\\main-garden-20260921\\main-garden-AI-preview.png",
+        "C:\\Projects\\com.nut.sort.relax\\Assets\\Resources\\atlas\\mainpanel\\item_add.png"
+      ],
+      "generatedPath": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-08311d2f-b42a-4651-9e07-2ef7f87d8d33.png",
+      "savedPath": "Docs/GardenReskin/Generated/tool-add-green.png"
+    },
+    {
+      "key": "replay-cream-disc",
+      "prompt": "Use case: stylized-concept. Create one production Unity UI sprite only: the blank circular button backing of the small replay button at the bottom right in the attached approved game reference. Match that cream round backing with a narrow pale honey wood rim and fine brown outline. Nearly flat warm ivory center, subtle rounded edge and light upper-left highlight, understated shallow lower shadow inside the sprite. Perfect front-facing circle, intended 85x85 UI pixels, small transparent margin. Very important: do NOT draw the green replay arrows; those are supplied by a separate existing Unity Image. No icon, no symbol, no text, no plus, no number. Only one blank circular cream and light wooden disc, fully visible on a genuine transparent background. No tabletop or scene, no gold metal or orange bulky bevel, no extra objects.",
+      "refs": [
+        "C:\\Projects\\Golden  Dragon Legend\\design-previews\\main-garden-20260921\\main-garden-AI-preview.png"
+      ],
+      "generatedPath": "C:\\Users\\pc\\.codex\\generated_images\\01a0c383-d971-7902-9a40-c44d55d1fbcd\\exec-2dcc263e-0b77-4e9f-b44e-95968fad7e15.png",
+      "savedPath": "Docs/GardenReskin/Generated/replay-cream-disc.png"
+    }
+  ]
+}

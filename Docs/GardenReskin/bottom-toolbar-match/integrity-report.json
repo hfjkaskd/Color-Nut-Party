@@ -1,0 +1,204 @@
+{
+  "status": "PASS",
+  "generatedUtc": "2026-09-21T12:31:35.518763+00:00",
+  "scope": "Bottom toolbar correction only; all previous runtime UI click fixes are part of the baseline.",
+  "baseline": "Docs/GardenReskin/bottom-toolbar-match/before-hashes.json",
+  "baselineSha256": "5fdacc2dc56c204a357459bf2a192b76946c0a6ee0084dc7b987c6641358e889",
+  "baselineFileCount": 3812,
+  "currentFileCount": 3816,
+  "changedExistingCount": 6,
+  "addedCount": 4,
+  "removedCount": 0,
+  "unchangedExistingCount": 3806,
+  "unchangedByExtension": {
+    ".asset": 248,
+    ".cs": 489,
+    ".mat": 57,
+    ".meta": 2711,
+    ".png": 216,
+    ".prefab": 84,
+    ".unity": 1
+  },
+  "changedExisting": [
+    "Assets/Resources/atlas/mainpanel/item_add.png",
+    "Assets/Resources/atlas/mainpanel/item_bg.png",
+    "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+    "Assets/Resources/prefabs/panels/MainPanel.prefab",
+    "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+    "Assets/Resources/prefabs/panels/MainPanelComplete.prefab"
+  ],
+  "added": [
+    {
+      "path": "Assets/Resources/atlas/mainpanel/replay_bg.asset",
+      "bytes": 4005,
+      "sha256": "c65981109fdaf2e1eceee9b54ee0143a248a2d7ac9597b88a8c05e375e2d7f0d"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/replay_bg.asset.meta",
+      "bytes": 238,
+      "sha256": "e7355148d7b41780bb92c5da7a39c10ed583b35d5b7a9e5503ca3f9f9ae2e05d"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/replay_bg.png",
+      "bytes": 11793,
+      "sha256": "d0406f4ebb2170d4c7023e750df781a61740201f3a1c26a6385a1e036cca931a"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/replay_bg.png.meta",
+      "bytes": 3103,
+      "sha256": "56766c7abb1908ef61ca25f2a40c36e687646fa5f55860ff7d3b285ccadff274"
+    }
+  ],
+  "removed": [],
+  "allExistingScriptsUnchanged": true,
+  "existingScriptCount": 489,
+  "existingUIInputFixAndValidationTestPreserved": true,
+  "existingPngChecks": [
+    {
+      "path": "Assets/Resources/atlas/mainpanel/item_add.png",
+      "size": [
+        80,
+        80
+      ],
+      "originalSize": [
+        80,
+        80
+      ],
+      "dimensionsPreserved": true,
+      "beforeSha256": "8a6259db55b9044efc3378fbb0fa4e1d5b221f411c9f3c5139aaebfba079525b",
+      "afterSha256": "fe807bd08a14829e0a2ff623a29d3e85fa27448c05f06882a01267a559a18594"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/item_bg.png",
+      "size": [
+        243,
+        192
+      ],
+      "originalSize": [
+        243,
+        192
+      ],
+      "dimensionsPreserved": true,
+      "beforeSha256": "c6624d903d9eba7753899636f3d9c901d04ab051637778a1de4e97cf2ae07794",
+      "afterSha256": "bb90ea2f7cad5b2c60a47ac6931dbc3ba3c83df65741000f352c7c941f11e5c5"
+    },
+    {
+      "path": "Assets/Resources/atlas/mainpanel/item_count_bg.png",
+      "size": [
+        80,
+        80
+      ],
+      "originalSize": [
+        80,
+        80
+      ],
+      "dimensionsPreserved": true,
+      "beforeSha256": "2acd8da871106ce33074727bae60d5b68dd9ccabb97702a3844e8f0f9ea20a82",
+      "afterSha256": "8128a0e61bb982775940624e10aac4dfb2180b90c4dd16286e85b35afe123b9b"
+    }
+  ],
+  "prefabChecks": [
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanel.prefab",
+      "imageFileID": "114450063812975771",
+      "gameObject": "ReplayBg",
+      "fields": {
+        "m_Color": {
+          "before": "{r: 0, g: 0, b: 0, a: 0.61960787}",
+          "after": "{r: 1, g: 1, b: 1, a: 1}"
+        },
+        "m_Sprite": {
+          "before": "{fileID: 21300000, guid: ab17f362ed05132409da8bc07e1740fe, type: 2}",
+          "after": "{fileID: 21300000, guid: 9fa45da9c8c5439bb43c8de5dfc8ac0c, type: 2}"
+        }
+      },
+      "beforeSha256": "afa596a383d1eb3dc8124602770d13e10df8ae4c27c94cc83b4fc2c734c5bfe3",
+      "afterSha256": "77867b6e3f5082a02e70c26b1b3d644fbacf8b54413c22baefb7d0b986edd92a",
+      "reconstructedBeforeSha256": "afa596a383d1eb3dc8124602770d13e10df8ae4c27c94cc83b4fc2c734c5bfe3",
+      "onlyTwoAllowedFieldsChanged": true,
+      "configAuditHashesMatch": true,
+      "allOtherSerializedBytesUnchanged": true,
+      "hierarchyComponentsRectTransformsButtonsBindingsUnchanged": true,
+      "gameObjects": 20,
+      "rectTransforms": 20,
+      "monoBehaviours": 23,
+      "standardButtons": 1
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanelBottom.prefab",
+      "imageFileID": "114450063812975771",
+      "gameObject": "ReplayBg",
+      "fields": {
+        "m_Color": {
+          "before": "{r: 0, g: 0, b: 0, a: 0.61960787}",
+          "after": "{r: 1, g: 1, b: 1, a: 1}"
+        },
+        "m_Sprite": {
+          "before": "{fileID: 21300000, guid: ab17f362ed05132409da8bc07e1740fe, type: 2}",
+          "after": "{fileID: 21300000, guid: 9fa45da9c8c5439bb43c8de5dfc8ac0c, type: 2}"
+        }
+      },
+      "beforeSha256": "0d95e242c29f023e5abfc2dc8709a0f4528d782398638bfc4a02e0277e22e446",
+      "afterSha256": "e16c95d0d9d06559f07b52aa35268617d8b51e3e2a65d288d6e9d53ab411f712",
+      "reconstructedBeforeSha256": "0d95e242c29f023e5abfc2dc8709a0f4528d782398638bfc4a02e0277e22e446",
+      "onlyTwoAllowedFieldsChanged": true,
+      "configAuditHashesMatch": true,
+      "allOtherSerializedBytesUnchanged": true,
+      "hierarchyComponentsRectTransformsButtonsBindingsUnchanged": true,
+      "gameObjects": 20,
+      "rectTransforms": 20,
+      "monoBehaviours": 36,
+      "standardButtons": 5
+    },
+    {
+      "path": "Assets/Resources/prefabs/panels/MainPanelComplete.prefab",
+      "imageFileID": "114450063812975771",
+      "gameObject": "ReplayBg",
+      "fields": {
+        "m_Color": {
+          "before": "{r: 0, g: 0, b: 0, a: 0.61960787}",
+          "after": "{r: 1, g: 1, b: 1, a: 1}"
+        },
+        "m_Sprite": {
+          "before": "{fileID: 21300000, guid: ab17f362ed05132409da8bc07e1740fe, type: 2}",
+          "after": "{fileID: 21300000, guid: 9fa45da9c8c5439bb43c8de5dfc8ac0c, type: 2}"
+        }
+      },
+      "beforeSha256": "1a9e8d68d6dc60fbadeb797e7ab4593d3dfe1c84fa97b5c8bf2d1d0c60eac905",
+      "afterSha256": "d55d68240cb73480e370854376a5369d108019b2123f7cdddeb4c95ee1960943",
+      "reconstructedBeforeSha256": "1a9e8d68d6dc60fbadeb797e7ab4593d3dfe1c84fa97b5c8bf2d1d0c60eac905",
+      "onlyTwoAllowedFieldsChanged": true,
+      "configAuditHashesMatch": true,
+      "allOtherSerializedBytesUnchanged": true,
+      "hierarchyComponentsRectTransformsButtonsBindingsUnchanged": true,
+      "gameObjects": 105,
+      "rectTransforms": 104,
+      "monoBehaviours": 133,
+      "standardButtons": 9
+    }
+  ],
+  "newAssetReferenceChecks": {
+    "textureGuid": "0513d34314154e4297b1d9f4ab2ffd98",
+    "textureGuidOwners": [
+      "Assets/Resources/atlas/mainpanel/replay_bg.png.meta"
+    ],
+    "spriteGuid": "9fa45da9c8c5439bb43c8de5dfc8ac0c",
+    "spriteGuidOwners": [
+      "Assets/Resources/atlas/mainpanel/replay_bg.asset.meta"
+    ],
+    "newGuidsUnique": true,
+    "spriteFileID21300000Exists": true,
+    "spriteTextureReferencesResolve": true,
+    "spriteTextureFileID": true,
+    "spriteRectMatchesPng": true,
+    "pngSize": [
+      85,
+      85
+    ],
+    "png85x85": true,
+    "prefabSpriteReferencesResolve": true
+  },
+  "failures": [],
+  "verificationMethod": "SHA-256 every scoped asset; reconstruct the three pre-edit Prefabs by replacing only the specified Image fields and require exact stage-baseline SHA-256; resolve new asset GUIDs across all Assets metadata.",
+  "limitations": "Static integrity verification only. This audit does not start or control Unity and does not establish runtime appearance or interaction test results."
+}

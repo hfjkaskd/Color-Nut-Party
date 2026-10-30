@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-21",
+  "scope": [
+    "Assets/Resources/atlas/newbieguidepanel/bg.png"
+  ],
+  "request": "Make the teaching hint frame thinner",
+  "evidenceType": "Live Unity Editor Play Mode screenshot, using the currently loaded user state",
+  "screenshot": "C:\\Projects\\com.nut.sort.relax\\Docs\\GardenReskin\\border-thinning\\unity-live.png",
+  "screenshotSha256": "6AC531DA96313E18972D04E70923D24C10A3B24937DD8B97268F1E93E2605128",
+  "visualCheck": "PASS: thin frame and both dynamic text lines visible",
+  "structuralCheck": "Docs/GardenReskin/border-thinning/structure-report.json",
+  "note": "Previous runtime-teaching-final captures show the earlier thick frame; seven-suite results remain historical functional evidence. This revision changed one PNG only."
+}
